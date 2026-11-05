@@ -1,46 +1,38 @@
 # WyoVote
 
-Static website for WyoVote, which publishes Wyoming legislator ratings. The site is plain HTML and CSS. There is no build step. GitHub Pages can serve it directly from the repository root of the `main` branch.
+Static website for WyoVote, which publishes Wyoming legislator ratings. The site is plain HTML and CSS. There is no build step. GitHub Pages serves it from the repository root of the `main` branch at `https://jmtmilstd-ui.github.io/wyovote-site/`.
 
-Do not add a `CNAME` file. The custom domain is not being changed yet.
+Links in the HTML are relative, so the same files work on that project site and in a local preview. Do not add a `CNAME` file. The custom domain is not being changed yet.
 
 ## Folder layout
 
 | Path | Purpose |
 | --- | --- |
-| `index.html` | Home page |
-| `legislative-ratings.html` | Legislative Ratings (placeholder) |
-| `committee-ratings.html` | Committee Ratings (placeholder) |
-| `county-ratings.html` | County Ratings (placeholder) |
-| `archive.html` | Archive (placeholder) |
-| `contact.html` | Contact (placeholder) |
-| `css/styles.css` | All styles. The hero photo is the `--hero-background-image` variable at the top of this file. |
-| `assets/img/surveyor-icon.png` | Header logo (green surveyor) |
-| `assets/img/surveyor-banner.png` | Logo plus the WyoVote wordmark, kept for later use |
-| `assets/img/owl-silhouette.jpg` | Kept for later use |
-| `assets/img/backgrounds/` | Hero and other background photos |
-| `reports/` | PDF reports, organized by year (for example `reports/2025/`) |
-| `COPYRIGHT.md` | Copyright notice. Site content is not open source. |
-| `.nojekyll` | Tells GitHub Pages to skip Jekyll and serve the files as they are |
+| `index.html` | Home. Current material only: 2025 all-legislator ratings, a current-article placeholder, and a short “more items coming” note. |
+| `reports.html` | Current Reports. The six 2025 rating PDFs. |
+| `historical-ratings.html` | Older legislator, committee, and county rating PDFs, newest first. |
+| `historical-articles.html` | Historical Articles. Empty until articles are archived. |
+| `historical-criteria.html` | Historical Criteria Reports. Empty until a criteria or rating-guide document is archived. |
+| `contact.html` | Contact email. No form. |
+| `legislative-ratings.html`, `committee-ratings.html`, `county-ratings.html`, `archive.html` | Redirects to the new pages. |
+| `css/styles.css` | All styles. The home hero photo is `--hero-background-image`. |
+| `assets/img/surveyor-icon.png` | Surveyor logo, used in the header and footer. |
+| `assets/img/surveyor-banner.png` | Logo plus the WyoVote wordmark, kept for later use. |
+| `assets/img/owl-silhouette.jpg` | Kept for later use. |
+| `assets/img/backgrounds/` | Hero photos. The home page uses the Devils Tower images. |
+| `reports/<year>/` | PDF reports. File names are lowercase and hyphenated. The pages show the original titles. |
+| `COPYRIGHT.md` | Copyright notice. Site content is not open source. The Devils Tower photo is a public-domain National Park Service image. |
+| `.nojekyll` | Tells GitHub Pages to skip Jekyll and serve the files as they are. |
 
 ## Hero background
 
-Background photos are not in place yet. The hero uses a dark-green gradient so the heading stays easy to read.
+The home hero uses `assets/img/backgrounds/devils-tower-1920.jpg`, and `devils-tower-1280.jpg` at viewports of 1280px and below. A dark gradient sits on top of the photo so the white heading stays readable.
 
-To use a photo later:
-
-1. Add the image under `assets/img/backgrounds/`.
-2. In `css/styles.css`, set `--hero-background-image` to that file:
-
-```css
---hero-background-image: url("../assets/img/backgrounds/wyoming.jpg");
-```
-
-That variable is the only place to change. A dark overlay stays on top of the photo so the white heading remains high contrast.
+To use a different photo later, replace those files or change `--hero-background-image` at the top of `css/styles.css`. Interior pages keep the dark-green page header and do not use the photo.
 
 ## How to add a PDF and link it
 
-1. Put the file in a year folder. Create the folder if it does not exist yet:
+1. Put the file in a year folder. Use a lowercase hyphenated name:
 
 ```text
 reports/2026/senate-ratings.pdf
@@ -49,8 +41,10 @@ reports/2026/senate-ratings.pdf
 2. Link it from the page where it should appear. From a page in the site root, the address is:
 
 ```html
-<p><a href="reports/2026/senate-ratings.pdf">Senate ratings (PDF)</a></p>
+<p><a href="reports/2026/senate-ratings.pdf">Senate ratings</a></p>
 ```
+
+Use the human-readable title as the link text. Keep the address relative. Do not start it with `/`.
 
 3. Commit the PDF and the updated HTML, then push to `main`.
 

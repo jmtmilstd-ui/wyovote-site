@@ -1,11 +1,10 @@
 # Background images
 
-Put hero and other background photos in this folder.
+The home hero uses these two files:
 
-The home page does not use a photo yet. It uses the dark-green gradient defined in `css/styles.css`.
+- `devils-tower-1920.jpg` — viewports wider than 1280px
+- `devils-tower-1280.jpg` — viewports of 1280px and below
 
-To switch the hero to a photo, set `--hero-background-image` at the top of `css/styles.css` to a file in this folder:
+Devils Tower photograph: National Park Service, public domain. Source: https://commons.wikimedia.org/wiki/File:Devils_Tower_National_Monument_(29400003663).jpg
 
-```css
---hero-background-image: url("../assets/img/backgrounds/wyoming.jpg");
-```
+The dark overlay that keeps the white heading readable is in `css/styles.css`, on `.hero`. Change `--hero-background-image` at the top of that file to point the hero at a different photo. A matching `@media (max-width: 1280px)` rule selects the smaller file.
