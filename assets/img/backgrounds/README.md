@@ -2,8 +2,15 @@
 
 The home hero uses these two files:
 
-- `devils-tower-1920.jpg` — viewports wider than 1280px
-- `devils-tower-1280.jpg` — viewports of 1280px and below
+- `red-barn-black-hills-1920.jpg` — viewports wider than 1280px
+- `red-barn-black-hills-1280.jpg` — viewports of 1280px and below
+
+Black Hills barn photograph: public domain.
+
+Devils Tower is kept for later pages and is not used on the home hero:
+
+- `devils-tower-1920.jpg`
+- `devils-tower-1280.jpg`
 
 Devils Tower photograph: National Park Service, public domain. Source: https://commons.wikimedia.org/wiki/File:Devils_Tower_National_Monument_(29400003663).jpg
 

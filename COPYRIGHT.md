@@ -8,4 +8,7 @@ This project is not open source. No permission is granted to copy, modify, distr
 
 The surveyor logo, the WyoVote wordmark, and other WyoVote images are copyright WyoVote and may not be reused without permission.
 
-The Devils Tower photograph in `assets/img/backgrounds/` is a U.S. National Park Service image in the public domain. It is not a WyoVote work. Source: https://commons.wikimedia.org/wiki/File:Devils_Tower_National_Monument_(29400003663).jpg
+Two photographs in `assets/img/backgrounds/` are public domain and are not WyoVote works:
+
+- The Black Hills red barn (`red-barn-black-hills-1920.jpg` and `red-barn-black-hills-1280.jpg`) is the home hero. It is public domain.
+- The Devils Tower photograph is a U.S. National Park Service image, kept for later pages. Source: https://commons.wikimedia.org/wiki/File:Devils_Tower_National_Monument_(29400003663).jpg
