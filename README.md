@@ -19,16 +19,16 @@ Links in the HTML are relative, so the same files work on that project site and 
 | `assets/img/surveyor-icon.png` | Surveyor logo, used in the header and footer. |
 | `assets/img/surveyor-banner.png` | Logo plus the WyoVote wordmark, kept for later use. |
 | `assets/img/owl-silhouette.jpg` | Kept for later use. |
-| `assets/img/backgrounds/` | Hero photos. The home page uses the Devils Tower images. |
+| `assets/img/backgrounds/` | Hero photos. The home page uses the Black Hills red barn. Devils Tower is kept for later pages. |
 | `reports/<year>/` | PDF reports. File names are lowercase and hyphenated. The pages show the original titles. |
-| `COPYRIGHT.md` | Copyright notice. Site content is not open source. The Devils Tower photo is a public-domain National Park Service image. |
+| `COPYRIGHT.md` | Copyright notice. Site content is not open source. The hero photographs are public domain and are not WyoVote works. |
 | `.nojekyll` | Tells GitHub Pages to skip Jekyll and serve the files as they are. |
 
 ## Hero background
 
-The home hero uses `assets/img/backgrounds/devils-tower-1920.jpg`, and `devils-tower-1280.jpg` at viewports of 1280px and below. A dark gradient sits on top of the photo so the white heading stays readable.
+The home hero uses `assets/img/backgrounds/red-barn-black-hills-1920.jpg`, and `red-barn-black-hills-1280.jpg` at viewports of 1280px and below. A dark gradient sits on top of the photo so the white heading stays readable. The Devils Tower images stay in the same folder for later pages.
 
-To use a different photo later, replace those files or change `--hero-background-image` at the top of `css/styles.css`. Interior pages keep the dark-green page header and do not use the photo.
+To use a different photo later, change `--hero-background-image` at the top of `css/styles.css`. Interior pages keep the dark-green page header and do not use the photo.
 
 ## How to add a PDF and link it
 

@@ -5,7 +5,7 @@
   The 1920 image is used above 1280px. The 1280 image is used at that width and below.
 
   Example:
-    --hero-background-image: url("../assets/img/backgrounds/devils-tower-1920.jpg");
+    --hero-background-image: url("../assets/img/backgrounds/red-barn-black-hills-1920.jpg");
 */
 
 :root {
@@ -20,12 +20,12 @@
   --font-sans: "Segoe UI", Candara, "Helvetica Neue", Arial, sans-serif;
   --font-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Times New Roman", serif;
   --content-width: 72rem;
-  --hero-background-image: url("../assets/img/backgrounds/devils-tower-1920.jpg");
+  --hero-background-image: url("../assets/img/backgrounds/red-barn-black-hills-1920.jpg");
 }
 
 @media (max-width: 1280px) {
   :root {
-    --hero-background-image: url("../assets/img/backgrounds/devils-tower-1280.jpg");
+    --hero-background-image: url("../assets/img/backgrounds/red-barn-black-hills-1280.jpg");
   }
 }
 
@@ -183,7 +183,7 @@ main {
   background-image:
     linear-gradient(105deg, rgba(6, 18, 12, 0.88) 0%, rgba(8, 26, 16, 0.74) 42%, rgba(8, 22, 14, 0.5) 100%),
     var(--hero-background-image);
-  background-position: center 30%;
+  background-position: center 62%;
 }
 
 .hero-copy {
