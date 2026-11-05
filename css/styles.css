@@ -1,0 +1,302 @@
+/*
+  WyoVote styles.
+
+  Hero photo — change it in this one place.
+  Put the image in assets/img/backgrounds/, then replace `none` below.
+
+  Example:
+    --hero-background-image: url("../assets/img/backgrounds/wyoming.jpg");
+
+  Leave it as `none` to keep the dark-green gradient.
+*/
+
+:root {
+  --color-green: #3a9b4f;
+  --color-green-dark: #146b31;
+  --color-green-deep: #0e2a18;
+  --color-ink: #142117;
+  --color-paper: #f4f3ee;
+  --color-white: #ffffff;
+  --color-hero-text: #f6fbf7;
+  --font-sans: "Segoe UI", Candara, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Times New Roman", serif;
+  --content-width: 72rem;
+  --hero-background-image: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 125%;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--color-ink);
+  background: var(--color-paper);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--color-green-dark);
+}
+
+a:hover {
+  color: #0d4e22;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-green);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -5rem;
+  z-index: 10;
+  padding: 0.75rem 1rem;
+  background: var(--color-white);
+  color: var(--color-ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.wrap {
+  width: min(var(--content-width), calc(100% - 2.5rem));
+  margin-inline: auto;
+}
+
+.site-header {
+  background: var(--color-white);
+  border-bottom: 6px solid var(--color-green);
+}
+
+.header-inner {
+  padding-top: 1rem;
+  padding-bottom: 0.35rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.brand img {
+  display: block;
+  height: 4.75rem;
+  width: auto;
+}
+
+.site-name {
+  font-family: var(--font-serif);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #163322;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  display: inline-block;
+  padding: 0.8rem 0.9rem;
+  border-radius: 0.35rem 0.35rem 0 0;
+  color: var(--color-ink);
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  background: #e7f5eb;
+  color: var(--color-green-dark);
+}
+
+.site-nav a[aria-current="page"] {
+  background: #e7f5eb;
+  box-shadow: inset 0 -4px 0 var(--color-green);
+  color: var(--color-green-dark);
+  font-weight: 700;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero,
+.page-hero {
+  color: var(--color-hero-text);
+  background-color: var(--color-green-deep);
+  background-image:
+    linear-gradient(160deg, rgba(8, 28, 16, 0.9) 0%, rgba(18, 64, 34, 0.84) 52%, rgba(8, 30, 16, 0.92) 100%),
+    var(--hero-background-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero {
+  flex: 1 0 auto;
+}
+
+.hero-copy {
+  max-width: 42rem;
+  padding: 3.4rem 0 3.8rem;
+}
+
+.page-hero .wrap {
+  padding: 2.4rem 0 2.5rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4.6vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.lede {
+  margin: 0;
+  max-width: 40rem;
+  color: var(--color-hero-text);
+  font-size: 1.32rem;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.scale {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem 1.15rem;
+  margin: 1.85rem 0 0;
+  font-size: 1.2rem;
+}
+
+.scale strong {
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.scale-rule {
+  flex: 1 1 6rem;
+  height: 4px;
+  min-width: 4rem;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(246, 251, 247, 0.78);
+}
+
+.page-body {
+  padding: 2.6rem 0 3.6rem;
+}
+
+.coming-soon {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.2;
+}
+
+.site-footer {
+  background: #102416;
+  color: #e8f4eb;
+}
+
+.site-footer p {
+  margin: 0;
+  padding: 1.35rem 0;
+  font-size: 1.08rem;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 118%;
+  }
+
+  .wrap {
+    width: min(var(--content-width), calc(100% - 1.75rem));
+  }
+
+  .site-name {
+    font-size: 2.05rem;
+  }
+
+  .brand img {
+    height: 4.1rem;
+  }
+
+  .hero-copy {
+    padding: 2.4rem 0 2.8rem;
+  }
+
+  .lede {
+    font-size: 1.22rem;
+  }
+
+  .site-nav ul {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.2rem;
+    margin-top: 0.85rem;
+  }
+
+  .site-nav a {
+    display: block;
+    padding: 0.8rem 0.95rem;
+    border-radius: 0.4rem;
+  }
+
+  .site-nav a[aria-current="page"] {
+    box-shadow: inset 5px 0 0 var(--color-green);
+  }
+
+  .scale {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.65rem;
+  }
+
+  .scale-rule {
+    flex: none;
+    width: 8.5rem;
+    min-width: 0;
+  }
+}
