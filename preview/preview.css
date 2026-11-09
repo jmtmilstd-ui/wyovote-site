@@ -1,4 +1,6 @@
-/* Preview-only. Do not copy this file onto the live root pages. */
+/* Preview-only. Do not copy this file onto the live root pages.
+   Functional layout for the preview. The owner will style it later. */
+
 .preview-banner {
   margin: 0;
   padding: 0.55rem 1rem;
@@ -7,4 +9,236 @@
   text-align: center;
   font-weight: 700;
   letter-spacing: 0.03em;
+}
+
+.home-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 2.1fr) minmax(14rem, 1fr) minmax(11rem, 0.85fr);
+  gap: 1.75rem;
+  align-items: start;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.home-columns h1,
+.home-columns h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.reports-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--color-line, #ddd9ce);
+  border-radius: 0.35rem;
+  background: #ffffff;
+}
+
+.reports-table th,
+.reports-table td {
+  padding: 0.45rem 0.55rem;
+  vertical-align: middle;
+}
+
+.reports-table thead th:nth-child(n + 3),
+.reports-table td {
+  text-align: center;
+}
+
+#reports-note {
+  margin: 0 0 0.55rem;
+}
+
+.report-link,
+.coming {
+  display: inline-block;
+  min-width: 4.75rem;
+  padding: 0.28rem 0.65rem;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.report-link {
+  border: 1px solid var(--color-green-dark, #146b31);
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.report-link:hover,
+.report-link:focus-visible {
+  background: #e7f5eb;
+}
+
+.coming {
+  border: 1px solid #c5c1b6;
+  background: #e6e4dc;
+  color: #6a655c;
+}
+
+.historical-link {
+  margin: 0.7rem 0 0;
+  font-size: 0.92rem;
+}
+
+.article-list,
+.primary-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.article-list h3 {
+  margin: 0 0 0.2rem;
+  font-size: 1.15rem;
+}
+
+.article-list p {
+  margin: 0;
+}
+
+.article-list li + li,
+.primary-links li + li {
+  margin-top: 0.85rem;
+}
+
+.primary-links a {
+  font-weight: 700;
+}
+
+.column-foot {
+  margin: 1.25rem 0 0;
+}
+
+.article-via {
+  margin-top: 0.35rem;
+  font-size: 0.92rem;
+}
+
+.article-byline {
+  margin: 0 0 0.35rem;
+  font-weight: 700;
+}
+
+.article-credit {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+}
+
+.article-kicker {
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.article-figure {
+  margin: 0 0 1.25rem;
+}
+
+.article-figure img {
+  display: block;
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+}
+
+.article-figure figcaption {
+  margin-top: 0.35rem;
+  font-size: 0.92rem;
+}
+
+.article-body h2 {
+  margin-top: 1.6rem;
+}
+
+.page-body section:first-child h2 {
+  margin-top: 0;
+}
+
+.site-footer .footer-inner {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.site-footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer .footer-inner p {
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .home-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .home-columns > section {
+    min-width: 0;
+  }
+}
+
+/* The shared stylesheet turns every table into stacked blocks on a phone.
+   Keep this ratings table a table so the year rowspan stays intact, and
+   scroll it sideways instead. */
+@media (max-width: 640px) {
+  .reports-scroll {
+    overflow-x: auto;
+    border: 1px solid var(--color-line, #ddd9ce);
+    background: #ffffff;
+  }
+
+  .reports-scroll table {
+    display: table;
+    width: max-content;
+    min-width: 0;
+  }
+
+  .report-link,
+  .coming {
+    min-width: 0;
+  }
+
+  .reports-scroll thead {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    border: 0;
+  }
+
+  .reports-scroll tbody {
+    display: table-row-group;
+  }
+
+  .reports-scroll tr {
+    display: table-row;
+    width: auto;
+    margin: 0;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .reports-scroll th,
+  .reports-scroll td {
+    display: table-cell;
+    width: auto;
+  }
+
+  .reports-scroll tbody td::before {
+    content: none;
+  }
 }
