@@ -458,10 +458,41 @@ ol.method-steps li {
   padding-left: 0.25rem;
 }
 
-.guide-note {
-  margin: 0.15rem 0 0;
-  max-width: 52rem;
-  font-size: 0.9rem;
+.score-table-wrap {
+  overflow-x: auto;
+  margin: 0.55rem 0 0.7rem;
+  max-width: 36rem;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: max(1rem, 12pt);
+  line-height: 1.35;
+  background: #fff;
+}
+
+.score-table th,
+.score-table td {
+  border: 1px solid #222;
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.score-table thead th {
+  background: #e8efe9;
+  font-weight: 700;
+}
+
+.score-table tbody tr:nth-child(even) td {
+  background: #f7faf7;
+}
+
+.score-table td:last-child,
+.score-table th:last-child {
+  width: 5.5rem;
+  white-space: nowrap;
 }
 
 .guide-table-wrap {
@@ -547,6 +578,52 @@ ol.method-steps li {
 .how-ratings-btn:focus {
   background: #164427;
   color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  table.score-table {
+    display: table;
+    width: 100%;
+  }
+
+  .score-table thead {
+    display: table-header-group;
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
+  .score-table tbody { display: table-row-group; }
+
+  .score-table tr {
+    display: table-row;
+    margin: 0;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .score-table th,
+  .score-table td {
+    display: table-cell;
+    width: auto;
+  }
+
+  .score-table td:last-child,
+  .score-table th:last-child {
+    width: 5.5rem;
+  }
+
+  .score-table td::before,
+  .score-table th::before {
+    content: none;
+  }
 }
 
 @media print {
