@@ -43,6 +43,7 @@
 
           <nav class="method-jump" aria-label="On this page">
             <a class="jump-btn" href="#three-levels">Three levels</a>
+            <a class="jump-btn" href="#vote-score">How a vote is scored</a>
             <a class="jump-btn" href="#guide-table">Rating table</a>
             <a class="jump-btn" href="#logic-flow">Logic flow</a>
           </nav>
@@ -69,9 +70,24 @@
             </ul>
           </section>
 
+          <section class="method-section" aria-labelledby="vote-score">
+            <h2 id="vote-score">How a roll-call vote gets its score</h2>
+            <ol class="method-steps">
+              <li>Every recorded vote is scored. Each floor or committee roll call gets one score from &minus;3.000 (most liberal) to +3.000 (most conservative). Decimals are allowed, and 0.000 means neutral or procedural.</li>
+              <li>Scores follow the WyoVote Bill Rating Guide (below). The guide pairs conservative and liberal values, such as smaller vs. larger government, individual freedom vs. government control, the 2nd Amendment, property rights and religious freedom. Each score names the guide item or items it relies on.</li>
+              <li>Direction: more spending, taxes, regulation or bureaucracy scores liberal (negative); less scores conservative (positive).</li>
+              <li>Size: a bigger change scores further from zero, and a small or uncertain one scores close to zero. When a bill mixes conservative and liberal parts, the parts are weighed, and a roughly even mix scores near zero. For most bills the size is the scorer&rsquo;s judgment; only the state budget uses a set formula (step 6).</li>
+              <li>Procedural and neutral votes score 0.000. That covers motions with no policy content, such as suspending the rules, and bills that are purely administrative or technical.</li>
+              <li>State budget amendments (HB0001/SF0001) are scored by dollar size. The amendment&rsquo;s dollar changes are added up, with general fund dollars counted in full and other funds at half. The bigger the weighted change, the larger the score, from 0.167 for $50,000 or less up to 1.667 for more than $300 million. An increase is negative and a cut is positive. Amendments with no readable dollar figures are scored by hand.</li>
+              <li>One bill, many votes. Introduction, referral, readings, committee votes, final passage and concurrence all share the bill&rsquo;s single score. Each amendment, conference report and veto override is scored on its own. (In 2022 and 2023, some amendments and line-item veto overrides were not scored individually and count as 0.000.)</li>
+              <li>An Aye adds the vote&rsquo;s score and a Nay subtracts it, so a Nay on a conservative bill counts as a liberal vote. Votes where a legislator was excused, absent or had a conflict are left out.</li>
+              <li>A legislator&rsquo;s result is the average: the summed scores divided by the number of Aye and Nay votes. Legislators are ranked by that result and placed in the color bands described above.</li>
+            </ol>
+          </section>
+
           <section class="method-section" aria-labelledby="guide-table">
             <h2 id="guide-table">Bill Rating Guide (evaluation table)</h2>
-            <p>Policy scores cite one or more of these guide codes; procedural votes (0.000) and budget amendments scored by dollar size do not. There is no 0800 in the guide. Scale meaning: <strong>+3.000</strong> = most conservative, <strong>0.000</strong> = neutral or procedural, <strong>&minus;3.000</strong> = most liberal. Actual scores run from about &minus;2.0 to +3.0.</p>
+            <p>Policy scores cite one or more of these #g_Guide 2c codes; procedural votes (0.000) do not. There is no 0800 in the guide. Scale meaning: <strong>+3.000</strong> = most conservative, <strong>0.000</strong> = neutral or procedural, <strong>&minus;3.000</strong> = most liberal.</p>
 
             <div class="guide-table-wrap">
               <table class="guide-table">
@@ -127,6 +143,7 @@
                 </tbody>
               </table>
             </div>
+            <p class="guide-note">Code 0900 is shown from the earlier one-page edition; page 2 of 2c will be added when available.</p>
           </section>
 
           <section class="method-section" aria-labelledby="logic-flow">
@@ -270,7 +287,7 @@
 
           <section class="method-section method-sources" aria-labelledby="sources-heading">
             <h2 id="sources-heading">Source notes</h2>
-            <p>Drawn from the WyoVote Bill Rating Guide (#g_Guide), Legislative Rating Design v3.0, Legislative Rating Process User&rsquo;s Guide v1.03, and the 2022&ndash;2026 rating reports&rsquo; &ldquo;How to read this report&rdquo; pages. No votes are dropped (including HB0001/SF0001).</p>
+            <p>Drawn from the WyoVote Bill Rating Guide (#g_Guide 2c), Legislative Rating Design v3.0, Legislative Rating Process User&rsquo;s Guide v1.03, and the 2022&ndash;2026 rating reports&rsquo; &ldquo;How to read this report&rdquo; pages. No votes are dropped (including HB0001/SF0001).</p>
           </section>
 
         </div>

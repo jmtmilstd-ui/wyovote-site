@@ -446,6 +446,24 @@
   margin: 0 0 0.35rem;
 }
 
+ol.method-steps {
+  margin: 0.25rem 0 0.75rem;
+  padding: 0 0 0 1.6rem;
+  max-width: 52rem;
+  list-style: decimal;
+}
+
+ol.method-steps li {
+  margin: 0 0 0.55rem;
+  padding-left: 0.25rem;
+}
+
+.guide-note {
+  margin: 0.15rem 0 0;
+  max-width: 52rem;
+  font-size: 0.9rem;
+}
+
 .guide-table-wrap {
   overflow-x: auto;
   margin: 0.5rem 0 1rem;
