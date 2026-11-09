@@ -256,3 +256,290 @@
     content: none;
   }
 }
+/* Officials page — new classes only. Append to preview/preview.css (or site.css on publish). */
+
+.officials-asof {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.page-body .intro {
+  margin: 0 0 0.65rem;
+}
+
+.officials-jump {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1rem;
+}
+
+.officials-jump .jump-btn {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.4rem;
+  background: #1f5d34;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.officials-jump .jump-btn:hover,
+.officials-jump .jump-btn:focus {
+  background: #164427;
+  color: #ffffff;
+}
+
+.officials-jump .jump-link {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.officials-section { scroll-margin-top: 1rem; }
+
+.officials-section {
+  margin: 0 0 0.85rem;
+}
+
+.officials-section h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.15rem;
+  line-height: 1.15;
+}
+
+.officials-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.officials-grid-general {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.official-btn {
+  display: block;
+  padding: 0.32rem 0.45rem;
+  border: 1px solid var(--color-green-dark, #146b31);
+  border-radius: 0.25rem;
+  background: #ffffff;
+  color: var(--color-ink, #142117);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  text-decoration: none;
+}
+
+.official-btn:hover,
+.official-btn:focus-visible {
+  background: #e7f5eb;
+  color: var(--color-green-dark, #146b31);
+}
+
+.official-btn.party-d {
+  border-color: #1a4a8a;
+}
+
+.official-btn.party-d:hover,
+.official-btn.party-d:focus-visible {
+  background: #e8eef8;
+  color: #1a4a8a;
+}
+
+.official-btn.general {
+  border-color: #555;
+}
+
+.official-btn.general:hover,
+.official-btn.general:focus-visible {
+  background: #f0f0ec;
+  color: #222;
+}
+
+@media (max-width: 1100px) {
+  .officials-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 800px) {
+  .officials-grid,
+  .officials-grid-general { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 520px) {
+  .officials-grid,
+  .officials-grid-general { grid-template-columns: 1fr; }
+}
+/* How Ratings Work page — new classes only. Append to preview/preview.css (or site.css on publish). */
+
+.method-asof {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.method-page .intro,
+.method-page > .method-section > p {
+  margin: 0 0 0.75rem;
+  max-width: 52rem;
+}
+
+.method-jump {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1.25rem;
+}
+
+.method-jump .jump-btn {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.4rem;
+  background: #1f5d34;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.method-jump .jump-btn:hover,
+.method-jump .jump-btn:focus {
+  background: #164427;
+  color: #ffffff;
+}
+
+.method-section {
+  margin: 0 0 1.75rem;
+  scroll-margin-top: 1rem;
+}
+
+.method-section h2 {
+  margin: 0 0 0.55rem;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.method-section h3 {
+  margin: 1rem 0 0.35rem;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.method-list {
+  margin: 0.25rem 0 0.75rem 1.25rem;
+  padding: 0;
+  max-width: 52rem;
+}
+
+.method-list li {
+  margin: 0 0 0.35rem;
+}
+
+.guide-table-wrap {
+  overflow-x: auto;
+  margin: 0.5rem 0 1rem;
+}
+
+.guide-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  background: #fff;
+}
+
+.guide-table caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+}
+
+.guide-table th,
+.guide-table td {
+  border: 1px solid #222;
+  padding: 0.45rem 0.55rem;
+  vertical-align: top;
+  text-align: left;
+}
+
+.guide-table thead th {
+  background: #e8efe9;
+  font-weight: 700;
+}
+
+.guide-table tbody th {
+  width: 4.5rem;
+  white-space: nowrap;
+  background: #f4f6f4;
+  font-weight: 700;
+}
+
+.guide-table tbody tr:nth-child(even) td,
+.guide-table tbody tr:nth-child(even) th {
+  background: #f7faf7;
+}
+
+.flow-figure {
+  margin: 0.75rem 0 1rem;
+  padding: 0.5rem;
+  border: 1px solid #222;
+  background: #fff;
+  overflow-x: auto;
+}
+
+.flow-svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.method-sources {
+  border-top: 1px solid #ccc;
+  padding-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+/* Home: How the Ratings Work button (top of Reports column) */
+.how-ratings-btn {
+  display: inline-block;
+  margin: 0 0 0.85rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: 0.4rem;
+  background: #1f5d34;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+
+.how-ratings-btn:hover,
+.how-ratings-btn:focus {
+  background: #164427;
+  color: #ffffff;
+}
+
+@media print {
+  .preview-banner { display: none; }
+  .flow-figure { border: none; padding: 0; }
+  .guide-table th,
+  .guide-table td { border-color: #000; }
+  .method-jump .jump-btn,
+  .how-ratings-btn {
+    background: #fff !important;
+    color: #000 !important;
+    border: 2px solid #000;
+  }
+}

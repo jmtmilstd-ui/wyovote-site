@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How WyoVote Ratings Work — WyoVote</title>
+    <meta name="description" content="How WyoVote scores roll-call votes, how that differs from a bill, and how legislator rankings are built.">
+    <link rel="icon" href="assets/img/surveyor-icon.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="assets/css/site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/img/surveyor-icon.png" alt="" width="490" height="552">
+          <span class="site-name">WyoVote</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="archive.html">Archive</a></li>
+            <li><a href="officials.html">Officials</a></li>
+            <li><a href="how-ratings-work.html" aria-current="page">How Ratings Work</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="wrap">
+          <h1>How WyoVote Ratings Work</h1>
+          <p class="method-asof">Method as used in the 2022&ndash;2026 rating reports (v2.1 for 2024&ndash;2026; v1.2 for 2022; v1.3 for 2023).</p>
+        </div>
+      </section>
+
+      <section class="page-body">
+        <div class="wrap method-page">
+
+          <nav class="method-jump" aria-label="On this page">
+            <a class="jump-btn" href="#three-levels">Three levels</a>
+            <a class="jump-btn" href="#guide-table">Rating table</a>
+            <a class="jump-btn" href="#logic-flow">Logic flow</a>
+          </nav>
+
+          <section class="method-section" aria-labelledby="three-levels">
+            <h2 id="three-levels">Three levels: roll call, bill, ranking</h2>
+
+            <h3>1. A roll-call vote is scored</h3>
+            <p>Each recorded floor or committee vote gets <strong>one score</strong> from <strong>&minus;3.000</strong> (liberal) to <strong>+3.000</strong> (conservative). Decimals are allowed (for example 1.333). The score follows the WyoVote Bill Rating Guide categories below. Procedural motions with no policy content score <strong>0.000</strong>. Floor votes use positive IDs; committee votes use negative IDs.</p>
+
+            <h3>2. A bill is not one score</h3>
+            <p>One bill can have many roll calls: introduction, readings, committee, concurrence, amendments, conference reports, veto overrides. Non-amendment votes on the same bill share that bill&rsquo;s one score. <strong>Conference committee reports and full-bill veto overrides also take the bill&rsquo;s score.</strong> From 2024 on, every amendment is scored on its own. In 2022 and 2023 only, some amendments were not scored individually and got 0.000 (6 in 2022, 55 in 2023), and line-item veto overrides got 0.000 (18 in 2022, 15 in 2023). The bill itself is not ranked; only the roll-call scores feed the legislator rating.</p>
+
+            <h3>3. The legislator rating and ranking</h3>
+            <ul class="method-list">
+              <li><strong>Aye</strong> = +score for that roll call.</li>
+              <li><strong>Nay</strong> = &minus;score (sign flip).</li>
+              <li>Rating = sum of those signed values &divide; number of Aye + Nay votes.</li>
+              <li>Zero-score roll calls <em>are</em> included in the count.</li>
+              <li>Excused, Absent and Conflict are not counted; they are tallied separately.</li>
+              <li>Ratings are rounded to 3 decimals before ranking.</li>
+              <li>Legislators are ranked by that average (most conservative = Rank 1).</li>
+              <li>Bands are set each session by splitting all legislators of both chambers into thirds by rank (for 93 legislators: ranks 1&ndash;31 Conservative, 32&ndash;62 Moderate, 63&ndash;93 Liberal; 2022 had 90; in 2023 a tie at ranks 31 and 32 made it 12022 had 90)ndash;32, 332022 had 90)ndash;62, 632022 had 90)ndash;93). House and Senate reports use the same session-wide bands. Legislators tied at a cutoff share the band.</li>
+            </ul>
+          </section>
+
+          <section class="method-section" aria-labelledby="guide-table">
+            <h2 id="guide-table">Bill Rating Guide (evaluation table)</h2>
+            <p>Policy scores cite one or more of these guide codes; procedural votes (0.000) and budget amendments scored by dollar size do not. There is no 0800 in the guide. Scale meaning: <strong>+3.000</strong> = most conservative, <strong>0.000</strong> = neutral or procedural, <strong>&minus;3.000</strong> = most liberal. Actual scores run from about &minus;2.0 to +3.0.</p>
+
+            <div class="guide-table-wrap">
+              <table class="guide-table">
+                <caption>WyoVote Bill Rating Guide (&copy; 2020&ndash;2021, #g_Guide)</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Code</th>
+                    <th scope="col">Conservative value (+)</th>
+                    <th scope="col">Liberal value (&minus;)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">0100</th>
+                    <td><strong>Constitution Supreme</strong> &mdash; the Constitution is the foundation for all laws.</td>
+                    <td><strong>Constitution Living Document</strong> &mdash; outdated; should be changed by court actions.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">0200</th>
+                    <td><strong>Smaller Government</strong> &mdash; less government power and taxes; less bureaucracy and regulation.</td>
+                    <td><strong>Larger Government</strong> &mdash; greater government power and tax burden; more bureaucracy and regulation.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">0300</th>
+                    <td><strong>Greater individual freedoms</strong> &mdash; protect God-given rights of life, liberty and pursuit of happiness.</td>
+                    <td><strong>Greater government control of individuals</strong> &mdash; regulation of all aspects of life, public and private.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">0400</th>
+                    <td><strong>Individual responsibility and accountability</strong> for the consequences of one&rsquo;s actions.</td>
+                    <td><strong>Government knows best</strong> &mdash; government control of social justice and fairness.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">0500</th>
+                    <td><strong>Strong private property laws</strong> &mdash; limited ability to take property; Wyoming primacy over water, wildlife, minerals and natural resources.</td>
+                    <td><strong>State control of property</strong> &mdash; eminent domain, confiscation; federal government controls all resources.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">0600</th>
+                    <td><strong>2nd Amendment</strong> &mdash; oppose restrictions on 2nd Amendment rights.</td>
+                    <td><strong>Gun Control</strong> &mdash; restriction of gun rights by any means; confiscate means of self-defense.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">0700</th>
+                    <td><strong>Freedom of Religion</strong> &mdash; free expression and practice of religious beliefs in all areas of life, private, public and governmental.</td>
+                    <td><strong>Secular state power trumps religious freedom</strong> &mdash; strict elimination of religious expression in public and government.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">0900</th>
+                    <td><strong>Power Closer to Voter</strong> &mdash; place voters closer to government so they can exercise more control.</td>
+                    <td><strong>Isolate Voter from Power</strong> &mdash; so government can exercise power without interference.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="method-section" aria-labelledby="logic-flow">
+            <h2 id="logic-flow">Logic flow</h2>
+            <p>Standard flowchart symbols: rounded = Start/End, parallelogram = data, rectangle = process, diamond = decision, wavy document = reports.</p>
+
+            <figure class="flow-figure" aria-label="WyoVote rating logic flowchart">
+              <svg class="flow-svg" viewBox="0 0 920 1520" width="920" height="1520" role="img" aria-labelledby="flow-title flow-desc">
+                <title id="flow-title">WyoVote rating logic flow</title>
+                <desc id="flow-desc">Start, get roll-call record, decide if procedural, if amendment score amendment or use bill score, for each legislator vote Aye Nay or exclude, accumulate, average, rank, color band, write reports, end.</desc>
+
+                <defs>
+                  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+                    <path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/>
+                  </marker>
+                </defs>
+
+                <style>
+                  .flow-svg text { font-family: Arial, Helvetica, sans-serif; fill: #111; }
+                  .flow-svg .lab { font-size: 17px; font-weight: 700; }
+                  .flow-svg .sub { font-size: 14px; font-weight: 400; }
+                  .flow-svg .yn { font-size: 15px; font-weight: 700; }
+                  .flow-svg .box { fill: #fff; stroke: #111; stroke-width: 2.4; }
+                  .flow-svg .line { stroke: #111; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+                </style>
+
+                <!-- START -->
+                <rect class="box" x="360" y="12" width="220" height="48" rx="24" ry="24"/>
+                <text class="lab" x="470" y="42" text-anchor="middle">START</text>
+                <path class="line" d="M470 60 L470 82"/>
+
+                <!-- DATA: Get roll-call record -->
+                <path class="box" d="M320 84 L620 84 L590 140 L290 140 Z"/>
+                <text class="lab" x="470" y="110" text-anchor="middle">Get roll-call record</text>
+                <text class="sub" x="470" y="130" text-anchor="middle">floor (+) / committee (−)</text>
+                <path class="line" d="M470 140 L470 168"/>
+
+                <!-- DECISION: Procedural? -->
+                <path class="box" d="M470 168 L610 228 L470 288 L330 228 Z"/>
+                <text class="lab" x="470" y="220" text-anchor="middle">Procedural,</text>
+                <text class="lab" x="470" y="242" text-anchor="middle">no clear leaning?</text>
+
+                <!-- Yes → Score = 0.000 (far-left rail; never crosses amendment branch) -->
+                <path class="line" d="M330 228 L55 228 L55 310"/>
+                <text class="yn" x="195" y="216">Yes</text>
+                <rect class="box" x="8" y="312" width="155" height="56" rx="2"/>
+                <text class="lab" x="85" y="336" text-anchor="middle">Score = 0.000</text>
+                <text class="sub" x="85" y="356" text-anchor="middle">neutral / procedural</text>
+                <!-- Far-left drop around everything, join merge before legislator votes -->
+                <path class="line" d="M55 368 L55 575 L470 575"/>
+
+                <!-- No → Amendment? -->
+                <path class="line" d="M470 288 L470 320"/>
+                <text class="yn" x="486" y="310">No</text>
+                <path class="box" d="M470 322 L600 382 L470 442 L340 382 Z"/>
+                <text class="lab" x="470" y="388" text-anchor="middle">Amendment?</text>
+
+                <!-- Amendment Yes → well clear of far-left rail (rail at x=55; box starts x=160) -->
+                <path class="line" d="M340 382 L265 382 L265 470"/>
+                <text class="yn" x="300" y="370">Yes</text>
+                <rect class="box" x="160" y="472" width="270" height="60" rx="2"/>
+                <text class="lab" x="295" y="496" text-anchor="middle">Score amendment on its own</text>
+                <text class="sub" x="295" y="518" text-anchor="middle">(Rating Guide)</text>
+                <path class="line" d="M295 532 L295 575"/>
+
+                <!-- Amendment No → use bill score (right) -->
+                <path class="line" d="M600 382 L730 382 L730 470"/>
+                <text class="yn" x="645" y="370">No</text>
+                <rect class="box" x="590" y="472" width="280" height="60" rx="2"/>
+                <text class="lab" x="730" y="496" text-anchor="middle">Use the bill&apos;s score</text>
+                <text class="sub" x="730" y="518" text-anchor="middle">(incl. conference / full veto)</text>
+                <path class="line" d="M730 532 L730 575 L470 575"/>
+
+                <!-- Down from merge to legislator votes -->
+                <path class="line" d="M470 575 L470 600"/>
+
+                <!-- DATA: For each legislator vote -->
+                <path class="box" d="M320 602 L620 602 L590 658 L290 658 Z"/>
+                <text class="lab" x="470" y="628" text-anchor="middle">For each legislator vote</text>
+                <text class="sub" x="470" y="648" text-anchor="middle">on this roll call</text>
+                <path class="line" d="M470 658 L470 686"/>
+
+                <!-- DECISION: Vote type -->
+                <path class="box" d="M470 688 L620 758 L470 828 L320 758 Z"/>
+                <text class="lab" x="470" y="748" text-anchor="middle">Vote type?</text>
+                <text class="sub" x="470" y="770" text-anchor="middle">Aye / Nay / Other</text>
+
+                <!-- Aye (left) -->
+                <path class="line" d="M320 758 L140 758 L140 850"/>
+                <text class="yn" x="210" y="748">Aye</text>
+                <rect class="box" x="50" y="852" width="180" height="48" rx="2"/>
+                <text class="lab" x="140" y="882" text-anchor="middle">Add +score</text>
+
+                <!-- Nay (center) -->
+                <path class="line" d="M470 828 L470 850"/>
+                <text class="yn" x="486" y="844">Nay</text>
+                <rect class="box" x="380" y="852" width="180" height="48" rx="2"/>
+                <text class="lab" x="470" y="882" text-anchor="middle">Add −score</text>
+
+                <!-- Other / Exclude (right) -->
+                <path class="line" d="M620 758 L800 758 L800 850"/>
+                <text class="yn" x="680" y="748">Other</text>
+                <rect class="box" x="685" y="852" width="230" height="56" rx="2"/>
+                <text class="lab" x="800" y="874" text-anchor="middle">Exclude</text>
+                <text class="sub" x="800" y="894" text-anchor="middle">Excused / Absent / Conflict</text>
+
+                <!-- Merge to accumulate -->
+                <path class="line" d="M140 900 L140 935 L470 935"/>
+                <path class="line" d="M470 900 L470 960"/>
+                <path class="line" d="M800 908 L800 935 L470 935"/>
+
+                <rect class="box" x="310" y="962" width="320" height="48" rx="2"/>
+                <text class="lab" x="470" y="992" text-anchor="middle">Accumulate signed scores</text>
+                <path class="line" d="M470 1010 L470 1040"/>
+
+                <rect class="box" x="270" y="1042" width="400" height="56" rx="2"/>
+                <text class="lab" x="470" y="1066" text-anchor="middle">Average = sum ÷ (Aye+Nay)</text>
+                <text class="sub" x="470" y="1086" text-anchor="middle">zero scores counted</text>
+                <path class="line" d="M470 1098 L470 1128"/>
+
+                <rect class="box" x="310" y="1130" width="320" height="48" rx="2"/>
+                <text class="lab" x="470" y="1160" text-anchor="middle">Rank by average</text>
+                <path class="line" d="M470 1178 L470 1208"/>
+
+                <rect class="box" x="260" y="1210" width="420" height="56" rx="2"/>
+                <text class="lab" x="470" y="1234" text-anchor="middle">Color band (session thirds)</text>
+                <text class="sub" x="470" y="1254" text-anchor="middle">Conservative / Moderate / Liberal</text>
+                <path class="line" d="M470 1266 L470 1296"/>
+
+                <!-- DOCUMENT -->
+                <path class="box" d="M310 1298 L630 1298 L630 1355 Q555 1338 470 1355 Q385 1372 310 1355 Z"/>
+                <text class="lab" x="470" y="1332" text-anchor="middle">Rating reports (PDF)</text>
+                <path class="line" d="M470 1365 L470 1400"/>
+
+                <!-- END -->
+                <rect class="box" x="360" y="1402" width="220" height="48" rx="24" ry="24"/>
+                <text class="lab" x="470" y="1432" text-anchor="middle">END</text>
+              </svg>
+            </figure>
+          </section>
+
+          <section class="method-section method-sources" aria-labelledby="sources-heading">
+            <h2 id="sources-heading">Source notes</h2>
+            <p>Drawn from the WyoVote Bill Rating Guide (#g_Guide), Legislative Rating Design v2.06, Legislative Rating Process User&rsquo;s Guide v1.02, and the 2022&ndash;2026 rating reports&rsquo; &ldquo;How to read this report&rdquo; pages. Every roll call is scored and every Aye or Nay is counted, including all budget-bill (HB0001/SF0001) roll calls.</p>
+          </section>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2026 WyoVote. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
