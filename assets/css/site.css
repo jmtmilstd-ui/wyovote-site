@@ -141,6 +141,23 @@
   font-size: 0.95rem;
 }
 
+.article-downloads {
+  margin: 0 0 1rem;
+}
+
+.article-body .deck {
+  font-size: 1.15rem;
+}
+
+.article-body .source {
+  font-style: italic;
+}
+
+.article-body ol.credits {
+  font-size: 0.95rem;
+  overflow-wrap: anywhere;
+}
+
 .article-kicker {
   margin: 0 0 0.75rem;
   font-weight: 700;
