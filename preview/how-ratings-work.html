@@ -34,7 +34,7 @@
       <section class="page-hero">
         <div class="wrap">
           <h1>How WyoVote Ratings Work</h1>
-          <p class="method-asof">Method as used in the 2022&ndash;2026 rating reports (v2.1 for 2024&ndash;2026; v1.2 for 2022; v1.3 for 2023).</p>
+          <p class="method-asof">Method as used in the 2022&ndash;2026 rating reports (version 3.0 for 2024&ndash;2026; version 2.0 for 2022&ndash;2023).</p>
         </div>
       </section>
 
@@ -65,8 +65,115 @@
               <li>Excused, Absent and Conflict are not counted; they are tallied separately.</li>
               <li>Ratings are rounded to 3 decimals before ranking.</li>
               <li>Legislators are ranked by that average (most conservative = Rank 1).</li>
-              <li>Bands are set each session by splitting all legislators of both chambers into thirds by rank (for 93 legislators: ranks 1&ndash;31 Conservative, 32&ndash;62 Moderate, 63&ndash;93 Liberal; 2022 had 90; in 2023 a tie at ranks 31 and 32 made it 1&ndash;32, 33&ndash;62, 63&ndash;93). House and Senate reports use the same session-wide bands. Legislators tied at a cutoff share the band.</li>
+              <li>Color bands: Conservative / Moderate / Liberal. The bands group legislators who voted most alike in that session, split at the natural breaks in the ranking, so band sizes differ from session to session; legislators with the same result share a band. The same session-wide bands (both chambers together) are used on every report: All, House and Senate.</li>
             </ul>
+
+            <h3>Band sizes by session</h3>
+            <p>Counts and rank ranges only.</p>
+            <div class="guide-table-wrap">
+              <table class="guide-table">
+                <caption>Band sizes by session</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Session</th>
+                    <th scope="col">Legislators</th>
+                    <th scope="col">Conservative</th>
+                    <th scope="col">Moderate</th>
+                    <th scope="col">Liberal</th>
+                    <th scope="col">Rank ranges (Conservative / Moderate / Liberal)</th>
+                    <th scope="col">Report version</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">2022</th>
+                    <td>90</td>
+                    <td>29</td>
+                    <td>38</td>
+                    <td>23</td>
+                    <td>1&ndash;29 / 30&ndash;67 / 68&ndash;90</td>
+                    <td>v2.0</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2023</th>
+                    <td>93</td>
+                    <td>41</td>
+                    <td>43</td>
+                    <td>9</td>
+                    <td>1&ndash;41 / 42&ndash;84 / 85&ndash;93</td>
+                    <td>v2.0</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2024</th>
+                    <td>93</td>
+                    <td>40</td>
+                    <td>38</td>
+                    <td>15</td>
+                    <td>1&ndash;40 / 41&ndash;78 / 79&ndash;93</td>
+                    <td>v3.0</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2025</th>
+                    <td>93</td>
+                    <td>50</td>
+                    <td>33</td>
+                    <td>10</td>
+                    <td>1&ndash;50 / 51&ndash;83 / 84&ndash;93</td>
+                    <td>v3.0</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2026</th>
+                    <td>93</td>
+                    <td>37</td>
+                    <td>42</td>
+                    <td>14</td>
+                    <td>1&ndash;37 / 38&ndash;79 / 80&ndash;93</td>
+                    <td>v3.0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="guide-table-wrap">
+              <table class="guide-table">
+                <caption>House and Senate counts in each session-wide band (Conservative / Moderate / Liberal)</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Session</th>
+                    <th scope="col">House</th>
+                    <th scope="col">Senate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">2022</th>
+                    <td>19 / 20 / 21</td>
+                    <td>10 / 18 / 2</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2023</th>
+                    <td>26 / 29 / 7</td>
+                    <td>15 / 14 / 2</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2024</th>
+                    <td>24 / 27 / 11</td>
+                    <td>16 / 11 / 4</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2025</th>
+                    <td>37 / 18 / 7</td>
+                    <td>13 / 15 / 3</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2026</th>
+                    <td>36 / 13 / 13</td>
+                    <td>1 / 29 / 1</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>In 2026 the Senate&rsquo;s results are tightly grouped, so nearly all senators fall in the Moderate band.</p>
           </section>
 
           <section class="method-section" aria-labelledby="guide-table">
@@ -252,7 +359,7 @@
                 <path class="line" d="M470 1178 L470 1208"/>
 
                 <rect class="box" x="260" y="1210" width="420" height="56" rx="2"/>
-                <text class="lab" x="470" y="1234" text-anchor="middle">Color band (session thirds)</text>
+                <text class="lab" x="470" y="1234" text-anchor="middle">Color band (natural breaks)</text>
                 <text class="sub" x="470" y="1254" text-anchor="middle">Conservative / Moderate / Liberal</text>
                 <path class="line" d="M470 1266 L470 1296"/>
 
@@ -270,7 +377,7 @@
 
           <section class="method-section method-sources" aria-labelledby="sources-heading">
             <h2 id="sources-heading">Source notes</h2>
-            <p>Drawn from the WyoVote Bill Rating Guide (#g_Guide), Legislative Rating Design v2.06, Legislative Rating Process User&rsquo;s Guide v1.02, and the 2022&ndash;2026 rating reports&rsquo; &ldquo;How to read this report&rdquo; pages. Every roll call is scored and every Aye or Nay is counted, including all budget-bill (HB0001/SF0001) roll calls.</p>
+            <p>Drawn from the WyoVote Bill Rating Guide (#g_Guide), Legislative Rating Design v3.0, Legislative Rating Process User&rsquo;s Guide v1.03, and the 2022&ndash;2026 rating reports&rsquo; &ldquo;How to read this report&rdquo; pages. No votes are dropped (including HB0001/SF0001).</p>
           </section>
 
         </div>
