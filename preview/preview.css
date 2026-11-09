@@ -256,3 +256,89 @@
     content: none;
   }
 }
+/* Officials page — new classes only. Append to preview/preview.css (or site.css on publish). */
+
+.officials-asof {
+  margin: 0.35rem 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.officials-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0 0 1.5rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--color-line, #ddd9ce);
+  border-radius: 0.35rem;
+  background: #ffffff;
+}
+
+.officials-jump a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.officials-section {
+  margin: 0 0 2rem;
+}
+
+.officials-section h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.officials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16.5rem, 1fr));
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.officials-grid-general {
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
+
+.official-btn {
+  display: block;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--color-green-dark, #146b31);
+  border-radius: 0.3rem;
+  background: #ffffff;
+  color: var(--color-ink, #142117);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none;
+}
+
+.official-btn:hover,
+.official-btn:focus-visible {
+  background: #e7f5eb;
+  color: var(--color-green-dark, #146b31);
+}
+
+.official-btn.party-d {
+  border-color: #1a4a8a;
+}
+
+.official-btn.party-d:hover,
+.official-btn.party-d:focus-visible {
+  background: #e8eef8;
+  color: #1a4a8a;
+}
+
+.official-btn.general {
+  border-color: #555;
+}
+
+.official-btn.general:hover,
+.official-btn.general:focus-visible {
+  background: #f0f0ec;
+  color: #222;
+}
