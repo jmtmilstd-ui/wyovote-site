@@ -271,18 +271,36 @@
 .officials-jump {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 0.85rem;
-  margin: 0 0 0.85rem;
-  padding: 0.4rem 0.65rem;
-  border: 1px solid var(--color-line, #ddd9ce);
-  border-radius: 0.3rem;
-  background: #ffffff;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1rem;
 }
 
-.officials-jump a {
+.officials-jump .jump-btn {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.4rem;
+  background: #1f5d34;
+  color: #ffffff;
+  font-size: 1.25rem;
   font-weight: 700;
+  text-align: center;
   text-decoration: none;
 }
+
+.officials-jump .jump-btn:hover,
+.officials-jump .jump-btn:focus {
+  background: #164427;
+  color: #ffffff;
+}
+
+.officials-jump .jump-link {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.officials-section { scroll-margin-top: 1rem; }
 
 .officials-section {
   margin: 0 0 0.85rem;
