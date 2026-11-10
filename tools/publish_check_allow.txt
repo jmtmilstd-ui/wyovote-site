@@ -1,0 +1,13 @@
+# Known exceptions for tools/publish_check.py
+#
+# Blank lines and lines starting with # are ignored.
+# Paths are relative to the repository root and use forward slashes.
+#
+#   size:<path>             this file may be over 500 KB
+#   unreferenced:<path>     this asset may have no HTML href/src or CSS url()
+#   missing:<html> <url>    this href or src may point at a missing local file
+#   root:<html>             this root page may link into preview/ or show the PREVIEW banner
+#
+# A bare path is exempt from both the size check and the unreferenced check.
+#
+# No exceptions are listed. The check reports every current finding.
