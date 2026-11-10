@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Archive — WyoVote</title>
-    <meta name="description" content="Archive of WyoVote articles, historical ratings, and criteria reports.">
+    <meta name="description" content="Archive of WyoVote articles, committee reports, county reports, and legislator ratings.">
     <link rel="icon" href="../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="preview.css">
@@ -37,31 +37,235 @@
         </div>
       </section>
       <section class="page-body">
-        <div class="wrap">
-          <section aria-labelledby="archive-articles">
-            <h2 id="archive-articles">Articles</h2>
-            <ul class="article-list">
-              <li>
-                <h3><a href="articles/a002-2026-legislature-election-results.html">Wyoming&#x27;s 2026 Legislative Election: One Party Flip, 38 Open Seats</a></h3>
-                <p>Unofficial returns show one Wyoming House seat, District 11, moving from Republican to Democratic hands, while 38 of 79 legislative seats had no incumbent on the November ballot. All 41 incumbents who reached the ballot won, and 68.2% of registered voters cast ballots.</p>
-              </li>
-              <li>
-                <h3><a href="articles/barlow-sommers.html">Barlow and Sommers: Two Old Speakers Ride Back to Cheyenne</a></h3>
-                <p>Nothing says change in Cheyenne like sending the old trail bosses back up the same trail. Voters send Barlow and Sommers back to Wyoming's capitol.</p>
-                <p class="article-via"><a href="https://www.openrangerecord.com/news/997d4e44-7d97-4593-8744-38bf73531198">via The Open Range Record</a></p>
-              </li>
+        <div class="wrap archive-page">
+          <!-- Archive rule: newest first within each section. The home page Articles column keeps the newest 4; everything stays listed here. -->
+          <nav class="archive-jump method-jump" aria-label="On this page">
+            <a class="jump-btn" href="#articles">Articles</a>
+            <a class="jump-btn" href="#committees">Committees</a>
+            <a class="jump-btn" href="#counties">Counties</a>
+            <a class="jump-btn" href="#ratings">Ratings</a>
+          </nav>
+          <section class="archive-section" id="articles" aria-labelledby="articles-heading">
+            <h2 id="articles-heading">Articles</h2>
+            <ul class="archive-list">
+            <li class="archive-item"><a href="articles/a002-2026-legislature-election-results.html">Wyoming&#x27;s 2026 Legislative Election: One Party Flip, 38 Open Seats</a> <span class="archive-meta">Nov. 9, 2026 · v1.0</span></li>
+            <li class="archive-item"><a href="articles/barlow-sommers.html">Barlow and Sommers: Two Old Speakers Ride Back to Cheyenne</a> <span class="archive-meta">Nov. 8, 2026</span></li>
             </ul>
-            <p><a href="historical-articles.html">Historical Articles</a></p>
           </section>
-          <section aria-labelledby="archive-ratings">
-            <h2 id="archive-ratings">Historical Ratings</h2>
-            <p><a href="historical-ratings.html">Historical Ratings</a></p>
+          <section class="archive-section" id="committees" aria-labelledby="committees-heading">
+            <h2 id="committees-heading">Committees</h2>
+            <ul class="archive-list">
+            <li class="archive-year">
+              <h3>2026</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2026/26-all-committees.pdf">2026 All Committees Summary</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/01-01-judiciary.pdf">01 01 Judiciary</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/02-02-appropriations.pdf">02 02 Appropriations</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/03-03-revenue.pdf">03 03 Revenue</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/04-04-education.pdf">04 04 Education</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/05-05-agriculture.pdf">05 05 Agriculture</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/06-06-travel.pdf">06 06 Travel</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/07-07-corporations.pdf">07 07 Corporations</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/08-08-transportation.pdf">08 08 Transportation</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/09-09-minerals.pdf">09 09 Minerals</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/10-10-labor.pdf">10 10 Labor</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/11-11-journal.pdf">11 11 Journal</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/12-12-rules.pdf">12 12 Rules</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/13-air-transport.pdf">13 Air Transport</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/17-blockchain.pdf">17 Blockchain</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/18-capital-financing.pdf">18 Capital Financing</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/19-legislative-facilities.pdf">19 Legislative Facilities</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/21-school-facilities.pdf">21 School Facilities</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/22-tribal-relations.pdf">22 Tribal Relations</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/23-federal-natural-resource.pdf">23 Federal Natural Resource</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/24-natural-resource-funding.pdf">24 Natural Resource Funding</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/25-select-water.pdf">25 Select Water</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/26-management-council.pdf">26 Management Council</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/27-management-audit-committee.pdf">27 Management Audit Committee</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/32-riverton-state-office.pdf">32 Riverton State Office</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/33-state-shooting-complex.pdf">33 State Shooting Complex</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/34-capitol-governance.pdf">34 Capitol Governance</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/36-school-finance-recalibration.pdf">36 School Finance Recalibration</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/37-house-investigative.pdf">37 House Investigative</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/38-gaming.pdf">38 Gaming</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/39-health-insurance-affordability.pdf">39 Health Insurance Affordability</a> <span class="archive-meta">2026</span></li>
+            <li class="archive-item"><a href="../reports/2026/40-fraud-protection.pdf">40 Fraud Protection</a> <span class="archive-meta">2026</span></li>
+              </ul>
+            </li>
+            <li class="archive-year">
+              <h3>2023</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2023/01-01-judiciary.pdf">01 01 Judiciary</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/02-02-appropriations.pdf">02 02 Appropriations</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/03-03-revenue.pdf">03 03 Revenue</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/04-04-education.pdf">04 04 Education</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/05-05-agriculture.pdf">05 05 Agriculture</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/06-06-travel.pdf">06 06 Travel</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/07-07-corporations.pdf">07 07 Corporations</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/08-08-transportation.pdf">08 08 Transportation</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/09-09-minerals.pdf">09 09 Minerals</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/10-10-labor.pdf">10 10 Labor</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/11-11-journal.pdf">11 11 Journal</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/12-12-rules.pdf">12 12 Rules</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/13-air-transport.pdf">13 Air Transport</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/15-capitol-interpretative.pdf">15 Capitol Interpretative</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/17-blockchain.pdf">17 Blockchain</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/18-capital-financing.pdf">18 Capital Financing</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/19-legislative-facilities.pdf">19 Legislative Facilities</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/20-mental-health.pdf">20 Mental Health</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/21-school-facilities.pdf">21 School Facilities</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/22-tribal-relations.pdf">22 Tribal Relations</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/23-federal-natural-resource.pdf">23 Federal Natural Resource</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/25-select-water.pdf">25 Select Water</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/26-management-council.pdf">26 Management Council</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/27-management-audit-committee.pdf">27 Management Audit Committee</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/29-indian-child-welfare.pdf">29 Indian Child Welfare</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/30-mental-health.pdf">30 Mental Health</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/31-regulatory-reduction.pdf">31 Regulatory Reduction</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/32-riverton-state-office.pdf">32 Riverton State Office</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/33-state-shooting-complex.pdf">33 State Shooting Complex</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/34-capitol-governance.pdf">34 Capitol Governance</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/35-legislator-ethics.pdf">35 Legislator Ethics</a> <span class="archive-meta">2023</span></li>
+              </ul>
+            </li>
+            <li class="archive-year">
+              <h3>2022</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2022/wc-committee.pdf">Wc Committee</a> <span class="archive-meta">2022</span></li>
+              </ul>
+            </li>
+            <li class="archive-year">
+              <h3>2021</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2021/committees.pdf">Committees</a> <span class="archive-meta">2021</span></li>
+              </ul>
+            </li>
+            </ul>
           </section>
-          <section aria-labelledby="archive-criteria">
-            <h2 id="archive-criteria">Criteria Reports</h2>
-            <p><a href="historical-criteria.html">Historical Criteria Reports</a></p>
+          <section class="archive-section" id="counties" aria-labelledby="counties-heading">
+            <h2 id="counties-heading">Counties</h2>
+            <ul class="archive-list">
+            <li class="archive-year">
+              <h3>2023</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2023/2023-all-legislative-counties.pdf">2023 All Legislative Counties</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-natrona.pdf">2023 Natrona</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-niobrara.pdf">2023 Niobrara</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-park.pdf">2023 Park</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-platte.pdf">2023 Platte</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-sheridan.pdf">2023 Sheridan</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-sublette.pdf">2023 Sublette</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-sweetwater.pdf">2023 Sweetwater</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-teton.pdf">2023 Teton</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-uinta.pdf">2023 Uinta</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-washakie.pdf">2023 Washakie</a> <span class="archive-meta">2023</span></li>
+            <li class="archive-item"><a href="../reports/2023/2023-weston.pdf">2023 Weston</a> <span class="archive-meta">2023</span></li>
+              </ul>
+            </li>
+            <li class="archive-year">
+              <h3>2022</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2022/22-wc-county.pdf">22 Wc County</a> <span class="archive-meta">2022</span></li>
+              </ul>
+            </li>
+            <li class="archive-year">
+              <h3>2021</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2021/l-county-rate.pdf">L County Rate</a> <span class="archive-meta">2021</span></li>
+              </ul>
+            </li>
+            </ul>
           </section>
-
+          <section class="archive-section" id="ratings" aria-labelledby="ratings-heading">
+            <h2 id="ratings-heading">Ratings</h2>
+            <ul class="archive-list">
+            <li class="archive-year">
+              <h3>2026</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2026/wyovote_2026_All_Ranked_104_v3.0.pdf">2026 All legislators, ranked</a> <span class="archive-meta">2026 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2026/wyovote_2026_House_Ranked_108_v3.0.pdf">2026 House, ranked</a> <span class="archive-meta">2026 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2026/wyovote_2026_Senate_Ranked_106_v3.0.pdf">2026 Senate, ranked</a> <span class="archive-meta">2026 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2026/wyovote_2026_All_Alpha_103_v3.0.pdf">2026 All legislators, alphabetical</a> <span class="archive-meta">2026 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2026/wyovote_2026_House_Alpha_107_v3.0.pdf">2026 House, alphabetical</a> <span class="archive-meta">2026 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2026/wyovote_2026_Senate_Alpha_105_v3.0.pdf">2026 Senate, alphabetical</a> <span class="archive-meta">2026 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2026/26-all-rank-1p.pdf">2026 All legislators, ranked, 1-page</a> <span class="archive-meta">2026 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2026/26-house-rank-1p.pdf">2026 House, ranked, 1-page</a> <span class="archive-meta">2026 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2026/26-senate-rank-1p.pdf">2026 Senate, ranked, 1-page</a> <span class="archive-meta">2026 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2026/26-all-alpha-1p.pdf">2026 All legislators, alphabetical, 1-page</a> <span class="archive-meta">2026 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2026/26-house-alpha-1p.pdf">2026 House, alphabetical, 1-page</a> <span class="archive-meta">2026 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2026/26-senate-alpha-1p.pdf">2026 Senate, alphabetical, 1-page</a> <span class="archive-meta">2026 · 1-page</span></li>
+              </ul>
+            </li>
+            <li class="archive-year">
+              <h3>2025</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2025/wyovote_2025_All_Ranked_104_v3.0.pdf">2025 All legislators, ranked</a> <span class="archive-meta">2025 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2025/wyovote_2025_House_Ranked_108_v3.0.pdf">2025 House, ranked</a> <span class="archive-meta">2025 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2025/wyovote_2025_Senate_Ranked_106_v3.0.pdf">2025 Senate, ranked</a> <span class="archive-meta">2025 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2025/wyovote_2025_All_Alpha_103_v3.0.pdf">2025 All legislators, alphabetical</a> <span class="archive-meta">2025 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2025/wyovote_2025_House_Alpha_107_v3.0.pdf">2025 House, alphabetical</a> <span class="archive-meta">2025 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2025/wyovote_2025_Senate_Alpha_105_v3.0.pdf">2025 Senate, alphabetical</a> <span class="archive-meta">2025 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2025/25-all-rank-1p.pdf">2025 All legislators, ranked, 1-page</a> <span class="archive-meta">2025 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2025/25-house-rank-1p.pdf">2025 House, ranked, 1-page</a> <span class="archive-meta">2025 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2025/25-senate-rank-1p.pdf">2025 Senate, ranked, 1-page</a> <span class="archive-meta">2025 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2025/25-all-alpha-1p.pdf">2025 All legislators, alphabetical, 1-page</a> <span class="archive-meta">2025 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2025/25-house-alpha-1p.pdf">2025 House, alphabetical, 1-page</a> <span class="archive-meta">2025 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2025/25-senate-alpha-1p.pdf">2025 Senate, alphabetical, 1-page</a> <span class="archive-meta">2025 · 1-page</span></li>
+              </ul>
+            </li>
+            <li class="archive-year">
+              <h3>2024</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2024/wyovote_2024_All_Ranked_104_v3.0.pdf">2024 All legislators, ranked</a> <span class="archive-meta">2024 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2024/wyovote_2024_House_Ranked_108_v3.0.pdf">2024 House, ranked</a> <span class="archive-meta">2024 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2024/wyovote_2024_Senate_Ranked_106_v3.0.pdf">2024 Senate, ranked</a> <span class="archive-meta">2024 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2024/wyovote_2024_All_Alpha_103_v3.0.pdf">2024 All legislators, alphabetical</a> <span class="archive-meta">2024 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2024/wyovote_2024_House_Alpha_107_v3.0.pdf">2024 House, alphabetical</a> <span class="archive-meta">2024 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2024/wyovote_2024_Senate_Alpha_105_v3.0.pdf">2024 Senate, alphabetical</a> <span class="archive-meta">2024 · v3.0</span></li>
+            <li class="archive-item"><a href="../reports/2024/24-all-rank-1p.pdf">2024 All legislators, ranked, 1-page</a> <span class="archive-meta">2024 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2024/24-house-rank-1p.pdf">2024 House, ranked, 1-page</a> <span class="archive-meta">2024 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2024/24-senate-rank-1p.pdf">2024 Senate, ranked, 1-page</a> <span class="archive-meta">2024 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2024/24-all-alpha-1p.pdf">2024 All legislators, alphabetical, 1-page</a> <span class="archive-meta">2024 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2024/24-house-alpha-1p.pdf">2024 House, alphabetical, 1-page</a> <span class="archive-meta">2024 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2024/24-senate-alpha-1p.pdf">2024 Senate, alphabetical, 1-page</a> <span class="archive-meta">2024 · 1-page</span></li>
+              </ul>
+            </li>
+            <li class="archive-year">
+              <h3>2023</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2023/wyovote_2023_All_Ranked_104_v2.0.pdf">2023 All legislators, ranked</a> <span class="archive-meta">2023 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2023/wyovote_2023_House_Ranked_108_v2.0.pdf">2023 House, ranked</a> <span class="archive-meta">2023 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2023/wyovote_2023_Senate_Ranked_106_v2.0.pdf">2023 Senate, ranked</a> <span class="archive-meta">2023 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2023/wyovote_2023_All_Alpha_103_v2.0.pdf">2023 All legislators, alphabetical</a> <span class="archive-meta">2023 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2023/wyovote_2023_House_Alpha_107_v2.0.pdf">2023 House, alphabetical</a> <span class="archive-meta">2023 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2023/wyovote_2023_Senate_Alpha_105_v2.0.pdf">2023 Senate, alphabetical</a> <span class="archive-meta">2023 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2023/23-all-rank-1p.pdf">2023 All legislators, ranked, 1-page</a> <span class="archive-meta">2023 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2023/23-house-rank-1p.pdf">2023 House, ranked, 1-page</a> <span class="archive-meta">2023 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2023/23-senate-rank-1p.pdf">2023 Senate, ranked, 1-page</a> <span class="archive-meta">2023 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2023/23-all-alpha-1p.pdf">2023 All legislators, alphabetical, 1-page</a> <span class="archive-meta">2023 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2023/23-house-alpha-1p.pdf">2023 House, alphabetical, 1-page</a> <span class="archive-meta">2023 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2023/23-senate-alpha-1p.pdf">2023 Senate, alphabetical, 1-page</a> <span class="archive-meta">2023 · 1-page</span></li>
+              </ul>
+            </li>
+            <li class="archive-year">
+              <h3>2022</h3>
+              <ul class="archive-list">
+            <li class="archive-item"><a href="../reports/2022/wyovote_2022_All_Ranked_104_v2.0.pdf">2022 All legislators, ranked</a> <span class="archive-meta">2022 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2022/wyovote_2022_House_Ranked_108_v2.0.pdf">2022 House, ranked</a> <span class="archive-meta">2022 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2022/wyovote_2022_Senate_Ranked_106_v2.0.pdf">2022 Senate, ranked</a> <span class="archive-meta">2022 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2022/wyovote_2022_All_Alpha_103_v2.0.pdf">2022 All legislators, alphabetical</a> <span class="archive-meta">2022 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2022/wyovote_2022_House_Alpha_107_v2.0.pdf">2022 House, alphabetical</a> <span class="archive-meta">2022 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2022/wyovote_2022_Senate_Alpha_105_v2.0.pdf">2022 Senate, alphabetical</a> <span class="archive-meta">2022 · v2.0</span></li>
+            <li class="archive-item"><a href="../reports/2022/22-all-rank-1p.pdf">2022 All legislators, ranked, 1-page</a> <span class="archive-meta">2022 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2022/22-house-rank-1p.pdf">2022 House, ranked, 1-page</a> <span class="archive-meta">2022 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2022/22-senate-rank-1p.pdf">2022 Senate, ranked, 1-page</a> <span class="archive-meta">2022 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2022/22-all-alpha-1p.pdf">2022 All legislators, alphabetical, 1-page</a> <span class="archive-meta">2022 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2022/22-house-alpha-1p.pdf">2022 House, alphabetical, 1-page</a> <span class="archive-meta">2022 · 1-page</span></li>
+            <li class="archive-item"><a href="../reports/2022/22-senate-alpha-1p.pdf">2022 Senate, alphabetical, 1-page</a> <span class="archive-meta">2022 · 1-page</span></li>
+              </ul>
+            </li>
+            </ul>
+          </section>
         </div>
       </section>
     </main>
@@ -79,6 +283,5 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
-
   </body>
 </html>
