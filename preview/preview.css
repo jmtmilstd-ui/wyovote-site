@@ -118,6 +118,44 @@
   margin-top: 0.85rem;
 }
 
+/* Home column only: title, date, one description line. Four of these
+   stay inside the middle column on a tablet. */
+.home-columns .article-list h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.home-columns .article-list li + li {
+  margin-top: 0.55rem;
+}
+
+.home-columns .article-date,
+.home-columns .article-excerpt {
+  color: var(--color-ink, #142117);
+}
+
+.home-columns .article-date {
+  margin: 0.1rem 0 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.home-columns .article-excerpt {
+  margin: 0.1rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+}
+
+.home-columns .column-foot {
+  margin: 0.7rem 0 0;
+}
+
 .primary-links a {
   font-weight: 700;
 }
