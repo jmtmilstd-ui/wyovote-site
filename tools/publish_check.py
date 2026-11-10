@@ -67,9 +67,9 @@ def in_span(pos: int, spans: list[tuple[int, int]]) -> bool:
 def iter_files(root: Path) -> list[Path]:
     files: list[Path] = []
     for path in root.rglob("*"):
-        if ".git" in path.parts:
+        if ".git" in path.parts or "__pycache__" in path.parts:
             continue
-        if path.is_file():
+        if path.is_file() and path.suffix.lower() != ".pyc":
             files.append(path)
     return files
 

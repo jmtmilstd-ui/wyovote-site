@@ -9,5 +9,42 @@
 #   root:<html>             this root page may link into preview/ or show the PREVIEW banner
 #
 # A bare path is exempt from both the size check and the unreferenced check.
-#
-# No exceptions are listed. The check reports every current finding.
+
+# GitHub Pages custom domain. Never delete this file.
+unreferenced:CNAME
+
+# Tells GitHub Pages to serve the files as they are, without Jekyll.
+unreferenced:.nojekyll
+
+# Repository readme. Not a site page.
+unreferenced:README.md
+
+# Publishing notes. Not a site page.
+unreferenced:PUBLISH.md
+
+# Copyright notice. Not a site page.
+unreferenced:COPYRIGHT.md
+
+# Notes for the hero photos. Not a site page.
+unreferenced:assets/img/backgrounds/README.md
+
+# Notes for the report folders. Not a site page.
+unreferenced:reports/README.md
+
+# Version rule for publishing. Not a site page.
+unreferenced:docs/SITE_RULES.md
+
+# The publish check itself. Not a site asset.
+unreferenced:tools/publish_check.py
+
+# Exception list for the publish check. Not a site asset.
+unreferenced:tools/publish_check_allow.txt
+
+# GitHub Action that runs the publish check. Not a site asset.
+unreferenced:.github/workflows/publish-check.yml
+
+# Linked Word download of the A002 research report. Kept over 500 KB on purpose.
+size:articles/a002/A002_v1.0_2026_Legislature_Election_Results.docx
+
+# Legacy 2023 all-counties rollup. To be regenerated later.
+size:reports/2023/2023-all-legislative-counties.pdf
