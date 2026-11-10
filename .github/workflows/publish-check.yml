@@ -1,0 +1,12 @@
+name: Publish check
+
+on:
+  pull_request:
+
+jobs:
+  publish-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run publish check
+        run: python3 tools/publish_check.py
