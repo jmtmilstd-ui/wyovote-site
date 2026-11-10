@@ -904,12 +904,52 @@ ol.method-steps li {
   color: var(--color-ink, #142117);
 }
 
+.archive-year-box {
+  margin: 0 0 1.15rem;
+  padding: 0.85rem 1rem 0.45rem;
+  border: 2px solid var(--color-green-dark, #146b31);
+  border-radius: 0.35rem;
+  background: #ffffff;
+}
+
+.archive-year-box h2 {
+  margin: 0 0 0.45rem;
+}
+
+.archive-grid .archive-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.35rem 1.1rem;
+}
+
+@media (min-width: 600px) {
+  .archive-grid .archive-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .archive-grid .archive-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.archive-grid .archive-item {
+  font-size: 1.125rem;
+  color: var(--color-ink, #142117);
+}
+
 @media print {
   .archive-hub-btn,
   .archive-hub-title,
   .archive-hub-meta {
     background: #ffffff !important;
     color: #000000 !important;
+    border-color: #000000;
+  }
+
+  .archive-year-box {
+    background: #ffffff !important;
     border-color: #000000;
   }
 
