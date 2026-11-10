@@ -7,7 +7,8 @@ check fails, and 2 when the command itself cannot run.
 Checks:
 
   (a) any working-tree file is over 500 KB (512,000 bytes)
-  (b) any PDF or image is not referenced by an href or src in any .html file
+  (b) any asset other than HTML, CSS, or JS is not referenced by an HTML
+      href/src or a CSS url()
   (c) any href or src in an .html file points at a local file that is missing
   (d) any root page (not under preview/) links into preview/ or contains the
       PREVIEW banner
@@ -31,27 +32,21 @@ from urllib.parse import unquote, urlsplit
 FILE_LIMIT = 500 * 1024
 TREE_LIMIT = 200 * 1024 * 1024
 
-IMAGE_EXTENSIONS = {
-    ".pdf",
-    ".png",
-    ".jpg",
-    ".jpeg",
-    ".gif",
-    ".webp",
-    ".svg",
-    ".ico",
-    ".bmp",
-    ".avif",
-    ".tif",
-    ".tiff",
-}
+# Pages, stylesheets, and scripts are not assets. Everything else must be
+# referenced. .docx, .csv, and .json are included, along with PDFs and images.
+CODE_EXTENSIONS = {".html", ".htm", ".css", ".js", ".mjs", ".cjs"}
 
 REMOTE_SCHEMES = {"http", "https", "mailto", "tel", "javascript", "data"}
 ATTR_RE = re.compile(
     r"""(?is)\b(?:href|src)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+))"""
 )
 COMMENT_RE = re.compile(r"(?s)<!--.*?-->")
+CSS_COMMENT_RE = re.compile(r"(?s)/\*.*?\*/")
 BANNER_MARKERS = ("PREVIEW, not the live site", "preview-banner")
+
+
+def is_asset(path: Path) -> bool:
+    return path.suffix.lower() not in CODE_EXTENSIONS
 
 
 def norm(path: str) -> str:
@@ -184,6 +179,101 @@ def points_at_preview(raw: str, relative: str | None) -> bool:
     )
 
 
+def note_local(
+    root: Path,
+    source_file: Path,
+    source: str,
+    line: int,
+    raw: str,
+    target: str,
+    referenced: set[str],
+    missing: list[dict],
+) -> str | None:
+    """Record a local reference. Returns the repo-relative path when it stays in the repo."""
+    relative, error = resolve_local(root, source_file, target)
+    if error:
+        missing.append(
+            {
+                "html": source,
+                "line": line,
+                "url": raw.strip(),
+                "resolved": "",
+                "reason": error,
+            }
+        )
+        return None
+    assert relative is not None
+    destination = root / relative
+    if destination.is_file():
+        referenced.add(relative)
+    elif not destination.exists():
+        missing.append(
+            {
+                "html": source,
+                "line": line,
+                "url": raw.strip(),
+                "resolved": relative,
+                "reason": "file does not exist",
+            }
+        )
+    return relative
+
+
+def iter_css_urls(text: str):
+    """Yield (start index, raw value) for each url() outside a CSS comment."""
+    spans = [(match.start(), match.end()) for match in CSS_COMMENT_RE.finditer(text)]
+    lower = text.lower()
+    index = 0
+    while True:
+        start = lower.find("url(", index)
+        if start < 0:
+            return
+        index = start + 4
+        if in_span(start, spans):
+            continue
+        cursor = index
+        while cursor < len(text) and text[cursor].isspace():
+            cursor += 1
+        if cursor >= len(text):
+            return
+        if text[cursor] in ("'", '"'):
+            quote = text[cursor]
+            cursor += 1
+            end = text.find(quote, cursor)
+            if end < 0:
+                return
+            raw = text[cursor:end]
+            index = text.find(")", end)
+            if index < 0:
+                return
+            index += 1
+        else:
+            end = text.find(")", cursor)
+            if end < 0:
+                return
+            raw = text[cursor:end].strip()
+            index = end + 1
+        if raw:
+            yield start, raw
+
+
+def collect_css(
+    root: Path,
+    css_files: list[Path],
+    referenced: set[str],
+    missing: list[dict],
+) -> None:
+    for css_file in css_files:
+        text = css_file.read_text(encoding="utf-8", errors="replace")
+        source = rel_posix(root, css_file)
+        for start, raw in iter_css_urls(text):
+            target = local_target(raw)
+            if target is None:
+                continue
+            line = text.count("\n", 0, start) + 1
+            note_local(root, css_file, source, line, raw, target, referenced, missing)
+
+
 def collect_links(root: Path, html_files: list[Path]) -> tuple[set[str], list[dict], list[dict]]:
     referenced: set[str] = set()
     missing: list[dict] = []
@@ -201,32 +291,9 @@ def collect_links(root: Path, html_files: list[Path]) -> tuple[set[str], list[di
             target = local_target(raw)
             relative = None
             if target is not None:
-                relative, error = resolve_local(root, html_file, target)
-                if error:
-                    missing.append(
-                        {
-                            "html": source,
-                            "line": line,
-                            "url": raw.strip(),
-                            "resolved": "",
-                            "reason": error,
-                        }
-                    )
-                else:
-                    assert relative is not None
-                    destination = root / relative
-                    if destination.is_file():
-                        referenced.add(relative)
-                    elif not destination.exists():
-                        missing.append(
-                            {
-                                "html": source,
-                                "line": line,
-                                "url": raw.strip(),
-                                "resolved": relative,
-                                "reason": "file does not exist",
-                            }
-                        )
+                relative = note_local(
+                    root, html_file, source, line, raw, target, referenced, missing
+                )
             if is_root_page and points_at_preview(raw, relative):
                 preview_links.append(
                     {
@@ -282,8 +349,10 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
         allow_note = f"allow list: {allow_path} ({count} entries)"
 
     files = iter_files(root)
-    html_files = sorted(path for path in files if path.suffix.lower() == ".html")
+    html_files = sorted(path for path in files if path.suffix.lower() in {".html", ".htm"})
+    css_files = sorted(path for path in files if path.suffix.lower() == ".css")
     referenced, missing, preview_links = collect_links(root, html_files)
+    collect_css(root, css_files, referenced, missing)
     banners = banner_hits(root, html_files)
 
     names, git_error = tracked_files(root)
@@ -308,7 +377,7 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
             oversized.append((size, relative))
         elif size > file_limit:
             suppressed += 1
-        if path.suffix.lower() in IMAGE_EXTENSIONS:
+        if is_asset(path):
             if relative not in referenced and relative not in rules["unreferenced"]:
                 unreferenced.append((size, relative))
             elif relative not in referenced:
@@ -367,13 +436,16 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
     if not oversized:
         lines.append("  (none)")
     lines.append("")
-    lines.append(f"PDFs and images not referenced by any HTML href or src: {len(unreferenced)}")
+    lines.append(
+        "Assets with no HTML href/src or CSS url() "
+        f"(every file except HTML, CSS, and JS): {len(unreferenced)}"
+    )
     for size, relative in unreferenced:
         lines.append(f"  {size:12,}  {relative}")
     if not unreferenced:
         lines.append("  (none)")
     lines.append("")
-    lines.append(f"HTML href/src targets that are not local files: {len(missing_left)}")
+    lines.append(f"HTML href/src and CSS url() targets that are not local files: {len(missing_left)}")
     for item in missing_left:
         resolved = item["resolved"] or item["reason"]
         lines.append(f"  {item['html']}:{item['line']}  {item['url']}  ->  {resolved}")
@@ -394,6 +466,7 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
         "Counts: "
         f"working_tree_files={len(files)} "
         f"html={len(html_files)} "
+        f"css={len(css_files)} "
         f"tracked_files={len(tracked_rows)} "
         f"tracked_bytes={tracked_total} "
         f"oversized={len(oversized)} "
