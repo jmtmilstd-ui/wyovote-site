@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Catherine McQueen — 2026 Primary — WyoVote</title>
-    <meta name="description" content="Catherine McQueen, House District 38, 2026 primary.">
+    <meta name="description" content="Catherine McQueen (Democratic, Casper): Democratic precinct committeewoman (former). Unopposed in the Aug. 18, 2026 Democratic primary for State House District 38.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../css/styles.css">
     <link rel="stylesheet" href="../../../assets/css/site.css">
@@ -41,8 +41,29 @@
       </section>
       <section class="page-body">
         <div class="wrap">
+          <p class="cand-blurb">Catherine McQueen (Democratic, Casper): Democratic precinct committeewoman (former). Unopposed in the Aug. 18, 2026 Democratic primary for State House District 38.</p>
           <p class="cand-meta">House District 38 · Democratic</p>
           <p class="cand-res">Primary result: Unopposed</p>
+          <section class="cand-research" aria-labelledby="h-research">
+                      <h2 id="h-research">Research</h2>
+                      <table class="cand-facts">
+                        <tr><th scope="row">Residence</th><td>Casper, Natrona County</td></tr>
+                        <tr><th scope="row">Background</th><td><p>I am Catherine D. McQueen, a lifelong Democrat, longtime Casper resident, and former precinct committeewoman. After the loss of my husband, I raised three children in Wyoming while working hard to provide for my family and build a better future. Today, my children have successful careers, and I am proud that they learned the values of hard work, responsibility, and service to others. I am running because I believe government should work for everyday people. Wyoming needs leaders who listen, who understand the challenges families face, and who are willing to work across differences to find practical solutions. …</p></td></tr>
+                        <tr><th scope="row">Prior offices</th><td>Democratic precinct committeewoman (former)</td></tr>
+                        <tr><th scope="row">Issue positions</th><td><p class="cand-topic">What are the biggest challenges and opportunities facing Wyoming today? As a legislator, how would you address them?</p><p>Wyoming faces several significant challenges, including affordable housing, access to healthcare, workforce development, and ensuring our economy remains strong for future generations. Many families are feeling the impact of rising costs while communities work to attract and retain workers and young families. …</p><p class="cand-topic">We asked WyoFile readers to rank issues that are important to them, and healthcare costs and access topped the list. What can the Legislature do to make healthcare more affordable and accessible to Wyomingites?</p><p>Healthcare is a concern for families across Wyoming, particularly in rural communities where access to providers can be limited. The Legislature should work to strengthen rural healthcare systems, support efforts to recruit and retain doctors, nurses, and other healthcare professionals, and expand access to telehealth …</p><p class="cand-topic">Do you support efforts to sell or transfer public land in Wyoming? How do you plan to ensure that state and federal land is managed in the best interest of the people of Wyoming?</p><p>Wyoming’s public lands are an important part of our heritage, economy, and way of life. They support recreation, agriculture, energy development, wildlife, and tourism. Any decisions regarding public lands should be made carefully, transparently, and with significant public input. …</p><p class="cand-topic">No two Wyoming counties are the same when it comes to how they generate revenue. As a legislator, how would you approach the public&#x27;s desire for property tax relief with local revenue needs?</p><p>Property taxes are a significant concern for many homeowners, especially seniors and families living on fixed or limited incomes. At the same time, counties rely on property tax revenue to fund essential services such as public safety, roads, and local government operations. …</p><p class="cand-topic">What role, if any, should the Wyoming Legislature play in economic development?</p><p>The Legislature plays an important role in creating conditions that allow businesses and workers to succeed. Government cannot create prosperity on its own, but it can help provide the foundation for economic growth through infrastructure, education, workforce development, and a stable business environment. …</p><p class="cand-topic">Explain your values when it comes to campaign donations. Does Wyoming&#x27;s system for monitoring campaign donations and expenditures need reform?</p><p>Campaign contributions should be transparent, lawful, and disclosed in a timely manner so voters can make informed decisions. The public deserves confidence that elected officials are accountable to the people they represent. …</p></td></tr>
+                        <tr><th scope="row">Endorsements</th><td>Unburdening The Ballot: Voting Made Easy (Sway voting group by Tevin (Momala) Davis)</td></tr>
+                        <tr><th scope="row">Fundraising</th><td>Raised $350. Spent $178.50. 2026 election (primary and general periods combined); primary-period subtotal shown separately when reported, through latest filings compiled by WyoFile (guide last updated Oct 29, 2026). Largest reported contributors: DRABBS, JOHN (CASPER) ($100); BRUST, JOAN (CASPER) ($100); NATRONA DEMOCRATIC PARTY CENTRAL COMMITTEE (CASPER) ($100); BRADY, JON (ALCOVA) ($50). Source: WyoFile election guide, as of Oct 29, 2026.</td></tr>
+                        <tr><th scope="row">2026 primary result</th><td>Unopposed, 109 votes (100%), 1st of 1.</td></tr>
+                      </table>
+                      <h2 id="h-sources">Sources</h2>
+                      <ul class="cand-sources">
+                        <li><a href="https://sos.wyo.gov/Elections/Docs/2026/2026_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2026 primary candidate filing list</a></li>
+                        <li><a href="https://projects.wyofile.com/election-guide-2026/candidates/mcqueen-catherine/">WyoFile 2026 Election Guide</a></li>
+                        <li><a href="https://ballotpedia.org/Catherine_McQueen">Ballotpedia</a></li>
+                        <li><a href="https://www.wycampaignfinance.gov/WYCFWebApplication/GSF_SystemConfiguration/SearchContributions.aspx">WyCampaignFinance search (underlying public filings)</a></li>
+                        <li><a href="https://sos.wyo.gov/Elections/Docs/2026/Results/Primary/2026_Wyoming_Primary_Results.zip">Wyoming SOS official 2026 primary results (Results Summaries - OFFICIAL)</a></li>
+                      </ul>
+                    </section>
         </div>
       </section>
     </main>
@@ -62,16 +83,28 @@
     <script>
       (function () {
         var link = document.getElementById("cand-back");
+        if (!link) return;
+        function countyName(slug) {
+          return slug.split("-").map(function (word) {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+          }).join(" ");
+        }
+        function useCounty(slug) {
+          if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
+          link.setAttribute("href", "../" + slug + ".html");
+          link.textContent = "\u2190 Back to " + countyName(slug) + " County";
+          return true;
+        }
+        var from = new URLSearchParams(location.search).get("from");
+        if (from && useCounty(from)) return;
         if (!document.referrer) return;
         var ref;
         try { ref = new URL(document.referrer); } catch (error) { return; }
         if (ref.origin !== location.origin) return;
-        if (!/\/candidates\/2026-primary\/[a-z-]+\.html$/.test(ref.pathname)) return;
-        link.setAttribute("href", ref.pathname + ref.search);
-        var county = ref.pathname.split("/").pop().replace(".html", "").split("-").map(function (word) {
-          return word.charAt(0).toUpperCase() + word.slice(1);
-        }).join(" ");
-        link.textContent = "← Back to " + county + " County";
+        var path = ref.pathname.replace(/\/+$/, "");
+        var match = path.match(/\/candidates\/2026-primary\/([a-z]+(?:-[a-z]+)*)(?:\.html)?$/);
+        if (!match) return;
+        useCounty(match[1]);
       })();
     </script>
   </body>

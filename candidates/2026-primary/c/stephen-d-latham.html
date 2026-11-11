@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stephen D. Latham — 2026 Primary — WyoVote</title>
-    <meta name="description" content="Stephen D. Latham, House District 9, 2026 primary.">
+    <meta name="description" content="Stephen D. Latham (Democratic, Cheyenne): Pastor, No Greater Love Church of God in Christ; retired (communications company; Cheyenne VA Medical Center); U.S. Air Force, more than 2">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../css/styles.css">
     <link rel="stylesheet" href="../../../assets/css/site.css">
@@ -41,8 +41,32 @@
       </section>
       <section class="page-body">
         <div class="wrap">
+          <p class="cand-blurb">Stephen D. Latham (Democratic, Cheyenne): Pastor, No Greater Love Church of God in Christ; retired (communications company; Cheyenne VA Medical Center); U.S. Air Force, more than 21 years. Unopposed in the Aug. 18, 2026 Democratic primary for State House District 9.</p>
           <p class="cand-meta">House District 9 · Democratic</p>
           <p class="cand-res">Primary result: Unopposed</p>
+          <section class="cand-research" aria-labelledby="h-research">
+                      <h2 id="h-research">Research</h2>
+                      <table class="cand-facts">
+                        <tr><th scope="row">Residence</th><td>Cheyenne, Laramie County</td></tr>
+                        <tr><th scope="row">Occupation</th><td>Pastor, No Greater Love Church of God in Christ; retired (communications company; Cheyenne VA Medical Center)</td></tr>
+                        <tr><th scope="row">Background</th><td><p>Born and raised in Cheyenne. Former president of the Cheyenne branch of the NAACP. Ran for House District 9 in 2022 and Cheyenne City Council in 2024.</p></td></tr>
+                        <tr><th scope="row">Military</th><td>U.S. Air Force, more than 21 years</td></tr>
+                        <tr><th scope="row">Website</th><td><a href="https://latham4wy.com/">https://latham4wy.com/</a></td></tr>
+                        <tr><th scope="row">Issue positions</th><td><p class="cand-topic">Education</p><p>Public money should go to public schools; opposes diverting public funds to private-school vouchers; supports more support for the University of Wyoming.</p><p class="cand-topic">Infrastructure and housing</p><p>Proactive repair of aging water mains; &quot;attainable housing&quot; for average families.</p><p class="cand-topic">Data centers</p><p>Cautiously supportive of growth; wants comprehensive planning and state involvement in moratorium discussions.</p></td></tr>
+                        <tr><th scope="row">Endorsements</th><td>Unburdening The Ballot: Voting Made Easy (Sway voting group by Tevin (Momala) Davis)</td></tr>
+                        <tr><th scope="row">Fundraising</th><td>Raised $1,435. Spent $100. 2026 election (primary and general periods combined); primary-period subtotal shown separately when reported, through latest filings compiled by WyoFile (guide last updated Oct 29, 2026). Primary election: raised $150, spent $100. Largest reported contributors: LATHAM, STEPHEN (CHEYENNE) ($100); Anonymous ($50). Source: WyoFile election guide, as of Oct 29, 2026.</td></tr>
+                        <tr><th scope="row">2026 primary result</th><td>Unopposed, 275 votes (100%), 1st of 1.</td></tr>
+                      </table>
+                      <h2 id="h-sources">Sources</h2>
+                      <ul class="cand-sources">
+                        <li><a href="https://sos.wyo.gov/Elections/Docs/2026/2026_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2026 primary candidate filing list</a></li>
+                        <li><a href="https://www.wyomingnews.com/news/local_news/stephen-latham-discusses-his-campaign-for-cheyennes-hd-9-seat/article_86a60e7b-7304-49dc-9adb-f6b117b11cf5.html">Wyoming Tribune Eagle, Jul. 21, 2026</a></li>
+                        <li><a href="https://ballotpedia.org/Stephen_Latham">Ballotpedia</a></li>
+                        <li><a href="https://projects.wyofile.com/election-guide-2026/candidates/latham-stephen/">WyoFile 2026 Election Guide (candidate questionnaire / profile)</a></li>
+                        <li><a href="https://www.wycampaignfinance.gov/WYCFWebApplication/GSF_SystemConfiguration/SearchContributions.aspx">WyCampaignFinance search (underlying public filings)</a></li>
+                        <li><a href="https://sos.wyo.gov/Elections/Docs/2026/Results/Primary/2026_Wyoming_Primary_Results.zip">Wyoming SOS official 2026 primary results (Results Summaries - OFFICIAL)</a></li>
+                      </ul>
+                    </section>
         </div>
       </section>
     </main>
@@ -62,16 +86,28 @@
     <script>
       (function () {
         var link = document.getElementById("cand-back");
+        if (!link) return;
+        function countyName(slug) {
+          return slug.split("-").map(function (word) {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+          }).join(" ");
+        }
+        function useCounty(slug) {
+          if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
+          link.setAttribute("href", "../" + slug + ".html");
+          link.textContent = "\u2190 Back to " + countyName(slug) + " County";
+          return true;
+        }
+        var from = new URLSearchParams(location.search).get("from");
+        if (from && useCounty(from)) return;
         if (!document.referrer) return;
         var ref;
         try { ref = new URL(document.referrer); } catch (error) { return; }
         if (ref.origin !== location.origin) return;
-        if (!/\/candidates\/2026-primary\/[a-z-]+\.html$/.test(ref.pathname)) return;
-        link.setAttribute("href", ref.pathname + ref.search);
-        var county = ref.pathname.split("/").pop().replace(".html", "").split("-").map(function (word) {
-          return word.charAt(0).toUpperCase() + word.slice(1);
-        }).join(" ");
-        link.textContent = "← Back to " + county + " County";
+        var path = ref.pathname.replace(/\/+$/, "");
+        var match = path.match(/\/candidates\/2026-primary\/([a-z]+(?:-[a-z]+)*)(?:\.html)?$/);
+        if (!match) return;
+        useCounty(match[1]);
       })();
     </script>
   </body>

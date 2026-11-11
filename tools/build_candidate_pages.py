@@ -49,22 +49,33 @@ BLANK = {
     "na",
 }
 WYOFILE_NOTE = "Source: WyoFile election guide, as of Oct 29, 2026."
-BACK_OLD = re.compile(
-    r"if \(!/\\/candidates\\/2026-primary\\/\[a-z-\]\+\\.html\$/\.test\(ref\.pathname\)\) return;\s*"
-    r"link\.setAttribute\(\"href\", ref\.pathname \+ ref\.search\);\s*"
-    r"var county = ref\.pathname\.split\(\"/\"\)\.pop\(\)\.replace\(\"\.html\", \"\"\)\.split\(\"-\"\)\.map\(function \(word\) \{\s*"
-    r"return word\.charAt\(0\)\.toUpperCase\(\) \+ word\.slice\(1\);\s*"
-    r"\}\)\.join\(\" \"\);\s*"
-    r"link\.textContent = \"← Back to \" \+ county \+ \" County\";"
-)
-BACK_NEW = """var path = ref.pathname.replace(/\\/+$/, "");
-        var match = path.match(/\\/candidates\\/2026-primary\\/([a-z]+(?:-[a-z]+)*)(?:\\.html)?$/);
+BACK_SCRIPT = r"""<script>
+      (function () {
+        var link = document.getElementById("cand-back");
+        if (!link) return;
+        function countyName(slug) {
+          return slug.split("-").map(function (word) {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+          }).join(" ");
+        }
+        function useCounty(slug) {
+          if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
+          link.setAttribute("href", "../" + slug + ".html");
+          link.textContent = "\u2190 Back to " + countyName(slug) + " County";
+          return true;
+        }
+        var from = new URLSearchParams(location.search).get("from");
+        if (from && useCounty(from)) return;
+        if (!document.referrer) return;
+        var ref;
+        try { ref = new URL(document.referrer); } catch (error) { return; }
+        if (ref.origin !== location.origin) return;
+        var path = ref.pathname.replace(/\/+$/, "");
+        var match = path.match(/\/candidates\/2026-primary\/([a-z]+(?:-[a-z]+)*)(?:\.html)?$/);
         if (!match) return;
-        link.setAttribute("href", "../" + match[1] + ".html");
-        var county = match[1].split("-").map(function (word) {
-          return word.charAt(0).toUpperCase() + word.slice(1);
-        }).join(" ");
-        link.textContent = "\\u2190 Back to " + county + " County";"""
+        useCounty(match[1]);
+      })();
+    </script>"""
 
 
 def clean(value) -> str | None:
@@ -457,18 +468,13 @@ def slug_for(name: str, index_by_name: dict) -> str | None:
 
 
 def update_back_script(text: str) -> str:
-    if "var path = ref.pathname.replace" in text:
+    if 'new URLSearchParams(location.search).get("from")' in text:
         return text
-    text = text.replace(
-        'if (!/\\/candidates\\/2026-primary\\/[a-z-]+\\.html$/.test(ref.pathname)) return;\n'
-        '        link.setAttribute("href", ref.pathname + ref.search);\n'
-        '        var county = ref.pathname.split("/").pop().replace(".html", "").split("-").map(function (word) {\n'
-        '          return word.charAt(0).toUpperCase() + word.slice(1);\n'
-        '        }).join(" ");\n'
-        '        link.textContent = "← Back to " + county + " County";',
-        BACK_NEW.replace("\\\\", "\\"),
-    )
-    return text
+    start = text.find('<script>')
+    end = text.find('</script>')
+    if start == -1 or end == -1 or 'cand-back' not in text[start:end]:
+        raise SystemExit("back script missing")
+    return text[:start] + BACK_SCRIPT + text[end + len("</script>"):]
 
 
 def write_pages(records: list[dict]) -> int:
