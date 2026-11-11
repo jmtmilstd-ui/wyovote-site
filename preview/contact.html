@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact — WyoVote</title>
-    <meta name="description" content="Contact WyoVote by email.">
+    <meta name="description" content="Send a message to WyoVote.">
     <link rel="icon" href="assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="preview.css">
@@ -32,6 +32,7 @@
         </nav>
       </div>
     </header>
+
     <main id="main">
       <div class="wrap back-wrap">
         <p class="back-row"><a class="back-btn" href="index.html">← Back to Home</a></p>
@@ -42,19 +43,59 @@
         </div>
       </section>
       <section class="page-body">
-        <div class="wrap">
-          <p class="intro">Questions and corrections can be sent by email.</p>
-          <p><a class="contact-email" href="mailto:jmtmilstd@gmail.com">jmtmilstd@gmail.com</a></p>
+        <div class="wrap page-prose">
+          <p>Questions and corrections can be sent to WyoVote with this form. A reply goes to the email address you enter.</p>
+          <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a46dd735-e531-498d-aa96-eb66dfadb91d">
+            <input type="hidden" name="from_name" value="WyoVote website">
+            <input type="hidden" name="subject" id="mail-subject" value="WyoVote contact: General">
+            <input type="hidden" name="redirect" value="https://wyovote.com/preview/contact-thanks.html">
+            <input type="hidden" name="replyto" value="email">
+            <div class="form-honeypot" aria-hidden="true">
+              <label>Leave this blank <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label>
+            </div>
+            <label>Name
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label>Subject
+              <select id="topic" name="topic" required>
+                <option value="General">General</option>
+                <option value="Correction">Correction</option>
+                <option value="Media">Media</option>
+                <option value="Other">Other</option>
+              </select>
+            </label>
+            <label>Message
+              <textarea name="message" required></textarea>
+            </label>
+            <button type="submit">Send message</button>
+          </form>
+          <script>
+            (function () {
+              var form = document.getElementById("contact-form");
+              var topic = document.getElementById("topic");
+              var subject = document.getElementById("mail-subject");
+              function sync() {
+                subject.value = "WyoVote contact: " + topic.value;
+              }
+              topic.addEventListener("change", sync);
+              form.addEventListener("submit", sync);
+              sync();
+            })();
+          </script>
         </div>
       </section>
     </main>
+
     <footer class="site-footer">
       <div class="wrap footer-inner">
         <nav aria-label="Footer">
           <ul class="footer-links">
             <li><a href="about.html">About</a></li>
             <li><a href="privacy.html">Privacy</a></li>
-            <li><a href="terms.html">Terms</a></li>
             <li><a href="contact.html" aria-current="page">Contact</a></li>
           </ul>
         </nav>
