@@ -766,6 +766,71 @@ ol.method-steps li {
   font-size: 0.9rem;
 }
 
+.icon-tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+  list-style: none;
+  margin: 0 0 0.7rem;
+  padding: 0;
+}
+
+.icon-tiles a {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.4rem;
+  border: 1px solid #146b31;
+  background: #ffffff;
+  color: #142117;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.icon-tiles a:hover,
+.icon-tiles a:focus-visible {
+  background: #e7f5eb;
+  color: #142117;
+}
+
+.tile-icon {
+  width: 42%;
+  height: auto;
+  display: block;
+}
+
+.report-year {
+  margin: 0.7rem 0 0.35rem;
+  font-size: 1.25rem;
+  color: #142117;
+}
+
+.older-reports {
+  margin: 0.15rem 0 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.older-reports a {
+  color: #142117;
+}
+
+@media print {
+  .icon-tiles a,
+  .report-year,
+  .older-reports a {
+    color: #000000 !important;
+    background: #ffffff !important;
+    border-color: #000000;
+  }
+}
+
 /* Home: How the Ratings Work button (bottom of Reports column, about 80% of the earlier size) */
 .how-ratings-foot {
   margin: 0.85rem 0 0;
