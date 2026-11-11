@@ -96,7 +96,12 @@
           <p class="older-reports"><a href="archive/reports.html">Full reports and older years in Archive</a></p>
           <p class="how-ratings-foot"><a class="how-ratings-btn" href="how-ratings-work.html">How the Ratings Work</a></p>
         </section>
-        <section aria-labelledby="articles-heading">
+        <section aria-label="News and articles">
+          <div id="home-news" class="home-news" data-news="home" data-json="data/news.json" data-root="">
+            <noscript>
+              <p class="news-empty">The news boxes need a browser that runs scripts. <a href="data/news.json">News data</a></p>
+            </noscript>
+          </div>
           <h2 id="articles-heading">Articles</h2>
           <!-- Articles stack: max 4, newest on top. When adding a new article, insert it at the top and drop the 5th so it appears only on the Archive page. -->
           <ul class="article-list">
@@ -139,6 +144,6 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
-
+    <script src="news-box.js"></script>
   </body>
 </html>
