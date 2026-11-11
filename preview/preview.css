@@ -1612,17 +1612,33 @@ body.cand-page {
 
 .cand-race {
   margin: 0;
-  padding: 0.65rem 0.75rem 0.75rem;
   border: 2px solid #146b31;
   background: #ffffff;
   break-inside: avoid;
 }
 
 .cand-race h3 {
-  margin: 0 0 0.25rem;
-  color: #142117;
+  margin: 0;
+  padding: 0.4rem 0.75rem;
+  background: #0e2a18;
+  color: #ffffff;
   font-size: 14pt;
+  font-weight: 700;
   line-height: 1.25;
+}
+
+.cand-race-body {
+  padding: 0.15rem 0.75rem 0.7rem;
+}
+
+.cand-party {
+  margin: 0.55rem 0 0;
+  padding: 0.1rem 0;
+  border-bottom: 2px solid #146b31;
+  color: #146b31;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 .cand-place,
@@ -1636,9 +1652,15 @@ body.cand-page {
 }
 
 .cand-person {
-  margin: 0.55rem 0 0;
-  padding-top: 0.45rem;
+  margin: 0.5rem 0 0;
+  padding-top: 0.4rem;
   border-top: 2px solid #146b31;
+}
+
+.cand-party + .cand-person {
+  margin-top: 0.4rem;
+  padding-top: 0;
+  border-top: 0;
 }
 
 .cand-person h4 {
@@ -1706,6 +1728,7 @@ body.cand-page {
 }
 
 @media print {
+  .cand-race h3,
   .cand-inc,
   .cand-dive {
     print-color-adjust: exact;
