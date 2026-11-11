@@ -19,7 +19,7 @@ The boxes read `preview/data/news.json`. A weekly update is a new article page p
 }
 ```
 
-`url` is relative to the `preview/` folder. `date` is `YYYY-MM-DD`.
+`url` is relative to the `preview/` folder. `date` is `YYYY-MM-DD`. Optional `date_label` is the text shown on the box, such as `Week of Nov 16, 2026`. When it is omitted, the box shows the formatted `date`.
 
 `special` is either `null` or an object with `date`, `expires`, `title`, `summary`, and `url`. `expires` is the morning the box comes down, seven days after `date`. A special posted on November 11 uses `"expires": "2026-11-18"`. It shows on November 11 through November 17, and the home page hides it on November 18. That check runs in the browser from the dates in the file, so the box disappears on the expires date even if the site is not redeployed.
 
@@ -50,6 +50,6 @@ After the expires date, the home box hides by itself and the archive page lists 
 - News and a current special: Special is on top, then News.
 - No current news and no current special: neither box is drawn. If past items exist, the “Past news” link remains.
 
-## Sample
+## Current items
 
-The file shipped with this change uses sample headlines, “SAMPLE news article - text coming” and “SAMPLE Special - text coming”. The special is dated November 11, 2026, so both boxes are visible through November 17, 2026. Replace the sample when the real text is ready.
+The news box is the week of Nov 16, 2026 article on interim committees. The special is the Nov 11, 2026 article on certified election results. That special expires Nov 18, 2026, so both boxes stay visible through Nov 17, 2026.

@@ -53,8 +53,8 @@
     var article = el("article", "news-box" + (kind === "special" ? " news-box-special" : " news-box-news"));
     article.appendChild(el("p", "news-kicker", kind === "special" ? "Special" : "News"));
     var date = el("p", "news-date");
-    var time = el("time", "", formatDate(item.date));
-    if (item.date) time.setAttribute("datetime", item.date);
+    var time = el("time", "", item.date_label || formatDate(item.date));
+    if (parseISODate(item.date)) time.setAttribute("datetime", item.date);
     date.appendChild(time);
     article.appendChild(date);
     var heading = el("h3");
