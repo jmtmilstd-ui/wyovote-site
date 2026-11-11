@@ -5,7 +5,7 @@ body.pf .brand img { height: 3.2rem; }
 body.pf .site-name { font-size: 1.9rem; }
 body.pf .site-nav ul { flex-direction: row; flex-wrap: wrap; gap: 0.15rem; margin-top: 0.3rem; }
 body.pf .site-nav a { display: inline-block; padding: 0.4rem 0.55rem; border-radius: 0.35rem 0.35rem 0 0; font-size: 14.5pt; }
-body.pf .site-nav a[aria-current="page"] { box-shadow: inset 0 -4px 0 var(--color-green); }
+body.pf .site-nav a[aria-current="page"] { box-shadow: inset 0 -4px 0 #5c4306; }
 body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 .profile { padding-bottom: 1.5rem; }
 .profile h1, .profile h2 { font-family: var(--font-serif); }
