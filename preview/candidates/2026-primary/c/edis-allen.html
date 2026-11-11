@@ -70,7 +70,7 @@
         try { ref = new URL(document.referrer); } catch (error) { return; }
         if (ref.origin !== location.origin) return;
         if (!/\/candidates\/2026-primary\/[a-z-]+\.html$/.test(ref.pathname)) return;
-        link.href = ref.pathname + ref.search;
+        link.setAttribute("href", ref.pathname + ref.search);
         var county = ref.pathname.split("/").pop().replace(".html", "").split("-").map(function (word) {
           return word.charAt(0).toUpperCase() + word.slice(1);
         }).join(" ");
