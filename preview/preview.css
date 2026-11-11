@@ -1561,3 +1561,192 @@ ol.method-steps li {
   font-size: 14pt;
   line-height: 1.4;
 }
+
+body.cand-page {
+  font-size: 14pt;
+  color: #142117;
+}
+
+.cand-counties {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cand-counties a {
+  display: block;
+  padding: 0.85rem 1rem;
+  border: 2px solid #146b31;
+  background: #ffffff;
+  color: #0e2a18;
+  font-size: 14pt;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cand-counties a:hover,
+.cand-counties a:focus-visible {
+  background: #e7f5eb;
+}
+
+.cand-group {
+  margin: 1.15rem 0 0;
+}
+
+.cand-group-title {
+  margin: 0 0 0.55rem;
+  color: #142117;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.cand-race-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+  align-items: start;
+}
+
+.cand-race {
+  margin: 0;
+  border: 2px solid #146b31;
+  background: #ffffff;
+  break-inside: avoid;
+}
+
+.cand-race h3 {
+  margin: 0;
+  padding: 0.4rem 0.75rem;
+  background: #0e2a18;
+  color: #ffffff;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.cand-how {
+  margin: 0.35rem 0 0.15rem;
+  color: #142117;
+  font-size: 14pt;
+  line-height: 1.4;
+}
+
+.cand-names {
+  margin: 0;
+  padding: 0.4rem 0.75rem 0.55rem;
+  list-style: none;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 1.35;
+}
+
+.cand-names li {
+  margin: 0.12rem 0;
+}
+
+.cand-names a {
+  color: #0e2a18;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.cand-names a:hover,
+.cand-names a:focus-visible {
+  color: #0d4e22;
+}
+
+.cand-abbr {
+  color: #142117;
+  font-size: 12pt;
+  font-weight: 700;
+}
+
+.cand-place,
+.cand-meta,
+.cand-blurb,
+.cand-res {
+  margin: 0.2rem 0 0;
+  color: #142117;
+  font-size: 14pt;
+  line-height: 1.4;
+}
+
+.cand-blurb {
+  margin: 0 0 0.75rem;
+}
+
+.cand-names .cand-res {
+  margin: 0;
+  color: #142117;
+  font-size: 12pt;
+  font-weight: 700;
+}
+
+.cand-page .page-body a {
+  color: #0e2a18;
+}
+
+.cand-inc {
+  display: inline-block;
+  margin: 0 0.25rem;
+  padding: 0 0.4rem;
+  background: #146b31;
+  color: #ffffff;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.cand-res {
+  font-weight: 700;
+}
+
+.punch-list {
+  display: none !important;
+}
+
+@media (min-width: 600px) {
+  .cand-counties,
+  .cand-race-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .cand-counties,
+  .cand-race-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media print {
+  body.cand-page {
+    font-size: 14pt;
+    color: #000000;
+  }
+
+  .cand-names,
+  .cand-names a,
+  .cand-abbr,
+  .cand-names .cand-res {
+    color: #000000;
+    font-size: 12pt;
+  }
+
+  .cand-race {
+    border: 2px solid #000000;
+  }
+
+  .cand-race h3,
+  .cand-inc {
+    print-color-adjust: exact;
+  }
+
+  .punch-list {
+    display: none !important;
+  }
+}

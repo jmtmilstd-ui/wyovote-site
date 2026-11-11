@@ -22,4 +22,4 @@ The live pages are the HTML files in the repository root. Publish by copying the
 4. Do not copy `preview/preview.css` onto the live pages. Do not add a `CNAME` file.
 5. Open a pull request to `main`. The root pages update when that pull request is merged. Leave `preview/` in place for the next round of work.
 
-Last preview update: 2026-11-08 (2026 ratings added).
+Last preview update: 2026-11-11 (2026 primary candidates published).

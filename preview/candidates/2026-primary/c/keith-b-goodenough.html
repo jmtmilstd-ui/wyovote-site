@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keith B. Goodenough — 2026 Primary — WyoVote</title>
+    <meta name="description" content="Keith B. Goodenough, United States Representative, 2026 primary.">
+    <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
+    <link rel="stylesheet" href="../../../../css/styles.css">
+    <link rel="stylesheet" href="../../../preview.css">
+  </head>
+  <body class="cand-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="../../../index.html">
+          <img src="../../../assets/img/surveyor-icon.png" alt="" width="135" height="152">
+          <span class="site-name">WyoVote</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="../../../archive.html">Archive</a></li>
+            <li><a href="../../../candidates.html" aria-current="page">Candidates</a></li>
+            <li><a href="../../../archive/committees.html">Committees</a></li>
+            <li><a href="../../../archive/counties.html">Counties</a></li>
+            <li><a href="../../../officials.html">Officials</a></li>
+            <li><a href="../../../research.html">Research</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div class="wrap back-wrap">
+        <p class="back-row"><a class="back-btn" id="cand-back" href="../../../candidates.html">← Back to Candidates</a></p>
+      </div>
+      <section class="page-hero">
+        <div class="wrap">
+          <h1>Keith B. Goodenough</h1>
+        </div>
+      </section>
+      <section class="page-body">
+        <div class="wrap">
+          <p class="cand-meta">United States Representative · Republican</p>
+          <p class="cand-res">Primary result: Lost</p>
+          <p>More research coming.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="../../../about.html">About</a></li>
+            <li><a href="../../../privacy.html">Privacy</a></li>
+            <li><a href="../../../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2026 WyoVote. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        var link = document.getElementById("cand-back");
+        if (!document.referrer) return;
+        var ref;
+        try { ref = new URL(document.referrer); } catch (error) { return; }
+        if (ref.origin !== location.origin) return;
+        if (!/\/candidates\/2026-primary\/[a-z-]+\.html$/.test(ref.pathname)) return;
+        link.setAttribute("href", ref.pathname + ref.search);
+        var county = ref.pathname.split("/").pop().replace(".html", "").split("-").map(function (word) {
+          return word.charAt(0).toUpperCase() + word.slice(1);
+        }).join(" ");
+        link.textContent = "← Back to " + county + " County";
+      })();
+    </script>
+  </body>
+</html>
