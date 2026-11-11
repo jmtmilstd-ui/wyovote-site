@@ -22,7 +22,11 @@
           <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../archive.html">Archive</a></li>
+            <li><a href="../candidates.html">Candidates</a></li>
+            <li><a href="../archive/committees.html">Committees</a></li>
+            <li><a href="../archive/counties.html">Counties</a></li>
             <li><a href="../officials.html" aria-current="page">Officials</a></li>
+            <li><a href="../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -30,7 +34,7 @@
 
     <main id="main" class="profile">
       <div class="wrap">
-        <p class="pf-back"><a href="haroldson.html">← 2026 session page</a></p>
+        <p class="back-row"><a class="back-btn" href="haroldson.html">← Back to Jeremy Haroldson</a></p>
         <section class="pf-head" aria-labelledby="h-name">
           <h1 id="h-name">Jeremy Haroldson</h1>
           <p class="pf-sub">Deeper dive · House District 04 · Republican</p>
@@ -105,7 +109,36 @@
 
         <section class="pf-card" aria-labelledby="h-issue">
           <h2 id="h-issue">Issue-area breakdown</h2>
-          <p class="deep-soon">Coming soon. The reports in this repo do not give his average score by Bill Rating Guide category.</p>
+          <p class="cat-prelim">Categories preliminary</p>
+          <p class="deep-note">Chamber rank is within the House or Senate. Overall rank is among legislators ranked in that category. 1 is the most conservative. A blank rank is explained in the row.</p>
+          <div class="deep-scroll">
+            <table class="deep-table">
+              <thead><tr><th scope="col">Category</th><th scope="col">Chamber rank</th><th scope="col">Overall rank</th><th scope="col">Band</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Taxes</th><td>21</td><td>29</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Spending</th><td>30</td><td>31</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Regulations</th><td>6</td><td>6</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Government Size</th><td>31</td><td>34</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
+                <tr><th scope="row">Government Over-Reach</th><td>6</td><td>6</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">States Rights</th><td>34</td><td>40</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Wyoming Constitution</th><td colspan="3">too few votes in category</td></tr>
+                <tr><th scope="row">US Constitution</th><td>22</td><td>22</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Free Speech</th><td>20</td><td>20</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Second Amendment</th><td>7</td><td>7</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Education Spending</th><td>30</td><td>36</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Legislating in Budget</th><td>29</td><td>35</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
+                <tr><th scope="row">Private Property</th><td>18</td><td>21</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Pro-Life</th><td>40</td><td>43</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Picking Losers/Winners</th><td>8</td><td>8</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Local Control</th><td>26</td><td>29</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
+                <tr><th scope="row">Transparency</th><td>21</td><td>21</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Federal Funds</th><td>29</td><td>31</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Health Care</th><td>30</td><td>30</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Criminal Penalties</th><td>11</td><td>13</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
+                <tr><th scope="row">Property Tax</th><td>19</td><td>29</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
+              </tbody>
+            </table>
+          </div>
         </section>
 
         <section class="pf-card" aria-labelledby="h-missed">
@@ -170,7 +203,20 @@
 
         <section class="pf-card" aria-labelledby="h-votes">
           <h2 id="h-votes">Scored votes</h2>
-          <p class="deep-soon">Coming soon. The reports in this repo do not list each scored vote, so there is no year filter yet.</p>
+          <p class="deep-note">Each row is one roll call. Category is Uncategorized when the roll call has no issue tag. Bill lean is Conservative, Liberal, or Neutral.</p>
+          <details class="vote-details" data-rolls="../data/roll-calls-2026.json">
+            <summary>545 roll calls, newest first</summary>
+            <div class="deep-scroll">
+              <p class="vote-wait">Loading the roll calls.</p>
+              <table class="deep-table deep-votes" hidden>
+                <thead><tr><th scope="col">Date</th><th scope="col">Bill</th><th scope="col">Title</th><th scope="col">Stage</th><th scope="col">Vote</th><th scope="col">Category</th><th scope="col">Bill lean</th></tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <noscript><p class="vote-noscript">This vote list needs JavaScript. <a href="../data/roll-calls-2026.json">Open the 2026 roll-call file</a>.</p></noscript>
+          </details>
+          <script type="application/json" id="vote-ids">[[0,"Aye"],[1,"Aye"],[2,"Aye"],[3,"Aye"],[4,"Aye"],[5,"Aye"],[6,"Aye"],[7,"Aye"],[8,"Aye"],[9,"Aye"],[10,"Aye"],[11,"Aye"],[12,"Aye"],[13,"Aye"],[14,"Aye"],[15,"Aye"],[16,"Excused"],[17,"Aye"],[18,"Aye"],[19,"Aye"],[20,"No"],[21,"Excused"],[22,"Excused"],[23,"Excused"],[24,"No"],[25,"Aye"],[26,"Aye"],[27,"Aye"],[28,"Aye"],[29,"Aye"],[30,"Aye"],[31,"No"],[32,"Aye"],[33,"No"],[34,"Excused"],[35,"Excused"],[36,"Aye"],[37,"No"],[38,"No"],[39,"Aye"],[40,"Aye"],[41,"Aye"],[42,"No"],[43,"Aye"],[44,"Aye"],[45,"No"],[46,"No"],[47,"No"],[48,"Aye"],[49,"Aye"],[50,"Aye"],[51,"No"],[52,"Aye"],[53,"Aye"],[54,"Aye"],[55,"No"],[56,"Aye"],[57,"No"],[58,"Aye"],[59,"No"],[60,"No"],[61,"Aye"],[62,"Aye"],[63,"Aye"],[64,"No"],[65,"No"],[66,"No"],[67,"No"],[68,"No"],[69,"Aye"],[70,"Aye"],[71,"No"],[72,"Aye"],[73,"Aye"],[74,"No"],[75,"Aye"],[76,"Aye"],[77,"Aye"],[78,"Excused"],[79,"Excused"],[80,"Excused"],[81,"Aye"],[82,"No"],[83,"Aye"],[84,"Aye"],[85,"Aye"],[86,"Aye"],[87,"Aye"],[88,"Aye"],[89,"Aye"],[90,"No"],[91,"Aye"],[92,"Aye"],[93,"Aye"],[94,"No"],[95,"Aye"],[96,"Aye"],[97,"Aye"],[98,"No"],[99,"Aye"],[100,"Aye"],[101,"Aye"],[102,"No"],[103,"Aye"],[104,"Aye"],[105,"No"],[106,"Aye"],[107,"No"],[108,"Aye"],[109,"Aye"],[110,"Aye"],[111,"Aye"],[112,"Aye"],[113,"Aye"],[114,"No"],[115,"Aye"],[116,"No"],[117,"Aye"],[118,"No"],[119,"Aye"],[120,"Aye"],[121,"No"],[122,"Aye"],[123,"Aye"],[124,"Aye"],[125,"Aye"],[126,"Aye"],[127,"Aye"],[128,"Aye"],[129,"Aye"],[130,"Aye"],[131,"Aye"],[132,"Aye"],[133,"Aye"],[134,"Aye"],[135,"Aye"],[136,"Aye"],[137,"Aye"],[138,"Aye"],[139,"Aye"],[140,"Aye"],[141,"Aye"],[142,"Aye"],[143,"Aye"],[144,"Aye"],[145,"Aye"],[146,"Aye"],[147,"Aye"],[148,"Aye"],[149,"Aye"],[150,"Aye"],[151,"Aye"],[152,"No"],[153,"Aye"],[154,"No"],[155,"Aye"],[156,"Aye"],[157,"Aye"],[158,"Aye"],[159,"No"],[160,"Aye"],[161,"Aye"],[162,"Aye"],[163,"No"],[164,"Aye"],[165,"No"],[166,"Aye"],[167,"Aye"],[168,"Aye"],[169,"Aye"],[170,"Aye"],[171,"Aye"],[172,"Aye"],[173,"Aye"],[174,"No"],[175,"Aye"],[176,"Aye"],[177,"Aye"],[178,"Aye"],[179,"Aye"],[180,"Aye"],[181,"Aye"],[182,"Aye"],[183,"Aye"],[184,"Aye"],[185,"Aye"],[186,"Aye"],[187,"Aye"],[188,"Aye"],[189,"Aye"],[190,"No"],[191,"Aye"],[192,"Aye"],[193,"Aye"],[194,"Aye"],[195,"Aye"],[196,"Aye"],[197,"No"],[198,"Aye"],[199,"Aye"],[200,"Aye"],[201,"Aye"],[202,"No"],[203,"Aye"],[204,"No"],[205,"No"],[206,"No"],[207,"No"],[208,"No"],[209,"No"],[210,"No"],[211,"No"],[212,"No"],[213,"Aye"],[214,"No"],[215,"No"],[216,"No"],[217,"No"],[218,"Aye"],[219,"Aye"],[220,"No"],[221,"No"],[222,"No"],[223,"No"],[224,"No"],[225,"No"],[226,"No"],[227,"No"],[228,"No"],[229,"Aye"],[230,"No"],[231,"No"],[232,"No"],[233,"Aye"],[234,"Aye"],[235,"No"],[236,"No"],[237,"No"],[238,"No"],[239,"Aye"],[240,"Aye"],[241,"Aye"],[242,"Aye"],[243,"Aye"],[244,"No"],[245,"No"],[246,"No"],[247,"No"],[248,"Aye"],[249,"No"],[250,"No"],[251,"No"],[252,"No"],[253,"No"],[254,"No"],[255,"No"],[256,"No"],[257,"No"],[258,"No"],[259,"No"],[260,"No"],[261,"No"],[262,"No"],[263,"No"],[264,"No"],[265,"No"],[266,"No"],[267,"No"],[268,"No"],[269,"No"],[270,"No"],[271,"No"],[272,"Aye"],[273,"Aye"],[274,"No"],[275,"Aye"],[276,"Aye"],[277,"Aye"],[278,"Aye"],[279,"Excused"],[280,"Aye"],[281,"Aye"],[282,"Aye"],[283,"Aye"],[284,"Excused"],[285,"Excused"],[286,"Aye"],[287,"Aye"],[288,"Aye"],[289,"Aye"],[290,"No"],[291,"No"],[292,"No"],[293,"No"],[294,"No"],[295,"No"],[296,"No"],[297,"No"],[298,"No"],[299,"No"],[300,"No"],[301,"No"],[302,"Aye"],[303,"No"],[304,"No"],[305,"No"],[306,"No"],[307,"No"],[308,"No"],[309,"No"],[310,"No"],[311,"No"],[312,"No"],[313,"Aye"],[314,"No"],[315,"No"],[316,"No"],[317,"Aye"],[318,"No"],[319,"No"],[320,"No"],[321,"No"],[322,"Aye"],[323,"No"],[324,"Aye"],[325,"No"],[326,"No"],[327,"No"],[328,"No"],[329,"No"],[330,"No"],[331,"No"],[332,"No"],[333,"No"],[334,"No"],[335,"No"],[336,"No"],[337,"No"],[338,"No"],[339,"No"],[340,"No"],[341,"No"],[342,"No"],[343,"No"],[344,"No"],[345,"No"],[346,"No"],[347,"No"],[348,"No"],[349,"No"],[350,"No"],[351,"Aye"],[352,"Aye"],[353,"Aye"],[354,"Aye"],[355,"No"],[356,"Aye"],[357,"Aye"],[358,"Aye"],[359,"Aye"],[360,"Aye"],[361,"Aye"],[362,"Aye"],[363,"Aye"],[364,"Aye"],[365,"Aye"],[366,"Aye"],[367,"Aye"],[368,"Aye"],[369,"Aye"],[370,"Aye"],[371,"Aye"],[372,"Aye"],[373,"Aye"],[374,"Aye"],[375,"Aye"],[376,"Aye"],[377,"Aye"],[378,"Aye"],[379,"Aye"],[380,"Aye"],[381,"Aye"],[382,"Aye"],[383,"Aye"],[384,"Aye"],[385,"Aye"],[386,"Aye"],[387,"Aye"],[388,"Aye"],[389,"Aye"],[390,"Aye"],[391,"Aye"],[392,"Aye"],[393,"Aye"],[394,"Aye"],[395,"No"],[396,"Aye"],[397,"Aye"],[398,"Aye"],[399,"Aye"],[400,"Aye"],[401,"Aye"],[402,"Aye"],[403,"Aye"],[404,"No"],[405,"Aye"],[406,"Aye"],[407,"No"],[408,"No"],[409,"Aye"],[410,"Aye"],[411,"No"],[412,"No"],[413,"No"],[414,"Aye"],[415,"Aye"],[416,"Aye"],[417,"Aye"],[418,"Aye"],[419,"No"],[420,"No"],[421,"Aye"],[422,"No"],[423,"No"],[424,"No"],[425,"No"],[426,"No"],[427,"Aye"],[428,"Aye"],[429,"Aye"],[430,"Aye"],[431,"Aye"],[432,"No"],[433,"Aye"],[434,"Aye"],[435,"Aye"],[436,"Aye"],[437,"Aye"],[438,"No"],[439,"Aye"],[440,"Aye"],[441,"Aye"],[442,"Aye"],[443,"Aye"],[444,"Aye"],[445,"Aye"],[446,"Aye"],[447,"Aye"],[448,"Aye"],[449,"No"],[450,"Aye"],[451,"Aye"],[452,"Aye"],[453,"Aye"],[454,"Aye"],[455,"Aye"],[456,"Aye"],[457,"Aye"],[458,"Aye"],[459,"Aye"],[460,"Aye"],[461,"Aye"],[462,"No"],[463,"Aye"],[464,"Aye"],[465,"Aye"],[466,"Aye"],[467,"Aye"],[468,"Aye"],[469,"Aye"],[470,"Aye"],[471,"Aye"],[472,"Aye"],[473,"Aye"],[474,"Aye"],[475,"Aye"],[476,"Aye"],[477,"No"],[478,"Aye"],[479,"No"],[480,"Aye"],[481,"Aye"],[482,"Aye"],[483,"Aye"],[484,"No"],[485,"Aye"],[486,"No"],[487,"Aye"],[488,"Aye"],[489,"Aye"],[490,"Aye"],[491,"Aye"],[492,"Aye"],[493,"Aye"],[494,"Aye"],[495,"Aye"],[496,"Aye"],[497,"Aye"],[498,"Aye"],[499,"Aye"],[500,"Aye"],[501,"Aye"],[502,"Aye"],[503,"Aye"],[504,"Aye"],[505,"Aye"],[506,"Aye"],[507,"Aye"],[508,"Aye"],[509,"Aye"],[510,"Aye"],[511,"Aye"],[512,"Aye"],[513,"Aye"],[514,"Aye"],[515,"Aye"],[516,"Aye"],[517,"Aye"],[518,"Aye"],[519,"Aye"],[520,"Aye"],[521,"Aye"],[522,"Aye"],[523,"Aye"],[524,"Aye"],[525,"Aye"],[526,"No"],[527,"Aye"],[528,"Aye"],[529,"No"],[530,"Aye"],[531,"Aye"],[532,"No"],[533,"Aye"],[534,"Aye"],[535,"Aye"],[536,"No"],[537,"Aye"],[538,"Aye"],[539,"Aye"],[540,"Aye"],[541,"Aye"],[542,"Aye"],[543,"Aye"],[544,"Aye"]]</script>
+          <script src="votes.js"></script>
         </section>
 
         <p class="pf-foot">Session page: <a href="haroldson.html">Jeremy Haroldson, 2026</a>. How the numbers are made: <a href="../how-ratings-work.html">How Ratings Work</a>.</p>
