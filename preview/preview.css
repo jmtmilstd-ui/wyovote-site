@@ -782,10 +782,10 @@ ol.method-steps li {
 
 .icon-tiles {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 3.7rem));
+  grid-template-columns: repeat(2, minmax(0, 3.7rem));
   justify-content: start;
   gap: 0.28rem;
-  width: min(100%, calc(4 * 3.7rem + 3 * 0.28rem));
+  width: min(100%, calc(2 * 3.7rem + 0.28rem));
   list-style: none;
   margin: 0;
   padding: 0;
@@ -989,6 +989,12 @@ ol.method-steps li {
   margin: 1.4rem 0 0.4rem;
   font-size: 1.45rem;
   color: var(--color-ink, #142117);
+}
+
+.archive-type h3 {
+  margin: 0.65rem 0 0.15rem;
+  font-size: 1.15rem;
+  color: #142117;
 }
 
 .archive-type h2:first-child,
