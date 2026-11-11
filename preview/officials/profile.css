@@ -65,6 +65,10 @@ body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 
 .deep-note { margin: 0 0 0.55rem; font-size: 14.5pt; color: #142117; }
 .deep-soon { margin: 0; font-size: 14.5pt; font-weight: 700; color: #142117; }
+.cat-prelim { margin: 0 0 0.45rem; font-size: 14.5pt; font-weight: 700; color: #142117; }
+.vote-details { margin: 0.35rem 0 0; }
+.vote-details summary { font-size: 14.5pt; font-weight: 700; color: #142117; cursor: pointer; }
+.deep-votes td { font-size: 12.5pt; }
 .deep-scroll { overflow-x: auto; margin: 0; }
 table.deep-table { width: 100%; border-collapse: collapse; font-size: 12.5pt; color: #142117; }
 table.deep-table td a { white-space: normal; color: #0e2a18; }
