@@ -766,12 +766,28 @@ ol.method-steps li {
   font-size: 0.9rem;
 }
 
+.report-year-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 0.28rem;
+}
+
+.home-columns .report-year {
+  flex: 0 0 3.2rem;
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.1;
+}
+
 .icon-tiles {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.55rem;
+  grid-template-columns: repeat(4, minmax(0, 3.7rem));
+  justify-content: start;
+  gap: 0.28rem;
+  width: min(100%, calc(4 * 3.7rem + 3 * 0.28rem));
   list-style: none;
-  margin: 0 0 0.7rem;
+  margin: 0;
   padding: 0;
 }
 
@@ -781,16 +797,22 @@ ol.method-steps li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.3rem;
-  padding: 0.4rem;
+  gap: 0.12rem;
+  width: 100%;
+  padding: 0.15rem;
   border: 1px solid #146b31;
   background: #ffffff;
   color: #142117;
   text-decoration: none;
   text-align: center;
-  font-size: 1.05rem;
+  font-size: 12.5pt;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.05;
+}
+
+.icon-tiles a span {
+  display: block;
+  max-width: 100%;
 }
 
 .icon-tiles a:hover,
@@ -800,14 +822,14 @@ ol.method-steps li {
 }
 
 .tile-icon {
-  width: 42%;
-  height: auto;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
   display: block;
 }
 
 .report-year {
-  margin: 0.7rem 0 0.35rem;
-  font-size: 1.25rem;
+  margin: 0;
   color: #142117;
 }
 
