@@ -1592,18 +1592,37 @@ body.cand-page {
   background: #e7f5eb;
 }
 
+.cand-group {
+  margin: 1.15rem 0 0;
+}
+
+.cand-group-title {
+  margin: 0 0 0.55rem;
+  color: #142117;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.cand-race-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+  align-items: start;
+}
+
 .cand-race {
-  margin: 0 0 1.1rem;
-  padding: 0.85rem 1rem 1rem;
+  margin: 0;
+  padding: 0.65rem 0.75rem 0.75rem;
   border: 2px solid #146b31;
   background: #ffffff;
   break-inside: avoid;
 }
 
-.cand-race h2 {
-  margin: 0 0 0.35rem;
+.cand-race h3 {
+  margin: 0 0 0.25rem;
   color: #142117;
-  font-size: 1.35rem;
+  font-size: 14pt;
+  line-height: 1.25;
 }
 
 .cand-place,
@@ -1617,18 +1636,19 @@ body.cand-page {
 }
 
 .cand-person {
-  margin: 0.9rem 0 0;
-  padding-top: 0.75rem;
+  margin: 0.55rem 0 0;
+  padding-top: 0.45rem;
   border-top: 2px solid #146b31;
 }
 
-.cand-person h3 {
+.cand-person h4 {
   margin: 0;
   color: #142117;
-  font-size: 1.2rem;
+  font-size: 14pt;
+  line-height: 1.25;
 }
 
-.cand-person h3 a,
+.cand-person h4 a,
 .cand-page .page-body a {
   color: #0e2a18;
 }
@@ -1650,8 +1670,8 @@ body.cand-page {
 
 .cand-dive {
   display: inline-block;
-  margin-top: 0.45rem;
-  padding: 0.45rem 0.9rem;
+  margin-top: 0.3rem;
+  padding: 0.35rem 0.75rem;
   border: 2px solid #0e2a18;
   border-radius: 0.7rem;
   background: #1f5c2e;
@@ -1672,13 +1692,15 @@ body.cand-page {
 }
 
 @media (min-width: 600px) {
-  .cand-counties {
+  .cand-counties,
+  .cand-race-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 1000px) {
-  .cand-counties {
+  .cand-counties,
+  .cand-race-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
