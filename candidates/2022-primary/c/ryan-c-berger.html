@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan C. Berger — 2022 Primary — WyoVote</title>
+    <meta name="description" content="Ryan C. Berger (Republican, Evanston): Educator; Wyoming House District 49, 2023–2024; Wyoming House of Representatives District 49, 2023–2025. Won the Aug. 16, 2022 Republican primary for State House District 49 with 66.1% of the vote. Won the Nov. 8, 2022 general election with 70.6% of the vote.">
+    <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="../../../assets/css/site.css">
+  </head>
+  <body class="cand-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="../../../index.html">
+          <img src="../../../assets/img/surveyor-icon.png" alt="" width="135" height="152">
+          <span class="site-name">WyoVote</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div class="wrap back-wrap">
+        <p class="back-row"><a class="back-btn" id="cand-back" href="../../../candidates.html">← Back to Candidates</a></p>
+      </div>
+      <section class="page-hero"><div class="wrap">
+          <h1>Ryan C. Berger</h1>
+      </div></section>
+      <section class="page-body"><div class="wrap">
+          <p class="cand-blurb">Ryan C. Berger (Republican, Evanston): Educator; Wyoming House District 49, 2023–2024; Wyoming House of Representatives District 49, 2023–2025. Won the Aug. 16, 2022 Republican primary for State House District 49 with 66.1% of the vote. Won the Nov. 8, 2022 general election with 70.6% of the vote.</p>
+          <p class="cand-meta">Republican · Evanston, Uinta County</p>
+          <p class="cand-res">Primary result: Won, 1,494 votes (66.1%), 1st of 2.</p>
+          <p class="cand-res">General result: Won, 2,060 votes (70.6%), 1st of 2.</p>
+          <section class="cand-research" aria-labelledby="h-research">
+          <h2 id="h-research">Research</h2>
+          <table class="cand-facts">
+          <tr><th scope="row">Occupation</th><td>Educator</td></tr>
+          <tr><th scope="row">Background</th><td><p>Ryan Berger was born in Jackson, Wyoming. Berger earned a B.A. in K-6 education and a B.A. in K-12 exceptional generalist from the University of Wyoming in 1999. His career experience includes working as a high school special education teacher.</p></td></tr>
+          <tr><th scope="row">Education</th><td>Bachelor&#x27;s: University of Wyoming, 1999</td></tr>
+          <tr><th scope="row">Prior offices</th><td>Wyoming House District 49, 2023–2024; Wyoming House of Representatives District 49, 2023–2025</td></tr>
+          </table>
+          <h2 id="h-sources">Sources</h2>
+          <ul class="cand-sources">
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/2024_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2024 primary candidate filing list</a></li>
+          <li><a href="https://ballotpedia.org/Ryan_Berger">Ballotpedia</a></li>
+          <li><a href="https://wyoleg.gov/LsoService/api/legislator/2111">Wyoming Legislature member record (prior service)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
+          </ul>
+          </section>
+      </div></section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="../../../about.html">About</a></li>
+            <li><a href="../../../privacy.html">Privacy</a></li>
+            <li><a href="../../../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2026 WyoVote. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        var link = document.getElementById("cand-back");
+        if (!link) return;
+        function countyName(slug) {
+          return slug.split("-").map(function (word) {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+          }).join(" ");
+        }
+        function useCounty(slug) {
+          if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
+          link.setAttribute("href", "../" + slug + ".html");
+          link.textContent = "\u2190 Back to " + countyName(slug) + " County";
+          return true;
+        }
+        var from = new URLSearchParams(location.search).get("from");
+        if (from && useCounty(from)) return;
+        if (!document.referrer) return;
+        var ref;
+        try { ref = new URL(document.referrer); } catch (error) { return; }
+        if (ref.origin !== location.origin) return;
+        var path = ref.pathname.replace(/\/+$/, "");
+        var match = path.match(/\/candidates\/2026-primary\/([a-z]+(?:-[a-z]+)*)(?:\.html)?$/);
+        if (!match) return;
+        useCounty(match[1]);
+      })();
+    </script>
+  </body>
+</html>
