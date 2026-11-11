@@ -547,6 +547,27 @@
   font-weight: 600;
 }
 
+.year-choice {
+  margin: 0 0 0.8rem;
+  font-size: 14pt;
+  font-weight: 700;
+  color: #142117;
+}
+
+.year-choice a {
+  color: #0e2a18;
+}
+
+body.pf-2025 {
+  font-size: 14pt;
+}
+
+body.pf-2025 table.deep-table,
+body.pf-2025 .deep-votes td {
+  font-size: 12.5pt;
+  color: #142117;
+}
+
 .page-body .intro {
   margin: 0 0 0.65rem;
 }

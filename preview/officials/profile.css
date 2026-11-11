@@ -1,5 +1,6 @@
 /* WyoVote legislator profile pages (preview). Tablet-first: 16px+ text, strong contrast, no tables (the site CSS turns tables into cards on phones). */
 body.pf { font-size: 14.5pt; line-height: 1.4; color: #142117; min-height: 0; }
+body.pf.pf-2025 { font-size: 14pt; }
 body.pf .site-header .header-inner { padding-top: 0.5rem; padding-bottom: 0; }
 body.pf .brand img { height: 3.2rem; }
 body.pf .site-name { font-size: 1.9rem; }
