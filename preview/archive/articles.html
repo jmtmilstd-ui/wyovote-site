@@ -42,12 +42,30 @@
         </div>
       </section>
       <section class="page-body">
-        <div class="wrap archive-type">
-          <h2>2026</h2>
-          <ul class="archive-list">
-            <li class="archive-item"><a href="../articles/a002-2026-legislature-election-results.html">Wyoming&#x27;s 2026 Legislative Election: One Party Flip, 38 Open Seats</a> <span class="archive-meta">Nov. 9, 2026 · v1.0</span></li>
-            <li class="archive-item"><a href="../articles/barlow-sommers.html">Barlow and Sommers: Two Old Speakers Ride Back to Cheyenne</a> <span class="archive-meta">Nov. 8, 2026</span></li>
-          </ul>
+        <div class="wrap">
+          <p class="article-key">A green News tag marks a WyoVote news article. A gold Special tag marks a special. Other articles have no tag.</p>
+          <div id="article-archive" data-news="../data/news.json" data-root="../">
+            <noscript>
+              <p class="article-key">The news and special titles need a browser that runs scripts. <a href="../data/news.json">News data</a></p>
+              <section class="article-year">
+                <h2>2026</h2>
+                <ul class="article-stack">
+                  <li class="article-entry">
+                    <p class="article-entry-title"><a href="../articles/a002-2026-legislature-election-results.html">Wyoming&#x27;s 2026 Legislative Election: One Party Flip, 38 Open Seats</a></p>
+                    <p class="article-entry-date"><time datetime="2026-11-09">Nov. 9, 2026</time></p>
+                  </li>
+                  <li class="article-entry">
+                    <p class="article-entry-title"><a href="../articles/barlow-sommers.html">Barlow and Sommers: Two Old Speakers Ride Back to Cheyenne</a></p>
+                    <p class="article-entry-date"><time datetime="2026-11-08">Nov. 8, 2026</time></p>
+                  </li>
+                </ul>
+              </section>
+            </noscript>
+          </div>
+          <script type="application/json" id="archive-articles">[
+            {"date":"2026-11-09","title":"Wyoming's 2026 Legislative Election: One Party Flip, 38 Open Seats","url":"articles/a002-2026-legislature-election-results.html"},
+            {"date":"2026-11-08","title":"Barlow and Sommers: Two Old Speakers Ride Back to Cheyenne","url":"articles/barlow-sommers.html"}
+          ]</script>
         </div>
       </section>
     </main>
@@ -63,5 +81,6 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
+    <script src="../archive-articles.js"></script>
   </body>
 </html>
