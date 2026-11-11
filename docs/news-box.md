@@ -41,7 +41,11 @@ Post one WyoVote news article each Monday, about Wyoming. Write 300 to 500 words
 2. In `data/news.json` and `preview/data/news.json`, move the current `current_news` object to the front of `archive`.
 3. Set `current_news` to the new article.
 
-The previous article then leaves the home box. It is listed on `news/archive.html`, newest first. The News box links there as “Past news”.
+The previous article then leaves the home box. On the preview home page, Past news goes to the Archive Articles page (`preview/archive/articles.html`). That page reads `news.json`, so the outgoing article and the new one appear in the same list as the other articles, newest first, with a News tag. You do not add those lines by hand. A special in the file appears there with a Special tag.
+
+`preview/news/archive.html` redirects to the Archive Articles page so older links still land there.
+
+A regular article, one that is not news or a special, is still added by hand in the article list inside `preview/archive/articles.html`. Title and date only.
 
 ## A special
 
