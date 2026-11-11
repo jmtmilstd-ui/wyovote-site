@@ -1627,18 +1627,42 @@ body.cand-page {
   line-height: 1.25;
 }
 
-.cand-race-body {
-  padding: 0.15rem 0.75rem 0.7rem;
+.cand-how {
+  margin: 0.35rem 0 0.15rem;
+  color: #142117;
+  font-size: 14pt;
+  line-height: 1.4;
 }
 
-.cand-party {
-  margin: 0.55rem 0 0;
-  padding: 0.1rem 0;
-  border-bottom: 2px solid #146b31;
-  color: #146b31;
-  font-size: 14pt;
+.cand-names {
+  margin: 0;
+  padding: 0.4rem 0.75rem 0.55rem;
+  list-style: none;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 1.35;
+}
+
+.cand-names li {
+  margin: 0.12rem 0;
+}
+
+.cand-names a {
+  color: #0e2a18;
   font-weight: 700;
-  line-height: 1.3;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.cand-names a:hover,
+.cand-names a:focus-visible {
+  color: #0d4e22;
+}
+
+.cand-abbr {
+  color: #142117;
+  font-size: 12pt;
+  font-weight: 700;
 }
 
 .cand-place,
@@ -1651,26 +1675,17 @@ body.cand-page {
   line-height: 1.4;
 }
 
-.cand-person {
-  margin: 0.5rem 0 0;
-  padding-top: 0.4rem;
-  border-top: 2px solid #146b31;
+.cand-blurb {
+  margin: 0 0 0.75rem;
 }
 
-.cand-party + .cand-person {
-  margin-top: 0.4rem;
-  padding-top: 0;
-  border-top: 0;
-}
-
-.cand-person h4 {
+.cand-names .cand-res {
   margin: 0;
   color: #142117;
-  font-size: 14pt;
-  line-height: 1.25;
+  font-size: 12pt;
+  font-weight: 700;
 }
 
-.cand-person h4 a,
 .cand-page .page-body a {
   color: #0e2a18;
 }
@@ -1688,25 +1703,6 @@ body.cand-page {
 
 .cand-res {
   font-weight: 700;
-}
-
-.cand-dive {
-  display: inline-block;
-  margin-top: 0.3rem;
-  padding: 0.35rem 0.75rem;
-  border: 2px solid #0e2a18;
-  border-radius: 0.7rem;
-  background: #1f5c2e;
-  color: #ffffff;
-  font-size: 14pt;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.cand-dive:hover,
-.cand-dive:focus-visible {
-  background: #174726;
-  color: #ffffff;
 }
 
 .punch-list {
@@ -1728,9 +1724,25 @@ body.cand-page {
 }
 
 @media print {
+  body.cand-page {
+    font-size: 14pt;
+    color: #000000;
+  }
+
+  .cand-names,
+  .cand-names a,
+  .cand-abbr,
+  .cand-names .cand-res {
+    color: #000000;
+    font-size: 12pt;
+  }
+
+  .cand-race {
+    border: 2px solid #000000;
+  }
+
   .cand-race h3,
-  .cand-inc,
-  .cand-dive {
+  .cand-inc {
     print-color-adjust: exact;
   }
 
