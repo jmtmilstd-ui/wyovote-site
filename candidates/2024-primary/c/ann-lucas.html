@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ann Lucas — 2024 Primary — WyoVote</title>
+    <meta name="description" content="Ann Lucas (Republican, Cheyenne): Retired; Wyoming House District 43, 2025–Present. Won the Aug. 20, 2024 Republican primary for State House District 43 with 58.9% of the vote. Unopposed in the Nov. 5, 2024 general election.">
+    <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="../../../assets/css/site.css">
+  </head>
+  <body class="cand-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="../../../index.html">
+          <img src="../../../assets/img/surveyor-icon.png" alt="" width="135" height="152">
+          <span class="site-name">WyoVote</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div class="wrap back-wrap">
+        <p class="back-row"><a class="back-btn" id="cand-back" href="../../../candidates.html">← Back to Candidates</a></p>
+      </div>
+      <section class="page-hero"><div class="wrap">
+          <h1>Ann Lucas</h1>
+      </div></section>
+      <section class="page-body"><div class="wrap">
+          <p class="cand-blurb">Ann Lucas (Republican, Cheyenne): Retired; Wyoming House District 43, 2025–Present. Won the Aug. 20, 2024 Republican primary for State House District 43 with 58.9% of the vote. Unopposed in the Nov. 5, 2024 general election.</p>
+          <p class="cand-meta">Republican · Cheyenne, Laramie County</p>
+          <p class="cand-res">Primary result: Won, 801 votes (58.9%), 1st of 2.</p>
+          <p class="cand-res">General result: Unopposed, 3,540 votes (100%), 1st of 1.</p>
+          <p><a href="../../../officials/lucas-deep.html">Officials deeper dive</a></p>
+          <section class="cand-research" aria-labelledby="h-research">
+          <h2 id="h-research">Research</h2>
+          <table class="cand-facts">
+          <tr><th scope="row">Occupation</th><td>Retired</td></tr>
+          <tr><th scope="row">Background</th><td><p>Ann Lucas was born in Illinois. She earned a bachelor&#x27;s degree from the University of Phoenix in 2010.</p></td></tr>
+          <tr><th scope="row">Education</th><td>Bachelor&#x27;s: University of Phoenix, 2010</td></tr>
+          <tr><th scope="row">Prior offices</th><td>Wyoming House District 43, 2025–Present</td></tr>
+          <tr><th scope="row">Fundraising</th><td>Raised $25,016.78. Spent $24,084.62. 2023-2024 election cycle (contributions tagged to the 2024 cycle in WyCFIS), through Aug. 10, 2024.</td></tr>
+          <tr><th scope="row">Website</th><td><a href="https://annlucas4wyoming.com">annlucas4wyoming.com</a></td></tr>
+          </table>
+          <h2 id="h-sources">Sources</h2>
+          <ul class="cand-sources">
+          <li><a href="https://wyoleg.gov/LsoService/api/legislator/2128">Wyoming Legislature member record</a></li>
+          <li><a href="https://ballotpedia.org/Ann_Lucas">Ballotpedia</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2026/2026_WY_Primary_Election_Candidates.csv">Wyoming SOS 2026 primary candidate filing</a></li>
+          <li><a href="https://www.wycampaignfinance.gov/WYCFWebApplication/GSF_SystemConfiguration/SearchContributions.aspx">Wyoming Campaign Finance Information System filings (via WyoVote money store)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip">Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)</a></li>
+          </ul>
+          </section>
+      </div></section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="../../../about.html">About</a></li>
+            <li><a href="../../../privacy.html">Privacy</a></li>
+            <li><a href="../../../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2026 WyoVote. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        var link = document.getElementById("cand-back");
+        if (!link) return;
+        function countyName(slug) {
+          return slug.split("-").map(function (word) {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+          }).join(" ");
+        }
+        function useCounty(slug) {
+          if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
+          link.setAttribute("href", "../" + slug + ".html");
+          link.textContent = "\u2190 Back to " + countyName(slug) + " County";
+          return true;
+        }
+        var from = new URLSearchParams(location.search).get("from");
+        if (from && useCounty(from)) return;
+        if (!document.referrer) return;
+        var ref;
+        try { ref = new URL(document.referrer); } catch (error) { return; }
+        if (ref.origin !== location.origin) return;
+        var path = ref.pathname.replace(/\/+$/, "");
+        var match = path.match(/\/candidates\/2026-primary\/([a-z]+(?:-[a-z]+)*)(?:\.html)?$/);
+        if (!match) return;
+        useCounty(match[1]);
+      })();
+    </script>
+  </body>
+</html>

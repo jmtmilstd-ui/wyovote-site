@@ -31,7 +31,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PREVIEW = ROOT / "preview"
 INDEX = PREVIEW / "data" / "candidates-2026-primary.json"
-DATA_DIR = PREVIEW / "data" / "candidate-research"
+DATA_DIR = ROOT / "data" / "candidate-research"
 SHARD_LIMIT = 450_000
 PAGES = PREVIEW / "candidates" / "2026-primary" / "c"
 OFFICIALS = PREVIEW / "officials"
@@ -190,6 +190,40 @@ def offices_text(node) -> str | None:
     return "; ".join(lines) if lines else None
 
 
+def display_name(person: dict, cycle: dict) -> str:
+    if person.get("person_id") == "WY-PEARSON-LAURA":
+        return "Laura Taliaferro (formerly Pearson)"
+    return cycle.get("name_on_ballot") or person.get("full_name") or ""
+
+
+def match_names(person: dict, cycle: dict) -> list[str]:
+    names = [display_name(person, cycle), cycle.get("name_on_ballot"), person.get("full_name")]
+    names.extend(person.get("aliases") or [])
+    for value in (person.get("ballot_names") or {}).values():
+        names.append(value)
+    seen = []
+    for name in names:
+        if name and name not in seen:
+            seen.append(name)
+    return seen
+
+
+def general_record(node) -> dict | None:
+    if not isinstance(node, dict):
+        return None
+    outcome = clean(node.get("outcome") or "")
+    if not outcome or outcome.casefold() in {"did not advance", "did not appear"}:
+        return None
+    return {
+        "outcome": outcome,
+        "votes": node.get("votes") if isinstance(node.get("votes"), int) else None,
+        "pct": node.get("pct") if isinstance(node.get("pct"), (int, float)) else None,
+        "place": node.get("place") if isinstance(node.get("place"), int) else None,
+        "field": node.get("candidates_in_race") if isinstance(node.get("candidates_in_race"), int) and node.get("candidates_in_race") else None,
+        "note": clean(node.get("note") or ""),
+    }
+
+
 def compile_record(person: dict, cycle: dict) -> dict:
     sources: list[dict] = []
 
@@ -319,7 +353,10 @@ def compile_record(person: dict, cycle: dict) -> dict:
         "endorsements": endorse,
         "fundraising": fundraising,
         "result": result_out,
+        "general": general_record(cycle.get("general_result")),
         "sources": sources,
+        "display_name": display_name(person, cycle),
+        "match_names": match_names(person, cycle),
     }
 
 
@@ -567,6 +604,363 @@ def read_shards(cycle: str) -> list[dict]:
     return records
 
 
+COUNTY_ORDER = [
+    "Albany", "Big Horn", "Campbell", "Carbon", "Converse", "Crook", "Fremont",
+    "Goshen", "Hot Springs", "Johnson", "Laramie", "Lincoln", "Natrona",
+    "Niobrara", "Park", "Platte", "Sheridan", "Sublette", "Sweetwater", "Teton",
+    "Uinta", "Washakie", "Weston",
+]
+FED_ORDER = ["U.S. Senator", "U.S. Representative"]
+STATE_ORDER = [
+    "Governor", "Secretary of State", "State Auditor", "State Treasurer",
+    "Superintendent of Public Instruction",
+]
+PARTY_RANK = {"Republican": 0, "Democratic": 1}
+HOW_TO = (
+    "<strong>How to use this page.</strong> Races are grouped by office. "
+    "Click any candidate's name to see their details. Districts that cross "
+    "county lines appear on every county they cover."
+)
+
+
+def county_slug(name: str) -> str:
+    return name.lower().replace(" ", "-")
+
+
+def person_slug(name: str) -> str:
+    if name == "Laura Taliaferro (formerly Pearson)":
+        return "laura-taliaferro"
+    slug = re.sub(r"[^a-z0-9]+", "-", name.casefold()).strip("-")
+    return slug
+
+
+def box_title(office: str, district: str | None) -> str:
+    digits = "".join(ch for ch in (district or "") if ch.isdigit())
+    if office == "U.S. Senator":
+        return "U.S. Senate"
+    if office == "U.S. Representative":
+        return "U.S. House"
+    if office == "State Auditor":
+        return "Auditor"
+    if office == "State Treasurer":
+        return "Treasurer"
+    if office == "Superintendent of Public Instruction":
+        return "Superintendent"
+    if office == "State Senator" and digits:
+        return f"State Senate SD{int(digits):02d}"
+    if office == "State Representative" and digits:
+        return f"State House HD{int(digits):02d}"
+    return office
+
+
+def group_name(office: str) -> str:
+    if office in FED_ORDER:
+        return "Federal"
+    if office in STATE_ORDER:
+        return "Statewide"
+    if office == "State Senator":
+        return "State Senate"
+    if office == "State Representative":
+        return "State House"
+    return "Other"
+
+
+def party_abbr(party: str) -> str:
+    return {"Republican": "(R)", "Democratic": "(D)"}.get(party, f"({party})")
+
+
+def officials_index() -> dict[str, str]:
+    found = {}
+    for path in OFFICIALS.glob("*-deep.html"):
+        text = path.read_text(encoding="utf-8")
+        match = re.search(r"<h1[^>]*>(.*?)</h1>", text)
+        if not match:
+            continue
+        name = html.unescape(re.sub(r"<[^>]+>", "", match.group(1))).strip()
+        found[name.casefold()] = path.name.replace("-deep.html", "")
+    index = json.loads(INDEX.read_text(encoding="utf-8"))
+    for cand in index["candidates"]:
+        off = cand.get("off")
+        if off and (OFFICIALS / f"{off}-deep.html").is_file():
+            found.setdefault(cand["name"].casefold(), off)
+    found.setdefault("laura taliaferro (formerly pearson)", "taliaferro")
+    found.setdefault("laura taliaferro", "taliaferro")
+    found.setdefault("laura pearson", "taliaferro")
+    found.setdefault("laura taliaferro pearson", "taliaferro")
+    return found
+
+
+def sitting_slug(record: dict, officials: dict[str, str]) -> str | None:
+    if record.get("person_id") == "WY-PEARSON-LAURA":
+        return "taliaferro"
+    for name in record.get("match_names") or [record.get("display_name"), record.get("name")]:
+        if name and name.casefold() in officials:
+            return officials[name.casefold()]
+    return None
+
+
+def preview_shell(title: str, description: str, depth: int, body: str, current: str = "candidates") -> str:
+    # depth is the number of directories under preview/.
+    root = "../" * depth
+    css = "../" * (depth + 1) + "css/styles.css"
+    preview_css = root + "preview.css"
+    assets = root + "assets/img/surveyor-icon.png"
+    home = root + "index.html"
+
+    def nav(name, href, key):
+        current_attr = ' aria-current="page"' if key == current else ""
+        return f'<li><a href="{href}"{current_attr}>{name}</a></li>'
+
+    links = [
+        nav("Home", home, "home"),
+        nav("Archive", root + "archive.html", "archive"),
+        nav("Candidates", root + "candidates.html", "candidates"),
+        nav("Committees", root + "archive/committees.html", "committees"),
+        nav("Counties", root + "archive/counties.html", "counties"),
+        nav("Officials", root + "officials.html", "officials"),
+        nav("Research", root + "research.html", "research"),
+    ]
+    return f"""<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{esc(title)}</title>
+    <meta name="description" content="{esc(description)}">
+    <link rel="icon" href="{assets}" type="image/png">
+    <link rel="stylesheet" href="{css}">
+    <link rel="stylesheet" href="{preview_css}">
+  </head>
+  <body class="cand-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="{home}">
+          <img src="{assets}" alt="" width="135" height="152">
+          <span class="site-name">WyoVote</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            {"".join(links)}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+{body}
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="{root}about.html">About</a></li>
+            <li><a href="{root}privacy.html">Privacy</a></li>
+            <li><a href="{root}contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2026 WyoVote. All rights reserved.</p>
+      </div>
+    </footer>
+    {BACK_SCRIPT if depth == 3 else ""}
+  </body>
+</html>
+"""
+
+
+def archive_detail_inner(record: dict, officials_slug: str | None) -> str:
+    lines = []
+    if record.get("blurb"):
+        lines.append(f'<p class="cand-blurb">{esc(record["blurb"])}</p>')
+    place = record.get("party") or ""
+    if record.get("residence"):
+        place = f"{place} · {record['residence']}" if place else record["residence"]
+    if place:
+        lines.append(f'<p class="cand-meta">{esc(place)}</p>')
+    if record.get("result"):
+        lines.append(f'<p class="cand-res">Primary result: {esc(result_sentence(record["result"]))}</p>')
+    if record.get("general"):
+        lines.append(f'<p class="cand-res">General result: {esc(result_sentence(record["general"]))}</p>')
+    if officials_slug:
+        lines.append(
+            f'<p><a href="../../../officials/{esc(officials_slug)}-deep.html">Officials deeper dive</a></p>'
+        )
+    rows = []
+    if record.get("occupation"):
+        rows.append(("Occupation", esc(record["occupation"])))
+    if record.get("background"):
+        rows.append(("Background", "".join(f"<p>{esc(part)}</p>" for part in record["background"])))
+    if record.get("education"):
+        rows.append(("Education", esc(record["education"])))
+    if record.get("military"):
+        rows.append(("Military", esc(record["military"])))
+    if record.get("prior_offices"):
+        rows.append(("Prior offices", esc(record["prior_offices"])))
+    if record.get("positions"):
+        chunks = "".join(
+            f'<p class="cand-topic">{esc(item["topic"])}</p><p>{esc(item["text"])}</p>'
+            for item in record["positions"]
+        )
+        rows.append(("Positions", chunks))
+    if record.get("endorsements"):
+        rows.append(("Endorsements", esc(record["endorsements"])))
+    if record.get("fundraising"):
+        rows.append(("Fundraising", esc(fundraising_sentence(record["fundraising"]))))
+    if record.get("website"):
+        site = record["website"]
+        rows.append(("Website", f'<a href="{esc(site["href"])}">{esc(site["text"])}</a>'))
+    if rows or record.get("sources"):
+        lines.append('<section class="cand-research" aria-labelledby="h-research">')
+        if rows:
+            lines.append('<h2 id="h-research">Research</h2>')
+            lines.append('<table class="cand-facts">')
+            lines.extend(f'<tr><th scope="row">{esc(label)}</th><td>{value}</td></tr>' for label, value in rows)
+            lines.append("</table>")
+        if record.get("sources"):
+            lines.append('<h2 id="h-sources">Sources</h2>')
+            lines.append('<ul class="cand-sources">')
+            lines.extend(
+                f'<li><a href="{esc(source["url"])}">{esc(source["name"])}</a></li>'
+                for source in record["sources"]
+            )
+            lines.append("</ul>")
+        lines.append("</section>")
+    return "\n".join("          " + line for line in lines)
+
+
+def generate_archive(records: list[dict], cycle: str) -> dict[str, int]:
+    year = cycle.split("-")[0]
+    primary_dates = {"2024": "August 20, 2024", "2022": "August 16, 2022", "2026": "August 18, 2026"}
+    date_line = primary_dates.get(year, year)
+    officials = officials_index()
+    folder = PREVIEW / "candidates" / cycle
+    detail_dir = folder / "c"
+    detail_dir.mkdir(parents=True, exist_ok=True)
+    used: dict[str, str] = {}
+    prepared = []
+    for record in records:
+        name = record.get("display_name") or record["name"]
+        slug = person_slug(name)
+        if slug in used and used[slug] != record["person_id"]:
+            slug = f"{slug}-{record['person_id'].split('-')[-1].lower()}"
+        used[slug] = record["person_id"]
+        prepared.append((record, name, slug, sitting_slug(record, officials)))
+    by_county: dict[str, list] = {county: [] for county in COUNTY_ORDER}
+    for record, name, slug, official in prepared:
+        counties = record.get("counties") or ["Statewide"]
+        targets = COUNTY_ORDER if counties == ["Statewide"] else [c for c in counties if c in by_county]
+        for county in targets:
+            by_county[county].append((record, name, slug))
+        body = (
+            '      <div class="wrap back-wrap">\n'
+            f'        <p class="back-row"><a class="back-btn" id="cand-back" href="../../../candidates.html">← Back to Candidates</a></p>\n'
+            "      </div>\n"
+            '      <section class="page-hero"><div class="wrap">\n'
+            f"          <h1>{esc(name)}</h1>\n"
+            "      </div></section>\n"
+            '      <section class="page-body"><div class="wrap">\n'
+            f"{archive_detail_inner(record, official)}\n"
+            "      </div></section>"
+        )
+        page = preview_shell(
+            f"{name} — {year} Primary — WyoVote",
+            record.get("blurb") or f"{name}, {record.get('office')}, {year} primary.",
+            3,
+            body,
+        )
+        (detail_dir / f"{slug}.html").write_text(page, encoding="utf-8")
+    for county in COUNTY_ORDER:
+        races: dict[tuple, list] = {}
+        for record, name, slug in by_county[county]:
+            key = (record.get("_office") or record.get("office"), record.get("_district"))
+            races.setdefault(key, []).append((record, name, slug))
+        groups = []
+        for title, offices in (
+            ("Federal", FED_ORDER),
+            ("Statewide", STATE_ORDER),
+            ("State Senate", ["State Senator"]),
+            ("State House", ["State Representative"]),
+        ):
+            keys = [key for key in races if key[0] in offices]
+            keys.sort(key=lambda item: (offices.index(item[0]) if item[0] in offices else 99, int("".join(ch for ch in (item[1] or "0") if ch.isdigit()) or 0)))
+            if not keys:
+                continue
+            blocks = []
+            for key in keys:
+                people = races[key]
+                people.sort(key=lambda item: (PARTY_RANK.get(item[0].get("party"), 9), item[1]))
+                items = []
+                for record, name, slug in people:
+                    result = (record.get("result") or {}).get("outcome") or ""
+                    items.append(
+                        f'<li><a href="c/{esc(slug)}.html?from={county_slug(county)}">{esc(name)}</a> '
+                        f'<span class="cand-abbr">{esc(party_abbr(record.get("party") or ""))}</span> '
+                        f'<span class="cand-res">{esc(result)}</span></li>'
+                    )
+                blocks.append(
+                    '<section class="cand-race">\n'
+                    f"            <h3>{esc(box_title(key[0], key[1]))}</h3>\n"
+                    '            <ul class="cand-names">\n              '
+                    + "\n              ".join(items)
+                    + "\n            </ul>\n          </section>"
+                )
+            groups.append(
+                '<section class="cand-group">\n'
+                f'          <h2 class="cand-group-title">{title}</h2>\n'
+                '          <div class="cand-race-grid">\n            '
+                + "\n            ".join(blocks)
+                + "\n          </div>\n        </section>"
+            )
+        body = (
+            '      <div class="wrap back-wrap">\n'
+            '        <p class="back-row"><a class="back-btn" href="index.html">← Back to '
+            f"{year} Primary</a></p>\n"
+            "      </div>\n"
+            '      <section class="page-hero"><div class="wrap">\n'
+            f"          <h1>{esc(county)} County</h1>\n"
+            "      </div></section>\n"
+            '      <section class="page-body"><div class="wrap">\n'
+            f"          <p>{esc(date_line)} primary.</p>\n"
+            f'          <p class="cand-how">{HOW_TO}</p>\n          '
+            + "\n          ".join(groups)
+            + "\n      </div></section>"
+        )
+        page = preview_shell(
+            f"{county} County — {year} Primary — WyoVote",
+            f"{year} primary candidates in {county} County.",
+            2,
+            body,
+        )
+        (folder / f"{county_slug(county)}.html").write_text(page, encoding="utf-8")
+    county_items = "\n".join(
+        f'            <li><a href="{county_slug(name)}.html">{esc(name)}</a></li>'
+        for name in COUNTY_ORDER
+    )
+    grid = (
+        '      <div class="wrap back-wrap">\n'
+        '        <p class="back-row"><a class="back-btn" href="../../candidates.html">← Back to Candidates</a></p>\n'
+        "      </div>\n"
+        '      <section class="page-hero"><div class="wrap">\n'
+        f"          <h1>{year} Primary</h1>\n"
+        "      </div></section>\n"
+        '      <section class="page-body"><div class="wrap">\n'
+        f"          <p>{esc(date_line)}. Federal, statewide, and legislative races. Choose a county.</p>\n"
+        f'          <ul class="cand-counties">\n{county_items}\n          </ul>\n'
+        "      </div></section>"
+    )
+    (folder / "index.html").write_text(
+        preview_shell(
+            f"{year} Primary — WyoVote",
+            f"{year} Wyoming primary candidates by county.",
+            2,
+            grid,
+        ),
+        encoding="utf-8",
+    )
+    return {"counties": len(COUNTY_ORDER), "details": len(prepared), "index": 1}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cycle", default="2026-primary")
@@ -574,11 +968,25 @@ def main() -> None:
     args = parser.parse_args()
     if args.archive:
         records = load_archive(args.archive, args.cycle)
+        # Keep the raw office and district for the county map. compile_record
+        # stores the display office in "office", so reload the race key here.
+        raw = {}
+        for path in sorted((args.archive / "cycles" / args.cycle).glob("*.json")):
+            row = json.loads(path.read_text(encoding="utf-8"))
+            raw[row["person_id"]] = row
+        for record in records:
+            source = raw[record["person_id"]]
+            record["_office"] = source.get("office_sought")
+            record["_district"] = source.get("district")
+            record["counties"] = source.get("district_counties") or ["Statewide"]
         write_shards(records, args.cycle)
     else:
         records = read_shards(args.cycle)
-    updated = write_pages(records)
-    print(f"updated {updated} preview candidate pages")
+    if args.cycle == "2026-primary":
+        print(f"updated {write_pages(records)} preview candidate pages")
+    else:
+        counts = generate_archive(records, args.cycle)
+        print(f"{args.cycle}: {counts}")
 
 
 if __name__ == "__main__":
