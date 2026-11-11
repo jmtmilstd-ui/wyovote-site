@@ -841,11 +841,28 @@ ol.method-steps li {
   margin: 0;
   padding: 0;
   display: grid;
+  grid-template-columns: 1fr;
   gap: 0.85rem;
 }
 
+@media (min-width: 800px) {
+  .archive-hub {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
+    align-items: stretch;
+  }
+}
+
+.archive-hub > li {
+  display: flex;
+}
+
 .archive-hub-btn {
-  display: block;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
   padding: 1.15rem 1.3rem;
   border: 3px solid var(--color-green-dark, #146b31);
   border-radius: 0.35rem;
