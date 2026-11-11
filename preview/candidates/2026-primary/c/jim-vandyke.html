@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jim VanDyke — 2026 Primary — WyoVote</title>
-    <meta name="description" content="Jim VanDyke, House District 42, 2026 primary.">
+    <meta name="description" content="Jim VanDyke (Democratic, Cheyenne): Technology, computing facilities and construction management. Unopposed in the Aug. 18, 2026 Democratic primary for State House District 42.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -43,8 +43,31 @@
       </section>
       <section class="page-body">
         <div class="wrap">
+          <p class="cand-blurb">Jim VanDyke (Democratic, Cheyenne): Technology, computing facilities and construction management. Unopposed in the Aug. 18, 2026 Democratic primary for State House District 42.</p>
           <p class="cand-meta">House District 42 · Democratic</p>
           <p class="cand-res">Primary result: Unopposed</p>
+          <section class="cand-research" aria-labelledby="h-research">
+                      <h2 id="h-research">Research</h2>
+                      <table class="cand-facts">
+                        <tr><th scope="row">Residence</th><td>Cheyenne, Laramie County</td></tr>
+                        <tr><th scope="row">Occupation</th><td>Technology, computing facilities and construction management</td></tr>
+                        <tr><th scope="row">Background</th><td><p>My career has been in technology, computing facilities, construction and management. I started at 12 when I designed and built my first computer. I received my degree in computer science and began in a computing center. My &quot;big picture&quot; skills were recognized, and I proposed, designed and constructed larger and larger projects. I chaired a computing steering committee at a 1500+ employee company with multiple divisions and subsidiaries. I led teams to propose, design, construct and manage million-dollar technology projects with a focus in networking, computing and data centers. …</p></td></tr>
+                        <tr><th scope="row">Education</th><td>Degree in computer science (institution not stated)</td></tr>
+                        <tr><th scope="row">Website</th><td><a href="https://vandyke4wyoming.com">vandyke4wyoming.com</a></td></tr>
+                        <tr><th scope="row">Issue positions</th><td><p class="cand-topic">What are the biggest challenges and opportunities facing Wyoming today? As a legislator, how would you address them?</p><p>Responsible Business Development - As a community we need to understand the pros/cons of business development coming into the area and state. …</p><p class="cand-topic">We asked WyoFile readers to rank issues that are important to them, and healthcare costs and access topped the list. What can the Legislature do to make healthcare more affordable and accessible to Wyomingites?</p><p>Like other states, Wyoming can initiate programs which help its citizens with healthcare without major increases in taxes. These programs require the different government segments to work together to develop a functioning and sustaining program. …</p><p class="cand-topic">Do you support efforts to sell or transfer public land in Wyoming? How do you plan to ensure that state and federal land is managed in the best interest of the people of Wyoming?</p><p>No. Public lands are a promise to the people by the government to maintain this proud country. Wyoming has some of the most beautiful areas and wildlife in the country which is why many citizens have moved or stay in this state. …</p><p class="cand-topic">No two Wyoming counties are the same when it comes to how they generate revenue. As a legislator, how would you approach the public&#x27;s desire for property tax relief with local revenue needs?</p><p>This is one of my top issues. it is irresponsible of the government and people to cut property taxes without understanding the impacts to public services we enjoy. Wyoming&#x27;s property taxes are well below many states in comparison which already strains the local service systems. …</p><p class="cand-topic">What role, if any, should the Wyoming Legislature play in economic development?</p><p>The government is the stewards of the public and the public pays for the government. It&#x27;s the government&#x27;s responsibility to ensure the state stays viable by bringing in new businesses and diversifying the economy. …</p><p class="cand-topic">Explain your values when it comes to campaign donations. Does Wyoming&#x27;s system for monitoring campaign donations and expenditures need reform?</p><p>I believe with all the major issues needing to be addressed in the state, campaign reform could be addressed but its priority is low compared to them. The state is dealing with issues which could heavily impact it and its citizens. …</p></td></tr>
+                        <tr><th scope="row">Endorsements</th><td>Unburdening The Ballot: Voting Made Easy (Sway voting group by Tevin (Momala) Davis)</td></tr>
+                        <tr><th scope="row">Fundraising</th><td>Raised $3,008.37. Spent $2,380.68. 2026 election (primary and general periods combined); primary-period subtotal shown separately when reported, through latest filings compiled by WyoFile (guide last updated Oct 29, 2026). Primary election: raised $1,443.25, spent $1,422.41. Largest reported contributors: VANDYKE, JIM (CHEYENNE) ($926.25); HANLON, THEODORE (CHEYENNE) ($200); HANLON, THEDORE (CHEYENNE) ($200); BARBUTO, JOSEPH (ROCK SPRINGS) ($50); PAUL, BIRGITT (CHEYENNE) ($25). Source: WyoFile election guide, as of Oct 29, 2026.</td></tr>
+                        <tr><th scope="row">2026 primary result</th><td>Unopposed, 167 votes (100%), 1st of 1.</td></tr>
+                      </table>
+                      <h2 id="h-sources">Sources</h2>
+                      <ul class="cand-sources">
+                        <li><a href="https://sos.wyo.gov/Elections/Docs/2026/2026_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2026 primary candidate filing list</a></li>
+                        <li><a href="https://projects.wyofile.com/election-guide-2026/candidates/vandyke-jim/">WyoFile 2026 Election Guide</a></li>
+                        <li><a href="https://ballotpedia.org/Jim_VanDyke">Ballotpedia</a></li>
+                        <li><a href="https://www.wycampaignfinance.gov/WYCFWebApplication/GSF_SystemConfiguration/SearchContributions.aspx">WyCampaignFinance search (underlying public filings)</a></li>
+                        <li><a href="https://sos.wyo.gov/Elections/Docs/2026/Results/Primary/2026_Wyoming_Primary_Results.zip">Wyoming SOS official 2026 primary results (Results Summaries - OFFICIAL)</a></li>
+                      </ul>
+                    </section>
         </div>
       </section>
     </main>
@@ -64,16 +87,28 @@
     <script>
       (function () {
         var link = document.getElementById("cand-back");
+        if (!link) return;
+        function countyName(slug) {
+          return slug.split("-").map(function (word) {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+          }).join(" ");
+        }
+        function useCounty(slug) {
+          if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
+          link.setAttribute("href", "../" + slug + ".html");
+          link.textContent = "\u2190 Back to " + countyName(slug) + " County";
+          return true;
+        }
+        var from = new URLSearchParams(location.search).get("from");
+        if (from && useCounty(from)) return;
         if (!document.referrer) return;
         var ref;
         try { ref = new URL(document.referrer); } catch (error) { return; }
         if (ref.origin !== location.origin) return;
-        if (!/\/candidates\/2026-primary\/[a-z-]+\.html$/.test(ref.pathname)) return;
-        link.setAttribute("href", ref.pathname + ref.search);
-        var county = ref.pathname.split("/").pop().replace(".html", "").split("-").map(function (word) {
-          return word.charAt(0).toUpperCase() + word.slice(1);
-        }).join(" ");
-        link.textContent = "← Back to " + county + " County";
+        var path = ref.pathname.replace(/\/+$/, "");
+        var match = path.match(/\/candidates\/2026-primary\/([a-z]+(?:-[a-z]+)*)(?:\.html)?$/);
+        if (!match) return;
+        useCounty(match[1]);
       })();
     </script>
   </body>
