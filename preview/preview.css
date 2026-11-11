@@ -766,26 +766,48 @@ ol.method-steps li {
   font-size: 0.9rem;
 }
 
-.report-year-row {
-  display: flex;
+.session-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.35rem 0.75rem;
   align-items: center;
-  gap: 0.4rem;
-  margin: 0 0 0.28rem;
 }
 
-.home-columns .report-year {
-  flex: 0 0 3.2rem;
+.home-columns .session-head {
   margin: 0;
   font-size: 1.05rem;
+  line-height: 1.2;
+  color: #142117;
+}
+
+.session-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+  min-height: 3.2rem;
+}
+
+.home-columns .session-cell .report-year {
+  flex: 0 0 2.7rem;
+  margin: 0;
+  font-size: 1rem;
   line-height: 1.1;
+}
+
+.session-missing {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #142117;
 }
 
 .icon-tiles {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 3.7rem));
+  grid-template-columns: repeat(2, minmax(0, 3.2rem));
   justify-content: start;
-  gap: 0.28rem;
-  width: min(100%, calc(2 * 3.7rem + 0.28rem));
+  gap: 0.22rem;
+  width: min(100%, calc(2 * 3.2rem + 0.22rem));
   list-style: none;
   margin: 0;
   padding: 0;
