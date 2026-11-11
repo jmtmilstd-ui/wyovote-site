@@ -82,21 +82,27 @@
 
   function renderHome(mount, data, today) {
     var root = mount.getAttribute("data-root") || "";
-    var state = specialState(data.special, today);
     var news = data.current_news && data.current_news.title && data.current_news.url ? data.current_news : null;
-    var hasPast = (data.archive && data.archive.length) || state === "expired";
+    var hasPast = (data.archive && data.archive.length) || specialState(data.special, today) === "expired";
     mount.textContent = "";
-    if (state !== "current" && !news && !hasPast) {
+    if (!news && !hasPast) {
       mount.hidden = true;
       return;
     }
     mount.hidden = false;
-    if (state === "current") mount.appendChild(box(data.special, "special", root));
-    if (news) {
-      mount.appendChild(box(news, "news", root, pastLink(root)));
-    } else if (hasPast) {
-      mount.appendChild(pastLink(root));
+    if (news) mount.appendChild(box(news, "news", root, pastLink(root)));
+    else mount.appendChild(pastLink(root));
+  }
+
+  function renderSpotlight(mount, data, today) {
+    var root = mount.getAttribute("data-root") || "";
+    mount.textContent = "";
+    mount.hidden = false;
+    if (specialState(data.special, today) === "current") {
+      mount.appendChild(box(data.special, "special", root));
+      return;
     }
+    mount.appendChild(el("p", "spotlight-note", "Specials and featured items appear here."));
   }
 
   function archiveItems(data, today) {
@@ -156,7 +162,9 @@
         return response.json();
       })
       .then(function (data) {
-        if (mount.getAttribute("data-news") === "archive") renderArchive(mount, data, today);
+        var mode = mount.getAttribute("data-news");
+        if (mode === "archive") renderArchive(mount, data, today);
+        else if (mode === "spotlight") renderSpotlight(mount, data, today);
         else renderHome(mount, data, today);
       })
       .catch(function () { fail(mount); });

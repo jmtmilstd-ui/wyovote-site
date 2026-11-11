@@ -1,6 +1,6 @@
 # News box and Special box
 
-The home page middle column shows a News box, and a Special box when one is active. Both sit above Articles. The same boxes are on the preview home page.
+On the preview home page, the middle column shows the News box above Articles. A Special, when one is active, sits at the top of the Spotlight column (the third column). When no special is active, Spotlight shows the line “Specials and featured items appear here.” The live home page still has the earlier layout until the next publish.
 
 The live files are:
 
@@ -49,20 +49,20 @@ A regular article, one that is not news or a special, is still added by hand in 
 
 ## A special
 
-A special is optional and can be posted any day. It appears above the News box with a Special label.
+A special is optional and can be posted any day. On the preview home page it appears at the top of Spotlight, with a Special label. It is not shown in the News column.
 
 1. Add the article page the same way, with a Special tag instead of a News tag.
 2. Set `special` in both JSON files. Set `expires` to the morning the box should come down.
 
 To take a special down early, move that object into `archive`, add `"kind": "special"`, and set `special` to `null`.
 
-After the expires date, the home box hides by itself and the archive page lists the special. When you next edit the file, move that object into `archive` with `"kind": "special"` and set `special` to `null`. Leaving it in `special` after it expires is safe: the home page keeps it hidden, and the archive page keeps showing it, until that cleanup.
+After the expires date, the Spotlight box hides by itself and the archive page lists the special. When you next edit the file, move that object into `archive` with `"kind": "special"` and set `special` to `null`. Leaving it in `special` after it expires is safe: the home page keeps it hidden, and the archive page keeps showing it, until that cleanup.
 
 ## When a box is missing
 
-- News only: the News box shows, and the Special box is not drawn.
-- News and a current special: Special is on top, then News.
-- No current news and no current special: neither box is drawn. If past items exist, the “Past news” link remains.
+- News, and no current special: the News box shows above Articles. Spotlight keeps its heading and the line “Specials and featured items appear here.”
+- News and a current special: the News box stays above Articles, and the special box is at the top of Spotlight.
+- No current news and no current special: the News box is not drawn. Spotlight still shows the placeholder line. If past items exist, the “Past news” link remains in the middle column.
 
 ## Current items
 
