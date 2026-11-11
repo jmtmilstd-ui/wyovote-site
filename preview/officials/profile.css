@@ -58,6 +58,25 @@ body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 .pf-yr-r b { font-size: 1.6rem; font-family: var(--font-serif); line-height: 1.1; }
 .pf-yr .pf-band { font-size: 14.5pt; padding: 0 0.4rem; }
 .pf-deeper { margin: 0.15rem 0 0; font-size: 14.5pt; font-weight: 700; color: #142117; }
+.pf-deeper a { color: #0e2a18; }
+
+.deep-note { margin: 0 0 0.55rem; font-size: 14.5pt; color: #142117; }
+.deep-soon { margin: 0; font-size: 14.5pt; font-weight: 700; color: #142117; }
+.deep-scroll { overflow-x: auto; margin: 0; }
+table.deep-table { width: 100%; border-collapse: collapse; font-size: 12.5pt; color: #142117; }
+table.deep-table td a { white-space: normal; color: #0e2a18; }
+table.deep-table th, table.deep-table td { border: 1px solid #142117; padding: 0.28rem 0.45rem; text-align: left; vertical-align: top; background: #ffffff; }
+table.deep-table th { font-weight: 700; background: #e7f5eb; }
+table.deep-table caption { caption-side: bottom; text-align: left; padding-top: 0.35rem; font-size: 12.5pt; color: #142117; font-weight: 600; }
+.deep-chart { width: 100%; height: auto; }
+@media (max-width: 640px) {
+  table.deep-table { display: table; }
+  table.deep-table thead { position: static; width: auto; height: auto; margin: 0; padding: 0; overflow: visible; clip: auto; }
+  table.deep-table tbody { display: table-row-group; }
+  table.deep-table tr { display: table-row; margin: 0; border: 0; border-radius: 0; background: transparent; }
+  table.deep-table th, table.deep-table td { display: table-cell; width: auto; }
+  table.deep-table td::before { content: none; }
+}
 .pf-foot { font-size: 14.5pt; margin: 0.35rem 0 0; }
 
 .pf-news li { display: block; }
