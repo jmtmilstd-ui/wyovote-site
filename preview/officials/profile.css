@@ -1,71 +1,79 @@
 /* WyoVote legislator profile pages (preview). Tablet-first: 16px+ text, strong contrast, no tables (the site CSS turns tables into cards on phones). */
-body.pf { font-size: 17px; line-height: 1.45; color: #142117; min-height: 0; }
+body.pf { font-size: 14.5pt; line-height: 1.4; color: #142117; min-height: 0; }
 body.pf .site-header .header-inner { padding-top: 0.5rem; padding-bottom: 0; }
 body.pf .brand img { height: 3.2rem; }
 body.pf .site-name { font-size: 1.9rem; }
 body.pf .site-nav ul { flex-direction: row; flex-wrap: wrap; gap: 0.15rem; margin-top: 0.3rem; }
-body.pf .site-nav a { display: inline-block; padding: 0.55rem 0.8rem; border-radius: 0.35rem 0.35rem 0 0; font-size: 16px; }
+body.pf .site-nav a { display: inline-block; padding: 0.55rem 0.8rem; border-radius: 0.35rem 0.35rem 0 0; font-size: 14.5pt; }
 body.pf .site-nav a[aria-current="page"] { box-shadow: inset 0 -4px 0 var(--color-green); }
 body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 .profile { padding-bottom: 1.5rem; }
 .profile h1, .profile h2 { font-family: var(--font-serif); }
-.pf-back { margin: 0.7rem 0 0.5rem; font-size: 16px; }
-.pf-head { background: #0e2a18; color: #ffffff; border-radius: 0.5rem; padding: 0.9rem 1.1rem 1rem; margin-bottom: 0.9rem; }
-.pf-head h1 { margin: 0; font-size: 2.1rem; line-height: 1.15; color: #ffffff; }
-.pf-sub { margin: 0.2rem 0 0; font-size: 18px; font-weight: 600; }
-.pf-comms { margin: 0.4rem 0 0; font-size: 16px; }
-.pf-links { margin: 0.6rem 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; font-size: 16px; }
+.pf-back { margin: 0.55rem 0 0.4rem; font-size: 14.5pt; }
+.pf-head { background: #0e2a18; color: #ffffff; border-radius: 0.5rem; padding: 0.75rem 1rem 0.85rem; margin-bottom: 0.65rem; }
+.pf-head h1 { margin: 0; font-size: 2rem; line-height: 1.15; color: #ffffff; }
+.pf-sub { margin: 0.15rem 0 0; font-size: 15.5pt; font-weight: 600; }
+.pf-comms { margin: 0.35rem 0 0; font-size: 14.5pt; }
+.pf-links { margin: 0.5rem 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem 0.9rem; font-size: 14.5pt; }
 .pf-btn { display: inline-block; padding: 0.45rem 0.9rem; background: #ffffff; color: #0e2a18 !important; font-weight: 700; border-radius: 0.3rem; text-decoration: none; min-height: 44px; line-height: 1.7; }
 .pf-btn:hover, .pf-btn:focus-visible { background: #dff3e4; }
 .pf-asof { color: #ffffff; }
-.pf-card { background: #ffffff; border: 1px solid #b9b5a8; border-radius: 0.5rem; padding: 0.8rem 1rem 1rem; margin-bottom: 0.9rem; }
-.pf-card h2 { margin: 0 0 0.35rem; font-size: 1.45rem; line-height: 1.2; color: #0e2a18; }
-.pf-card h2 small { font-family: var(--font-sans); font-size: 16px; font-weight: 600; color: #142117; margin-left: 0.4rem; }
-.pf-cap { margin: 0 0 0.5rem; font-size: 16px; }
+.pf-card { background: #ffffff; border: 1px solid #b9b5a8; border-radius: 0.5rem; padding: 0.7rem 0.9rem 0.8rem; margin-bottom: 0.65rem; }
+.pf-card h2 { margin: 0 0 0.3rem; font-size: 1.4rem; line-height: 1.2; color: #0e2a18; }
+.pf-card h2 small { font-family: var(--font-sans); font-size: 14.5pt; font-weight: 600; color: #142117; margin-left: 0.35rem; }
+.pf-cap { margin: 0 0 0.45rem; font-size: 14.5pt; }
 .pf-cap-end { margin: 0.4rem 0 0; }
 .pf-chart { display: block; width: 100%; height: auto; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 .pf-narrow { display: none; }
 .pf-tiles { display: grid; grid-template-columns: repeat(12, 1fr); gap: 0.6rem; }
 .pf-tile { grid-column: span 3; border: 1px solid #b9b5a8; border-radius: 0.4rem; padding: 0.5rem 0.65rem; background: #f7f6f0; }
-.pf-tl { font-size: 15px; font-weight: 700; color: #142117; }
-.pf-tv { font-size: 16px; }
+.pf-tl { font-size: 14.5pt; font-weight: 700; color: #142117; }
+.pf-tv { font-size: 14.5pt; }
 .pf-big { font-size: 2rem; line-height: 1.1; font-family: var(--font-serif); }
 .pf-mid { font-size: 1.3rem; line-height: 1.3; display: block; }
-.pf-of { display: block; font-size: 15px; color: #142117; }
+.pf-of { display: block; font-size: 14.5pt; color: #142117; }
 .pf-up { color: #0a5a1c; font-weight: 700; }
 .pf-down { color: #9b1c1c; font-weight: 700; }
 .pf-flat { color: #142117; font-weight: 700; }
-.pf-band { display: inline-block; padding: 0.05rem 0.55rem; border-radius: 0.3rem; border: 2px solid #142117; font-size: 16px; font-weight: 700; line-height: 1.5; color: #142117; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.pf-band { display: inline-block; padding: 0.05rem 0.55rem; border-radius: 0.3rem; border: 2px solid #142117; font-size: 14.5pt; font-weight: 700; line-height: 1.4; color: #142117; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 .pf-band-conservative { background: #c8f5c8; } .pf-band-moderate { background: #ffffff; } .pf-band-liberal { background: #c9d6f0; }
 .pf-list { list-style: none; margin: 0; padding: 0; }
 .pf-list li { display: grid; gap: 0.1rem 0.7rem; padding: 0.5rem 0; border-top: 1px solid #b9b5a8; align-items: start; }
 .pf-list li:first-child { border-top: 0; }
 .pf-votes li { grid-template-columns: 4.2rem 1fr 3.4rem 6.4rem; }
 .pf-spons li { grid-template-columns: 1fr auto; }
-.pf-date { font-weight: 700; font-size: 16px; }
+.pf-date { font-weight: 700; font-size: 14.5pt; }
 .pf-bill { min-width: 0; }
 .pf-ttl { display: inline; }
-.pf-what { display: block; font-size: 15px; color: #142117; }
-.pf-v { font-weight: 700; text-align: center; border: 1.5px solid #142117; border-radius: 0.3rem; font-size: 15px; padding: 0 0.2rem; line-height: 1.6; }
+.pf-what { display: block; font-size: 14.5pt; color: #142117; }
+.pf-v { font-weight: 700; text-align: center; border: 1.5px solid #142117; border-radius: 0.3rem; font-size: 14.5pt; padding: 0 0.2rem; line-height: 1.45; }
 .pf-v-aye { background: #e4f4e6; } .pf-v-nay { background: #f8e3e3; }
-.pf-eff { font-size: 16px; }
-.pf-st { font-weight: 700; font-size: 15px; border: 1.5px solid #142117; border-radius: 0.3rem; padding: 0 0.45rem; line-height: 1.6; white-space: nowrap; }
+.pf-eff { font-size: 14.5pt; }
+.pf-st { font-weight: 700; font-size: 14.5pt; border: 1.5px solid #142117; border-radius: 0.3rem; padding: 0 0.45rem; line-height: 1.45; white-space: nowrap; }
 .pf-st-law { background: #c5ecc5; } .pf-st-dead { background: #f1ece0; } .pf-st-veto { background: #f8e3e3; }
-.pf-years { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.55rem; }
-.pf-yr { border: 1px solid #b9b5a8; border-radius: 0.4rem; padding: 0.4rem 0.55rem; background: #f7f6f0; }
+.pf-years { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.55rem; }
+.pf-yr { min-width: 0; border: 1px solid #b9b5a8; border-radius: 0.4rem; padding: 0.4rem 0.55rem; background: #f7f6f0; }
 .pf-yr-y { font-weight: 700; font-family: var(--font-serif); font-size: 1.15rem; }
-.pf-yr-r { font-size: 15px; margin-bottom: 0.2rem; }
+.pf-yr-r { font-size: 14.5pt; margin-bottom: 0.2rem; }
 .pf-yr-r b { font-size: 1.6rem; font-family: var(--font-serif); line-height: 1.1; }
-.pf-yr .pf-band { font-size: 15px; padding: 0 0.4rem; }
-.pf-foot { font-size: 15px; margin: 0.4rem 0 0; }
+.pf-yr .pf-band { font-size: 14.5pt; padding: 0 0.4rem; }
+.pf-foot { font-size: 14.5pt; margin: 0.35rem 0 0; }
 
-.pf-legend { display: flex; flex-wrap: wrap; gap: 0.45rem 1.1rem; list-style: none; margin: 0.5rem 0 0; padding: 0; font-size: 15px; font-weight: 600; color: #142117; align-items: center; }
+.pf-news li { display: block; }
+.pf-news-meta { margin: 0; font-size: 14.5pt; font-weight: 700; color: #142117; }
+.pf-news-h { margin: 0.1rem 0 0.15rem; font-size: 14.5pt; font-weight: 700; line-height: 1.3; }
+.pf-news-h a { color: #0e2a18; }
+.pf-news .pf-what { margin: 0; }
+.pf-src { font-weight: 700; }
+.pf-src a { color: #146b31; }
+
+.pf-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; list-style: none; margin: 0.45rem 0 0; padding: 0; font-size: 14.5pt; font-weight: 600; color: #142117; align-items: center; }
 .pf-legend li { display: flex; align-items: center; gap: 0.4rem; }
 .pf-legend svg { display: block; flex: 0 0 auto; }
 .pf-leg-r { font-weight: 600; }
-.pf-note { margin: 0.55rem 0 0; font-size: 16px; border: 2px solid #142117; border-radius: 0.4rem; padding: 0.45rem 0.65rem; background: #ffffff; color: #142117; }
+.pf-note { margin: 0.5rem 0 0; font-size: 14.5pt; border: 2px solid #142117; border-radius: 0.4rem; padding: 0.4rem 0.6rem; background: #ffffff; color: #142117; }
 @media (max-width: 899px) { .pf-head h1 { font-size: 1.9rem; } }
-@media (max-width: 699px) { .pf-years { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 980px) { .pf-years { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 640px) {
   .pf-tile { grid-column: span 6; }
   body.pf .wrap { width: calc(100% - 1rem); }
@@ -76,6 +84,6 @@ body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
   .pf-years { grid-template-columns: repeat(2, 1fr); }
   .pf-big { font-size: 1.7rem; }
   body.pf .brand img { height: 2.6rem; } body.pf .site-name { font-size: 1.6rem; }
-  body.pf .site-nav a { padding: 0.5rem 0.55rem; font-size: 15.5px; }
+  body.pf .site-nav a { padding: 0.5rem 0.55rem; font-size: 14.5pt; }
 }
 @media print { .preview-banner { display: block; } .pf-narrow { display: none; } .pf-wide { display: block; } .pf-band, .pf-chart, .pf-note { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
