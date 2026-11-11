@@ -24,30 +24,37 @@
 }
 
 .back-wrap {
-  padding-top: 0.75rem;
-  padding-bottom: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 0.15rem;
 }
 
 .back-row {
-  margin: 0;
+  margin: 1.25rem 0 1rem;
+  text-align: left;
+}
+
+.back-wrap .back-row {
+  margin: 0 0 0.9rem;
 }
 
 .back-btn {
   display: inline-block;
-  padding: 0.45rem 0.9rem;
-  background: #0e2a18;
+  padding: 0.7rem 1.35rem;
+  background: #1f5c2e;
   color: #ffffff !important;
-  font-size: 14.5pt;
+  font-size: 14pt;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.25;
   text-decoration: none;
-  border-radius: 0.3rem;
+  border: 2px solid #0e2a18;
+  border-radius: 0.7rem;
 }
 
 .back-btn:hover,
 .back-btn:focus-visible {
-  background: #146b31;
+  background: #174726;
   color: #ffffff !important;
+  border-color: #0e2a18;
 }
 
 @media (max-width: 900px) {
@@ -540,6 +547,27 @@
   font-weight: 600;
 }
 
+.year-choice {
+  margin: 0 0 0.8rem;
+  font-size: 14pt;
+  font-weight: 700;
+  color: #142117;
+}
+
+.year-choice a {
+  color: #0e2a18;
+}
+
+body.pf-2025 {
+  font-size: 14pt;
+}
+
+body.pf-2025 table.deep-table,
+body.pf-2025 .deep-votes td {
+  font-size: 12.5pt;
+  color: #142117;
+}
+
 .page-body .intro {
   margin: 0 0 0.65rem;
 }
@@ -841,6 +869,37 @@ ol.method-steps li {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 0.35rem 0.75rem;
   align-items: center;
+}
+
+.reports-board .intro,
+.reports-board .session-head,
+.reports-board .report-year,
+.reports-board .session-missing {
+  color: #142117;
+  font-size: 14pt;
+}
+
+.reports-board .session-head {
+  margin: 0 0 0.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.reports-board .session-cell {
+  align-items: center;
+  margin: 0 0 0.85rem;
+}
+
+.reports-board .report-year {
+  flex: 0 0 3.4rem;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.reports-board .icon-tiles a {
+  font-size: 12.5pt;
+  color: #142117;
 }
 
 .home-columns .session-head {
