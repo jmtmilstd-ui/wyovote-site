@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Report — WyoVote</title>
+    <meta name="description" content="Read a WyoVote report in the browser, then download or print it.">
+    <link rel="icon" href="assets/img/surveyor-icon.png" type="image/png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="preview.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/img/surveyor-icon.png" alt="" width="135" height="152">
+          <span class="site-name">WyoVote</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="archive.html">Archive</a></li>
+            <li><a href="candidates.html">Candidates</a></li>
+            <li><a href="archive/committees.html">Committees</a></li>
+            <li><a href="archive/counties.html">Counties</a></li>
+            <li><a href="officials.html">Officials</a></li>
+            <li><a href="research.html">Research</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div class="wrap back-wrap">
+        <p class="back-row"><a class="back-btn" id="viewer-back" href="index.html">← Back to Home</a></p>
+      </div>
+      <section class="page-hero">
+        <div class="wrap">
+          <h1 id="viewer-title">Report</h1>
+        </div>
+      </section>
+      <section class="page-body">
+        <div class="wrap page-prose">
+          <p class="pdf-error" id="viewer-error" hidden>This report could not be opened. The address is not a PDF on this site.</p>
+          <iframe class="pdf-frame" id="pdf-frame" title="Report" hidden></iframe>
+          <p class="pdf-fallback" id="pdf-fallback" hidden>If the report does not appear above, <a id="pdf-open" href="index.html">open the PDF</a>.</p>
+          <p class="pdf-actions" id="pdf-actions" hidden>
+            <a class="pdf-btn" id="pdf-download" href="index.html" download>Download PDF</a>
+            <button class="pdf-btn" id="pdf-print" type="button">Print</button>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2026 WyoVote. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        var HTML_PATH = /^[A-Za-z0-9][A-Za-z0-9_./-]*\.html$/;
+        var PDF_PATH = /^[A-Za-z0-9][A-Za-z0-9_./-]*\.pdf$/i;
+
+        function tidy(value) {
+          if (!value) return "";
+          return String(value).replace(/[\u0000-\u001f\u007f]/g, "").trim();
+        }
+
+        function safePath(value, pattern) {
+          if (!value || value.length > 400) return "";
+          if (/^[a-z][a-z0-9+.-]*:/i.test(value)) return "";
+          if (value.indexOf("\\") !== -1 || value.indexOf("..") !== -1) return "";
+          if (value.charAt(0) === "/" || value.indexOf("//") !== -1) return "";
+          if (!pattern.test(value)) return "";
+          return value;
+        }
+
+        function inPreview() {
+          return /\/preview\/view\.html$/i.test(location.pathname);
+        }
+
+        function pdfHref(file) {
+          return (inPreview() ? "../" : "") + file;
+        }
+
+        function sectionFor(back) {
+          if (!back || back === "index.html") return "Home";
+          if (back === "candidates.html" || back === "archive/candidates.html") return "Candidates";
+          if (back === "archive/committees.html" || back === "committee-ratings.html") return "Committees";
+          if (back === "archive/counties.html" || back === "county-ratings.html") return "Counties";
+          if (back === "officials.html" || back.indexOf("officials/") === 0) return "Officials";
+          if (back === "research.html" || back === "archive/research.html") return "Research";
+          if (back === "archive.html" || back.indexOf("archive/") === 0) return "Archive";
+          if (back.indexOf("articles/") === 0 || back.indexOf("news/") === 0) return "Archive";
+          if (back === "reports.html" || back === "historical-ratings.html") return "Archive";
+          return "";
+        }
+
+        function fromReferrer() {
+          if (!document.referrer) return "";
+          var ref;
+          try { ref = new URL(document.referrer); } catch (error) { return ""; }
+          if (ref.origin !== location.origin) return "";
+          var dir = location.pathname.replace(/\/[^/]*$/, "/");
+          if (ref.pathname.indexOf(dir) !== 0) return "";
+          return safePath(ref.pathname.slice(dir.length), HTML_PATH);
+        }
+
+        var params = new URLSearchParams(location.search);
+        var file = safePath(tidy(params.get("file")), PDF_PATH);
+        var back = safePath(tidy(params.get("back")), HTML_PATH) || fromReferrer();
+        var title = tidy(params.get("title")).slice(0, 180);
+        var section = sectionFor(back) || "Home";
+        var backHref = back || "index.html";
+        var backBtn = document.getElementById("viewer-back");
+        backBtn.setAttribute("href", backHref);
+        backBtn.textContent = "← Back to " + section;
+
+        var links = document.querySelectorAll(".site-nav a");
+        for (var i = 0; i < links.length; i++) {
+          if (links[i].textContent.trim() === section) links[i].setAttribute("aria-current", "page");
+        }
+
+        var heading = document.getElementById("viewer-title");
+        var frame = document.getElementById("pdf-frame");
+        var error = document.getElementById("viewer-error");
+        var fallback = document.getElementById("pdf-fallback");
+        var actions = document.getElementById("pdf-actions");
+        var openLink = document.getElementById("pdf-open");
+        var download = document.getElementById("pdf-download");
+
+        if (!file) {
+          heading.textContent = "Report";
+          document.title = "Report — WyoVote";
+          error.hidden = false;
+          return;
+        }
+
+        if (!title) title = file.split("/").pop().replace(/\.pdf$/i, "").replace(/[_-]+/g, " ");
+        heading.textContent = title;
+        document.title = title + " — WyoVote";
+        var pdfPath = pdfHref(file);
+        frame.setAttribute("src", pdfPath);
+        frame.title = title;
+        frame.hidden = false;
+        openLink.setAttribute("href", pdfPath);
+        download.setAttribute("href", pdfPath);
+        download.setAttribute("download", file.split("/").pop());
+        fallback.hidden = false;
+        actions.hidden = false;
+
+        document.getElementById("pdf-print").addEventListener("click", function () {
+          try {
+            frame.contentWindow.focus();
+            frame.contentWindow.print();
+          } catch (error) {
+            window.print();
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

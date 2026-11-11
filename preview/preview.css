@@ -1561,3 +1561,53 @@ ol.method-steps li {
   font-size: 14pt;
   line-height: 1.4;
 }
+
+.pdf-frame {
+  display: block;
+  width: 100%;
+  height: 75vh;
+  min-height: 28rem;
+  border: 2px solid #146b31;
+  background: #ffffff;
+}
+
+.pdf-fallback,
+.pdf-error {
+  margin: 0.85rem 0 0;
+  color: #142117;
+  font-size: 14pt;
+  line-height: 1.4;
+}
+
+.pdf-fallback a,
+.pdf-error a {
+  color: #0e2a18;
+  font-weight: 700;
+}
+
+.pdf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.9rem 0 0;
+}
+
+.pdf-btn {
+  display: inline-block;
+  padding: 0.7rem 1.35rem;
+  border: 2px solid #0e2a18;
+  border-radius: 0.7rem;
+  background: #1f5c2e;
+  color: #ffffff;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pdf-btn:hover,
+.pdf-btn:focus-visible {
+  background: #174726;
+  color: #ffffff;
+}
