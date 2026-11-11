@@ -40,6 +40,13 @@ unreferenced:docs/news-box.md
 # The publish check itself. Not a site asset.
 unreferenced:tools/publish_check.py
 
+# Rebuilds preview candidate detail pages. Not a site asset.
+unreferenced:tools/build_candidate_pages.py
+
+# Compact research used by that rebuild. Not linked from a page.
+unreferenced:preview/data/candidate-research/2026-primary/part-01.json
+unreferenced:preview/data/candidate-research/2026-primary/part-02.json
+
 # Exception list for the publish check. Not a site asset.
 unreferenced:tools/publish_check_allow.txt
 

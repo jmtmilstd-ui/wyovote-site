@@ -1691,6 +1691,60 @@ body.cand-page {
   line-height: 1.3;
 }
 
+.cand-facts {
+  width: 100%;
+  margin: 0.35rem 0 0;
+  border-collapse: collapse;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 1.35;
+}
+
+.cand-facts th,
+.cand-facts td {
+  padding: 0.35rem 0.5rem;
+  border: 2px solid #146b31;
+  color: #142117;
+  font-size: 12pt;
+  font-weight: 400;
+  line-height: 1.35;
+  text-align: left;
+  vertical-align: top;
+}
+
+.cand-facts th {
+  width: 10.5rem;
+  font-weight: 700;
+}
+
+.cand-facts a,
+.cand-sources a {
+  color: #0e2a18;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.cand-topic {
+  margin: 0.65rem 0 0.15rem;
+  color: #142117;
+  font-size: 12pt;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.cand-sources {
+  margin: 1.15rem 0 0;
+  padding: 0;
+  color: #142117;
+  font-size: 14pt;
+  line-height: 1.4;
+}
+
+.cand-sources li {
+  margin: 0.2rem 0;
+}
+
 .cand-names .cand-res {
   margin: 0;
   color: #142117;
@@ -1744,9 +1798,17 @@ body.cand-page {
   .cand-names,
   .cand-names a,
   .cand-abbr,
-  .cand-names .cand-res {
+  .cand-names .cand-res,
+  .cand-facts,
+  .cand-facts th,
+  .cand-facts td {
     color: #000000;
     font-size: 12pt;
+  }
+
+  .cand-facts th,
+  .cand-facts td {
+    border: 2px solid #000000;
   }
 
   .cand-race {
