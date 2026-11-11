@@ -57,6 +57,7 @@ body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 .pf-yr-r { font-size: 14.5pt; margin-bottom: 0.2rem; }
 .pf-yr-r b { font-size: 1.6rem; font-family: var(--font-serif); line-height: 1.1; }
 .pf-yr .pf-band { font-size: 14.5pt; padding: 0 0.4rem; }
+.pf-deeper { margin: 0.15rem 0 0; font-size: 14.5pt; font-weight: 700; color: #142117; }
 .pf-foot { font-size: 14.5pt; margin: 0.35rem 0 0; }
 
 .pf-news li { display: block; }
