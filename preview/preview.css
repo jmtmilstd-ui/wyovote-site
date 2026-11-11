@@ -843,6 +843,37 @@ ol.method-steps li {
   align-items: center;
 }
 
+.reports-board .intro,
+.reports-board .session-head,
+.reports-board .report-year,
+.reports-board .session-missing {
+  color: #142117;
+  font-size: 14pt;
+}
+
+.reports-board .session-head {
+  margin: 0 0 0.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.reports-board .session-cell {
+  align-items: center;
+  margin: 0 0 0.85rem;
+}
+
+.reports-board .report-year {
+  flex: 0 0 3.4rem;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.reports-board .icon-tiles a {
+  font-size: 12.5pt;
+  color: #142117;
+}
+
 .home-columns .session-head {
   margin: 0;
   font-size: 1.05rem;
