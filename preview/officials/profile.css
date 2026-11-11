@@ -26,6 +26,7 @@ body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 .pf-chart { display: block; width: 100%; height: auto; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 .pf-narrow { display: none; }
 .pf-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.55rem; }
+.pf-tiles-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .pf-tile { min-width: 0; border: 1px solid #b9b5a8; border-radius: 0.4rem; padding: 0.5rem 0.65rem; background: #f7f6f0; }
 .pf-rankline { display: block; font-size: 14.5pt; font-weight: 700; line-height: 1.3; color: #142117; }
 .pf-tl { font-size: 14.5pt; font-weight: 700; color: #142117; }
@@ -60,6 +61,7 @@ body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 .pf-yr .pf-band { font-size: 14.5pt; padding: 0 0.4rem; }
 .pf-deeper { margin: 0.15rem 0 0; font-size: 14.5pt; font-weight: 700; color: #142117; }
 .pf-deeper a { color: #0e2a18; }
+.pf-none { margin: 0; font-size: 14.5pt; font-weight: 700; color: #142117; }
 
 .deep-note { margin: 0 0 0.55rem; font-size: 14.5pt; color: #142117; }
 .deep-soon { margin: 0; font-size: 14.5pt; font-weight: 700; color: #142117; }
