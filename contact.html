@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact — WyoVote</title>
-    <meta name="description" content="Send a message to WyoVote. The form is not active yet.">
+    <meta name="description" content="Send a message to WyoVote.">
     <link rel="icon" href="assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="assets/css/site.css">
@@ -43,12 +43,11 @@
       <section class="page-body">
         <div class="wrap page-prose">
           <p>Questions and corrections can be sent to WyoVote with this form. A reply goes to the email address you enter.</p>
-          <p class="form-pending">Form not active yet.</p>
           <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY_PENDING">
+            <input type="hidden" name="access_key" value="a46dd735-e531-498d-aa96-eb66dfadb91d">
             <input type="hidden" name="from_name" value="WyoVote website">
             <input type="hidden" name="subject" id="mail-subject" value="WyoVote contact: General">
-            <input type="hidden" name="redirect" value="https://jmtmilstd-ui.github.io/wyovote-site/contact-thanks.html">
+            <input type="hidden" name="redirect" value="https://wyovote.com/contact-thanks.html">
             <input type="hidden" name="replyto" value="email">
             <div class="form-honeypot" aria-hidden="true">
               <label>Leave this blank <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label>
