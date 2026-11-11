@@ -25,8 +25,9 @@ body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 .pf-cap-end { margin: 0.4rem 0 0; }
 .pf-chart { display: block; width: 100%; height: auto; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 .pf-narrow { display: none; }
-.pf-tiles { display: grid; grid-template-columns: repeat(12, 1fr); gap: 0.6rem; }
-.pf-tile { grid-column: span 3; border: 1px solid #b9b5a8; border-radius: 0.4rem; padding: 0.5rem 0.65rem; background: #f7f6f0; }
+.pf-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.55rem; }
+.pf-tile { min-width: 0; border: 1px solid #b9b5a8; border-radius: 0.4rem; padding: 0.5rem 0.65rem; background: #f7f6f0; }
+.pf-rankline { display: block; font-size: 14.5pt; font-weight: 700; line-height: 1.3; color: #142117; }
 .pf-tl { font-size: 14.5pt; font-weight: 700; color: #142117; }
 .pf-tv { font-size: 14.5pt; }
 .pf-big { font-size: 2rem; line-height: 1.1; font-family: var(--font-serif); }
@@ -95,7 +96,7 @@ table.deep-table caption { caption-side: bottom; text-align: left; padding-top: 
 @media (max-width: 899px) { .pf-head h1 { font-size: 1.9rem; } }
 @media (max-width: 980px) { .pf-years { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 640px) {
-  .pf-tile { grid-column: span 6; }
+  .pf-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   body.pf .wrap { width: calc(100% - 1rem); }
   .pf-wide { display: none; } .pf-narrow { display: block; }
   .pf-card { padding: 0.7rem 0.75rem 0.85rem; }
