@@ -380,23 +380,25 @@ def _box_width(label: str, leaf: bool) -> float:
     return text_width(label, MAP_FONT) + 22
 
 
-def _layout(node: dict, side: str) -> dict:
+def _layout(node: dict, side: str, roomy: bool = False) -> dict:
     """Stair-step. Several children sit in a row so the chart stays rectangular."""
     label = node["label"]
     leaf = bool(node.get("leaf"))
     bw = _box_width(label, leaf)
-    kids = [_layout(child, side) for child in node.get("children") or []]
+    kids = [_layout(child, side, roomy) for child in node.get("children") or []]
     if not kids:
         return {"label": label, "leaf": leaf, "px": 0, "py": 0, "bw": bw, "w": bw, "h": BOX_H, "kids": []}
-    gap = 8
-    step = 12
+    # The Archive cluster is dense; extra space keeps arrowheads off the boxes.
+    gap = 20 if roomy else 8
+    step = 20 if roomy else 12
+    row_gap = 16 if roomy else 6
     per_row = 2 if len(kids) >= 4 else len(kids)
     rows = [kids[i:i + per_row] for i in range(0, len(kids), per_row)]
     row_widths = [sum(kid["w"] for kid in row) + gap * (len(row) - 1) for row in rows]
     row_heights = [max(kid["h"] for kid in row) for row in rows]
     inner_w = max(row_widths)
     width = max(bw, inner_w + step)
-    y = BOX_H + 12
+    y = BOX_H + (26 if roomy else 12)
     placed = []
     for row, row_w, row_h in zip(rows, row_widths, row_heights):
         if side == "left":
@@ -406,9 +408,9 @@ def _layout(node: dict, side: str) -> dict:
         for kid in row:
             placed.append((kid, x, y))
             x += kid["w"] + gap
-        y += row_h + 6
+        y += row_h + row_gap
     px = (width - bw) if side == "left" else 0
-    return {"label": label, "leaf": leaf, "px": px, "py": 0, "bw": bw, "w": width, "h": y - gap, "kids": placed}
+    return {"label": label, "leaf": leaf, "px": px, "py": 0, "bw": bw, "w": width, "h": y - row_gap, "kids": placed}
 
 
 def _paint(node: dict, ox: float, oy: float, boxes: list, lines: list) -> None:
@@ -442,7 +444,7 @@ def _draw_box(x, y, w, h, label, leaf) -> str:
 def render_diagram() -> str:
     """Home on a center trunk. Sections stair-step to the left and right."""
     data = load_map()
-    left_trees = [_layout(node, "left") for node in data["left"]]
+    left_trees = [_layout(node, "left", roomy=node["label"] == "Archive") for node in data["left"]]
     right_trees = [_layout(node, "right") for node in data["right"]]
     gap = 14
     left_w = max(tree["w"] for tree in left_trees)
