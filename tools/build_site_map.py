@@ -270,8 +270,11 @@ def trail_label(label: str) -> str:
 
 
 def trail_html(labels: list[str]) -> str:
-    """Side-entry stair. A rail on the left enters each box's left end."""
-    shown = [clip_label(label) for label in labels]
+    """Side-entry stair. A rail on the left enters each box's left end.
+
+    Each box is as wide as its label. Labels are not shortened.
+    """
+    shown = [re.sub(r"\s+", " ", label).strip() for label in labels]
     pad_x = 8
     step_x = 12
     pitch = BOX_H + 8

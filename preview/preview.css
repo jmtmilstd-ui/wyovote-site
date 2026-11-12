@@ -1950,7 +1950,7 @@ html.cand-general .cand-view-general {
 .page-trail {
   flex: 0 0 auto;
   width: max-content;
-  max-width: min(100%, 16rem);
+  max-width: 100%;
   margin: 0 0 0 auto;
 }
 

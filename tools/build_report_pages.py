@@ -235,12 +235,19 @@ def parse_member_sections(pages: list[list[tuple[float, float, str]]]) -> list[t
     current_title = ""
     current_rows: list[dict] = []
     anchor_index = 0
-    for top, row in lined:
+    for index, (top, row) in enumerate(lined):
         text = line_text(row)
         if re.match(r"(House|Senate)\b", text) and "member" in text.casefold():
             if current_rows:
                 sections.append((current_title, current_rows))
-            current_title = re.sub(r"\s+", " ", text).strip()
+            parts = [text.strip()]
+            for _next_top, next_row in lined[index + 1:]:
+                nxt = line_text(next_row).strip()
+                if re.match(r"(?:Liberal|Conservative|Moderate)\b", nxt) or re.match(r"\d+\s+not ranked", nxt, re.I):
+                    parts.append(nxt)
+                    continue
+                break
+            current_title = re.sub(r"\s+", " ", " ".join(parts)).strip()
             current_rows = []
             continue
         if anchor_index >= len(anchors) or anchors[anchor_index][0] != top:
@@ -353,11 +360,24 @@ def notes_of(text: str) -> list[str]:
 
 
 def title_of(path: Path, text: str) -> tuple[str, str]:
-    head = [line.strip() for line in text.splitlines() if line.strip()][:3]
-    main = head[0] if head else path.stem
-    sub = head[1] if len(head) > 1 else ""
+    head = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines() if line.strip()]
+    if not head:
+        return path.stem, ""
+    main = head[0]
+    index = 1
+    while index < len(head):
+        nxt = head[index]
+        if re.match(r"^(Joint |County report|v\d|All |Legislators)", nxt):
+            break
+        if "Average" in nxt or nxt.startswith("Committee "):
+            break
+        main = f"{main} {nxt}"
+        index += 1
+        if index > 3:
+            break
+    subtitle = head[index] if index < len(head) else ""
     main = re.sub(r"^\d+\s*·\s*", "", main)
-    return main, sub
+    return re.sub(r"\s+", " ", main).strip(), subtitle
 
 
 def parse_summary_table(text: str) -> tuple[list[str], list[list[str]]]:
@@ -547,6 +567,15 @@ def parse_report(path: Path, kind: str) -> dict:
     if kind == "ratings":
         alpha = "Alpha" in path.name
         one_page = "1p" in path.name or "_105" in path.name or "_106" in path.name
+        year = path.parent.name
+        if one_page and alpha:
+            title, subtitle = f"{year} Alpha, one page", "House and Senate in one table, alphabetical by name"
+        elif one_page:
+            title, subtitle = f"{year} Ranked, one page", "House and Senate in one table, most to least conservative"
+        elif alpha:
+            title, subtitle = f"{year} Alpha", "House and Senate, alphabetical by name"
+        else:
+            title, subtitle = f"{year} Ranked", "House and Senate, most to least conservative"
         if one_page:
             rows = parse_one_page(path)
             rows.sort(key=lambda row: (row["name"] if alpha else int(row["rank"] if row["rank"].isdigit() else 999)))
