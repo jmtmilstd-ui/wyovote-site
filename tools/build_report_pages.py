@@ -1249,6 +1249,45 @@ def rewrite_links(mapping: dict[Path, Path]) -> int:
     return changed
 
 
+def full_ratings_pdf(year: str, kind: str) -> Path:
+    label = "Ranked_103" if kind == "ranked" else "Alpha_104"
+    return ROOT / "reports" / year / f"wyovote_{year}_Ratings_{label}_v1.0.pdf"
+
+
+def retarget_full_ratings() -> int:
+    """Full Ranked and Alpha sheets stay PDFs. One-page sheets stay web pages."""
+    changed = 0
+    anchor = re.compile(r'<a\b([^>]*?)href="([^"]+)"([^>]*)>')
+    for html_path in PREVIEW.rglob("*.html"):
+        text = html_path.read_text(encoding="utf-8")
+        original = text
+
+        def replace(match: re.Match) -> str:
+            before, href, after = match.group(1), match.group(2), match.group(3)
+            path = href.split("#", 1)[0].split("?", 1)[0]
+            found = re.search(r"(\d{4})/ratings/(ranked|alpha)\.html$", path)
+            if not found:
+                return match.group(0)
+            year, kind = found.group(1), found.group(2)
+            pdf = full_ratings_pdf(year, kind)
+            if not pdf.is_file():
+                return match.group(0)
+            new_href = Path(os.path.relpath(pdf, html_path.parent)).as_posix()
+            blob = before + after
+            extra = ""
+            if "target=" not in blob:
+                extra += ' target="_blank"'
+            if "rel=" not in blob:
+                extra += ' rel="noopener"'
+            return f'<a{before}href="{new_href}"{after}{extra}>'
+
+        text = anchor.sub(replace, text)
+        if text != original:
+            html_path.write_text(text, encoding="utf-8")
+            changed += 1
+    return changed
+
+
 def reports_for(kind: str) -> list[Path]:
     found = []
     for path in sorted(REPORTS.rglob("*.pdf")):
@@ -1262,6 +1301,12 @@ def build(kind: str) -> int:
     mapping: dict[Path, Path] = {}
     count = 0
     for pdf in reports_for(kind):
+        _year, slug = slug_for(pdf, kind)
+        if kind == "ratings" and slug in {"ranked", "alpha"}:
+            dest = page_path(pdf, kind)
+            if dest.exists():
+                dest.unlink()
+            continue
         parsed = parse_report(pdf, kind)
         if not parsed["sections"] and not parsed["summary_table"][1] and not parsed["summary"]:
             raise SystemExit(f"no rows parsed from {pdf}")
@@ -1277,6 +1322,8 @@ def build(kind: str) -> int:
             raise SystemExit(f"summary table too short in {pdf}: {summary_rows}")
     print(f"wrote {count} {kind} pages")
     print(f"relinked {rewrite_links(mapping)} preview pages")
+    if kind == "ratings":
+        print(f"pointed {retarget_full_ratings()} full Ranked/Alpha links at the PDFs")
     subprocess.check_call([sys.executable, str(ROOT / "tools" / "build_site_map.py")])
     return count
 

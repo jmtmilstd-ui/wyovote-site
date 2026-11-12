@@ -2543,7 +2543,7 @@ html.cand-general .page-trail .cand-view-general {
 
 .wv-sheet:has(.op-grid) {
   max-width: 612pt;
-  padding: 10pt 14pt 12pt;
+  padding: 8pt 16pt 6pt;
 }
 
 .op-banner {
@@ -2586,7 +2586,11 @@ html.cand-general .page-trail .cand-view-general {
 .op-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.35rem 0.6rem;
+  gap: 3pt 6pt;
+}
+
+.op-col {
+  min-width: 0;
 }
 
 .op-span {
@@ -2621,12 +2625,13 @@ html.cand-general .page-trail .cand-view-general {
 .op-head,
 .op-row {
   display: grid;
-  grid-template-columns: 22pt 28pt 32pt 24pt minmax(0, 1fr);
-  gap: 2pt;
+  grid-template-columns: 16pt 18pt 24pt 22pt minmax(0, 1fr);
+  gap: 1.5pt;
   align-items: center;
-  margin: 1pt 0;
-  font-size: 9.5pt;
-  line-height: 11pt;
+  margin: 3.5pt 0;
+  min-height: 17pt;
+  font-size: 8.75pt;
+  line-height: 10.5pt;
 }
 
 .op-head {
@@ -2640,28 +2645,39 @@ html.cand-general .page-trail .cand-view-general {
 .op-box,
 .op-dist {
   display: inline-block;
-  min-width: 16pt;
+  min-width: 0;
+  max-width: 100%;
   padding: 0 1pt;
   border: 1px solid #a6a6a6;
   color: #142117;
-  font-size: 9.5pt;
+  font-size: 8.75pt;
   font-weight: 700;
   line-height: 12pt;
   text-align: center;
 }
 
 .op-votes {
-  color: #606060;
-  font-size: 8pt;
-  line-height: 10pt;
+  color: #7f7f7f;
+  font-size: 7.2pt;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 9pt;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .op-name {
-  font-size: 9.5pt;
-  line-height: 11pt;
-  white-space: nowrap;
+  min-width: 0;
+  font-size: 8.75pt;
+  font-weight: 400;
+  line-height: 10.5pt;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.op-row .op-name a.wv-person {
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .op-dist.is-republican { background: #dfa7a5; }
@@ -2673,9 +2689,9 @@ html.cand-general .page-trail .cand-view-general {
 
 .op-legend {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 8pt;
-  margin-top: 8pt;
+  margin-top: 4pt;
   color: #142117;
   font-size: 9pt;
   line-height: 12pt;
@@ -2683,9 +2699,9 @@ html.cand-general .page-trail .cand-view-general {
 
 .op-brand {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 1pt;
+  gap: 4pt;
   color: #1e6b1e;
   font-family: "Liberation Sans", Arial, sans-serif;
   font-size: 11pt;
@@ -2694,7 +2710,7 @@ html.cand-general .page-trail .cand-view-general {
 }
 
 .op-brand img {
-  width: 28pt;
+  width: 22pt;
   height: auto;
 }
 
