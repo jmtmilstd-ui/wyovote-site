@@ -437,9 +437,143 @@ def parse_committee_index(path: Path) -> tuple[list[str], list[list[str]]]:
     return headers, rows
 
 
+def _near(page: list[tuple[float, float, str]], y: float, start: float, end: float, slack: float = 10) -> str:
+    words = sorted(
+        (yy, left, text)
+        for left, yy, text in page
+        if start <= left < end and abs(yy - y) <= slack
+    )
+    return " ".join(text for _yy, _left, text in words).strip()
+
+
+def parse_full_ratings(path: Path, alpha: bool) -> list[tuple[str, list[dict]]]:
+    house: list[dict] = []
+    senate: list[dict] = []
+    for page in pdf_words(path):
+        if alpha:
+            anchors = [
+                (y, text)
+                for left, y, text in page
+                if re.fullmatch(r"[HS]\d{1,3}", text) and 165 <= left < 210
+            ]
+        else:
+            anchors = [
+                (y, text)
+                for left, y, text in page
+                if re.fullmatch(r"[HS]\d{1,3}", text) and 280 <= left < 340
+            ]
+        for y, district in anchors:
+            if alpha:
+                name = _near(page, y, 40, 170)
+                party = _near(page, y, 220, 310, 3)
+                band = _near(page, y, 310, 400, 3)
+                overall = _near(page, y, 400, 455, 3)
+                chamber = _near(page, y, 455, 510, 3)
+                votes = _near(page, y, 510, 580, 3)
+            else:
+                name = _near(page, y, 160, 290)
+                party = _near(page, y, 340, 420, 3)
+                band = _near(page, y, 420, 500, 3)
+                overall = _near(page, y, 110, 165, 3)
+                chamber = _near(page, y, 50, 110, 3)
+                votes = _near(page, y, 510, 580, 3)
+            band = band if band in {"Conservative", "Moderate", "Liberal"} else ("Not ranked" if "Not" in band or band == "" else band)
+            row = {
+                "rank": overall or "Not ranked",
+                "name": re.sub(r"-\s+", "-", re.sub(r"\s+", " ", name)).strip(" -"),
+                "district": district,
+                "party": party,
+                "role": "",
+                "band": band or "Not ranked",
+                "chamber": chamber or "Not ranked",
+                "covers": votes,
+            }
+            if not row["name"]:
+                continue
+            (senate if district.startswith("S") else house).append(row)
+    sections = []
+    if house:
+        sections.append(("House", house))
+    if senate:
+        sections.append(("Senate", senate))
+    return sections
+
+
+def parse_one_page(path: Path) -> list[dict]:
+    """Three printed columns become one table."""
+    columns = ((0, 200), (200, 390), (390, 700))
+    rows = []
+    for page in pdf_words(path):
+        for start, end in columns:
+            chosen = sorted((y, left, text) for left, y, text in page if start <= left < end)
+            groups: list[list[tuple[float, str]]] = []
+            bucket: list[tuple[float, str]] = []
+            top = None
+            for y, left, text in chosen:
+                if top is None or y - top > 4:
+                    if bucket:
+                        groups.append(bucket)
+                    bucket = []
+                    top = y
+                bucket.append((left, text))
+            if bucket:
+                groups.append(bucket)
+            for words in groups:
+                words = sorted(words)
+                text = " ".join(word for _left, word in words)
+                match = re.match(
+                    r"(\d+|NR)\s+(\d+|NR)\s+(\d+)\s+([HS]\d{1,3})\s+(.+)$",
+                    text,
+                )
+                if not match:
+                    continue
+                overall, chamber, votes, district, name = match.groups()
+                rows.append({
+                    "rank": overall,
+                    "chamber": chamber,
+                    "covers": votes,
+                    "district": district,
+                    "name": name.strip(),
+                    "party": "",
+                    "role": "",
+                    "band": "House" if district.startswith("H") else "Senate",
+                })
+    return rows
+
+
 def parse_report(path: Path, kind: str) -> dict:
     text = layout_text(path)
     title, subtitle = title_of(path, text)
+    if kind == "ratings":
+        alpha = "Alpha" in path.name
+        one_page = "1p" in path.name or "_105" in path.name or "_106" in path.name
+        if one_page:
+            rows = parse_one_page(path)
+            rows.sort(key=lambda row: (row["name"] if alpha else int(row["rank"] if row["rank"].isdigit() else 999)))
+            headers = ["Overall rank", "Chamber rank", "Legislator", "District", "Votes", "Chamber"]
+            table_rows = [[row["rank"], row["chamber"], row["name"], row["district"], row["covers"], row["band"]] for row in rows]
+            return {
+                "title": title,
+                "subtitle": subtitle,
+                "summary": [],
+                "sections": [],
+                "summary_table": (headers, table_rows),
+                "notes": notes_of(text),
+                "kind": kind,
+                "name_column": 2,
+            }
+        sections = parse_full_ratings(path, alpha)
+        # Reuse the member renderer. Votes are stored in covers and renamed below.
+        return {
+            "title": title,
+            "subtitle": subtitle,
+            "summary": [],
+            "sections": sections,
+            "summary_table": ([], []),
+            "notes": notes_of(text),
+            "kind": kind,
+            "votes_column": True,
+        }
     if is_summary_pdf(path) and kind == "committee":
         headers, rows = parse_committee_index(path)
         return {
@@ -525,10 +659,10 @@ def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> N
         parts.append(f'<table class="report-stats"><thead><tr>{heads}</tr></thead><tbody><tr>{vals}</tr></tbody></table>')
     headers, rows = parsed["summary_table"]
     if headers:
-        name_at = 1 if headers and headers[1] in {"County", "Committee"} else None
-        parts.append(table(headers, rows, dest, officials, None if headers[1] == "Committee" else name_at and None))
-        # County names in the all-counties sheet are not legislators.
-        parts[-1] = table(headers, rows, dest, officials, None)
+        name_at = parsed.get("name_column")
+        if name_at is None and len(headers) > 1 and headers[1] == "Legislator":
+            name_at = 1
+        parts.append(table(headers, rows, dest, officials, name_at))
     for title, members in parsed["sections"]:
         parts.append(f"<h2>{esc(title)}</h2>")
         headers = ["Rank", "Legislator", "District", "Party"]
@@ -539,7 +673,7 @@ def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> N
         headers.extend(["Band", "Chamber rank"])
         keys.extend(["band", "chamber"])
         if any(row.get("covers") for row in members):
-            headers.append("Also covers")
+            headers.append("Votes" if parsed.get("votes_column") else "Also covers")
             keys.append("covers")
         body_rows = [[row.get(key, "") for key in keys] for row in members]
         parts.append(table(headers, body_rows, dest, officials, 1))
@@ -664,7 +798,7 @@ def build(kind: str) -> int:
         count += 1
         members = sum(len(rows) for _title, rows in parsed["sections"])
         summary_rows = len(parsed["summary_table"][1])
-        if not is_summary_pdf(pdf) and members == 0:
+        if not is_summary_pdf(pdf) and members == 0 and summary_rows < 20:
             raise SystemExit(f"no legislators parsed from {pdf}")
         if is_summary_pdf(pdf) and summary_rows < 5:
             raise SystemExit(f"summary table too short in {pdf}: {summary_rows}")
