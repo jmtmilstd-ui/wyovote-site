@@ -147,6 +147,19 @@ def crumbs(rel: str, text: str) -> list[str]:
             chain.extend(["Special", "Article"])
         else:
             chain.extend(["News", "Article"])
+    elif parts[0] == "reports" and len(parts) >= 4:
+        year, kind = parts[1], parts[2]
+        place = title
+        if year == "2026":
+            if kind == "county":
+                chain.extend(["Counties", place, "Report"])
+            elif kind == "committee":
+                chain.extend(["Committees", place, "Report"])
+            else:
+                chain.extend(["Ratings", place])
+        else:
+            section = {"county": "Counties", "committee": "Committees"}.get(kind, "Reports")
+            chain.extend(["Archive", section, place])
     elif rel == "candidates.html" or parts[0] == "candidates":
         chain.append("Candidates")
         if rel != "candidates.html":

@@ -2246,3 +2246,82 @@ html.cand-general .page-trail .cand-view-general {
   }
 }
 /* PROMOTE_END map */
+
+.report-sheet {
+  color: #142117;
+  font-size: 14pt;
+  line-height: 1.45;
+}
+
+.report-sheet p,
+.report-sheet li,
+.report-sheet h1,
+.report-sheet h2 {
+  color: #142117;
+}
+
+.report-kicker {
+  margin: 0 0 0.75rem;
+  color: #142117;
+  font-size: 14pt;
+  font-weight: 700;
+}
+
+.report-actions {
+  margin: 0 0 1rem;
+}
+
+.report-sheet a.print-pdf {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border: 2px solid #142117;
+  background: #ffffff;
+  color: #142117;
+  font-size: 12pt;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.report-stats {
+  width: auto;
+  margin: 0 0 1.25rem;
+  border-collapse: collapse;
+  font-size: 12pt;
+}
+
+.report-stats th,
+.report-stats td,
+.report-table th,
+.report-table td {
+  border: 1px solid #142117;
+  padding: 0.28rem 0.45rem;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 1.35;
+  text-align: left;
+  vertical-align: top;
+}
+
+.report-stats th,
+.report-table th {
+  background: #1f5d34;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.report-sheet h2 {
+  margin: 1.25rem 0 0.4rem;
+  font-size: 16pt;
+}
+
+.report-table {
+  width: 100%;
+  margin: 0 0 0.5rem;
+  border-collapse: collapse;
+}
+
+.report-note {
+  margin: 1rem 0 0;
+  color: #142117;
+  font-size: 14pt;
+}
