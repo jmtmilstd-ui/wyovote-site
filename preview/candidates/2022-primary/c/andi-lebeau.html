@@ -39,7 +39,7 @@
   <ol>
     <li><span class="site-box">Candidates</span></li>
     <li class="trail-join" aria-hidden="true"></li>
-    <li><span class="site-box">2022 Primary</span></li>
+    <li><span class="site-box"><span class="cand-view-primary">2022 Primary</span><span class="cand-view-general">2022 General</span></span></li>
     <li class="trail-join" aria-hidden="true"></li>
     <li><span class="site-box">County</span></li>
     <li class="trail-join" aria-hidden="true"></li>
@@ -52,7 +52,7 @@
           <p class="cand-blurb">Andi LeBeau (Democratic, Riverton): Assistant General Manager, Wind River Hotel and Casino; Wyoming House of Representatives District 33, 2019–2023. Unopposed in the Aug. 16, 2022 Democratic primary for State House District 33. Lost the Nov. 8, 2022 general election with 44.6% of the vote.</p>
           <p class="cand-meta">Democratic · Riverton, Fremont County</p>
           <p class="cand-res">Primary result: Unopposed, 133 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Lost, 867 votes (44.6%), 2nd of 2.</p>
+          <p class="cand-res cand-general-line">General result: State House HD33, Democratic, 867 votes (44.6%), Lost.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
@@ -95,7 +95,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

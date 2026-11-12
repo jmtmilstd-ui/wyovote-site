@@ -1639,6 +1639,71 @@ body.cand-page {
   line-height: 1.4;
 }
 
+.cand-election {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0 0 0.85rem;
+}
+
+.cand-election-btn {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  border: 2px solid #1f5d34;
+  border-radius: 0.32rem;
+  background: #ffffff;
+  color: #0e2a18;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cand-election-btn[data-election="primary"] {
+  background: #1f5d34;
+  color: #ffffff;
+}
+
+html.cand-general .cand-election-btn[data-election="primary"] {
+  background: #ffffff;
+  color: #0e2a18;
+}
+
+html.cand-general .cand-election-btn[data-election="general"] {
+  background: #1f5d34;
+  color: #ffffff;
+}
+
+.cand-view-general {
+  display: none;
+}
+
+html.cand-general .cand-view-primary {
+  display: none;
+}
+
+html.cand-general .cand-view-general {
+  display: revert;
+}
+
+.cand-unofficial {
+  margin: 0 0 0.75rem;
+  color: #8a1c1c;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.cand-unofficial[hidden] {
+  display: none !important;
+}
+
+.cand-win {
+  color: #142117;
+  font-weight: 700;
+}
+
 .cand-names {
   margin: 0;
   padding: 0.4rem 0.75rem 0.55rem;
@@ -1828,6 +1893,17 @@ body.cand-page {
   .punch-list {
     display: none !important;
   }
+
+  .cand-unofficial {
+    color: #8a1c1c;
+    print-color-adjust: exact;
+  }
+
+  .cand-election-btn {
+    border: 2px solid #000000;
+    color: #000000;
+    background: #ffffff;
+  }
 }
 
 .site-nav a.site-map-link {
@@ -1892,9 +1968,9 @@ body.cand-page {
 }
 
 .page-trail .site-box.is-current {
-  background: #1f5d34;
-  border-color: #0e2a18;
-  color: #ffffff;
+  background: #b8860b;
+  border-color: #5c4306;
+  color: #142117;
 }
 
 .trail-join {
@@ -1964,8 +2040,9 @@ body.cand-page {
   }
 
   .page-trail .site-box.is-current {
-    background: #0e2a18;
-    color: #ffffff;
+    background: #b8860b;
+    border-color: #000000;
+    color: #142117;
     print-color-adjust: exact;
   }
 

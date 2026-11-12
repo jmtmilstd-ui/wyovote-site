@@ -61,6 +61,7 @@
           <p class="cand-blurb">Britney Tennant (Democratic, Cheyenne): Nonprofit executive director. Unopposed in the Aug. 18, 2026 Democratic primary for State House District 11.</p>
           <p class="cand-meta">House District 11 · Democratic</p>
           <p class="cand-res">Primary result: Unopposed</p>
+          <p class="cand-res cand-general-line">General result: State House HD11, Democratic, 1,080 votes (47.8%), Won.</p>
           <section class="cand-research" aria-labelledby="h-research">
                       <h2 id="h-research">Research</h2>
                       <table class="cand-facts">
@@ -110,7 +111,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

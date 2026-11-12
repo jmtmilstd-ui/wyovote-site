@@ -9,6 +9,13 @@
     <link rel="icon" href="../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../css/styles.css">
     <link rel="stylesheet" href="../../preview.css">
+  
+    <script>
+      document.documentElement.classList.toggle("cand-general", new URLSearchParams(location.search).get("e") === "general");
+      if (document.documentElement.classList.contains("cand-general") && document.title.indexOf("Primary") !== -1) {
+        document.title = document.title.replace("Primary", "General");
+      }
+    </script>
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -35,7 +42,7 @@
     </header>
     <main id="main">
       <div class="wrap back-wrap">
-        <p class="back-row"><a class="back-btn" href="../../candidates.html">← Back to Candidates</a></p>
+        <p class="back-row"><a class="back-btn cand-view-primary" href="../../candidates.html">← Back to Candidates</a><a class="back-btn cand-view-general" href="../../candidates.html?e=general">← Back to Candidates</a></p>
       </div>
       <section class="page-hero">
         <div class="wrap">
@@ -56,6 +63,11 @@
       </section>
       <section class="page-body">
         <div class="wrap">
+          <div class="cand-election" role="group" aria-label="Election">
+            <a class="cand-election-btn" data-election="primary" href="natrona.html">Primary</a>
+            <a class="cand-election-btn" data-election="general" href="natrona.html?e=general">General</a>
+          </div>
+          <div class="cand-view cand-view-primary">
           <p>2026 Primary, August 18, 2026.</p>
           <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. Districts that cross county lines appear on every county they cover.</p>
           <!-- Punch list reserved. Not shown. -->
@@ -241,6 +253,158 @@
           </section>
           </div>
         </section>
+          </div>
+          <!-- general-view -->
+          <div class="cand-view cand-view-general">
+          <p class="cand-unofficial" hidden>Unofficial, awaiting canvass</p>
+          <p>November 3, 2026 general.</p>
+          <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. A check mark shows the winner. Districts that cross county lines appear on every county they cover.</p>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Federal</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>U.S. Senate</h3>
+            <ul class="cand-names">
+              <li><a href="c/harriet-hageman.html?from=natrona&amp;e=general">Harriet Hageman</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/james-byrd.html?from=natrona&amp;e=general">James Byrd</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>U.S. House</h3>
+            <ul class="cand-names">
+              <li><a href="c/chuck-gray.html?from=natrona&amp;e=general">Chuck Gray</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/lisa-kinney.html?from=natrona&amp;e=general">Lisa Kinney</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/shawn-johnson.html?from=natrona&amp;e=general">Shawn Johnson</a> <span class="cand-abbr">(L)</span></li>
+              <li><a href="c/jeffrey-haggit.html?from=natrona&amp;e=general">Jeffrey Haggit</a> <span class="cand-abbr">(C)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Statewide</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>Governor</h3>
+            <ul class="cand-names">
+              <li><a href="c/eric-barlow.html?from=natrona&amp;e=general">Eric Barlow</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/rebecca-bextel.html?from=natrona&amp;e=general">Rebecca Bextel</a> <span class="cand-abbr">(C)</span></li>
+              <li><a href="c/kenneth-r-casner.html?from=natrona&amp;e=general">Kenneth R. Casner</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Secretary of State</h3>
+            <ul class="cand-names">
+              <li><a href="c/robert-short.html?from=natrona&amp;e=general">Robert Short</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/bryan-mccarty.html?from=natrona&amp;e=general">Bryan McCarty</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/tamara-trujillo.html?from=natrona&amp;e=general">Tamara Trujillo</a> <span class="cand-abbr">(C)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Auditor</h3>
+            <ul class="cand-names">
+              <li><a href="c/kristi-racines.html?from=natrona&amp;e=general">Kristi Racines</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Treasurer</h3>
+            <ul class="cand-names">
+              <li><a href="c/curt-meier.html?from=natrona&amp;e=general">Curt Meier</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Superintendent</h3>
+            <ul class="cand-names">
+              <li><a href="c/steve-harshman.html?from=natrona&amp;e=general">Steve Harshman</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/ana-cordova.html?from=natrona&amp;e=general">Ana Cordova</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State Senate</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State Senate SD27</h3>
+            <ul class="cand-names">
+              <li><a href="c/kevin-helling.html?from=natrona&amp;e=general">Kevin Helling</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State Senate SD29</h3>
+            <ul class="cand-names">
+              <li><a href="c/lisa-engebretsen.html?from=natrona&amp;e=general">Lisa Engebretsen</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State House</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State House HD35</h3>
+            <ul class="cand-names">
+              <li><a href="c/christopher-dresang.html?from=natrona&amp;e=general">Christopher Dresang</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD36</h3>
+            <ul class="cand-names">
+              <li><a href="c/art-washut.html?from=natrona&amp;e=general">Art Washut</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/stewart-mcadoo.html?from=natrona&amp;e=general">Stewart McAdoo</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD37</h3>
+            <ul class="cand-names">
+              <li><a href="c/brian-costello.html?from=natrona&amp;e=general">Brian Costello</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/betsy-erickson.html?from=natrona&amp;e=general">Betsy Erickson</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD38</h3>
+            <ul class="cand-names">
+              <li><a href="c/robert-l-hendry.html?from=natrona&amp;e=general">Robert L. Hendry</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/catherine-mcqueen.html?from=natrona&amp;e=general">Catherine McQueen</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD56</h3>
+            <ul class="cand-names">
+              <li><a href="c/elissa-campbell.html?from=natrona&amp;e=general">Elissa Campbell</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD57</h3>
+            <ul class="cand-names">
+              <li><a href="c/julie-jarvis.html?from=natrona&amp;e=general">Julie Jarvis</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/luc-colgrove.html?from=natrona&amp;e=general">Luc Colgrove</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD58</h3>
+            <ul class="cand-names">
+              <li><a href="c/bill-allemand.html?from=natrona&amp;e=general">Bill Allemand</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/keenan-morgan.html?from=natrona&amp;e=general">Keenan Morgan</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/joseph-porambo.html?from=natrona&amp;e=general">Joseph Porambo</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD59</h3>
+            <ul class="cand-names">
+              <li><a href="c/j-r-riggins.html?from=natrona&amp;e=general">J.R. Riggins</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/laurie-longtine.html?from=natrona&amp;e=general">Laurie Longtine</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD62</h3>
+            <ul class="cand-names">
+              <li><a href="c/kevin-j-campbell.html?from=natrona&amp;e=general">Kevin J. Campbell</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          </div>
+          <!-- /general-view -->
         </div>
       </section>
     </main>
@@ -257,5 +421,17 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
+  
+    <script>
+      (function () {
+        var general = document.documentElement.classList.contains("cand-general");
+        var nodes = document.querySelectorAll(".cand-election-btn");
+        for (var i = 0; i < nodes.length; i++) {
+          var on = nodes[i].getAttribute("data-election") === (general ? "general" : "primary");
+          if (on) nodes[i].setAttribute("aria-current", "true");
+          else nodes[i].removeAttribute("aria-current");
+        }
+      })();
+    </script>
   </body>
 </html>

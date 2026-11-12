@@ -39,7 +39,7 @@
   <ol>
     <li><span class="site-box">Candidates</span></li>
     <li class="trail-join" aria-hidden="true"></li>
-    <li><span class="site-box">2022 Primary</span></li>
+    <li><span class="site-box"><span class="cand-view-primary">2022 Primary</span><span class="cand-view-general">2022 General</span></span></li>
     <li class="trail-join" aria-hidden="true"></li>
     <li><span class="site-box">County</span></li>
     <li class="trail-join" aria-hidden="true"></li>
@@ -52,7 +52,7 @@
           <p class="cand-blurb">Dalton Banks (Republican, Cowley): Maintenance Operator, Rancher; Wyoming House District 26, 2023–Present. Won the Aug. 16, 2022 Republican primary for State House District 26 with 40.9% of the vote. Unopposed in the Nov. 8, 2022 general election.</p>
           <p class="cand-meta">Republican · Cowley, Big Horn, Park Counties County</p>
           <p class="cand-res">Primary result: Won, 1,178 votes (40.9%), 1st of 4.</p>
-          <p class="cand-res">General result: Unopposed, 2,931 votes (100%), 1st of 1.</p>
+          <p class="cand-res cand-general-line">General result: State House HD26, Republican, 2,931 votes (100%), Unopposed.</p>
           <p><a href="../../../officials/banks-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -96,7 +96,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

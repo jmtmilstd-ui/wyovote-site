@@ -39,7 +39,7 @@
   <ol>
     <li><span class="site-box">Candidates</span></li>
     <li class="trail-join" aria-hidden="true"></li>
-    <li><span class="site-box">2022 Primary</span></li>
+    <li><span class="site-box"><span class="cand-view-primary">2022 Primary</span><span class="cand-view-general">2022 General</span></span></li>
     <li class="trail-join" aria-hidden="true"></li>
     <li><span class="site-box">County</span></li>
     <li class="trail-join" aria-hidden="true"></li>
@@ -52,7 +52,7 @@
           <p class="cand-blurb">Robert Bob&quot; Davis&quot; (Republican, Baggs): Business Owner; Wyoming House District 47, 2023–2026; Wyoming Senate District 11, 2027–Present. Won the Aug. 16, 2022 Republican primary for State House District 47 with 57.5% of the vote. Won the Nov. 8, 2022 general election with 80.1% of the vote.</p>
           <p class="cand-meta">Republican · Baggs, Carbon, Sweetwater Counties County</p>
           <p class="cand-res">Primary result: Won, 1,447 votes (57.5%), 1st of 2.</p>
-          <p class="cand-res">General result: Won, 2,636 votes (80.1%), 1st of 2.</p>
+          <p class="cand-res cand-general-line">General result: State House HD47, Republican, 2,636 votes (80.1%), Won.</p>
           <p><a href="../../../officials/davis-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -93,7 +93,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

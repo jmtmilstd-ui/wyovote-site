@@ -39,7 +39,7 @@
   <ol>
     <li><span class="site-box">Candidates</span></li>
     <li class="trail-join" aria-hidden="true"></li>
-    <li><span class="site-box">2024 Primary</span></li>
+    <li><span class="site-box"><span class="cand-view-primary">2024 Primary</span><span class="cand-view-general">2024 General</span></span></li>
     <li class="trail-join" aria-hidden="true"></li>
     <li><span class="site-box">County</span></li>
     <li class="trail-join" aria-hidden="true"></li>
@@ -52,7 +52,7 @@
           <p class="cand-blurb">Karlee Provenza (Democratic, Laramie): Educator; Wyoming House District 45, 2021–Present. Unopposed in the Aug. 20, 2024 Democratic primary for State House District 45. Won the Nov. 5, 2024 general election with 62.8% of the vote.</p>
           <p class="cand-meta">Democratic · Laramie, Albany County</p>
           <p class="cand-res">Primary result: Unopposed, 565 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Won, 2,493 votes (62.8%), 1st of 2.</p>
+          <p class="cand-res cand-general-line">General result: State House HD45, Democratic, 2,493 votes (62.8%), Won.</p>
           <p><a href="../../../officials/provenza-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -103,7 +103,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

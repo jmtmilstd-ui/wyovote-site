@@ -39,7 +39,7 @@
   <ol>
     <li><span class="site-box">Candidates</span></li>
     <li class="trail-join" aria-hidden="true"></li>
-    <li><span class="site-box">2024 Primary</span></li>
+    <li><span class="site-box"><span class="cand-view-primary">2024 Primary</span><span class="cand-view-general">2024 General</span></span></li>
     <li class="trail-join" aria-hidden="true"></li>
     <li><span class="site-box">County</span></li>
     <li class="trail-join" aria-hidden="true"></li>
@@ -52,7 +52,7 @@
           <p class="cand-blurb">Bob Ray (Democratic, Cheyenne). Unopposed in the Aug. 20, 2024 Democratic primary for State House District 42. Lost the Nov. 5, 2024 general election with 20.7% of the vote.</p>
           <p class="cand-meta">Democratic · Cheyenne, Laramie County</p>
           <p class="cand-res">Primary result: Unopposed, 151 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Lost, 853 votes (20.7%), 2nd of 2.</p>
+          <p class="cand-res cand-general-line">General result: State House HD42, Democratic, 853 votes (20.7%), Lost.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
@@ -85,7 +85,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

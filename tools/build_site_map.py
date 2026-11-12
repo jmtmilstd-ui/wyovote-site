@@ -152,13 +152,25 @@ def crumbs(rel: str, text: str) -> list[str]:
     return chain
 
 
+def trail_label(label: str) -> str:
+    """Year-index labels follow the Primary/General switch, the same as the h1."""
+    match = re.fullmatch(r"(\d{4}) Primary", label)
+    if not match:
+        return esc(label)
+    year = match.group(1)
+    return (
+        f'<span class="cand-view-primary">{year} Primary</span>'
+        f'<span class="cand-view-general">{year} General</span>'
+    )
+
+
 def trail_html(labels: list[str]) -> str:
     rows = ['<div class="page-trail" aria-label="Where this page sits">', "  <ol>"]
     for index, label in enumerate(labels):
         if index:
             rows.append('    <li class="trail-join" aria-hidden="true"></li>')
         kind = "site-box is-current" if index == len(labels) - 1 else "site-box"
-        rows.append(f'    <li><span class="{kind}">{esc(label)}</span></li>')
+        rows.append(f'    <li><span class="{kind}">{trail_label(label)}</span></li>')
     rows.append("  </ol>")
     rows.append("</div>")
     return "\n".join(rows)
