@@ -37,7 +37,7 @@
           <p class="cand-blurb">Rachel Rodriguez-Williams (Republican, Cody): Nonprofit executive; Wyoming House District 50, 2021–Present. Won the Aug. 20, 2024 Republican primary for State House District 50 with 62.6% of the vote. Unopposed in the Nov. 5, 2024 general election.</p>
           <p class="cand-meta">Republican · Cody, Park County</p>
           <p class="cand-res">Primary result: Won, 1,778 votes (62.6%), 1st of 2.</p>
-          <p class="cand-res">General result: Unopposed, 4,510 votes (100%), 1st of 1.</p>
+          <p class="cand-res cand-general-line">General result: State House HD50, Republican, 4,510 votes (100%), Unopposed.</p>
           <p><a href="../../../officials/rodriguezwilliams-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -82,7 +82,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

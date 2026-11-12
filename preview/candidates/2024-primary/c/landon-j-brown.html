@@ -37,7 +37,7 @@
           <p class="cand-blurb">Landon J. Brown (Republican, Cheyenne): Development Director, Cheyenne Regional Medical Center Foundation; Wyoming House District 9, 2017–Present. Won the Aug. 20, 2024 Republican primary for State House District 9 with 50.6% of the vote. Unopposed in the Nov. 5, 2024 general election.</p>
           <p class="cand-meta">Republican · Cheyenne, Laramie County</p>
           <p class="cand-res">Primary result: Won, 725 votes (50.6%), 1st of 2.</p>
-          <p class="cand-res">General result: Unopposed, 3,453 votes (100%), 1st of 1.</p>
+          <p class="cand-res cand-general-line">General result: State House HD09, Republican, 3,453 votes (100%), Unopposed.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
@@ -84,7 +84,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

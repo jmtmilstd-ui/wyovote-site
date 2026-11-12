@@ -37,7 +37,7 @@
           <p class="cand-blurb">Wendy Davis Schuler (Republican, Evanston): Retired Educator, Retired; Wyoming Senate District 15, 2019–Present. Won the Aug. 16, 2022 Republican primary for State Senate District 15 with 61.5% of the vote. Unopposed in the Nov. 8, 2022 general election.</p>
           <p class="cand-meta">Republican · Evanston, Uinta County</p>
           <p class="cand-res">Primary result: Won, 2,997 votes (61.5%), 1st of 2.</p>
-          <p class="cand-res">General result: Unopposed, 5,243 votes (100%), 1st of 1.</p>
+          <p class="cand-res cand-general-line">General result: State Senate SD15, Republican, 5,243 votes (100%), Unopposed.</p>
           <p><a href="../../../officials/schuler-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -81,7 +81,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

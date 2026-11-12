@@ -15,6 +15,11 @@ To compile that JSON from a research archive (people/ and cycles/<cycle>/):
 
     python3 tools/build_candidate_pages.py --archive /path/to/archive --cycle 2026-primary
 
+General election views read data/candidate-research/<cycle>/general.json and
+update the preview pages only:
+
+    python3 tools/build_candidate_pages.py --general
+
 The archive's "not found" notes are dropped. Ranks and lean bands are not
 written. Coefficients are not part of the store.
 """
@@ -60,7 +65,8 @@ BACK_SCRIPT = r"""<script>
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }
@@ -636,6 +642,8 @@ def person_slug(name: str) -> str:
 
 def box_title(office: str, district: str | None) -> str:
     digits = "".join(ch for ch in (district or "") if ch.isdigit())
+    if office in {"U.S. President", "President"}:
+        return "U.S. President"
     if office == "U.S. Senator":
         return "U.S. Senate"
     if office == "U.S. Representative":
@@ -666,7 +674,13 @@ def group_name(office: str) -> str:
 
 
 def party_abbr(party: str) -> str:
-    return {"Republican": "(R)", "Democratic": "(D)"}.get(party, f"({party})")
+    return {
+        "Republican": "(R)",
+        "Democratic": "(D)",
+        "Libertarian": "(L)",
+        "Constitution": "(C)",
+        "Independent": "(I)",
+    }.get(party, f"({party})")
 
 
 def officials_index() -> dict[str, str]:
@@ -961,11 +975,519 @@ def generate_archive(records: list[dict], cycle: str) -> dict[str, int]:
     return {"counties": len(COUNTY_ORDER), "details": len(prepared), "index": 1}
 
 
+GENERAL_CYCLES = ("2026-primary", "2024-primary", "2022-primary")
+GENERAL_FED = ["U.S. President", "U.S. Senator", "U.S. Representative"]
+HOW_GENERAL = (
+    "<strong>How to use this page.</strong> Races are grouped by office. "
+    "Click any candidate's name to see their details. A check mark shows the winner. "
+    "Districts that cross county lines appear on every county they cover."
+)
+HEAD_ELECTION = """<script>
+      document.documentElement.classList.toggle("cand-general", new URLSearchParams(location.search).get("e") === "general");
+      if (document.documentElement.classList.contains("cand-general") && document.title.indexOf("Primary") !== -1) {
+        document.title = document.title.replace("Primary", "General");
+      }
+    </script>"""
+ARIA_ELECTION = """<script>
+      (function () {
+        var general = document.documentElement.classList.contains("cand-general");
+        var nodes = document.querySelectorAll(".cand-election-btn");
+        for (var i = 0; i < nodes.length; i++) {
+          var on = nodes[i].getAttribute("data-election") === (general ? "general" : "primary");
+          if (on) nodes[i].setAttribute("aria-current", "true");
+          else nodes[i].removeAttribute("aria-current");
+        }
+      })();
+    </script>"""
+
+
+def certification_label(status: str) -> str:
+    hidden = "" if status != "certified" else " hidden"
+    return f'<p class="cand-unofficial"{hidden}>Unofficial, awaiting canvass</p>'
+
+
+def test_certification_label() -> None:
+    unofficial = certification_label("unofficial")
+    official = certification_label("certified")
+    if "hidden" in unofficial or "Unofficial, awaiting canvass" not in unofficial:
+        raise SystemExit("unofficial label test failed")
+    if " hidden" not in official or "Unofficial, awaiting canvass" not in official:
+        raise SystemExit("certified label test failed")
+    print("certification label test: PASS")
+
+
+def long_date(iso: str) -> str:
+    return datetime.strptime(iso, "%Y-%m-%d").strftime("%B %-d, %Y")
+
+
+def fmt_pct(value) -> str:
+    if isinstance(value, float) and value.is_integer():
+        return str(int(value))
+    if isinstance(value, (int, float)):
+        return f"{value:g}"
+    return str(value)
+
+
+def general_sentence(candidate: dict, office: str, district: str | None) -> str:
+    bits = [box_title(office, district), candidate.get("party") or ""]
+    votes = candidate.get("votes")
+    pct = candidate.get("pct")
+    if isinstance(votes, int):
+        vote = f"{votes:,} votes"
+        if isinstance(pct, (int, float)):
+            vote += f" ({fmt_pct(pct)}%)"
+        bits.append(vote)
+    bits.append(candidate.get("outcome") or "")
+    return ", ".join(bit for bit in bits if bit) + "."
+
+
+def norm_name(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", value.casefold().replace(".", "")).strip()
+
+
+def with_general_query(chunk: str) -> str:
+    def repl(match: re.Match) -> str:
+        href = match.group(1)
+        if "e=general" in href or href.startswith(("http://", "https://", "mailto:", "#")):
+            return match.group(0)
+        joiner = "&" if "?" in href else "?"
+        return f'href="{href}{joiner}e=general"'
+
+    return re.sub(r'href="([^"]+)"', repl, chunk)
+
+
+def election_buttons(filename: str) -> str:
+    return (
+        '<div class="cand-election" role="group" aria-label="Election">\n'
+        f'            <a class="cand-election-btn" data-election="primary" href="{esc(filename)}">Primary</a>\n'
+        f'            <a class="cand-election-btn" data-election="general" href="{esc(filename)}?e=general">General</a>\n'
+        "          </div>"
+    )
+
+
+def ensure_election_script(text: str) -> str:
+    text = re.sub(
+        r"\s*<script>\s*document\.documentElement\.classList\.toggle\(\"cand-general\".*?</script>",
+        "",
+        text,
+        flags=re.S,
+    )
+    text = re.sub(
+        r"\s*<script>\s*\(function \(\) \{\s*var general = document\.documentElement\.classList\.contains\(\"cand-general\"\);.*?</script>",
+        "",
+        text,
+        flags=re.S,
+    )
+    text = text.replace("</head>", "\n    " + HEAD_ELECTION.strip() + "\n  </head>", 1)
+    text = text.replace("</body>", "\n    " + ARIA_ELECTION.strip() + "\n  </body>", 1)
+    return text
+
+
+def switch_h1(text: str) -> str:
+    if re.search(r"<h1><span class=\"cand-view-primary\">", text):
+        return text
+    match = re.search(r"<h1>([^<]+)</h1>", text)
+    if not match or "Primary" not in match.group(1):
+        return text
+    label = match.group(1)
+    general = label.replace("Primary", "General")
+    repl = (
+        f'<h1><span class="cand-view-primary">{label}</span>'
+        f'<span class="cand-view-general">{general}</span></h1>'
+    )
+    return text[: match.start()] + repl + text[match.end() :]
+
+
+def add_general_back(text: str) -> str:
+    if "back-btn cand-view-general" in text:
+        return text
+    match = re.search(r'<p class="back-row"><a class="back-btn" href="([^"]+)">([^<]+)</a></p>', text)
+    if not match or "Home" in match.group(2):
+        return text
+    href, label = match.group(1), match.group(2)
+    joiner = "&" if "?" in href else "?"
+    repl = (
+        '<p class="back-row">'
+        f'<a class="back-btn cand-view-primary" href="{href}">{label}</a>'
+        f'<a class="back-btn cand-view-general" href="{href}{joiner}e=general">{label.replace("Primary", "General")}</a>'
+        "</p>"
+    )
+    return text[: match.start()] + repl + text[match.end() :]
+
+
+def insert_buttons(text: str, filename: str) -> str:
+    if 'class="cand-election"' in text:
+        return text
+    token = '<section class="page-body">'
+    start = text.find(token)
+    if start < 0:
+        raise SystemExit("page body missing")
+    wrap = text.find('<div class="wrap">', start)
+    if wrap < 0:
+        raise SystemExit("page body wrap missing")
+    end = wrap + len('<div class="wrap">')
+    return text[:end] + "\n          " + election_buttons(filename) + text[end:]
+
+
+def insert_general_line(text: str, sentence: str) -> str:
+    line = f'<p class="cand-res cand-general-line">General result: {esc(sentence)}</p>'
+    pattern = r"[ \t]*<p class=\"cand-res(?: cand-general-line)?\">General result:.*?</p>\n?"
+    if re.search(pattern, text):
+        return re.sub(pattern, "          " + line + "\n", text, count=1)
+    for marker in (
+        r"(<p class=\"cand-res\">Primary result:.*?</p>)",
+        r"(<p class=\"cand-meta\">.*?</p>)",
+        r"(<p class=\"cand-blurb\">.*?</p>)",
+    ):
+        if re.search(marker, text):
+            return re.sub(marker, r"\1\n          " + line, text, count=1)
+    raise SystemExit("could not place general result line")
+
+
+def patch_back_script(text: str) -> str:
+    old = 'link.setAttribute("href", "../" + slug + ".html");'
+    new = (
+        'var general = new URLSearchParams(location.search).get("e") === "general";\n'
+        '          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));'
+    )
+    if old in text:
+        return text.replace(old, new, 1)
+    return text
+
+
+def load_name_slugs(detail_dir: Path) -> dict[str, str]:
+    found = {}
+    if not detail_dir.is_dir():
+        return found
+    for path in detail_dir.glob("*.html"):
+        text = path.read_text(encoding="utf-8")
+        match = re.search(r"<h1[^>]*>(.*?)</h1>", text, re.S)
+        if not match:
+            continue
+        name = html.unescape(re.sub(r"<[^>]+>", "", match.group(1))).strip()
+        found[norm_name(name)] = path.stem
+    return found
+
+
+def shard_name_index(cycle: str) -> dict[str, tuple[dict, list[str]]]:
+    try:
+        records = read_shards(cycle)
+    except SystemExit:
+        return {}
+    found = {}
+    for record in records:
+        names = [record.get("display_name"), record.get("name")]
+        names.extend(record.get("match_names") or [])
+        found[record["person_id"]] = (record, [name for name in names if name])
+    return found
+
+
+def resolve_slug(person_id: str, ballot: str, shards: dict, slugs: dict[str, str], used: dict[str, str]) -> str:
+    if person_id == "WY-PEARSON-LAURA":
+        return "laura-taliaferro"
+    record, names = shards.get(person_id, ({}, []))
+    for name in list(names) + [ballot]:
+        key = norm_name(name)
+        if key in slugs:
+            return slugs[key]
+    slug = person_slug(ballot if person_id != "WY-PEARSON-LAURA" else "Laura Taliaferro (formerly Pearson)")
+    if slug in used and used[slug] != person_id:
+        slug = f"{slug}-{person_id.split('-')[-1].lower()}"
+    return slug
+
+
+def general_only_inner(candidate: dict, office: str, district: str | None, when: str) -> str:
+    name = candidate["name_on_ballot"]
+    if candidate["person_id"] == "WY-PEARSON-LAURA":
+        name = "Laura Taliaferro (formerly Pearson)"
+    party = candidate.get("party") or ""
+    outcome = candidate.get("outcome") or ""
+    title = box_title(office, district)
+    if outcome == "Unopposed":
+        blurb = f"{name} ({party}). Unopposed in the {when} general election for {title}"
+    elif outcome == "Won":
+        blurb = f"{name} ({party}). Won the {when} general election for {title}"
+    else:
+        blurb = f"{name} ({party}). Lost the {when} general election for {title}"
+    if isinstance(candidate.get("votes"), int) and isinstance(candidate.get("pct"), (int, float)):
+        blurb += f" with {candidate['votes']:,} votes ({fmt_pct(candidate['pct'])}%)"
+    blurb += "."
+    sources = []
+    for source in candidate.get("sources") or []:
+        url = (source.get("url") or "").strip()
+        label = (source.get("name") or "").strip()
+        if url.startswith(("http://", "https://")) and label:
+            sources.append(f'            <li><a href="{esc(url)}">{esc(label)}</a></li>')
+    source_html = ""
+    if sources:
+        source_html = (
+            '          <h2 id="h-sources">Sources</h2>\n'
+            '          <ul class="cand-sources">\n'
+            + "\n".join(sources)
+            + "\n          </ul>"
+        )
+    return (
+        f'          <p class="cand-blurb">{esc(blurb)}</p>\n'
+        f'          <p class="cand-meta">{esc(party)}</p>\n'
+        f'          <p class="cand-res cand-general-line">General result: {esc(general_sentence(candidate, office, district))}</p>\n'
+        + source_html
+    )
+
+
+def write_missing_detail(cycle: str, slug: str, candidate: dict, office: str, district: str | None, when: str, shards: dict, officials: dict) -> None:
+    folder = PREVIEW / "candidates" / cycle / "c"
+    folder.mkdir(parents=True, exist_ok=True)
+    path = folder / f"{slug}.html"
+    name = candidate["name_on_ballot"]
+    if candidate["person_id"] == "WY-PEARSON-LAURA":
+        name = "Laura Taliaferro (formerly Pearson)"
+    year = cycle.split("-")[0]
+    record = shards.get(candidate["person_id"], ({}, []))[0]
+    if record:
+        if cycle == "2026-primary":
+            inner = page_body(record)
+        else:
+            inner = archive_detail_inner(record, sitting_slug(record, officials))
+        inner = insert_general_line(inner, general_sentence(candidate, office, district))
+        if cycle == "2026-primary":
+            official = sitting_slug(record, officials)
+            if official and "officials/" not in inner:
+                link = f'<p><a href="../../../officials/{esc(official)}-deep.html">Officials deeper dive</a></p>'
+                inner = inner.replace(
+                    '<p class="cand-res cand-general-line">',
+                    link + '\n          <p class="cand-res cand-general-line">',
+                    1,
+                )
+        description = record.get("blurb") or f"{name}, {record.get('office')}, {year}."
+    else:
+        inner = general_only_inner(candidate, office, district, when)
+        description = re.sub(r"<[^>]+>", "", inner.split("</p>", 1)[0])
+        description = html.unescape(re.sub(r"\s+", " ", description)).strip()
+    description = re.sub(r"\s+", " ", description)[:180]
+    back_href = "../../../candidates.html" if cycle == "2026-primary" else "../index.html"
+    body = (
+        '      <div class="wrap back-wrap">\n'
+        f'        <p class="back-row"><a class="back-btn" id="cand-back" href="{back_href}">← Back to Candidates</a></p>\n'
+        "      </div>\n"
+        '      <section class="page-hero"><div class="wrap">\n'
+        f"          <h1>{esc(name)}</h1>\n"
+        "      </div></section>\n"
+        '      <section class="page-body"><div class="wrap">\n'
+        f"{inner}\n"
+        "      </div></section>"
+    )
+    path.write_text(
+        preview_shell(f"{name} — {year} Primary — WyoVote", description, 3, body),
+        encoding="utf-8",
+    )
+
+
+def render_general_groups(races: list[dict], county: str, slug_of: dict[str, str]) -> str:
+    blocks_by_title = []
+    for title, offices in (
+        ("Federal", GENERAL_FED),
+        ("Statewide", STATE_ORDER),
+        ("State Senate", ["State Senator"]),
+        ("State House", ["State Representative"]),
+    ):
+        picked = [race for race in races if race.get("office_sought") in offices]
+        picked.sort(
+            key=lambda race: (
+                offices.index(race["office_sought"]),
+                int("".join(ch for ch in (race.get("district") or "0") if ch.isdigit()) or 0),
+            )
+        )
+        if not picked:
+            continue
+        race_html = []
+        for race in picked:
+            people = sorted(
+                race["candidates"],
+                key=lambda cand: (
+                    cand.get("place") if isinstance(cand.get("place"), int) else 99,
+                    cand.get("name_on_ballot") or "",
+                ),
+            )
+            items = []
+            for cand in people:
+                slug = slug_of[cand["person_id"]]
+                win = ' <span class="cand-win" aria-label="Winner">✔</span>' if cand.get("winner") else ""
+                items.append(
+                    f'<li><a href="c/{esc(slug)}.html?from={county_slug(county)}&amp;e=general">{esc(cand["name_on_ballot"] if cand["person_id"] != "WY-PEARSON-LAURA" else "Laura Taliaferro (formerly Pearson)")}</a> '
+                    f'<span class="cand-abbr">{esc(party_abbr(cand.get("party") or ""))}</span>{win}</li>'
+                )
+            race_html.append(
+                '<section class="cand-race">\n'
+                f"            <h3>{esc(box_title(race['office_sought'], race.get('district')))}</h3>\n"
+                '            <ul class="cand-names">\n              '
+                + "\n              ".join(items)
+                + "\n            </ul>\n          </section>"
+            )
+        blocks_by_title.append(
+            '<section class="cand-group">\n'
+            f'          <h2 class="cand-group-title">{title}</h2>\n'
+            '          <div class="cand-race-grid">\n            '
+            + "\n            ".join(race_html)
+            + "\n          </div>\n        </section>"
+        )
+    return "\n          ".join(blocks_by_title)
+
+
+def install_level1(text: str, intro: str, label: str) -> str:
+    if "<!-- election-views -->" in text:
+        return text
+    match = re.search(
+        r"(<p>.*?</p>\s*)(<p>Past elections:.*?</p>\s*)?(<ul class=\"cand-counties\">.*?</ul>)",
+        text,
+        re.S,
+    )
+    if not match:
+        raise SystemExit("county grid missing")
+    past = match.group(2) or ""
+    block = (
+        "<!-- election-views -->\n          "
+        '<div class="cand-view cand-view-primary">\n          '
+        + match.group(1)
+        + past
+        + match.group(3)
+        + '\n          </div>\n          <div class="cand-view cand-view-general">\n          '
+        + label
+        + "\n          "
+        + f"<p>{esc(intro)}</p>\n          "
+        + with_general_query(past)
+        + with_general_query(match.group(3))
+        + "\n          </div>"
+    )
+    return text[: match.start()] + block + text[match.end() :]
+
+
+COUNTY_BODY = re.compile(
+    r"(<p>[^<]*</p>\s*)"
+    r'(<p class="cand-how">.*?</p>\s*)'
+    r'((?:<!--.*?-->\s*)?(?:<div class="punch-list" hidden>.*?</div>\s*)?)'
+    r'(<section class="cand-group">.*</section>)'
+    r"(\s*</div>\s*</section>)",
+    re.S,
+)
+
+
+def install_county(text: str, when: str, label: str, groups: str) -> str:
+    general = (
+        "<!-- general-view -->\n"
+        '          <div class="cand-view cand-view-general">\n'
+        f"          {label}\n"
+        f"          <p>{esc(when)} general.</p>\n"
+        f'          <p class="cand-how">{HOW_GENERAL}</p>\n          '
+        + groups
+        + "\n          </div>\n          <!-- /general-view -->"
+    )
+    if "<!-- general-view -->" in text:
+        return re.sub(
+            r"<!-- general-view -->.*?<!-- /general-view -->",
+            general,
+            text,
+            count=1,
+            flags=re.S,
+        )
+    match = COUNTY_BODY.search(text)
+    if not match:
+        raise SystemExit("county body missing")
+    primary = (
+        '<div class="cand-view cand-view-primary">\n          '
+        + match.group(1)
+        + match.group(2)
+        + match.group(3)
+        + match.group(4)
+        + "\n          </div>\n          "
+        + general
+    )
+    return text[: match.start()] + primary + match.group(5) + text[match.end() :]
+
+
+def apply_general(cycle: str) -> dict[str, int]:
+    path = DATA_DIR / cycle / "general.json"
+    if not path.is_file():
+        raise SystemExit(f"missing {path}")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    when = long_date(data["election_date"])
+    label = certification_label((data.get("certification") or {}).get("status") or "")
+    detail_dir = PREVIEW / "candidates" / cycle / "c"
+    slugs = load_name_slugs(detail_dir)
+    shards = shard_name_index(cycle)
+    officials = officials_index()
+    used = {slug: "existing" for slug in slugs.values()}
+    slug_of = {}
+    created = 0
+    updated = 0
+    seen = set()
+    for race in data["races"]:
+        for cand in race["candidates"]:
+            person_id = cand["person_id"]
+            if person_id in seen:
+                continue
+            seen.add(person_id)
+            slug = resolve_slug(person_id, cand["name_on_ballot"], shards, slugs, used)
+            slug_of[person_id] = slug
+            used[slug] = person_id
+            slugs.setdefault(norm_name(cand["name_on_ballot"]), slug)
+            page = detail_dir / f"{slug}.html"
+            sentence = general_sentence(cand, race["office_sought"], race.get("district"))
+            if page.is_file():
+                text = patch_back_script(page.read_text(encoding="utf-8"))
+                text = insert_general_line(text, sentence)
+                page.write_text(text, encoding="utf-8")
+                updated += 1
+            else:
+                write_missing_detail(cycle, slug, cand, race["office_sought"], race.get("district"), when, shards, officials)
+                created += 1
+    by_county = {county: [] for county in COUNTY_ORDER}
+    for race in data["races"]:
+        for county in race.get("district_counties") or []:
+            if county in by_county:
+                by_county[county].append(race)
+    for county in COUNTY_ORDER:
+        county_path = PREVIEW / "candidates" / cycle / f"{county_slug(county)}.html"
+        if not county_path.is_file():
+            raise SystemExit(f"missing county page {county_path}")
+        text = county_path.read_text(encoding="utf-8")
+        text = ensure_election_script(text)
+        text = add_general_back(text)
+        text = insert_buttons(text, f"{county_slug(county)}.html")
+        groups = render_general_groups(by_county[county], county, slug_of)
+        text = install_county(text, when, label, groups)
+        county_path.write_text(text, encoding="utf-8")
+    if cycle == "2026-primary":
+        level1 = PREVIEW / "candidates.html"
+        filename = "candidates.html"
+    else:
+        level1 = PREVIEW / "candidates" / cycle / "index.html"
+        filename = "index.html"
+    text = level1.read_text(encoding="utf-8")
+    text = ensure_election_script(text)
+    text = switch_h1(text)
+    text = add_general_back(text)
+    text = insert_buttons(text, filename)
+    text = install_level1(text, f"{when}. Federal, statewide, and legislative races. Choose a county.", label)
+    level1.write_text(text, encoding="utf-8")
+    if " hidden" not in label:
+        raise SystemExit(f"{cycle} is not certified; the live preview should hide the unofficial label")
+    return {"candidates": len(seen), "details_updated": updated, "details_created": created, "counties": len(COUNTY_ORDER)}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--cycle", default="2026-primary")
+    parser.add_argument("--cycle", default=None)
     parser.add_argument("--archive", type=Path, help="research archive with people/ and cycles/")
+    parser.add_argument("--general", action="store_true", help="add the general election view to preview pages")
     args = parser.parse_args()
+    if args.general:
+        test_certification_label()
+        cycles = [args.cycle] if args.cycle else list(GENERAL_CYCLES)
+        for cycle in cycles:
+            print(f"{cycle}: {apply_general(cycle)}")
+        return
+    if not args.cycle:
+        args.cycle = "2026-primary"
     if args.archive:
         records = load_archive(args.archive, args.cycle)
         # Keep the raw office and district for the county map. compile_record

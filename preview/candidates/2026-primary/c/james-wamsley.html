@@ -46,6 +46,7 @@
           <p class="cand-blurb">James Wamsley (Republican, Rock Springs): Fire chief (Rock Springs Fire Department; formerly Sweetwater County Fire District 1); formerly maintenance supervisor, Church &amp; Dwight. Won the Aug. 18, 2026 Republican primary for State House District 48 with 59.5% of the vote.</p>
           <p class="cand-meta">House District 48 · Republican</p>
           <p class="cand-res">Primary result: Won</p>
+          <p class="cand-res cand-general-line">General result: State House HD48, Republican, 1,568 votes (71%), Won.</p>
           <section class="cand-research" aria-labelledby="h-research">
                       <h2 id="h-research">Research</h2>
                       <table class="cand-facts">
@@ -92,7 +93,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

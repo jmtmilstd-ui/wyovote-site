@@ -37,7 +37,7 @@
           <p class="cand-blurb">Darin Smith (Republican, Cheyenne): Attorney/businessman; U.S. Attorney for the District of Wyoming, 2026–Present. Won the Aug. 20, 2024 Republican primary for State Senate District 6 with 37.7% of the vote. Unopposed in the Nov. 5, 2024 general election.</p>
           <p class="cand-meta">Republican · Cheyenne, Laramie County</p>
           <p class="cand-res">Primary result: Won, 1,780 votes (37.7%), 1st of 6.</p>
-          <p class="cand-res">General result: Unopposed, 8,484 votes (100%), 1st of 1.</p>
+          <p class="cand-res cand-general-line">General result: State Senate SD06, Republican, 8,484 votes (100%), Unopposed.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
@@ -82,7 +82,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

@@ -37,7 +37,7 @@
           <p class="cand-blurb">Bob Davis (Republican, Baggs): Business Owner; Wyoming House District 47, 2023–2026; Wyoming Senate District 11, 2027–Present. Unopposed in the Aug. 20, 2024 Republican primary for State House District 47. Won the Nov. 5, 2024 general election with 84.0% of the vote.</p>
           <p class="cand-meta">Republican · Baggs, Carbon, Sweetwater Counties County</p>
           <p class="cand-res">Primary result: Unopposed, 1,548 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Won, 3,488 votes (84%), 1st of 2.</p>
+          <p class="cand-res cand-general-line">General result: State House HD47, Republican, 3,488 votes (84%), Won.</p>
           <p><a href="../../../officials/davis-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -80,7 +80,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

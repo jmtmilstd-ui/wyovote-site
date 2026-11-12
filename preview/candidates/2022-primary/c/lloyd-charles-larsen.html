@@ -37,7 +37,7 @@
           <p class="cand-blurb">Lloyd Charles Larsen (Republican, Lander): Construction company co-owner (petroleum industry services, 35 years); Wyoming House District 54, 2013–Present. Unopposed in the Aug. 16, 2022 Republican primary for State House District 54. Won the Nov. 8, 2022 general election with 62.9% of the vote.</p>
           <p class="cand-meta">Republican · Lander, Fremont County</p>
           <p class="cand-res">Primary result: Unopposed, 2,641 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Won, 2,645 votes (62.9%), 1st of 2.</p>
+          <p class="cand-res cand-general-line">General result: State House HD54, Republican, 2,645 votes (62.9%), Won.</p>
           <p><a href="../../../officials/larsen-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -82,7 +82,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

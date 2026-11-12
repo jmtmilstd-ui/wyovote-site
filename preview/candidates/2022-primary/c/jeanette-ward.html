@@ -37,7 +37,7 @@
           <p class="cand-blurb">Jeanette Ward (Republican, Casper): Product manager; Wyoming House of Representatives District 57, 2023–2025; Wyoming House District 57, 2023–2024. Won the Aug. 16, 2022 Republican primary for State House District 57 with 59.6% of the vote. Won the Nov. 8, 2022 general election with 70.1% of the vote.</p>
           <p class="cand-meta">Republican · Casper, Natrona County</p>
           <p class="cand-res">Primary result: Won, 921 votes (59.6%), 1st of 2.</p>
-          <p class="cand-res">General result: Won, 1,323 votes (70.1%), 1st of 2.</p>
+          <p class="cand-res cand-general-line">General result: State House HD57, Republican, 1,323 votes (70.1%), Won.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
@@ -82,7 +82,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

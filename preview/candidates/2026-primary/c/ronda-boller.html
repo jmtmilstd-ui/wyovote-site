@@ -46,6 +46,7 @@
           <p class="cand-blurb">Ronda Boller (Republican, Gillette): Nurse and small business owner. Won the Aug. 18, 2026 Republican primary for State House District 52 with 50.2% of the vote.</p>
           <p class="cand-meta">House District 52 · Republican</p>
           <p class="cand-res">Primary result: Won</p>
+          <p class="cand-res cand-general-line">General result: State House HD52, Republican, 1,989 votes (100%), Unopposed.</p>
           <section class="cand-research" aria-labelledby="h-research">
                       <h2 id="h-research">Research</h2>
                       <table class="cand-facts">
@@ -95,7 +96,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

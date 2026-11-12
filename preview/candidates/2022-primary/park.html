@@ -9,6 +9,13 @@
     <link rel="icon" href="../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../css/styles.css">
     <link rel="stylesheet" href="../../preview.css">
+  
+    <script>
+      document.documentElement.classList.toggle("cand-general", new URLSearchParams(location.search).get("e") === "general");
+      if (document.documentElement.classList.contains("cand-general") && document.title.indexOf("Primary") !== -1) {
+        document.title = document.title.replace("Primary", "General");
+      }
+    </script>
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -28,12 +35,17 @@
     </header>
     <main id="main">
       <div class="wrap back-wrap">
-        <p class="back-row"><a class="back-btn" href="index.html">← Back to 2022 Primary</a></p>
+        <p class="back-row"><a class="back-btn cand-view-primary" href="index.html">← Back to 2022 Primary</a><a class="back-btn cand-view-general" href="index.html?e=general">← Back to 2022 General</a></p>
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Park County</h1>
       </div></section>
       <section class="page-body"><div class="wrap">
+          <div class="cand-election" role="group" aria-label="Election">
+            <a class="cand-election-btn" data-election="primary" href="park.html">Primary</a>
+            <a class="cand-election-btn" data-election="general" href="park.html?e=general">General</a>
+          </div>
+          <div class="cand-view cand-view-primary">
           <p>August 16, 2022 primary.</p>
           <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. Districts that cross county lines appear on every county they cover.</p>
           <section class="cand-group">
@@ -159,6 +171,114 @@
           </section>
           </div>
         </section>
+          </div>
+          <!-- general-view -->
+          <div class="cand-view cand-view-general">
+          <p class="cand-unofficial" hidden>Unofficial, awaiting canvass</p>
+          <p>November 8, 2022 general.</p>
+          <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. A check mark shows the winner. Districts that cross county lines appear on every county they cover.</p>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Federal</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>U.S. House</h3>
+            <ul class="cand-names">
+              <li><a href="c/harriet-hageman.html?from=park&amp;e=general">Harriet Hageman</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/lynnette-greybull.html?from=park&amp;e=general">Lynnette GreyBull</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/richard-brubaker.html?from=park&amp;e=general">Richard Brubaker</a> <span class="cand-abbr">(L)</span></li>
+              <li><a href="c/marissa-joy-selvig.html?from=park&amp;e=general">Marissa Joy Selvig</a> <span class="cand-abbr">(C)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Statewide</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>Governor</h3>
+            <ul class="cand-names">
+              <li><a href="c/mark-gordon.html?from=park&amp;e=general">Mark Gordon</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/theresa-a-livingston.html?from=park&amp;e=general">Theresa A. Livingston</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/jared-j-baldes.html?from=park&amp;e=general">Jared J. Baldes</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Secretary of State</h3>
+            <ul class="cand-names">
+              <li><a href="c/chuck-gray.html?from=park&amp;e=general">Chuck Gray</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Auditor</h3>
+            <ul class="cand-names">
+              <li><a href="c/kristi-racines.html?from=park&amp;e=general">Kristi Racines</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Treasurer</h3>
+            <ul class="cand-names">
+              <li><a href="c/curt-meier.html?from=park&amp;e=general">Curt Meier</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Superintendent</h3>
+            <ul class="cand-names">
+              <li><a href="c/megan-degenfelder.html?from=park&amp;e=general">Megan Degenfelder</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/sergio-a-maldonado-sr.html?from=park&amp;e=general">Sergio A. Maldonado, Sr.</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State Senate</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State Senate SD19</h3>
+            <ul class="cand-names">
+              <li><a href="c/dan-laursen.html?from=park&amp;e=general">Dan Laursen</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State House</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State House HD24</h3>
+            <ul class="cand-names">
+              <li><a href="c/sandy-newsome.html?from=park&amp;e=general">Sandy Newsome</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD25</h3>
+            <ul class="cand-names">
+              <li><a href="c/david-northrup.html?from=park&amp;e=general">David Northrup</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD26</h3>
+            <ul class="cand-names">
+              <li><a href="c/dalton-banks.html?from=park&amp;e=general">Dalton Banks</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD28</h3>
+            <ul class="cand-names">
+              <li><a href="c/john-r-winter.html?from=park&amp;e=general">John R. Winter</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/kimberly-m-bartlett.html?from=park&amp;e=general">Kimberly M. Bartlett</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD50</h3>
+            <ul class="cand-names">
+              <li><a href="c/rachel-rodriguez-williams.html?from=park&amp;e=general">Rachel Rodriguez-Williams</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/carrie-satterwhite.html?from=park&amp;e=general">Carrie Satterwhite</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          </div>
+          <!-- /general-view -->
       </div></section>
     </main>
     <footer class="site-footer">
@@ -173,6 +293,17 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
-    
+  
+    <script>
+      (function () {
+        var general = document.documentElement.classList.contains("cand-general");
+        var nodes = document.querySelectorAll(".cand-election-btn");
+        for (var i = 0; i < nodes.length; i++) {
+          var on = nodes[i].getAttribute("data-election") === (general ? "general" : "primary");
+          if (on) nodes[i].setAttribute("aria-current", "true");
+          else nodes[i].removeAttribute("aria-current");
+        }
+      })();
+    </script>
   </body>
 </html>

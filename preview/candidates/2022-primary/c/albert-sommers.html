@@ -37,7 +37,7 @@
           <p class="cand-blurb">Albert Sommers (Republican, Pinedale): Rancher; Wyoming House of Representatives District 20, 2013–2025. Won the Aug. 16, 2022 Republican primary for State House District 20 with 57.6% of the vote. Unopposed in the Nov. 8, 2022 general election.</p>
           <p class="cand-meta">Republican · Pinedale, Sublette County</p>
           <p class="cand-res">Primary result: Won, 2,139 votes (57.6%), 1st of 3.</p>
-          <p class="cand-res">General result: Unopposed, 3,273 votes (100%), 1st of 1.</p>
+          <p class="cand-res cand-general-line">General result: State House HD20, Republican, 3,273 votes (100%), Unopposed.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
@@ -79,7 +79,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

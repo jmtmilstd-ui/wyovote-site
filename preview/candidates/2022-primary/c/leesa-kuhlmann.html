@@ -37,7 +37,7 @@
           <p class="cand-blurb">Leesa Kuhlmann (Democratic, Rock Springs). Unopposed in the Aug. 16, 2022 Democratic primary for State Senate District 13. Lost the Nov. 8, 2022 general election with 24.0% of the vote.</p>
           <p class="cand-meta">Democratic · Rock Springs, Sweetwater County</p>
           <p class="cand-res">Primary result: Unopposed, 385 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Lost, 1,220 votes (24%), 2nd of 2.</p>
+          <p class="cand-res cand-general-line">General result: State Senate SD13, Democratic, 1,220 votes (24%), Lost.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
@@ -70,7 +70,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

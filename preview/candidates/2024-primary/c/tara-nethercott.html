@@ -37,7 +37,7 @@
           <p class="cand-blurb">Tara Nethercott (Republican, Cheyenne): Attorney; Wyoming Senate District 4, 2017–Present. Unopposed in the Aug. 20, 2024 Republican primary for State Senate District 4. Unopposed in the Nov. 5, 2024 general election.</p>
           <p class="cand-meta">Republican · Cheyenne, Laramie County</p>
           <p class="cand-res">Primary result: Unopposed, 2,942 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Unopposed, 8,255 votes (100%), 1st of 1.</p>
+          <p class="cand-res cand-general-line">General result: State Senate SD04, Republican, 8,255 votes (100%), Unopposed.</p>
           <p><a href="../../../officials/nethercott-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -82,7 +82,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

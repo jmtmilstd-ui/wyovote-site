@@ -9,6 +9,13 @@
     <link rel="icon" href="../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../css/styles.css">
     <link rel="stylesheet" href="../../preview.css">
+  
+    <script>
+      document.documentElement.classList.toggle("cand-general", new URLSearchParams(location.search).get("e") === "general");
+      if (document.documentElement.classList.contains("cand-general") && document.title.indexOf("Primary") !== -1) {
+        document.title = document.title.replace("Primary", "General");
+      }
+    </script>
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -28,12 +35,18 @@
     </header>
     <main id="main">
       <div class="wrap back-wrap">
-        <p class="back-row"><a class="back-btn" href="../../candidates.html">← Back to Candidates</a></p>
+        <p class="back-row"><a class="back-btn cand-view-primary" href="../../candidates.html">← Back to Candidates</a><a class="back-btn cand-view-general" href="../../candidates.html?e=general">← Back to Candidates</a></p>
       </div>
       <section class="page-hero"><div class="wrap">
-          <h1>2024 Primary</h1>
+          <h1><span class="cand-view-primary">2024 Primary</span><span class="cand-view-general">2024 General</span></h1>
       </div></section>
       <section class="page-body"><div class="wrap">
+          <div class="cand-election" role="group" aria-label="Election">
+            <a class="cand-election-btn" data-election="primary" href="index.html">Primary</a>
+            <a class="cand-election-btn" data-election="general" href="index.html?e=general">General</a>
+          </div>
+          <!-- election-views -->
+          <div class="cand-view cand-view-primary">
           <p>August 20, 2024. Federal, statewide, and legislative races. Choose a county.</p>
           <ul class="cand-counties">
             <li><a href="albany.html">Albany</a></li>
@@ -60,6 +73,36 @@
             <li><a href="washakie.html">Washakie</a></li>
             <li><a href="weston.html">Weston</a></li>
           </ul>
+          </div>
+          <div class="cand-view cand-view-general">
+          <p class="cand-unofficial" hidden>Unofficial, awaiting canvass</p>
+          <p>November 5, 2024. Federal, statewide, and legislative races. Choose a county.</p>
+          <ul class="cand-counties">
+            <li><a href="albany.html?e=general">Albany</a></li>
+            <li><a href="big-horn.html?e=general">Big Horn</a></li>
+            <li><a href="campbell.html?e=general">Campbell</a></li>
+            <li><a href="carbon.html?e=general">Carbon</a></li>
+            <li><a href="converse.html?e=general">Converse</a></li>
+            <li><a href="crook.html?e=general">Crook</a></li>
+            <li><a href="fremont.html?e=general">Fremont</a></li>
+            <li><a href="goshen.html?e=general">Goshen</a></li>
+            <li><a href="hot-springs.html?e=general">Hot Springs</a></li>
+            <li><a href="johnson.html?e=general">Johnson</a></li>
+            <li><a href="laramie.html?e=general">Laramie</a></li>
+            <li><a href="lincoln.html?e=general">Lincoln</a></li>
+            <li><a href="natrona.html?e=general">Natrona</a></li>
+            <li><a href="niobrara.html?e=general">Niobrara</a></li>
+            <li><a href="park.html?e=general">Park</a></li>
+            <li><a href="platte.html?e=general">Platte</a></li>
+            <li><a href="sheridan.html?e=general">Sheridan</a></li>
+            <li><a href="sublette.html?e=general">Sublette</a></li>
+            <li><a href="sweetwater.html?e=general">Sweetwater</a></li>
+            <li><a href="teton.html?e=general">Teton</a></li>
+            <li><a href="uinta.html?e=general">Uinta</a></li>
+            <li><a href="washakie.html?e=general">Washakie</a></li>
+            <li><a href="weston.html?e=general">Weston</a></li>
+          </ul>
+          </div>
       </div></section>
     </main>
     <footer class="site-footer">
@@ -74,6 +117,17 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
-    
+  
+    <script>
+      (function () {
+        var general = document.documentElement.classList.contains("cand-general");
+        var nodes = document.querySelectorAll(".cand-election-btn");
+        for (var i = 0; i < nodes.length; i++) {
+          var on = nodes[i].getAttribute("data-election") === (general ? "general" : "primary");
+          if (on) nodes[i].setAttribute("aria-current", "true");
+          else nodes[i].removeAttribute("aria-current");
+        }
+      })();
+    </script>
   </body>
 </html>

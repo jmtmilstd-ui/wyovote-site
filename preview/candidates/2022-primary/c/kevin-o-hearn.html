@@ -37,7 +37,7 @@
           <p class="cand-blurb">Kevin O&#x27;Hearn (Republican, Mills): Hearn&#x27;s career experience includes working as the building inspector and assistant town manager of Mills, Wyoming; Wyoming House of Representatives District 59, 2020–2025. Won the Aug. 16, 2022 Republican primary for State House District 59 with 65.1% of the vote. Unopposed in the Nov. 8, 2022 general election.</p>
           <p class="cand-meta">Republican · Mills, Natrona County</p>
           <p class="cand-res">Primary result: Won, 1,181 votes (65.1%), 1st of 2.</p>
-          <p class="cand-res">General result: Unopposed, 1,767 votes (100%), 1st of 1.</p>
+          <p class="cand-res cand-general-line">General result: State House HD59, Republican, 1,767 votes (100%), Unopposed.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
@@ -78,7 +78,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

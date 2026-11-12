@@ -37,7 +37,7 @@
           <p class="cand-blurb">Lynn Hutchings (Republican, Cheyenne): Retired Military-42 ½ years’ service in the Air National Guard; Wyoming House District 42, 2013–2014; Wyoming Senate District 5, 2019–Present; U.S. Air National Guard. Unopposed in the Aug. 16, 2022 Republican primary for State Senate District 5. Won the Nov. 8, 2022 general election with 70.8% of the vote.</p>
           <p class="cand-meta">Republican · Cheyenne, Laramie County</p>
           <p class="cand-res">Primary result: Unopposed, 3,353 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Won, 3,284 votes (70.8%), 1st of 2.</p>
+          <p class="cand-res cand-general-line">General result: State Senate SD05, Republican, 3,284 votes (70.8%), Won.</p>
           <p><a href="../../../officials/hutchings-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -83,7 +83,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

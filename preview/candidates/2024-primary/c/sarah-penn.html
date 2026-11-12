@@ -37,7 +37,7 @@
           <p class="cand-blurb">Sarah Penn (Republican, Lander): Nurse practitioner; Wyoming House District 33, 2023–2024; Wyoming House of Representatives District 33, 2023–2025. Unopposed in the Aug. 20, 2024 Republican primary for State House District 33. Lost the Nov. 5, 2024 general election with 41.9% of the vote.</p>
           <p class="cand-meta">Republican · Lander, Fremont County</p>
           <p class="cand-res">Primary result: Unopposed, 660 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Lost, 1,210 votes (41.9%), 2nd of 2.</p>
+          <p class="cand-res cand-general-line">General result: State House HD33, Republican, 1,210 votes (41.9%), Lost.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
@@ -81,7 +81,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

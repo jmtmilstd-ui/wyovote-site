@@ -37,7 +37,7 @@
           <p class="cand-blurb">Liz Storer (Democratic, Jackson): Nonprofit executive; Wyoming House District 23, 2023–Present. Unopposed in the Aug. 20, 2024 Democratic primary for State House District 23. Unopposed in the Nov. 5, 2024 general election.</p>
           <p class="cand-meta">Democratic · Jackson, Teton County</p>
           <p class="cand-res">Primary result: Unopposed, 492 votes (100%), 1st of 1.</p>
-          <p class="cand-res">General result: Unopposed, 4,434 votes (100%), 1st of 1.</p>
+          <p class="cand-res cand-general-line">General result: State House HD23, Democratic, 4,434 votes (100%), Unopposed.</p>
           <p><a href="../../../officials/storer-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
@@ -86,7 +86,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

@@ -46,6 +46,7 @@
           <p class="cand-blurb">Bryan McCarty (Democratic, Worland): Private-sector career, mostly in the railroad industry (internal audit, Six Sigma). Unopposed in the Aug. 18, 2026 Democratic primary for Secretary of State.</p>
           <p class="cand-meta">Secretary of State · Democratic</p>
           <p class="cand-res">Primary result: Unopposed</p>
+          <p class="cand-res cand-general-line">General result: Secretary of State, Democratic, 43,877 votes (23.8%), Lost.</p>
           <section class="cand-research" aria-labelledby="h-research">
                       <h2 id="h-research">Research</h2>
                       <table class="cand-facts">
@@ -94,7 +95,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }
