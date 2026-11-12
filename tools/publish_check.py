@@ -376,6 +376,37 @@ def site_map_gaps(root: Path) -> list[str]:
     return missing
 
 
+def site_map_geometry(root: Path) -> list[str]:
+    """Lines in the site-map diagram must not cut through a box or cross."""
+    page_path = root / "preview" / "site-map.html"
+    if not page_path.is_file():
+        return ["site map page is missing"]
+    page = page_path.read_text(encoding="utf-8")
+    match = re.search(r'(?s)<div class="map-diagram"><svg.*?</svg>', page)
+    if not match:
+        return ["site map diagram is missing"]
+    chunk = match.group(0)
+    boxes = [
+        tuple(float(value) for value in item.groups())
+        for item in re.finditer(
+            r'<rect class="map-box[^"]*" x="([0-9.eE+-]+)" y="([0-9.eE+-]+)" '
+            r'width="([0-9.eE+-]+)" height="([0-9.eE+-]+)"',
+            chunk,
+        )
+    ]
+    segments = [
+        (*[float(value) for value in item.groups()], "")
+        for item in re.finditer(
+            r'<line class="map-line" x1="([0-9.eE+-]+)" y1="([0-9.eE+-]+)" '
+            r'x2="([0-9.eE+-]+)" y2="([0-9.eE+-]+)"',
+            chunk,
+        )
+    ]
+    from build_site_map import geometry_errors
+
+    return geometry_errors(boxes, segments)
+
+
 def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int) -> tuple[int, str]:
     root = root.resolve()
     if not root.is_dir():
@@ -451,7 +482,10 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
 
     size_over = names is not None and tracked_total > tree_limit
     map_gaps = site_map_gaps(root)
-    failed = bool(oversized or unreferenced or missing_left or root_left or size_over or git_error or map_gaps)
+    map_lines = site_map_geometry(root)
+    failed = bool(
+        oversized or unreferenced or missing_left or root_left or size_over or git_error or map_gaps or map_lines
+    )
 
     lines: list[str] = []
     lines.append("WyoVote publish check")
@@ -512,6 +546,12 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
     if not map_gaps:
         lines.append("  (none)")
     lines.append("")
+    lines.append(f"Site map lines through a box or crossing another line: {len(map_lines)}")
+    for item in map_lines[:12]:
+        lines.append(f"  {item}")
+    if not map_lines:
+        lines.append("  (none)")
+    lines.append("")
     lines.append(
         "Counts: "
         f"working_tree_files={len(files)} "
@@ -523,7 +563,8 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
         f"unreferenced={len(unreferenced)} "
         f"missing={len(missing_left)} "
         f"root_preview={len(root_left)} "
-        f"site_map={len(map_gaps)}"
+        f"site_map={len(map_gaps)} "
+        f"site_map_lines={len(map_lines)}"
     )
     return (1 if failed else 0), "\n".join(lines) + "\n"
 

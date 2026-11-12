@@ -257,11 +257,12 @@ def trail_label(label: str) -> str:
 
 
 def trail_html(labels: list[str]) -> str:
-    """Small stair of the same boxes as the site map. Current page gets a gold ring."""
+    """Side-entry stair. A rail on the left enters each box's left end."""
     shown = [clip_label(label) for label in labels]
     pad_x = 8
-    step_x = 14
-    join = 10
+    step_x = 12
+    pitch = BOX_H + 8
+    rail = 10.0
     specs = []
     for label in shown:
         match = re.fullmatch(r"(\d{4}) Primary", label)
@@ -271,26 +272,26 @@ def trail_html(labels: list[str]) -> str:
             specs.append((width + pad_x * 2, label, True))
         else:
             specs.append((text_width(label, TRAIL_FONT) + pad_x * 2, label, False))
-    total_w = max(step_x * i + width for i, (width, _, _) in enumerate(specs)) + 4
-    total_h = len(specs) * BOX_H + (len(specs) - 1) * join + 4
+    total_w = rail + 16 + step_x * (len(specs) - 1) + max(width for width, _, _ in specs) + 4
+    total_h = pitch * (len(specs) - 1) + BOX_H + 4
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{total_w:.0f}" height="{total_h:.0f}" '
         f'viewBox="0 0 {total_w:.1f} {total_h:.1f}" role="img" aria-label="{esc(" / ".join(labels))}">'
     ]
-    y = 2.0
     centers = []
     for index, (width, label, dual) in enumerate(specs):
-        x = 2 + step_x * index
+        x = rail + 16 + step_x * index
+        y = 2 + pitch * index
         current = index == len(specs) - 1
         stroke = GOLD if current else INK
         width_px = "2.5" if current else "1.5"
         parts.append(
             f'<rect class="trail-box{" is-current" if current else ""}" x="{x:.1f}" y="{y:.1f}" '
-            f'width="{width:.1f}" height="{BOX_H - 4:.1f}" fill="{WHITE}" stroke="{stroke}" stroke-width="{width_px}"/>'
+            f'width="{width:.1f}" height="{BOX_H:.1f}" fill="{WHITE}" stroke="{stroke}" stroke-width="{width_px}"/>'
         )
+        cy = y + BOX_H / 2
+        centers.append((x, cy))
         cx = x + width / 2
-        cy = y + (BOX_H - 4) / 2
-        centers.append((cx, y, y + BOX_H - 4))
         if dual:
             year = label.split()[0]
             parts.append(
@@ -307,12 +308,19 @@ def trail_html(labels: list[str]) -> str:
                 f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" font-size="{TRAIL_FONT}" '
                 f'fill="{INK}">{esc(label)}</text>'
             )
-        y += BOX_H - 4 + join
-    for index in range(len(centers) - 1):
-        x1, top1, bot1 = centers[index]
-        x2, top2, _bot2 = centers[index + 1]
-        mid = (bot1 + top2) / 2
-        parts.append(_elbow(x1, bot1, x2, top2, mid))
+    if len(centers) > 1:
+        y0 = centers[0][1]
+        y1 = centers[-1][1]
+        parts.append(
+            f'<line class="map-line" x1="{rail:.1f}" y1="{y0:.1f}" x2="{rail:.1f}" y2="{y1:.1f}" '
+            f'stroke="{LINE}" stroke-width="1.75"/>'
+        )
+        for x, cy in centers:
+            parts.append(
+                f'<line class="map-line" x1="{rail:.1f}" y1="{cy:.1f}" x2="{x:.1f}" y2="{cy:.1f}" '
+                f'stroke="{LINE}" stroke-width="1.75"/>'
+            )
+            parts.append(_arrow(rail, cy, x, cy))
     parts.append("</svg>")
     return '<div class="page-trail">\n' + "".join(parts) + "\n</div>"
 
@@ -376,57 +384,165 @@ def insert_trail(text: str, labels: list[str]) -> str:
     return text
 
 
-def _box_width(label: str, leaf: bool) -> float:
-    return text_width(label, MAP_FONT) + 22
+PITCH = 46
+RAIL = 16
+GUTTER = 36
+MAP_BOX_H = 28
 
 
-def _layout(node: dict, side: str, roomy: bool = False) -> dict:
-    """Stair-step. Several children sit in a row so the chart stays rectangular."""
-    label = node["label"]
-    leaf = bool(node.get("leaf"))
-    bw = _box_width(label, leaf)
-    kids = [_layout(child, side, roomy) for child in node.get("children") or []]
-    if not kids:
-        return {"label": label, "leaf": leaf, "px": 0, "py": 0, "bw": bw, "w": bw, "h": BOX_H, "kids": []}
-    # The Archive cluster is dense; extra space keeps arrowheads off the boxes.
-    gap = 20 if roomy else 8
-    step = 20 if roomy else 12
-    row_gap = 16 if roomy else 6
-    per_row = 2 if len(kids) >= 4 else len(kids)
-    rows = [kids[i:i + per_row] for i in range(0, len(kids), per_row)]
-    row_widths = [sum(kid["w"] for kid in row) + gap * (len(row) - 1) for row in rows]
-    row_heights = [max(kid["h"] for kid in row) for row in rows]
-    inner_w = max(row_widths)
-    width = max(bw, inner_w + step)
-    y = BOX_H + (26 if roomy else 12)
-    placed = []
-    for row, row_w, row_h in zip(rows, row_widths, row_heights):
+def section_width(node: dict) -> float:
+    labels = []
+
+    def walk(item: dict) -> None:
+        labels.append(item["label"])
+        for child in item.get("children") or []:
+            walk(child)
+
+    walk(node)
+    return max(text_width(label, MAP_FONT) for label in labels) + 22
+
+
+def row_count(node: dict) -> int:
+    return 1 + sum(row_count(child) for child in node.get("children") or [])
+
+
+def _h_line(x1: float, x2: float, y: float) -> str:
+    return (
+        f'<line class="map-line" x1="{x1:.1f}" y1="{y:.1f}" x2="{x2:.1f}" y2="{y:.1f}" '
+        f'stroke="{LINE}" stroke-width="1.75"/>'
+    )
+
+
+def _v_line(x: float, y1: float, y2: float) -> str:
+    return (
+        f'<line class="map-line" x1="{x:.1f}" y1="{y1:.1f}" x2="{x:.1f}" y2="{y2:.1f}" '
+        f'stroke="{LINE}" stroke-width="1.75"/>'
+    )
+
+
+def layout_section(node: dict, side: str, y0: float, inner: float, width: float) -> tuple[list, list, float]:
+    """Place one section. Children use a side rail, never a top or bottom edge.
+
+    Left column: inner is the right edge (near the trunk). The parent rail is
+    on the outer (left) side. A nested child rail is on the inner (right) side.
+    The right column is the mirror.
+    """
+    boxes: list[dict] = []
+    segs: list[tuple[float, float, float, float, str]] = []
+
+    def box_at(y: float) -> tuple[float, float]:
         if side == "left":
-            x = width - step - row_w
-        else:
-            x = step
-        for kid in row:
-            placed.append((kid, x, y))
-            x += kid["w"] + gap
-        y += row_h + row_gap
-    px = (width - bw) if side == "left" else 0
-    return {"label": label, "leaf": leaf, "px": px, "py": 0, "bw": bw, "w": width, "h": y - row_gap, "kids": placed}
+            return inner - width, inner
+        return inner, inner + width
+
+    def walk(item: dict, y: float, depth: int) -> tuple[dict, float]:
+        x, right = box_at(y)
+        current = {
+            "x": x,
+            "y": y,
+            "w": width,
+            "h": MAP_BOX_H,
+            "label": item["label"],
+            "leaf": bool(item.get("leaf")),
+        }
+        boxes.append(current)
+        cursor = y + PITCH
+        children = []
+        for child in item.get("children") or []:
+            placed, cursor = walk(child, cursor, depth + 1)
+            children.append(placed)
+        if children:
+            cy = current["y"] + MAP_BOX_H / 2
+            # Depth 0 rail is on the outer side. Deeper rails sit toward the trunk
+            # so they do not cross the parent rail.
+            outer = depth == 0
+            if side == "left":
+                rail = (current["x"] - RAIL) if outer else (right + RAIL)
+                side_x = current["x"] if outer else right
+                segs.append((side_x, cy, rail, cy, ""))
+                last = children[-1]["y"] + MAP_BOX_H / 2
+                segs.append((rail, cy, rail, last, ""))
+                for child in children:
+                    ccy = child["y"] + MAP_BOX_H / 2
+                    enter = child["x"] if outer else child["x"] + child["w"]
+                    segs.append((rail, ccy, enter, ccy, "arrow"))
+            else:
+                rail = (right + RAIL) if outer else (current["x"] - RAIL)
+                side_x = right if outer else current["x"]
+                segs.append((side_x, cy, rail, cy, ""))
+                last = children[-1]["y"] + MAP_BOX_H / 2
+                segs.append((rail, cy, rail, last, ""))
+                for child in children:
+                    ccy = child["y"] + MAP_BOX_H / 2
+                    enter = child["x"] + child["w"] if outer else child["x"]
+                    segs.append((rail, ccy, enter, ccy, "arrow"))
+        return current, cursor
+
+    walk(node, y0, 0)
+    return boxes, segs, y0 + PITCH * row_count(node)
 
 
-def _paint(node: dict, ox: float, oy: float, boxes: list, lines: list) -> None:
-    x = ox + node["px"]
-    y = oy + node["py"]
-    boxes.append((x, y, node["bw"], BOX_H, node["label"], node["leaf"]))
-    parent_cx = x + node["bw"] / 2
-    parent_bottom = y + BOX_H
-    for kid, kx, ky in node["kids"]:
-        abs_x = ox + kx
-        abs_y = oy + ky
-        child_cx = abs_x + kid["px"] + kid["bw"] / 2
-        child_top = abs_y + kid["py"]
-        mid = (parent_bottom + child_top) / 2
-        lines.append(_elbow(parent_cx, parent_bottom, child_cx, child_top, mid))
-        _paint(kid, abs_x, abs_y, boxes, lines)
+def geometry_errors(boxes: list[tuple], segments: list[tuple]) -> list[str]:
+    """Segments may touch a box only at an endpoint on its border."""
+
+    def hits_interior(x1, y1, x2, y2, rect) -> bool:
+        left, top, right, bottom = rect
+        # Shrink so a mere touch of the border is allowed.
+        pad = 0.8
+        left, top, right, bottom = left + pad, top + pad, right - pad, bottom - pad
+        if right <= left or bottom <= top:
+            return False
+        dx, dy = x2 - x1, y2 - y1
+        p = (-dx, dx, -dy, dy)
+        q = (x1 - left, right - x1, y1 - top, bottom - y1)
+        u1, u2 = 0.0, 1.0
+        for pi, qi in zip(p, q):
+            if abs(pi) < 1e-9:
+                if qi < 0:
+                    return False
+                continue
+            t = qi / pi
+            if pi < 0:
+                if t > u2:
+                    return False
+                u1 = max(u1, t)
+            else:
+                if t < u1:
+                    return False
+                u2 = min(u2, t)
+        return u1 <= u2
+
+    def crosses(a, b) -> bool:
+        (x1, y1), (x2, y2) = a
+        (x3, y3), (x4, y4) = b
+
+        def orient(ax, ay, bx, by, cx, cy) -> float:
+            return (bx - ax) * (cy - ay) - (by - ay) * (cx - ax)
+
+        o1 = orient(x1, y1, x2, y2, x3, y3)
+        o2 = orient(x1, y1, x2, y2, x4, y4)
+        o3 = orient(x3, y3, x4, y4, x1, y1)
+        o4 = orient(x3, y3, x4, y4, x2, y2)
+        if o1 * o2 < -1e-6 and o3 * o4 < -1e-6:
+            return True
+        return False
+
+    rects = [(x, y, x + w, y + h) for x, y, w, h in boxes]
+    errors = []
+    for index, (x1, y1, x2, y2, _kind) in enumerate(segments):
+        for rect in rects:
+            if hits_interior(x1, y1, x2, y2, rect):
+                errors.append(f"segment {index} ({x1:.1f},{y1:.1f})-({x2:.1f},{y2:.1f}) cuts a box")
+                break
+    for i in range(len(segments)):
+        a = ((segments[i][0], segments[i][1]), (segments[i][2], segments[i][3]))
+        for j in range(i + 1, len(segments)):
+            b = ((segments[j][0], segments[j][1]), (segments[j][2], segments[j][3]))
+            if crosses(a, b):
+                errors.append(f"segments {i} and {j} cross")
+                if len(errors) > 12:
+                    return errors
+    return errors
 
 
 def _draw_box(x, y, w, h, label, leaf) -> str:
@@ -442,78 +558,92 @@ def _draw_box(x, y, w, h, label, leaf) -> str:
 
 
 def render_diagram() -> str:
-    """Home on a center trunk. Sections stair-step to the left and right."""
+    """Home on a center trunk. Children join the side of the parent."""
     data = load_map()
-    left_trees = [_layout(node, "left", roomy=node["label"] == "Archive") for node in data["left"]]
-    right_trees = [_layout(node, "right") for node in data["right"]]
-    gap = 14
-    left_w = max(tree["w"] for tree in left_trees)
-    right_w = max(tree["w"] for tree in right_trees)
+    column_w = max(section_width(node) for node in data["left"] + data["right"])
+    home_w = text_width("Home", MAP_FONT) + 22
 
-    def stack(trees, gutter):
-        y = 0
-        placed = []
-        for tree in trees:
-            placed.append((tree, y))
-            y += tree["h"] + gutter
-        return placed, y - gutter
+    def column(nodes: list[dict], side: str, inner: float, y0: float):
+        boxes, segs = [], []
+        y = y0
+        for node in nodes:
+            placed, links, _end = None, None, None
+            got_boxes, got_segs, end = layout_section(node, side, y, inner, column_w)
+            boxes.extend(got_boxes)
+            segs.extend(got_segs)
+            y = end
+        return boxes, segs, y
 
-    left_placed, left_h = stack(left_trees, 12)
-    right_placed, right_h = stack(right_trees, 12)
-    margin = 16
-    home_w = _box_width("Home", False)
-    home_h = BOX_H
-    trunk_gap = 22
-    col_top = margin + home_h + 18
-    total_w = margin + left_w + trunk_gap + right_w + margin
-    total_h = col_top + max(left_h, right_h) + margin
-    trunk = margin + left_w + trunk_gap / 2
+    # Provisional vertical extent, then center the trunk between the columns.
+    probe_left = sum(row_count(node) for node in data["left"])
+    probe_right = sum(row_count(node) for node in data["right"])
+    rows = max(probe_left, probe_right)
+    margin = 28
+    top = margin + MAP_BOX_H + 20
+    trunk_clear = GUTTER
+    # Place columns after we know their outer reach. Inner edges sit GUTTER from the trunk.
+    # Width is fixed, so inner edges can be chosen now.
+    left_inner = margin + RAIL + column_w
+    # right inner is left_inner + 2*GUTTER, trunk between them
+    right_inner = left_inner + 2 * trunk_clear
+    trunk = (left_inner + right_inner) / 2
+    total_w = right_inner + column_w + RAIL + margin
+    total_h = top + rows * PITCH + margin
+
+    left_boxes, left_segs, left_end = column(data["left"], "left", left_inner, top)
+    right_boxes, right_segs, right_end = column(data["right"], "right", right_inner, top)
     home_x = trunk - home_w / 2
     home_y = margin
+    home = (home_x, home_y, home_w, MAP_BOX_H, "Home", False)
+    boxes = [home]
+    for item in left_boxes + right_boxes:
+        boxes.append((item["x"], item["y"], item["w"], item["h"], item["label"], item["leaf"]))
 
-    boxes = [(home_x, home_y, home_w, home_h, "Home", False)]
-    lines = [
-        f'<line class="map-line" x1="{trunk:.1f}" y1="{home_y + home_h:.1f}" x2="{trunk:.1f}" y2="{col_top:.1f}" '
-        f'stroke="{LINE}" stroke-width="1.75"/>'
-    ]
-    branch_ys = []
+    segments = []
+    # Trunk from the bottom center of Home. It is the one root stem.
+    trunk_bottom = max(left_end, right_end) - PITCH + MAP_BOX_H / 2
+    segments.append((trunk, home_y + MAP_BOX_H, trunk, trunk_bottom, ""))
+    def section_rows_y(nodes, y0):
+        marks = []
+        y = y0
+        for node in nodes:
+            marks.append(y)
+            y += row_count(node) * PITCH
+        return marks
 
-    def place_column(placed, origin_x):
-        for tree, y in placed:
-            abs_y = col_top + y
-            _paint(tree, origin_x, abs_y, boxes, lines)
-            root_x = origin_x + tree["px"]
-            root_mid = abs_y + BOX_H / 2
-            branch_ys.append(root_mid)
-            if origin_x < trunk:
-                lines.append(
-                    f'<line class="map-line" x1="{trunk:.1f}" y1="{root_mid:.1f}" x2="{root_x + tree["bw"]:.1f}" y2="{root_mid:.1f}" '
-                    f'stroke="{LINE}" stroke-width="1.75"/>' + _arrow(trunk, root_mid, root_x + tree["bw"], root_mid)
-                )
-            else:
-                lines.append(
-                    f'<line class="map-line" x1="{trunk:.1f}" y1="{root_mid:.1f}" x2="{root_x:.1f}" y2="{root_mid:.1f}" '
-                    f'stroke="{LINE}" stroke-width="1.75"/>' + _arrow(trunk, root_mid, root_x, root_mid)
-                )
+    for y in section_rows_y(data["left"], top):
+        cy = y + MAP_BOX_H / 2
+        segments.append((trunk, cy, left_inner, cy, "arrow"))
+    for y in section_rows_y(data["right"], top):
+        cy = y + MAP_BOX_H / 2
+        segments.append((trunk, cy, right_inner, cy, "arrow"))
+    segments.extend(left_segs)
+    segments.extend(right_segs)
 
-    place_column(left_placed, margin)
-    place_column(right_placed, margin + left_w + trunk_gap)
-    if branch_ys:
-        lines.append(
-            f'<line class="map-line" x1="{trunk:.1f}" y1="{col_top:.1f}" x2="{trunk:.1f}" y2="{max(branch_ys):.1f}" '
-            f'stroke="{LINE}" stroke-width="1.75"/>'
-        )
-    body = (
+    rects = [(x, y, w, h) for x, y, w, h, _label, _leaf in boxes]
+    problems = geometry_errors(rects, segments)
+    if problems:
+        raise SystemExit("site map geometry:\n" + "\n".join(problems[:12]))
+
+    parts = [
         f'<rect class="map-paper" width="{total_w:.1f}" height="{total_h:.1f}" fill="{PAPER}"/>'
-        + "".join(lines)
-        + "".join(_draw_box(*box) for box in boxes)
-    )
+    ]
+    for x1, y1, x2, y2, kind in segments:
+        if abs(y1 - y2) < 0.1:
+            parts.append(_h_line(x1, x2, y1))
+        else:
+            parts.append(_v_line(x1, y1, y2))
+        if kind == "arrow":
+            parts.append(_arrow(x1, y1, x2, y2))
+    for x, y, w, h, label, leaf in boxes:
+        parts.append(_draw_box(x, y, w, h, label, leaf))
+    body = "".join(parts)
     svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {total_w:.1f} {total_h:.1f}" '
         f'role="img" aria-labelledby="site-map-title site-map-desc">'
         f'<title id="site-map-title">WyoVote site map</title>'
-        f'<desc id="site-map-desc">Home at the top. Sections branch left and right. '
-        f'The lowest page in a stair is a rounded box. The boxes are not links.</desc>'
+        f'<desc id="site-map-desc">Home at the top. Sections branch from a center trunk. '
+        f'Each child joins the side of its parent. Rounded boxes are the lowest page.</desc>'
         f"{body}</svg>"
     )
     return f'<div class="map-diagram">{svg}</div>'
