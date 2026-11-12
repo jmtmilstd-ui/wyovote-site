@@ -222,7 +222,8 @@ def render_tree(node: tuple) -> str:
 def render_diagram(tree: tuple) -> str:
     """Home spans both columns. Top-level sections split left and right."""
     label, children = tree
-    left_names = {"Archive", "Candidates"}
+    # Measured so the rendered columns stay within about 5% of each other.
+    left_names = {"Archive", "Candidates", "Research"}
     left = [child for child in children if child[0] in left_names]
     right = [child for child in children if child[0] not in left_names]
 

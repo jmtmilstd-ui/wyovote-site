@@ -1994,6 +1994,9 @@ html.cand-general .cand-view-general {
 }
 
 .map-diagram {
+  --stem: 1.15rem;
+  --join: 1.25rem;
+  --col-gap: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2003,7 +2006,7 @@ html.cand-general .cand-view-general {
 
 .map-home {
   position: relative;
-  margin-bottom: 1.15rem;
+  margin-bottom: var(--join);
 }
 
 .map-home::after {
@@ -2012,7 +2015,7 @@ html.cand-general .cand-view-general {
   left: 50%;
   top: 100%;
   width: 2px;
-  height: 1.15rem;
+  height: calc(var(--join) + 1px);
   margin-left: -1px;
   background: #146b31;
 }
@@ -2020,20 +2023,22 @@ html.cand-general .cand-view-general {
 .map-columns {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 1rem 2rem;
+  column-gap: var(--col-gap);
+  row-gap: var(--join);
   width: 100%;
   align-items: start;
   position: relative;
-  padding-top: 0.9rem;
+  padding-top: var(--join);
 }
 
 .map-columns::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 18%;
-  right: 18%;
-  border-top: 2px solid #146b31;
+  left: var(--stem);
+  width: calc(50% + (var(--col-gap) / 2));
+  height: 2px;
+  background: #146b31;
 }
 
 .map-col {
@@ -2044,10 +2049,10 @@ html.cand-general .cand-view-general {
 .map-col::before {
   content: "";
   position: absolute;
-  top: -0.9rem;
-  left: 1.15rem;
+  top: calc(-1 * var(--join));
+  left: var(--stem);
   width: 2px;
-  height: 0.9rem;
+  height: calc(var(--join) + 0.55rem);
   background: #146b31;
 }
 
@@ -2082,8 +2087,14 @@ html.cand-general .cand-view-general {
   content: none;
 }
 
+.map-diagram .map-tree-root > li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .map-diagram .site-box {
-  display: inline-block;
+  display: block;
+  width: max-content;
   min-width: 7.5rem;
   padding: 0.35rem 0.6rem;
   font-size: 12pt;
@@ -2099,17 +2110,29 @@ html.cand-general .cand-view-general {
     margin-left: 0;
   }
 
+  .map-diagram {
+    align-items: stretch;
+  }
+
+  .map-home {
+    align-self: flex-start;
+  }
+
+  .map-home::after {
+    left: var(--stem);
+    margin-left: 0;
+  }
+
   .map-columns {
     grid-template-columns: 1fr;
   }
 
   .map-columns::before {
-    left: 1.15rem;
-    right: auto;
-    width: 0;
-    height: calc(100% - 0.9rem);
-    border-top: 0;
-    border-left: 2px solid #146b31;
+    left: var(--stem);
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #146b31;
   }
 }
 
@@ -2142,11 +2165,8 @@ html.cand-general .cand-view-general {
   }
 
   .map-home::after,
-  .map-col::before {
-    background: #000000;
-  }
-
+  .map-col::before,
   .map-columns::before {
-    border-top-color: #000000;
+    background: #000000;
   }
 }
