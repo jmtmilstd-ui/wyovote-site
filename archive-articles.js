@@ -59,8 +59,17 @@
   function entry(item, root) {
     var li = el("li", "article-entry");
     var title = el("p", "article-entry-title");
-    if (item.kind === "news" || item.kind === "special") {
-      title.appendChild(el("span", item.kind === "special" ? "news-kicker news-kicker-special" : "news-kicker", item.kind === "special" ? "Special" : "News"));
+    if (item.kind === "news" || item.kind === "special" || item.kind === "research") {
+      var kickerClass = "news-kicker";
+      var kickerText = "News";
+      if (item.kind === "special") {
+        kickerClass = "news-kicker news-kicker-special";
+        kickerText = "Special";
+      } else if (item.kind === "research") {
+        kickerClass = "news-kicker news-kicker-research";
+        kickerText = "Research";
+      }
+      title.appendChild(el("span", kickerClass, kickerText));
       title.appendChild(document.createTextNode(" "));
     }
     var link = el("a", "", item.title || "");
