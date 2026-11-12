@@ -13,7 +13,8 @@ Checks:
   (d) any root page (not under preview/) links into preview/ or contains the
       PREVIEW banner
   (e) the total size of tracked files is over 200 MB (209,715,200 bytes)
-  (f) a top-level label in the preview site nav is missing from the site map
+  (f) a top-level label in the preview or live site nav is missing from the site map
+  (g) a line in the preview or live site map cuts through a box or crosses another line
 
 The report always includes the tracked size, the 10 largest tracked files,
 and the counts. Exceptions belong in tools/publish_check_allow.txt, or in
@@ -348,40 +349,44 @@ def nav_labels(index_html: str) -> list[str]:
     return labels
 
 
-def site_map_gaps(root: Path) -> list[str]:
-    """Nav sections that the current site map does not name."""
-    index_path = root / "preview" / "index.html"
-    map_path = root / "data" / "site-map.json"
-    page_path = root / "preview" / "site-map.html"
-    if not index_path.is_file() or not map_path.is_file() or not page_path.is_file():
-        return ["site map source is missing"]
-    labels = nav_labels(index_path.read_text(encoding="utf-8"))
-    data = json.loads(map_path.read_text(encoding="utf-8"))
-    named = []
+def site_map_names(data: dict) -> list[str]:
+    named = ["Home"]
 
     def walk(node: dict) -> None:
         named.append(node.get("label", ""))
         for child in node.get("children") or []:
             walk(child)
 
-    named.append("Home")
     for column in ("left", "right"):
         for node in data.get(column) or []:
             walk(node)
-    page = page_path.read_text(encoding="utf-8")
+    return named
+
+
+def site_map_gaps(root: Path) -> list[str]:
+    """Nav sections that the preview or live site map does not name."""
+    map_path = root / "data" / "site-map.json"
+    if not map_path.is_file():
+        return ["site map source is missing"]
+    data = json.loads(map_path.read_text(encoding="utf-8"))
+    named = site_map_names(data)
     missing = []
-    for label in labels:
-        if label not in named or label not in page:
-            missing.append(label)
+    for which, index_path, page_path in (
+        ("preview", root / "preview" / "index.html", root / "preview" / "site-map.html"),
+        ("live", root / "index.html", root / "site-map.html"),
+    ):
+        if not index_path.is_file() or not page_path.is_file():
+            missing.append(f"{which} site map source is missing")
+            continue
+        page = page_path.read_text(encoding="utf-8")
+        for label in nav_labels(index_path.read_text(encoding="utf-8")):
+            if label not in named or label not in page:
+                missing.append(f"{which}: {label}")
     return missing
 
 
-def site_map_geometry(root: Path) -> list[str]:
-    """Lines in the site-map diagram must not cut through a box or cross."""
-    page_path = root / "preview" / "site-map.html"
-    if not page_path.is_file():
-        return ["site map page is missing"]
-    page = page_path.read_text(encoding="utf-8")
+def diagram_geometry(page: str) -> list[str]:
+    """Lines in one site-map diagram must not cut through a box or cross."""
     match = re.search(r'(?s)<div class="map-diagram"><svg.*?</svg>', page)
     if not match:
         return ["site map diagram is missing"]
@@ -405,6 +410,21 @@ def site_map_geometry(root: Path) -> list[str]:
     from build_site_map import geometry_errors
 
     return geometry_errors(boxes, segments)
+
+
+def site_map_geometry(root: Path) -> list[str]:
+    """Lines in the preview and live site-map diagrams must not cut a box or cross."""
+    errors = []
+    for which, page_path in (
+        ("preview", root / "preview" / "site-map.html"),
+        ("live", root / "site-map.html"),
+    ):
+        if not page_path.is_file():
+            errors.append(f"{which}: site map page is missing")
+            continue
+        for item in diagram_geometry(page_path.read_text(encoding="utf-8")):
+            errors.append(f"{which}: {item}")
+    return errors
 
 
 def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int) -> tuple[int, str]:
