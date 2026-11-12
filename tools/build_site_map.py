@@ -219,8 +219,27 @@ def render_tree(node: tuple) -> str:
     return inner
 
 
+def render_diagram(tree: tuple) -> str:
+    """Home spans both columns. Top-level sections split left and right."""
+    label, children = tree
+    left_names = {"Archive", "Candidates"}
+    left = [child for child in children if child[0] in left_names]
+    right = [child for child in children if child[0] not in left_names]
+
+    def column(nodes: list) -> str:
+        items = "".join(f"<li>{render_tree(node)}</li>" for node in nodes)
+        return f'<div class="map-col"><ul class="map-tree map-tree-root">{items}</ul></div>'
+
+    return (
+        '<div class="map-diagram" role="img" aria-label="Site map diagram. Information only, not links.">'
+        f'<div class="map-home"><span class="site-box">{esc(label)}</span></div>'
+        f'<div class="map-columns">{column(left)}{column(right)}</div>'
+        "</div>"
+    )
+
+
 def write_site_map_page() -> None:
-    diagram = f'<div class="map-diagram" role="img" aria-label="Site map diagram. Information only, not links."><ul class="map-tree"><li>{render_tree(TREE)}</li></ul></div>'
+    diagram = render_diagram(TREE)
     page = f"""<!DOCTYPE html>
 <html lang="en">
   <head>

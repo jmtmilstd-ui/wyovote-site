@@ -1646,7 +1646,10 @@ body.cand-page {
   margin: 0 0 0.85rem;
 }
 
-.cand-election-btn {
+.cand-page .page-body a.cand-election-btn,
+.cand-page .page-body a.cand-election-btn:hover,
+.cand-page .page-body a.cand-election-btn:focus,
+.cand-page .page-body a.cand-election-btn:focus-visible {
   display: inline-block;
   padding: 0.45rem 0.9rem;
   border: 2px solid #1f5d34;
@@ -1658,21 +1661,13 @@ body.cand-page {
   line-height: 1.3;
   text-align: center;
   text-decoration: none;
+  outline: none;
 }
 
-.cand-election-btn[data-election="primary"] {
-  background: #1f5d34;
-  color: #ffffff;
-}
-
-html.cand-general .cand-election-btn[data-election="primary"] {
-  background: #ffffff;
-  color: #0e2a18;
-}
-
-html.cand-general .cand-election-btn[data-election="general"] {
-  background: #1f5d34;
-  color: #ffffff;
+html:not(.cand-general) .cand-page .page-body a.cand-election-btn[data-election="primary"],
+html.cand-general .cand-page .page-body a.cand-election-btn[data-election="general"] {
+  outline: 3px solid #a07808;
+  outline-offset: 3px;
 }
 
 .cand-view-general {
@@ -1940,17 +1935,28 @@ html.cand-general .cand-view-general {
 }
 
 .page-trail {
-  flex: 0 1 9rem;
+  flex: 0 0 auto;
+  width: max-content;
+  max-width: 100%;
   margin: 0 0 0 auto;
 }
 
 .page-trail ol {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
+  width: max-content;
+  max-width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.page-trail li {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  max-width: 100%;
 }
 
 .site-box {
@@ -1967,21 +1973,82 @@ html.cand-general .cand-view-general {
   text-align: center;
 }
 
+.page-trail .site-box {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  padding: 0.08rem 0.4rem;
+}
+
 .page-trail .site-box.is-current {
   background: #b8860b;
   border-color: #5c4306;
   color: #142117;
 }
 
-.trail-join {
+.page-trail .trail-join {
   width: 2px;
   height: 0.28rem;
-  margin: 0 auto;
+  margin: 0;
   background: #146b31;
 }
 
 .map-diagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   margin: 0.5rem 0 1rem;
+}
+
+.map-home {
+  position: relative;
+  margin-bottom: 1.15rem;
+}
+
+.map-home::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 2px;
+  height: 1.15rem;
+  margin-left: -1px;
+  background: #146b31;
+}
+
+.map-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1rem 2rem;
+  width: 100%;
+  align-items: start;
+  position: relative;
+  padding-top: 0.9rem;
+}
+
+.map-columns::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18%;
+  right: 18%;
+  border-top: 2px solid #146b31;
+}
+
+.map-col {
+  position: relative;
+  min-width: 0;
+}
+
+.map-col::before {
+  content: "";
+  position: absolute;
+  top: -0.9rem;
+  left: 1.15rem;
+  width: 2px;
+  height: 0.9rem;
+  background: #146b31;
 }
 
 .map-tree,
@@ -2011,6 +2078,10 @@ html.cand-general .cand-view-general {
   border-top: 2px solid #146b31;
 }
 
+.map-tree.map-tree-root > li::before {
+  content: none;
+}
+
 .map-diagram .site-box {
   display: inline-block;
   min-width: 7.5rem;
@@ -2025,8 +2096,20 @@ html.cand-general .cand-view-general {
   }
 
   .page-trail {
-    flex-basis: auto;
     margin-left: 0;
+  }
+
+  .map-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .map-columns::before {
+    left: 1.15rem;
+    right: auto;
+    width: 0;
+    height: calc(100% - 0.9rem);
+    border-top: 0;
+    border-left: 2px solid #146b31;
   }
 }
 
@@ -2055,6 +2138,15 @@ html.cand-general .cand-view-general {
   }
 
   .map-tree ul > li::before {
+    border-top-color: #000000;
+  }
+
+  .map-home::after,
+  .map-col::before {
+    background: #000000;
+  }
+
+  .map-columns::before {
     border-top-color: #000000;
   }
 }
