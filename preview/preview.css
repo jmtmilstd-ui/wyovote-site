@@ -1975,7 +1975,8 @@ html.cand-general .page-trail .cand-view-general {
 
 .map-diagram svg {
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   height: auto;
   background: #f4f3ee;
 }
