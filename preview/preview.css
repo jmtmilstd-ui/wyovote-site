@@ -1432,6 +1432,16 @@ ol.method-steps li {
   color: #ffffff;
 }
 
+.news-kicker-feature {
+  background: #5c4306;
+  color: #ffffff;
+}
+
+.article-list h3 .news-kicker {
+  margin: 0 0.4rem 0 0;
+  vertical-align: 0.08em;
+}
+
 .news-date,
 .news-summary,
 .news-more,
@@ -1940,8 +1950,35 @@ html.cand-general .cand-view-general {
 .page-trail {
   flex: 0 0 auto;
   width: max-content;
-  max-width: 100%;
+  max-width: min(100%, 16rem);
   margin: 0 0 0 auto;
+}
+
+.page-trail svg {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.page-trail .cand-view-general {
+  display: none;
+}
+
+html.cand-general .page-trail .cand-view-primary {
+  display: none;
+}
+
+html.cand-general .page-trail .cand-view-general {
+  display: block;
+}
+
+.map-diagram svg {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  background: #f4f3ee;
 }
 
 .page-trail ol {
@@ -2153,6 +2190,30 @@ html.cand-general .cand-view-general {
     border-color: #000000;
     color: #142117;
     print-color-adjust: exact;
+  }
+
+  .map-diagram svg .map-line {
+    stroke: #000000;
+  }
+
+  .map-diagram svg .map-arrow,
+  .page-trail svg .map-arrow {
+    fill: #000000;
+  }
+
+  .map-diagram svg .map-box,
+  .page-trail svg .trail-box {
+    fill: #ffffff;
+    stroke: #000000;
+  }
+
+  .map-diagram svg .map-label,
+  .page-trail svg .trail-label {
+    fill: #000000;
+  }
+
+  .page-trail svg .trail-box.is-current {
+    stroke: #000000;
   }
 
   .trail-join {

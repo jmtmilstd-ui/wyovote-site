@@ -42,27 +42,29 @@
           <h1>Articles</h1>
         
 <!-- page-trail -->
-<div class="page-trail" aria-label="Where this page sits">
-  <ol>
-    <li><span class="site-box">Home</span></li>
-    <li class="trail-join" aria-hidden="true"></li>
-    <li><span class="site-box">Archive</span></li>
-    <li class="trail-join" aria-hidden="true"></li>
-    <li><span class="site-box is-current">Articles</span></li>
-  </ol>
+<div class="page-trail">
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="116" viewBox="0 0 121.3 116.0" role="img" aria-label="Home / Archive / Articles"><rect class="trail-box" x="26.0" y="2.0" width="54.9" height="32.0" fill="#ffffff" stroke="#142117" stroke-width="1.5"/><text class="trail-label" x="53.4" y="18.0" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-weight="700" font-size="14" fill="#142117">Home</text><rect class="trail-box" x="38.0" y="42.0" width="67.3" height="32.0" fill="#ffffff" stroke="#142117" stroke-width="1.5"/><text class="trail-label" x="71.7" y="58.0" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-weight="700" font-size="14" fill="#142117">Archive</text><rect class="trail-box is-current" x="50.0" y="82.0" width="67.3" height="32.0" fill="#ffffff" stroke="#b8860b" stroke-width="2.5"/><text class="trail-label" x="83.7" y="98.0" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-weight="700" font-size="14" fill="#142117">Articles</text><line class="map-line" x1="10.0" y1="18.0" x2="10.0" y2="98.0" stroke="#146b31" stroke-width="1.75"/><line class="map-line" x1="10.0" y1="18.0" x2="26.0" y2="18.0" stroke="#146b31" stroke-width="1.75"/><polygon class="map-arrow" points="26.0,18.0 18.0,14.0 18.0,22.0" fill="#146b31"/><line class="map-line" x1="10.0" y1="58.0" x2="38.0" y2="58.0" stroke="#146b31" stroke-width="1.75"/><polygon class="map-arrow" points="38.0,58.0 30.0,54.0 30.0,62.0" fill="#146b31"/><line class="map-line" x1="10.0" y1="98.0" x2="50.0" y2="98.0" stroke="#146b31" stroke-width="1.75"/><polygon class="map-arrow" points="50.0,98.0 42.0,94.0 42.0,102.0" fill="#146b31"/></svg>
 </div>
 <!-- /page-trail -->
         </div>
       </section>
       <section class="page-body">
         <div class="wrap">
-          <p class="article-key">A green News tag marks a WyoVote news article. A gold Special tag marks a special. A dark Research tag marks a research article. Other articles have no tag.</p>
+          <p class="article-key">A green News tag marks a WyoVote news article. A gold Special tag marks a special. A dark Research tag marks a research article. A brown Feature tag marks a feature. Other articles have no tag.</p>
           <div id="article-archive" data-news="../data/news.json" data-root="../">
             <noscript>
               <p class="article-key">The news and special titles need a browser that runs scripts. <a href="../data/news.json">News data</a></p>
               <section class="article-year">
                 <h2>2026</h2>
                 <ul class="article-stack">
+                  <li class="article-entry">
+                    <p class="article-entry-title"><span class="news-kicker news-kicker-feature">Feature</span> <a href="../articles/a010-official-symbols.html">Wyoming&#x27;s Official Symbols, Written Into Law</a></p>
+                    <p class="article-entry-date"><time datetime="2026-11-11">Nov. 11, 2026</time></p>
+                  </li>
+                  <li class="article-entry">
+                    <p class="article-entry-title"><span class="news-kicker news-kicker-feature">Feature</span> <a href="../articles/a009-equality-state.html">How Wyoming Became the Equality State</a></p>
+                    <p class="article-entry-date"><time datetime="2026-11-11">Nov. 11, 2026</time></p>
+                  </li>
                   <li class="article-entry">
                     <p class="article-entry-title"><span class="news-kicker news-kicker-research">Research</span> <a href="../articles/a005-high-plains-blue-swing.html">A Blue Swing on the High Plains</a></p>
                     <p class="article-entry-date"><time datetime="2026-11-11">Nov. 11, 2026</time></p>
@@ -80,6 +82,8 @@
             </noscript>
           </div>
           <script type="application/json" id="archive-articles">[
+            {"date":"2026-11-11","title":"Wyoming's Official Symbols, Written Into Law","url":"articles/a010-official-symbols.html","kind":"feature"},
+            {"date":"2026-11-11","title":"How Wyoming Became the Equality State","url":"articles/a009-equality-state.html","kind":"feature"},
             {"date":"2026-11-11","title":"A Blue Swing on the High Plains","url":"articles/a005-high-plains-blue-swing.html","kind":"research"},
             {"date":"2026-11-09","title":"Wyoming's 2026 Legislative Election: One Party Flip, 38 Open Seats","url":"articles/a002-2026-legislature-election-results.html"},
             {"date":"2026-11-08","title":"Barlow and Sommers: Two Old Speakers Ride Back to Cheyenne","url":"articles/barlow-sommers.html"}

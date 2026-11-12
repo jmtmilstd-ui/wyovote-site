@@ -13,6 +13,8 @@ Checks:
   (d) any root page (not under preview/) links into preview/ or contains the
       PREVIEW banner
   (e) the total size of tracked files is over 200 MB (209,715,200 bytes)
+  (f) a top-level label in the preview or live site nav is missing from the site map
+  (g) a line in the preview or live site map cuts through a box or crosses another line
 
 The report always includes the tracked size, the 10 largest tracked files,
 and the counts. Exceptions belong in tools/publish_check_allow.txt, or in
@@ -23,6 +25,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import re
 import subprocess
 import sys
@@ -333,6 +336,97 @@ def format_bytes(size: int) -> str:
     return f"{size:,} bytes ({size / (1024 * 1024):.2f} MiB)"
 
 
+def nav_labels(index_html: str) -> list[str]:
+    nav = re.search(r'(?is)<nav class="site-nav".*?</nav>', index_html)
+    if not nav:
+        return []
+    labels = []
+    for raw in re.findall(r"(?is)<a\b[^>]*>(.*?)</a>", nav.group(0)):
+        text = re.sub(r"(?is)<[^>]+>", "", raw)
+        text = re.sub(r"\s+", " ", html.unescape(text)).strip()
+        if text:
+            labels.append(text)
+    return labels
+
+
+def site_map_names(data: dict) -> list[str]:
+    named = ["Home"]
+
+    def walk(node: dict) -> None:
+        named.append(node.get("label", ""))
+        for child in node.get("children") or []:
+            walk(child)
+
+    for column in ("left", "right"):
+        for node in data.get(column) or []:
+            walk(node)
+    return named
+
+
+def site_map_gaps(root: Path) -> list[str]:
+    """Nav sections that the preview or live site map does not name."""
+    map_path = root / "data" / "site-map.json"
+    if not map_path.is_file():
+        return ["site map source is missing"]
+    data = json.loads(map_path.read_text(encoding="utf-8"))
+    named = site_map_names(data)
+    missing = []
+    for which, index_path, page_path in (
+        ("preview", root / "preview" / "index.html", root / "preview" / "site-map.html"),
+        ("live", root / "index.html", root / "site-map.html"),
+    ):
+        if not index_path.is_file() or not page_path.is_file():
+            missing.append(f"{which} site map source is missing")
+            continue
+        page = page_path.read_text(encoding="utf-8")
+        for label in nav_labels(index_path.read_text(encoding="utf-8")):
+            if label not in named or label not in page:
+                missing.append(f"{which}: {label}")
+    return missing
+
+
+def diagram_geometry(page: str) -> list[str]:
+    """Lines in one site-map diagram must not cut through a box or cross."""
+    match = re.search(r'(?s)<div class="map-diagram"><svg.*?</svg>', page)
+    if not match:
+        return ["site map diagram is missing"]
+    chunk = match.group(0)
+    boxes = [
+        tuple(float(value) for value in item.groups())
+        for item in re.finditer(
+            r'<rect class="map-box[^"]*" x="([0-9.eE+-]+)" y="([0-9.eE+-]+)" '
+            r'width="([0-9.eE+-]+)" height="([0-9.eE+-]+)"',
+            chunk,
+        )
+    ]
+    segments = [
+        (*[float(value) for value in item.groups()], "")
+        for item in re.finditer(
+            r'<line class="map-line" x1="([0-9.eE+-]+)" y1="([0-9.eE+-]+)" '
+            r'x2="([0-9.eE+-]+)" y2="([0-9.eE+-]+)"',
+            chunk,
+        )
+    ]
+    from build_site_map import geometry_errors
+
+    return geometry_errors(boxes, segments)
+
+
+def site_map_geometry(root: Path) -> list[str]:
+    """Lines in the preview and live site-map diagrams must not cut a box or cross."""
+    errors = []
+    for which, page_path in (
+        ("preview", root / "preview" / "site-map.html"),
+        ("live", root / "site-map.html"),
+    ):
+        if not page_path.is_file():
+            errors.append(f"{which}: site map page is missing")
+            continue
+        for item in diagram_geometry(page_path.read_text(encoding="utf-8")):
+            errors.append(f"{which}: {item}")
+    return errors
+
+
 def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int) -> tuple[int, str]:
     root = root.resolve()
     if not root.is_dir():
@@ -407,7 +501,11 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
     root_left.sort(key=lambda item: (item[1], item[2], item[0], item[3]))
 
     size_over = names is not None and tracked_total > tree_limit
-    failed = bool(oversized or unreferenced or missing_left or root_left or size_over or git_error)
+    map_gaps = site_map_gaps(root)
+    map_lines = site_map_geometry(root)
+    failed = bool(
+        oversized or unreferenced or missing_left or root_left or size_over or git_error or map_gaps or map_lines
+    )
 
     lines: list[str] = []
     lines.append("WyoVote publish check")
@@ -462,6 +560,18 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
     if not root_left:
         lines.append("  (none)")
     lines.append("")
+    lines.append(f"Top-level nav labels missing from the site map: {len(map_gaps)}")
+    for label in map_gaps:
+        lines.append(f"  {label}")
+    if not map_gaps:
+        lines.append("  (none)")
+    lines.append("")
+    lines.append(f"Site map lines through a box or crossing another line: {len(map_lines)}")
+    for item in map_lines[:12]:
+        lines.append(f"  {item}")
+    if not map_lines:
+        lines.append("  (none)")
+    lines.append("")
     lines.append(
         "Counts: "
         f"working_tree_files={len(files)} "
@@ -472,7 +582,9 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
         f"oversized={len(oversized)} "
         f"unreferenced={len(unreferenced)} "
         f"missing={len(missing_left)} "
-        f"root_preview={len(root_left)}"
+        f"root_preview={len(root_left)} "
+        f"site_map={len(map_gaps)} "
+        f"site_map_lines={len(map_lines)}"
     )
     return (1 if failed else 0), "\n".join(lines) + "\n"
 
