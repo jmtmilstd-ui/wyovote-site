@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Stamp the Site Map and the small header trail, then promote preview to live.
+"""Stamp the Site Map and the header trail on the preview pages.
 
-The full diagram and the trail on each page come from the same page
-structure. Run this after adding preview pages:
+The diagram and the trail are drawn SVG figures in the same style as the
+About page diagram. Run this after adding preview pages:
 
     python3 tools/build_site_map.py
 
-tools/build_candidate_pages.py runs it at the end, so a candidate rebuild
-picks up the trail on new pages. The same run copies every preview HTML
-page to its live twin, following PUBLISH.md.
+tools/build_candidate_pages.py runs it at the end. Pass --publish to copy
+the preview pages onto the live tree. The default run leaves live pages
+untouched.
 """
 
 from __future__ import annotations
@@ -16,6 +16,7 @@ from __future__ import annotations
 import html
 import os
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -156,28 +157,119 @@ def crumbs(rel: str, text: str) -> list[str]:
     return chain
 
 
-def trail_label(label: str) -> str:
-    """Year-index labels follow the Primary/General switch, the same as the h1."""
-    match = re.fullmatch(r"(\d{4}) Primary", label)
-    if not match:
-        return esc(label)
-    year = match.group(1)
-    return (
-        f'<span class="cand-view-primary">{year} Primary</span>'
-        f'<span class="cand-view-general">{year} General</span>'
-    )
+FONT_PATHS = (
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+)
+FONT_FAMILY = "Liberation Sans, DejaVu Sans, sans-serif"
+MAP_FONT = 26
+TRAIL_FONT = 16
+INK = "#142117"
+PAPER = "#f4f3ee"
+LINE = "#146b31"
+GOLD = "#b8860b"
+_FONTS: dict[int, object] = {}
+
+
+def _font(size: int):
+    if size not in _FONTS:
+        from PIL import ImageFont
+
+        for path in FONT_PATHS:
+            if Path(path).is_file():
+                _FONTS[size] = ImageFont.truetype(path, size)
+                break
+        else:
+            _FONTS[size] = None
+    return _FONTS[size]
+
+
+def text_width(text: str, size: int) -> float:
+    font = _font(size)
+    if font is not None:
+        return float(font.getlength(text))
+    return len(text) * size * 0.56
 
 
 def trail_html(labels: list[str]) -> str:
-    rows = ['<div class="page-trail" aria-label="Where this page sits">', "  <ol>"]
-    for index, label in enumerate(labels):
-        if index:
-            rows.append('    <li class="trail-join" aria-hidden="true"></li>')
-        kind = "site-box is-current" if index == len(labels) - 1 else "site-box"
-        rows.append(f'    <li><span class="{kind}">{trail_label(label)}</span></li>')
-    rows.append("  </ol>")
-    rows.append("</div>")
-    return "\n".join(rows)
+    """Small drawn trail: Home down to this page, current box in gold."""
+    pad_x, pad_y = 12.0, 8.0
+    line_h = TRAIL_FONT + 4
+    join = 12.0
+    max_text = 236.0
+    items = []
+    for label in labels:
+        match = re.fullmatch(r"(\d{4}) Primary", label)
+        if match:
+            year = match.group(1)
+            primary = f"{year} Primary"
+            general = f"{year} General"
+            width = max(text_width(primary, TRAIL_FONT), text_width(general, TRAIL_FONT))
+            items.append((width + pad_x * 2, [primary], [general]))
+            continue
+        words = label.split()
+        lines: list[str] = []
+        current = ""
+        for word in words:
+            trial = word if not current else f"{current} {word}"
+            if text_width(trial, TRAIL_FONT) <= max_text:
+                current = trial
+            else:
+                if current:
+                    lines.append(current)
+                current = word
+        if current:
+            lines.append(current)
+        if not lines:
+            lines = [label]
+        width = max(text_width(line, TRAIL_FONT) for line in lines)
+        items.append((width + pad_x * 2, lines, None))
+
+    heights = [len(lines) * line_h + pad_y * 2 for _, lines, _ in items]
+    total_w = max(width for width, _, _ in items)
+    total_h = sum(heights) + join * (len(items) - 1)
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{total_w:.0f}" height="{total_h:.0f}" '
+        f'viewBox="0 0 {total_w:.1f} {total_h:.1f}" role="img" aria-label="{esc(" / ".join(labels))}">'
+    ]
+    y = 0.0
+    for index, ((width, lines, alt), height) in enumerate(zip(items, heights)):
+        x = (total_w - width) / 2
+        current = index == len(items) - 1
+        fill = GOLD if current else "#ffffff"
+        klass = "trail-box is-current" if current else "trail-box"
+        parts.append(
+            f'<rect class="{klass}" x="{x:.1f}" y="{y:.1f}" width="{width:.1f}" height="{height:.1f}" '
+            f'fill="{fill}" stroke="{INK}" stroke-width="2.5" stroke-linejoin="round"/>'
+        )
+        text_y = y + height / 2 - (len(lines) - 1) * line_h / 2
+        cx = total_w / 2
+
+        def label_text(content: list[str], css: str, top: float) -> str:
+            rows = []
+            for line_index, line in enumerate(content):
+                dy = 0 if line_index == 0 else line_h
+                rows.append(f'<tspan x="{cx:.1f}" dy="{dy:.1f}">{esc(line)}</tspan>')
+            return (
+                f'<text class="trail-label {css}" x="{cx:.1f}" y="{top:.1f}" text-anchor="middle" '
+                f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" '
+                f'font-size="{TRAIL_FONT}" fill="{INK}">{"".join(rows)}</text>'
+            )
+
+        if alt:
+            parts.append(label_text(lines, "cand-view-primary", text_y))
+            parts.append(label_text(alt, "cand-view-general", text_y))
+        else:
+            parts.append(label_text(lines, "", text_y))
+        y += height
+        if index < len(items) - 1:
+            parts.append(
+                f'<line class="trail-line" x1="{total_w / 2:.1f}" y1="{y:.1f}" x2="{total_w / 2:.1f}" '
+                f'y2="{y + join:.1f}" stroke="{GOLD}" stroke-width="2.5" stroke-linecap="butt"/>'
+            )
+            y += join
+    parts.append("</svg>")
+    return '<div class="page-trail">\n' + "".join(parts) + "\n</div>"
 
 
 def root_prefix(rel: str) -> str:
@@ -215,32 +307,190 @@ def insert_trail(text: str, labels: list[str]) -> str:
     return text
 
 
-def render_tree(node: tuple) -> str:
+# Drawn to match the About diagram: flat white boxes, dark stroke, green elbows.
+MAP_PAD_X = 18
+MAP_BOX_H = 54
+MAP_H_GAP = 16
+MAP_V_DROP = 36
+MAP_ROW_GAP = 28
+MAP_SECTION_GAP = 46
+MAP_COL_GAP = 48
+MAP_MARGIN = 22
+MAP_TOP = 20
+MAP_HOME_DROP = 32
+MAP_MAX_ROW = 500
+MAP_RAIL = 18
+# Heights of these two groups match. Children still sit in rows under a parent.
+LEFT_NAMES = ("Archive", "Candidates", "News", "Research")
+RIGHT_NAMES = ("Officials", "Ratings", "About", "Privacy", "Contact")
+
+
+def layout_node(node: tuple) -> dict:
     label, children = node
-    inner = f'<span class="site-box">{esc(label)}</span>'
-    if children:
-        inner += '<ul>' + "".join(f"<li>{render_tree(child)}</li>" for child in children) + "</ul>"
-    return inner
+    width = text_width(label, MAP_FONT) + MAP_PAD_X * 2
+    if not children:
+        return {"label": label, "x": 0, "y": 0, "w": width, "h": MAP_BOX_H, "sub_w": width, "sub_h": MAP_BOX_H, "kids": []}
+    laid = [layout_node(child) for child in children]
+    rows: list[list[dict]] = []
+    row: list[dict] = []
+    row_w = 0.0
+    for child in laid:
+        extra = child["sub_w"] if not row else MAP_H_GAP + child["sub_w"]
+        if row and row_w + extra > MAP_MAX_ROW:
+            rows.append(row)
+            row = [child]
+            row_w = child["sub_w"]
+        else:
+            row.append(child)
+            row_w += extra
+    if row:
+        rows.append(row)
+    row_sizes = []
+    for packed in rows:
+        packed_w = sum(child["sub_w"] for child in packed) + MAP_H_GAP * (len(packed) - 1)
+        packed_h = max(child["sub_h"] for child in packed)
+        row_sizes.append((packed, packed_w, packed_h))
+    # A left rail carries connectors to the second and later rows, so those
+    # lines do not cut through the boxes above them.
+    rail = MAP_RAIL if len(row_sizes) > 1 else 0
+    content_w = rail + max([width] + [packed_w for _, packed_w, _ in row_sizes])
+    kids = []
+    y = MAP_BOX_H + MAP_V_DROP
+    inner_w = content_w - rail
+    for packed, packed_w, packed_h in row_sizes:
+        x = rail + (inner_w - packed_w) / 2
+        for child in packed:
+            kids.append((child, x, y))
+            x += child["sub_w"] + MAP_H_GAP
+        y += packed_h + MAP_ROW_GAP
+    return {
+        "label": label,
+        "x": rail + (inner_w - width) / 2,
+        "y": 0,
+        "w": width,
+        "h": MAP_BOX_H,
+        "sub_w": content_w,
+        "sub_h": y - MAP_ROW_GAP,
+        "kids": kids,
+    }
+
+
+def _rule(x1: float, y1: float, x2: float, y2: float) -> str:
+    if abs(x1 - x2) < 0.5 and abs(y1 - y2) < 0.5:
+        return ""
+    return (
+        f'<polyline class="map-line" points="{x1:.1f},{y1:.1f} {x2:.1f},{y2:.1f}" '
+        f'fill="none" stroke="{LINE}" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter"/>'
+    )
+
+
+def _box(x: float, y: float, w: float, h: float, label: str) -> str:
+    text_y = y + h / 2
+    return (
+        f'<rect class="map-box" x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" '
+        f'fill="#ffffff" stroke="{INK}" stroke-width="3" stroke-linejoin="round"/>'
+        f'<text class="map-label" x="{x + w / 2:.1f}" y="{text_y:.1f}" text-anchor="middle" '
+        f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" '
+        f'font-size="{MAP_FONT}" fill="{INK}">{esc(label)}</text>'
+    )
+
+
+def draw_node(node: dict, ox: float, oy: float, lines: list[str], boxes: list[str]) -> None:
+    bx = ox + node["x"]
+    by = oy + node["y"]
+    boxes.append(_box(bx, by, node["w"], node["h"], node["label"]))
+    if not node["kids"]:
+        return
+    parent_cx = bx + node["w"] / 2
+    parent_bottom = by + node["h"]
+    rows: dict[float, list[tuple]] = {}
+    for child, x, y in node["kids"]:
+        rows.setdefault(y, []).append((child, x))
+    ordered = sorted(rows.items())
+    rail_x = ox + 8
+    previous_bus = None
+    for index, (y, row) in enumerate(ordered):
+        child_top = oy + y
+        bus_y = child_top - 14
+        centers = [ox + x + child["x"] + child["w"] / 2 for child, x in row]
+        if index == 0:
+            lines.append(_rule(parent_cx, parent_bottom, parent_cx, bus_y))
+            lines.append(_rule(min(centers + [parent_cx]), bus_y, max(centers + [parent_cx]), bus_y))
+            if len(ordered) > 1:
+                lines.append(_rule(rail_x, bus_y, min(centers + [parent_cx]), bus_y))
+                previous_bus = bus_y
+        else:
+            lines.append(_rule(rail_x, previous_bus, rail_x, bus_y))
+            lines.append(_rule(rail_x, bus_y, max(centers), bus_y))
+            previous_bus = bus_y
+        for center in centers:
+            lines.append(_rule(center, bus_y, center, child_top))
+        for child, x in row:
+            draw_node(child, ox + x, oy + y, lines, boxes)
+
+
+def stack_column(nodes: list[dict]) -> tuple[list[tuple], float, float]:
+    width = max(node["sub_w"] for node in nodes)
+    # 14px above the first box is where its elbow meets the Home crossbar.
+    y = 14.0
+    placed = []
+    for node in nodes:
+        x = (width - node["sub_w"]) / 2
+        placed.append((node, x, y))
+        y += node["sub_h"] + MAP_SECTION_GAP
+    return placed, width, y - MAP_SECTION_GAP
 
 
 def render_diagram(tree: tuple) -> str:
-    """Home spans both columns. Top-level sections split left and right."""
+    """Top-down org chart. Home over two even groups, elbows to every child."""
     label, children = tree
-    # Measured so the rendered columns stay within about 5% of each other.
-    left_names = {"Archive", "Candidates", "Research"}
-    left = [child for child in children if child[0] in left_names]
-    right = [child for child in children if child[0] not in left_names]
+    by_name = {child[0]: child for child in children}
+    left_nodes = [layout_node(by_name[name]) for name in LEFT_NAMES]
+    right_nodes = [layout_node(by_name[name]) for name in RIGHT_NAMES]
+    left, left_w, left_h = stack_column(left_nodes)
+    right, right_w, right_h = stack_column(right_nodes)
 
-    def column(nodes: list) -> str:
-        items = "".join(f"<li>{render_tree(node)}</li>" for node in nodes)
-        return f'<div class="map-col"><ul class="map-tree map-tree-root">{items}</ul></div>'
+    home_w = text_width(label, MAP_FONT) + MAP_PAD_X * 2
+    home_h = MAP_BOX_H
+    total_w = MAP_MARGIN + left_w + MAP_COL_GAP + right_w + MAP_MARGIN
+    col_top = MAP_TOP + home_h + MAP_HOME_DROP
+    total_h = col_top + max(left_h, right_h) + MAP_MARGIN
+    left_x = MAP_MARGIN
+    right_x = MAP_MARGIN + left_w + MAP_COL_GAP
+    # One spine in the gap between the two halves. Elbows run out to each section.
+    spine = left_x + left_w + MAP_COL_GAP / 2
+    home_x = spine - home_w / 2
+    home_bottom = MAP_TOP + home_h
 
-    return (
-        '<div class="map-diagram" role="img" aria-label="Site map diagram. Information only, not links.">'
-        f'<div class="map-home"><span class="site-box">{esc(label)}</span></div>'
-        f'<div class="map-columns">{column(left)}{column(right)}</div>'
-        "</div>"
+    lines = [_rule(spine, home_bottom, spine, col_top)]
+    boxes = [_box(home_x, MAP_TOP, home_w, home_h, label)]
+    elbows = []
+    for placed, origin_x in ((left, left_x), (right, right_x)):
+        for node, x, y in placed:
+            abs_y = col_top + y
+            root_cx = origin_x + x + node["x"] + node["w"] / 2
+            elbows.append((abs_y - 14, root_cx, node, origin_x + x, abs_y))
+    if elbows:
+        lines.append(_rule(spine, col_top, spine, max(item[0] for item in elbows)))
+    for elbow_y, root_cx, node, origin_x, abs_y in elbows:
+        lines.append(_rule(min(spine, root_cx), elbow_y, max(spine, root_cx), elbow_y))
+        lines.append(_rule(root_cx, elbow_y, root_cx, abs_y))
+        draw_node(node, origin_x, abs_y, lines, boxes)
+
+    body = (
+        f'<rect class="map-paper" width="{total_w:.1f}" height="{total_h:.1f}" fill="{PAPER}"/>'
+        + "".join(lines)
+        + "".join(boxes)
     )
+    svg = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {total_w:.1f} {total_h:.1f}" '
+        f'role="img" aria-labelledby="site-map-title site-map-desc">'
+        f'<title id="site-map-title">WyoVote site map</title>'
+        f'<desc id="site-map-desc">Home at the top. Pages sit in boxes on rows below their parent. '
+        f'The boxes are information only and are not links.</desc>'
+        f"{body}</svg>"
+    )
+    return f'<div class="map-diagram">{svg}</div>'
 
 
 def write_site_map_page() -> None:
@@ -405,7 +655,8 @@ def main() -> None:
     for path in pages:
         stamp(path)
     print(f"stamped {len(pages)} preview pages")
-    print(f"promoted {promote_live()} live pages")
+    if "--publish" in sys.argv:
+        print(f"promoted {promote_live()} live pages")
 
 
 if __name__ == "__main__":
