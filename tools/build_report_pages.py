@@ -576,33 +576,16 @@ def parse_report(path: Path, kind: str) -> dict:
             title, subtitle = f"{year} Alpha", "House and Senate, alphabetical by name"
         else:
             title, subtitle = f"{year} Ranked", "House and Senate, most to least conservative"
-        if one_page:
-            rows = parse_one_page(path)
-            rows.sort(key=lambda row: (row["name"] if alpha else int(row["rank"] if row["rank"].isdigit() else 999)))
-            headers = ["Overall rank", "Chamber rank", "Legislator", "District", "Votes", "Chamber"]
-            table_rows = [[row["rank"], row["chamber"], row["name"], row["district"], row["covers"], row["band"]] for row in rows]
-            return {
-                "title": title,
-                "subtitle": subtitle,
-                "summary": [],
-                "sections": [],
-                "summary_table": (headers, table_rows),
-                "notes": notes_of(text),
-                "kind": kind,
-                "name_column": 2,
-            }
-        sections = parse_full_ratings(path, alpha)
-        # Reuse the member renderer. Votes are stored in covers and renamed below.
-        return {
+        pack = ratings_pack(path, text, alpha, one_page)
+        pack.update({
             "title": title,
             "subtitle": subtitle,
             "summary": [],
-            "sections": sections,
             "summary_table": ([], []),
-            "notes": notes_of(text),
+            "notes": [],
             "kind": kind,
-            "votes_column": True,
-        }
+        })
+        return pack
     if is_summary_pdf(path) and kind == "committee":
         headers, rows = parse_committee_index(path)
         return {
@@ -658,7 +641,440 @@ def table(headers: list[str], rows: list[list[str]], page: Path, officials: dict
     )
 
 
+def _collapse(text: str) -> str:
+    return re.sub(r"\s+", " ", text).replace("–", "-").replace("—", "-").strip()
+
+
+def ratings_howto(text: str) -> list[str]:
+    first = _collapse(text.split("\f")[0])
+    match = re.search(r"How to read this report (.+?) Contents:", first)
+    if not match:
+        return []
+    body = match.group(1).strip()
+    body = re.split(r" House \(\d+\):", body)[0].strip()
+    parts = re.split(r"(?=The bands group )|(?=Minimum-vote rule:)", body)
+    return [part.strip() for part in parts if part.strip()]
+
+
+def ratings_legend(text: str) -> list[list[str]]:
+    first = _collapse(text.split("\f")[0])
+    rows = []
+    for band in ("Conservative", "Moderate", "Liberal"):
+        match = re.search(
+            rf"{band}\s+(\d+)\s+([0-9-]+)\s+(\d+)\s*·\s*([0-9-]+)\s+(\d+)\s*·\s*([0-9-]+)",
+            first,
+        )
+        if not match:
+            continue
+        count, overall, house_n, house_span, senate_n, senate_span = match.groups()
+        rows.append([
+            band,
+            count,
+            overall.replace("-", "–"),
+            f"{house_n} · {house_span.replace('-', '–')}",
+            f"{senate_n} · {senate_span.replace('-', '–')}",
+        ])
+    return rows
+
+
+def ratings_meta(text: str) -> str:
+    flat = _collapse(text.split("\f")[0])
+    match = re.search(
+        r"(v1\.0 · votes through \d{4}-\d{2}-\d{2} · \d+ legislators(?: \([^)]*\))?)",
+        flat,
+    )
+    return match.group(1) if match else ""
+
+
+def ratings_copyright(text: str) -> str:
+    match = re.search(r"©\s*\d{4}\s+MTR Research", text)
+    return match.group(0) if match else "© 2026 MTR Research"
+
+
+def ratings_nr_note(text: str) -> str:
+    flat = _collapse(text)
+    match = re.search(r"(NR = Not ranked: .+?) \d{3} \d{4} Legislator", flat)
+    return match.group(1) if match else ""
+
+
+def ratings_one_note(text: str) -> str:
+    flat = _collapse(text)
+    match = re.search(r"(Bands: .+?Votes through \d{4}-\d{2}-\d{2}\.)", flat)
+    return match.group(1) if match else ""
+
+
+def sibling_full(path: Path) -> Path | None:
+    name = path.name
+    if "Ranked_1p_105" in name:
+        other = path.with_name(name.replace("Ranked_1p_105", "Ranked_103"))
+    elif "Alpha_1p_106" in name:
+        other = path.with_name(name.replace("Alpha_1p_106", "Alpha_104"))
+    else:
+        return None
+    return other if other.is_file() else None
+
+
+def ratings_pack(path: Path, text: str, alpha: bool, one_page: bool) -> dict:
+    year = path.parent.name
+    if one_page:
+        rows = parse_one_page(path)
+        full = sibling_full(path)
+        by_district = {}
+        if full is not None:
+            for _title, members in parse_full_ratings(full, alpha):
+                for member in members:
+                    by_district[member["district"]] = member
+        for row in rows:
+            source = by_district.get(row["district"])
+            if source:
+                row["party"] = source["party"]
+                row["band"] = source["band"]
+                row["full_name"] = source["name"]
+            elif row["rank"] == "NR":
+                row["band"] = "Not ranked"
+                row["full_name"] = row["name"]
+            else:
+                row["full_name"] = row["name"]
+        house = [row for row in rows if row["district"].startswith("H")]
+        senate = [row for row in rows if row["district"].startswith("S")]
+
+        def sort_key(row: dict):
+            if alpha:
+                return row["name"].casefold()
+            return int(row["rank"]) if str(row["rank"]).isdigit() else 999
+
+        house.sort(key=sort_key)
+        senate.sort(key=sort_key)
+        sections = [("House", house), ("Senate", senate)]
+        sheet = "one"
+    else:
+        sections = parse_full_ratings(path, alpha)
+        sheet = "full"
+    code = "106" if one_page and alpha else "105" if one_page else "104" if alpha else "103"
+    label = "Alpha" if alpha else "Ranked"
+    return {
+        "sections": sections,
+        "sheet": sheet,
+        "alpha": alpha,
+        "year": year,
+        "howto": ratings_howto(text),
+        "legend": ratings_legend(text),
+        "meta": ratings_meta(text),
+        "code": code,
+        "copyright": ratings_copyright(text),
+        "nr_note": "" if one_page else ratings_nr_note(text),
+        "one_note": ratings_one_note(text) if one_page else "",
+        "doc_title": f"{year} Legislator Ratings {label}",
+        "doc_sub": (
+            f"House and Senate · {year} session · alphabetical by last name"
+            if alpha
+            else f"House and Senate · {year} session · most to least conservative"
+        ),
+    }
+
+
+def band_class(band: str) -> str:
+    return {
+        "Conservative": "is-conservative",
+        "Moderate": "is-moderate",
+        "Liberal": "is-liberal",
+        "Not ranked": "is-unranked",
+    }.get(band, "")
+
+
+def party_class(party: str) -> str:
+    name = party.casefold()
+    if name.startswith("rep"):
+        return "is-republican"
+    if name.startswith("dem"):
+        return "is-democrat"
+    if name.startswith("ind"):
+        return "is-independent"
+    if name.startswith("lib"):
+        return "is-libertarian"
+    return ""
+
+
+def section_blurb(title: str, rows: list[dict], alpha: bool) -> tuple[str, str]:
+    ranked = [row for row in rows if row.get("band") in {"Conservative", "Moderate", "Liberal"}]
+    counts = {band: sum(1 for row in ranked if row.get("band") == band) for band in ("Conservative", "Moderate", "Liberal")}
+    order = "alphabetical by last name" if alpha else "most to least conservative"
+    unranked = len(rows) - len(ranked)
+    if unranked:
+        heading = f"{title} · {len(rows)} legislators ({len(ranked)} ranked, {unranked} not ranked)"
+    else:
+        heading = f"{title} · {len(rows)} legislators"
+    detail = (
+        f"{title} members, {order}. Band counts here: "
+        f"Conservative {counts['Conservative']}, Moderate {counts['Moderate']}, Liberal {counts['Liberal']}."
+    )
+    return heading, detail
+
+
+def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> None:
+    year = parsed["year"]
+    depth = len(dest.relative_to(PREVIEW).parts) - 1
+    root = "../" * depth
+    current = ' aria-current="page"'
+    nav = NAV.format(
+        root=root,
+        home="",
+        archive=current,
+        committees="",
+        counties="",
+    )
+    if year == CURRENT_YEAR:
+        # The ratings stair is under Ratings, not Archive. The back control still
+        # returns to the reports list, which is where these sheets are linked.
+        back_href = f"{root}archive/reports.html"
+    else:
+        back_href = f"{root}archive/reports.html"
+    pdf_href = Path(os.path.relpath(pdf, dest.parent)).as_posix()
+    seal = f"{root}assets/img/mtr-seal.png"
+    word = f"{root}assets/img/mtr-wordmark.png"
+    logo = f"{root}assets/img/surveyor-icon.png"
+
+    def person(name: str, full: str | None = None) -> str:
+        linked = linked_name(full or name, officials, dest)
+        if "</a>" not in linked:
+            return esc(name)
+        if full and full != name:
+            linked = re.sub(r">([^<]*)</a>", ">" + esc(name) + "</a>", linked, count=1)
+        return linked.replace("<a ", '<a class="wv-person" ', 1)
+
+    if parsed["sheet"] == "full":
+        legend_rows = []
+        house_total = 0
+        senate_total = 0
+        all_total = 0
+        for band, count, overall, house_span, senate_span in parsed["legend"]:
+            legend_rows.append(
+                f'<tr class="{band_class(band)}"><th scope="row">{esc(band)}</th>'
+                f"<td>{esc(count)}</td><td>{esc(overall)}</td><td>{esc(house_span)}</td><td>{esc(senate_span)}</td></tr>"
+            )
+            all_total += int(count)
+            house_total += int(house_span.split("·", 1)[0].strip() or 0)
+            senate_total += int(senate_span.split("·", 1)[0].strip() or 0)
+
+        def emphasize(part: str) -> str:
+            shown = esc(part)
+            shown = shown.replace("overall rank", "<strong>overall rank</strong>")
+            shown = shown.replace("chamber rank", "<strong>chamber rank</strong>")
+            shown = shown.replace("Minimum-vote rule:", "<strong>Minimum-vote rule:</strong>")
+            return shown
+
+        howto = "".join(f"<p>{emphasize(part)}</p>" for part in parsed["howto"])
+        parts = [
+            '<header class="wv-cover">',
+            f'<img class="wv-seal" src="{seal}" alt="MTR Research, Wyoming">',
+            f'<h2 class="wv-title">{esc(parsed["doc_title"]).replace(" Ratings ", " Ratings<br>")}</h2>',
+            f'<p class="wv-sub">{esc(parsed["doc_sub"])}</p>',
+            f'<p class="wv-meta">{esc(parsed["meta"])}</p>',
+            '<h3>How to read this report</h3>',
+            howto,
+            '<table class="wv-legend"><thead><tr>'
+            '<th scope="col">Band</th>'
+            f'<th scope="col">All {all_total}</th>'
+            '<th scope="col">Overall ranks</th>'
+            f'<th scope="col">House ({house_total}): number · ranks</th>'
+            f'<th scope="col">Senate ({senate_total}): number · ranks</th>'
+            "</tr></thead><tbody>",
+            "".join(legend_rows),
+            "</tbody></table>",
+            "<p class=\"wv-contents\">Contents: House section, then Senate section.</p>",
+            "</header>",
+        ]
+        for title, rows in parsed["sections"]:
+            heading, detail = section_blurb(title, rows, parsed["alpha"])
+            body = []
+            for row in rows:
+                band = row.get("band") or ""
+                if parsed["alpha"]:
+                    cells = [
+                        f'<td class="wv-name">{person(row["name"])}</td>',
+                        f'<td>{esc(row["district"])}</td>',
+                        f'<td>{esc(row["party"])}</td>',
+                        f'<td class="wv-band {band_class(band)}">{esc(band)}</td>',
+                        f'<td>{esc(row["rank"])}</td>',
+                        f'<td>{esc(row["chamber"])}</td>',
+                        f'<td>{esc(row["covers"])}</td>',
+                    ]
+                else:
+                    cells = [
+                        f'<td>{esc(row["chamber"])}</td>',
+                        f'<td>{esc(row["rank"])}</td>',
+                        f'<td class="wv-name">{person(row["name"])}</td>',
+                        f'<td>{esc(row["district"])}</td>',
+                        f'<td>{esc(row["party"])}</td>',
+                        f'<td class="wv-band {band_class(band)}">{esc(band)}</td>',
+                        f'<td>{esc(row["covers"])}</td>',
+                    ]
+                body.append("<tr>" + "".join(cells) + "</tr>")
+            if parsed["alpha"]:
+                chamber_head = "Senate<br>rank" if title == "Senate" else "House<br>rank"
+                head = (
+                    "<th>Legislator</th><th>District</th><th>Party</th><th>Band</th>"
+                    f"<th>Overall<br>rank</th><th>{chamber_head}</th><th>Votes</th>"
+                )
+            else:
+                chamber_head = "Senate<br>rank" if title == "Senate" else "House<br>rank"
+                head = (
+                    f"<th>{chamber_head}</th><th>Overall<br>rank</th><th>Legislator</th>"
+                    "<th>District</th><th>Party</th><th>Band</th><th>Votes</th>"
+                )
+            note = parsed.get("nr_note") or ""
+            footnote = ""
+            if note and any(row["district"] and row["district"] in note for row in rows):
+                footnote = f'<p class="wv-note">{esc(note)}</p>'
+            parts.append(
+                '<section class="wv-part">'
+                f'<div class="wv-brand"><img class="wv-word" src="{word}" alt="MTR Research"></div>'
+                f"<h3>{esc(heading)}</h3><p>{esc(detail)}</p>"
+                f'<table class="wv-rate"><thead><tr>{head}</tr></thead><tbody>'
+                + "".join(body)
+                + "</tbody></table>"
+                + footnote
+                + "</section>"
+            )
+        parts.append(
+            f'<footer class="wv-foot"><img src="{seal}" alt="">'
+            f"<p>{esc(parsed['code'])} {esc(parsed['doc_title'])} v1.0</p>"
+            f"<p>{esc(parsed['copyright'])}</p></footer>"
+        )
+    else:
+        def column(rows: list[dict], chamber_word: str) -> str:
+            lines = []
+            for row in rows:
+                band = row.get("band") or ""
+                party = party_class(row.get("party") or "")
+                lines.append(
+                    '<div class="op-row">'
+                    f'<span class="op-box {band_class(band)}">{esc(row["rank"])}</span>'
+                    f'<span class="op-box {band_class(band)}">{esc(row["chamber"])}</span>'
+                    f'<span class="op-votes">{esc(row["covers"])}</span>'
+                    f'<span class="op-dist {party}">{esc(row["district"])}</span>'
+                    f'<span class="op-name">{person(row["name"], row.get("full_name"))}</span>'
+                    "</div>"
+                )
+            chamber_word = "Senate" if rows and rows[0]["district"].startswith("S") else "House"
+            return (
+                '<section class="op-col">'
+                f'<p class="op-head"><span>of {ranked_of}</span><span>{esc(chamber_word)}</span>'
+                "<span>#Votes</span><span>Dist</span><span>Legislator</span></p>"
+                + "".join(lines)
+                + "</section>"
+            )
+        house = parsed["sections"][0][1] if parsed["sections"] else []
+        senate = parsed["sections"][1][1] if len(parsed["sections"]) > 1 else []
+        split = (len(house) + 1) // 2
+        ranked_of = sum(1 for row in house + senate if str(row["rank"]).isdigit())
+        sort_note = "Alphabetical by last name" if parsed["alpha"] else "Sorted Most to Least Conservative"
+        note = parsed.get("one_note") or ""
+        if " NR =" in note:
+            first, rest = note.split(" NR =", 1)
+            note_html = f"<p>{esc(first)}</p><p>NR ={esc(rest)}</p>"
+        elif note:
+            note_html = f"<p>{esc(note)}</p>"
+        else:
+            note_html = ""
+        parts = [
+            '<header class="op-banner">',
+            f'<h2>{esc("Legislators, by Name" if parsed["alpha"] else "Legislators, by Rank")}</h2>',
+            f'<p>{esc(sort_note)}</p>',
+            f'<p class="op-session">Session: <strong>{esc(year[-2:])}</strong></p>',
+            "</header>",
+            '<div class="op-grid">',
+            f'<h3 class="op-span">Representatives: <span>{len(house)}</span></h3>',
+            f'<h3>Senators: <span>{len(senate)}</span></h3>',
+            column(house[:split], "Representatives"),
+            column(house[split:], "Representatives"),
+            column(senate, "Senators"),
+            "</div>",
+            '<footer class="op-legend">',
+            f'<img src="{logo}" alt="WyoVote" width="48" height="54">',
+            "<div><p><strong>Parties:</strong> "
+            '<span class="op-dist is-republican">Republican</span> '
+            '<span class="op-dist is-democrat">Democrat</span> '
+            '<span class="op-dist is-independent">Independent</span> '
+            '<span class="op-dist is-libertarian">Libertarian</span></p>'
+            "<p><strong>Seq Rank:</strong> "
+            '<span class="op-box is-conservative">Conservative</span> '
+            '<span class="op-box is-moderate">Moderate</span> '
+            '<span class="op-box is-liberal">Liberal</span> '
+            '<span class="op-box is-unranked">Not ranked</span></p>'
+            f"{note_html}</div>",
+            f"<p class=\"op-code\">{esc(parsed['code'])}<br>v1.0</p>",
+            "</footer>",
+        ]
+    doc = f"""<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{esc(parsed["title"])} — WyoVote</title>
+    <meta name="description" content="{esc(parsed["doc_sub"])}">
+    <link rel="icon" href="{root}assets/img/surveyor-icon.png" type="image/png">
+    <link rel="stylesheet" href="{root}../css/styles.css">
+    <link rel="stylesheet" href="{root}preview.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="{root}index.html">
+          <img src="{root}assets/img/surveyor-icon.png" alt="" width="135" height="152">
+          <span class="site-name">WyoVote</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+{nav}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div class="wrap back-wrap">
+        <p class="back-row"><a class="back-btn" href="{root}archive/reports.html">← Back to Reports</a></p>
+      </div>
+      <section class="page-hero">
+        <div class="wrap">
+          <h1>{esc(parsed["title"])}</h1>
+        </div>
+      </section>
+      <section class="page-body">
+        <div class="wrap report-sheet wv-sheet">
+          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(pdf_href)}" target="_blank" rel="noopener">Print (PDF)</a></p>
+          {"".join(parts)}
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="{root}about.html">About</a></li>
+            <li><a href="{root}privacy.html">Privacy</a></li>
+            <li><a href="{root}contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2026 WyoVote. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+"""
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(doc, encoding="utf-8")
+    if dest.stat().st_size > 500 * 1024:
+        raise SystemExit(f"{dest} is over 500 KB")
+
+
 def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> None:
+    if parsed.get("kind") == "ratings":
+        render_ratings(pdf, parsed, dest, officials)
+        return
     year, _slug = slug_for(pdf, parsed["kind"])
     depth = len(dest.relative_to(PREVIEW).parts) - 1
     root = "../" * depth

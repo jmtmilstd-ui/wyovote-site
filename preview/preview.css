@@ -2325,3 +2325,291 @@ html.cand-general .page-trail .cand-view-general {
   color: #142117;
   font-size: 14pt;
 }
+
+.wv-sheet {
+  max-width: 46rem;
+  margin-inline: auto;
+  padding: 1rem 1.1rem 1.4rem;
+  background: #ffffff;
+  color: #142117;
+  font-family: "Liberation Sans", Arial, sans-serif;
+}
+
+.wv-cover,
+.wv-part {
+  margin: 0 0 2rem;
+}
+
+.wv-seal {
+  display: block;
+  width: 7.5rem;
+  height: auto;
+  margin: 0 auto 0.8rem;
+}
+
+.wv-sheet h2.wv-title {
+  margin: 0;
+  color: #1f3a68;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 26pt;
+  font-weight: 700;
+  line-height: 1.05;
+  text-align: center;
+}
+
+.wv-sub,
+.wv-meta,
+.wv-contents {
+  margin: 0.35rem 0;
+  color: #142117;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.wv-sheet h3 {
+  margin: 0.45rem 0 0.2rem;
+  color: #14501a;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 16pt;
+  line-height: 1.15;
+}
+
+.wv-part > p {
+  margin: 0 0 0.4rem;
+}
+
+.wv-sheet .wv-cover p,
+.wv-part > p {
+  color: #142117;
+  font-size: 14pt;
+}
+
+.wv-legend,
+.wv-rate {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6rem 0 0.4rem;
+  font-size: 12pt;
+}
+
+.wv-legend th,
+.wv-legend td,
+.wv-rate th,
+.wv-rate td {
+  border: 1px solid #142117;
+  padding: 0.16rem 0.35rem;
+  color: #142117;
+  font-size: 12pt;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.wv-legend thead th,
+.wv-rate thead th {
+  background: #d8e9d8;
+  font-weight: 700;
+}
+
+.wv-rate td.wv-name {
+  text-align: left;
+  font-weight: 700;
+}
+
+.wv-rate a.wv-person,
+.op-name a.wv-person {
+  color: #142117;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.wv-rate a.wv-person:hover,
+.op-name a.wv-person:hover {
+  text-decoration: underline;
+}
+
+.wv-band.is-conservative,
+.wv-legend tr.is-conservative th,
+.op-box.is-conservative {
+  background: #c8f5c8;
+}
+
+.wv-band.is-liberal,
+.wv-legend tr.is-liberal th,
+.op-box.is-liberal {
+  background: #c9d6f0;
+}
+
+.wv-band.is-moderate,
+.op-box.is-moderate {
+  background: #ffffff;
+}
+
+.wv-band.is-unranked,
+.op-box.is-unranked {
+  background: #fff2a8;
+}
+
+.wv-brand {
+  border-bottom: 3px solid #14501a;
+  margin: 0 0 0.35rem;
+  padding-bottom: 0.2rem;
+}
+
+.wv-word {
+  display: block;
+  width: min(100%, 18rem);
+  height: auto;
+  margin: 0;
+}
+
+.wv-note {
+  margin: 0.45rem 0 0;
+  color: #142117;
+  font-size: 12pt;
+}
+
+.wv-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid #142117;
+  color: #142117;
+  font-size: 12pt;
+}
+
+.wv-foot img {
+  width: 2.2rem;
+  height: auto;
+}
+
+.wv-foot p {
+  margin: 0;
+  color: #142117;
+  font-size: 12pt;
+}
+
+.wv-sheet:has(.op-grid) {
+  max-width: 70rem;
+}
+
+.op-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.op-banner h2,
+.op-banner p {
+  margin: 0;
+  color: #142117;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 14pt;
+  white-space: nowrap;
+}
+
+.op-banner .op-session {
+  font-size: 18pt;
+}
+
+.op-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.35rem 0.6rem;
+}
+
+.op-span {
+  grid-column: span 2;
+}
+
+.op-col h3 {
+  margin: 0;
+  padding: 0.15rem 0.3rem;
+  background: #c5ffc5;
+  color: #142117;
+  font-size: 13pt;
+}
+
+.op-grid > h3 span,
+.op-col h3 span {
+  display: inline-block;
+  min-width: 1.6rem;
+  margin-left: 0.3rem;
+  padding: 0 0.2rem;
+  background: #adc0d9;
+  color: #142117;
+  text-align: center;
+}
+
+.op-head,
+.op-row {
+  display: grid;
+  grid-template-columns: 2.15rem 2.15rem 2.7rem 2.7rem minmax(0, 1fr);
+  gap: 0.18rem;
+  align-items: center;
+  margin: 0.1rem 0;
+  font-size: 12pt;
+}
+
+.op-head {
+  color: #142117;
+  font-size: 8pt;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.op-box,
+.op-dist {
+  display: inline-block;
+  min-width: 1.5rem;
+  padding: 0.05rem 0.15rem;
+  border: 1px solid #142117;
+  color: #142117;
+  font-size: 12pt;
+  font-weight: 700;
+  text-align: center;
+}
+
+.op-votes {
+  color: #606060;
+  font-size: 12pt;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.op-dist.is-republican { background: #dfa7a5; }
+.op-dist.is-democrat { background: #a4d5e2; }
+.op-dist.is-independent { background: #a6a6a6; }
+.op-dist.is-libertarian { background: #a7da4e; }
+.op-box.is-conservative { background: #c5ffc5; }
+.op-box.is-liberal { background: #adc0d9; }
+
+.op-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+  color: #142117;
+  font-size: 12pt;
+}
+
+.op-legend p {
+  margin: 0.1rem 0;
+  color: #142117;
+  font-size: 12pt;
+}
+
+.op-code {
+  margin-left: auto;
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .op-grid {
+    grid-template-columns: 1fr;
+  }
+}
