@@ -1831,3 +1831,346 @@ body.cand-page {
     display: none !important;
   }
 }
+
+/* PROMOTE_START */
+.cand-election {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0 0 0.85rem;
+}
+
+.cand-page .page-body a.cand-election-btn,
+.cand-page .page-body a.cand-election-btn:hover,
+.cand-page .page-body a.cand-election-btn:focus,
+.cand-page .page-body a.cand-election-btn:focus-visible {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  border: 2px solid #1f5d34;
+  border-radius: 0.32rem;
+  background: #ffffff;
+  color: #0e2a18;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+}
+
+html:not(.cand-general) .cand-page .page-body a.cand-election-btn[data-election="primary"],
+html.cand-general .cand-page .page-body a.cand-election-btn[data-election="general"] {
+  outline: 3px solid #a07808;
+  outline-offset: 3px;
+}
+
+.cand-view-general {
+  display: none;
+}
+
+html.cand-general .cand-view-primary {
+  display: none;
+}
+
+html.cand-general .cand-view-general {
+  display: revert;
+}
+
+.cand-unofficial {
+  margin: 0 0 0.75rem;
+  color: #8a1c1c;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.cand-unofficial[hidden] {
+  display: none !important;
+}
+
+.cand-win {
+  color: #142117;
+  font-weight: 700;
+}
+
+.site-nav a.site-map-link {
+  margin-left: 0.35rem;
+  border: 2px solid #0e2a18;
+  border-radius: 0.35rem;
+  background: #ffffff;
+  color: #0e2a18;
+}
+
+.site-nav a.site-map-link:hover,
+.site-nav a.site-map-link:focus-visible {
+  background: #e7f5eb;
+  color: #0e2a18;
+}
+
+.site-nav a.site-map-link[aria-current="page"] {
+  background: #1f5d34;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.page-hero .wrap:has(.page-trail) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.page-hero .wrap:has(.page-trail) h1 {
+  margin: 0;
+}
+
+.page-trail {
+  flex: 0 0 auto;
+  width: max-content;
+  max-width: 100%;
+  margin: 0 0 0 auto;
+}
+
+.page-trail ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-trail li {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  max-width: 100%;
+}
+
+.site-box {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.08rem 0.35rem;
+  border: 2px solid #142117;
+  background: #ffffff;
+  color: #142117;
+  font-size: 8pt;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.page-trail .site-box {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  padding: 0.08rem 0.4rem;
+}
+
+.page-trail .site-box.is-current {
+  background: #b8860b;
+  border-color: #5c4306;
+  color: #142117;
+}
+
+.page-trail .trail-join {
+  width: 2px;
+  height: 0.28rem;
+  margin: 0;
+  background: #146b31;
+}
+
+.map-diagram {
+  --stem: 1.15rem;
+  --join: 1.25rem;
+  --col-gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+}
+
+.map-home {
+  position: relative;
+  margin-bottom: var(--join);
+}
+
+.map-home::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 2px;
+  height: calc(var(--join) + 1px);
+  margin-left: -1px;
+  background: #146b31;
+}
+
+.map-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: var(--col-gap);
+  row-gap: var(--join);
+  width: 100%;
+  align-items: start;
+  position: relative;
+  padding-top: var(--join);
+}
+
+.map-columns::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: var(--stem);
+  width: calc(50% + (var(--col-gap) / 2));
+  height: 2px;
+  background: #146b31;
+}
+
+.map-col {
+  position: relative;
+  min-width: 0;
+}
+
+.map-col::before {
+  content: "";
+  position: absolute;
+  top: calc(-1 * var(--join));
+  left: var(--stem);
+  width: 2px;
+  height: calc(var(--join) + 0.55rem);
+  background: #146b31;
+}
+
+.map-tree,
+.map-tree ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.map-tree ul {
+  margin-left: 1.15rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid #146b31;
+}
+
+.map-tree li {
+  position: relative;
+  margin: 0.4rem 0;
+}
+
+.map-tree ul > li::before {
+  content: "";
+  position: absolute;
+  left: -0.9rem;
+  top: 0.65rem;
+  width: 0.9rem;
+  border-top: 2px solid #146b31;
+}
+
+.map-tree.map-tree-root > li::before {
+  content: none;
+}
+
+.map-diagram .map-tree-root > li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.map-diagram .site-box {
+  display: block;
+  width: max-content;
+  min-width: 7.5rem;
+  padding: 0.35rem 0.6rem;
+  font-size: 12pt;
+  line-height: 1.25;
+}
+
+@media (max-width: 700px) {
+  .page-hero .wrap:has(.page-trail) {
+    flex-direction: column;
+  }
+
+  .page-trail {
+    margin-left: 0;
+  }
+
+  .map-diagram {
+    align-items: stretch;
+  }
+
+  .map-home {
+    align-self: flex-start;
+  }
+
+  .map-home::after {
+    left: var(--stem);
+    margin-left: 0;
+  }
+
+  .map-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .map-columns::before {
+    left: var(--stem);
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #146b31;
+  }
+}
+
+@media print {
+  .site-box,
+  .page-trail .site-box,
+  .map-diagram .site-box {
+    border: 2px solid #000000;
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .page-trail .site-box.is-current {
+    background: #b8860b;
+    border-color: #000000;
+    color: #142117;
+    print-color-adjust: exact;
+  }
+
+  .trail-join {
+    background: #000000;
+  }
+
+  .map-tree ul {
+    border-left-color: #000000;
+  }
+
+  .map-tree ul > li::before {
+    border-top-color: #000000;
+  }
+
+  .map-home::after,
+  .map-col::before,
+  .map-columns::before {
+    background: #000000;
+  }
+
+  .cand-unofficial {
+    color: #8a1c1c;
+    print-color-adjust: exact;
+  }
+
+  .cand-election-btn {
+    border: 2px solid #000000;
+    color: #000000;
+    background: #ffffff;
+  }
+}
+/* PROMOTE_END */

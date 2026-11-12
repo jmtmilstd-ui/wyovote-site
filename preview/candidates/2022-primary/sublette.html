@@ -9,6 +9,13 @@
     <link rel="icon" href="../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../css/styles.css">
     <link rel="stylesheet" href="../../preview.css">
+  
+    <script>
+      document.documentElement.classList.toggle("cand-general", new URLSearchParams(location.search).get("e") === "general");
+      if (document.documentElement.classList.contains("cand-general") && document.title.indexOf("Primary") !== -1) {
+        document.title = document.title.replace("Primary", "General");
+      }
+    </script>
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -22,18 +29,38 @@
         <nav class="site-nav" aria-label="Site">
           <ul>
             <li><a href="../../index.html">Home</a></li><li><a href="../../archive.html">Archive</a></li><li><a href="../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../archive/committees.html">Committees</a></li><li><a href="../../archive/counties.html">Counties</a></li><li><a href="../../officials.html">Officials</a></li><li><a href="../../research.html">Research</a></li>
+            <li><a class="site-map-link" href="../../site-map.html">Site Map</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main id="main">
       <div class="wrap back-wrap">
-        <p class="back-row"><a class="back-btn" href="index.html">← Back to 2022 Primary</a></p>
+        <p class="back-row"><a class="back-btn cand-view-primary" href="index.html">← Back to 2022 Primary</a><a class="back-btn cand-view-general" href="index.html?e=general">← Back to 2022 General</a></p>
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Sublette County</h1>
-      </div></section>
+        
+<!-- page-trail -->
+<div class="page-trail" aria-label="Where this page sits">
+  <ol>
+    <li><span class="site-box">Home</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">Candidates</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box"><span class="cand-view-primary">2022 Primary</span><span class="cand-view-general">2022 General</span></span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box is-current">Sublette</span></li>
+  </ol>
+</div>
+<!-- /page-trail -->
+        </div></section>
       <section class="page-body"><div class="wrap">
+          <div class="cand-election" role="group" aria-label="Election">
+            <a class="cand-election-btn" data-election="primary" href="sublette.html">Primary</a>
+            <a class="cand-election-btn" data-election="general" href="sublette.html?e=general">General</a>
+          </div>
+          <div class="cand-view cand-view-primary">
           <p>August 16, 2022 primary.</p>
           <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. Districts that cross county lines appear on every county they cover.</p>
           <section class="cand-group">
@@ -116,6 +143,77 @@
           </section>
           </div>
         </section>
+          </div>
+          <!-- general-view -->
+          <div class="cand-view cand-view-general">
+          <p class="cand-unofficial" hidden>Unofficial, awaiting canvass</p>
+          <p>November 8, 2022 general.</p>
+          <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. A check mark shows the winner. Districts that cross county lines appear on every county they cover.</p>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Federal</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>U.S. House</h3>
+            <ul class="cand-names">
+              <li><a href="c/harriet-hageman.html?from=sublette&amp;e=general">Harriet Hageman</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/lynnette-greybull.html?from=sublette&amp;e=general">Lynnette GreyBull</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/richard-brubaker.html?from=sublette&amp;e=general">Richard Brubaker</a> <span class="cand-abbr">(L)</span></li>
+              <li><a href="c/marissa-joy-selvig.html?from=sublette&amp;e=general">Marissa Joy Selvig</a> <span class="cand-abbr">(C)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Statewide</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>Governor</h3>
+            <ul class="cand-names">
+              <li><a href="c/mark-gordon.html?from=sublette&amp;e=general">Mark Gordon</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/theresa-a-livingston.html?from=sublette&amp;e=general">Theresa A. Livingston</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/jared-j-baldes.html?from=sublette&amp;e=general">Jared J. Baldes</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Secretary of State</h3>
+            <ul class="cand-names">
+              <li><a href="c/chuck-gray.html?from=sublette&amp;e=general">Chuck Gray</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Auditor</h3>
+            <ul class="cand-names">
+              <li><a href="c/kristi-racines.html?from=sublette&amp;e=general">Kristi Racines</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Treasurer</h3>
+            <ul class="cand-names">
+              <li><a href="c/curt-meier.html?from=sublette&amp;e=general">Curt Meier</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Superintendent</h3>
+            <ul class="cand-names">
+              <li><a href="c/megan-degenfelder.html?from=sublette&amp;e=general">Megan Degenfelder</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/sergio-a-maldonado-sr.html?from=sublette&amp;e=general">Sergio A. Maldonado, Sr.</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State House</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State House HD20</h3>
+            <ul class="cand-names">
+              <li><a href="c/albert-sommers.html?from=sublette&amp;e=general">Albert Sommers</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          </div>
+          <!-- /general-view -->
       </div></section>
     </main>
     <footer class="site-footer">
@@ -130,6 +228,17 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
-    
+  
+    <script>
+      (function () {
+        var general = document.documentElement.classList.contains("cand-general");
+        var nodes = document.querySelectorAll(".cand-election-btn");
+        for (var i = 0; i < nodes.length; i++) {
+          var on = nodes[i].getAttribute("data-election") === (general ? "general" : "primary");
+          if (on) nodes[i].setAttribute("aria-current", "true");
+          else nodes[i].removeAttribute("aria-current");
+        }
+      })();
+    </script>
   </body>
 </html>

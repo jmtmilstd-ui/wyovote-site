@@ -9,6 +9,13 @@
     <link rel="icon" href="../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../css/styles.css">
     <link rel="stylesheet" href="../../preview.css">
+  
+    <script>
+      document.documentElement.classList.toggle("cand-general", new URLSearchParams(location.search).get("e") === "general");
+      if (document.documentElement.classList.contains("cand-general") && document.title.indexOf("Primary") !== -1) {
+        document.title = document.title.replace("Primary", "General");
+      }
+    </script>
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -28,21 +35,39 @@
             <li><a href="../../archive/counties.html">Counties</a></li>
             <li><a href="../../officials.html">Officials</a></li>
             <li><a href="../../research.html">Research</a></li>
+            <li><a class="site-map-link" href="../../site-map.html">Site Map</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main id="main">
       <div class="wrap back-wrap">
-        <p class="back-row"><a class="back-btn" href="../../candidates.html">← Back to Candidates</a></p>
+        <p class="back-row"><a class="back-btn cand-view-primary" href="../../candidates.html">← Back to Candidates</a><a class="back-btn cand-view-general" href="../../candidates.html?e=general">← Back to Candidates</a></p>
       </div>
       <section class="page-hero">
         <div class="wrap">
           <h1>Platte County</h1>
+        
+<!-- page-trail -->
+<div class="page-trail" aria-label="Where this page sits">
+  <ol>
+    <li><span class="site-box">Home</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">Candidates</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box is-current">Platte</span></li>
+  </ol>
+</div>
+<!-- /page-trail -->
         </div>
       </section>
       <section class="page-body">
         <div class="wrap">
+          <div class="cand-election" role="group" aria-label="Election">
+            <a class="cand-election-btn" data-election="primary" href="platte.html">Primary</a>
+            <a class="cand-election-btn" data-election="general" href="platte.html?e=general">General</a>
+          </div>
+          <div class="cand-view cand-view-primary">
           <p>2026 Primary, August 18, 2026.</p>
           <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. Districts that cross county lines appear on every county they cover.</p>
           <!-- Punch list reserved. Not shown. -->
@@ -157,6 +182,97 @@
           </section>
           </div>
         </section>
+          </div>
+          <!-- general-view -->
+          <div class="cand-view cand-view-general">
+          <p class="cand-unofficial" hidden>Unofficial, awaiting canvass</p>
+          <p>November 3, 2026 general.</p>
+          <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. A check mark shows the winner. Districts that cross county lines appear on every county they cover.</p>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Federal</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>U.S. Senate</h3>
+            <ul class="cand-names">
+              <li><a href="c/harriet-hageman.html?from=platte&amp;e=general">Harriet Hageman</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/james-byrd.html?from=platte&amp;e=general">James Byrd</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>U.S. House</h3>
+            <ul class="cand-names">
+              <li><a href="c/chuck-gray.html?from=platte&amp;e=general">Chuck Gray</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/lisa-kinney.html?from=platte&amp;e=general">Lisa Kinney</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/shawn-johnson.html?from=platte&amp;e=general">Shawn Johnson</a> <span class="cand-abbr">(L)</span></li>
+              <li><a href="c/jeffrey-haggit.html?from=platte&amp;e=general">Jeffrey Haggit</a> <span class="cand-abbr">(C)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Statewide</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>Governor</h3>
+            <ul class="cand-names">
+              <li><a href="c/eric-barlow.html?from=platte&amp;e=general">Eric Barlow</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/rebecca-bextel.html?from=platte&amp;e=general">Rebecca Bextel</a> <span class="cand-abbr">(C)</span></li>
+              <li><a href="c/kenneth-r-casner.html?from=platte&amp;e=general">Kenneth R. Casner</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Secretary of State</h3>
+            <ul class="cand-names">
+              <li><a href="c/robert-short.html?from=platte&amp;e=general">Robert Short</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/bryan-mccarty.html?from=platte&amp;e=general">Bryan McCarty</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/tamara-trujillo.html?from=platte&amp;e=general">Tamara Trujillo</a> <span class="cand-abbr">(C)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Auditor</h3>
+            <ul class="cand-names">
+              <li><a href="c/kristi-racines.html?from=platte&amp;e=general">Kristi Racines</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Treasurer</h3>
+            <ul class="cand-names">
+              <li><a href="c/curt-meier.html?from=platte&amp;e=general">Curt Meier</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Superintendent</h3>
+            <ul class="cand-names">
+              <li><a href="c/steve-harshman.html?from=platte&amp;e=general">Steve Harshman</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/ana-cordova.html?from=platte&amp;e=general">Ana Cordova</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State Senate</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State Senate SD06</h3>
+            <ul class="cand-names">
+              <li><a href="c/taft-love.html?from=platte&amp;e=general">Taft Love</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State House</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State House HD04</h3>
+            <ul class="cand-names">
+              <li><a href="c/jeremy-haroldson.html?from=platte&amp;e=general">Jeremy Haroldson</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          </div>
+          <!-- /general-view -->
         </div>
       </section>
     </main>
@@ -173,5 +289,17 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
+  
+    <script>
+      (function () {
+        var general = document.documentElement.classList.contains("cand-general");
+        var nodes = document.querySelectorAll(".cand-election-btn");
+        for (var i = 0; i < nodes.length; i++) {
+          var on = nodes[i].getAttribute("data-election") === (general ? "general" : "primary");
+          if (on) nodes[i].setAttribute("aria-current", "true");
+          else nodes[i].removeAttribute("aria-current");
+        }
+      })();
+    </script>
   </body>
 </html>

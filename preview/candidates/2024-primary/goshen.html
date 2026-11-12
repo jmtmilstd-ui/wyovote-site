@@ -9,6 +9,13 @@
     <link rel="icon" href="../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../css/styles.css">
     <link rel="stylesheet" href="../../preview.css">
+  
+    <script>
+      document.documentElement.classList.toggle("cand-general", new URLSearchParams(location.search).get("e") === "general");
+      if (document.documentElement.classList.contains("cand-general") && document.title.indexOf("Primary") !== -1) {
+        document.title = document.title.replace("Primary", "General");
+      }
+    </script>
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -22,18 +29,38 @@
         <nav class="site-nav" aria-label="Site">
           <ul>
             <li><a href="../../index.html">Home</a></li><li><a href="../../archive.html">Archive</a></li><li><a href="../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../archive/committees.html">Committees</a></li><li><a href="../../archive/counties.html">Counties</a></li><li><a href="../../officials.html">Officials</a></li><li><a href="../../research.html">Research</a></li>
+            <li><a class="site-map-link" href="../../site-map.html">Site Map</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main id="main">
       <div class="wrap back-wrap">
-        <p class="back-row"><a class="back-btn" href="index.html">← Back to 2024 Primary</a></p>
+        <p class="back-row"><a class="back-btn cand-view-primary" href="index.html">← Back to 2024 Primary</a><a class="back-btn cand-view-general" href="index.html?e=general">← Back to 2024 General</a></p>
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Goshen County</h1>
-      </div></section>
+        
+<!-- page-trail -->
+<div class="page-trail" aria-label="Where this page sits">
+  <ol>
+    <li><span class="site-box">Home</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">Candidates</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box"><span class="cand-view-primary">2024 Primary</span><span class="cand-view-general">2024 General</span></span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box is-current">Goshen</span></li>
+  </ol>
+</div>
+<!-- /page-trail -->
+        </div></section>
       <section class="page-body"><div class="wrap">
+          <div class="cand-election" role="group" aria-label="Election">
+            <a class="cand-election-btn" data-election="primary" href="goshen.html">Primary</a>
+            <a class="cand-election-btn" data-election="general" href="goshen.html?e=general">General</a>
+          </div>
+          <div class="cand-view cand-view-primary">
           <p>August 20, 2024 primary.</p>
           <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. Districts that cross county lines appear on every county they cover.</p>
           <section class="cand-group">
@@ -77,6 +104,60 @@
           </section>
           </div>
         </section>
+          </div>
+          <!-- general-view -->
+          <div class="cand-view cand-view-general">
+          <p class="cand-unofficial" hidden>Unofficial, awaiting canvass</p>
+          <p>November 5, 2024 general.</p>
+          <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. A check mark shows the winner. Districts that cross county lines appear on every county they cover.</p>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Federal</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>U.S. President</h3>
+            <ul class="cand-names">
+              <li><a href="c/donald-j-trump-and-jd-vance.html?from=goshen&amp;e=general">Donald J. Trump and JD Vance</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/kamala-d-harris-and-tim-walz.html?from=goshen&amp;e=general">Kamala D. Harris and Tim Walz</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/chase-oliver-and-mike-ter-maat.html?from=goshen&amp;e=general">Chase Oliver and Mike ter Maat</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>U.S. Senate</h3>
+            <ul class="cand-names">
+              <li><a href="c/john-barrasso.html?from=goshen&amp;e=general">John Barrasso</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/scott-d-morrow.html?from=goshen&amp;e=general">Scott D Morrow</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>U.S. House</h3>
+            <ul class="cand-names">
+              <li><a href="c/harriet-hageman.html?from=goshen&amp;e=general">Harriet Hageman</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/kyle-g-cameron.html?from=goshen&amp;e=general">Kyle G. Cameron</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/richard-brubaker.html?from=goshen&amp;e=general">Richard Brubaker</a> <span class="cand-abbr">(L)</span></li>
+              <li><a href="c/jeffrey-haggit.html?from=goshen&amp;e=general">Jeffrey Haggit</a> <span class="cand-abbr">(C)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State House</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State House HD02</h3>
+            <ul class="cand-names">
+              <li><a href="c/jd-williams.html?from=goshen&amp;e=general">JD Williams</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD05</h3>
+            <ul class="cand-names">
+              <li><a href="c/scott-smith.html?from=goshen&amp;e=general">Scott Smith</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          </div>
+          <!-- /general-view -->
       </div></section>
     </main>
     <footer class="site-footer">
@@ -91,6 +172,17 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
-    
+  
+    <script>
+      (function () {
+        var general = document.documentElement.classList.contains("cand-general");
+        var nodes = document.querySelectorAll(".cand-election-btn");
+        for (var i = 0; i < nodes.length; i++) {
+          var on = nodes[i].getAttribute("data-election") === (general ? "general" : "primary");
+          if (on) nodes[i].setAttribute("aria-current", "true");
+          else nodes[i].removeAttribute("aria-current");
+        }
+      })();
+    </script>
   </body>
 </html>

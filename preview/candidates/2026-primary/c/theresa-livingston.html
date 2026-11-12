@@ -28,6 +28,7 @@
             <li><a href="../../../archive/counties.html">Counties</a></li>
             <li><a href="../../../officials.html">Officials</a></li>
             <li><a href="../../../research.html">Research</a></li>
+            <li><a class="site-map-link" href="../../../site-map.html">Site Map</a></li>
           </ul>
         </nav>
       </div>
@@ -39,6 +40,20 @@
       <section class="page-hero">
         <div class="wrap">
           <h1>Theresa Livingston</h1>
+        
+<!-- page-trail -->
+<div class="page-trail" aria-label="Where this page sits">
+  <ol>
+    <li><span class="site-box">Home</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">Candidates</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">County</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box is-current">Theresa Livingston</span></li>
+  </ol>
+</div>
+<!-- /page-trail -->
         </div>
       </section>
       <section class="page-body">
@@ -46,6 +61,7 @@
           <p class="cand-blurb">Theresa Livingston (Democratic, Worland): Paraprofessional; U.S. Air Force, 1972–1981. Unopposed in the Aug. 18, 2026 Democratic primary for State House District 27.</p>
           <p class="cand-meta">House District 27 · Democratic</p>
           <p class="cand-res">Primary result: Unopposed</p>
+          <p class="cand-res cand-general-line">General result: State House HD27, Democratic, 490 votes (15.4%), Lost.</p>
           <section class="cand-research" aria-labelledby="h-research">
                       <h2 id="h-research">Research</h2>
                       <table class="cand-facts">
@@ -93,7 +109,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

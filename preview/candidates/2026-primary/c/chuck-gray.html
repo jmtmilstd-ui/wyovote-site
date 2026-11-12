@@ -28,6 +28,7 @@
             <li><a href="../../../archive/counties.html">Counties</a></li>
             <li><a href="../../../officials.html">Officials</a></li>
             <li><a href="../../../research.html">Research</a></li>
+            <li><a class="site-map-link" href="../../../site-map.html">Site Map</a></li>
           </ul>
         </nav>
       </div>
@@ -39,6 +40,20 @@
       <section class="page-hero">
         <div class="wrap">
           <h1>Chuck Gray</h1>
+        
+<!-- page-trail -->
+<div class="page-trail" aria-label="Where this page sits">
+  <ol>
+    <li><span class="site-box">Home</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">Candidates</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">County</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box is-current">Chuck Gray</span></li>
+  </ol>
+</div>
+<!-- /page-trail -->
         </div>
       </section>
       <section class="page-body">
@@ -46,6 +61,7 @@
           <p class="cand-blurb">Chuck Gray (Republican, Casper): Radio host; Wyoming Secretary of State, 2023–Present. Won the Aug. 18, 2026 Republican primary for U.S. Representative with 25.4% of the vote.</p>
           <p class="cand-meta">United States Representative · Republican</p>
           <p class="cand-res">Primary result: Won</p>
+          <p class="cand-res cand-general-line">General result: U.S. House, Republican, 99,906 votes (54.5%), Won.</p>
           <section class="cand-research" aria-labelledby="h-research">
                       <h2 id="h-research">Research</h2>
                       <table class="cand-facts">
@@ -96,7 +112,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }
