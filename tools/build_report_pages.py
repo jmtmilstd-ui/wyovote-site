@@ -361,34 +361,96 @@ def title_of(path: Path, text: str) -> tuple[str, str]:
 
 
 def parse_summary_table(text: str) -> tuple[list[str], list[list[str]]]:
-    """All-counties or all-committees sheet: one row per line."""
-    rows = []
-    for line in text.splitlines():
-        match = re.match(
-            r"^\s*(\d{2})\s+(.+?)\s{2,}(\d+)\s+(\d+\s*/\s*\d+)\s+([\d.]+)\*?\s+(\d+)\s+(\d+\s*/\s*\d+\s*/\s*\d+)\s+(\d+)\s*$",
-            line,
-        )
-        if match:
-            rows.append([re.sub(r"\s+", " ", item).strip() for item in match.groups()])
+    """All-counties or all-committees sheet."""
+    county_rows = []
+    committee_rows = []
+    name_bits: list[str] = []
+    county_re = re.compile(
+        r"^\s*(\d{2})\s+(.+?)\s{2,}(\d+)\s+(\d+\s*/\s*\d+)\s+([\d.]+)\*?\s+(\d+)\s+(\d+\s*/\s*\d+\s*/\s*\d+)\s+(\d+)\s*$"
+    )
+    named_re = re.compile(
+        r"^\s*(\d{2})\s+([A-Za-z].+?)\s{2,}(\d+)\s+([\d.]+)\*?\s+(\d+)\s+(\d+/\d+/\d+)\s+(\S+)\s*$"
+    )
+    bare_re = re.compile(
+        r"^\s*(\d{2})\s{2,}(\d+)\s+([\d.]+)\*?\s+(\d+)\s+(\d+/\d+/\d+)\s+(\S+)\s*$"
+    )
+    for raw in text.splitlines():
+        line = raw.rstrip()
+        if county_re.match(line):
+            county_rows.append([re.sub(r"\s+", " ", item).strip() for item in county_re.match(line).groups()])
+            name_bits = []
             continue
-        match = re.match(
-            r"^\s*(\d{2})\s+(.+?)\s{2,}(\d+)\s+([\d.]+)\*?\s+(\d+)\s+(\d+\s*/\s*\d+\s*/\s*\d+)\s+(\S+)\s*$",
-            line,
-        )
-        if match and "Committee" not in line:
-            rows.append([re.sub(r"\s+", " ", item).strip() for item in match.groups()])
-    if not rows:
-        return [], []
-    if len(rows[0]) == 8:
+        named = named_re.match(line)
+        if named and "Committee" not in line and "county" not in line.casefold():
+            number, name, members, average, rank, bands, kept = named.groups()
+            name = " ".join(name_bits + [name])
+            committee_rows.append([number, re.sub(r"\s+", " ", name).strip(), members, average, rank, bands, kept])
+            name_bits = []
+            continue
+        bare = bare_re.match(line)
+        if bare:
+            number, members, average, rank, bands, kept = bare.groups()
+            committee_rows.append([number, re.sub(r"\s+", " ", " ".join(name_bits)).strip(), members, average, rank, bands, kept])
+            name_bits = []
+            continue
+        stripped = line.strip()
+        if stripped and re.match(r"[A-Za-z]", stripped) and not stripped.startswith("How ") and "Minimum" not in stripped and "Appendix" not in stripped and "shaded" not in stripped:
+            name_bits.append(stripped)
+    if len(county_rows) >= 20:
         headers = ["No.", "County", "Legislators", "House / Senate", "Average rank", "County rank", "Conservative / Moderate / Liberal", "Shared"]
-    else:
+        return headers, county_rows
+    if len(committee_rows) >= 5:
         headers = ["No.", "Committee", "Members", "Average rank", "Committee rank", "Conservative / Moderate / Liberal", "Kept or new"]
+        return headers, committee_rows
+    return [], []
+
+
+def parse_committee_index(path: Path) -> tuple[list[str], list[list[str]]]:
+    """All-committees sheet. Wrapped names sit just above and below the number."""
+    rows = []
+    for page in pdf_words(path):
+        numbers = [(y, text) for left, y, text in page if re.fullmatch(r"\d{2}", text) and left < 80]
+        for y, number in numbers:
+            name_words = sorted(
+                ((yy, left, text) for left, yy, text in page if 80 <= left < 270 and abs(yy - y) <= 10),
+            )
+            name = " ".join(text for _yy, _left, text in name_words)
+            stats = sorted((left, text) for left, yy, text in page if left >= 270 and abs(yy - y) <= 2)
+            stat_text = " ".join(text for _left, text in stats)
+            match = re.search(
+                r"(\d+)\s+([\d.]+)\*?\s+(\d+)\s+(\d+)\s*/\s*(\d+)\s*/\s*(\d+)\s+(\S+)",
+                stat_text,
+            )
+            if not match or not name:
+                continue
+            members, average, rank, conservative, moderate, liberal, kept = match.groups()
+            rows.append([
+                number,
+                re.sub(r"\s+", " ", name).strip(" ,"),
+                members,
+                average.rstrip("*"),
+                rank,
+                f"{conservative}/{moderate}/{liberal}",
+                kept,
+            ])
+    headers = ["No.", "Committee", "Members", "Average rank", "Committee rank", "Conservative / Moderate / Liberal", "Kept or new"]
     return headers, rows
 
 
 def parse_report(path: Path, kind: str) -> dict:
     text = layout_text(path)
     title, subtitle = title_of(path, text)
+    if is_summary_pdf(path) and kind == "committee":
+        headers, rows = parse_committee_index(path)
+        return {
+            "title": title,
+            "subtitle": subtitle,
+            "summary": [],
+            "sections": [],
+            "summary_table": (headers, rows),
+            "notes": notes_of(text),
+            "kind": kind,
+        }
     if is_summary_pdf(path):
         headers, rows = parse_summary_table(text)
         return {
