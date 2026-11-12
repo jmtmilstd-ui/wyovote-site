@@ -168,6 +168,11 @@ INK = "#142117"
 PAPER = "#f4f3ee"
 LINE = "#146b31"
 GOLD = "#b8860b"
+HOME_FILL = "#0e2a18"
+SECTION_FILL = "#146b31"
+CHILD_FILL = "#e7f3e4"
+WHITE = "#ffffff"
+CORNER = 14
 _FONTS: dict[int, object] = {}
 
 
@@ -228,24 +233,31 @@ def trail_html(labels: list[str]) -> str:
     heights = [len(lines) * line_h + pad_y * 2 for _, lines, _ in items]
     total_w = max(width for width, _, _ in items)
     total_h = sum(heights) + join * (len(items) - 1)
+    pad = 5.0
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{total_w:.0f}" height="{total_h:.0f}" '
-        f'viewBox="0 0 {total_w:.1f} {total_h:.1f}" role="img" aria-label="{esc(" / ".join(labels))}">'
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{total_w + pad * 2:.0f}" height="{total_h + pad * 2:.0f}" '
+        f'viewBox="0 0 {total_w + pad * 2:.1f} {total_h + pad * 2:.1f}" role="img" '
+        f'aria-label="{esc(" / ".join(labels))}">'
+        f'<defs><filter id="trail-shadow" x="-30%" y="-30%" width="170%" height="190%">'
+        f'<feDropShadow dx="0" dy="1.5" stdDeviation="1.1" flood-color="{HOME_FILL}" flood-opacity="0.35"/>'
+        f'</filter></defs>'
     ]
-    y = 0.0
+    y = pad
     for index, ((width, lines, alt), height) in enumerate(zip(items, heights)):
-        x = (total_w - width) / 2
+        x = pad + (total_w - width) / 2
         current = index == len(items) - 1
-        fill = GOLD if current else "#ffffff"
-        klass = "trail-box is-current" if current else "trail-box"
+        if current:
+            fill, stroke, text_fill, klass = GOLD, "#6b5208", INK, "trail-box is-current"
+        else:
+            fill, stroke, text_fill, klass = CHILD_FILL, LINE, INK, "trail-box"
         parts.append(
-            f'<rect class="{klass}" x="{x:.1f}" y="{y:.1f}" width="{width:.1f}" height="{height:.1f}" '
-            f'fill="{fill}" stroke="{INK}" stroke-width="2.5" stroke-linejoin="round"/>'
+            f'<rect class="{klass}" x="{x:.1f}" y="{y:.1f}" width="{width:.1f}" height="{height:.1f}" rx="7" '
+            f'fill="{fill}" stroke="{stroke}" stroke-width="2.25" filter="url(#trail-shadow)"/>'
         )
         text_y = y + height / 2 - (len(lines) - 1) * line_h / 2
-        cx = total_w / 2
+        cx = pad + total_w / 2
 
-        def label_text(content: list[str], css: str, top: float) -> str:
+        def label_text(content: list[str], css: str, top: float, color: str = text_fill) -> str:
             rows = []
             for line_index, line in enumerate(content):
                 dy = 0 if line_index == 0 else line_h
@@ -253,7 +265,7 @@ def trail_html(labels: list[str]) -> str:
             return (
                 f'<text class="trail-label {css}" x="{cx:.1f}" y="{top:.1f}" text-anchor="middle" '
                 f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" '
-                f'font-size="{TRAIL_FONT}" fill="{INK}">{"".join(rows)}</text>'
+                f'font-size="{TRAIL_FONT}" fill="{color}">{"".join(rows)}</text>'
             )
 
         if alt:
@@ -264,8 +276,8 @@ def trail_html(labels: list[str]) -> str:
         y += height
         if index < len(items) - 1:
             parts.append(
-                f'<line class="trail-line" x1="{total_w / 2:.1f}" y1="{y:.1f}" x2="{total_w / 2:.1f}" '
-                f'y2="{y + join:.1f}" stroke="{GOLD}" stroke-width="2.5" stroke-linecap="butt"/>'
+                f'<line class="trail-line" x1="{pad + total_w / 2:.1f}" y1="{y:.1f}" x2="{pad + total_w / 2:.1f}" '
+                f'y2="{y + join:.1f}" stroke="{GOLD}" stroke-width="2.5" stroke-linecap="round"/>'
             )
             y += join
     parts.append("</svg>")
@@ -307,15 +319,15 @@ def insert_trail(text: str, labels: list[str]) -> str:
     return text
 
 
-# Drawn to match the About diagram: flat white boxes, dark stroke, green elbows.
+# Flat org chart in the WyoVote green and gold palette.
 MAP_PAD_X = 18
 MAP_BOX_H = 54
 MAP_H_GAP = 16
 MAP_V_DROP = 36
 MAP_ROW_GAP = 28
 MAP_SECTION_GAP = 46
-MAP_COL_GAP = 48
-MAP_MARGIN = 22
+MAP_COL_GAP = 72
+MAP_MARGIN = 28
 MAP_TOP = 20
 MAP_HOME_DROP = 32
 MAP_MAX_ROW = 500
@@ -375,30 +387,62 @@ def layout_node(node: tuple) -> dict:
     }
 
 
-def _rule(x1: float, y1: float, x2: float, y2: float) -> str:
-    if abs(x1 - x2) < 0.5 and abs(y1 - y2) < 0.5:
+def _route(points: list[tuple[float, float]]) -> str:
+    """Orthogonal connector with a rounded corner at each bend."""
+    pts: list[tuple[float, float]] = []
+    for x, y in points:
+        if pts and abs(pts[-1][0] - x) < 0.4 and abs(pts[-1][1] - y) < 0.4:
+            continue
+        pts.append((x, y))
+    if len(pts) < 2:
         return ""
+
+    def toward(x: float, y: float, ox: float, oy: float, dist: float) -> tuple[float, float]:
+        dx, dy = ox - x, oy - y
+        length = (dx * dx + dy * dy) ** 0.5
+        if length < 0.1:
+            return x, y
+        use = min(dist, length / 2)
+        return x + dx / length * use, y + dy / length * use
+
+    commands = [f"M {pts[0][0]:.1f},{pts[0][1]:.1f}"]
+    if len(pts) == 2:
+        commands.append(f"L {pts[1][0]:.1f},{pts[1][1]:.1f}")
+    else:
+        for index in range(1, len(pts) - 1):
+            cx, cy = pts[index]
+            sx, sy = toward(cx, cy, pts[index - 1][0], pts[index - 1][1], CORNER)
+            ex, ey = toward(cx, cy, pts[index + 1][0], pts[index + 1][1], CORNER)
+            commands.append(f"L {sx:.1f},{sy:.1f}")
+            commands.append(f"Q {cx:.1f},{cy:.1f} {ex:.1f},{ey:.1f}")
+        commands.append(f"L {pts[-1][0]:.1f},{pts[-1][1]:.1f}")
     return (
-        f'<polyline class="map-line" points="{x1:.1f},{y1:.1f} {x2:.1f},{y2:.1f}" '
-        f'fill="none" stroke="{LINE}" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter"/>'
+        f'<path class="map-line" d="{" ".join(commands)}" fill="none" stroke="{LINE}" '
+        f'stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>'
     )
 
 
-def _box(x: float, y: float, w: float, h: float, label: str) -> str:
+def _box(x: float, y: float, w: float, h: float, label: str, kind: str) -> str:
+    if kind == "home":
+        fill, stroke, color = HOME_FILL, HOME_FILL, WHITE
+    elif kind == "section":
+        fill, stroke, color = SECTION_FILL, HOME_FILL, WHITE
+    else:
+        fill, stroke, color = CHILD_FILL, LINE, INK
     text_y = y + h / 2
     return (
-        f'<rect class="map-box" x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" '
-        f'fill="#ffffff" stroke="{INK}" stroke-width="3" stroke-linejoin="round"/>'
-        f'<text class="map-label" x="{x + w / 2:.1f}" y="{text_y:.1f}" text-anchor="middle" '
+        f'<rect class="map-box is-{kind}" x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="9" '
+        f'fill="{fill}" stroke="{stroke}" stroke-width="2.5" filter="url(#map-shadow)"/>'
+        f'<text class="map-label is-{kind}" x="{x + w / 2:.1f}" y="{text_y:.1f}" text-anchor="middle" '
         f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" '
-        f'font-size="{MAP_FONT}" fill="{INK}">{esc(label)}</text>'
+        f'font-size="{MAP_FONT}" fill="{color}">{esc(label)}</text>'
     )
 
 
-def draw_node(node: dict, ox: float, oy: float, lines: list[str], boxes: list[str]) -> None:
+def draw_node(node: dict, ox: float, oy: float, lines: list[str], boxes: list[str], kind: str) -> None:
     bx = ox + node["x"]
     by = oy + node["y"]
-    boxes.append(_box(bx, by, node["w"], node["h"], node["label"]))
+    boxes.append(_box(bx, by, node["w"], node["h"], node["label"], kind))
     if not node["kids"]:
         return
     parent_cx = bx + node["w"] / 2
@@ -411,34 +455,84 @@ def draw_node(node: dict, ox: float, oy: float, lines: list[str], boxes: list[st
     previous_bus = None
     for index, (y, row) in enumerate(ordered):
         child_top = oy + y
-        bus_y = child_top - 14
+        bus_y = child_top - 16
         centers = [ox + x + child["x"] + child["w"] / 2 for child, x in row]
         if index == 0:
-            lines.append(_rule(parent_cx, parent_bottom, parent_cx, bus_y))
-            lines.append(_rule(min(centers + [parent_cx]), bus_y, max(centers + [parent_cx]), bus_y))
+            for center in centers:
+                lines.append(_route([(parent_cx, parent_bottom), (parent_cx, bus_y), (center, bus_y), (center, child_top)]))
             if len(ordered) > 1:
-                lines.append(_rule(rail_x, bus_y, min(centers + [parent_cx]), bus_y))
+                lines.append(_route([(rail_x, bus_y), (min(centers + [parent_cx]), bus_y)]))
                 previous_bus = bus_y
         else:
-            lines.append(_rule(rail_x, previous_bus, rail_x, bus_y))
-            lines.append(_rule(rail_x, bus_y, max(centers), bus_y))
+            for center in centers:
+                lines.append(_route([(rail_x, previous_bus), (rail_x, bus_y), (center, bus_y), (center, child_top)]))
             previous_bus = bus_y
-        for center in centers:
-            lines.append(_rule(center, bus_y, center, child_top))
         for child, x in row:
-            draw_node(child, ox + x, oy + y, lines, boxes)
+            draw_node(child, ox + x, oy + y, lines, boxes, "child")
 
 
 def stack_column(nodes: list[dict]) -> tuple[list[tuple], float, float]:
+    """Stack sections, placing narrow ones side by side when the row has room."""
     width = max(node["sub_w"] for node in nodes)
-    # 14px above the first box is where its elbow meets the Home crossbar.
-    y = 14.0
-    placed = []
+    gap = 20.0
+    rows: list[list[dict]] = []
+    row: list[dict] = []
+    row_w = 0.0
     for node in nodes:
-        x = (width - node["sub_w"]) / 2
-        placed.append((node, x, y))
-        y += node["sub_h"] + MAP_SECTION_GAP
+        extra = node["sub_w"] if not row else gap + node["sub_w"]
+        if row and row_w + extra > width + 0.5:
+            rows.append(row)
+            row = [node]
+            row_w = node["sub_w"]
+        else:
+            row.append(node)
+            row_w += extra
+    if row:
+        rows.append(row)
+    y = 20.0
+    placed = []
+    for packed in rows:
+        packed_w = sum(node["sub_w"] for node in packed) + gap * (len(packed) - 1)
+        x = (width - packed_w) / 2
+        row_h = max(node["sub_h"] for node in packed)
+        for node in packed:
+            placed.append((node, x, y))
+            x += node["sub_w"] + gap
+        y += row_h + MAP_SECTION_GAP
     return placed, width, y - MAP_SECTION_GAP
+
+
+def _swatch(x: float, y: float, kind: str) -> str:
+    if kind == "home":
+        fill, stroke = HOME_FILL, HOME_FILL
+    elif kind == "section":
+        fill, stroke = SECTION_FILL, HOME_FILL
+    else:
+        fill, stroke = CHILD_FILL, LINE
+    return (
+        f'<rect class="legend-swatch is-{kind}" x="{x:.1f}" y="{y:.1f}" width="26" height="26" rx="6" '
+        f'fill="{fill}" stroke="{stroke}" stroke-width="2"/>'
+    )
+
+
+def _legend(total_w: float, y: float, height: float) -> str:
+    items = (("home", "Home"), ("section", "Section"), ("child", "Page"))
+    font = 22
+    gap = 28
+    widths = [26 + 8 + text_width(name, font) for _, name in items]
+    row = sum(widths) + gap * (len(items) - 1)
+    x = (total_w - row) / 2
+    parts = []
+    swatch_y = y + (height - 26) / 2
+    for (kind, name), width in zip(items, widths):
+        parts.append(_swatch(x, swatch_y, kind))
+        parts.append(
+            f'<text class="legend-label" x="{x + 34:.1f}" y="{y + height / 2:.1f}" '
+            f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" '
+            f'font-size="{font}" fill="{INK}">{esc(name)}</text>'
+        )
+        x += width + gap
+    return "".join(parts)
 
 
 def render_diagram(tree: tuple) -> str:
@@ -450,35 +544,55 @@ def render_diagram(tree: tuple) -> str:
     left, left_w, left_h = stack_column(left_nodes)
     right, right_w, right_h = stack_column(right_nodes)
 
-    home_w = text_width(label, MAP_FONT) + MAP_PAD_X * 2
-    home_h = MAP_BOX_H
+    home_w = max(text_width(label, MAP_FONT) + MAP_PAD_X * 2, 240)
+    home_h = MAP_BOX_H + 8
     total_w = MAP_MARGIN + left_w + MAP_COL_GAP + right_w + MAP_MARGIN
-    col_top = MAP_TOP + home_h + MAP_HOME_DROP
+    band_y, band_h = 18.0, 60.0
+    legend_y = band_y + band_h + 20
+    legend_h = 40.0
+    home_y = legend_y + legend_h + 26
+    col_top = home_y + home_h + MAP_HOME_DROP
     total_h = col_top + max(left_h, right_h) + MAP_MARGIN
     left_x = MAP_MARGIN
     right_x = MAP_MARGIN + left_w + MAP_COL_GAP
     # One spine in the gap between the two halves. Elbows run out to each section.
     spine = left_x + left_w + MAP_COL_GAP / 2
     home_x = spine - home_w / 2
-    home_bottom = MAP_TOP + home_h
+    home_bottom = home_y + home_h
 
-    lines = [_rule(spine, home_bottom, spine, col_top)]
-    boxes = [_box(home_x, MAP_TOP, home_w, home_h, label)]
+    lines = [_route([(spine, home_bottom), (spine, col_top)])]
+    boxes = [_box(home_x, home_y, home_w, home_h, label, "home")]
     elbows = []
     for placed, origin_x in ((left, left_x), (right, right_x)):
         for node, x, y in placed:
             abs_y = col_top + y
             root_cx = origin_x + x + node["x"] + node["w"] / 2
-            elbows.append((abs_y - 14, root_cx, node, origin_x + x, abs_y))
+            elbows.append((abs_y - 16, root_cx, node, origin_x + x, abs_y))
     if elbows:
-        lines.append(_rule(spine, col_top, spine, max(item[0] for item in elbows)))
+        lines.append(_route([(spine, col_top), (spine, max(item[0] for item in elbows))]))
     for elbow_y, root_cx, node, origin_x, abs_y in elbows:
-        lines.append(_rule(min(spine, root_cx), elbow_y, max(spine, root_cx), elbow_y))
-        lines.append(_rule(root_cx, elbow_y, root_cx, abs_y))
-        draw_node(node, origin_x, abs_y, lines, boxes)
+        lines.append(_route([(spine, elbow_y), (root_cx, elbow_y), (root_cx, abs_y)]))
+        draw_node(node, origin_x, abs_y, lines, boxes, "section")
 
+    title = "How WyoVote is organized"
+    legend = _legend(total_w, legend_y, legend_h)
+    band = (
+        f'<rect class="map-band" x="{MAP_MARGIN:.1f}" y="{band_y:.1f}" '
+        f'width="{total_w - MAP_MARGIN * 2:.1f}" height="{band_h:.1f}" rx="10" '
+        f'fill="{HOME_FILL}" filter="url(#map-shadow)"/>'
+        f'<rect class="map-gold" x="{MAP_MARGIN + 12:.1f}" y="{band_y + band_h + 6:.1f}" '
+        f'width="{total_w - (MAP_MARGIN + 12) * 2:.1f}" height="5" rx="2.5" fill="{GOLD}"/>'
+        f'<text class="map-band-label" x="{total_w / 2:.1f}" y="{band_y + band_h / 2:.1f}" '
+        f'text-anchor="middle" dominant-baseline="middle" font-family="{FONT_FAMILY}" '
+        f'font-weight="700" font-size="28" fill="{WHITE}">{esc(title)}</text>'
+    )
     body = (
+        f'<defs><filter id="map-shadow" x="-20%" y="-25%" width="150%" height="170%">'
+        f'<feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="{HOME_FILL}" flood-opacity="0.22"/>'
+        f'</filter></defs>'
         f'<rect class="map-paper" width="{total_w:.1f}" height="{total_h:.1f}" fill="{PAPER}"/>'
+        + band
+        + legend
         + "".join(lines)
         + "".join(boxes)
     )
