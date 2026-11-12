@@ -13,6 +13,7 @@ Checks:
   (d) any root page (not under preview/) links into preview/ or contains the
       PREVIEW banner
   (e) the total size of tracked files is over 200 MB (209,715,200 bytes)
+  (f) a top-level label in the preview site nav is missing from the site map
 
 The report always includes the tracked size, the 10 largest tracked files,
 and the counts. Exceptions belong in tools/publish_check_allow.txt, or in
@@ -23,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import re
 import subprocess
 import sys
@@ -333,6 +335,47 @@ def format_bytes(size: int) -> str:
     return f"{size:,} bytes ({size / (1024 * 1024):.2f} MiB)"
 
 
+def nav_labels(index_html: str) -> list[str]:
+    nav = re.search(r'(?is)<nav class="site-nav".*?</nav>', index_html)
+    if not nav:
+        return []
+    labels = []
+    for raw in re.findall(r"(?is)<a\b[^>]*>(.*?)</a>", nav.group(0)):
+        text = re.sub(r"(?is)<[^>]+>", "", raw)
+        text = re.sub(r"\s+", " ", html.unescape(text)).strip()
+        if text:
+            labels.append(text)
+    return labels
+
+
+def site_map_gaps(root: Path) -> list[str]:
+    """Nav sections that the current site map does not name."""
+    index_path = root / "preview" / "index.html"
+    map_path = root / "data" / "site-map.json"
+    page_path = root / "preview" / "site-map.html"
+    if not index_path.is_file() or not map_path.is_file() or not page_path.is_file():
+        return ["site map source is missing"]
+    labels = nav_labels(index_path.read_text(encoding="utf-8"))
+    data = json.loads(map_path.read_text(encoding="utf-8"))
+    named = []
+
+    def walk(node: dict) -> None:
+        named.append(node.get("label", ""))
+        for child in node.get("children") or []:
+            walk(child)
+
+    named.append("Home")
+    for column in ("left", "right"):
+        for node in data.get(column) or []:
+            walk(node)
+    page = page_path.read_text(encoding="utf-8")
+    missing = []
+    for label in labels:
+        if label not in named or label not in page:
+            missing.append(label)
+    return missing
+
+
 def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int) -> tuple[int, str]:
     root = root.resolve()
     if not root.is_dir():
@@ -407,7 +450,8 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
     root_left.sort(key=lambda item: (item[1], item[2], item[0], item[3]))
 
     size_over = names is not None and tracked_total > tree_limit
-    failed = bool(oversized or unreferenced or missing_left or root_left or size_over or git_error)
+    map_gaps = site_map_gaps(root)
+    failed = bool(oversized or unreferenced or missing_left or root_left or size_over or git_error or map_gaps)
 
     lines: list[str] = []
     lines.append("WyoVote publish check")
@@ -462,6 +506,12 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
     if not root_left:
         lines.append("  (none)")
     lines.append("")
+    lines.append(f"Top-level nav labels missing from the site map: {len(map_gaps)}")
+    for label in map_gaps:
+        lines.append(f"  {label}")
+    if not map_gaps:
+        lines.append("  (none)")
+    lines.append("")
     lines.append(
         "Counts: "
         f"working_tree_files={len(files)} "
@@ -472,7 +522,8 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
         f"oversized={len(oversized)} "
         f"unreferenced={len(unreferenced)} "
         f"missing={len(missing_left)} "
-        f"root_preview={len(root_left)}"
+        f"root_preview={len(root_left)} "
+        f"site_map={len(map_gaps)}"
     )
     return (1 if failed else 0), "\n".join(lines) + "\n"
 

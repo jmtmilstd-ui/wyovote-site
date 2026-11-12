@@ -14,8 +14,11 @@ page to its live twin, following PUBLISH.md.
 from __future__ import annotations
 
 import html
+import json
+import math
 import os
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -98,8 +101,27 @@ def crumbs(rel: str, text: str) -> list[str]:
     title = page_h1(text) or path.stem.replace("-", " ").title()
     chain = ["Home"]
 
+    levels = {
+        "how-ratings-work.html": ["Ratings", "How the Ratings Work"],
+        "reports.html": ["Ratings", "Current Reports"],
+        "committee-ratings.html": ["Ratings", "Committee ratings"],
+        "county-ratings.html": ["Ratings", "County ratings"],
+        "legislative-ratings.html": ["Ratings", "Legislative ratings"],
+        "historical-ratings.html": ["Ratings", "Historical ratings"],
+        "historical-articles.html": ["Ratings", "Historical articles"],
+        "historical-criteria.html": ["Ratings", "Historical criteria"],
+        "about.html": ["About"],
+        "privacy.html": ["Privacy"],
+        "contact.html": ["Contact"],
+        "contact-thanks.html": ["Contact", "Thanks"],
+        "committees.html": ["Committees"],
+        "counties.html": ["Counties"],
+    }
     if rel in {"index.html"}:
         return chain
+    if rel in levels:
+        chain.extend(levels[rel])
+        return chain[-4:]
     if rel == "site-map.html":
         chain.append("Site Map")
     elif rel == "404.html":
@@ -117,10 +139,14 @@ def crumbs(rel: str, text: str) -> list[str]:
         }
         chain.append(labels.get(name, title))
     elif parts[0] == "articles":
-        chain.extend(["Archive", "Articles", title])
+        chain.extend(["Archive", "Articles", "Article"])
     elif parts[0] == "news":
-        chain.append("News")
-        chain.append("Archive" if name == "archive.html" else title)
+        if name == "archive.html":
+            chain.extend(["News", "Archive"])
+        elif "certified-election" in name:
+            chain.extend(["Special", "Article"])
+        else:
+            chain.extend(["News", "Article"])
     elif rel == "candidates.html" or parts[0] == "candidates":
         chain.append("Candidates")
         if rel != "candidates.html":
@@ -131,7 +157,7 @@ def crumbs(rel: str, text: str) -> list[str]:
                 if not parts[1].startswith("2026"):
                     chain.append(year)
                 chain.append(county_name(text) or "County")
-                chain.append(title)
+                chain.append("Candidate")
             else:
                 if not parts[1].startswith("2026"):
                     chain.append(year)
@@ -139,21 +165,83 @@ def crumbs(rel: str, text: str) -> list[str]:
     elif rel == "officials.html" or parts[0] == "officials":
         chain.append("Officials")
         if rel != "officials.html":
-            if len(parts) > 2 and parts[1] != path.name:
-                chain.append(parts[-2] if name == "index.html" else parts[1])
             if name == "index.html":
-                pass
+                chain.append("Year")
             elif name.endswith("-deep.html"):
-                chain.append(title)
+                chain.append("Official")
                 chain.append("Deeper Dive")
             else:
-                chain.append(title)
+                chain.append("Official")
     else:
         chain.append(title)
 
     if len(chain) > 4:
         chain = chain[-4:]
     return chain
+
+
+MAP_FILE = ROOT / "data" / "site-map.json"
+MAP_FONT = 17
+TRAIL_FONT = 14
+BOX_H = 32
+INK = "#142117"
+LINE = "#146b31"
+GOLD = "#b8860b"
+WHITE = "#ffffff"
+PAPER = "#f4f3ee"
+FONT_FAMILY = "Liberation Sans, DejaVu Sans, sans-serif"
+_FONTS: dict[int, object] = {}
+
+
+def _font(size: int):
+    if size not in _FONTS:
+        try:
+            from PIL import ImageFont
+        except ImportError:
+            _FONTS[size] = None
+            return None
+        for path in (
+            "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        ):
+            if Path(path).is_file():
+                _FONTS[size] = ImageFont.truetype(path, size)
+                return _FONTS[size]
+        _FONTS[size] = None
+    return _FONTS[size]
+
+
+def text_width(text: str, size: int) -> float:
+    font = _font(size)
+    if font is not None:
+        return float(font.getlength(text))
+    return len(text) * size * 0.56
+
+
+def clip_label(label: str, limit: int = 22) -> str:
+    label = re.sub(r"\s+", " ", label).strip()
+    if len(label) <= limit:
+        return label
+    return label[: limit - 1].rstrip() + "…"
+
+
+def load_map() -> dict:
+    return json.loads(MAP_FILE.read_text(encoding="utf-8"))
+
+
+def map_labels(data: dict | None = None) -> list[str]:
+    data = data or load_map()
+    found: list[str] = ["Home"]
+
+    def walk(node: dict) -> None:
+        found.append(node["label"])
+        for child in node.get("children") or []:
+            walk(child)
+
+    for column in ("left", "right"):
+        for node in data[column]:
+            walk(node)
+    return found
 
 
 def trail_label(label: str) -> str:
@@ -169,15 +257,88 @@ def trail_label(label: str) -> str:
 
 
 def trail_html(labels: list[str]) -> str:
-    rows = ['<div class="page-trail" aria-label="Where this page sits">', "  <ol>"]
-    for index, label in enumerate(labels):
-        if index:
-            rows.append('    <li class="trail-join" aria-hidden="true"></li>')
-        kind = "site-box is-current" if index == len(labels) - 1 else "site-box"
-        rows.append(f'    <li><span class="{kind}">{trail_label(label)}</span></li>')
-    rows.append("  </ol>")
-    rows.append("</div>")
-    return "\n".join(rows)
+    """Small stair of the same boxes as the site map. Current page gets a gold ring."""
+    shown = [clip_label(label) for label in labels]
+    pad_x = 8
+    step_x = 14
+    join = 10
+    specs = []
+    for label in shown:
+        match = re.fullmatch(r"(\d{4}) Primary", label)
+        if match:
+            year = match.group(1)
+            width = max(text_width(f"{year} Primary", TRAIL_FONT), text_width(f"{year} General", TRAIL_FONT))
+            specs.append((width + pad_x * 2, label, True))
+        else:
+            specs.append((text_width(label, TRAIL_FONT) + pad_x * 2, label, False))
+    total_w = max(step_x * i + width for i, (width, _, _) in enumerate(specs)) + 4
+    total_h = len(specs) * BOX_H + (len(specs) - 1) * join + 4
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{total_w:.0f}" height="{total_h:.0f}" '
+        f'viewBox="0 0 {total_w:.1f} {total_h:.1f}" role="img" aria-label="{esc(" / ".join(labels))}">'
+    ]
+    y = 2.0
+    centers = []
+    for index, (width, label, dual) in enumerate(specs):
+        x = 2 + step_x * index
+        current = index == len(specs) - 1
+        stroke = GOLD if current else INK
+        width_px = "2.5" if current else "1.5"
+        parts.append(
+            f'<rect class="trail-box{" is-current" if current else ""}" x="{x:.1f}" y="{y:.1f}" '
+            f'width="{width:.1f}" height="{BOX_H - 4:.1f}" fill="{WHITE}" stroke="{stroke}" stroke-width="{width_px}"/>'
+        )
+        cx = x + width / 2
+        cy = y + (BOX_H - 4) / 2
+        centers.append((cx, y, y + BOX_H - 4))
+        if dual:
+            year = label.split()[0]
+            parts.append(
+                f'<text class="trail-label cand-view-primary" x="{cx:.1f}" y="{cy:.1f}" text-anchor="middle" '
+                f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" font-size="{TRAIL_FONT}" '
+                f'fill="{INK}">{year} Primary</text>'
+                f'<text class="trail-label cand-view-general" x="{cx:.1f}" y="{cy:.1f}" text-anchor="middle" '
+                f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" font-size="{TRAIL_FONT}" '
+                f'fill="{INK}">{year} General</text>'
+            )
+        else:
+            parts.append(
+                f'<text class="trail-label" x="{cx:.1f}" y="{cy:.1f}" text-anchor="middle" '
+                f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" font-size="{TRAIL_FONT}" '
+                f'fill="{INK}">{esc(label)}</text>'
+            )
+        y += BOX_H - 4 + join
+    for index in range(len(centers) - 1):
+        x1, top1, bot1 = centers[index]
+        x2, top2, _bot2 = centers[index + 1]
+        mid = (bot1 + top2) / 2
+        parts.append(_elbow(x1, bot1, x2, top2, mid))
+    parts.append("</svg>")
+    return '<div class="page-trail">\n' + "".join(parts) + "\n</div>"
+
+
+def _elbow(x1: float, y1: float, x2: float, y2: float, mid: float) -> str:
+    """Down, across, then an arrow into the next box."""
+    tip = y2 - 1
+    line = (
+        f'<polyline class="map-line" points="{x1:.1f},{y1:.1f} {x1:.1f},{mid:.1f} {x2:.1f},{mid:.1f} {x2:.1f},{tip:.1f}" '
+        f'fill="none" stroke="{LINE}" stroke-width="1.75" stroke-linecap="butt" stroke-linejoin="miter"/>'
+    )
+    return line + _arrow(x2, mid, x2, tip)
+
+
+def _arrow(x1: float, y1: float, x2: float, y2: float) -> str:
+    angle = math.atan2(y2 - y1, x2 - x1)
+    size = 8
+    spread = 0.5
+    bx = x2 - size * math.cos(angle)
+    by = y2 - size * math.sin(angle)
+    p2 = (bx + spread * size * math.sin(angle), by - spread * size * math.cos(angle))
+    p3 = (bx - spread * size * math.sin(angle), by + spread * size * math.cos(angle))
+    return (
+        f'<polygon class="map-arrow" points="{x2:.1f},{y2:.1f} {p2[0]:.1f},{p2[1]:.1f} {p3[0]:.1f},{p3[1]:.1f}" '
+        f'fill="{LINE}"/>'
+    )
 
 
 def root_prefix(rel: str) -> str:
@@ -215,36 +376,149 @@ def insert_trail(text: str, labels: list[str]) -> str:
     return text
 
 
-def render_tree(node: tuple) -> str:
-    label, children = node
-    inner = f'<span class="site-box">{esc(label)}</span>'
-    if children:
-        inner += '<ul>' + "".join(f"<li>{render_tree(child)}</li>" for child in children) + "</ul>"
-    return inner
+def _box_width(label: str, leaf: bool) -> float:
+    return text_width(label, MAP_FONT) + 22
 
 
-def render_diagram(tree: tuple) -> str:
-    """Home spans both columns. Top-level sections split left and right."""
-    label, children = tree
-    # Measured so the rendered columns stay within about 5% of each other.
-    left_names = {"Archive", "Candidates", "Research"}
-    left = [child for child in children if child[0] in left_names]
-    right = [child for child in children if child[0] not in left_names]
+def _layout(node: dict, side: str) -> dict:
+    """Stair-step. Several children sit in a row so the chart stays rectangular."""
+    label = node["label"]
+    leaf = bool(node.get("leaf"))
+    bw = _box_width(label, leaf)
+    kids = [_layout(child, side) for child in node.get("children") or []]
+    if not kids:
+        return {"label": label, "leaf": leaf, "px": 0, "py": 0, "bw": bw, "w": bw, "h": BOX_H, "kids": []}
+    gap = 8
+    step = 12
+    per_row = 2 if len(kids) >= 4 else len(kids)
+    rows = [kids[i:i + per_row] for i in range(0, len(kids), per_row)]
+    row_widths = [sum(kid["w"] for kid in row) + gap * (len(row) - 1) for row in rows]
+    row_heights = [max(kid["h"] for kid in row) for row in rows]
+    inner_w = max(row_widths)
+    width = max(bw, inner_w + step)
+    y = BOX_H + 12
+    placed = []
+    for row, row_w, row_h in zip(rows, row_widths, row_heights):
+        if side == "left":
+            x = width - step - row_w
+        else:
+            x = step
+        for kid in row:
+            placed.append((kid, x, y))
+            x += kid["w"] + gap
+        y += row_h + 6
+    px = (width - bw) if side == "left" else 0
+    return {"label": label, "leaf": leaf, "px": px, "py": 0, "bw": bw, "w": width, "h": y - gap, "kids": placed}
 
-    def column(nodes: list) -> str:
-        items = "".join(f"<li>{render_tree(node)}</li>" for node in nodes)
-        return f'<div class="map-col"><ul class="map-tree map-tree-root">{items}</ul></div>'
 
+def _paint(node: dict, ox: float, oy: float, boxes: list, lines: list) -> None:
+    x = ox + node["px"]
+    y = oy + node["py"]
+    boxes.append((x, y, node["bw"], BOX_H, node["label"], node["leaf"]))
+    parent_cx = x + node["bw"] / 2
+    parent_bottom = y + BOX_H
+    for kid, kx, ky in node["kids"]:
+        abs_x = ox + kx
+        abs_y = oy + ky
+        child_cx = abs_x + kid["px"] + kid["bw"] / 2
+        child_top = abs_y + kid["py"]
+        mid = (parent_bottom + child_top) / 2
+        lines.append(_elbow(parent_cx, parent_bottom, child_cx, child_top, mid))
+        _paint(kid, abs_x, abs_y, boxes, lines)
+
+
+def _draw_box(x, y, w, h, label, leaf) -> str:
+    radius = ' rx="11"' if leaf else ""
+    style = ' font-style="italic"' if leaf else ""
     return (
-        '<div class="map-diagram" role="img" aria-label="Site map diagram. Information only, not links.">'
-        f'<div class="map-home"><span class="site-box">{esc(label)}</span></div>'
-        f'<div class="map-columns">{column(left)}{column(right)}</div>'
-        "</div>"
+        f'<rect class="map-box{" is-leaf" if leaf else ""}" x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}"{radius} '
+        f'fill="{WHITE}" stroke="{INK}" stroke-width="1.5"/>'
+        f'<text class="map-label" x="{x + w / 2:.1f}" y="{y + h / 2:.1f}" text-anchor="middle" '
+        f'dominant-baseline="middle" font-family="{FONT_FAMILY}" font-weight="700" font-size="{MAP_FONT}" '
+        f'fill="{INK}"{style}>{esc(label)}</text>'
     )
 
 
+def render_diagram() -> str:
+    """Home on a center trunk. Sections stair-step to the left and right."""
+    data = load_map()
+    left_trees = [_layout(node, "left") for node in data["left"]]
+    right_trees = [_layout(node, "right") for node in data["right"]]
+    gap = 14
+    left_w = max(tree["w"] for tree in left_trees)
+    right_w = max(tree["w"] for tree in right_trees)
+
+    def stack(trees, gutter):
+        y = 0
+        placed = []
+        for tree in trees:
+            placed.append((tree, y))
+            y += tree["h"] + gutter
+        return placed, y - gutter
+
+    left_placed, left_h = stack(left_trees, 12)
+    right_placed, right_h = stack(right_trees, 12)
+    margin = 16
+    home_w = _box_width("Home", False)
+    home_h = BOX_H
+    trunk_gap = 22
+    col_top = margin + home_h + 18
+    total_w = margin + left_w + trunk_gap + right_w + margin
+    total_h = col_top + max(left_h, right_h) + margin
+    trunk = margin + left_w + trunk_gap / 2
+    home_x = trunk - home_w / 2
+    home_y = margin
+
+    boxes = [(home_x, home_y, home_w, home_h, "Home", False)]
+    lines = [
+        f'<line class="map-line" x1="{trunk:.1f}" y1="{home_y + home_h:.1f}" x2="{trunk:.1f}" y2="{col_top:.1f}" '
+        f'stroke="{LINE}" stroke-width="1.75"/>'
+    ]
+    branch_ys = []
+
+    def place_column(placed, origin_x):
+        for tree, y in placed:
+            abs_y = col_top + y
+            _paint(tree, origin_x, abs_y, boxes, lines)
+            root_x = origin_x + tree["px"]
+            root_mid = abs_y + BOX_H / 2
+            branch_ys.append(root_mid)
+            if origin_x < trunk:
+                lines.append(
+                    f'<line class="map-line" x1="{trunk:.1f}" y1="{root_mid:.1f}" x2="{root_x + tree["bw"]:.1f}" y2="{root_mid:.1f}" '
+                    f'stroke="{LINE}" stroke-width="1.75"/>' + _arrow(trunk, root_mid, root_x + tree["bw"], root_mid)
+                )
+            else:
+                lines.append(
+                    f'<line class="map-line" x1="{trunk:.1f}" y1="{root_mid:.1f}" x2="{root_x:.1f}" y2="{root_mid:.1f}" '
+                    f'stroke="{LINE}" stroke-width="1.75"/>' + _arrow(trunk, root_mid, root_x, root_mid)
+                )
+
+    place_column(left_placed, margin)
+    place_column(right_placed, margin + left_w + trunk_gap)
+    if branch_ys:
+        lines.append(
+            f'<line class="map-line" x1="{trunk:.1f}" y1="{col_top:.1f}" x2="{trunk:.1f}" y2="{max(branch_ys):.1f}" '
+            f'stroke="{LINE}" stroke-width="1.75"/>'
+        )
+    body = (
+        f'<rect class="map-paper" width="{total_w:.1f}" height="{total_h:.1f}" fill="{PAPER}"/>'
+        + "".join(lines)
+        + "".join(_draw_box(*box) for box in boxes)
+    )
+    svg = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {total_w:.1f} {total_h:.1f}" '
+        f'role="img" aria-labelledby="site-map-title site-map-desc">'
+        f'<title id="site-map-title">WyoVote site map</title>'
+        f'<desc id="site-map-desc">Home at the top. Sections branch left and right. '
+        f'The lowest page in a stair is a rounded box. The boxes are not links.</desc>'
+        f"{body}</svg>"
+    )
+    return f'<div class="map-diagram">{svg}</div>'
+
+
 def write_site_map_page() -> None:
-    diagram = render_diagram(TREE)
+    diagram = render_diagram()
     page = f"""<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -290,7 +564,7 @@ def write_site_map_page() -> None:
       </section>
       <section class="page-body">
         <div class="wrap page-prose">
-          <p>This diagram shows how the pages are nested. Repeating pages are shown once, by level. The boxes are information only.</p>
+          <p>This map reflects the current structure of the site. Repeating pages are shown once, by level. A rounded box is the lowest page in a stair. The boxes are information only. The structure is recorded in <a href="../data/site-map.json">data/site-map.json</a>.</p>
           {diagram}
         </div>
       </section>
@@ -405,7 +679,8 @@ def main() -> None:
     for path in pages:
         stamp(path)
     print(f"stamped {len(pages)} preview pages")
-    print(f"promoted {promote_live()} live pages")
+    if "--publish" in sys.argv:
+        print(f"promoted {promote_live()} live pages")
 
 
 if __name__ == "__main__":
