@@ -1639,6 +1639,7 @@ body.cand-page {
   line-height: 1.4;
 }
 
+/* PROMOTE_START election */
 .cand-election {
   display: flex;
   flex-wrap: wrap;
@@ -1698,6 +1699,7 @@ html.cand-general .cand-view-general {
   color: #142117;
   font-weight: 700;
 }
+/* PROMOTE_END election */
 
 .cand-names {
   margin: 0;
@@ -1901,6 +1903,7 @@ html.cand-general .cand-view-general {
   }
 }
 
+/* PROMOTE_START map */
 .site-nav a.site-map-link {
   margin-left: 0.35rem;
   border: 2px solid #0e2a18;
@@ -2169,4 +2172,16 @@ html.cand-general .cand-view-general {
   .map-columns::before {
     background: #000000;
   }
+
+  .cand-unofficial {
+    color: #8a1c1c;
+    print-color-adjust: exact;
+  }
+
+  .cand-election-btn {
+    border: 2px solid #000000;
+    color: #000000;
+    background: #ffffff;
+  }
 }
+/* PROMOTE_END map */

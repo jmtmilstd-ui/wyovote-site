@@ -8,6 +8,13 @@
     <link rel="icon" href="../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../assets/css/site.css">
+  
+    <script>
+      document.documentElement.classList.toggle("cand-general", new URLSearchParams(location.search).get("e") === "general");
+      if (document.documentElement.classList.contains("cand-general") && document.title.indexOf("Primary") !== -1) {
+        document.title = document.title.replace("Primary", "General");
+      }
+    </script>
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -20,18 +27,38 @@
         <nav class="site-nav" aria-label="Site">
           <ul>
             <li><a href="../../index.html">Home</a></li><li><a href="../../archive.html">Archive</a></li><li><a href="../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../archive/committees.html">Committees</a></li><li><a href="../../archive/counties.html">Counties</a></li><li><a href="../../officials.html">Officials</a></li><li><a href="../../research.html">Research</a></li>
+            <li><a class="site-map-link" href="../../site-map.html">Site Map</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main id="main">
       <div class="wrap back-wrap">
-        <p class="back-row"><a class="back-btn" href="index.html">← Back to 2022 Primary</a></p>
+        <p class="back-row"><a class="back-btn cand-view-primary" href="index.html">← Back to 2022 Primary</a><a class="back-btn cand-view-general" href="index.html?e=general">← Back to 2022 General</a></p>
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Sweetwater County</h1>
-      </div></section>
+        
+<!-- page-trail -->
+<div class="page-trail" aria-label="Where this page sits">
+  <ol>
+    <li><span class="site-box">Home</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">Candidates</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box"><span class="cand-view-primary">2022 Primary</span><span class="cand-view-general">2022 General</span></span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box is-current">Sweetwater</span></li>
+  </ol>
+</div>
+<!-- /page-trail -->
+        </div></section>
       <section class="page-body"><div class="wrap">
+          <div class="cand-election" role="group" aria-label="Election">
+            <a class="cand-election-btn" data-election="primary" href="sweetwater.html">Primary</a>
+            <a class="cand-election-btn" data-election="general" href="sweetwater.html?e=general">General</a>
+          </div>
+          <div class="cand-view cand-view-primary">
           <p>August 16, 2022 primary.</p>
           <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. Districts that cross county lines appear on every county they cover.</p>
           <section class="cand-group">
@@ -171,6 +198,138 @@
           </section>
           </div>
         </section>
+          </div>
+          <!-- general-view -->
+          <div class="cand-view cand-view-general">
+          <p class="cand-unofficial" hidden>Unofficial, awaiting canvass</p>
+          <p>November 8, 2022 general.</p>
+          <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate's name to see their details. A check mark shows the winner. Districts that cross county lines appear on every county they cover.</p>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Federal</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>U.S. House</h3>
+            <ul class="cand-names">
+              <li><a href="c/harriet-hageman.html?from=sweetwater&amp;e=general">Harriet Hageman</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/lynnette-greybull.html?from=sweetwater&amp;e=general">Lynnette GreyBull</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/richard-brubaker.html?from=sweetwater&amp;e=general">Richard Brubaker</a> <span class="cand-abbr">(L)</span></li>
+              <li><a href="c/marissa-joy-selvig.html?from=sweetwater&amp;e=general">Marissa Joy Selvig</a> <span class="cand-abbr">(C)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">Statewide</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>Governor</h3>
+            <ul class="cand-names">
+              <li><a href="c/mark-gordon.html?from=sweetwater&amp;e=general">Mark Gordon</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/theresa-a-livingston.html?from=sweetwater&amp;e=general">Theresa A. Livingston</a> <span class="cand-abbr">(D)</span></li>
+              <li><a href="c/jared-j-baldes.html?from=sweetwater&amp;e=general">Jared J. Baldes</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Secretary of State</h3>
+            <ul class="cand-names">
+              <li><a href="c/chuck-gray.html?from=sweetwater&amp;e=general">Chuck Gray</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Auditor</h3>
+            <ul class="cand-names">
+              <li><a href="c/kristi-racines.html?from=sweetwater&amp;e=general">Kristi Racines</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Treasurer</h3>
+            <ul class="cand-names">
+              <li><a href="c/curt-meier.html?from=sweetwater&amp;e=general">Curt Meier</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>Superintendent</h3>
+            <ul class="cand-names">
+              <li><a href="c/megan-degenfelder.html?from=sweetwater&amp;e=general">Megan Degenfelder</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/sergio-a-maldonado-sr.html?from=sweetwater&amp;e=general">Sergio A. Maldonado, Sr.</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State Senate</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State Senate SD11</h3>
+            <ul class="cand-names">
+              <li><a href="c/larry-hicks.html?from=sweetwater&amp;e=general">Larry Hicks</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/michael-ray-williams.html?from=sweetwater&amp;e=general">Michael Ray Williams</a> <span class="cand-abbr">(C)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State Senate SD13</h3>
+            <ul class="cand-names">
+              <li><a href="c/stacy-jones.html?from=sweetwater&amp;e=general">Stacy Jones</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/leesa-kuhlmann.html?from=sweetwater&amp;e=general">Leesa Kuhlmann</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          <section class="cand-group">
+          <h2 class="cand-group-title">State House</h2>
+          <div class="cand-race-grid">
+            <section class="cand-race">
+            <h3>State House HD15</h3>
+            <ul class="cand-names">
+              <li><a href="c/donald-burkhart.html?from=sweetwater&amp;e=general">Donald Burkhart</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/patrick-gonzales.html?from=sweetwater&amp;e=general">Patrick Gonzales</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD17</h3>
+            <ul class="cand-names">
+              <li><a href="c/joshua-thomas-j-t-larson.html?from=sweetwater&amp;e=general">Joshua Thomas (J.T.) Larson</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/chad-m-banks.html?from=sweetwater&amp;e=general">Chad M. Banks</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD18</h3>
+            <ul class="cand-names">
+              <li><a href="c/scott-heiner.html?from=sweetwater&amp;e=general">Scott Heiner</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/dennis-b-laughlin.html?from=sweetwater&amp;e=general">Dennis B. Laughlin</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD39</h3>
+            <ul class="cand-names">
+              <li><a href="c/cody-wylie.html?from=sweetwater&amp;e=general">Cody Wylie</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/marshall-burt.html?from=sweetwater&amp;e=general">Marshall Burt</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD47</h3>
+            <ul class="cand-names">
+              <li><a href="c/robert-bob-davis.html?from=sweetwater&amp;e=general">Robert &quot;Bob&quot; Davis</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/lee-ann-stephenson.html?from=sweetwater&amp;e=general">Lee Ann Stephenson</a> <span class="cand-abbr">(D)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD48</h3>
+            <ul class="cand-names">
+              <li><a href="c/clark-stith.html?from=sweetwater&amp;e=general">Clark Stith</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+              <li><a href="c/misty-morris.html?from=sweetwater&amp;e=general">Misty Morris</a> <span class="cand-abbr">(L)</span></li>
+            </ul>
+          </section>
+            <section class="cand-race">
+            <h3>State House HD60</h3>
+            <ul class="cand-names">
+              <li><a href="c/tony-niemiec.html?from=sweetwater&amp;e=general">Tony Niemiec</a> <span class="cand-abbr">(R)</span> <span class="cand-win" aria-label="Winner">✔</span></li>
+            </ul>
+          </section>
+          </div>
+        </section>
+          </div>
+          <!-- /general-view -->
       </div></section>
     </main>
     <footer class="site-footer">
@@ -185,6 +344,17 @@
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
       </div>
     </footer>
-    
+  
+    <script>
+      (function () {
+        var general = document.documentElement.classList.contains("cand-general");
+        var nodes = document.querySelectorAll(".cand-election-btn");
+        for (var i = 0; i < nodes.length; i++) {
+          var on = nodes[i].getAttribute("data-election") === (general ? "general" : "primary");
+          if (on) nodes[i].setAttribute("aria-current", "true");
+          else nodes[i].removeAttribute("aria-current");
+        }
+      })();
+    </script>
   </body>
 </html>

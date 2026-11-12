@@ -26,6 +26,7 @@
             <li><a href="../../../archive/counties.html">Counties</a></li>
             <li><a href="../../../officials.html">Officials</a></li>
             <li><a href="../../../research.html">Research</a></li>
+            <li><a class="site-map-link" href="../../../site-map.html">Site Map</a></li>
           </ul>
         </nav>
       </div>
@@ -37,6 +38,20 @@
       <section class="page-hero">
         <div class="wrap">
           <h1>Erin Edwards</h1>
+        
+<!-- page-trail -->
+<div class="page-trail" aria-label="Where this page sits">
+  <ol>
+    <li><span class="site-box">Home</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">Candidates</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box">County</span></li>
+    <li class="trail-join" aria-hidden="true"></li>
+    <li><span class="site-box is-current">Erin Edwards</span></li>
+  </ol>
+</div>
+<!-- /page-trail -->
         </div>
       </section>
       <section class="page-body">
@@ -44,6 +59,7 @@
           <p class="cand-blurb">Erin Edwards (Republican, Cheyenne): Risk manager. Won the Aug. 18, 2026 Republican primary for State House District 41 with 72.2% of the vote.</p>
           <p class="cand-meta">House District 41 · Republican</p>
           <p class="cand-res">Primary result: Won</p>
+          <p class="cand-res cand-general-line">General result: State House HD41, Republican, 1,602 votes (58.5%), Won.</p>
           <section class="cand-research" aria-labelledby="h-research">
                       <h2 id="h-research">Research</h2>
                       <table class="cand-facts">
@@ -92,7 +108,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }
