@@ -2326,10 +2326,26 @@ html.cand-general .page-trail .cand-view-general {
   font-size: 14pt;
 }
 
+.wv-sheet a.print-pdf {
+  display: inline;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #5c6560;
+  font-size: 9pt;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.wv-sheet .report-actions {
+  margin: 0 0 0.35rem;
+  text-align: right;
+}
+
 .wv-sheet {
-  max-width: 46rem;
+  max-width: 612pt;
   margin-inline: auto;
-  padding: 1rem 1.1rem 1.4rem;
+  padding: 16pt 42pt 22pt;
   background: #ffffff;
   color: #142117;
   font-family: "Liberation Sans", Arial, sans-serif;
@@ -2342,54 +2358,73 @@ html.cand-general .page-trail .cand-view-general {
 
 .wv-seal {
   display: block;
-  width: 7.5rem;
+  width: 144pt;
   height: auto;
-  margin: 0 auto 0.8rem;
+  margin: 8pt auto 16pt;
 }
 
 .wv-sheet h2.wv-title {
   margin: 0;
   color: #1f3a68;
   font-family: "Liberation Sans", Arial, sans-serif;
-  font-size: 26pt;
+  font-size: 34pt;
   font-weight: 700;
-  line-height: 1.05;
+  line-height: 40pt;
   text-align: center;
 }
 
 .wv-sub,
 .wv-meta,
 .wv-contents {
-  margin: 0.35rem 0;
+  margin: 0;
   color: #142117;
-  font-size: 14pt;
+  font-size: 16pt;
+  line-height: 21pt;
   text-align: center;
 }
 
+.wv-meta {
+  margin-bottom: 10pt;
+}
+
 .wv-sheet h3 {
-  margin: 0.45rem 0 0.2rem;
+  margin: 8pt 0 2pt;
   color: #14501a;
   font-family: "Liberation Sans", Arial, sans-serif;
-  font-size: 16pt;
-  line-height: 1.15;
+  font-size: 22pt;
+  font-weight: 700;
+  line-height: 27pt;
 }
 
 .wv-part > p {
-  margin: 0 0 0.4rem;
+  margin: 0 0 6pt;
 }
 
 .wv-sheet .wv-cover p,
 .wv-part > p {
   color: #142117;
   font-size: 14pt;
+  line-height: 18.5pt;
 }
 
 .wv-legend,
 .wv-rate {
   width: 100%;
   border-collapse: collapse;
-  margin: 0.6rem 0 0.4rem;
+  margin: 8pt auto 6pt;
   font-size: 12pt;
+}
+
+.wv-legend {
+  width: 92%;
+}
+
+.wv-rate {
+  table-layout: fixed;
+}
+
+.wv-rate col.wv-namecol {
+  width: 24%;
 }
 
 .wv-legend th,
@@ -2397,9 +2432,10 @@ html.cand-general .page-trail .cand-view-general {
 .wv-rate th,
 .wv-rate td {
   border: 1px solid #142117;
-  padding: 0.16rem 0.35rem;
+  padding: 1.5pt 3pt;
   color: #142117;
   font-size: 12pt;
+  line-height: 14.5pt;
   text-align: center;
   vertical-align: middle;
 }
@@ -2410,9 +2446,15 @@ html.cand-general .page-trail .cand-view-general {
   font-weight: 700;
 }
 
+.wv-rate td.wv-name,
+.wv-rate td.wv-name a {
+  white-space: normal;
+}
+
 .wv-rate td.wv-name {
   text-align: left;
   font-weight: 700;
+  line-height: 14.5pt;
 }
 
 .wv-rate a.wv-person,
@@ -2433,10 +2475,9 @@ html.cand-general .page-trail .cand-view-general {
   background: #c8f5c8;
 }
 
-.wv-band.is-liberal,
-.wv-legend tr.is-liberal th,
-.op-box.is-liberal {
-  background: #c9d6f0;
+.wv-sheet td.wv-band.is-liberal,
+.wv-sheet .wv-legend tr.is-liberal th {
+  background-color: #c9d6f0;
 }
 
 .wv-band.is-moderate,
@@ -2450,38 +2491,46 @@ html.cand-general .page-trail .cand-view-general {
 }
 
 .wv-brand {
-  border-bottom: 3px solid #14501a;
-  margin: 0 0 0.35rem;
-  padding-bottom: 0.2rem;
+  border-bottom: 2.5pt solid #14501a;
+  margin: 0 0 4pt;
+  padding-bottom: 3pt;
 }
 
 .wv-word {
   display: block;
-  width: min(100%, 18rem);
+  width: 210pt;
   height: auto;
   margin: 0;
 }
 
+.wv-page {
+  margin-top: 22pt;
+  padding-top: 18pt;
+  border-top: 16pt solid #f4f3ee;
+}
+
 .wv-note {
-  margin: 0.45rem 0 0;
+  margin: 6pt 0 0;
   color: #142117;
   font-size: 12pt;
+  line-height: 15pt;
 }
 
 .wv-foot {
-  display: flex;
+  display: grid;
+  grid-template-columns: 36pt 1fr auto;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-top: 1.5rem;
-  padding-top: 0.6rem;
-  border-top: 1px solid #142117;
+  gap: 8pt;
+  margin-top: 16pt;
+  padding-top: 6pt;
+  border-top: 1.25pt solid #142117;
   color: #142117;
   font-size: 12pt;
+  line-height: 14.5pt;
 }
 
 .wv-foot img {
-  width: 2.2rem;
+  width: 36pt;
   height: auto;
 }
 
@@ -2489,10 +2538,12 @@ html.cand-general .page-trail .cand-view-general {
   margin: 0;
   color: #142117;
   font-size: 12pt;
+  line-height: 14.5pt;
 }
 
 .wv-sheet:has(.op-grid) {
-  max-width: 70rem;
+  max-width: 612pt;
+  padding: 10pt 14pt 12pt;
 }
 
 .op-banner {
@@ -2508,12 +2559,28 @@ html.cand-general .page-trail .cand-view-general {
   margin: 0;
   color: #142117;
   font-family: "Liberation Sans", Arial, sans-serif;
-  font-size: 14pt;
+  font-size: 17pt;
+  font-weight: 700;
+  line-height: 20pt;
   white-space: nowrap;
 }
 
+.op-banner .op-sort {
+  color: #3b5a80;
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 12pt;
+}
+
 .op-banner .op-session {
-  font-size: 18pt;
+  font-size: 17pt;
+  font-weight: 400;
+}
+
+.op-banner .op-session strong {
+  color: #1e6b1e;
+  font-size: 17pt;
 }
 
 .op-grid {
@@ -2526,59 +2593,75 @@ html.cand-general .page-trail .cand-view-general {
   grid-column: span 2;
 }
 
-.op-col h3 {
+.op-grid > h3.op-bar {
   margin: 0;
-  padding: 0.15rem 0.3rem;
+  padding: 2pt 6pt;
   background: #c5ffc5;
-  color: #142117;
-  font-size: 13pt;
+  border: 1px solid #a6a6a6;
+  color: #1e6b1e;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 11pt;
+  font-weight: 700;
+  line-height: 16pt;
 }
 
-.op-grid > h3 span,
-.op-col h3 span {
+.op-grid > h3.op-bar span {
   display: inline-block;
-  min-width: 1.6rem;
-  margin-left: 0.3rem;
-  padding: 0 0.2rem;
+  min-width: 18pt;
+  margin-left: 4pt;
+  padding: 0 3pt;
   background: #adc0d9;
   color: #142117;
+  font-size: 13pt;
+  font-weight: 700;
+  line-height: 15pt;
   text-align: center;
 }
 
 .op-head,
 .op-row {
   display: grid;
-  grid-template-columns: 2.15rem 2.15rem 2.7rem 2.7rem minmax(0, 1fr);
-  gap: 0.18rem;
+  grid-template-columns: 22pt 28pt 32pt 24pt minmax(0, 1fr);
+  gap: 2pt;
   align-items: center;
-  margin: 0.1rem 0;
-  font-size: 12pt;
+  margin: 1pt 0;
+  font-size: 9.5pt;
+  line-height: 11pt;
 }
 
 .op-head {
   color: #142117;
-  font-size: 8pt;
+  font-size: 7pt;
   font-weight: 700;
+  line-height: 8pt;
   white-space: nowrap;
 }
 
 .op-box,
 .op-dist {
   display: inline-block;
-  min-width: 1.5rem;
-  padding: 0.05rem 0.15rem;
-  border: 1px solid #142117;
+  min-width: 16pt;
+  padding: 0 1pt;
+  border: 1px solid #a6a6a6;
   color: #142117;
-  font-size: 12pt;
+  font-size: 9.5pt;
   font-weight: 700;
+  line-height: 12pt;
   text-align: center;
 }
 
 .op-votes {
   color: #606060;
-  font-size: 12pt;
+  font-size: 8pt;
+  line-height: 10pt;
   text-align: center;
   text-decoration: underline;
+}
+
+.op-name {
+  font-size: 9.5pt;
+  line-height: 11pt;
+  white-space: nowrap;
 }
 
 .op-dist.is-republican { background: #dfa7a5; }
@@ -2590,18 +2673,68 @@ html.cand-general .page-trail .cand-view-general {
 
 .op-legend {
   display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  margin-top: 0.8rem;
+  align-items: flex-start;
+  gap: 8pt;
+  margin-top: 8pt;
   color: #142117;
-  font-size: 12pt;
+  font-size: 9pt;
+  line-height: 12pt;
+}
+
+.op-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1pt;
+  color: #1e6b1e;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 11pt;
+  font-weight: 700;
+  line-height: 12pt;
+}
+
+.op-brand img {
+  width: 28pt;
+  height: auto;
 }
 
 .op-legend p {
-  margin: 0.1rem 0;
+  margin: 1pt 0;
   color: #142117;
-  font-size: 12pt;
+  font-size: 9pt;
+  line-height: 14pt;
 }
+
+.op-key {
+  color: #1e6b1e;
+  font-weight: 700;
+  margin-right: 4pt;
+}
+
+.op-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3pt;
+  margin-right: 6pt;
+  font-size: 8.5pt;
+  white-space: nowrap;
+}
+
+.op-chip i {
+  display: inline-block;
+  width: 36pt;
+  height: 13pt;
+  border: 1px solid #a6a6a6;
+}
+
+.op-chip i.is-republican { background: #dfa7a5; }
+.op-chip i.is-democrat { background: #a4d5e2; }
+.op-chip i.is-independent { background: #a6a6a6; }
+.op-chip i.is-libertarian { background: #a7da4e; }
+.op-chip i.is-conservative { background: #c5ffc5; }
+.op-chip i.is-moderate { background: #ffffff; }
+.op-chip i.is-liberal { background: #adc0d9; }
+.op-chip i.is-unranked { background: #fff2a8; }
 
 .op-code {
   margin-left: auto;

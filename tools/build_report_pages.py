@@ -645,8 +645,13 @@ def _collapse(text: str) -> str:
     return re.sub(r"\s+", " ", text).replace("–", "-").replace("—", "-").strip()
 
 
+def _flat(text: str) -> str:
+    """Join wrapped PDF lines and keep the printed en dashes."""
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def ratings_howto(text: str) -> list[str]:
-    first = _collapse(text.split("\f")[0])
+    first = _flat(text.split("\f")[0])
     match = re.search(r"How to read this report (.+?) Contents:", first)
     if not match:
         return []
@@ -657,11 +662,12 @@ def ratings_howto(text: str) -> list[str]:
 
 
 def ratings_legend(text: str) -> list[list[str]]:
-    first = _collapse(text.split("\f")[0])
+    first = _flat(text.split("\f")[0])
     rows = []
+    span = r"\d+[–-]\d+"
     for band in ("Conservative", "Moderate", "Liberal"):
         match = re.search(
-            rf"{band}\s+(\d+)\s+([0-9-]+)\s+(\d+)\s*·\s*([0-9-]+)\s+(\d+)\s*·\s*([0-9-]+)",
+            rf"{band}\s+(\d+)\s+({span})\s+(\d+)\s*·\s*({span})\s+(\d+)\s*·\s*({span})",
             first,
         )
         if not match:
@@ -678,7 +684,7 @@ def ratings_legend(text: str) -> list[list[str]]:
 
 
 def ratings_meta(text: str) -> str:
-    flat = _collapse(text.split("\f")[0])
+    flat = _flat(text.split("\f")[0])
     match = re.search(
         r"(v1\.0 · votes through \d{4}-\d{2}-\d{2} · \d+ legislators(?: \([^)]*\))?)",
         flat,
@@ -692,13 +698,13 @@ def ratings_copyright(text: str) -> str:
 
 
 def ratings_nr_note(text: str) -> str:
-    flat = _collapse(text)
+    flat = _flat(text)
     match = re.search(r"(NR = Not ranked: .+?) \d{3} \d{4} Legislator", flat)
     return match.group(1) if match else ""
 
 
 def ratings_one_note(text: str) -> str:
-    flat = _collapse(text)
+    flat = _flat(text)
     match = re.search(r"(Bands: .+?Votes through \d{4}-\d{2}-\d{2}\.)", flat)
     return match.group(1) if match else ""
 
@@ -834,12 +840,12 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
     word = f"{root}assets/img/mtr-wordmark.png"
     logo = f"{root}assets/img/surveyor-icon.png"
 
-    def person(name: str, full: str | None = None) -> str:
+    def person(name: str, full: str | None = None, wrap: bool = False) -> str:
         linked = linked_name(full or name, officials, dest)
+        shown = esc(name).replace("-", "-<wbr>") if wrap else esc(name)
         if "</a>" not in linked:
-            return esc(name)
-        if full and full != name:
-            linked = re.sub(r">([^<]*)</a>", ">" + esc(name) + "</a>", linked, count=1)
+            return shown
+        linked = re.sub(r">([^<]*)</a>", ">" + shown + "</a>", linked, count=1)
         return linked.replace("<a ", '<a class="wv-person" ', 1)
 
     if parsed["sheet"] == "full":
@@ -864,10 +870,23 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
             return shown
 
         howto = "".join(f"<p>{emphasize(part)}</p>" for part in parsed["howto"])
+        if parsed["alpha"]:
+            title_html = esc(parsed["doc_title"])
+        else:
+            title_html = esc(parsed["doc_title"]).replace(" Ratings ", " Ratings<br>")
+
+        def sheet_foot() -> str:
+            return (
+                '<footer class="wv-foot">'
+                f'<img src="{seal}" alt="">'
+                f"<p>{esc(parsed['code'])} {esc(parsed['doc_title'])} v1.0</p>"
+                f"<p>{esc(parsed['copyright'])}</p></footer>"
+            )
+
         parts = [
             '<header class="wv-cover">',
             f'<img class="wv-seal" src="{seal}" alt="MTR Research, Wyoming">',
-            f'<h2 class="wv-title">{esc(parsed["doc_title"]).replace(" Ratings ", " Ratings<br>")}</h2>',
+            f'<h2 class="wv-title">{title_html}</h2>',
             f'<p class="wv-sub">{esc(parsed["doc_sub"])}</p>',
             f'<p class="wv-meta">{esc(parsed["meta"])}</p>',
             '<h3>How to read this report</h3>',
@@ -883,6 +902,7 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
             "</tbody></table>",
             "<p class=\"wv-contents\">Contents: House section, then Senate section.</p>",
             "</header>",
+            sheet_foot(),
         ]
         for title, rows in parsed["sections"]:
             heading, detail = section_blurb(title, rows, parsed["alpha"])
@@ -891,7 +911,7 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
                 band = row.get("band") or ""
                 if parsed["alpha"]:
                     cells = [
-                        f'<td class="wv-name">{person(row["name"])}</td>',
+                        f'<td class="wv-name">{person(row["name"], wrap=True)}</td>',
                         f'<td>{esc(row["district"])}</td>',
                         f'<td>{esc(row["party"])}</td>',
                         f'<td class="wv-band {band_class(band)}">{esc(band)}</td>',
@@ -903,7 +923,7 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
                     cells = [
                         f'<td>{esc(row["chamber"])}</td>',
                         f'<td>{esc(row["rank"])}</td>',
-                        f'<td class="wv-name">{person(row["name"])}</td>',
+                        f'<td class="wv-name">{person(row["name"], wrap=True)}</td>',
                         f'<td>{esc(row["district"])}</td>',
                         f'<td>{esc(row["party"])}</td>',
                         f'<td class="wv-band {band_class(band)}">{esc(band)}</td>',
@@ -912,12 +932,18 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
                 body.append("<tr>" + "".join(cells) + "</tr>")
             if parsed["alpha"]:
                 chamber_head = "Senate<br>rank" if title == "Senate" else "House<br>rank"
+                cols = (
+                    '<col class="wv-namecol"><col><col><col><col><col><col>'
+                )
                 head = (
                     "<th>Legislator</th><th>District</th><th>Party</th><th>Band</th>"
                     f"<th>Overall<br>rank</th><th>{chamber_head}</th><th>Votes</th>"
                 )
             else:
                 chamber_head = "Senate<br>rank" if title == "Senate" else "House<br>rank"
+                cols = (
+                    "<col><col><col class=\"wv-namecol\"><col><col><col><col>"
+                )
                 head = (
                     f"<th>{chamber_head}</th><th>Overall<br>rank</th><th>Legislator</th>"
                     "<th>District</th><th>Party</th><th>Band</th><th>Votes</th>"
@@ -927,20 +953,16 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
             if note and any(row["district"] and row["district"] in note for row in rows):
                 footnote = f'<p class="wv-note">{esc(note)}</p>'
             parts.append(
-                '<section class="wv-part">'
+                '<section class="wv-part wv-page">'
                 f'<div class="wv-brand"><img class="wv-word" src="{word}" alt="MTR Research"></div>'
                 f"<h3>{esc(heading)}</h3><p>{esc(detail)}</p>"
-                f'<table class="wv-rate"><thead><tr>{head}</tr></thead><tbody>'
+                f'<table class="wv-rate"><colgroup>{cols}</colgroup><thead><tr>{head}</tr></thead><tbody>'
                 + "".join(body)
                 + "</tbody></table>"
                 + footnote
                 + "</section>"
             )
-        parts.append(
-            f'<footer class="wv-foot"><img src="{seal}" alt="">'
-            f"<p>{esc(parsed['code'])} {esc(parsed['doc_title'])} v1.0</p>"
-            f"<p>{esc(parsed['copyright'])}</p></footer>"
-        )
+            parts.append(sheet_foot())
     else:
         def column(rows: list[dict], chamber_word: str) -> str:
             lines = []
@@ -980,28 +1002,30 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
         parts = [
             '<header class="op-banner">',
             f'<h2>{esc("Legislators, by Name" if parsed["alpha"] else "Legislators, by Rank")}</h2>',
-            f'<p>{esc(sort_note)}</p>',
+            f'<p class="op-sort">{esc(sort_note)}</p>',
             f'<p class="op-session">Session: <strong>{esc(year[-2:])}</strong></p>',
             "</header>",
             '<div class="op-grid">',
-            f'<h3 class="op-span">Representatives: <span>{len(house)}</span></h3>',
-            f'<h3>Senators: <span>{len(senate)}</span></h3>',
+            f'<h3 class="op-bar op-span">Representatives: <span>{len(house)}</span></h3>',
+            f'<h3 class="op-bar">Senators: <span>{len(senate)}</span></h3>',
             column(house[:split], "Representatives"),
             column(house[split:], "Representatives"),
             column(senate, "Senators"),
             "</div>",
             '<footer class="op-legend">',
-            f'<img src="{logo}" alt="WyoVote" width="48" height="54">',
-            "<div><p><strong>Parties:</strong> "
-            '<span class="op-dist is-republican">Republican</span> '
-            '<span class="op-dist is-democrat">Democrat</span> '
-            '<span class="op-dist is-independent">Independent</span> '
-            '<span class="op-dist is-libertarian">Libertarian</span></p>'
-            "<p><strong>Seq Rank:</strong> "
-            '<span class="op-box is-conservative">Conservative</span> '
-            '<span class="op-box is-moderate">Moderate</span> '
-            '<span class="op-box is-liberal">Liberal</span> '
-            '<span class="op-box is-unranked">Not ranked</span></p>'
+            '<div class="op-brand">'
+            f'<img src="{logo}" alt="" width="42" height="48">'
+            "<span>WyoVote</span></div>",
+            "<div><p><span class=\"op-key\">Parties:</span> "
+            '<span class="op-chip"><i class="is-republican"></i> Republican</span> '
+            '<span class="op-chip"><i class="is-democrat"></i> Democrat</span> '
+            '<span class="op-chip"><i class="is-independent"></i> Independent</span> '
+            '<span class="op-chip"><i class="is-libertarian"></i> Libertarian</span></p>'
+            "<p><span class=\"op-key\">Seq Rank:</span> "
+            '<span class="op-chip"><i class="is-conservative"></i> Conservative</span> '
+            '<span class="op-chip"><i class="is-moderate"></i> Moderate</span> '
+            '<span class="op-chip"><i class="is-liberal"></i> Liberal</span> '
+            '<span class="op-chip"><i class="is-unranked"></i> Not ranked</span></p>'
             f"{note_html}</div>",
             f"<p class=\"op-code\">{esc(parsed['code'])}<br>v1.0</p>",
             "</footer>",
