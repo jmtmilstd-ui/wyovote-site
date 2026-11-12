@@ -1829,3 +1829,155 @@ body.cand-page {
     display: none !important;
   }
 }
+
+.site-nav a.site-map-link {
+  margin-left: 0.35rem;
+  border: 2px solid #0e2a18;
+  border-radius: 0.35rem;
+  background: #ffffff;
+  color: #0e2a18;
+}
+
+.site-nav a.site-map-link:hover,
+.site-nav a.site-map-link:focus-visible {
+  background: #e7f5eb;
+  color: #0e2a18;
+}
+
+.site-nav a.site-map-link[aria-current="page"] {
+  background: #1f5d34;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.page-hero .wrap:has(.page-trail) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.page-hero .wrap:has(.page-trail) h1 {
+  margin: 0;
+}
+
+.page-trail {
+  flex: 0 1 9rem;
+  margin: 0 0 0 auto;
+}
+
+.page-trail ol {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-box {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.08rem 0.35rem;
+  border: 2px solid #142117;
+  background: #ffffff;
+  color: #142117;
+  font-size: 8pt;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.page-trail .site-box.is-current {
+  background: #1f5d34;
+  border-color: #0e2a18;
+  color: #ffffff;
+}
+
+.trail-join {
+  width: 2px;
+  height: 0.28rem;
+  margin: 0 auto;
+  background: #146b31;
+}
+
+.map-diagram {
+  margin: 0.5rem 0 1rem;
+}
+
+.map-tree,
+.map-tree ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.map-tree ul {
+  margin-left: 1.15rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid #146b31;
+}
+
+.map-tree li {
+  position: relative;
+  margin: 0.4rem 0;
+}
+
+.map-tree ul > li::before {
+  content: "";
+  position: absolute;
+  left: -0.9rem;
+  top: 0.65rem;
+  width: 0.9rem;
+  border-top: 2px solid #146b31;
+}
+
+.map-diagram .site-box {
+  display: inline-block;
+  min-width: 7.5rem;
+  padding: 0.35rem 0.6rem;
+  font-size: 12pt;
+  line-height: 1.25;
+}
+
+@media (max-width: 700px) {
+  .page-hero .wrap:has(.page-trail) {
+    flex-direction: column;
+  }
+
+  .page-trail {
+    flex-basis: auto;
+    margin-left: 0;
+  }
+}
+
+@media print {
+  .site-box,
+  .page-trail .site-box,
+  .map-diagram .site-box {
+    border: 2px solid #000000;
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .page-trail .site-box.is-current {
+    background: #0e2a18;
+    color: #ffffff;
+    print-color-adjust: exact;
+  }
+
+  .trail-join {
+    background: #000000;
+  }
+
+  .map-tree ul {
+    border-left-color: #000000;
+  }
+
+  .map-tree ul > li::before {
+    border-top-color: #000000;
+  }
+}

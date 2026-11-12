@@ -25,6 +25,8 @@ import argparse
 import html
 import json
 import re
+import subprocess
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -987,6 +989,7 @@ def main() -> None:
     else:
         counts = generate_archive(records, args.cycle)
         print(f"{args.cycle}: {counts}")
+    subprocess.check_call([sys.executable, str(Path(__file__).with_name("build_site_map.py"))])
 
 
 if __name__ == "__main__":
