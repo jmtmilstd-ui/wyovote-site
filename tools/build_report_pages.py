@@ -665,8 +665,12 @@ def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> N
         parts.append(table(headers, rows, dest, officials, name_at))
     for title, members in parsed["sections"]:
         parts.append(f"<h2>{esc(title)}</h2>")
-        headers = ["Rank", "Legislator", "District", "Party"]
-        keys = ["rank", "name", "district", "party"]
+        if any(row.get("rank") for row in members):
+            headers = ["Rank", "Legislator", "District", "Party"]
+            keys = ["rank", "name", "district", "party"]
+        else:
+            headers = ["Legislator", "District", "Party"]
+            keys = ["name", "district", "party"]
         if any(row.get("role") for row in members):
             headers.append("Role")
             keys.append("role")
@@ -676,7 +680,7 @@ def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> N
             headers.append("Votes" if parsed.get("votes_column") else "Also covers")
             keys.append("covers")
         body_rows = [[row.get(key, "") for key in keys] for row in members]
-        parts.append(table(headers, body_rows, dest, officials, 1))
+        parts.append(table(headers, body_rows, dest, officials, keys.index("name")))
     for note in parsed["notes"]:
         parts.append(f'<p class="report-note">{esc(note)}</p>')
     nav = NAV.format(root=root, **nav_flags)
@@ -808,11 +812,156 @@ def build(kind: str) -> int:
     return count
 
 
+LEGACY = [
+    "reports/2023/2023-all-legislative-counties.pdf",
+    "reports/2023/2023-natrona.pdf",
+    "reports/2023/2023-niobrara.pdf",
+    "reports/2023/2023-park.pdf",
+    "reports/2023/2023-platte.pdf",
+    "reports/2023/2023-sheridan.pdf",
+    "reports/2023/2023-sublette.pdf",
+    "reports/2023/2023-sweetwater.pdf",
+    "reports/2023/2023-teton.pdf",
+    "reports/2023/2023-uinta.pdf",
+    "reports/2023/2023-washakie.pdf",
+    "reports/2023/2023-weston.pdf",
+    "reports/2023/01-01-judiciary.pdf",
+    "reports/2023/02-02-appropriations.pdf",
+    "reports/2023/03-03-revenue.pdf",
+    "reports/2023/04-04-education.pdf",
+    "reports/2023/05-05-agriculture.pdf",
+    "reports/2023/06-06-travel.pdf",
+    "reports/2023/07-07-corporations.pdf",
+    "reports/2023/08-08-transportation.pdf",
+    "reports/2023/09-09-minerals.pdf",
+    "reports/2023/10-10-labor.pdf",
+    "reports/2023/11-11-journal.pdf",
+    "reports/2023/12-12-rules.pdf",
+    "reports/2023/13-air-transport.pdf",
+    "reports/2023/17-blockchain.pdf",
+    "reports/2023/18-capital-financing.pdf",
+    "reports/2023/19-legislative-facilities.pdf",
+    "reports/2023/20-mental-health.pdf",
+    "reports/2023/21-school-facilities.pdf",
+    "reports/2023/22-tribal-relations.pdf",
+    "reports/2023/23-federal-natural-resource.pdf",
+    "reports/2023/25-select-water.pdf",
+    "reports/2023/29-indian-child-welfare.pdf",
+    "reports/2023/30-mental-health.pdf",
+    "reports/2023/31-regulatory-reduction.pdf",
+    "reports/2023/32-riverton-state-office.pdf",
+    "reports/2023/33-state-shooting-complex.pdf",
+    "reports/2023/26-management-council.pdf",
+    "reports/2023/27-management-audit-committee.pdf",
+    "reports/2023/15-capitol-interpretative.pdf",
+    "reports/2023/34-capitol-governance.pdf",
+    "reports/2023/35-legislator-ethics.pdf",
+    "reports/2022/wc-committee.pdf",
+    "reports/2022/22-wc-county.pdf",
+    "reports/2021/committees.pdf",
+    "reports/2021/l-county-rate.pdf",
+]
+NOTE = (
+    "The printed sheet includes a numeric rating beside each name. "
+    "This page lists the legislators and leaves that number off."
+)
+
+
+def legacy_rows(path: Path) -> list[tuple[str, str, str, str]]:
+    """Name, district or party, and role. The numeric rating is dropped."""
+    found = []
+    for page in pdf_words(path):
+        districts = [(left, y, text) for left, y, text in page if re.fullmatch(r"[HS]\d{1,3}", text)]
+        parties = [(left, y, text) for left, y, text in page if text in {"Rep", "Dem", "Ind", "Lib"}]
+        anchors = districts or parties
+        for left, y, token in anchors:
+            name_words = sorted(
+                (yy, x, word)
+                for x, yy, word in page
+                if x < left - 8 and abs(yy - y) <= 6 and re.match(r"[A-Za-z]", word)
+                and word not in {"Rep", "Dem", "Sen", "House", "Senate", "Legend", "Republican", "Democrat"}
+            )
+            # Keep the words on the nearest line only.
+            if not name_words:
+                continue
+            nearest = min(abs(yy - y) for yy, _x, _word in name_words)
+            chosen = [word for yy, _x, word in name_words if abs(abs(yy - y) - nearest) < 0.2 or abs(yy - y) <= nearest + 0.2]
+            # simpler: words within 2pt
+            chosen = [word for yy, x, word in sorted(name_words) if abs(yy - y) <= 2]
+            name = " ".join(chosen).strip(" -")
+            role = ""
+            for role_word in ("Vice-Chair", "Chairman", "Chair"):
+                if any(word == role_word and abs(yy - y) <= 2 and x < left for x, yy, word in page):
+                    role = role_word
+            if not name or name.lower() in {"county", "committee", "rating", "legend"}:
+                continue
+            section = "House" if token.startswith("H") else "Senate" if token.startswith("S") else "Committee"
+            district = token if token[:1] in "HS" else token
+            found.append((section, name, district, role))
+    # Drop duplicates that come from two-column repeats of the same line.
+    unique = []
+    seen = set()
+    for item in found:
+        if item in seen:
+            continue
+        seen.add(item)
+        unique.append(item)
+    return unique
+
+
+def build_legacy() -> int:
+    officials = load_officials()
+    mapping: dict[Path, Path] = {}
+    count = 0
+    for rel in LEGACY:
+        pdf = ROOT / rel
+        rows = legacy_rows(pdf)
+        if len(rows) < 1:
+            raise SystemExit(f"too few names in {pdf}: {len(rows)}")
+        year = pdf.parent.name
+        dest = OUT / year / "legacy" / f"{pdf.stem}.html"
+        sections: list[tuple[str, list[dict]]] = []
+        grouped: dict[str, list[dict]] = {}
+        for section, name, district, role in rows:
+            grouped.setdefault(section, []).append({
+                "rank": "",
+                "name": name,
+                "district": district if district[:1] in "HS" else "",
+                "party": {"Rep": "Republican", "Dem": "Democrat", "Ind": "Independent", "Lib": "Libertarian"}.get(district, ""),
+                "role": role,
+                "band": "",
+                "chamber": "",
+                "covers": "",
+            })
+        for section, members in grouped.items():
+            sections.append((section, members))
+        title = pdf.stem.replace("-", " ")
+        parsed = {
+            "title": title,
+            "subtitle": f"{year} archived sheet",
+            "summary": [],
+            "sections": sections,
+            "summary_table": ([], []),
+            "notes": [NOTE],
+            "kind": "legacy",
+        }
+        render(pdf, parsed, dest, officials)
+        mapping[pdf.resolve()] = dest
+        count += 1
+    print(f"wrote {count} legacy pages")
+    print(f"relinked {rewrite_links(mapping)} preview pages")
+    subprocess.check_call([sys.executable, str(ROOT / "tools" / "build_site_map.py")])
+    return count
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--kind", choices=("county", "committee", "ratings"), required=True)
+    parser.add_argument("--kind", choices=("county", "committee", "ratings", "legacy"), required=True)
     args = parser.parse_args()
-    build(args.kind)
+    if args.kind == "legacy":
+        build_legacy()
+    else:
+        build(args.kind)
 
 
 if __name__ == "__main__":
