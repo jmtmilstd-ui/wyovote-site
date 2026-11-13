@@ -2604,7 +2604,7 @@ html.cand-general .page-trail .cand-view-general {
   border: 1px solid #a6a6a6;
   color: #1e6b1e;
   font-family: "Liberation Sans", Arial, sans-serif;
-  font-size: 11pt;
+  font-size: 12.5pt;
   font-weight: 700;
   line-height: 16pt;
 }
@@ -2625,20 +2625,20 @@ html.cand-general .page-trail .cand-view-general {
 .op-head,
 .op-row {
   display: grid;
-  grid-template-columns: 16pt 18pt 24pt 22pt minmax(0, 1fr);
+  grid-template-columns: 22pt 28pt 36pt 24pt minmax(0, 1fr);
   gap: 1.5pt;
   align-items: center;
-  margin: 3.5pt 0;
-  min-height: 17pt;
-  font-size: 8.75pt;
-  line-height: 10.5pt;
+  margin: 3.25pt 0;
+  min-height: 16.5pt;
+  font-size: 10pt;
+  line-height: 12pt;
 }
 
 .op-head {
   color: #142117;
-  font-size: 7pt;
+  font-size: 8pt;
   font-weight: 700;
-  line-height: 8pt;
+  line-height: 9pt;
   white-space: nowrap;
 }
 
@@ -2650,29 +2650,29 @@ html.cand-general .page-trail .cand-view-general {
   padding: 0 1pt;
   border: 1px solid #a6a6a6;
   color: #142117;
-  font-size: 8.75pt;
+  font-size: 10pt;
   font-weight: 700;
-  line-height: 12pt;
+  line-height: 13pt;
   text-align: center;
 }
 
 .op-votes {
   color: #7f7f7f;
-  font-size: 7.2pt;
+  font-size: 8.2pt;
   font-style: italic;
   font-weight: 400;
-  line-height: 9pt;
+  line-height: 10pt;
   text-align: center;
   text-decoration: none;
 }
 
 .op-name {
   min-width: 0;
-  font-size: 8.75pt;
+  font-size: 10pt;
   font-weight: 400;
-  line-height: 10.5pt;
+  line-height: 12pt;
   white-space: normal;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 .op-row .op-name a.wv-person {
