@@ -1,21 +1,24 @@
 {
   "county": "Sweetwater",
-  "status": "not_yet_posted",
+  "status": "complete",
   "cycle": "2026",
   "retrieved_date": "2026-11-13",
-  "primary_status": "unknown",
-  "general_status": "unknown",
-  "races_primary": 0,
-  "races_general": 0,
-  "named_candidates": 0,
-  "rows": 0,
-  "checks_ok": 0,
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 18,
+  "rows": 42,
+  "checks_ok": 24,
   "checks_failed": 0,
   "issues": [],
-  "notes": "The clerk election_returns page lists 2026 Primary Official Election Summary.pdf and Official Sweetwater Results.pdf (general, timestamped 2026-11-06). Direct fetches of those filenames via the county URL and cms7files.revize.com returned HTTP 404 to this host. Download in a browser from the page below.",
+  "notes": "Official primary and general summaries from the clerk election_returns page (headers OFFICIAL RESULTS; primary footer 08/31/2026, general 11/06/2026, 35 of 35 precincts). The general file Official Sweetwater Results.pdf carries a leftover Electionware template name 'State - General Election Summary' but contains county, municipal, school, and special-district races. Municipal races from the same summaries (including truncated primary town-council titles) are in the Phase 2 files. Primary and general official summaries parsed; all race totals checked.",
   "sources": {
     "results_page": "https://www.sweetwatercountywy.gov/departments/county_clerk/election_returns/index.php",
-    "primary_filename": "2026 Primary Official Election Summary.pdf",
-    "general_filename": "Official Sweetwater Results.pdf"
+    "primary": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf",
+    "general": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf",
+    "primary_status": "official",
+    "general_status": "official",
+    "notes": "Official primary and general summaries from the clerk election_returns page (headers OFFICIAL RESULTS; primary footer 08/31/2026, general 11/06/2026, 35 of 35 precincts). The general file Official Sweetwater Results.pdf carries a leftover Electionware template name 'State - General Election Summary' but contains county, municipal, school, and special-district races. Municipal races from the same summaries (including truncated primary town-council titles) are in the Phase 2 files."
   }
 }

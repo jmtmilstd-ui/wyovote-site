@@ -16,7 +16,11 @@ Retrieved date for this collection pass: 2026-11-13 (America/Denver).
 | `status/<county>.json` | Per-county collection status: `complete`, `partial`, or `not_yet_posted` |
 | `STATUS.md` | Roll-up table |
 | `raw/<county>/` | Unaltered official PDFs / XLSX and `.layout.txt` from `pdftotext -layout` |
-| `scripts/build_dataset.py` | Electionware summary parser and builders for Weston (keyed from official scans) and Laramie (roster only) |
+| `scripts/build_dataset.py` | Electionware summary parser and builders for visually verified scans (Weston and others) |
+| `scripts/phase2_municipal.py` | Municipal (city/town) parser for Laramie, Natrona, and Sweetwater summaries |
+| `phase2_municipal_2026.csv` | Phase 2: one row per named municipal candidate (plus Write-In Totals), from those three counties' official summaries only. Not a statewide municipal file. Extra columns: `phase`, `jurisdiction`, `office_kind`. |
+| `phase2_municipal_races_2026.csv` | Phase 2 race-level cross-checks for the same municipal contests |
+| `PHASE2.md` | Phase 2 notes, nomination rule, and truncated-title mappings |
 
 ## Candidate columns (`county_offices_2026.csv`)
 
@@ -60,8 +64,11 @@ Write-in-only party primaries generally produce no named general nominee unless 
 
 ## Office-title aliases seen on 2026 clerk reports
 
-`CO COMMISSIONER` / `CO. COMMISSIONER` / `CNTY COMMISSIONER` (Crook) / `COUNTY COMMISSIONERS` / `REP COMMISSIONER REP` (Carbon primary style); `CO CLERK` / `CO. CLERK` / `CNTY CLERK` / `REP CLERK REP`; `CO CLERK OF DISTR. COURT` / `CLERK OF COURT` / `CLERK OF DIST. COURT` / `CLERK OF THE DISTRICT COURT` / `DIST COURT CLERK` (Crook); `CO ATTORNEY` / `COUNTY AND PROSECUTING ATTORNEY`; Laramie uses `District Attorney` (normalized separately from County Attorney).
+`CO COMMISSIONER` / `CO. COMMISSIONER` / `CNTY COMMISSIONER` (Crook) / `COUNTY COMMISSIONERS` / `REP COMMISSIONER REP` (Carbon primary style); `CO CLERK` / `CO. CLERK` / `CNTY CLERK` / `REP CLERK REP`; `CO CLERK OF DISTR. COURT` / `CLERK OF COURT` / `CLERK OF DIST. COURT` / `CLERK OF THE DISTRICT COURT` / `DIST COURT CLERK` (Crook); `CO ATTORNEY` / `COUNTY AND PROSECUTING ATTORNEY`; Laramie and Natrona use `District Attorney` (normalized separately from County Attorney).
 
 ## What is not in this schema
 
 SOS statewide/legislative files, inferred incumbency, news or Ballot Brief totals, and any contact with clerks. No repo or site changes.
+
+Municipal, school, college, special-district, judicial-retention, and ballot-question races remain out of this Phase 1 file. City and town offices found in the Laramie, Natrona, and Sweetwater 2026 official summaries are keyed in the Phase 2 municipal CSVs (see `PHASE2.md`). Those three counties also use `District Attorney` (normalized separately from County Attorney), matching the existing Laramie alias.
+

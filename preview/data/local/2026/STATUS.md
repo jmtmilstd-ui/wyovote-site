@@ -14,15 +14,15 @@ Retrieved 2026-11-13 (America/Denver). Official clerk results only.
 | Goshen | partial | unofficial | unofficial | 16/8 | 13 | 24/0 | Official canvassed 2026 summaries were not posted; keyed from clerk-posted unofficial summaries. |
 | Hot Springs | complete | official | official | 16/8 | 15 | 24/0 | — |
 | Johnson | partial | not_posted | official | 0/8 | 10 | 8/0 | Official 2026 primary summary not found in the clerk Drive folder; unofficial primary scan and a public-test file are on disk and were not keyed as official results. |
-| Laramie | partial | not_posted | not_posted | 0/0 | 25 | 0/0 | WAF/HTTP 403 blocked download of official general PDF/XLSX from the CivicPlus clerk site; vote totals not collected. |
+| Laramie | complete | official | official | 16/8 | 25 | 24/0 | — |
 | Lincoln | complete | official | official | 16/8 | 17 | 24/0 | — |
-| Natrona | not_yet_posted | unknown | unknown | 0/0 | 0 | 0/0 | — |
+| Natrona | complete | official | official | 16/8 | 19 | 24/0 | — |
 | Niobrara | complete | official | official | 16/8 | 13 | 24/0 | — |
 | Park | complete | official | official | 16/8 | 20 | 24/0 | — |
 | Platte | not_yet_posted | unknown | unknown | 0/0 | 0 | 0/0 | — |
 | Sheridan | complete | official | official | 16/8 | 20 | 24/0 | — |
 | Sublette | complete | official | official | 16/8 | 19 | 24/0 | — |
-| Sweetwater | not_yet_posted | unknown | unknown | 0/0 | 0 | 0/0 | — |
+| Sweetwater | complete | official | official | 16/8 | 18 | 24/0 | — |
 | Teton | complete | official | official | 16/8 | 22 | 24/0 | — |
 | Uinta | complete | official | official | 16/8 | 16 | 24/0 | — |
 | Washakie | complete | official | official | 16/8 | 11 | 24/0 | — |

@@ -79,6 +79,8 @@ def party_name(code: str) -> str:
 def vote_cell(votes: str, result: str, status: str) -> str:
     if (votes or "").strip():
         return esc(votes.strip())
+    if (result or "").strip() == "withdrawn":
+        return "Withdrawn"
     if (result or "").strip() == "not_on_ballot":
         return "Not on ballot"
     if (status or "").strip() in ("not_posted", "not_yet_posted", "unknown") or (result or "").strip() == "not_posted":
@@ -116,7 +118,6 @@ NOTES = {
         "The general abstract prints surnames only."
     ),
     "Johnson": "An official primary summary was not posted.",
-    "Laramie": "Names are from the county candidate roster. Vote totals were not posted.",
     "Weston": "The commissioner surname Nessle was read from a vertical header.",
 }
 
@@ -174,6 +175,8 @@ def row_html(row: dict) -> str:
         shown = esc(name)
         if (row.get("winner") or "").strip() == "Y":
             name_html = f"<strong>{shown}</strong> <strong>(Winner)</strong>"
+        elif (row.get("primary_result") or "").strip() == "withdrawn":
+            name_html = f"{shown} <strong>(Withdrawn)</strong>"
         else:
             name_html = shown
     primary = vote_cell(row.get("primary_votes") or "", row.get("primary_result") or "", row.get("primary_status") or "")
