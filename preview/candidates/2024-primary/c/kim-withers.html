@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,7 +32,7 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Kim Withers</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
           <p class="cand-blurb">Kim Withers (Republican, Cheyenne). Lost the Aug. 20, 2024 Republican primary for State Senate District 6 with 8.1% of the vote.</p>
           <p class="cand-meta">Republican · Cheyenne, Laramie County</p>
@@ -42,13 +42,13 @@
           <table class="cand-facts">
           <tr><th scope="row">Background</th><td><p>I served as the CEO of Meridian Trust for 32 years and have been a key figure in economic development and community service. I had turnaround a struggling credit union to where it is today with 11 branches, 9 of which are in Wyoming with $680 million in assets. With my husband, we&#x27;ve owned several businesses from a tree and drip irrigation business to real estate. I have a Bachelor&#x27;s Degree in Business Administration and a Masters of Science in Human Resources. My leadership extended beyond my professional role into significant local impacts, including Friday Food Bag, Rotarian, CFD Old West Museum, and presently the Cheyenne-Laramie County Joint Powers Board. …</p></td></tr>
           <tr><th scope="row">Positions</th><td><p class="cand-topic">How, within the framework of a lawmaker&#x27;s powers and duties, would you address the biggest challenges and opportunities facing Wyoming today?</p><p>I&#x27;ve seen the economy through booms, busts, and all phases of the economy and the market. Making progress may be seem overly optimistic, but I&#x27;m committed to developing an agenda focused on my district&#x27;s needs. I want to honor the role of being a true, statesman. …</p><p class="cand-topic">As a state lawmaker, what will guide your approach to local control? How do you determine when a decision should be left to local leaders or made by the Wyoming Legislature?</p><p>In attending meetings and seeing the Platte County Commissioners, Town Councils, and Laramie County Commissioners in action, the decision making is clear. The elected officials make decisions more effectively for local issues. …</p><p class="cand-topic">Wyoming has wrestled for years with issues of housing, health care, education and economic development. What do you believe the state&#x27;s role should be in supporting the well-being of Wyoming citizens and their families?</p><p>Each of these areas affect the quality of life for people in Wyoming. States that are engaged and are intent on its purpose to serve its citizens is reflected in the vibrancy of our small towns, counties, and districts. …</p><p class="cand-topic">How willing are you to compromise with legislators and other officials with different perspectives?</p><p>Differing perspectives can offer solutions in a constructive manner without sacrificing principles and values.</p><p class="cand-topic">How do you balance the often competing demands of wildlife and open spaces versus energy, industrial and real estate development?</p><p>Wyoming is renowned for its heritage in wildlife, conservation, and open spaces for all kinds of outdoor recreation. Wyoming prides itself on having a business-friendly environment and our full support in energy development. …</p></td></tr>
-          <tr><th scope="row">Website</th><td><a href="https://KIMWITHERS.COM">https://KIMWITHERS.COM</a></td></tr>
+          <tr><th scope="row">Website</th><td><a href="https://KIMWITHERS.COM">https://KIMWITHERS.COM</a> <span class="ext">(leaves WyoVote)</span> </td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/2024_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2024 primary candidate filing list</a></li>
-          <li><a href="https://projects.wyofile.com/election-guide-2024/candidates/kimberley-withers/">WyoFile 2024 Election Guide (candidate questionnaire / profile)</a></li>
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip">Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/2024_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2024 primary candidate filing list</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://projects.wyofile.com/election-guide-2024/candidates/kimberley-withers/">WyoFile 2024 Election Guide (candidate questionnaire / profile)</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip">Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span> </li>
           </ul>
           </section>
       </div></section>
@@ -76,7 +76,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

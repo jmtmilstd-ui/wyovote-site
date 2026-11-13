@@ -1,0 +1,24 @@
+{
+  "county": "Sheridan",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 20,
+  "rows": 44,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Official primary summary is a scanned image PDF; general is text and is parsed. Primary votes not yet keyed. Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://www.sheridancountywy.gov/departments/elections/2026_election_results.php",
+    "primary": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/Primary/Official%20Results.pdf",
+    "general": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/General/Reports/Election%20Summary%20Report-Official.pdf",
+    "primary_status": "official",
+    "general_status": "official",
+    "notes": "Official primary summary is a scanned image PDF; general is text and is parsed. Primary votes not yet keyed."
+  }
+}

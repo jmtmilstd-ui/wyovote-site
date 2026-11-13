@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,7 +32,7 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Robyn M. Belinskey</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
           <p class="cand-blurb">Robyn M. Belinskey (Republican, Sheridan): Paralegal. Lost the Aug. 16, 2022 Republican primary for U.S. Representative with 0.8% of the vote.</p>
           <p class="cand-meta">Republican · Sheridan, Sheridan County</p>
@@ -44,15 +44,15 @@
           <tr><th scope="row">Background</th><td><p>As a US citizen and resident of Wyoming having worked as a paralegal in various aspects of litigation, e.g., land use, real estate, worker&#x27;s compensation and wills &amp; trusts, etc. has given me a wide ranging background in law. I am relatable and approachable to the general public and understand what Wyoming voters face on an everyday basis. As Wyoming&#x27;s next Congresswoman I will represent &quot;We the People&quot; to the best of my ability with common sense and reason.</p></td></tr>
           <tr><th scope="row">Positions</th><td><p class="cand-topic">Do you support or oppose federal legislation to reduce dependency on extractive energy industries? Please explain.</p><p>I oppose federal legislation to reduce dependency on extractive energy industries. We still need oil, coal and gas in the state of Wyoming. The US should not be dependent on foreign extractive energy resources.</p><p class="cand-topic">Do you support or oppose federal legislation to reduce dependency on extractive energy industries? Please explain.</p><p>Media is protected by the First Amendment of free speech and has become &quot;heresay&quot; instead of informative and news worthy. Self regulation of the media as opposed to governmental interference is preferred. Media should adhere to a higher standard of journalism than &quot;social media.&quot;</p><p class="cand-topic">What should the U.S. role be as a member of NATO?</p><p>I support US membership in NATO. However, I feel a greater emphasis should be placed on member nation&#x27;s participation in equitably sharing common goals regarding defense and security issues in order to secure mutual member nation respect in conflict resolution.</p><p class="cand-topic">Please explain your position on congressional regulation of media content.</p><p>Media is protected by the First Amendment of free speech and has become “here say” instead of informative and news worthy. Self regulation of the media as opposed to governmental interference is preferred. Media should adhere to a higher standard of journalism than “social media.”</p></td></tr>
           <tr><th scope="row">Fundraising</th><td>Raised $2,800. Spent $4,343.99. 2021-2022 election cycle, through Sep. 30, 2022.</td></tr>
-          <tr><th scope="row">Website</th><td><a href="https://WWW.FREEDOM4WYOMING.ORG">https://WWW.FREEDOM4WYOMING.ORG</a></td></tr>
+          <tr><th scope="row">Website</th><td><a href="https://WWW.FREEDOM4WYOMING.ORG">https://WWW.FREEDOM4WYOMING.ORG</a> <span class="ext">(leaves WyoVote)</span> </td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a></li>
-          <li><a href="https://wyominglwv.org/wp-content/uploads/2022/07/2022_Wyoming-State-Wide-Primary-Voter-Guide.pdf">League of Women Voters of Wyoming 2022 Statewide Primary Voter Guide</a></li>
-          <li><a href="https://wyominglwv.org/wp-content/uploads/2022/09/FC_2022_Primary_VG.pdf">League of Women Voters of Fremont County 2022 Primary Voter Guide</a></li>
-          <li><a href="https://www.fec.gov/data/candidate/H2WY29017/?cycle=2022">FEC candidate totals (OpenFEC API)</a></li>
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://wyominglwv.org/wp-content/uploads/2022/07/2022_Wyoming-State-Wide-Primary-Voter-Guide.pdf">League of Women Voters of Wyoming 2022 Statewide Primary Voter Guide</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://wyominglwv.org/wp-content/uploads/2022/09/FC_2022_Primary_VG.pdf">League of Women Voters of Fremont County 2022 Primary Voter Guide</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://www.fec.gov/data/candidate/H2WY29017/?cycle=2022">FEC candidate totals (OpenFEC API)</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span> </li>
           </ul>
           </section>
       </div></section>
@@ -80,7 +80,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

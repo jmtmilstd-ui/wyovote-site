@@ -19,7 +19,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -30,7 +30,7 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Julie McCallister</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
           <p class="cand-blurb">Julie McCallister (Republican, Rock River). Lost the Aug. 16, 2022 Republican primary for State House District 14 with 46.9% of the vote.</p>
           <p class="cand-meta">Republican · Rock River, Albany County</p>
@@ -40,14 +40,14 @@
           <table class="cand-facts">
           <tr><th scope="row">Background</th><td><p>Julie McCallister earned her bachelor&#x27;s degree in 2004 and an M.D. in 2006 from the University of Wyoming.</p><p>I know what it will take to innovate our local industries having worked for the University Of Wyoming for 6 years in oil and gas upgrading research. There I also earned a bachelors in Political Science, and a Masters in Public Administration. I spent all the time I could in Wyoming with family, My Uncle John Story of Dubois, and my Grandfather and Grandmother Charles and Maydeane Jones of Riverton fostered and grew my love of Wyoming, and the outdoors from a young age. I came home to Wyoming when I was 19, because I knew exactly where I belonged. When I become active in state politics in 2013, I have been successful helping pass several bills. I know how to lobby successfully for quality legislation, and how advocate for constituents.</p><p>The pandemic highlighted the state of Wyoming’s need for more viable options for our residents to access critical care. Two major providers in our state have ceased labor and delivery services, among growing cuts that have led to less services available for our residents as well as reduced quality. This is an issue that needs to be resolved now. I am not comfortable with the federal overreach expansion of Medicaid could risk, but I am even less comfortable with Wyoming taxpayers paying into a Medicaid system they do not get full benefit from. This issue needs resolution and movement in the next session. Exactly what that solution should be needs to be a consortium of ideas of all vested parties, and moving forward with the best solution.</p><p>Wyoming needs to diversify and strengthen its state revenue, but there are a number of places that this revenue should not be generated from. Specifically state income tax or food tax. Both of these are regressive taxation that will hurt our residents. There are a number of areas where revenue can be generated that are not regressive in nature. Wind Energy and other stable industries are areas where more or new revenue can be collected. Wyoming has long done a diligent job of defending key Wyoming industries like oil, gas, and ranching. While these industries are incredibly important,many other legacy industry’s that also would benefit from action by legislature. Wyoming’s travel, outdoor recreation, hunting, manufacturing, and many more.</p><p>Neither Agree nor Disagree. The state of Wyoming has to follow a supreme court decision on how to fund our schools. That does not mean that our school funding is completely adequate. The state of Wyoming needs more dedicated funding for our schools. I am pleased to see charter schools expanding to a small degree in the state of Wyoming, as options for education are essential to parent choice. Wyoming could, and</p></td></tr>
           <tr><th scope="row">Education</th><td>Bachelor&#x27;s: University of Wyoming, 2004; M.D.: University of Wyoming, 2006; Graduate: University of Wyoming</td></tr>
-          <tr><th scope="row">Website</th><td><a href="https://HTTPS://WWW.FACEBOOK.COM/JULIE-MCCALLISTER-FOR-HD14-100558812674897/">HTTPS://WWW.FACEBOOK.COM/JULIE-MCCALLISTER-FOR-HD14-100558812674897/</a></td></tr>
+          <tr><th scope="row">Website</th><td><a href="https://HTTPS://WWW.FACEBOOK.COM/JULIE-MCCALLISTER-FOR-HD14-100558812674897/">HTTPS://WWW.FACEBOOK.COM/JULIE-MCCALLISTER-FOR-HD14-100558812674897/</a> <span class="ext">(leaves WyoVote)</span> </td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a></li>
-          <li><a href="https://ballotpedia.org/Julie_McCallister">Ballotpedia</a></li>
-          <li><a href="https://wyominglwv.org/wp-content/uploads/2022/07/2022_Laramie_Albany-County-Primary-Voter-Guide.pdf">League of Women Voters of Albany County 2022 Primary Voter Guide</a></li>
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://ballotpedia.org/Julie_McCallister">Ballotpedia</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://wyominglwv.org/wp-content/uploads/2022/07/2022_Laramie_Albany-County-Primary-Voter-Guide.pdf">League of Women Voters of Albany County 2022 Primary Voter Guide</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span> </li>
           </ul>
           </section>
       </div></section>
@@ -75,7 +75,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

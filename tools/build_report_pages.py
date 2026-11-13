@@ -1069,7 +1069,7 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
       </section>
       <section class="page-body">
         <div class="wrap report-sheet wv-sheet">
-          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(pdf_href)}" target="_blank" rel="noopener">Print (PDF)</a></p>
+          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(pdf_href)}">Print (PDF)</a></p>
           {"".join(parts)}
         </div>
       </section>
@@ -1193,7 +1193,7 @@ def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> N
       <section class="page-body">
         <div class="wrap report-sheet">
           <p class="report-kicker">{esc(parsed["subtitle"])}</p>
-          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(pdf_href)}" target="_blank" rel="noopener">Print (PDF)</a></p>
+          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(pdf_href)}">Print (PDF)</a></p>
           {"".join(parts)}
         </div>
       </section>
@@ -1273,13 +1273,7 @@ def retarget_full_ratings() -> int:
             if not pdf.is_file():
                 return match.group(0)
             new_href = Path(os.path.relpath(pdf, html_path.parent)).as_posix()
-            blob = before + after
-            extra = ""
-            if "target=" not in blob:
-                extra += ' target="_blank"'
-            if "rel=" not in blob:
-                extra += ' rel="noopener"'
-            return f'<a{before}href="{new_href}"{after}{extra}>'
+            return f'<a{before}href="{new_href}"{after}>'
 
         text = anchor.sub(replace, text)
         if text != original:
@@ -1325,6 +1319,7 @@ def build(kind: str) -> int:
     if kind == "ratings":
         print(f"pointed {retarget_full_ratings()} full Ranked/Alpha links at the PDFs")
     subprocess.check_call([sys.executable, str(ROOT / "tools" / "build_site_map.py")])
+    subprocess.check_call([sys.executable, str(ROOT / "tools" / "mark_outside_links.py")])
     return count
 
 
@@ -1467,6 +1462,7 @@ def build_legacy() -> int:
     print(f"wrote {count} legacy pages")
     print(f"relinked {rewrite_links(mapping)} preview pages")
     subprocess.check_call([sys.executable, str(ROOT / "tools" / "build_site_map.py")])
+    subprocess.check_call([sys.executable, str(ROOT / "tools" / "mark_outside_links.py")])
     return count
 
 

@@ -19,7 +19,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -30,7 +30,7 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Don Odom</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
           <p class="cand-blurb">Don Odom (Republican, Cheyenne): Professional truck driver in the oilfields of Wyoming. Lost the Aug. 16, 2022 Republican primary for State House District 61 with 25.2% of the vote.</p>
           <p class="cand-meta">Republican · Cheyenne, Laramie County</p>
@@ -41,14 +41,14 @@
           <tr><th scope="row">Occupation</th><td>Professional truck driver in the oilfields of Wyoming</td></tr>
           <tr><th scope="row">Background</th><td><p>I&#x27;m a professional truckdriver in the oilfields of Wyoming. I believe more blue collar average Americans need to get involved in our government. I&#x27;ve been a conservative since 1980 when I voted for Ronald Reagan in my first election. I intend to serve for We The People, not we the politicians, not we the government, and not even we the Republican party. My motto is: Say what you mean and mean what you say.</p></td></tr>
           <tr><th scope="row">Positions</th><td><p class="cand-topic">Rights, school choice, and individual freedom</p><p>I am passionate about protecting 2nd amendment rights, the life of the unborn, school choice, and individual freedom.</p><p class="cand-topic">Property taxes, income tax, and government overreach</p><p>I support reforming the Wyoming property tax system, and resisting any effort to pass a state income tax, government overreach, and mandates of any kind.</p></td></tr>
-          <tr><th scope="row">Website</th><td><a href="https://DonOdomforWyoming.com">https://DonOdomforWyoming.com</a></td></tr>
+          <tr><th scope="row">Website</th><td><a href="https://DonOdomforWyoming.com">https://DonOdomforWyoming.com</a> <span class="ext">(leaves WyoVote)</span> </td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a></li>
-          <li><a href="https://ballotpedia.org/Don_Odom#Campaign_themes">Ballotpedia Candidate Connection survey, 2022 (Don Odom)</a></li>
-          <li><a href="https://ballotpedia.org/Don_Odom">Ballotpedia</a></li>
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://ballotpedia.org/Don_Odom#Campaign_themes">Ballotpedia Candidate Connection survey, 2022 (Don Odom)</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://ballotpedia.org/Don_Odom">Ballotpedia</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span> </li>
           </ul>
           </section>
       </div></section>
@@ -76,7 +76,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

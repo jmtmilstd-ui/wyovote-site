@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,7 +32,7 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>R. Ray Peterson</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
           <p class="cand-blurb">R. Ray Peterson (Republican, Cowley): Wyoming State Senate District 19, 2004–2019. Lost the Aug. 16, 2022 Republican primary for State Senate District 19 with 25.9% of the vote.</p>
           <p class="cand-meta">Republican · Cowley, Big Horn County</p>
@@ -43,13 +43,13 @@
           <tr><th scope="row">Background</th><td><p>Peterson attended Northwest College from 1977 to 1978. He went on to attend Brigham Young University from 1981 to 1982. He has worked as Vice President for Office Shop Incorporated since 1984. Peterson served on the Town Council of Cowley from 1986 to 1992. He then served as County Commissioner for Big Horn County in from 1992 to 2000. In 2002, Peterson ran for the Wyoming State Senate but was defeated. He was then appointed to the Wyoming State Senate in 2005.</p></td></tr>
           <tr><th scope="row">Education</th><td>Peterson attended Northwest College from 1977 to 1978.</td></tr>
           <tr><th scope="row">Prior offices</th><td>Wyoming State Senate District 19, 2004–2019</td></tr>
-          <tr><th scope="row">Website</th><td><a href="https://RAYPETERSON.US">https://RAYPETERSON.US</a></td></tr>
+          <tr><th scope="row">Website</th><td><a href="https://RAYPETERSON.US">https://RAYPETERSON.US</a> <span class="ext">(leaves WyoVote)</span> </td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a></li>
-          <li><a href="https://ballotpedia.org/Ray_Peterson">Ballotpedia</a></li>
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://ballotpedia.org/Ray_Peterson">Ballotpedia</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span> </li>
           </ul>
           </section>
       </div></section>
@@ -77,7 +77,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

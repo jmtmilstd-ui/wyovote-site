@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Troy Bray — 2022 Primary — WyoVote</title>
-    <meta name="description" content="Troy Bray (Republican, Powell). Lost the Aug. 16, 2022 Republican primary for State House District 25 with 16.6% of the vote.">
+    <meta name="description" content="Troy Bray (Republican, Powell): Park County Republican Party precinct committeeman. Lost the Aug. 16, 2022 Republican primary for State House District 25 with 16.6% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,16 +32,24 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Troy Bray</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Troy Bray (Republican, Powell). Lost the Aug. 16, 2022 Republican primary for State House District 25 with 16.6% of the vote.</p>
+          <p class="cand-blurb">Troy Bray (Republican, Powell): Park County Republican Party precinct committeeman. Lost the Aug. 16, 2022 Republican primary for State House District 25 with 16.6% of the vote.</p>
           <p class="cand-meta">Republican · Powell, Park County</p>
           <p class="cand-res">Primary result: Lost, 470 votes (16.6%), 4th of 4.</p>
           <section class="cand-research" aria-labelledby="h-research">
+          <h2 id="h-research">Research</h2>
+          <table class="cand-facts">
+          <tr><th scope="row">Background</th><td><p>A Powell resident and Park County GOP precinct committeeman, he filed for HD25 after Rep. Dan Laursen decided to run for Senate. Cowboy State Daily reported he had also run unsuccessfully for Natrona County commissioner in 2012 and 2014. Those 2022 profiles also discussed a September 2021 profane email to Sen. Tara Nethercott for which he later apologized for the language but not the sentiment; that episode is noted here only as contemporary campaign context reported by those papers.</p></td></tr>
+          <tr><th scope="row">Prior offices</th><td>Park County Republican Party precinct committeeman</td></tr>
+          <tr><th scope="row">Positions</th><td><p class="cand-topic">Constitutional conservatism, COVID-era powers, taxes and education</p><p>He called himself a constitutional conservative and, in a Cowboy State Daily interview, a “constitutional conservative Libertarian Republican,” saying his biggest concerns were individual liberties and adherence to the Constitution. He criticized Gov. Mark Gordon’s COVID-19 business shutdowns as overreach, said the Legislature should have limited the governor’s emergency powers, and told the Powell Tribune he hated taxes and wanted less state control of home-schooling and an education focus on “things that actually matter, like math and science,” while saying Powell schools themselves were good. He also said he would try to get rid of corruption and the “good old boy network.”</p></td></tr>
+          </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a></li>
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://powelltribune.com/stories/constitutional-conservative-files-to-run-for-hd25,40677">Powell Tribune, “Constitutional Conservative files to run for HD25,” Eric Gill, May 24, 2022</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://cowboystatedaily.com/2022/05/27/most-crowded-primary-in-wyoming-house-district-25-in-park-county/">Cowboy State Daily, “Most-Crowded Primary In Wyoming: House District 25 In Park County,” May 27, 2022</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span> </li>
           </ul>
           </section>
       </div></section>
@@ -69,7 +77,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

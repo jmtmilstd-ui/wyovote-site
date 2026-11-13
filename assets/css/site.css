@@ -1893,6 +1893,22 @@ html.cand-general .cand-view-general {
   font-weight: 700;
 }
 
+html.cand-local .cand-page .page-body a.cand-election-btn[data-election="primary"] {
+  outline: none;
+}
+
+.ext {
+  color: #444;
+  font-size: 0.85em;
+  font-weight: 400;
+  margin-left: 0.35em;
+}
+
+.cand-page .page-body a.cand-election-btn[data-election="local"][aria-current="true"] {
+  outline: 3px solid #a07808;
+  outline-offset: 3px;
+}
+
 .site-nav a.site-map-link {
   margin-left: 0.35rem;
   border: 2px solid #0e2a18;

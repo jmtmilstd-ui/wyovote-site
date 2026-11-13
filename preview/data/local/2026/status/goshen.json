@@ -1,0 +1,27 @@
+{
+  "county": "Goshen",
+  "status": "partial",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "unofficial",
+  "general_status": "unofficial",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 13,
+  "rows": 37,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [
+    "Official canvassed 2026 summaries were not posted; keyed from clerk-posted unofficial summaries."
+  ],
+  "notes": "Official 2026 summaries are not on the Election Results page as of 2026-11-13; keyed from clerk-posted unofficial summaries (14 of 14 precincts). Do not treat as canvassed official.",
+  "sources": {
+    "results_page": "https://www.goshencountywy.gov/191/Election-Results",
+    "unofficial_page": "https://www.goshencountywy.gov/384/Unofficial-Election-Results",
+    "primary": "https://www.goshencountywy.gov/DocumentCenter/View/1512/UNOFFICIAL-2026-Primary-Election-Goshen-County-Summary-Report",
+    "general": "https://www.goshencountywy.gov/DocumentCenter/View/1539/2026-GENERAL-ELECTION-UNOFFICIAL-RESULTS",
+    "primary_status": "unofficial",
+    "general_status": "unofficial",
+    "notes": "Official 2026 summaries are not on the Election Results page as of 2026-11-13; keyed from clerk-posted unofficial summaries (14 of 14 precincts). Do not treat as canvassed official."
+  }
+}

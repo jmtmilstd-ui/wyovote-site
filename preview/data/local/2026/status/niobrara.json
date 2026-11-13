@@ -1,0 +1,25 @@
+{
+  "county": "Niobrara",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 13,
+  "rows": 37,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://www.niobraracounty.org/_departments/_county_clerk/ElectionResults.asp",
+    "primary": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf",
+    "general": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf",
+    "roster_general": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/2026%20General%20Election%20Candidate_Roster.pdf",
+    "roster_primary": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/Primary%20Election%20Candidates.pdf",
+    "primary_status": "official",
+    "general_status": "official"
+  }
+}

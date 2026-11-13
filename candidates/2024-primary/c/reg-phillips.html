@@ -19,7 +19,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -30,7 +30,7 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Reg Phillips</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
           <p class="cand-blurb">Reg Phillips (Republican, Dubois). Lost the Aug. 20, 2024 Republican primary for State House District 34 with 39.6% of the vote.</p>
           <p class="cand-meta">Republican · Dubois, Fremont County</p>
@@ -41,14 +41,14 @@
           <tr><th scope="row">Background</th><td><p>I grew up with ranching and farming, part-time placer gold operations in central Arizona and real estate. The focus of my adult life has been cow/calf/yearling operations. As a Board Member for our local Conservation and Rural Fire Districts, I have been involved with budgets for Special Districts and the enabling legislation and have worked with local legislators when needed. I have participated in the Shoshone Forest Plan Revision, the Fremont County Natural Resource Plan Revision, Fremont County&#x27;s Wyoming Public Lands Initiative (BLM Wilderness Study Areas) and Governor Mead&#x27;s Task Force on Forests. …</p></td></tr>
           <tr><th scope="row">Positions</th><td><p class="cand-topic">How, within the framework of a lawmaker&#x27;s powers and duties, would you address the biggest challenges and opportunities facing Wyoming today?</p><p>I would continue to support the core industries that have made Wyoming the great state that it is. I know that coal, oil, and gas are under pressure today and believe that we need to continue to try to find new technologies that will continue to make our energy production a part of the total national power grid. …</p><p class="cand-topic">As a state lawmaker, what will guide your approach to local control? How do you determine when a decision should be left to local leaders or made by the Wyoming Legislature?</p><p>When local issues are not the same throughout the State, those issues should be left to the local leaders. When issues are mostly the same throughout the State and have the same effects, then, maybe, the Legislature should have those discussions with their local leaders and see if State action is warranted.</p><p class="cand-topic">Wyoming has wrestled for years with issues of housing, health care, education and economic development. What do you believe the state&#x27;s role should be in supporting the well-being of Wyoming citizens and their families?</p><p>All of those issues are more relevant today then they were yesterday, and the State must be more supportive of private sectors. That support may be in the form of short-term relief from taxes, infrastructure support or waiving some fees for housing issues. …</p><p class="cand-topic">How willing are you to compromise with legislators and other officials with different perspectives?</p><p>All of life is a compromise or negotiation. If we cannot have discussions where all thoughts are heard, we will only move backwards. …</p><p class="cand-topic">How do you balance the often competing demands of wildlife and open spaces versus energy, industrial and real estate development?</p><p>The competing demands all have their place. I believe the open spaces provided by ranchers and farmers are of the utmost importance to wildlife and that should always be a partnership with Wyoming&#x27;s wildlife managers. …</p></td></tr>
           <tr><th scope="row">Fundraising</th><td>Raised $21,947. Spent $21,790.80. 2023-2024 election cycle (contributions tagged to the 2024 cycle in WyCFIS), through Nov. 26, 2024.</td></tr>
-          <tr><th scope="row">Website</th><td><a href="https://www.regforhd34.com/">https://www.regforhd34.com/</a></td></tr>
+          <tr><th scope="row">Website</th><td><a href="https://www.regforhd34.com/">https://www.regforhd34.com/</a> <span class="ext">(leaves WyoVote)</span> </td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/2024_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2024 primary candidate filing list</a></li>
-          <li><a href="https://projects.wyofile.com/election-guide-2024/candidates/reginald-phillips/">WyoFile 2024 Election Guide (candidate questionnaire / profile)</a></li>
-          <li><a href="https://www.wycampaignfinance.gov/WYCFWebApplication/GSF_SystemConfiguration/SearchContributions.aspx">Wyoming Campaign Finance Information System filings (via WyoVote money store)</a></li>
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip">Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/2024_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2024 primary candidate filing list</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://projects.wyofile.com/election-guide-2024/candidates/reginald-phillips/">WyoFile 2024 Election Guide (candidate questionnaire / profile)</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://www.wycampaignfinance.gov/WYCFWebApplication/GSF_SystemConfiguration/SearchContributions.aspx">Wyoming Campaign Finance Information System filings (via WyoVote money store)</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip">Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span> </li>
           </ul>
           </section>
       </div></section>
@@ -76,7 +76,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

@@ -19,7 +19,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -30,7 +30,7 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Steve Bray</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
           <p class="cand-blurb">Steve Bray (Republican, Casper). Lost the Aug. 16, 2022 Republican primary for State House District 37 with 47.0% of the vote.</p>
           <p class="cand-meta">Republican · Casper, Natrona County</p>
@@ -38,12 +38,16 @@
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
-          <tr><th scope="row">Website</th><td><a href="https://STEVEBRAY.COM">https://STEVEBRAY.COM</a></td></tr>
+          <tr><th scope="row">Background</th><td><p>A 2012 and 2022 Republican primary challenger to Rep. Steve Harshman in HD37. Oil City’s July 22, 2022 Natrona County questionnaire compilation listed him but did not link a completed questionnaire; a July 2022 Politics in the Park forum preview said he did not attend that event.</p></td></tr>
+          <tr><th scope="row">Positions</th><td><p class="cand-topic">COVID-19 mandates and party conservatism</p><p>Oil City News reported that Bray, in a message on his campaign website, criticized the Wyoming Legislature for what he saw as a failure to protect against overreach of federal mandates during the COVID-19 pandemic, challenged the conservative credentials of incumbent Steve Harshman, and said “we need a ‘red wave’ in Wyoming of actual Republicans.”</p></td></tr>
+          <tr><th scope="row">Website</th><td><a href="https://STEVEBRAY.COM">https://STEVEBRAY.COM</a> <span class="ext">(leaves WyoVote)</span> </td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a></li>
-          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://oilcity.news/community/elections/2022/08/16/rep-harshman-defeats-bray-in-republican-primary-race-for-wyoming-house-district-37/">Oil City News, “Rep. Harshman defeats Bray in Republican Primary race for Wyoming House District 37,” Brendan LaChance, Aug. 16, 2022</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://oilcity.news/community/elections/2022/07/22/candidate-questionnaires-for-natrona-county-primary-ballot/">Oil City News, “Guide to candidates for Natrona County primary ballot,” July 22, 2022</a> <span class="ext">(leaves WyoVote)</span> </li>
+          <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span> </li>
           </ul>
           </section>
       </div></section>
@@ -71,7 +75,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

@@ -86,12 +86,33 @@ BACK_SCRIPT = r"""<script>
     </script>"""
 
 
+EMAIL_RE = re.compile(r"\b[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}\b")
+PHONE_RE = re.compile(r"(?:\+?1[\s.-]?)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b")
+BOX_RE = re.compile(r"\b(?:p\.?\s*o\.?\s*box|po box)\s*\d+\b", re.I)
+STREET_RE = re.compile(
+    r"(?i)(?:mailing address:\s*)?\b\d{1,6}\s+(?:[A-Za-z0-9.'#-]+\s+){0,6}"
+    r"(?:Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Lane|Ln|Boulevard|Blvd|Court|Ct|Circle|Cir|Place|Pl|Way|Trail|Highway|Hwy)\b\.?"
+    r"(?:,\s*[A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3}(?:,?\s+[A-Z]{2})?(?:\s+\d{5})?)?"
+)
+PRIVATE_WORD_RE = re.compile(r"iverson|open range record|coefficient", re.I)
+
+
 def clean(value) -> str | None:
     if not isinstance(value, str):
         return None
     text = value.split("googletag")[0].strip()
+    text = EMAIL_RE.sub("", text)
+    text = PHONE_RE.sub("", text)
+    text = BOX_RE.sub("", text)
+    text = STREET_RE.sub("", text)
+    text = re.sub(r"(?i)\bmailing address:\s*", "", text)
+    text = re.sub(r"(?i)\blive at\s*(?:[.,]\s*)?in\b", "live in", text)
     text = re.sub(r"\s+", " ", text)
-    text = re.sub(r"\s+([,.;:])", r"\1", text)
+    text = re.sub(r"(?<!\.)\.\.(?!\.)", ".", text)
+    text = re.sub(r"(\d{4})[–-]\1\b", r"\1", text)
+    text = re.sub(r"\s+([,.;:])", r"\1", text).strip(" ,;")
+    if PRIVATE_WORD_RE.search(text):
+        return None
     if text.lower().rstrip(".") in BLANK:
         return None
     return text or None
@@ -189,7 +210,7 @@ def offices_text(node) -> str | None:
             continue
         start = clean(str(item.get("start"))) if item.get("start") else None
         end = clean(str(item.get("end"))) if item.get("end") else None
-        if start and end:
+        if start and end and start != end:
             lines.append(f"{office}, {start}–{end}")
         elif start:
             lines.append(f"{office}, {start}")
@@ -379,8 +400,29 @@ def load_archive(archive: Path, cycle: str) -> list[dict]:
     return records
 
 
+def compile_general_only(person: dict, cycle: dict) -> dict:
+    """A candidate who was not in the primary. The cycle result is the general."""
+    record = compile_record(person, cycle)
+    result = cycle.get("result") if isinstance(cycle.get("result"), dict) else {}
+    record["result"] = None
+    record["general"] = general_record(result)
+    record["general_only"] = True
+    record["counties"] = cycle.get("district_counties") or ["Statewide"]
+    record["_office"] = cycle.get("office_sought")
+    record["_district"] = cycle.get("district")
+    return record
+
+
 def esc(text: str) -> str:
     return html.escape(text, quote=True)
+
+
+def outside_link(href: str, text: str) -> str:
+    """A link that leaves WyoVote, opened in the same tab."""
+    return (
+        f'<a href="{esc(href)}">{esc(text)}</a> '
+        '<span class="ext">(leaves WyoVote)</span>'
+    )
 
 
 def result_sentence(result: dict) -> str:
@@ -450,7 +492,7 @@ def table_rows(record: dict) -> list[tuple[str, str]]:
         rows.append(("Prior offices", esc(record["prior_offices"])))
     if record.get("website"):
         site = record["website"]
-        rows.append(("Website", f'<a href="{esc(site["href"])}">{esc(site["text"])}</a>'))
+        rows.append(("Website", outside_link(site["href"], site["text"])))
     if record.get("positions"):
         chunks = []
         for item in record["positions"]:
@@ -477,7 +519,7 @@ def research_html(record: dict) -> str:
         parts.append('            <h2 id="h-sources">Sources</h2>')
         parts.append('            <ul class="cand-sources">')
         for source in record["sources"]:
-            parts.append(f'              <li><a href="{esc(source["url"])}">{esc(source["name"])}</a></li>')
+            parts.append(f'              <li>{outside_link(source["url"], source["name"])}</li>')
         parts.append("            </ul>")
     parts.append("          </section>")
     return "\n".join(parts)
@@ -572,7 +614,8 @@ def write_pages(records: list[dict]) -> int:
 def write_shards(records: list[dict], cycle: str) -> None:
     folder = DATA_DIR / cycle
     folder.mkdir(parents=True, exist_ok=True)
-    for old in folder.glob("*.json"):
+    # Keep general.json and general-only.json. Those are not primary shards.
+    for old in folder.glob("part-*.json"):
         old.unlink()
     single = DATA_DIR / f"{cycle}.json"
     if single.is_file():
@@ -595,6 +638,51 @@ def write_shards(records: list[dict], cycle: str) -> None:
         path = folder / f"part-{index:02d}.json"
         path.write_text(json.dumps(shard, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         print(f"wrote {path} ({path.stat().st_size} bytes, {len(shard)} records)")
+    mirror_research(cycle)
+
+
+def install_general_files(archive: Path, cycle: str) -> None:
+    """Copy the certified general file and compile general-only bios."""
+    year = cycle.split("-", 1)[0]
+    folder = DATA_DIR / cycle
+    folder.mkdir(parents=True, exist_ok=True)
+    general = archive / "cycles" / year / "general.json"
+    if general.is_file():
+        (folder / "general.json").write_bytes(general.read_bytes())
+        print(f"wrote {folder / 'general.json'}")
+    extra = archive / "cycles" / f"{year}-general"
+    if not extra.is_dir():
+        mirror_research(cycle)
+        return
+    people = archive / "people"
+    records = []
+    for path in sorted(extra.glob("WY-*.json")):
+        cycle_row = json.loads(path.read_text(encoding="utf-8"))
+        person_path = people / f"{path.stem}.json"
+        if not person_path.is_file():
+            raise SystemExit(f"missing person {person_path.name}")
+        person = json.loads(person_path.read_text(encoding="utf-8"))
+        records.append(compile_general_only(person, cycle_row))
+    dest = folder / "general-only.json"
+    dest.write_text(json.dumps(records, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"wrote {dest} ({len(records)} general-only records)")
+    mirror_research(cycle)
+
+
+def mirror_research(cycle: str) -> None:
+    """Refresh a preview research copy when that cycle already has one."""
+    source = DATA_DIR / cycle
+    dest = PREVIEW / "data" / "candidate-research" / cycle
+    if not source.is_dir() or not dest.is_dir():
+        return
+    dest.mkdir(parents=True, exist_ok=True)
+    keep = {path.name for path in source.glob("*.json")}
+    for old in dest.glob("*.json"):
+        if old.name not in keep:
+            old.unlink()
+    for path in source.glob("*.json"):
+        target = dest / path.name
+        target.write_bytes(path.read_bytes())
 
 
 def read_shards(cycle: str) -> list[dict]:
@@ -825,7 +913,7 @@ def archive_detail_inner(record: dict, officials_slug: str | None) -> str:
         rows.append(("Fundraising", esc(fundraising_sentence(record["fundraising"]))))
     if record.get("website"):
         site = record["website"]
-        rows.append(("Website", f'<a href="{esc(site["href"])}">{esc(site["text"])}</a>'))
+        rows.append(("Website", outside_link(site["href"], site["text"])))
     if rows or record.get("sources"):
         lines.append('<section class="cand-research" aria-labelledby="h-research">')
         if rows:
@@ -837,7 +925,7 @@ def archive_detail_inner(record: dict, officials_slug: str | None) -> str:
             lines.append('<h2 id="h-sources">Sources</h2>')
             lines.append('<ul class="cand-sources">')
             lines.extend(
-                f'<li><a href="{esc(source["url"])}">{esc(source["name"])}</a></li>'
+                f'<li>{outside_link(source["url"], source["name"])}</li>'
                 for source in record["sources"]
             )
             lines.append("</ul>")
@@ -1171,13 +1259,27 @@ def load_name_slugs(detail_dir: Path) -> dict[str, str]:
     return found
 
 
+def general_only_records(cycle: str) -> list[dict]:
+    path = DATA_DIR / cycle / "general-only.json"
+    if not path.is_file():
+        return []
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return payload if isinstance(payload, list) else []
+
+
 def shard_name_index(cycle: str) -> dict[str, tuple[dict, list[str]]]:
     try:
         records = read_shards(cycle)
     except SystemExit:
-        return {}
+        records = []
     found = {}
     for record in records:
+        names = [record.get("display_name"), record.get("name")]
+        names.extend(record.get("match_names") or [])
+        found[record["person_id"]] = (record, [name for name in names if name])
+    for record in general_only_records(cycle):
+        if record.get("person_id") in found:
+            continue
         names = [record.get("display_name"), record.get("name")]
         names.extend(record.get("match_names") or [])
         found[record["person_id"]] = (record, [name for name in names if name])
@@ -1219,7 +1321,7 @@ def general_only_inner(candidate: dict, office: str, district: str | None, when:
         url = (source.get("url") or "").strip()
         label = (source.get("name") or "").strip()
         if url.startswith(("http://", "https://")) and label:
-            sources.append(f'            <li><a href="{esc(url)}">{esc(label)}</a></li>')
+            sources.append(f"            <li>{outside_link(url, label)}</li>")
     source_html = ""
     if sources:
         source_html = (
@@ -1434,14 +1536,20 @@ def apply_general(cycle: str) -> dict[str, int]:
             slugs.setdefault(norm_name(cand["name_on_ballot"]), slug)
             page = detail_dir / f"{slug}.html"
             sentence = general_sentence(cand, race["office_sought"], race.get("district"))
-            if page.is_file():
+            record = shards.get(person_id, ({}, []))[0]
+            # General-only pages are rebuilt so a new bio replaces the result-only page.
+            if page.is_file() and not record.get("general_only"):
                 text = patch_back_script(page.read_text(encoding="utf-8"))
                 text = insert_general_line(text, sentence)
                 page.write_text(text, encoding="utf-8")
                 updated += 1
             else:
+                existed = page.is_file()
                 write_missing_detail(cycle, slug, cand, race["office_sought"], race.get("district"), when, shards, officials)
-                created += 1
+                if existed:
+                    updated += 1
+                else:
+                    created += 1
     by_county = {county: [] for county in COUNTY_ORDER}
     for race in data["races"]:
         for county in race.get("district_counties") or []:
@@ -1487,6 +1595,7 @@ def main() -> None:
         cycles = [args.cycle] if args.cycle else list(GENERAL_CYCLES)
         for cycle in cycles:
             print(f"{cycle}: {apply_general(cycle)}")
+        subprocess.check_call([sys.executable, str(Path(__file__).with_name("mark_outside_links.py"))])
         return
     if not args.cycle:
         args.cycle = "2026-primary"
@@ -1504,6 +1613,7 @@ def main() -> None:
             record["_district"] = source.get("district")
             record["counties"] = source.get("district_counties") or ["Statewide"]
         write_shards(records, args.cycle)
+        install_general_files(args.archive, args.cycle)
     else:
         records = read_shards(args.cycle)
     if args.cycle == "2026-primary":
@@ -1512,6 +1622,7 @@ def main() -> None:
         counts = generate_archive(records, args.cycle)
         print(f"{args.cycle}: {counts}")
     subprocess.check_call([sys.executable, str(Path(__file__).with_name("build_site_map.py"))])
+    subprocess.check_call([sys.executable, str(Path(__file__).with_name("mark_outside_links.py"))])
 
 
 if __name__ == "__main__":
