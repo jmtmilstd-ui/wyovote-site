@@ -2812,7 +2812,10 @@ html.cand-general .page-trail .cand-view-general {
   color: #ffffff;
 }
 
-/* Outside buttons. Color only: outline and box-shadow do not change size. */
+/* Outside buttons. Gold ring does not change the border width.
+   Grid buttons give 8px on each side to the space between them (16px
+   narrower, 16px more separation). Margins do this where gap is unsupported.
+   The grid columns and gap stay put, so the row footprint stays put. */
 a.btn-out,
 .out-swatch.btn-out {
   outline: 3px solid #b8860b;
@@ -2826,6 +2829,15 @@ a.btn-out:focus-visible {
   outline: 3px solid #b8860b;
   outline-offset: 0;
   box-shadow: 0 0 0 3px #b8860b;
+}
+
+a.official-btn.btn-out {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+a.official-btn.btn-out + .ext {
+  margin-left: calc(8px + 0.35em);
 }
 
 .out-key {
@@ -2847,37 +2859,11 @@ a.btn-out:focus-visible {
   vertical-align: -0.1em;
 }
 
-body.out-b a.btn-out,
-body.out-b a.btn-out:hover,
-body.out-b a.btn-out:focus,
-body.out-b .out-swatch.btn-out {
-  background: #f6e7b0;
-  color: #1f1f1f;
-  outline: 0;
-  box-shadow: none;
-}
-
-body.out-b a.btn-out:focus-visible {
-  outline: 3px solid #146b31;
-  outline-offset: 2px;
-}
-
 @media print {
   a.btn-out,
   .out-swatch.btn-out {
     outline: 3px solid #b8860b !important;
     box-shadow: 0 0 0 3px #b8860b !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-
-  body.out-b a.btn-out,
-  body.out-b a.btn-out:hover,
-  body.out-b .out-swatch.btn-out {
-    background: #f6e7b0 !important;
-    color: #1f1f1f !important;
-    outline: 0 !important;
-    box-shadow: none !important;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
