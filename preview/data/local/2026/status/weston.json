@@ -1,0 +1,26 @@
+{
+  "county": "Weston",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 18,
+  "rows": 42,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [
+    "GOP commissioner candidate Henry Nessle: surname read from a vertical header; confirm spelling if a roster appears."
+  ],
+  "notes": "Official general is a scanned local summary (header OFFICIAL RESULTS). The PDF titled 2026 Official Primary Results is state races only; official county primary totals are the Totals row of the official precinct Custom Table Report (GOP pp. 7-9). DEM county columns are on pp. 19-20 and are write-in only; those DEM totals are not yet keyed because of scan quality. Footer date 08/30/2026 is a stale Electionware template date; handwritten export note is Nov 9, 2026 AG. DEM primary write-in totals (pp. 19-20 Totals row) were visually verified at 300 dpi and are now keyed. No named DEM candidates.",
+  "sources": {
+    "results_page": "https://www.westongov.com/",
+    "primary": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf",
+    "general": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf",
+    "primary_status": "official",
+    "general_status": "official",
+    "notes": "Official general is a scanned local summary (header OFFICIAL RESULTS). The PDF titled 2026 Official Primary Results is state races only; official county primary totals are the Totals row of the official precinct Custom Table Report (GOP pp. 7-9). DEM county columns are on pp. 19-20 and are write-in only; those DEM totals are not yet keyed because of scan quality. Footer date 08/30/2026 is a stale Electionware template date; handwritten export note is Nov 9, 2026 AG."
+  }
+}

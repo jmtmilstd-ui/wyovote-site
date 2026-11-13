@@ -1,0 +1,23 @@
+{
+  "county": "Campbell",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 22,
+  "rows": 46,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://www.campbellcountywy.gov/2077/Election-Results",
+    "primary": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report",
+    "general": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results",
+    "primary_status": "official",
+    "general_status": "official"
+  }
+}

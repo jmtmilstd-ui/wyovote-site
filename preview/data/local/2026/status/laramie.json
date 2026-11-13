@@ -1,0 +1,28 @@
+{
+  "county": "Laramie",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 25,
+  "rows": 49,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Official primary and general county/city election summaries (headers Official Results; primary export 08/21/2026, general 11/06/2026). Steven Wilson (commissioner) withdrawn 5/15/2026 and Renee Garner (treasurer) withdrawn 5/29/2026 per the official primary roster; they do not appear on the result summaries and are kept as withdrawn rows. County offices include District Attorney (not County Attorney). Municipal races from the same summaries are in the Phase 2 files, not this Phase 1 schema. Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://www.laramiecountywy.gov/County-Government/Elected-Officials/County-Clerk/Elections/Election-Results",
+    "roster_page": "https://www.laramiecountywy.gov/County-Government/Elected-Officials/County-Clerk/Elections/Candidates",
+    "roster_primary": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/candidate-rosters/2026/final-county-offices-candidates.pdf",
+    "primary": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/county-and-city-election-summary.pdf",
+    "general": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf",
+    "primary_precinct": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/county-and-city-precinct-summary.pdf",
+    "general_precinct": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-precinct-summary.pdf",
+    "primary_status": "official",
+    "general_status": "official",
+    "notes": "Official primary and general county/city election summaries (headers Official Results; primary export 08/21/2026, general 11/06/2026). Steven Wilson (commissioner) withdrawn 5/15/2026 and Renee Garner (treasurer) withdrawn 5/29/2026 per the official primary roster; they do not appear on the result summaries and are kept as withdrawn rows. County offices include District Attorney (not County Attorney). Municipal races from the same summaries are in the Phase 2 files, not this Phase 1 schema."
+  }
+}

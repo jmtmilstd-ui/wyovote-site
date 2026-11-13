@@ -19,6 +19,7 @@ body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 .pf-btn { display: inline-block; padding: 0.45rem 0.9rem; background: #ffffff; color: #0e2a18 !important; font-weight: 700; border-radius: 0.3rem; text-decoration: none; min-height: 44px; line-height: 1.7; }
 .pf-btn:hover, .pf-btn:focus-visible { background: #dff3e4; }
 .pf-asof { color: #ffffff; }
+.pf-head .ext { color: #ffffff; }
 .pf-card { background: #ffffff; border: 1px solid #b9b5a8; border-radius: 0.5rem; padding: 0.7rem 0.9rem 0.8rem; margin-bottom: 0.65rem; }
 .pf-card h2 { margin: 0 0 0.3rem; font-size: 1.4rem; line-height: 1.2; color: #0e2a18; }
 .pf-card h2 small { font-family: var(--font-sans); font-size: 14.5pt; font-weight: 600; color: #142117; margin-left: 0.35rem; }

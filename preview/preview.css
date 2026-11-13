@@ -1709,6 +1709,22 @@ html.cand-general .cand-view-general {
   color: #142117;
   font-weight: 700;
 }
+
+html.cand-local .cand-page .page-body a.cand-election-btn[data-election="primary"] {
+  outline: none;
+}
+
+.ext {
+  color: #444;
+  font-size: 0.85em;
+  font-weight: 400;
+  margin-left: 0.35em;
+}
+
+.cand-page .page-body a.cand-election-btn[data-election="local"][aria-current="true"] {
+  outline: 3px solid #a07808;
+  outline-offset: 3px;
+}
 /* PROMOTE_END election */
 
 .cand-names {
@@ -2791,13 +2807,6 @@ html.cand-general .page-trail .cand-view-general {
   }
 }
 /* PROMOTE_END report */
-
-.ext {
-  color: #444;
-  font-size: 0.85em;
-  font-weight: 400;
-  margin-left: 0.35em;
-}
 
 .pf-head .ext {
   color: #ffffff;

@@ -1,0 +1,27 @@
+{
+  "county": "Johnson",
+  "status": "partial",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "not_posted",
+  "general_status": "official",
+  "races_primary": 0,
+  "races_general": 8,
+  "named_candidates": 10,
+  "rows": 18,
+  "checks_ok": 8,
+  "checks_failed": 0,
+  "issues": [
+    "Official 2026 primary summary not found in the clerk Drive folder; unofficial primary scan and a public-test file are on disk and were not keyed as official results."
+  ],
+  "notes": "Official general totals are the Totals row of the clerk's official precinct summary (Johnson County Precinct Results, exported 11/05/2026 4:31 PM America/Denver), visually verified. The Drive file named 2026 General Election Results.pdf is identical to 2026 General Election Unofficial Results.pdf (same MD5) and is unofficial; not used for totals. Treasurer names were read from vertical column headers. An official primary summary was not in the clerk's 2026 Results Drive folder (Primary 2026 Summary Report is a PUBLIC TEST file; a separate unofficial primary scan is on file).",
+  "sources": {
+    "results_page": "https://www.johnsoncowy.gov/departments/elections",
+    "results_folder": "https://drive.google.com/drive/folders/1N3Y2bRXMqGkIIKxPpUhO41bNOi3S97Tg",
+    "general": "https://drive.google.com/file/d/1vfmKkmawmREEplnTg3RVOoKKXscEWj2V/view",
+    "primary": "",
+    "primary_status": "not_posted",
+    "general_status": "official",
+    "notes": "Official general totals are the Totals row of the clerk's official precinct summary (Johnson County Precinct Results, exported 11/05/2026 4:31 PM America/Denver), visually verified. The Drive file named 2026 General Election Results.pdf is identical to 2026 General Election Unofficial Results.pdf (same MD5) and is unofficial; not used for totals. Treasurer names were read from vertical column headers. An official primary summary was not in the clerk's 2026 Results Drive folder (Primary 2026 Summary Report is a PUBLIC TEST file; a separate unofficial primary scan is on file)."
+  }
+}
