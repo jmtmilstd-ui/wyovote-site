@@ -1014,20 +1014,20 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
             "</div>",
             '<footer class="op-legend">',
             '<div class="op-brand">'
-            f'<img src="{logo}" alt="" width="42" height="48">'
+            f'<img src="{logo}" alt="" width="28" height="32">'
             "<span>WyoVote</span></div>",
-            "<div><p><span class=\"op-key\">Parties:</span> "
+            '<div class="op-keys"><p><span class="op-key">Parties:</span> '
             '<span class="op-chip"><i class="is-republican"></i> Republican</span> '
             '<span class="op-chip"><i class="is-democrat"></i> Democrat</span> '
             '<span class="op-chip"><i class="is-independent"></i> Independent</span> '
             '<span class="op-chip"><i class="is-libertarian"></i> Libertarian</span></p>'
-            "<p><span class=\"op-key\">Seq Rank:</span> "
+            '<p><span class="op-key">Seq Rank:</span> '
             '<span class="op-chip"><i class="is-conservative"></i> Conservative</span> '
             '<span class="op-chip"><i class="is-moderate"></i> Moderate</span> '
             '<span class="op-chip"><i class="is-liberal"></i> Liberal</span> '
-            '<span class="op-chip"><i class="is-unranked"></i> Not ranked</span></p>'
-            f"{note_html}</div>",
+            '<span class="op-chip"><i class="is-unranked"></i> Not ranked</span></p></div>',
             f"<p class=\"op-code\">{esc(parsed['code'])}<br>v1.0</p>",
+            f'<div class="op-note">{note_html}</div>',
             "</footer>",
         ]
     doc = f"""<!DOCTYPE html>

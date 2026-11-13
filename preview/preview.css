@@ -2688,16 +2688,22 @@ html.cand-general .page-trail .cand-view-general {
 .op-box.is-liberal { background: #adc0d9; }
 
 .op-legend {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "brand keys code"
+    "note note note";
   align-items: center;
-  gap: 8pt;
-  margin-top: 4pt;
+  column-gap: 10pt;
+  row-gap: 6pt;
+  margin-top: 6pt;
   color: #142117;
   font-size: 9pt;
   line-height: 12pt;
 }
 
 .op-brand {
+  grid-area: brand;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -2707,6 +2713,24 @@ html.cand-general .page-trail .cand-view-general {
   font-size: 11pt;
   font-weight: 700;
   line-height: 12pt;
+  white-space: nowrap;
+}
+
+.op-keys {
+  grid-area: keys;
+  min-width: 0;
+}
+
+.op-note {
+  grid-area: note;
+  min-width: 0;
+}
+
+.op-code {
+  grid-area: code;
+  margin: 0;
+  font-weight: 700;
+  text-align: right;
 }
 
 .op-brand img {
@@ -2752,13 +2776,16 @@ html.cand-general .page-trail .cand-view-general {
 .op-chip i.is-liberal { background: #adc0d9; }
 .op-chip i.is-unranked { background: #fff2a8; }
 
-.op-code {
-  margin-left: auto;
-  font-weight: 700;
-}
-
 @media (max-width: 800px) {
   .op-grid {
     grid-template-columns: 1fr;
+  }
+
+  .op-legend {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "brand code"
+      "keys keys"
+      "note note";
   }
 }
