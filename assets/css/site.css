@@ -2784,3 +2784,56 @@ html.cand-general .page-trail .cand-view-general {
   }
 }
 /* PROMOTE_END */
+
+/* Outside buttons. Gold ring does not change the border width.
+   Grid buttons give 8px on each side to the space between them (16px
+   narrower, 16px more separation). Margins do this where gap is unsupported.
+   The grid columns and gap stay put, so the row footprint stays put. */
+a.btn-out,
+.out-swatch.btn-out {
+  outline: 3px solid #b8860b;
+  outline-offset: 0;
+  box-shadow: 0 0 0 3px #b8860b;
+}
+
+a.btn-out:hover,
+a.btn-out:focus,
+a.btn-out:focus-visible {
+  outline: 3px solid #b8860b;
+  outline-offset: 0;
+  box-shadow: 0 0 0 3px #b8860b;
+}
+
+a.official-btn.btn-out {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.out-key {
+  margin: 0 0 0.75rem;
+  color: #142117;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.out-swatch {
+  display: inline-block;
+  width: 1.35rem;
+  height: 0.85rem;
+  margin: 0 0.55rem 0 0;
+  padding: 0;
+  border: 1px solid #146b31;
+  border-radius: 0.25rem;
+  background: #ffffff;
+  vertical-align: -0.1em;
+}
+
+@media print {
+  a.btn-out,
+  .out-swatch.btn-out {
+    outline: 3px solid #b8860b !important;
+    box-shadow: 0 0 0 3px #b8860b !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
