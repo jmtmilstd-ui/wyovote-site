@@ -806,6 +806,8 @@ def to_live(text: str, src: Path) -> str:
     """PUBLISH.md: drop preview chrome and retarget links that leave /preview."""
     text = re.sub(r"[ \t]*<meta name=\"robots\" content=\"noindex\">\n", "", text)
     text = re.sub(r"[ \t]*<p class=\"preview-banner\"[^>]*>.*?</p>\n", "", text)
+    text = text.replace("https://wyovote.com/preview/", "https://wyovote.com/")
+    text = text.replace("https://www.wyovote.com/preview/", "https://www.wyovote.com/")
     preview_root = PREVIEW.resolve()
     repo_root = ROOT.resolve()
     live_dir = (ROOT / src.relative_to(PREVIEW)).parent.resolve()
