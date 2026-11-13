@@ -571,11 +571,11 @@ def parse_report(path: Path, kind: str) -> dict:
         if one_page and alpha:
             title, subtitle = f"{year} Alpha, one page", "House and Senate in one table, alphabetical by name"
         elif one_page:
-            title, subtitle = f"{year} Ranked, one page", "House and Senate in one table, most to least conservative"
+            title, subtitle = f"{year} Ranked, one page", "House and Senate in one table, from MOST Conservative to Most Liberal"
         elif alpha:
             title, subtitle = f"{year} Alpha", "House and Senate, alphabetical by name"
         else:
-            title, subtitle = f"{year} Ranked", "House and Senate, most to least conservative"
+            title, subtitle = f"{year} Ranked", "House and Senate, from MOST Conservative to Most Liberal"
         pack = ratings_pack(path, text, alpha, one_page)
         pack.update({
             "title": title,
@@ -774,7 +774,7 @@ def ratings_pack(path: Path, text: str, alpha: bool, one_page: bool) -> dict:
         "doc_sub": (
             f"House and Senate · {year} session · alphabetical by last name"
             if alpha
-            else f"House and Senate · {year} session · most to least conservative"
+            else f"House and Senate · {year} session · from MOST Conservative to Most Liberal"
         ),
     }
 
@@ -804,7 +804,7 @@ def party_class(party: str) -> str:
 def section_blurb(title: str, rows: list[dict], alpha: bool) -> tuple[str, str]:
     ranked = [row for row in rows if row.get("band") in {"Conservative", "Moderate", "Liberal"}]
     counts = {band: sum(1 for row in ranked if row.get("band") == band) for band in ("Conservative", "Moderate", "Liberal")}
-    order = "alphabetical by last name" if alpha else "most to least conservative"
+    order = "alphabetical by last name" if alpha else "from MOST Conservative to Most Liberal"
     unranked = len(rows) - len(ranked)
     if unranked:
         heading = f"{title} · {len(rows)} legislators ({len(ranked)} ranked, {unranked} not ranked)"
