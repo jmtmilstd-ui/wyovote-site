@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pamela Mertens — 2024 Primary — WyoVote</title>
-    <meta name="description" content="Pamela Mertens (Republican, Casper). Lost the Aug. 20, 2024 Republican primary for State House District 56 with 7.6% of the vote.">
+    <meta name="description" content="Pamela Mertens (Republican, Casper): Disabled military veteran who, as of 2024, worked remotely for the Louisiana Department of Education; more than 20 years of higher-education teaching experience; U.S. Marine Corps veteran; described in 2024 coverage as a disabled military veteran. Lost the Aug. 20, 2024 Republican primary for State House District 56 with 7.6% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,19 +32,26 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Pamela Mertens</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Pamela Mertens (Republican, Casper). Lost the Aug. 20, 2024 Republican primary for State House District 56 with 7.6% of the vote.</p>
+          <p class="cand-blurb">Pamela Mertens (Republican, Casper): Disabled military veteran who, as of 2024, worked remotely for the Louisiana Department of Education; more than 20 years of higher-education teaching experience; U.S. Marine Corps veteran; described in 2024 coverage as a disabled military veteran. Lost the Aug. 20, 2024 Republican primary for State House District 56 with 7.6% of the vote.</p>
           <p class="cand-meta">Republican · Casper, Natrona County</p>
           <p class="cand-res">Primary result: Lost, 111 votes (7.6%), 3rd of 3.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
+          <tr><th scope="row">Occupation</th><td>Disabled military veteran who, as of 2024, worked remotely for the Louisiana Department of Education; more than 20 years of higher-education teaching experience</td></tr>
+          <tr><th scope="row">Background</th><td><p>Moved to Casper from south Florida in August 2023, describing the move as fulfillment of a childhood dream to live in Wyoming. A 2024 Cowboy State Daily profile said she had overcome breast cancer, had lived and worked in many parts of the U.S. because of military service and teaching, and called running for the Legislature a continuation of lifelong public service.</p></td></tr>
+          <tr><th scope="row">Education</th><td>Doctorate in conflict analysis and resolution (as reported by K2 Radio in 2024)</td></tr>
+          <tr><th scope="row">Military</th><td>U.S. Marine Corps veteran; described in 2024 coverage as a disabled military veteran</td></tr>
+          <tr><th scope="row">Positions</th><td><p class="cand-topic">Education and parental rights</p><p>Said she wanted to enshrine parental rights in education and better clarify what information school staff should share with parents about their children. “There’s a lot happening in this world and too much is happening without the parent’s knowledge,” she told Cowboy State Daily. She said she fully supports parental-rights policies associated with Florida Gov. Ron DeSantis.</p><p class="cand-topic">Taxes, constitution and immigration</p><p>Said property-tax assessments in Wyoming lack transparency and that she wanted reform to try to prevent future tax increases. She also said First and Second Amendment protections should be better preserved “while maintaining some levity,” and that she wanted immigration better monitored so Wyoming would not become a “sanctuary for migrants.” She opposed a controversial proposed gravel pit in Casper, citing local scenic beauty.</p><p class="cand-topic">Caucus approach</p><p>Said she wanted to collaborate and “bridge” the Wyoming Caucus and the Wyoming Freedom Caucus rather than join one faction exclusively.</p></td></tr>
           <tr><th scope="row">Website</th><td><a href="https://VOTEMERTENSWYOMING56.COM">https://VOTEMERTENSWYOMING56.COM</a></td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
           <li><a href="https://sos.wyo.gov/Elections/Docs/2024/2024_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2024 primary candidate filing list</a></li>
+          <li><a href="https://cowboystatedaily.com/2024/06/06/more-wyoming-newcomers-stepping-up-to-run-for-legislature/">Cowboy State Daily, “Move To Wyoming And Then Instantly Run For Legislature Is A Real Trend,” Leo Wolfson, June 6, 2024</a></li>
+          <li><a href="https://k2radio.com/these-are-the-natrona-county-candidates-in-the-wyoming-primary-election/">K2 Radio, “These are the Natrona County Candidates in the Wyoming Primary Election,” Townsquare Media</a></li>
           <li><a href="https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip">Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)</a></li>
           </ul>
           </section>
@@ -73,7 +80,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

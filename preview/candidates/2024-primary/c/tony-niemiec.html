@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,7 +32,7 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Tony Niemiec</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
           <p class="cand-blurb">Tony Niemiec (Republican, Green River): Law enforcement; Wyoming House of Representatives District 60, 2023–2025; Wyoming House District 60, 2023–2024; U.S. Marine Corps. Lost the Aug. 20, 2024 Republican primary for State House District 60 with 47.9% of the vote.</p>
           <p class="cand-meta">Republican · Green River, Sweetwater County</p>
@@ -80,7 +80,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

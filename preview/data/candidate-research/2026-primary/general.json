@@ -1,0 +1,4535 @@
+{
+  "cycle": "2026-general",
+  "election_date": "2026-11-03",
+  "election_name": "2026 Wyoming General Election",
+  "scope": "federal, statewide, and legislative (State Senate and State House) only; no local, county, judicial retention, or ballot-issue contests",
+  "certification": {
+    "status": "certified",
+    "certified_date": "2026-11-10",
+    "body": "Wyoming State Canvassing Board",
+    "note": "The board met November 10, 2026. Auditor Kristi Racines moved to certify the statewide abstract for the 2026 General Election as the official State Canvass; Treasurer Curt Meier seconded; the motion passed unanimously. The certification page is signed \u201cthis 10th day of November.\u201d",
+    "sources": [
+      {
+        "name": "Wyoming State Canvassing Board minutes and certification, 2026 General Election",
+        "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_State_Canvassing_Board_Minutes.pdf",
+        "accessed": "2026-11-11"
+      }
+    ]
+  },
+  "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+  "sources": [
+    {
+      "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+      "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+      "accessed": "2026-11-11"
+    },
+    {
+      "name": "Wyoming SOS 2026 official general election results page",
+      "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx",
+      "accessed": "2026-11-11"
+    },
+    {
+      "name": "Wyoming SOS 2026 General Election candidate list",
+      "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.csv",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "accessed": "2026-11-11",
+  "record_updated": "2026-11-11",
+  "races": [
+    {
+      "office_sought": "U.S. Senator",
+      "district": null,
+      "district_counties": [
+        "Albany",
+        "Big Horn",
+        "Campbell",
+        "Carbon",
+        "Converse",
+        "Crook",
+        "Fremont",
+        "Goshen",
+        "Hot Springs",
+        "Johnson",
+        "Laramie",
+        "Lincoln",
+        "Natrona",
+        "Niobrara",
+        "Park",
+        "Platte",
+        "Sheridan",
+        "Sublette",
+        "Sweetwater",
+        "Teton",
+        "Uinta",
+        "Washakie",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-HAGEMAN-HARRIET",
+          "name_on_ballot": "Harriet Hageman",
+          "party": "Republican",
+          "votes": 122174,
+          "pct": 65.2,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-BYRD-JAMES",
+          "name_on_ballot": "James Byrd",
+          "party": "Democratic",
+          "votes": 65105,
+          "pct": 34.8,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 1039,
+      "overvotes": 70,
+      "undervotes": 3325,
+      "named_candidate_votes": 187279,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "U.S. Representative",
+      "district": null,
+      "district_counties": [
+        "Albany",
+        "Big Horn",
+        "Campbell",
+        "Carbon",
+        "Converse",
+        "Crook",
+        "Fremont",
+        "Goshen",
+        "Hot Springs",
+        "Johnson",
+        "Laramie",
+        "Lincoln",
+        "Natrona",
+        "Niobrara",
+        "Park",
+        "Platte",
+        "Sheridan",
+        "Sublette",
+        "Sweetwater",
+        "Teton",
+        "Uinta",
+        "Washakie",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-GRAY-CHUCK",
+          "name_on_ballot": "Chuck Gray",
+          "party": "Republican",
+          "votes": 99906,
+          "pct": 54.5,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-KINNEY-LISA",
+          "name_on_ballot": "Lisa Kinney",
+          "party": "Democratic",
+          "votes": 61689,
+          "pct": 33.7,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-JOHNSON-SHAWN",
+          "name_on_ballot": "Shawn Johnson",
+          "party": "Libertarian",
+          "votes": 13667,
+          "pct": 7.5,
+          "place": 3,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        },
+        {
+          "person_id": "WY-HAGGIT-JEFFREY",
+          "name_on_ballot": "Jeffrey Haggit",
+          "party": "Constitution",
+          "votes": 7961,
+          "pct": 4.3,
+          "place": 4,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 1031,
+      "overvotes": 1231,
+      "undervotes": 6228,
+      "named_candidate_votes": 183223,
+      "candidates_in_race": 4,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "Governor",
+      "district": null,
+      "district_counties": [
+        "Albany",
+        "Big Horn",
+        "Campbell",
+        "Carbon",
+        "Converse",
+        "Crook",
+        "Fremont",
+        "Goshen",
+        "Hot Springs",
+        "Johnson",
+        "Laramie",
+        "Lincoln",
+        "Natrona",
+        "Niobrara",
+        "Park",
+        "Platte",
+        "Sheridan",
+        "Sublette",
+        "Sweetwater",
+        "Teton",
+        "Uinta",
+        "Washakie",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BARLOW-ERIC",
+          "name_on_ballot": "Eric Barlow",
+          "party": "Republican",
+          "votes": 128496,
+          "pct": 68.6,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-CASNER-KENNETH",
+          "name_on_ballot": "Kenneth R. Casner",
+          "party": "Democratic",
+          "votes": 27472,
+          "pct": 14.7,
+          "place": 3,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-BEXTEL-REBECCA",
+          "name_on_ballot": "Rebecca Bextel",
+          "party": "Constitution",
+          "votes": 31444,
+          "pct": 16.8,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 1212,
+      "overvotes": 104,
+      "undervotes": 2985,
+      "named_candidate_votes": 187412,
+      "candidates_in_race": 3,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "Secretary of State",
+      "district": null,
+      "district_counties": [
+        "Albany",
+        "Big Horn",
+        "Campbell",
+        "Carbon",
+        "Converse",
+        "Crook",
+        "Fremont",
+        "Goshen",
+        "Hot Springs",
+        "Johnson",
+        "Laramie",
+        "Lincoln",
+        "Natrona",
+        "Niobrara",
+        "Park",
+        "Platte",
+        "Sheridan",
+        "Sublette",
+        "Sweetwater",
+        "Teton",
+        "Uinta",
+        "Washakie",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-SHORT-ROBERT",
+          "name_on_ballot": "Robert Short",
+          "party": "Republican",
+          "votes": 124940,
+          "pct": 67.8,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-MCCARTY-BRYAN",
+          "name_on_ballot": "Bryan McCarty",
+          "party": "Democratic",
+          "votes": 43877,
+          "pct": 23.8,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-TRUJILLO-TAMARA",
+          "name_on_ballot": "Tamara Trujillo",
+          "party": "Constitution",
+          "votes": 15507,
+          "pct": 8.4,
+          "place": 3,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 452,
+      "overvotes": 78,
+      "undervotes": 6859,
+      "named_candidate_votes": 184324,
+      "candidates_in_race": 3,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Auditor",
+      "district": null,
+      "district_counties": [
+        "Albany",
+        "Big Horn",
+        "Campbell",
+        "Carbon",
+        "Converse",
+        "Crook",
+        "Fremont",
+        "Goshen",
+        "Hot Springs",
+        "Johnson",
+        "Laramie",
+        "Lincoln",
+        "Natrona",
+        "Niobrara",
+        "Park",
+        "Platte",
+        "Sheridan",
+        "Sublette",
+        "Sweetwater",
+        "Teton",
+        "Uinta",
+        "Washakie",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-RACINES-KRISTI",
+          "name_on_ballot": "Kristi Racines",
+          "party": "Republican",
+          "votes": 155806,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 2522,
+      "overvotes": 25,
+      "undervotes": 33360,
+      "named_candidate_votes": 155806,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Treasurer",
+      "district": null,
+      "district_counties": [
+        "Albany",
+        "Big Horn",
+        "Campbell",
+        "Carbon",
+        "Converse",
+        "Crook",
+        "Fremont",
+        "Goshen",
+        "Hot Springs",
+        "Johnson",
+        "Laramie",
+        "Lincoln",
+        "Natrona",
+        "Niobrara",
+        "Park",
+        "Platte",
+        "Sheridan",
+        "Sublette",
+        "Sweetwater",
+        "Teton",
+        "Uinta",
+        "Washakie",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-MEIER-CURTIS",
+          "name_on_ballot": "Curt Meier",
+          "party": "Republican",
+          "votes": 155028,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 3230,
+      "overvotes": 21,
+      "undervotes": 33434,
+      "named_candidate_votes": 155028,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "Superintendent of Public Instruction",
+      "district": null,
+      "district_counties": [
+        "Albany",
+        "Big Horn",
+        "Campbell",
+        "Carbon",
+        "Converse",
+        "Crook",
+        "Fremont",
+        "Goshen",
+        "Hot Springs",
+        "Johnson",
+        "Laramie",
+        "Lincoln",
+        "Natrona",
+        "Niobrara",
+        "Park",
+        "Platte",
+        "Sheridan",
+        "Sublette",
+        "Sweetwater",
+        "Teton",
+        "Uinta",
+        "Washakie",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-HARSHMAN-STEVE",
+          "name_on_ballot": "Steve Harshman",
+          "party": "Republican",
+          "votes": 136763,
+          "pct": 75.1,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-CORDOVA-ANA",
+          "name_on_ballot": "Ana Cordova",
+          "party": "Democratic",
+          "votes": 45322,
+          "pct": 24.9,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 1649,
+      "overvotes": 50,
+      "undervotes": 7929,
+      "named_candidate_votes": 182085,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S01",
+      "district_counties": [
+        "Campbell",
+        "Crook",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-DRISKILL-OGDEN",
+          "name_on_ballot": "Ogden Driskill",
+          "party": "Republican",
+          "votes": 5107,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 541,
+      "overvotes": 2,
+      "undervotes": 950,
+      "named_candidate_votes": 5107,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S03",
+      "district_counties": [
+        "Goshen",
+        "Niobrara",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-STEINMETZ-CHERI",
+          "name_on_ballot": "Cheri E Steinmetz",
+          "party": "Republican",
+          "votes": 5792,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 180,
+      "overvotes": 2,
+      "undervotes": 989,
+      "named_candidate_votes": 5792,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S05",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-SCHOENFELD-LAUREN",
+          "name_on_ballot": "Lauren Schoenfeld",
+          "party": "Republican",
+          "votes": 3357,
+          "pct": 70.7,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-HANLON-THEODORE",
+          "name_on_ballot": "Ted Hanlon",
+          "party": "Democratic",
+          "votes": 1389,
+          "pct": 29.3,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 48,
+      "overvotes": 0,
+      "undervotes": 85,
+      "named_candidate_votes": 4746,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S06",
+      "district_counties": [
+        "Laramie",
+        "Platte"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-LOVE-TAFT",
+          "name_on_ballot": "Taft Love",
+          "party": "Republican",
+          "votes": 6142,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 279,
+      "overvotes": 0,
+      "undervotes": 922,
+      "named_candidate_votes": 6142,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S07",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-RINNE-MARK",
+          "name_on_ballot": "Mark Rinne",
+          "party": "Republican",
+          "votes": 3276,
+          "pct": 59.2,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-LEE-JAMES",
+          "name_on_ballot": "Jim Lee",
+          "party": "Democratic",
+          "votes": 2257,
+          "pct": 40.8,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 84,
+      "overvotes": 0,
+      "undervotes": 164,
+      "named_candidate_votes": 5533,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S09",
+      "district_counties": [
+        "Albany"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-ROTHFUSS-CHRIS",
+          "name_on_ballot": "Chris Rothfuss",
+          "party": "Democratic",
+          "votes": 4432,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 236,
+      "overvotes": 1,
+      "undervotes": 1090,
+      "named_candidate_votes": 4432,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S11",
+      "district_counties": [
+        "Carbon",
+        "Sweetwater"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-DAVIS-BOB",
+          "name_on_ballot": "Bob Davis",
+          "party": "Republican",
+          "votes": 3615,
+          "pct": 73.1,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-WILSON-JIM",
+          "name_on_ballot": "Jim Wilson",
+          "party": "Democratic",
+          "votes": 1030,
+          "pct": 20.8,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-VANMATRE-DONALD",
+          "name_on_ballot": "Don VanMatre",
+          "party": "Constitution",
+          "votes": 297,
+          "pct": 6.0,
+          "place": 3,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 14,
+      "overvotes": 3,
+      "undervotes": 183,
+      "named_candidate_votes": 4942,
+      "candidates_in_race": 3,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S13",
+      "district_counties": [
+        "Sweetwater"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-JONES-STACY",
+          "name_on_ballot": "Stacy Jones",
+          "party": "Republican",
+          "votes": 3789,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 107,
+      "overvotes": 2,
+      "undervotes": 951,
+      "named_candidate_votes": 3789,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S15",
+      "district_counties": [
+        "Uinta"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-SCHULER-WENDY",
+          "name_on_ballot": "Wendy Davis Schuler",
+          "party": "Republican",
+          "votes": 4835,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 185,
+      "overvotes": 0,
+      "undervotes": 851,
+      "named_candidate_votes": 4835,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S17",
+      "district_counties": [
+        "Teton"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-GIERAU-MIKE",
+          "name_on_ballot": "Mike Gierau",
+          "party": "Democratic",
+          "votes": 6662,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 161,
+      "overvotes": 0,
+      "undervotes": 1651,
+      "named_candidate_votes": 6662,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S19",
+      "district_counties": [
+        "Big Horn",
+        "Park"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-KOST-REYNOLDS",
+          "name_on_ballot": "R. J. Kost",
+          "party": "Republican",
+          "votes": 5311,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 275,
+      "overvotes": 1,
+      "undervotes": 934,
+      "named_candidate_votes": 5311,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S21",
+      "district_counties": [
+        "Sheridan"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BUTCHER-MELISSA",
+          "name_on_ballot": "Melissa Butcher",
+          "party": "Republican",
+          "votes": 6656,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 294,
+      "overvotes": 2,
+      "undervotes": 1299,
+      "named_candidate_votes": 6656,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S23",
+      "district_counties": [
+        "Campbell"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-ANGELOS-ABBY",
+          "name_on_ballot": "Abby Angelos",
+          "party": "Republican",
+          "votes": 4015,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 134,
+      "overvotes": 0,
+      "undervotes": 655,
+      "named_candidate_votes": 4015,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S25",
+      "district_counties": [
+        "Fremont"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-CASE-CALE",
+          "name_on_ballot": "Cale Case",
+          "party": "Republican",
+          "votes": 4670,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 236,
+      "overvotes": 0,
+      "undervotes": 1604,
+      "named_candidate_votes": 4670,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S27",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-HELLING-KEVIN",
+          "name_on_ballot": "Kevin Helling",
+          "party": "Republican",
+          "votes": 4392,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 95,
+      "overvotes": 0,
+      "undervotes": 1026,
+      "named_candidate_votes": 4392,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S29",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-ENGEBRETSEN-LISA",
+          "name_on_ballot": "Lisa Engebretsen",
+          "party": "Republican",
+          "votes": 4531,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 204,
+      "overvotes": 1,
+      "undervotes": 1161,
+      "named_candidate_votes": 4531,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Senator",
+      "district": "S31",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BRENNAN-EVIE",
+          "name_on_ballot": "Evie Brennan",
+          "party": "Republican",
+          "votes": 3174,
+          "pct": 68.2,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-HAMID-SHIFA",
+          "name_on_ballot": "Shifa Hamid",
+          "party": "Democratic",
+          "votes": 1479,
+          "pct": 31.8,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 50,
+      "overvotes": 1,
+      "undervotes": 118,
+      "named_candidate_votes": 4653,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H01",
+      "district_counties": [
+        "Crook",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-CLAYCOMB-TROY",
+          "name_on_ballot": "Troy Claycomb",
+          "party": "Republican",
+          "votes": 3688,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 146,
+      "overvotes": 2,
+      "undervotes": 446,
+      "named_candidate_votes": 3688,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H02",
+      "district_counties": [
+        "Goshen",
+        "Niobrara",
+        "Weston"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-WILLIAMS-JD",
+          "name_on_ballot": "JD Williams",
+          "party": "Republican",
+          "votes": 2850,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 87,
+      "overvotes": 2,
+      "undervotes": 430,
+      "named_candidate_votes": 2850,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H03",
+      "district_counties": [
+        "Campbell"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-COLLIER-EARL",
+          "name_on_ballot": "Earl Collier",
+          "party": "Republican",
+          "votes": 2288,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 87,
+      "overvotes": 1,
+      "undervotes": 410,
+      "named_candidate_votes": 2288,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H04",
+      "district_counties": [
+        "Laramie",
+        "Platte"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-HAROLDSON-JEREMY",
+          "name_on_ballot": "Jeremy Haroldson",
+          "party": "Republican",
+          "votes": 2533,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 273,
+      "overvotes": 0,
+      "undervotes": 853,
+      "named_candidate_votes": 2533,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H05",
+      "district_counties": [
+        "Goshen"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-SPECKNER-JOE",
+          "name_on_ballot": "Joe Speckner",
+          "party": "Republican",
+          "votes": 3226,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 49,
+      "overvotes": 2,
+      "undervotes": 317,
+      "named_candidate_votes": 3226,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H06",
+      "district_counties": [
+        "Converse"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-STROCK-TOMI",
+          "name_on_ballot": "Tomi Strock",
+          "party": "Republican",
+          "votes": 2175,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 298,
+      "overvotes": 0,
+      "undervotes": 625,
+      "named_candidate_votes": 2175,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H07",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-NICHOLAS-BOB",
+          "name_on_ballot": "Bob Nicholas",
+          "party": "Republican",
+          "votes": 1993,
+          "pct": 62.9,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-LOBMEYER-GAVIN",
+          "name_on_ballot": "Gavin Lobmeyer",
+          "party": "Democratic",
+          "votes": 1176,
+          "pct": 37.1,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 32,
+      "overvotes": 1,
+      "undervotes": 88,
+      "named_candidate_votes": 3169,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H08",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-REINER-K",
+          "name_on_ballot": "Luke Reiner",
+          "party": "Republican",
+          "votes": 3120,
+          "pct": 77.1,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-LYTTLE-BRENDA",
+          "name_on_ballot": "Brenda J Lyttle",
+          "party": "Democratic",
+          "votes": 927,
+          "pct": 22.9,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 38,
+      "overvotes": 0,
+      "undervotes": 83,
+      "named_candidate_votes": 4047,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H09",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-WIGGAM-BOYD",
+          "name_on_ballot": "Boyd O. Wiggam",
+          "party": "Republican",
+          "votes": 1792,
+          "pct": 63.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-LATHAM-STEPHEN",
+          "name_on_ballot": "Stephen D. Latham",
+          "party": "Democratic",
+          "votes": 1052,
+          "pct": 37.0,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 25,
+      "overvotes": 0,
+      "undervotes": 73,
+      "named_candidate_votes": 2844,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H10",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-FORNSTROM-JUSTIN",
+          "name_on_ballot": "Justin Fornstrom",
+          "party": "Republican",
+          "votes": 2911,
+          "pct": 83.4,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-PERRY-TONY",
+          "name_on_ballot": "Tony Perry",
+          "party": "Constitution",
+          "votes": 579,
+          "pct": 16.6,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 37,
+      "overvotes": 0,
+      "undervotes": 157,
+      "named_candidate_votes": 3490,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H11",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-MCINTOSH-DAN",
+          "name_on_ballot": "Dan McIntosh",
+          "party": "Republican",
+          "votes": 1027,
+          "pct": 45.5,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-TENNANT-BRITNEY",
+          "name_on_ballot": "Britney Tennant",
+          "party": "Democratic",
+          "votes": 1080,
+          "pct": 47.8,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-SHOLLENBERGER-RYAN",
+          "name_on_ballot": "Ryan Shollenberger",
+          "party": "Libertarian",
+          "votes": 152,
+          "pct": 6.7,
+          "place": 3,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 3,
+      "overvotes": 2,
+      "undervotes": 33,
+      "named_candidate_votes": 2259,
+      "candidates_in_race": 3,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H12",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-STYVAR-CLARENCE",
+          "name_on_ballot": "Clarence Styvar",
+          "party": "Republican",
+          "votes": 1360,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 98,
+      "overvotes": 0,
+      "undervotes": 274,
+      "named_candidate_votes": 1360,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H13",
+      "district_counties": [
+        "Albany"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-SWETT-SHANE",
+          "name_on_ballot": "Shane Swett",
+          "party": "Republican",
+          "votes": 850,
+          "pct": 33.6,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-CHESTEK-KEN",
+          "name_on_ballot": "Ken Chestek",
+          "party": "Democratic",
+          "votes": 1682,
+          "pct": 66.4,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 7,
+      "overvotes": 1,
+      "undervotes": 86,
+      "named_candidate_votes": 2532,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H14",
+      "district_counties": [
+        "Albany"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-STUDY-EMILY",
+          "name_on_ballot": "Emily Study",
+          "party": "Republican",
+          "votes": 1399,
+          "pct": 38.2,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-SHERWOOD-TREY",
+          "name_on_ballot": "Trey Sherwood",
+          "party": "Democratic",
+          "votes": 2268,
+          "pct": 61.8,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 11,
+      "overvotes": 0,
+      "undervotes": 64,
+      "named_candidate_votes": 3667,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H15",
+      "district_counties": [
+        "Carbon",
+        "Sweetwater"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-THAYER-PAM",
+          "name_on_ballot": "Pamela Thayer",
+          "party": "Republican",
+          "votes": 1499,
+          "pct": 79.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-HULME-CHERYL",
+          "name_on_ballot": "Cheryl Hulme",
+          "party": "Constitution",
+          "votes": 398,
+          "pct": 21.0,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 33,
+      "overvotes": 0,
+      "undervotes": 139,
+      "named_candidate_votes": 1897,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H16",
+      "district_counties": [
+        "Teton"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-YIN-MIKE",
+          "name_on_ballot": "Mike Yin",
+          "party": "Democratic",
+          "votes": 2875,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 65,
+      "overvotes": 0,
+      "undervotes": 530,
+      "named_candidate_votes": 2875,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H17",
+      "district_counties": [
+        "Sweetwater"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BINGHAM-ELIZABETH",
+          "name_on_ballot": "Elizabeth Bingham",
+          "party": "Republican",
+          "votes": 1426,
+          "pct": 67.3,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-REINHOLZ-RAH",
+          "name_on_ballot": "Rah Reinholz",
+          "party": "Democratic",
+          "votes": 692,
+          "pct": 32.7,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 11,
+      "overvotes": 0,
+      "undervotes": 97,
+      "named_candidate_votes": 2118,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H18",
+      "district_counties": [
+        "Lincoln",
+        "Sweetwater",
+        "Uinta"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-ROBERTS-KENNETH",
+          "name_on_ballot": "Kenneth D Roberts",
+          "party": "Republican",
+          "votes": 2691,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 75,
+      "overvotes": 0,
+      "undervotes": 396,
+      "named_candidate_votes": 2691,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H19",
+      "district_counties": [
+        "Uinta"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-STEPHENS-CHAD",
+          "name_on_ballot": "Chad Stephens",
+          "party": "Republican",
+          "votes": 2414,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 116,
+      "overvotes": 0,
+      "undervotes": 428,
+      "named_candidate_votes": 2414,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H20",
+      "district_counties": [
+        "Lincoln",
+        "Sublette"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-SOMMERS-ALBERT",
+          "name_on_ballot": "Albert Sommers",
+          "party": "Republican",
+          "votes": 3349,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 148,
+      "overvotes": 1,
+      "undervotes": 526,
+      "named_candidate_votes": 3349,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H21",
+      "district_counties": [
+        "Lincoln"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-ERICKSON-MCKAY",
+          "name_on_ballot": "McKay L. Erickson",
+          "party": "Republican",
+          "votes": 3159,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 44,
+      "overvotes": 0,
+      "undervotes": 299,
+      "named_candidate_votes": 3159,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H22",
+      "district_counties": [
+        "Lincoln",
+        "Teton"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BYRON-ANDREW",
+          "name_on_ballot": "Andrew Byron",
+          "party": "Republican",
+          "votes": 3055,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 94,
+      "overvotes": 1,
+      "undervotes": 1106,
+      "named_candidate_votes": 3055,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H23",
+      "district_counties": [
+        "Teton"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BRENNAN-SHANNON",
+          "name_on_ballot": "Shannon A. Brennan",
+          "party": "Republican",
+          "votes": 1598,
+          "pct": 32.8,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-STORER-LIZ",
+          "name_on_ballot": "Liz Storer",
+          "party": "Democratic",
+          "votes": 3274,
+          "pct": 67.2,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 2,
+      "overvotes": 1,
+      "undervotes": 129,
+      "named_candidate_votes": 4872,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H24",
+      "district_counties": [
+        "Park"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BLAIR-QUINTIN",
+          "name_on_ballot": "Quin Blair",
+          "party": "Republican",
+          "votes": 3029,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 111,
+      "overvotes": 0,
+      "undervotes": 606,
+      "named_candidate_votes": 3029,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H25",
+      "district_counties": [
+        "Park"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-WETZEL-JOHN",
+          "name_on_ballot": "John Wetzel",
+          "party": "Republican",
+          "votes": 2543,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 125,
+      "overvotes": 1,
+      "undervotes": 575,
+      "named_candidate_votes": 2543,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H26",
+      "district_counties": [
+        "Big Horn",
+        "Park"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BANKS-DALTON",
+          "name_on_ballot": "Dalton Banks",
+          "party": "Republican",
+          "votes": 2557,
+          "pct": 81.7,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-NIEDER-WESTERMANN-RALPH",
+          "name_on_ballot": "Ralph Nieder-Westermann",
+          "party": "Democratic",
+          "votes": 571,
+          "pct": 18.3,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 7,
+      "overvotes": 3,
+      "undervotes": 139,
+      "named_candidate_votes": 3128,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H27",
+      "district_counties": [
+        "Big Horn",
+        "Washakie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-LAWLEY-MARTHA",
+          "name_on_ballot": "Martha Lawley",
+          "party": "Republican",
+          "votes": 2700,
+          "pct": 84.6,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-LIVINGSTON-THERESA",
+          "name_on_ballot": "Theresa Livingston",
+          "party": "Democratic",
+          "votes": 490,
+          "pct": 15.4,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 19,
+      "overvotes": 0,
+      "undervotes": 107,
+      "named_candidate_votes": 3190,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H28",
+      "district_counties": [
+        "Big Horn",
+        "Fremont",
+        "Hot Springs",
+        "Park"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-HOGG-ALLEN",
+          "name_on_ballot": "Allen Hogg",
+          "party": "Republican",
+          "votes": 3309,
+          "pct": 86.8,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-ALWIN-LARRY",
+          "name_on_ballot": "Larry Alwin",
+          "party": "Democratic",
+          "votes": 504,
+          "pct": 13.2,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 21,
+      "overvotes": 3,
+      "undervotes": 141,
+      "named_candidate_votes": 3813,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H29",
+      "district_counties": [
+        "Sheridan"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-STURTEVANT-MYCA",
+          "name_on_ballot": "Myca Sturtevant",
+          "party": "Republican",
+          "votes": 2537,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 94,
+      "overvotes": 2,
+      "undervotes": 555,
+      "named_candidate_votes": 2537,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H30",
+      "district_counties": [
+        "Sheridan"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-KOLTISKA-JOHN",
+          "name_on_ballot": "Ryan Koltiska",
+          "party": "Republican",
+          "votes": 2963,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 142,
+      "overvotes": 0,
+      "undervotes": 418,
+      "named_candidate_votes": 2963,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H31",
+      "district_counties": [
+        "Campbell"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-MOORE-DOUGLAS",
+          "name_on_ballot": "Douglas Moore",
+          "party": "Republican",
+          "votes": 1521,
+          "pct": 80.9,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-HARDESTY-DAVID",
+          "name_on_ballot": "Dave Hardesty",
+          "party": "Independent",
+          "votes": 358,
+          "pct": 19.1,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 30,
+      "overvotes": 3,
+      "undervotes": 106,
+      "named_candidate_votes": 1879,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H32",
+      "district_counties": [
+        "Campbell"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-CLOUSTON-KEN",
+          "name_on_ballot": "Ken Clouston",
+          "party": "Republican",
+          "votes": 2124,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 38,
+      "overvotes": 0,
+      "undervotes": 333,
+      "named_candidate_votes": 2124,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H33",
+      "district_counties": [
+        "Fremont"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-MORGAN-JUSTIN",
+          "name_on_ballot": "Justin Morgan",
+          "party": "Republican",
+          "votes": 741,
+          "pct": 34.9,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        },
+        {
+          "person_id": "WY-POSEY-IVAN",
+          "name_on_ballot": "Ivan D. Posey",
+          "party": "Democratic",
+          "votes": 1383,
+          "pct": 65.1,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 1,
+      "overvotes": 0,
+      "undervotes": 54,
+      "named_candidate_votes": 2124,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H34",
+      "district_counties": [
+        "Fremont"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-OTTMAN-PEPPER",
+          "name_on_ballot": "Pepper L Ottman",
+          "party": "Republican",
+          "votes": 2930,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 124,
+      "overvotes": 0,
+      "undervotes": 591,
+      "named_candidate_votes": 2930,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H35",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-DRESANG-CHRISTOPHER",
+          "name_on_ballot": "Christopher Dresang",
+          "party": "Republican",
+          "votes": 2642,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 98,
+      "overvotes": 0,
+      "undervotes": 550,
+      "named_candidate_votes": 2642,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H36",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-WASHUT-ART",
+          "name_on_ballot": "Art Washut",
+          "party": "Republican",
+          "votes": 1377,
+          "pct": 66.1,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-MCADOO-JOHN",
+          "name_on_ballot": "Stewart McAdoo",
+          "party": "Democratic",
+          "votes": 707,
+          "pct": 33.9,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 14,
+      "overvotes": 2,
+      "undervotes": 123,
+      "named_candidate_votes": 2084,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H37",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-COSTELLO-BRIAN",
+          "name_on_ballot": "Brian Costello",
+          "party": "Republican",
+          "votes": 2468,
+          "pct": 72.7,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-ERICKSON-ELIZABETH",
+          "name_on_ballot": "Betsy Erickson",
+          "party": "Democratic",
+          "votes": 927,
+          "pct": 27.3,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 51,
+      "overvotes": 1,
+      "undervotes": 199,
+      "named_candidate_votes": 3395,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H38",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-HENDRY-ROBERT",
+          "name_on_ballot": "Robert L. Hendry",
+          "party": "Republican",
+          "votes": 1783,
+          "pct": 74.8,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-MCQUEEN-CATHERINE",
+          "name_on_ballot": "Catherine McQueen",
+          "party": "Democratic",
+          "votes": 602,
+          "pct": 25.2,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 69,
+      "overvotes": 2,
+      "undervotes": 135,
+      "named_candidate_votes": 2385,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H39",
+      "district_counties": [
+        "Sweetwater"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-WYLIE-CODY",
+          "name_on_ballot": "Cody Wylie",
+          "party": "Republican",
+          "votes": 1872,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 51,
+      "overvotes": 0,
+      "undervotes": 477,
+      "named_candidate_votes": 1872,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H40",
+      "district_counties": [
+        "Johnson",
+        "Sheridan"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-CONNOLLY-MARILYN",
+          "name_on_ballot": "Marilyn Connolly",
+          "party": "Republican",
+          "votes": 3677,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 154,
+      "overvotes": 1,
+      "undervotes": 523,
+      "named_candidate_votes": 3677,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H41",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-EDWARDS-ERIN",
+          "name_on_ballot": "Erin Edwards",
+          "party": "Republican",
+          "votes": 1602,
+          "pct": 58.5,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-BECKER-STACY",
+          "name_on_ballot": "Stacy Becker",
+          "party": "Democratic",
+          "votes": 1137,
+          "pct": 41.5,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 54,
+      "overvotes": 0,
+      "undervotes": 46,
+      "named_candidate_votes": 2739,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H42",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-GERINGER-ROB",
+          "name_on_ballot": "Rob Geringer",
+          "party": "Republican",
+          "votes": 2376,
+          "pct": 77.4,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-VANDYKE-JIM",
+          "name_on_ballot": "Jim VanDyke",
+          "party": "Democratic",
+          "votes": 695,
+          "pct": 22.6,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 30,
+      "overvotes": 0,
+      "undervotes": 46,
+      "named_candidate_votes": 3071,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H43",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-CROWDER-JESSICA",
+          "name_on_ballot": "Jessica Crowder",
+          "party": "Republican",
+          "votes": 2443,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 128,
+      "overvotes": 0,
+      "undervotes": 327,
+      "named_candidate_votes": 2443,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H44",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-FILER-LEE",
+          "name_on_ballot": "Lee Filer",
+          "party": "Republican",
+          "votes": 1256,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 132,
+      "overvotes": 0,
+      "undervotes": 274,
+      "named_candidate_votes": 1256,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H45",
+      "district_counties": [
+        "Albany"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-DAVENPORT-ROSS",
+          "name_on_ballot": "Ross Davenport",
+          "party": "Republican",
+          "votes": 770,
+          "pct": 25.3,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-PROVENZA-KARLEE",
+          "name_on_ballot": "Karlee Provenza",
+          "party": "Democratic",
+          "votes": 2275,
+          "pct": 74.7,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 10,
+      "overvotes": 0,
+      "undervotes": 78,
+      "named_candidate_votes": 3045,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H46",
+      "district_counties": [
+        "Albany"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-WRIGHT-CAMERON",
+          "name_on_ballot": "Cam Wright",
+          "party": "Republican",
+          "votes": 2787,
+          "pct": 74.1,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-WILKEN-GARY",
+          "name_on_ballot": "Gary Wilken",
+          "party": "Democratic",
+          "votes": 972,
+          "pct": 25.9,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 31,
+      "overvotes": 2,
+      "undervotes": 115,
+      "named_candidate_votes": 3759,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H47",
+      "district_counties": [
+        "Carbon",
+        "Sweetwater"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-OTOOLE-PATRICK",
+          "name_on_ballot": "Eamon O'Toole",
+          "party": "Republican",
+          "votes": 2523,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 57,
+      "overvotes": 0,
+      "undervotes": 493,
+      "named_candidate_votes": 2523,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H48",
+      "district_counties": [
+        "Sweetwater"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-WAMSLEY-JAMES",
+          "name_on_ballot": "James Wamsley",
+          "party": "Republican",
+          "votes": 1568,
+          "pct": 71.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-SCHMID-SUSAN",
+          "name_on_ballot": "Suzie Schmid",
+          "party": "Democratic",
+          "votes": 639,
+          "pct": 29.0,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 24,
+      "overvotes": 0,
+      "undervotes": 63,
+      "named_candidate_votes": 2207,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H49",
+      "district_counties": [
+        "Uinta"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-WALTON-DAVID",
+          "name_on_ballot": "David Walton",
+          "party": "Republican",
+          "votes": 2262,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 82,
+      "overvotes": 1,
+      "undervotes": 568,
+      "named_candidate_votes": 2262,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H50",
+      "district_counties": [
+        "Park"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-HILL-DAVID",
+          "name_on_ballot": "David Hill",
+          "party": "Republican",
+          "votes": 3213,
+          "pct": 86.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-SATTERWHITE-CARRIE",
+          "name_on_ballot": "Carrie Satterwhite",
+          "party": "Libertarian",
+          "votes": 523,
+          "pct": 14.0,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 37,
+      "overvotes": 5,
+      "undervotes": 302,
+      "named_candidate_votes": 3736,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H51",
+      "district_counties": [
+        "Sheridan"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BRATTEN-LAURIE",
+          "name_on_ballot": "Laurie Bratten",
+          "party": "Republican",
+          "votes": 3774,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 211,
+      "overvotes": 3,
+      "undervotes": 959,
+      "named_candidate_votes": 3774,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H52",
+      "district_counties": [
+        "Campbell"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-BOLLER-RONDA",
+          "name_on_ballot": "Ronda Boller",
+          "party": "Republican",
+          "votes": 1989,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 41,
+      "overvotes": 1,
+      "undervotes": 287,
+      "named_candidate_votes": 1989,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H53",
+      "district_counties": [
+        "Campbell"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-KNAPP-CHRISTOPHER",
+          "name_on_ballot": "Christopher R Knapp",
+          "party": "Republican",
+          "votes": 1407,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 59,
+      "overvotes": 0,
+      "undervotes": 348,
+      "named_candidate_votes": 1407,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H54",
+      "district_counties": [
+        "Fremont"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-LARSEN-LLOYD",
+          "name_on_ballot": "Lloyd Charles Larsen",
+          "party": "Republican",
+          "votes": 3156,
+          "pct": 79.9,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-BUTLER-HOLLY",
+          "name_on_ballot": "Holly M. Butler",
+          "party": "Libertarian",
+          "votes": 794,
+          "pct": 20.1,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 61,
+      "overvotes": 4,
+      "undervotes": 316,
+      "named_candidate_votes": 3950,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H55",
+      "district_counties": [
+        "Fremont"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-MANNING-CARL",
+          "name_on_ballot": "Carl Manning",
+          "party": "Republican",
+          "votes": 2334,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 59,
+      "overvotes": 0,
+      "undervotes": 414,
+      "named_candidate_votes": 2334,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H56",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-CAMPBELL-ELISSA",
+          "name_on_ballot": "Elissa Campbell",
+          "party": "Republican",
+          "votes": 2098,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 88,
+      "overvotes": 0,
+      "undervotes": 611,
+      "named_candidate_votes": 2098,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H57",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-JARVIS-JULIE",
+          "name_on_ballot": "Julie Jarvis",
+          "party": "Republican",
+          "votes": 1277,
+          "pct": 72.7,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-COLGROVE-LUCAS",
+          "name_on_ballot": "Luc Colgrove",
+          "party": "Democratic",
+          "votes": 479,
+          "pct": 27.3,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 50,
+      "overvotes": 3,
+      "undervotes": 92,
+      "named_candidate_votes": 1756,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H58",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-ALLEMAND-BILL",
+          "name_on_ballot": "Bill Allemand",
+          "party": "Republican",
+          "votes": 1401,
+          "pct": 63.7,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-MORGAN-KEENAN",
+          "name_on_ballot": "Keenan Morgan",
+          "party": "Democratic",
+          "votes": 571,
+          "pct": 26.0,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-PORAMBO-JOSEPH",
+          "name_on_ballot": "Joseph Porambo",
+          "party": "Libertarian",
+          "votes": 227,
+          "pct": 10.3,
+          "place": 3,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "person_record": "created"
+        }
+      ],
+      "write_ins": 18,
+      "overvotes": 5,
+      "undervotes": 124,
+      "named_candidate_votes": 2199,
+      "candidates_in_race": 3,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H59",
+      "district_counties": [
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-RIGGINS-JR",
+          "name_on_ballot": "J.R. Riggins",
+          "party": "Republican",
+          "votes": 1407,
+          "pct": 66.7,
+          "place": 1,
+          "winner": true,
+          "outcome": "Won",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "person_id": "WY-LONGTINE-LAURIE",
+          "name_on_ballot": "Laurie Longtine",
+          "party": "Democratic",
+          "votes": 702,
+          "pct": 33.3,
+          "place": 2,
+          "winner": false,
+          "outcome": "Lost",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 21,
+      "overvotes": 2,
+      "undervotes": 119,
+      "named_candidate_votes": 2109,
+      "candidates_in_race": 2,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H60",
+      "district_counties": [
+        "Sweetwater"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-NIEMIEC-TONY",
+          "name_on_ballot": "Tony Niemiec",
+          "party": "Republican",
+          "votes": 1848,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 98,
+      "overvotes": 1,
+      "undervotes": 502,
+      "named_candidate_votes": 1848,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H61",
+      "district_counties": [
+        "Laramie"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-SERVER-ANDREW",
+          "name_on_ballot": "Andrew Server",
+          "party": "Republican",
+          "votes": 1515,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 103,
+      "overvotes": 0,
+      "undervotes": 306,
+      "named_candidate_votes": 1515,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "office_sought": "State Representative",
+      "district": "H62",
+      "district_counties": [
+        "Converse",
+        "Natrona"
+      ],
+      "candidates": [
+        {
+          "person_id": "WY-CAMPBELL-KEVIN",
+          "name_on_ballot": "Kevin J. Campbell",
+          "party": "Republican",
+          "votes": 2297,
+          "pct": 100.0,
+          "place": 1,
+          "winner": true,
+          "outcome": "Unopposed",
+          "sources": [
+            {
+              "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+              "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+              "accessed": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "write_ins": 48,
+      "overvotes": 0,
+      "undervotes": 483,
+      "named_candidate_votes": 2297,
+      "candidates_in_race": 1,
+      "pct_basis": "share of votes for named candidates in the general election (write-ins, over/undervotes excluded)",
+      "complete": true,
+      "flags": [],
+      "sources": [
+        {
+          "name": "Wyoming SOS official general results (Results Summaries - OFFICIAL)",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Wyoming_General_Results.zip",
+          "accessed": "2026-11-11"
+        }
+      ]
+    }
+  ],
+  "new_person_ids": [
+    "WY-JOHNSON-SHAWN",
+    "WY-HAGGIT-JEFFREY",
+    "WY-BEXTEL-REBECCA",
+    "WY-VANMATRE-DONALD",
+    "WY-PERRY-TONY",
+    "WY-SHOLLENBERGER-RYAN",
+    "WY-HULME-CHERYL",
+    "WY-NIEDER-WESTERMANN-RALPH",
+    "WY-ALWIN-LARRY",
+    "WY-HARDESTY-DAVID",
+    "WY-MORGAN-JUSTIN",
+    "WY-SCHMID-SUSAN",
+    "WY-SATTERWHITE-CARRIE",
+    "WY-BUTLER-HOLLY",
+    "WY-PORAMBO-JOSEPH"
+  ],
+  "name_or_id_conflicts": [],
+  "gaps": [],
+  "counts": {
+    "races": 86,
+    "candidates": 130,
+    "races_complete": 86,
+    "races_with_missing_data": 0,
+    "new_person_records": 15,
+    "conflicts": 0
+  }
+}
