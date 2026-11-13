@@ -14,6 +14,7 @@ import importlib.util
 import json
 import re
 import shutil
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -304,6 +305,110 @@ def list_item(name: str, party: str, result: str, href: str | None) -> str:
     else:
         label = esc(name)
     return f"              <li>{label}{abbr_html}{result_html}</li>"
+
+
+PRECINCT_CSVS = (
+    DATA / "precinct_committee_2026_part1.csv",
+    DATA / "precinct_committee_2026_part2.csv",
+)
+PRECINCT_MISSING = {"Johnson", "Laramie", "Platte"}
+PRECINCT_LABEL = {"Fremont": "Partial.", "Goshen": "Unofficial."}
+PRECINCT_AS_OF = "November 13, 2026"
+PARTY_TITLE = {"REP": "Republican", "DEM": "Democratic"}
+
+
+def precinct_rows() -> dict[str, list[dict]]:
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for path in PRECINCT_CSVS:
+        if not path.is_file():
+            continue
+        with path.open(newline="", encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                grouped[row["county"]].append(row)
+    return grouped
+
+
+def write_in_total(name: str) -> bool:
+    folded = re.sub(r"[^a-z]", "", (name or "").casefold())
+    return folded in {"writeintotals", "writeintotal"}
+
+
+def being_verified(notes: str) -> bool:
+    low = (notes or "").lower()
+    return (
+        "uncertain" in low
+        or "confirm spelling" in low
+        or "confirm against" in low
+        or "seat inferred" in low
+    )
+
+
+def precinct_item(row: dict) -> str:
+    verified = ' <span class="cand-res">being verified</span>' if being_verified(row.get("notes") or "") else ""
+    if write_in_total(row.get("candidate_name") or ""):
+        votes = (row.get("votes") or "").strip()
+        return f"              <li>Write-in (not named): {esc(votes)}{verified}</li>"
+    bits = [esc(row.get("candidate_name") or "")]
+    votes = (row.get("votes") or "").strip()
+    if votes:
+        bits.append(f'<span class="cand-res">{esc(votes)}</span>')
+    if (row.get("result") or "").strip() == "elected":
+        bits.append('<span class="cand-res">Elected</span>')
+    if being_verified(row.get("notes") or ""):
+        bits.append('<span class="cand-res">being verified</span>')
+    return "              <li>" + " ".join(bits) + "</li>"
+
+
+def precinct_section(county: str, rows: list[dict] | None = None) -> str:
+    """Precinct committee races, in the same cards as the county offices."""
+    if rows is None:
+        rows = precinct_rows().get(county, [])
+    if county in PRECINCT_MISSING or not rows:
+        return (
+            '          <section class="cand-group">\n'
+            '          <h2 class="cand-group-title">Precinct Committee</h2>\n'
+            "          <p>Precinct committee results not yet posted by the county.</p>\n"
+            "        </section>"
+        )
+    label = PRECINCT_LABEL.get(county, "Official.")
+    url = (rows[0].get("source_url") or "").strip()
+    link_label = "Unofficial primary results" if county == "Goshen" else "Official primary results"
+    source = ""
+    if url:
+        source = (
+            f'          <p>Source: <a href="{esc(url)}">{esc(link_label)}</a> '
+            '<span class="ext">(leaves WyoVote)</span></p>\n'
+        )
+    grouped: dict[str, dict[str, dict[str, list[dict]]]] = {}
+    for row in rows:
+        precinct = row.get("precinct") or ""
+        party = row.get("party") or ""
+        seat = row.get("seat") or ""
+        grouped.setdefault(precinct, {})
+        grouped[precinct].setdefault(party, {})
+        grouped[precinct][party].setdefault(seat, []).append(row)
+    blocks = [
+        '          <section class="cand-group">\n'
+        '          <h2 class="cand-group-title">Precinct Committee</h2>\n'
+        f"          <p>{esc(label)} As of {PRECINCT_AS_OF}.</p>\n"
+        f"{source}"
+        "        </section>"
+    ]
+    for precinct, parties in grouped.items():
+        cards = []
+        for party, seats in parties.items():
+            party_title = PARTY_TITLE.get(party, party)
+            for seat, members in seats.items():
+                cards.append(race_block(f"{party_title} {seat}", [precinct_item(row) for row in members]))
+        blocks.append(
+            '          <section class="cand-group">\n'
+            f"          <h2 class=\"cand-group-title\">Precinct {esc(precinct)}</h2>\n"
+            '          <div class="cand-race-grid">\n'
+            + "\n".join(cards)
+            + "\n          </div>\n"
+            "        </section>"
+        )
+    return "\n".join(blocks)
 
 
 def race_block(title: str, items: list[str]) -> str:
@@ -666,6 +771,7 @@ def county_body(name: str, slug: str, info: dict, rows: list[dict], slugs: dict[
         f"{source_html(source_links(info, rows))}\n"
         '          <p class="cand-how"><strong>How to use this page.</strong> Races are grouped by office. Click any candidate\'s name to see their details.</p>\n'
         f"{county_races(rows, name, slugs)}\n"
+        f"{precinct_section(name)}\n"
         "      </div></section>"
     )
 
@@ -726,6 +832,28 @@ def load_rows() -> list[dict]:
 
 def load_status(filename: str) -> dict:
     return json.loads((DATA / "status" / f"{filename}.json").read_text(encoding="utf-8"))
+
+
+def insert_precinct_sections() -> None:
+    """Add the Precinct Committee section to county pages already on disk."""
+    token = "      </div></section>\n    </main>"
+    pages = 0
+    for name, slug, _status in COUNTIES:
+        path = LOCAL_DIR / f"{slug}.html"
+        text = path.read_text(encoding="utf-8")
+        if token not in text:
+            raise SystemExit(f"no insert point in {path}")
+        block = precinct_section(name)
+        start = text.find('          <section class="cand-group">\n          <h2 class="cand-group-title">Precinct Committee</h2>')
+        if start != -1:
+            end = text.find(token, start)
+            text = text[:start] + block + "\n" + text[end:]
+        else:
+            text = text.replace(token, block + "\n" + token, 1)
+        path.write_text(text, encoding="utf-8")
+        mark_file(path)
+        pages += 1
+    print(f"added precinct committee to {pages} county pages")
 
 
 def main() -> None:
@@ -807,6 +935,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    if "--precinct-only" in sys.argv:
+        insert_precinct_sections()
+    else:
+        main()
 
 
