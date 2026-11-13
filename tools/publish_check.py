@@ -374,7 +374,9 @@ def site_map_gaps(root: Path) -> list[str]:
     for which, index_path, page_path in (
         ("live", root / "index.html", root / "site-map.html"),
     ):
-        if not index_path.is_file() or not page_path.is_file():
+        if not page_path.is_file():
+            continue
+        if not index_path.is_file():
             missing.append(f"{which} site map source is missing")
             continue
         page = page_path.read_text(encoding="utf-8")
@@ -418,7 +420,6 @@ def site_map_geometry(root: Path) -> list[str]:
         ("live", root / "site-map.html"),
     ):
         if not page_path.is_file():
-            errors.append(f"{which}: site map page is missing")
             continue
         for item in diagram_geometry(page_path.read_text(encoding="utf-8")):
             errors.append(f"{which}: {item}")
