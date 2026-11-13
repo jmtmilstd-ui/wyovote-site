@@ -147,6 +147,19 @@ def crumbs(rel: str, text: str) -> list[str]:
             chain.extend(["Special", "Article"])
         else:
             chain.extend(["News", "Article"])
+    elif parts[0] == "reports" and len(parts) >= 4:
+        year, kind = parts[1], parts[2]
+        place = title
+        if year == "2026":
+            if kind == "county":
+                chain.extend(["Counties", place, "Report"])
+            elif kind == "committee":
+                chain.extend(["Committees", place, "Report"])
+            else:
+                chain.extend(["Ratings", place])
+        else:
+            section = {"county": "Counties", "committee": "Committees"}.get(kind, "Reports")
+            chain.extend(["Archive", section, place])
     elif rel == "candidates.html" or parts[0] == "candidates":
         chain.append("Candidates")
         if rel != "candidates.html":
@@ -257,8 +270,11 @@ def trail_label(label: str) -> str:
 
 
 def trail_html(labels: list[str]) -> str:
-    """Side-entry stair. A rail on the left enters each box's left end."""
-    shown = [clip_label(label) for label in labels]
+    """Side-entry stair. A rail on the left enters each box's left end.
+
+    Each box is as wide as its label. Labels are not shortened.
+    """
+    shown = [re.sub(r"\s+", " ", label).strip() for label in labels]
     pad_x = 8
     step_x = 12
     pitch = BOX_H + 8
@@ -847,7 +863,7 @@ def sync_live_styles() -> None:
     """Copy the promoted preview rules into the live stylesheet."""
     preview_css = (PREVIEW / "preview.css").read_text(encoding="utf-8")
     parts = []
-    for name in ("election", "map"):
+    for name in ("election", "map", "report"):
         match = re.search(
             rf"/\* PROMOTE_START {name} \*/\n(.*)/\* PROMOTE_END {name} \*/",
             preview_css,

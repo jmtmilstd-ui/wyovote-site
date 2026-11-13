@@ -1950,7 +1950,7 @@ html.cand-general .cand-view-general {
 .page-trail {
   flex: 0 0 auto;
   width: max-content;
-  max-width: min(100%, 16rem);
+  max-width: 100%;
   margin: 0 0 0 auto;
 }
 
@@ -2246,3 +2246,548 @@ html.cand-general .page-trail .cand-view-general {
   }
 }
 /* PROMOTE_END map */
+
+/* PROMOTE_START report */
+.report-sheet {
+  color: #142117;
+  font-size: 14pt;
+  line-height: 1.45;
+}
+
+.report-sheet p,
+.report-sheet li,
+.report-sheet h1,
+.report-sheet h2 {
+  color: #142117;
+}
+
+.report-kicker {
+  margin: 0 0 0.75rem;
+  color: #142117;
+  font-size: 14pt;
+  font-weight: 700;
+}
+
+.report-actions {
+  margin: 0 0 1rem;
+}
+
+.report-sheet a.print-pdf {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border: 2px solid #142117;
+  background: #ffffff;
+  color: #142117;
+  font-size: 12pt;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.report-stats {
+  width: auto;
+  margin: 0 0 1.25rem;
+  border-collapse: collapse;
+  font-size: 12pt;
+}
+
+.report-stats th,
+.report-stats td,
+.report-table th,
+.report-table td {
+  border: 1px solid #142117;
+  padding: 0.28rem 0.45rem;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 1.35;
+  text-align: left;
+  vertical-align: top;
+}
+
+.report-stats th,
+.report-table th {
+  background: #1f5d34;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.report-sheet h2 {
+  margin: 1.25rem 0 0.4rem;
+  font-size: 16pt;
+}
+
+.report-table {
+  width: 100%;
+  margin: 0 0 0.5rem;
+  border-collapse: collapse;
+}
+
+.report-note {
+  margin: 1rem 0 0;
+  color: #142117;
+  font-size: 14pt;
+}
+
+.wv-sheet a.print-pdf {
+  display: inline;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #5c6560;
+  font-size: 9pt;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.wv-sheet .report-actions {
+  margin: 0 0 0.35rem;
+  text-align: right;
+}
+
+.wv-sheet {
+  max-width: 612pt;
+  margin-inline: auto;
+  padding: 16pt 42pt 22pt;
+  background: #ffffff;
+  color: #142117;
+  font-family: "Liberation Sans", Arial, sans-serif;
+}
+
+.wv-cover,
+.wv-part {
+  margin: 0 0 2rem;
+}
+
+.wv-seal {
+  display: block;
+  width: 144pt;
+  height: auto;
+  margin: 8pt auto 16pt;
+}
+
+.wv-sheet h2.wv-title {
+  margin: 0;
+  color: #1f3a68;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 34pt;
+  font-weight: 700;
+  line-height: 40pt;
+  text-align: center;
+}
+
+.wv-sub,
+.wv-meta,
+.wv-contents {
+  margin: 0;
+  color: #142117;
+  font-size: 16pt;
+  line-height: 21pt;
+  text-align: center;
+}
+
+.wv-meta {
+  margin-bottom: 10pt;
+}
+
+.wv-sheet h3 {
+  margin: 8pt 0 2pt;
+  color: #14501a;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 22pt;
+  font-weight: 700;
+  line-height: 27pt;
+}
+
+.wv-part > p {
+  margin: 0 0 6pt;
+}
+
+.wv-sheet .wv-cover p,
+.wv-part > p {
+  color: #142117;
+  font-size: 14pt;
+  line-height: 18.5pt;
+}
+
+.wv-legend,
+.wv-rate {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8pt auto 6pt;
+  font-size: 12pt;
+}
+
+.wv-legend {
+  width: 92%;
+}
+
+.wv-rate {
+  table-layout: fixed;
+}
+
+.wv-rate col.wv-namecol {
+  width: 24%;
+}
+
+.wv-legend th,
+.wv-legend td,
+.wv-rate th,
+.wv-rate td {
+  border: 1px solid #142117;
+  padding: 1.5pt 3pt;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 14.5pt;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.wv-legend thead th,
+.wv-rate thead th {
+  background: #d8e9d8;
+  font-weight: 700;
+}
+
+.wv-rate td.wv-name,
+.wv-rate td.wv-name a {
+  white-space: normal;
+}
+
+.wv-rate td.wv-name {
+  text-align: left;
+  font-weight: 700;
+  line-height: 14.5pt;
+}
+
+.wv-rate a.wv-person,
+.op-name a.wv-person {
+  color: #142117;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.wv-rate a.wv-person:hover,
+.op-name a.wv-person:hover {
+  text-decoration: underline;
+}
+
+.wv-band.is-conservative,
+.wv-legend tr.is-conservative th,
+.op-box.is-conservative {
+  background: #c8f5c8;
+}
+
+.wv-sheet td.wv-band.is-liberal,
+.wv-sheet .wv-legend tr.is-liberal th {
+  background-color: #c9d6f0;
+}
+
+.wv-band.is-moderate,
+.op-box.is-moderate {
+  background: #ffffff;
+}
+
+.wv-band.is-unranked,
+.op-box.is-unranked {
+  background: #fff2a8;
+}
+
+.wv-brand {
+  border-bottom: 2.5pt solid #14501a;
+  margin: 0 0 4pt;
+  padding-bottom: 3pt;
+}
+
+.wv-word {
+  display: block;
+  width: 210pt;
+  height: auto;
+  margin: 0;
+}
+
+.wv-page {
+  margin-top: 22pt;
+  padding-top: 18pt;
+  border-top: 16pt solid #f4f3ee;
+}
+
+.wv-note {
+  margin: 6pt 0 0;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 15pt;
+}
+
+.wv-foot {
+  display: grid;
+  grid-template-columns: 36pt 1fr auto;
+  align-items: center;
+  gap: 8pt;
+  margin-top: 16pt;
+  padding-top: 6pt;
+  border-top: 1.25pt solid #142117;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 14.5pt;
+}
+
+.wv-foot img {
+  width: 36pt;
+  height: auto;
+}
+
+.wv-foot p {
+  margin: 0;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 14.5pt;
+}
+
+.wv-sheet:has(.op-grid) {
+  max-width: 612pt;
+  padding: 8pt 16pt 6pt;
+}
+
+.op-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.op-banner h2,
+.op-banner p {
+  margin: 0;
+  color: #142117;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 17pt;
+  font-weight: 700;
+  line-height: 20pt;
+  white-space: nowrap;
+}
+
+.op-banner .op-sort {
+  color: #3b5a80;
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 12pt;
+}
+
+.op-banner .op-session {
+  font-size: 17pt;
+  font-weight: 400;
+}
+
+.op-banner .op-session strong {
+  color: #1e6b1e;
+  font-size: 17pt;
+}
+
+.op-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3pt 6pt;
+}
+
+.op-col {
+  min-width: 0;
+}
+
+.op-span {
+  grid-column: span 2;
+}
+
+.op-grid > h3.op-bar {
+  margin: 0;
+  padding: 2pt 6pt;
+  background: #c5ffc5;
+  border: 1px solid #a6a6a6;
+  color: #1e6b1e;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 12.5pt;
+  font-weight: 700;
+  line-height: 16pt;
+}
+
+.op-grid > h3.op-bar span {
+  display: inline-block;
+  min-width: 18pt;
+  margin-left: 4pt;
+  padding: 0 3pt;
+  background: #adc0d9;
+  color: #142117;
+  font-size: 13pt;
+  font-weight: 700;
+  line-height: 15pt;
+  text-align: center;
+}
+
+.op-head,
+.op-row {
+  display: grid;
+  grid-template-columns: 22pt 28pt 36pt 24pt minmax(0, 1fr);
+  gap: 1.5pt;
+  align-items: center;
+  margin: 3.25pt 0;
+  min-height: 16.5pt;
+  font-size: 10pt;
+  line-height: 12pt;
+}
+
+.op-head {
+  color: #142117;
+  font-size: 8pt;
+  font-weight: 700;
+  line-height: 9pt;
+  white-space: nowrap;
+}
+
+.op-box,
+.op-dist {
+  display: inline-block;
+  min-width: 0;
+  max-width: 100%;
+  padding: 0 1pt;
+  border: 1px solid #a6a6a6;
+  color: #142117;
+  font-size: 10pt;
+  font-weight: 700;
+  line-height: 13pt;
+  text-align: center;
+}
+
+.op-votes {
+  color: #7f7f7f;
+  font-size: 8.2pt;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 10pt;
+  text-align: center;
+  text-decoration: none;
+}
+
+.op-name {
+  min-width: 0;
+  font-size: 10pt;
+  font-weight: 400;
+  line-height: 12pt;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.op-row .op-name a.wv-person {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.op-dist.is-republican { background: #dfa7a5; }
+.op-dist.is-democrat { background: #a4d5e2; }
+.op-dist.is-independent { background: #a6a6a6; }
+.op-dist.is-libertarian { background: #a7da4e; }
+.op-box.is-conservative { background: #c5ffc5; }
+.op-box.is-liberal { background: #adc0d9; }
+
+.op-legend {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "brand keys code"
+    "note note note";
+  align-items: center;
+  column-gap: 10pt;
+  row-gap: 6pt;
+  margin-top: 6pt;
+  color: #142117;
+  font-size: 9pt;
+  line-height: 12pt;
+}
+
+.op-brand {
+  grid-area: brand;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4pt;
+  color: #1e6b1e;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 11pt;
+  font-weight: 700;
+  line-height: 12pt;
+  white-space: nowrap;
+}
+
+.op-keys {
+  grid-area: keys;
+  min-width: 0;
+}
+
+.op-note {
+  grid-area: note;
+  min-width: 0;
+}
+
+.op-code {
+  grid-area: code;
+  margin: 0;
+  font-weight: 700;
+  text-align: right;
+}
+
+.op-brand img {
+  width: 22pt;
+  height: auto;
+}
+
+.op-legend p {
+  margin: 1pt 0;
+  color: #142117;
+  font-size: 9pt;
+  line-height: 14pt;
+}
+
+.op-key {
+  color: #1e6b1e;
+  font-weight: 700;
+  margin-right: 4pt;
+}
+
+.op-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3pt;
+  margin-right: 6pt;
+  font-size: 8.5pt;
+  white-space: nowrap;
+}
+
+.op-chip i {
+  display: inline-block;
+  width: 36pt;
+  height: 13pt;
+  border: 1px solid #a6a6a6;
+}
+
+.op-chip i.is-republican { background: #dfa7a5; }
+.op-chip i.is-democrat { background: #a4d5e2; }
+.op-chip i.is-independent { background: #a6a6a6; }
+.op-chip i.is-libertarian { background: #a7da4e; }
+.op-chip i.is-conservative { background: #c5ffc5; }
+.op-chip i.is-moderate { background: #ffffff; }
+.op-chip i.is-liberal { background: #adc0d9; }
+.op-chip i.is-unranked { background: #fff2a8; }
+
+@media (max-width: 800px) {
+  .op-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .op-legend {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "brand code"
+      "keys keys"
+      "note note";
+  }
+}
+/* PROMOTE_END report */

@@ -46,6 +46,9 @@ unreferenced:tools/build_candidate_pages.py
 # Stamps the preview Site Map and the small header trail. Not a site asset.
 unreferenced:tools/build_site_map.py
 
+# Builds the preview web pages that accompany the report PDFs. Not a site asset.
+unreferenced:tools/build_report_pages.py
+
 # Compact research used by that rebuild. Not linked from a page.
 unreferenced:preview/data/candidate-research/2026-primary/part-01.json
 unreferenced:preview/data/candidate-research/2026-primary/part-02.json
