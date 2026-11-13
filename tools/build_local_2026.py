@@ -321,20 +321,20 @@ def source_html(links: list[tuple[str, str]]) -> str:
 
 
 def list_item(name: str, party: str, result: str, href: str | None, votes: str | None = None) -> str:
-    """Name, party letter, votes, then Won or Lost. Only Won is marked for bold type."""
+    """Name, party letter, votes, then Won or Lost. A Won line is bold end to end."""
     abbr = cand.party_abbr(party) if party else ""
     abbr_html = f' <span class="cand-abbr">{esc(abbr)}</span>' if abbr else ""
     votes_html = f' <span class="cand-res">{esc(votes)}</span>' if (votes or "").strip() else ""
     if result:
-        klass = "cand-res cand-won" if result == "Won" else "cand-res"
-        result_html = f' <span class="{klass}">{esc(result)}</span>'
+        result_html = f' <span class="cand-res">{esc(result)}</span>'
     else:
         result_html = ""
     if href:
         label = f'<a href="{esc(href)}">{esc(name)}</a>'
     else:
         label = esc(name)
-    return f"              <li>{label}{abbr_html}{votes_html}{result_html}</li>"
+    li_class = ' class="cand-won"' if result == "Won" else ""
+    return f"              <li{li_class}>{label}{abbr_html}{votes_html}{result_html}</li>"
 
 
 PRECINCT_CSVS = (
@@ -395,7 +395,7 @@ def precinct_result(row: dict) -> str:
 
 
 def precinct_item(row: dict, county: str) -> str:
-    verified = ' <span class="cand-res">being verified</span>' if being_verified(row.get("notes") or "") else ""
+    verified = ' <span class="cand-res cand-note">being verified</span>' if being_verified(row.get("notes") or "") else ""
     if write_in_total(row.get("candidate_name") or ""):
         votes = (row.get("votes") or "").strip()
         return f"              <li>Write-in (not named): {esc(votes)}{verified}</li>"
@@ -887,8 +887,30 @@ def load_status(filename: str) -> dict:
     return json.loads((DATA / "status" / f"{filename}.json").read_text(encoding="utf-8"))
 
 
+def replace_group(text: str, title: str, block: str, end_at: str | None = None) -> str:
+    start_marker = (
+        '          <section class="cand-group">\n'
+        f'          <h2 class="cand-group-title">{title}</h2>'
+    )
+    start = text.find(start_marker)
+    if start == -1:
+        raise SystemExit(f"missing {title} section")
+    if end_at:
+        end = text.find(end_at, start)
+    else:
+        end = text.find('          <section class="cand-group">', start + len(start_marker))
+    if end == -1:
+        raise SystemExit(f"no end for {title}")
+    return text[:start] + block + "\n" + text[end:]
+
+
 def insert_precinct_sections() -> None:
-    """Add the Precinct Committee section to county pages already on disk."""
+    """Rewrite county-office and precinct lines on the county pages already on disk."""
+    rows, _notes = prepare_rows(load_rows())
+    by_county: dict[str, list[dict]] = defaultdict(list)
+    for row in rows:
+        by_county[row["county"]].append(row)
+    slugs = assign_slugs(rows)
     token = "      </div></section>\n    </main>"
     pages = 0
     for name, slug, _status in COUNTIES:
@@ -896,17 +918,17 @@ def insert_precinct_sections() -> None:
         text = path.read_text(encoding="utf-8")
         if token not in text:
             raise SystemExit(f"no insert point in {path}")
+        if 'cand-group-title">County offices' in text:
+            text = replace_group(text, "County offices", county_races(by_county.get(name, []), name, slugs))
         block = precinct_section(name)
-        start = text.find('          <section class="cand-group">\n          <h2 class="cand-group-title">Precinct Committee</h2>')
-        if start != -1:
-            end = text.find(token, start)
-            text = text[:start] + block + "\n" + text[end:]
+        if 'cand-group-title">Precinct Committee' in text:
+            text = replace_group(text, "Precinct Committee", block, token)
         else:
             text = text.replace(token, block + "\n" + token, 1)
         path.write_text(text, encoding="utf-8")
         mark_file(path)
         pages += 1
-    print(f"added precinct committee to {pages} county pages")
+    print(f"rewrote office and precinct lines on {pages} county pages")
 
 
 def main() -> None:
