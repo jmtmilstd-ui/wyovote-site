@@ -990,7 +990,7 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
         senate = parsed["sections"][1][1] if len(parsed["sections"]) > 1 else []
         split = (len(house) + 1) // 2
         ranked_of = sum(1 for row in house + senate if str(row["rank"]).isdigit())
-        sort_note = "Alphabetical by last name" if parsed["alpha"] else "Sorted Most to Least Conservative"
+        sort_note = "Alphabetical by last name" if parsed["alpha"] else "Sorted from MOST Conservative to Most Liberal"
         note = parsed.get("one_note") or ""
         if " NR =" in note:
             first, rest = note.split(" NR =", 1)
