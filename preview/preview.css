@@ -1845,6 +1845,22 @@ html.cand-local .cand-page .page-body a.cand-election-btn[data-election="primary
   font-weight: 700;
 }
 
+/* Local county pages: office and precinct lines share one weight.
+   Only Won stays bold. */
+html.cand-local .cand-race .cand-names,
+html.cand-local .cand-race .cand-names a,
+html.cand-local .cand-race .cand-names .cand-abbr,
+html.cand-local .cand-race .cand-names .cand-res {
+  font-family: inherit;
+  font-size: 12pt;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html.cand-local .cand-race .cand-names .cand-won {
+  font-weight: 700;
+}
+
 .cand-page .page-body a {
   color: #0e2a18;
 }
@@ -1892,6 +1908,10 @@ html.cand-local .cand-page .page-body a.cand-election-btn[data-election="primary
   .cand-names a,
   .cand-abbr,
   .cand-names .cand-res,
+  html.cand-local .cand-race .cand-names,
+  html.cand-local .cand-race .cand-names a,
+  html.cand-local .cand-race .cand-names .cand-abbr,
+  html.cand-local .cand-race .cand-names .cand-res,
   .cand-facts,
   .cand-facts th,
   .cand-facts td {

@@ -296,15 +296,21 @@ def source_html(links: list[tuple[str, str]]) -> str:
     return f"          <p>Source: {bits}</p>"
 
 
-def list_item(name: str, party: str, result: str, href: str | None) -> str:
+def list_item(name: str, party: str, result: str, href: str | None, votes: str | None = None) -> str:
+    """Name, party letter, votes, then Won or Lost. Only Won is marked for bold type."""
     abbr = cand.party_abbr(party) if party else ""
     abbr_html = f' <span class="cand-abbr">{esc(abbr)}</span>' if abbr else ""
-    result_html = f' <span class="cand-res">{esc(result)}</span>' if result else ""
+    votes_html = f' <span class="cand-res">{esc(votes)}</span>' if (votes or "").strip() else ""
+    if result:
+        klass = "cand-res cand-won" if result == "Won" else "cand-res"
+        result_html = f' <span class="{klass}">{esc(result)}</span>'
+    else:
+        result_html = ""
     if href:
         label = f'<a href="{esc(href)}">{esc(name)}</a>'
     else:
         label = esc(name)
-    return f"              <li>{label}{abbr_html}{result_html}</li>"
+    return f"              <li>{label}{abbr_html}{votes_html}{result_html}</li>"
 
 
 PRECINCT_CSVS = (
@@ -329,8 +335,20 @@ def precinct_rows() -> dict[str, list[dict]]:
 
 
 def write_in_total(name: str) -> bool:
-    folded = re.sub(r"[^a-z]", "", (name or "").casefold())
-    return folded in {"writeintotals", "writeintotal"}
+    low = (name or "").casefold()
+    if "total" not in low:
+        return False
+    head = re.sub(r"[^a-z]", "", low.split("total", 1)[0])
+    return head.startswith("write")
+
+
+def precinct_display_name(name: str, county: str) -> str:
+    """Title-case all-caps names the same way county offices do. Mixed case stays."""
+    raw = (name or "").strip()
+    match = re.match(r"(?i)write-in\s*:\s*(.*)$", raw)
+    if match:
+        return "Write-In: " + display_name(match.group(1).strip(), county)
+    return display_name(raw, county)
 
 
 def being_verified(notes: str) -> bool:
@@ -343,20 +361,31 @@ def being_verified(notes: str) -> bool:
     )
 
 
-def precinct_item(row: dict) -> str:
+def precinct_result(row: dict) -> str:
+    result = (row.get("result") or "").strip()
+    if result == "elected":
+        return "Won"
+    if result == "defeated":
+        return "Lost"
+    return ""
+
+
+def precinct_item(row: dict, county: str) -> str:
     verified = ' <span class="cand-res">being verified</span>' if being_verified(row.get("notes") or "") else ""
     if write_in_total(row.get("candidate_name") or ""):
         votes = (row.get("votes") or "").strip()
         return f"              <li>Write-in (not named): {esc(votes)}{verified}</li>"
-    bits = [esc(row.get("candidate_name") or "")]
-    votes = (row.get("votes") or "").strip()
-    if votes:
-        bits.append(f'<span class="cand-res">{esc(votes)}</span>')
-    if (row.get("result") or "").strip() == "elected":
-        bits.append('<span class="cand-res">Elected</span>')
-    if being_verified(row.get("notes") or ""):
-        bits.append('<span class="cand-res">being verified</span>')
-    return "              <li>" + " ".join(bits) + "</li>"
+    name = precinct_display_name(row.get("candidate_name") or "", county)
+    item = list_item(
+        name,
+        party_name(row.get("party") or ""),
+        precinct_result(row),
+        None,
+        (row.get("votes") or "").strip(),
+    )
+    if verified:
+        item = item.replace("</li>", verified + "</li>", 1)
+    return item
 
 
 def precinct_section(county: str, rows: list[dict] | None = None) -> str:
@@ -399,7 +428,7 @@ def precinct_section(county: str, rows: list[dict] | None = None) -> str:
         for party, seats in parties.items():
             party_title = PARTY_TITLE.get(party, party)
             for seat, members in seats.items():
-                cards.append(race_block(f"{party_title} {seat}", [precinct_item(row) for row in members]))
+                cards.append(race_block(f"{party_title} {seat}", [precinct_item(row, county) for row in members]))
         blocks.append(
             '          <section class="cand-group">\n'
             f"          <h2 class=\"cand-group-title\">Precinct {esc(precinct)}</h2>\n"
