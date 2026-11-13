@@ -370,34 +370,16 @@ def root_prefix(rel: str) -> str:
 
 
 def insert_nav(text: str, rel: str) -> str:
-    text = re.sub(r"\s*<li><a class=\"site-map-link\".*?</li>", "", text, flags=re.S)
-    current = ' aria-current="page"' if rel == "site-map.html" else ""
-    item = f'<li><a class="site-map-link" href="{root_prefix(rel)}site-map.html"{current}>Site Map</a></li>'
-    match = re.search(r'(<a href="[^"]*research\.html"[^>]*>Research</a></li>)', text)
-    if not match:
-        return text
-    return text[: match.end()] + "\n            " + item + text[match.end() :]
+    """Preview no longer has a Site Map. Drop the button wherever it was stamped."""
+    del rel
+    return re.sub(r"\s*<li><a class=\"site-map-link\".*?</li>", "", text, flags=re.S)
 
 
 def insert_trail(text: str, labels: list[str]) -> str:
-    block = trail_html(labels)
+    """Preview no longer shows the header trail."""
+    del labels
     text = re.sub(r"\s*<!-- page-trail -->.*?<!-- /page-trail -->", "", text, flags=re.S)
-    wrapped = "<!-- page-trail -->\n" + block + "\n<!-- /page-trail -->"
-    hero = re.search(r'(<section class="page-hero"[^>]*>\s*<div class="wrap">)', text)
-    if hero:
-        end = text.find("</div>", hero.end())
-        if end != -1:
-            return text[:end] + "\n" + wrapped + "\n        " + text[end:]
-    profile = re.search(r'(<section class="pf-head"[^>]*>)', text)
-    if profile:
-        return text[: profile.end()] + "\n" + wrapped + text[profile.end() :]
-    header = re.search(r'(<div class="wrap header-inner">)', text)
-    if header:
-        # Keep the trail with the header on pages that have no green title band.
-        close = text.find("</div>", header.end())
-        if close != -1:
-            return text[:close] + "\n" + wrapped + "\n      " + text[close:]
-    return text
+    return re.sub(r"\s*<div class=\"page-trail\">.*?</div>", "", text, flags=re.S)
 
 
 # Depth 0 is the section title (level 1). Depth 1 is the next page.
@@ -899,7 +881,9 @@ def promote_live() -> int:
 
 
 def main() -> None:
-    write_site_map_page()
+    site_map = PREVIEW / "site-map.html"
+    if site_map.is_file():
+        site_map.unlink()
     pages = sorted(PREVIEW.rglob("*.html"))
     for path in pages:
         stamp(path)
