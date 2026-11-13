@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Karl Allred — 2022 Primary — WyoVote</title>
-    <meta name="description" content="Karl Allred (Republican, Evanston): Gas plant operator; Acting Wyoming Secretary of State, 2022–2023. Lost the Aug. 16, 2022 Republican primary for State House District 19 with 30.5% of the vote.">
+    <meta name="description" content="Karl Allred (Republican, Evanston): Gas plant operator; Acting Wyoming Secretary of State, 2022–2023; Wyoming Secretary of State (interim), 2022-09-30–2023-01. Lost the Aug. 16, ate House District 19 with 30.5% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,21 +32,24 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Karl Allred</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Karl Allred (Republican, Evanston): Gas plant operator; Acting Wyoming Secretary of State, 2022–2023. Lost the Aug. 16, 2022 Republican primary for State House District 19 with 30.5% of the vote.</p>
+          <p class="cand-blurb">Karl Allred (Republican, Evanston): Gas plant operator; Acting Wyoming Secretary of State, 2022–2023; Wyoming Secretary of State (interim), 2022-09-30–2023-01. Lost the Aug. 16, ate House District 19 with 30.5% of the vote.</p>
           <p class="cand-meta">Republican · Evanston, Uinta County</p>
           <p class="cand-res">Primary result: Lost, 752 votes (30.5%), 2nd of 3.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
           <tr><th scope="row">Occupation</th><td>Gas plant operator</td></tr>
-          <tr><th scope="row">Prior offices</th><td>Acting Wyoming Secretary of State, 2022–2023</td></tr>
+          <tr><th scope="row">Background</th><td><p>An Evanston-area Republican, he lost the 2022 HD19 primary and had also lost House races in 2020, 2018, and ate Daily later described him as a Uinta County GOP state committeeman, a gas-plant foreman, and a former director of product development for an electronic bingo company. Gov. Mark Gordon appointed him interim secretary of state on Sept. 30, 2022, after Ed Buchanan resigned; Allred told WyoFile it was “an interim job” and that he was “not out there to make waves,” saying he would rely on existing elections-division staff through the general election and a January transition.</p></td></tr>
+          <tr><th scope="row">Prior offices</th><td>Acting Wyoming Secretary of State, 2022–2023; Wyoming Secretary of State (interim), 2022-09-30–2023-01; Uinta County Republican Party state committeeman</td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
           <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a></li>
           <li><a href="https://ballotpedia.org/Karl_Allred">Ballotpedia</a></li>
+          <li><a href="https://wyofile.com/gov-gordon-appoints-karl-allred-interim-secretary-of-state/">WyoFile, “Gov. Gordon appoints Karl Allred interim secretary of state,” Maggie Mullen, Sept. 30, 2022</a></li>
+          <li><a href="https://cowboystatedaily.com/2022/09/23/here-are-the-11-candidates-for-the-interim-wyoming-secretary-of-state-position/">Cowboy State Daily, “Here Are The 11 Candidates For The Interim Wyoming Secretary Of State Position,” Sept. 23, 2022</a></li>
           <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
           </ul>
           </section>
@@ -75,7 +78,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

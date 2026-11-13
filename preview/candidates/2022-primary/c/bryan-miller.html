@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bryan Miller — 2022 Primary — WyoVote</title>
-    <meta name="description" content="Bryan Miller (Republican, Sheridan): Owner of BEM Int’l, LLC, a Service-Disabled Veteran Owned Small Business based in Sheridan specializing in energy, infrastructure, and land use consulting (started October 2010); retired U.S. Air Force Lieutenant Colonel and Instructor/Evaluator Pilot; Republican Party of Wyoming Chair, 2025–Present; United States Air Force, retired February 2011 at the rank of Lieutenant Colonel; Instructor/Evaluator Pilot with Command Pilot Wings and more than 2,500 flight hours; combat veteran (58 combat/combat support air-refueling missions across three campaigns, including Desert Storm). Lost the Aug. 16, 2022 Republican primary for State House District 51 with 48.2% of the vote.">
+    <meta name="description" content="Bryan Miller (Republican, Sheridan): Owner of BEM Int’l, LLC, a Service-Disabled Veteran Owned Small Business based in Sheridan specializing in energy, infrastructure, and land use consulting (started October 2010); retired U.S. Air Force Lieutenant Colonel and Instructor/Evaluator Pilot; Republican Party of Wyoming Chair, 2025–Present; United States Air Force, retired February 2011 at the rank of Lieutenant Colonel; Instructor/Evaluator Pilot with Command Pilot Wings and more than 2,500 flight hours; combat veteran (58 combat/combat support air-refueling missions across three campaigns, including Desert Storm). Lost the Aug. 16, ate House District 51 with 48.2% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,16 +32,16 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Bryan Miller</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Bryan Miller (Republican, Sheridan): Owner of BEM Int’l, LLC, a Service-Disabled Veteran Owned Small Business based in Sheridan specializing in energy, infrastructure, and land use consulting (started October 2010); retired U.S. Air Force Lieutenant Colonel and Instructor/Evaluator Pilot; Republican Party of Wyoming Chair, 2025–Present; United States Air Force, retired February 2011 at the rank of Lieutenant Colonel; Instructor/Evaluator Pilot with Command Pilot Wings and more than 2,500 flight hours; combat veteran (58 combat/combat support air-refueling missions across three campaigns, including Desert Storm). Lost the Aug. 16, 2022 Republican primary for State House District 51 with 48.2% of the vote.</p>
+          <p class="cand-blurb">Bryan Miller (Republican, Sheridan): Owner of BEM Int’l, LLC, a Service-Disabled Veteran Owned Small Business based in Sheridan specializing in energy, infrastructure, and land use consulting (started October 2010); retired U.S. Air Force Lieutenant Colonel and Instructor/Evaluator Pilot; Republican Party of Wyoming Chair, 2025–Present; United States Air Force, retired February 2011 at the rank of Lieutenant Colonel; Instructor/Evaluator Pilot with Command Pilot Wings and more than 2,500 flight hours; combat veteran (58 combat/combat support air-refueling missions across three campaigns, including Desert Storm). Lost the Aug. 16, ate House District 51 with 48.2% of the vote.</p>
           <p class="cand-meta">Republican · Sheridan, Sheridan County</p>
           <p class="cand-res">Primary result: Lost, 1,874 votes (48.2%), 2nd of 2.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
           <tr><th scope="row">Occupation</th><td>Owner of BEM Int’l, LLC, a Service-Disabled Veteran Owned Small Business based in Sheridan specializing in energy, infrastructure, and land use consulting (started October 2010); retired U.S. Air Force Lieutenant Colonel and Instructor/Evaluator Pilot</td></tr>
-          <tr><th scope="row">Background</th><td><p>I am married to Susan, my amazing wife of over 31 years. I graduated from Sheridan High School in 1984, the US Air Force Academy in 1988 (Bachelor of Science in Biology), was commissioned as a 2nd Lieutenant in the United States Air Force and worked my way through the ranks to become a USAF Instructor/Evaluator Pilot. I retired in February 2011 at the rank of Lieutenant Colonel. In October 2010 I started BEM Int’l, LLC, a Service-Disabled Veteran Owned Small Business based in Sheridan, Wyoming.</p></td></tr>
+          <tr><th scope="row">Background</th><td><p>I am married to Susan, my amazing wife of over 31 years. I graduated from Sheridan High School in 1984, the US Air Force Academy in 1988 (Bachelor of Science in Biology), was commissioned as a 2nd Lieutenant in the United States Air Force and worked my way through the ranks to become a USAF Instructor/Evaluator Pilot. I retired in February 2011 at the rank of Lieutenant Colonel. In October arted BEM Int’l, LLC, a Service-Disabled Veteran Owned Small Business based in Sheridan, Wyoming.</p></td></tr>
           <tr><th scope="row">Education</th><td>Sheridan High School, 1984; Bachelor of Science in Biology, U.S. Air Force Academy, 1988; Master of Aeronautical Science; Master of Military Operational Art and Science</td></tr>
           <tr><th scope="row">Military</th><td>United States Air Force, retired February 2011 at the rank of Lieutenant Colonel; Instructor/Evaluator Pilot with Command Pilot Wings and more than 2,500 flight hours; combat veteran (58 combat/combat support air-refueling missions across three campaigns, including Desert Storm)</td></tr>
           <tr><th scope="row">Prior offices</th><td>Republican Party of Wyoming Chair, 2025–Present</td></tr>
@@ -81,7 +81,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

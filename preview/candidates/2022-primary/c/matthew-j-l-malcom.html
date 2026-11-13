@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Matthew J.L. Malcom — 2022 Primary — WyoVote</title>
-    <meta name="description" content="Matthew J.L. Malcom (Republican, Cheyenne). Lost the Aug. 16, 2022 Republican primary for State House District 61 with 28.3% of the vote.">
+    <meta name="description" content="Matthew J.L. Malcom (Republican, Cheyenne): Wyoming Air National Guard member (enlisted full-time, later part-time); former legislative aide to the Wyoming Legislature; Wyoming Air National Guard; his campaign site said he enlisted full-time after graduation and later re-enlisted part-time to finish his education. A 2024 WTE profile said he had been in the Guard for six years, three of them full-time.. Lost the Aug. 16, ate House District 61 with 28.3% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,19 +32,26 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Matthew J.L. Malcom</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Matthew J.L. Malcom (Republican, Cheyenne). Lost the Aug. 16, 2022 Republican primary for State House District 61 with 28.3% of the vote.</p>
+          <p class="cand-blurb">Matthew J.L. Malcom (Republican, Cheyenne): Wyoming Air National Guard member (enlisted full-time, later part-time); former legislative aide to the Wyoming Legislature; Wyoming Air National Guard; his campaign site said he enlisted full-time after graduation and later re-enlisted part-time to finish his education. A 2024 WTE profile said he had been in the Guard for six years, three of them full-time.. Lost the Aug. 16, ate House District 61 with 28.3% of the vote.</p>
           <p class="cand-meta">Republican · Cheyenne, Laramie County</p>
           <p class="cand-res">Primary result: Lost, 377 votes (28.3%), 2nd of 3.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
+          <tr><th scope="row">Occupation</th><td>Wyoming Air National Guard member (enlisted full-time, later part-time); former legislative aide to the Wyoming Legislature</td></tr>
+          <tr><th scope="row">Background</th><td><p>Moved to Wyoming as a child because of his father’s military service. He wrote that he served as a legislative aide during his adolescence, then enlisted full-time in the Wyoming Air National Guard, later serving part-time to finish school at the University of Wyoming. A 2024 WTE profile also said he had spent two years as a legislative aide for Laramie County legislative leadership.</p></td></tr>
+          <tr><th scope="row">Education</th><td>Campaign website said he was slated to graduate in May 2025 from the University of Wyoming with a bachelor’s in political science and American history. A contemporaneous August 2024 Wyoming Tribune Eagle profile described him as pursuing a graduate degree at the University of Wyoming in American politics and as a full-time student for the prior two years.</td></tr>
+          <tr><th scope="row">Military</th><td>Wyoming Air National Guard; his campaign site said he enlisted full-time after graduation and later re-enlisted part-time to finish his education. A 2024 WTE profile said he had been in the Guard for six years, three of them full-time.</td></tr>
+          <tr><th scope="row">Positions</th><td><p class="cand-topic">Education</p><p>Said Wyoming’s constitution values education and that the tradition should continue through parental rights, a properly funded model, and retaining teachers who promote high learning outcomes.</p><p class="cand-topic">Economy and civility</p><p>Cited inflation and housing issues in House District 61 and called for creative solutions for businesses and diversification. As a fiscal conservative he said internal legislative conflict costs the state money, and that civility and efficacy with time and funds should be priorities.</p></td></tr>
           <tr><th scope="row">Website</th><td><a href="https://www.votemattmalcom.com/">https://www.votemattmalcom.com/</a></td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
           <li><a href="https://sos.wyo.gov/Elections/Docs/2024/2024_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2024 primary candidate filing list</a></li>
+          <li><a href="https://www.votemattmalcom.com/">Matt Malcom campaign website, votemattmalcom.com</a></li>
+          <li><a href="https://www.wyomingnews.com/news/local_news/candidates-for-hd-44-and-61-talk-energy-parental-rights-and-property-taxes/article_a23895d8-5bf1-11ef-bfc3-73d9d195abfc.html">Wyoming Tribune Eagle, Candidates for HD 44 and 61 talk energy, parental rights and property taxes, Aug. 16, 2024, by Ivy Secrest</a></li>
           <li><a href="https://projects.wyofile.com/election-guide-2024/candidates/matthew-malcom/">WyoFile 2024 Election Guide (candidate questionnaire / profile)</a></li>
           <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
           </ul>
@@ -74,7 +81,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

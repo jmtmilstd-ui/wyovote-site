@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gary Welch — 2022 Primary — WyoVote</title>
-    <meta name="description" content="Gary Welch (Republican, Lovell). Lost the Aug. 16, 2022 Republican primary for State House District 26 with 17.7% of the vote.">
+    <meta name="description" content="Gary Welch (Republican, Lovell): Chairman, Big Horn County Republican Party. Lost the Aug. 16, ate House District 26 with 17.7% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,19 +32,22 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Gary Welch</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Gary Welch (Republican, Lovell). Lost the Aug. 16, 2022 Republican primary for State House District 26 with 17.7% of the vote.</p>
+          <p class="cand-blurb">Gary Welch (Republican, Lovell): Chairman, Big Horn County Republican Party. Lost the Aug. 16, ate House District 26 with 17.7% of the vote.</p>
           <p class="cand-meta">Republican · Lovell, Big Horn County</p>
           <p class="cand-res">Primary result: Lost, 510 votes (17.7%), 3rd of 4.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
+          <tr><th scope="row">Background</th><td><p>The Lovell candidate in the 2022 HD26 four-way Republican primary is the same Louis Gary Welch identified in a May 2021 Wyoming Business Report article as chairman of the Big Horn County Republican Party, when the central committee backed a Second Amendment sanctuary resolution. A civilian occupation and education were not found in that article or in 2022 election-result coverage.</p></td></tr>
+          <tr><th scope="row">Prior offices</th><td>Chairman, Big Horn County Republican Party</td></tr>
           <tr><th scope="row">Website</th><td><a href="https://GARYWELCH4WYO.COM">https://GARYWELCH4WYO.COM</a></td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
           <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a></li>
+          <li><a href="https://www.wyomingnews.com/wyomingbusinessreport/industry_news/government_and_politics/big-horn-gop-supports-second-amendment-sanctuary/article_acce69c0-b431-11eb-a270-171b9873c0ca.html">Wyoming Business Report / Wyoming Tribune Eagle, “Big Horn GOP supports Second Amendment sanctuary,” circa May 2021</a></li>
           <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
           </ul>
           </section>
@@ -73,7 +76,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

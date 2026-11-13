@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tina Clifford — 2024 Primary — WyoVote</title>
-    <meta name="description" content="Tina Clifford (Republican, Lander). Lost the Aug. 20, 2024 Republican primary for State House District 54 with 45.7% of the vote.">
+    <meta name="description" content="Tina Clifford (Republican, Lander): Former bookkeeper (described as such in an August ate Daily column by Bill Sniffin, who wrote that she had been his bookkeeper and later left the job to further her education because she wanted to become a high school business teacher). Lost the Aug. 20, ate House District 54 with 45.7% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,19 +32,22 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Tina Clifford</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Tina Clifford (Republican, Lander). Lost the Aug. 20, 2024 Republican primary for State House District 54 with 45.7% of the vote.</p>
+          <p class="cand-blurb">Tina Clifford (Republican, Lander): Former bookkeeper (described as such in an August ate Daily column by Bill Sniffin, who wrote that she had been his bookkeeper and later left the job to further her education because she wanted to become a high school business teacher). Lost the Aug. 20, ate House District 54 with 45.7% of the vote.</p>
           <p class="cand-meta">Republican · Lander, Fremont County</p>
           <p class="cand-res">Primary result: Lost, 1,208 votes (45.7%), 2nd of 2.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
+          <tr><th scope="row">Occupation</th><td>Former bookkeeper (described as such in an August ate Daily column by Bill Sniffin, who wrote that she had been his bookkeeper and later left the job to further her education because she wanted to become a high school business teacher)</td></tr>
+          <tr><th scope="row">Background</th><td><p>In an August 2024 column, Lander publisher Bill Sniffin described Tina Clifford as his former bookkeeper and a “good friend,” writing that he admired her when she quit so she could increase her education because she wanted to become a high school business teacher. He also wrote that she was sponsored by the Freedom Caucus in her 2024 challenge to Rep. Lloyd Larsen. This column does not independently confirm that she later became a classroom teacher, so that title was not applied as a current occupation.</p></td></tr>
           <tr><th scope="row">Website</th><td><a href="https://tinacliffordforhd54.org/">https://tinacliffordforhd54.org/</a></td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
           <li><a href="https://sos.wyo.gov/Elections/Docs/2024/2024_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2024 primary candidate filing list</a></li>
+          <li><a href="https://cowboystatedaily.com/2024/08/10/bill-sniffin-here-is-a-true-saying-in-wyoming-politics-is-not-political-it-is-personal/">Cowboy State Daily, Bill Sniffin column, “Here Is A True Saying: ‘In Wyoming, Politics Is Not Political. It Is Personal,’” Aug. 10, 2024</a></li>
           <li><a href="https://projects.wyofile.com/election-guide-2024/candidates/tina-clifford/">WyoFile 2024 Election Guide (candidate questionnaire / profile)</a></li>
           <li><a href="https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip">Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)</a></li>
           </ul>
@@ -74,7 +77,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

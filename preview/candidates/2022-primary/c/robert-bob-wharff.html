@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Robert (Bob) Wharff — 2022 Primary — WyoVote</title>
-    <meta name="description" content="Robert (Bob) Wharff (Republican, Evanston): Wyoming House District 49, 2021–2022; Wyoming House District 49, 2025–Present. Lost the Aug. 16, 2022 Republican primary for State Senate District 15 with 38.5% of the vote.">
+    <meta name="description" content="Robert (Bob) Wharff (Republican, Evanston): Self-employed (Wyoming Legislature 2026 profile). In September 2013 congressional testimony he identified himself as executive director of Wyoming Sportsmen for Fish &amp; Wildlife (WY SFW); Wyoming House District 49, 2021–2022; Wyoming House District 49, 2025–Present. Lost the Aug. 16, ate Senate District 15 with 38.5% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,21 +32,24 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Robert (Bob) Wharff</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Robert (Bob) Wharff (Republican, Evanston): Wyoming House District 49, 2021–2022; Wyoming House District 49, 2025–Present. Lost the Aug. 16, 2022 Republican primary for State Senate District 15 with 38.5% of the vote.</p>
+          <p class="cand-blurb">Robert (Bob) Wharff (Republican, Evanston): Self-employed (Wyoming Legislature 2026 profile). In September 2013 congressional testimony he identified himself as executive director of Wyoming Sportsmen for Fish &amp; Wildlife (WY SFW); Wyoming House District 49, 2021–2022; Wyoming House District 49, 2025–Present. Lost the Aug. 16, ate Senate District 15 with 38.5% of the vote.</p>
           <p class="cand-meta">Republican · Evanston, Uinta County</p>
           <p class="cand-res">Primary result: Lost, 1,873 votes (38.5%), 2nd of 2.</p>
           <p><a href="../../../officials/wharff-deep.html">Officials deeper dive</a></p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
-          <tr><th scope="row">Background</th><td><p>Robert Wharff was born in Salt Lake City, Utah.</p></td></tr>
+          <tr><th scope="row">Occupation</th><td>Self-employed (Wyoming Legislature 2026 profile). In September 2013 congressional testimony he identified himself as executive director of Wyoming Sportsmen for Fish &amp; Wildlife (WY SFW)</td></tr>
+          <tr><th scope="row">Background</th><td><p>Robert Wharff was born in Salt Lake City, Utah.</p><p>Born in Salt Lake City, Utah (Legislature and Ballotpedia). Testified before the U.S. House Natural Resources Committee on Sep. 4, 2013, as executive director of Wyoming Sportsmen for Fish &amp; Wildlife.</p></td></tr>
           <tr><th scope="row">Prior offices</th><td>Wyoming House District 49, 2021–2022; Wyoming House District 49, 2025–Present</td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
           <li><a href="https://wyoleg.gov/LsoService/api/legislator/2082">Wyoming Legislature member record</a></li>
+          <li><a href="https://www.wyoleg.gov/Legislators/2026/H/2082">Wyoming Legislature legislator profile, Representative Robert Wharff</a></li>
+          <li><a href="https://naturalresources.house.gov/uploadedfiles/wharfftestimony09-04-13.pdf">U.S. House Natural Resources Committee testimony, Robert A. Wharff, Executive Director, WY SFW, Sep. 4, 2013</a></li>
           <li><a href="https://ballotpedia.org/Robert_Wharff">Ballotpedia</a></li>
           <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
           </ul>
@@ -76,7 +79,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

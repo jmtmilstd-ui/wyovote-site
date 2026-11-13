@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mark Jennings — 2024 Primary — WyoVote</title>
-    <meta name="description" content="Mark Jennings (Republican, Sheridan): Wyoming House District 30, 2015–2024. Lost the Aug. 20, 2024 Republican primary for State Senate District 22 with 44.6% of the vote.">
+    <meta name="description" content="Mark Jennings (Republican, Sheridan): Wyoming House District 30, 2015–2024. Lost the Aug. 20, ate Senate District 22 with 44.6% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,21 +32,24 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Mark Jennings</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Mark Jennings (Republican, Sheridan): Wyoming House District 30, 2015–2024. Lost the Aug. 20, 2024 Republican primary for State Senate District 22 with 44.6% of the vote.</p>
+          <p class="cand-blurb">Mark Jennings (Republican, Sheridan): Wyoming House District 30, 2015–2024. Lost the Aug. 20, ate Senate District 22 with 44.6% of the vote.</p>
           <p class="cand-meta">Republican · Sheridan, Sheridan County</p>
           <p class="cand-res">Primary result: Lost, 2,500 votes (44.6%), 2nd of 2.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
+          <tr><th scope="row">Background</th><td><p>Longtime House member who, on his House District 30 campaign site, said he was running again and had spent ten years in the House fighting to rein in spending and to pass parental-rights, pro-life, and election-integrity bills.</p></td></tr>
           <tr><th scope="row">Prior offices</th><td>Wyoming House District 30, 2015–2024</td></tr>
+          <tr><th scope="row">Positions</th><td><p class="cand-topic">Spending, family and elections</p><p>On his campaign site he said that for ten years in the House he fought to rein in government spending, worked to pass parental- and grandparents-rights bills, and worked to pass pro-life and election-integrity bills. The site also describes him as pro-God, pro-life and family, and pro-Second Amendment.</p></td></tr>
           <tr><th scope="row">Website</th><td><a href="https://markjenningshd30.com">markjenningshd30.com</a></td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
           <li><a href="https://sos.wyo.gov/Elections/Docs/2026/2026_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2026 primary candidate filing list</a></li>
           <li><a href="https://wyoleg.gov/LsoService/api/legislator/2015">Wyoming Legislature member record (prior service)</a></li>
+          <li><a href="https://www.markjenningshd30.com/">Mark Jennings campaign website, markjenningshd30.com</a></li>
           <li><a href="https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip">Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)</a></li>
           </ul>
           </section>
@@ -75,7 +78,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,7 +32,7 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>James Scott Quick</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
           <p class="cand-blurb">James Scott Quick (Republican, Douglas): Business owner; U.S. Marine Corps. Lost the Aug. 16, 2022 Republican primary for Governor with 2.9% of the vote.</p>
           <p class="cand-meta">Republican · Douglas, Converse County</p>
@@ -41,7 +41,7 @@
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
           <tr><th scope="row">Occupation</th><td>Business owner</td></tr>
-          <tr><th scope="row">Background</th><td><p>James Quick graduated from Douglas High School in 1983. Quick served in the U.S. Marine Corps. His career experience includes owning an oilfield service company.</p><p>After graduating from Douglas High School, I went into the Marines. I chose to come back to Wyoming after my honorable discharge. I&#x27;m deeply rooted in the state of Wyoming. I&#x27;ve worked in the energy business--oil, uranium, coal, pipeline and I&#x27;ve owned my business for 14 years and am still working. The last few years have been hard on everybody. I feel we&#x27;ve lost our voice in Wyoming. I refused to be silenced anymore. We need someone to step up and be the voice for the people.</p></td></tr>
+          <tr><th scope="row">Background</th><td><p>James Quick graduated from Douglas High School in 1983. Quick served in the U.S. Marine Corps. His career experience includes owning an oilfield service company.</p><p>After graduating from Douglas High School, I went into the Marines. I chose to come back to Wyoming after my honorable discharge. I&#x27;m deeply rooted in the state of Wyoming. I&#x27;ve worked in the energy business--oil, uranium, coal, pipeline and I&#x27;ve owned my business for ill working. The last few years have been hard on everybody. I feel we&#x27;ve lost our voice in Wyoming. I refused to be silenced anymore. We need someone to step up and be the voice for the people.</p></td></tr>
           <tr><th scope="row">Education</th><td>High school: Douglas High School, 1983</td></tr>
           <tr><th scope="row">Military</th><td>Service / branch: U.S. Marine Corps</td></tr>
           <tr><th scope="row">Positions</th><td><p class="cand-topic">What specific measures would you propose to enhance state revenues?</p><p>We need to open our drilling back up. We need to fight DC on that and we need to fight more to get the coal out Let&#x27;s cut back some of the regulations; that will invited good businesses to come to Wyoming.</p><p class="cand-topic">How would you work with the legislature to prepare Wyoming for wildfires and drought?</p><p>We need to open our logging industries; that will help manage our forests better and increase our revenue. We need to protect our water rights at all costs. Let&#x27;s just implement good common sense suggestions and work together. If legislators have good ideas for the people of Wyoming, let&#x27;s get it done.</p><p class="cand-topic">What are your top two issues for the Wyoming government to address in the next four years?</p><p>The first thing I going to do is get rid of the reservation only system on our state parks. I want to keep 10-15 percent of the spots that can be reserved for tourists. I want the reservations taken in-state. I wanted to protect the jobs we have in Wyoming first and worry about new jobs second. I want to keep the coal fired power plants open. Could Wyoming citizens form a co-op to take them over and keep them open (that was my wife&#x27;s and other We need to open u our forest an)? I&#x27;m not against nuclear power, but a lot more is not being shared with the general public.</p></td></tr>
@@ -80,7 +80,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

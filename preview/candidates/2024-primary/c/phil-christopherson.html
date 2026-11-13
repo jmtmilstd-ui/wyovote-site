@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Phil Christopherson — 2024 Primary — WyoVote</title>
-    <meta name="description" content="Phil Christopherson (Republican, Gillette). Lost the Aug. 20, 2024 Republican primary for State Senate District 24 with 42.7% of the vote.">
+    <meta name="description" content="Phil Christopherson (Republican, Gillette). Lost the Aug. 20, ate Senate District 24 with 42.7% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,15 +32,15 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Phil Christopherson</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Phil Christopherson (Republican, Gillette). Lost the Aug. 20, 2024 Republican primary for State Senate District 24 with 42.7% of the vote.</p>
+          <p class="cand-blurb">Phil Christopherson (Republican, Gillette). Lost the Aug. 20, ate Senate District 24 with 42.7% of the vote.</p>
           <p class="cand-meta">Republican · Gillette, Campbell County</p>
           <p class="cand-res">Primary result: Lost, 1,192 votes (42.7%), 2nd of 2.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
-          <tr><th scope="row">Background</th><td><p>Upon returning home to Wyoming in 1999 Phil started a small computer service business. He also started teaching Lean manufacturing to businesses around the state for UW&#x27;s manufacturing Extension Partnership. Phil took the leadership of IDEA Inc, Riverton&#x27;s economic development group and successfully helped several local businesses grow and expand. Phils work created over 100 jobs for Riverton businesses. Phil added to his education with an MBA from UW in 2006. Phil and his family moved to Gillette in 2014 where he was the CEO of Energy Capital Economic Development. …</p></td></tr>
+          <tr><th scope="row">Background</th><td><p>Upon returning home to Wyoming in arted a small computer service business. He also started teaching Lean manufacturing to businesses around the state for UW&#x27;s manufacturing Extension Partnership. Phil took the leadership of IDEA Inc, Riverton&#x27;s economic development group and successfully helped several local businesses grow and expand. Phils work created over 100 jobs for Riverton businesses. Phil added to his education with an MBA from UW in 2006. Phil and his family moved to Gillette in 2014 where he was the CEO of Energy Capital Economic Development. …</p></td></tr>
           <tr><th scope="row">Positions</th><td><p class="cand-topic">How, within the framework of a lawmaker&#x27;s powers and duties, would you address the biggest challenges and opportunities facing Wyoming today?</p><p>Facing challenges in the traditional minerals industry like coal, oil, and natural gas, we must support these vital sectors with innovative approaches to harness our resources and ensure affordable energy. …</p><p class="cand-topic">As a state lawmaker, what will guide your approach to local control? How do you determine when a decision should be left to local leaders or made by the Wyoming Legislature?</p><p>I support local government. They are closest to the citizens and can best answer issues for their community. Local issues should be decided at the local level. Phil reaffirms his commitment to preserving Wyoming as a great place to live. …</p><p class="cand-topic">Wyoming has wrestled for years with issues of housing, health care, education and economic development. What do you believe the state&#x27;s role should be in supporting the well-being of Wyoming citizens and their families?</p><p>These are all vital issues and the state does have a role to play. The primary role of state government is to support the local communities in solving their issues at they see fit. …</p><p class="cand-topic">How willing are you to compromise with legislators and other officials with different perspectives?</p><p>Our nation was founded on the idea of compromise and legislators must be willing to work together for the betterment of all. Compromising our ideas, plans and such is a good thing, while compromising our values is not.</p><p class="cand-topic">How do you balance the often competing demands of wildlife and open spaces versus energy, industrial and real estate development?</p><p>Multiple uses of public areas should be supported. Decisions and directions must be studied and understood prior to making long term decisions.</p></td></tr>
           <tr><th scope="row">Fundraising</th><td>Raised $31,725. Spent $28,550.95. 2023-2024 election cycle (contributions tagged to the 2024 cycle in WyCFIS), through Sep. 6, 2024.</td></tr>
           <tr><th scope="row">Website</th><td><a href="https://philforwyoming.com/">https://philforwyoming.com/</a></td></tr>
@@ -78,7 +78,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }

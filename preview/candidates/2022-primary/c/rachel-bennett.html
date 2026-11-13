@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rachel Bennett — 2022 Primary — WyoVote</title>
-    <meta name="description" content="Rachel Bennett (Republican, Cheyenne). Lost the Aug. 16, 2022 Republican primary for State Senate District 7 with 30.6% of the vote.">
+    <meta name="description" content="Rachel Bennett (Republican, Cheyenne): Wyoming National Guard (the Wyoming Tribune Eagle reported she had previously worked at Wyoming Army National Guard Joint Force Headquarters and was a Guard veteran). Lost the Aug. 16, ate Senate District 7 with 30.6% of the vote.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/styles.css">
     <link rel="stylesheet" href="../../../preview.css">
@@ -21,7 +21,7 @@
         </a>
         <nav class="site-nav" aria-label="Site">
           <ul>
-            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../committees.html">Committees</a></li><li><a href="../../../counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
+            <li><a href="../../../index.html">Home</a></li><li><a href="../../../archive.html">Archive</a></li><li><a href="../../../candidates.html" aria-current="page">Candidates</a></li><li><a href="../../../archive/committees.html">Committees</a></li><li><a href="../../../archive/counties.html">Counties</a></li><li><a href="../../../officials.html">Officials</a></li><li><a href="../../../research.html">Research</a></li>
           </ul>
         </nav>
       </div>
@@ -32,19 +32,23 @@
       </div>
       <section class="page-hero"><div class="wrap">
           <h1>Rachel Bennett</h1>
-        </div></section>
+      </div></section>
       <section class="page-body"><div class="wrap">
-          <p class="cand-blurb">Rachel Bennett (Republican, Cheyenne). Lost the Aug. 16, 2022 Republican primary for State Senate District 7 with 30.6% of the vote.</p>
+          <p class="cand-blurb">Rachel Bennett (Republican, Cheyenne): Wyoming National Guard (the Wyoming Tribune Eagle reported she had previously worked at Wyoming Army National Guard Joint Force Headquarters and was a Guard veteran). Lost the Aug. 16, ate Senate District 7 with 30.6% of the vote.</p>
           <p class="cand-meta">Republican · Cheyenne, Laramie County</p>
           <p class="cand-res">Primary result: Lost, 1,283 votes (30.6%), 2nd of 3.</p>
           <section class="cand-research" aria-labelledby="h-research">
           <h2 id="h-research">Research</h2>
           <table class="cand-facts">
+          <tr><th scope="row">Background</th><td><p>Had spent the previous 20 years as a Wyoming resident at the time of the 2022 Senate District 7 race. The Wyoming Tribune Eagle published a photograph of her at Wyoming Army National Guard Joint Force Headquarters, where it said she previously worked, and described her as a Guard veteran.</p></td></tr>
+          <tr><th scope="row">Military</th><td>Wyoming National Guard (the Wyoming Tribune Eagle reported she had previously worked at Wyoming Army National Guard Joint Force Headquarters and was a Guard veteran)</td></tr>
+          <tr><th scope="row">Positions</th><td><p class="cand-topic">Guns, public lands and government</p><p>The Wyoming Tribune Eagle reported she is pro-Second Amendment, supports hunting and fishing rights and transparent government, and is opposed to federal overreach. The paper also reported she said she had made efforts to address wrongdoing in the Guard.</p></td></tr>
           <tr><th scope="row">Website</th><td><a href="https://www.rachelforwyoming.com/">https://www.rachelforwyoming.com/</a></td></tr>
           </table>
           <h2 id="h-sources">Sources</h2>
           <ul class="cand-sources">
           <li><a href="https://sos.wyo.gov/Elections/Docs/2022/2022_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2022 primary candidate filing list</a></li>
+          <li><a href="https://www.wyomingnews.com/news/elections/laramie-county-primary-legislative-candidates-make-their-case/article_533015d3-44a0-5f91-8d57-759823425510.html">Wyoming Tribune Eagle, “Laramie County primary legislative candidates make their case,” Jasmine Hall, 2022</a></li>
           <li><a href="https://ballotpedia.org/Rachel_Bennett">Ballotpedia</a></li>
           <li><a href="https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip">Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)</a></li>
           </ul>
@@ -74,7 +78,8 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          link.setAttribute("href", "../" + slug + ".html");
+          var general = new URLSearchParams(location.search).get("e") === "general";
+          link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }
