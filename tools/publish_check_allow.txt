@@ -55,6 +55,9 @@ unreferenced:tools/build_report_pages.py
 # Marks preview links that leave WyoVote. Not a site asset.
 unreferenced:tools/mark_outside_links.py
 
+# Puts the Deeper dive button on preview official pages. Not a site asset.
+unreferenced:tools/stamp_deeper_dive.py
+
 # Compact research used by that rebuild. Not linked from a page.
 unreferenced:preview/data/candidate-research/2026-primary/part-01.json
 unreferenced:preview/data/candidate-research/2026-primary/part-02.json
