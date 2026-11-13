@@ -19,9 +19,6 @@ unreferenced:.nojekyll
 # Cloudflare Pages redirects from removed report pages and the site map.
 unreferenced:_redirects
 
-# Site structure record. The diagram page is gone; the file stays.
-unreferenced:data/site-map.json
-
 # Repository readme. Not a site page.
 unreferenced:README.md
 

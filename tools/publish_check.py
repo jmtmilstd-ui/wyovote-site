@@ -364,7 +364,9 @@ def site_map_names(data: dict) -> list[str]:
 
 
 def site_map_gaps(root: Path) -> list[str]:
-    """Nav sections that the preview or live site map does not name."""
+    """Nav sections that the live site map does not name, when that page exists."""
+    if not (root / "site-map.html").is_file():
+        return []
     map_path = root / "data" / "site-map.json"
     if not map_path.is_file():
         return ["site map source is missing"]
