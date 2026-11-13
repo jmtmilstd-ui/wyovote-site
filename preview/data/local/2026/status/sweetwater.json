@@ -1,0 +1,21 @@
+{
+  "county": "Sweetwater",
+  "status": "not_yet_posted",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "unknown",
+  "general_status": "unknown",
+  "races_primary": 0,
+  "races_general": 0,
+  "named_candidates": 0,
+  "rows": 0,
+  "checks_ok": 0,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "The clerk election_returns page lists 2026 Primary Official Election Summary.pdf and Official Sweetwater Results.pdf (general, timestamped 2026-11-06). Direct fetches of those filenames via the county URL and cms7files.revize.com returned HTTP 404 to this host. Download in a browser from the page below.",
+  "sources": {
+    "results_page": "https://www.sweetwatercountywy.gov/departments/county_clerk/election_returns/index.php",
+    "primary_filename": "2026 Primary Official Election Summary.pdf",
+    "general_filename": "Official Sweetwater Results.pdf"
+  }
+}

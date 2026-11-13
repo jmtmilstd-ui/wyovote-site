@@ -1,0 +1,24 @@
+{
+  "county": "Sublette",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 19,
+  "rows": 43,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://www.sublettecountywy.gov/181/County-Clerk",
+    "roster_page": "https://sublettecountywy.gov/353/Candidate-Listing",
+    "primary": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election",
+    "general": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results",
+    "primary_status": "official",
+    "general_status": "official"
+  }
+}

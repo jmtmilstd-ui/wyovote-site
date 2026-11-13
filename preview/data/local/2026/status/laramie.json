@@ -1,0 +1,26 @@
+{
+  "county": "Laramie",
+  "status": "partial",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "not_posted",
+  "general_status": "not_posted",
+  "races_primary": 0,
+  "races_general": 0,
+  "named_candidates": 25,
+  "rows": 25,
+  "checks_ok": 0,
+  "checks_failed": 0,
+  "issues": [
+    "WAF/HTTP 403 blocked download of official general PDF/XLSX from the CivicPlus clerk site; vote totals not collected."
+  ],
+  "notes": "Official 2026 primary county-office roster was read from the clerk PDF. The clerk results/candidates pages advertise official general PDF and XLSX, but the CivicPlus site returns HTTP 403 to this collection host and the 2026 general shared-asset URLs were not discovered. No Laramie vote totals are in the CSV.",
+  "sources": {
+    "results_page": "https://www.laramiecountywy.gov/County-Government/Elected-Officials/County-Clerk/Elections/Election-Results",
+    "roster_page": "https://www.laramiecountywy.gov/County-Government/Elected-Officials/County-Clerk/Elections/Candidates",
+    "roster_primary": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/candidate-rosters/2026/final-county-offices-candidates.pdf",
+    "primary_status": "not_posted",
+    "general_status": "not_posted",
+    "notes": "Official 2026 primary county-office roster was read from the clerk PDF. The clerk results/candidates pages advertise official general PDF and XLSX, but the CivicPlus site returns HTTP 403 to this collection host and the 2026 general shared-asset URLs were not discovered. No Laramie vote totals are in the CSV."
+  }
+}

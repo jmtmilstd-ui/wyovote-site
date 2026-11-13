@@ -1,0 +1,23 @@
+{
+  "county": "Carbon",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 11,
+  "rows": 35,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://www.carboncountywy.gov/997/Election-Results",
+    "primary": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins",
+    "general": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins",
+    "primary_status": "official",
+    "general_status": "official"
+  }
+}

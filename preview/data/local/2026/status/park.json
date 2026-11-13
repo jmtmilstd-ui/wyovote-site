@@ -1,0 +1,23 @@
+{
+  "county": "Park",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 20,
+  "rows": 44,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://parkcounty-wy.gov/county-elections/results/",
+    "primary": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf",
+    "general": "https://parkcounty-wy.gov/wp-content/uploads/2026/11/Official-Park-General-2026-Summary.pdf",
+    "primary_status": "official",
+    "general_status": "official"
+  }
+}

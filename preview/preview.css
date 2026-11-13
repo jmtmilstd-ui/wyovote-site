@@ -1711,6 +1711,121 @@ html.cand-general .cand-view-general {
 }
 /* PROMOTE_END election */
 
+.cand-page .page-body a.cand-election-btn[data-election="local"][aria-current="true"] {
+  outline: 3px solid #a07808;
+  outline-offset: 3px;
+}
+
+.local-lead,
+.local-status,
+.local-note,
+.local-source {
+  color: #142117;
+  font-size: 18pt;
+  line-height: 1.5;
+}
+
+.local-status {
+  font-weight: 700;
+}
+
+.local-county {
+  margin: 2rem 0 0.4rem;
+  color: #142117;
+  font-size: 26pt;
+  line-height: 1.2;
+}
+
+.local-office {
+  margin: 1.2rem 0 0.35rem;
+  color: #142117;
+  font-size: 18pt;
+  line-height: 1.3;
+}
+
+.local-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  color: #142117;
+  font-size: 18pt;
+  line-height: 1.5;
+}
+
+.local-table th,
+.local-table td {
+  border: 1px solid #142117;
+  padding: 0.4rem 0.5rem;
+  color: #142117;
+  font-size: 18pt;
+  line-height: 1.5;
+  text-align: left;
+  vertical-align: top;
+}
+
+.local-table th {
+  background: #e7f5eb;
+  font-weight: 700;
+}
+
+.local-table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.local-winner td {
+  font-weight: 700;
+}
+
+.local-scroll {
+  overflow-x: auto;
+  margin: 0 0 1rem;
+}
+
+/* Keep a real table on a narrow window. The site rule stacks every table. */
+@media (max-width: 640px) {
+  table.local-table {
+    display: table;
+    width: 100%;
+  }
+
+  table.local-table thead {
+    display: table-header-group;
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
+  table.local-table tbody {
+    display: table-row-group;
+  }
+
+  table.local-table tr {
+    display: table-row;
+    margin: 0;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  table.local-table th,
+  table.local-table td {
+    display: table-cell;
+    width: auto;
+  }
+
+  table.local-table td::before,
+  table.local-table th::before {
+    content: none;
+  }
+}
+
 .cand-names {
   margin: 0;
   padding: 0.4rem 0.75rem 0.55rem;

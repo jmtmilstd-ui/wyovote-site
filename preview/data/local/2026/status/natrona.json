@@ -1,0 +1,22 @@
+{
+  "county": "Natrona",
+  "status": "not_yet_posted",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "unknown",
+  "general_status": "unknown",
+  "races_primary": 0,
+  "races_general": 0,
+  "named_candidates": 0,
+  "rows": 0,
+  "checks_ok": 0,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Clerk results pages and DocumentCenter PDFs return HTTP 403 (Cloudflare WAF) to this host. Homepage advertises 2026 General Election Official Results. Official primary summary is DocumentCenter View/13867 (county-office figures were indexed by search but the PDF could not be downloaded here).",
+  "sources": {
+    "results_page": "https://www.natronacounty-wy.gov/659/Election-Results",
+    "elections_page": "https://www.natronacounty-wy.gov/128/Elections",
+    "primary": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF",
+    "home": "https://www.natronacounty-wy.gov/"
+  }
+}
