@@ -11,9 +11,11 @@ A button-styled outside link gains class "btn-out" and does not get
 that per-button marker. One legend line on the page covers those
 buttons. Plain text links keep the marker.
 
-Run after a preview rebuild:
+Run after a preview or live rebuild:
 
     python3 tools/mark_outside_links.py
+
+The same rules are applied to preview/ and to the live root pages.
 """
 
 from __future__ import annotations
@@ -119,6 +121,16 @@ def ensure_legend(text: str) -> tuple[str, int]:
     """One legend on a page that has a gold-ringed button and no legend yet."""
     if not BTN_ANCHOR_RE.search(text) or 'class="out-key"' in text:
         return text, 0
+    state = re.search(
+        r"(^[ \t]*</nav>\n)\n([ \t]*)<section class=\"officials-section\" aria-labelledby=\"state-heading\">",
+        text,
+        re.M,
+    )
+    if state:
+        indent = re.match(r"[ \t]*", state.group(1)).group(0)
+        pos = state.end(1) + 1
+        block = indent + LEGEND + "\n\n"
+        return text[:pos] + block + text[pos:], 1
     match = re.search(r"^([ \t]*)<section class=\"pf-head\"", text, re.M)
     if match:
         indent = match.group(1)
@@ -199,7 +211,7 @@ def apply_text(text: str) -> tuple[str, dict[str, int]]:
     return updated, counts
 
 
-def apply_tree(root: Path = PREVIEW) -> dict[str, int]:
+def apply_paths(paths: list[Path]) -> dict[str, int]:
     totals = {
         "files": 0,
         "outside_blank": 0,
@@ -209,7 +221,7 @@ def apply_tree(root: Path = PREVIEW) -> dict[str, int]:
         "button_markers": 0,
         "legends": 0,
     }
-    for path in sorted(root.rglob("*.html")):
+    for path in paths:
         original = path.read_text(encoding="utf-8")
         updated, counts = apply_text(original)
         if updated == original:
@@ -221,10 +233,26 @@ def apply_tree(root: Path = PREVIEW) -> dict[str, int]:
     return totals
 
 
-def main() -> None:
-    totals = apply_tree()
+def apply_tree(root: Path = PREVIEW) -> dict[str, int]:
+    return apply_paths(sorted(root.rglob("*.html")))
+
+
+def live_pages() -> list[Path]:
+    preview_root = PREVIEW.resolve()
+    pages = []
+    for path in sorted(ROOT.rglob("*.html")):
+        if ".git" in path.parts:
+            continue
+        resolved = path.resolve()
+        if resolved == preview_root or preview_root in resolved.parents:
+            continue
+        pages.append(path)
+    return pages
+
+
+def report(label: str, totals: dict[str, int]) -> None:
     print(
-        f"updated {totals['files']} preview pages; "
+        f"updated {totals['files']} {label} pages; "
         f"removed target=_blank from {totals['outside_blank']} outside links; "
         f"added {totals['markers']} markers; "
         f"removed target=_blank from {totals['pdf_blank']} internal PDF or Print links; "
@@ -232,6 +260,11 @@ def main() -> None:
         f"removed {totals['button_markers']} per-button markers; "
         f"added {totals['legends']} legends"
     )
+
+
+def main() -> None:
+    report("preview", apply_tree(PREVIEW))
+    report("live", apply_paths(live_pages()))
 
 
 if __name__ == "__main__":
