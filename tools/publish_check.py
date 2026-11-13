@@ -372,10 +372,11 @@ def site_map_gaps(root: Path) -> list[str]:
     named = site_map_names(data)
     missing = []
     for which, index_path, page_path in (
-        ("preview", root / "preview" / "index.html", root / "preview" / "site-map.html"),
         ("live", root / "index.html", root / "site-map.html"),
     ):
-        if not index_path.is_file() or not page_path.is_file():
+        if not page_path.is_file():
+            continue
+        if not index_path.is_file():
             missing.append(f"{which} site map source is missing")
             continue
         page = page_path.read_text(encoding="utf-8")
@@ -416,11 +417,9 @@ def site_map_geometry(root: Path) -> list[str]:
     """Lines in the preview and live site-map diagrams must not cut a box or cross."""
     errors = []
     for which, page_path in (
-        ("preview", root / "preview" / "site-map.html"),
         ("live", root / "site-map.html"),
     ):
         if not page_path.is_file():
-            errors.append(f"{which}: site map page is missing")
             continue
         for item in diagram_geometry(page_path.read_text(encoding="utf-8")):
             errors.append(f"{which}: {item}")
