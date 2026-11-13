@@ -2836,10 +2836,6 @@ a.official-btn.btn-out {
   margin-right: 8px;
 }
 
-a.official-btn.btn-out + .ext {
-  margin-left: calc(8px + 0.35em);
-}
-
 .out-key {
   margin: 0 0 0.75rem;
   color: #142117;

@@ -7,9 +7,9 @@ target="_blank" and rel="noopener"/"noreferrer", then gain a plain
 PDF and Print links that used target="_blank" lose it too, with no
 marker, so Back still returns to the page.
 
-A button-styled outside link also gains class "btn-out" so the preview
-stylesheet can color it. The marker text and its place after the link
-stay as they are.
+A button-styled outside link gains class "btn-out" and does not get
+that per-button marker. One legend line on the page covers those
+buttons. Plain text links keep the marker.
 
 Run after a preview rebuild:
 
@@ -43,6 +43,12 @@ BUTTON_CLASSES = {
     "report-link",
 }
 CLASS_RE = re.compile(r"""class\s*=\s*(['"])(.*?)\1""", re.I)
+BUTTON_MARKER_RE = re.compile(r'\s*<span class="ext">\(leaves WyoVote\)</span>')
+BTN_ANCHOR_RE = re.compile(r"<a\b[^>]*\bbtn-out\b", re.I)
+LEGEND = (
+    '<p class="out-key"><span class="out-swatch btn-out" aria-hidden="true"></span> '
+    "Gold-ringed buttons go to other websites (leaves WyoVote); use Back to return.</p>"
+)
 
 
 def host_of(href: str) -> str:
@@ -88,12 +94,19 @@ def already_marked(text: str, end: int) -> bool:
     return bool(re.match(r"\s*<span class=\"ext\">", rest))
 
 
+def class_tokens(attrs: str) -> list[str]:
+    match = CLASS_RE.search(attrs)
+    if not match:
+        return []
+    return match.group(2).split()
+
+
 def with_btn_out(attrs: str) -> str:
     """Add btn-out to a button-styled outside link. Leave other links alone."""
     match = CLASS_RE.search(attrs)
     if not match:
         return attrs
-    tokens = match.group(2).split()
+    tokens = class_tokens(attrs)
     if "btn-out" in tokens or not BUTTON_CLASSES.intersection(tokens):
         return attrs
     tokens.append("btn-out")
@@ -102,8 +115,33 @@ def with_btn_out(attrs: str) -> str:
     return attrs[: match.start()] + replacement + attrs[match.end() :]
 
 
+def ensure_legend(text: str) -> tuple[str, int]:
+    """One legend on a page that has a gold-ringed button and no legend yet."""
+    if not BTN_ANCHOR_RE.search(text) or 'class="out-key"' in text:
+        return text, 0
+    match = re.search(r"^([ \t]*)<section class=\"pf-head\"", text, re.M)
+    if match:
+        indent = match.group(1)
+        block = indent + LEGEND + "\n"
+        return text[: match.start()] + block + text[match.start() :], 1
+    anchor = BTN_ANCHOR_RE.search(text)
+    if not anchor:
+        return text, 0
+    line_start = text.rfind("\n", 0, anchor.start()) + 1
+    indent = re.match(r"[ \t]*", text[line_start:]).group(0)
+    block = indent + LEGEND + "\n"
+    return text[:line_start] + block + text[line_start:], 1
+
+
 def apply_text(text: str) -> tuple[str, dict[str, int]]:
-    counts = {"outside_blank": 0, "markers": 0, "pdf_blank": 0, "btn_out": 0}
+    counts = {
+        "outside_blank": 0,
+        "markers": 0,
+        "pdf_blank": 0,
+        "btn_out": 0,
+        "button_markers": 0,
+        "legends": 0,
+    }
     pieces = []
     cursor = 0
     for match in A_RE.finditer(text):
@@ -125,7 +163,17 @@ def apply_text(text: str) -> tuple[str, dict[str, int]]:
                 counts["btn_out"] += 1
                 new_attrs = stamped
         pieces.append(f"<a{new_attrs}>{inner}</a>")
-        if outside:
+        button = outside and "btn-out" in class_tokens(new_attrs)
+        if button:
+            if had_blank:
+                counts["outside_blank"] += 1
+            marker = BUTTON_MARKER_RE.match(text, match.end())
+            if marker:
+                counts["button_markers"] += 1
+                cursor = marker.end()
+            else:
+                cursor = match.end()
+        elif outside:
             if had_blank:
                 counts["outside_blank"] += 1
             nxt = text[match.end() : match.end() + 1]
@@ -133,9 +181,12 @@ def apply_text(text: str) -> tuple[str, dict[str, int]]:
             if not already_marked(text, match.end()):
                 pieces.append(" " + MARKER + gap)
                 counts["markers"] += 1
+            cursor = match.end()
         elif pdf_print and had_blank:
             counts["pdf_blank"] += 1
-        cursor = match.end()
+            cursor = match.end()
+        else:
+            cursor = match.end()
     pieces.append(text[cursor:])
     updated = "".join(pieces)
     updated = re.sub(
@@ -143,11 +194,21 @@ def apply_text(text: str) -> tuple[str, dict[str, int]]:
         r"\1 ",
         updated,
     )
+    updated, legends = ensure_legend(updated)
+    counts["legends"] += legends
     return updated, counts
 
 
 def apply_tree(root: Path = PREVIEW) -> dict[str, int]:
-    totals = {"files": 0, "outside_blank": 0, "markers": 0, "pdf_blank": 0, "btn_out": 0}
+    totals = {
+        "files": 0,
+        "outside_blank": 0,
+        "markers": 0,
+        "pdf_blank": 0,
+        "btn_out": 0,
+        "button_markers": 0,
+        "legends": 0,
+    }
     for path in sorted(root.rglob("*.html")):
         original = path.read_text(encoding="utf-8")
         updated, counts = apply_text(original)
@@ -155,7 +216,7 @@ def apply_tree(root: Path = PREVIEW) -> dict[str, int]:
             continue
         path.write_text(updated, encoding="utf-8")
         totals["files"] += 1
-        for key in ("outside_blank", "markers", "pdf_blank", "btn_out"):
+        for key in ("outside_blank", "markers", "pdf_blank", "btn_out", "button_markers", "legends"):
             totals[key] += counts[key]
     return totals
 
@@ -167,7 +228,9 @@ def main() -> None:
         f"removed target=_blank from {totals['outside_blank']} outside links; "
         f"added {totals['markers']} markers; "
         f"removed target=_blank from {totals['pdf_blank']} internal PDF or Print links; "
-        f"added btn-out to {totals['btn_out']} button-styled outside links"
+        f"added btn-out to {totals['btn_out']} button-styled outside links; "
+        f"removed {totals['button_markers']} per-button markers; "
+        f"added {totals['legends']} legends"
     )
 
 
