@@ -381,11 +381,28 @@ def fill_result(row: dict, other: dict) -> None:
         row["winner"] = "Y"
 
 
+# Full names from the Fremont primary ballot. Wagon and Riggs stay surnames.
+FREMONT_PRIMARY_NAMES = {
+    ("County Commissioner", "REP", "mossburg"): "David Mossburg",
+    ("County Commissioner", "REP", "stanley"): "Shanell Stanley",
+    ("County Commissioner", "REP", "kessler"): "Steff Kessler",
+    ("County Clerk", "REP", "freese"): "Julie A Freese",
+    ("County Treasurer", "REP", "anderson"): "James A. Anderson",
+    ("County Sheriff", "REP", "zerga"): "John Zerga",
+    ("County Attorney", "REP", "wyatt"): "Micah Wyatt",
+    ("County Coroner", "REP", "ivie"): "Erin Ivie",
+    ("Clerk of District Court", "REP", "sanchez"): "Amanda R. Sanchez",
+}
+
+
 def fremont_full_name(row: dict, peers: list[dict]) -> str | None:
     tokens = name_tokens(row.get("candidate_ballot_name") or "")
     if row.get("county") != "Fremont" or len(tokens) != 1:
         return None
     surname = tokens[0].casefold()
+    mapped = FREMONT_PRIMARY_NAMES.get(((row.get("office_normalized") or ""), (row.get("party") or ""), surname))
+    if mapped:
+        return mapped
     matches = []
     for other in peers:
         if other is row or is_writein(other):
@@ -412,12 +429,19 @@ def merge_race(members: list[dict]) -> tuple[list[dict], list[str]]:
         full = fremont_full_name(row, remaining)
         if not full:
             continue
-        target = next(other for other in remaining if other.get("candidate_ballot_name") == full)
+        target = next((other for other in remaining if other is not row and other.get("candidate_ballot_name") == full), None)
+        if target is None:
+            notes.append(
+                f"{row.get('county')} {row.get('office_normalized')}: "
+                f"{row.get('candidate_ballot_name')} -> {full}"
+            )
+            row["candidate_ballot_name"] = full
+            continue
         fill_result(target, row)
         folded.append(row)
         notes.append(
             f"{row.get('county')} {row.get('office_normalized')}: "
-            f"{row.get('candidate_ballot_name')} -> {full}"
+            f"{row.get('candidate_ballot_name')} + {full} -> {full}"
         )
     remaining = [row for row in remaining if row not in folded]
     consumed: set[int] = set()
