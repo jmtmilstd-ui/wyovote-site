@@ -95,3 +95,38 @@ size:articles/a010/A010_v0.3_Official_State_Symbols_Research.pdf
 
 # Legacy 2023 all-counties rollup. To be regenerated later.
 size:reports/2023/2023-all-legislative-counties.pdf
+
+# Builds the preview 2026 Local page. Not a site asset.
+unreferenced:tools/build_local_2026.py
+
+# Marks preview links that leave WyoVote. Not a site asset.
+unreferenced:tools/mark_outside_links.py
+
+# 2026 county-office source files for that page. Not linked from HTML.
+unreferenced:preview/data/local/2026/SCHEMA.md
+unreferenced:preview/data/local/2026/STATUS.md
+unreferenced:preview/data/local/2026/county_offices_2026.csv
+unreferenced:preview/data/local/2026/races_2026.csv
+unreferenced:preview/data/local/2026/status/albany.json
+unreferenced:preview/data/local/2026/status/bighorn.json
+unreferenced:preview/data/local/2026/status/campbell.json
+unreferenced:preview/data/local/2026/status/carbon.json
+unreferenced:preview/data/local/2026/status/converse.json
+unreferenced:preview/data/local/2026/status/crook.json
+unreferenced:preview/data/local/2026/status/fremont.json
+unreferenced:preview/data/local/2026/status/goshen.json
+unreferenced:preview/data/local/2026/status/hotsprings.json
+unreferenced:preview/data/local/2026/status/johnson.json
+unreferenced:preview/data/local/2026/status/laramie.json
+unreferenced:preview/data/local/2026/status/lincoln.json
+unreferenced:preview/data/local/2026/status/natrona.json
+unreferenced:preview/data/local/2026/status/niobrara.json
+unreferenced:preview/data/local/2026/status/park.json
+unreferenced:preview/data/local/2026/status/platte.json
+unreferenced:preview/data/local/2026/status/sheridan.json
+unreferenced:preview/data/local/2026/status/sublette.json
+unreferenced:preview/data/local/2026/status/sweetwater.json
+unreferenced:preview/data/local/2026/status/teton.json
+unreferenced:preview/data/local/2026/status/uinta.json
+unreferenced:preview/data/local/2026/status/washakie.json
+unreferenced:preview/data/local/2026/status/weston.json

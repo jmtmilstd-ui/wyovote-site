@@ -1,0 +1,23 @@
+{
+  "county": "Converse",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 16,
+  "rows": 40,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://conversecountywy.gov/556/2026-Election-Results",
+    "primary": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT",
+    "general": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT",
+    "primary_status": "official",
+    "general_status": "official"
+  }
+}

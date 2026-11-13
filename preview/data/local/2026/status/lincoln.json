@@ -1,0 +1,25 @@
+{
+  "county": "Lincoln",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 17,
+  "rows": 41,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Certified write-in PDF (Canvassing Board Aug 20, 2026) lists only municipal mayors/councilpersons. No county-office certified write-ins to merge. Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://www.lincolncountywy.gov/government/clerk/elections_voting_information/election_results.php",
+    "primary": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf",
+    "general": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf",
+    "writeins_primary": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/2026%20PRIMARY%20CERTIFIED%20WRITE-INS.pdf",
+    "primary_status": "official",
+    "general_status": "official",
+    "notes": "Certified write-in PDF (Canvassing Board Aug 20, 2026) lists only municipal mayors/councilpersons. No county-office certified write-ins to merge."
+  }
+}

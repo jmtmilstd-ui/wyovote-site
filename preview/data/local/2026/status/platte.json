@@ -1,0 +1,22 @@
+{
+  "county": "Platte",
+  "status": "not_yet_posted",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "unknown",
+  "general_status": "unknown",
+  "races_primary": 0,
+  "races_general": 0,
+  "named_candidates": 0,
+  "rows": 0,
+  "checks_ok": 0,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Results of Election page is an empty historical shell with no 2026 PDF links. Alternate media paths that work for 2024 results and 2026 rosters/proclamation/sample ballot do not have a 2026 official summary. Nominated-candidate roster (updated 2026-09-01 2:24 PM America/Denver) and general proclamation are saved under raw/platte/. No official vote totals located.",
+  "sources": {
+    "results_page": "https://www.plattecountywyoming.com/departments/Elections/ResultsofElection",
+    "elections_page": "https://www.plattecountywyoming.com/departments/elections",
+    "roster_nominated": "https://www.plattecountywyoming.com/media/Elections/2026/General%20Rosters/2026%20PE%20Candidate%20Roster%20Nominated.pdf",
+    "proclamation": "https://www.plattecountywyoming.com/media/Elections/2026/Proclamation/2026%20General%20Proclamation.pdf"
+  }
+}

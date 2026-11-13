@@ -1711,6 +1711,22 @@ html.cand-general .cand-view-general {
 }
 /* PROMOTE_END election */
 
+.cand-page .page-body a.cand-election-btn[data-election="local"][aria-current="true"] {
+  outline: 3px solid #a07808;
+  outline-offset: 3px;
+}
+
+html.cand-local .cand-page .page-body a.cand-election-btn[data-election="primary"] {
+  outline: none;
+}
+
+.ext {
+  color: #444;
+  font-size: 0.85em;
+  font-weight: 400;
+  margin-left: 0.35em;
+}
+
 .cand-names {
   margin: 0;
   padding: 0.4rem 0.75rem 0.55rem;

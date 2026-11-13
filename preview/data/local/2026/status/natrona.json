@@ -1,0 +1,27 @@
+{
+  "county": "Natrona",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 19,
+  "rows": 43,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Official primary and general election summaries (headers OFFICIAL RESULTS; primary 46 of 46 precincts, footer 08/21/2026 titled Website - Election Summary; general 46 of 46, footer 11/06/2026 Official 2026 General Election Summary). County offices include District Attorney (not County Attorney). Primary and general omit Contest Totals lines; checks use Total Votes Cast. Municipal races from the same summaries are in the Phase 2 files, not this Phase 1 schema. Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://www.natronacounty-wy.gov/659/Election-Results",
+    "elections_page": "https://www.natronacounty-wy.gov/128/Elections",
+    "primary": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF",
+    "general": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary",
+    "primary_precinct": "https://www.natronacounty-wy.gov/DocumentCenter/View/13868",
+    "general_precinct": "https://www.natronacounty-wy.gov/DocumentCenter/View/14060",
+    "primary_status": "official",
+    "general_status": "official",
+    "notes": "Official primary and general election summaries (headers OFFICIAL RESULTS; primary 46 of 46 precincts, footer 08/21/2026 titled Website - Election Summary; general 46 of 46, footer 11/06/2026 Official 2026 General Election Summary). County offices include District Attorney (not County Attorney). Primary and general omit Contest Totals lines; checks use Total Votes Cast. Municipal races from the same summaries are in the Phase 2 files, not this Phase 1 schema."
+  }
+}

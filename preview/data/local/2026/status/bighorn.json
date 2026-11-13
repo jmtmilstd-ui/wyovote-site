@@ -1,0 +1,26 @@
+{
+  "county": "Big Horn",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 18,
+  "rows": 42,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Official primary summary is a scanned image PDF; general is text and is parsed. Primary votes not yet keyed. Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://bighorncountywy.gov/departments/clerk/elections",
+    "primary": "https://bighorncountywy.gov/images/Official_BHC_Primary_Election_Summary_Report_2026.pdf",
+    "general": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf",
+    "roster_general": "https://bighorncountywy.gov/images/Big_Horn_County_GENERAL_Candidate_Listpdf.pdf",
+    "roster_primary": "https://bighorncountywy.gov/images/County_Website_PRIMARY_Candidate_Listpdf.pdf",
+    "primary_status": "official",
+    "general_status": "official",
+    "notes": "Official primary summary is a scanned image PDF; general is text and is parsed. Primary votes not yet keyed."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "county": "Crook",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 17,
+  "rows": 41,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://www.crookcounty.wy.gov/elected_officials/clerk/election/2026ElectionResults.php",
+    "primary": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf",
+    "general": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf",
+    "primary_status": "official",
+    "general_status": "official"
+  }
+}

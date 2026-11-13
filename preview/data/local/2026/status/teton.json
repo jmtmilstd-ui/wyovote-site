@@ -1,0 +1,24 @@
+{
+  "county": "Teton",
+  "status": "complete",
+  "cycle": "2026",
+  "retrieved_date": "2026-11-13",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 22,
+  "rows": 46,
+  "checks_ok": 24,
+  "checks_failed": 0,
+  "issues": [],
+  "notes": "Primary and general official summaries parsed; all race totals checked.",
+  "sources": {
+    "results_page": "https://tetoncountywy.gov/271/Election-Results",
+    "roster_page": "https://tetoncountywy.gov/2470/2026-Candidates",
+    "primary": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results",
+    "general": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary",
+    "primary_status": "official",
+    "general_status": "official"
+  }
+}
