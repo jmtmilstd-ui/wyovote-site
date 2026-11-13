@@ -863,7 +863,7 @@ def sync_live_styles() -> None:
     """Copy the promoted preview rules into the live stylesheet."""
     preview_css = (PREVIEW / "preview.css").read_text(encoding="utf-8")
     parts = []
-    for name in ("election", "map"):
+    for name in ("election", "map", "report"):
         match = re.search(
             rf"/\* PROMOTE_START {name} \*/\n(.*)/\* PROMOTE_END {name} \*/",
             preview_css,
