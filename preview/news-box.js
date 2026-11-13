@@ -75,7 +75,7 @@
   function pastLink(root) {
     var past = el("p", "news-past");
     var link = el("a", "", "Past news");
-    link.href = joinRoot(root, "news/archive.html");
+    link.href = joinRoot(root, "archive/articles.html");
     past.appendChild(link);
     return past;
   }
