@@ -383,6 +383,14 @@ def esc(text: str) -> str:
     return html.escape(text, quote=True)
 
 
+def outside_link(href: str, text: str) -> str:
+    """A link that leaves WyoVote, opened in the same tab."""
+    return (
+        f'<a href="{esc(href)}">{esc(text)}</a> '
+        '<span class="ext">(leaves WyoVote)</span>'
+    )
+
+
 def result_sentence(result: dict) -> str:
     parts = [result["outcome"]]
     if result.get("votes") is not None:
@@ -450,7 +458,7 @@ def table_rows(record: dict) -> list[tuple[str, str]]:
         rows.append(("Prior offices", esc(record["prior_offices"])))
     if record.get("website"):
         site = record["website"]
-        rows.append(("Website", f'<a href="{esc(site["href"])}">{esc(site["text"])}</a>'))
+        rows.append(("Website", outside_link(site["href"], site["text"])))
     if record.get("positions"):
         chunks = []
         for item in record["positions"]:
@@ -477,7 +485,7 @@ def research_html(record: dict) -> str:
         parts.append('            <h2 id="h-sources">Sources</h2>')
         parts.append('            <ul class="cand-sources">')
         for source in record["sources"]:
-            parts.append(f'              <li><a href="{esc(source["url"])}">{esc(source["name"])}</a></li>')
+            parts.append(f'              <li>{outside_link(source["url"], source["name"])}</li>')
         parts.append("            </ul>")
     parts.append("          </section>")
     return "\n".join(parts)
@@ -825,7 +833,7 @@ def archive_detail_inner(record: dict, officials_slug: str | None) -> str:
         rows.append(("Fundraising", esc(fundraising_sentence(record["fundraising"]))))
     if record.get("website"):
         site = record["website"]
-        rows.append(("Website", f'<a href="{esc(site["href"])}">{esc(site["text"])}</a>'))
+        rows.append(("Website", outside_link(site["href"], site["text"])))
     if rows or record.get("sources"):
         lines.append('<section class="cand-research" aria-labelledby="h-research">')
         if rows:
@@ -837,7 +845,7 @@ def archive_detail_inner(record: dict, officials_slug: str | None) -> str:
             lines.append('<h2 id="h-sources">Sources</h2>')
             lines.append('<ul class="cand-sources">')
             lines.extend(
-                f'<li><a href="{esc(source["url"])}">{esc(source["name"])}</a></li>'
+                f'<li>{outside_link(source["url"], source["name"])}</li>'
                 for source in record["sources"]
             )
             lines.append("</ul>")
@@ -1219,7 +1227,7 @@ def general_only_inner(candidate: dict, office: str, district: str | None, when:
         url = (source.get("url") or "").strip()
         label = (source.get("name") or "").strip()
         if url.startswith(("http://", "https://")) and label:
-            sources.append(f'            <li><a href="{esc(url)}">{esc(label)}</a></li>')
+            sources.append(f"            <li>{outside_link(url, label)}</li>")
     source_html = ""
     if sources:
         source_html = (
@@ -1487,6 +1495,7 @@ def main() -> None:
         cycles = [args.cycle] if args.cycle else list(GENERAL_CYCLES)
         for cycle in cycles:
             print(f"{cycle}: {apply_general(cycle)}")
+        subprocess.check_call([sys.executable, str(Path(__file__).with_name("mark_outside_links.py"))])
         return
     if not args.cycle:
         args.cycle = "2026-primary"
@@ -1512,6 +1521,7 @@ def main() -> None:
         counts = generate_archive(records, args.cycle)
         print(f"{args.cycle}: {counts}")
     subprocess.check_call([sys.executable, str(Path(__file__).with_name("build_site_map.py"))])
+    subprocess.check_call([sys.executable, str(Path(__file__).with_name("mark_outside_links.py"))])
 
 
 if __name__ == "__main__":

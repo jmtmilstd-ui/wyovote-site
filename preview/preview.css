@@ -2791,3 +2791,14 @@ html.cand-general .page-trail .cand-view-general {
   }
 }
 /* PROMOTE_END report */
+
+.ext {
+  color: #444;
+  font-size: 0.85em;
+  font-weight: 400;
+  margin-left: 0.35em;
+}
+
+.pf-head .ext {
+  color: #ffffff;
+}
