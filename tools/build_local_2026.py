@@ -166,6 +166,26 @@ def is_writein(row: dict) -> bool:
     return (row.get("candidate_ballot_name") or "").strip().lower() == "write-in totals"
 
 
+# Ordinary words that start with Mac, not Mac + a second name.
+MAC_PLAIN = {"macy", "macey", "mack", "machado", "mackenzie", "mackowiak"}
+
+
+def capitalize_after_marks(text: str) -> str:
+    """Capitalize the first letter after (, a quote, or a period."""
+    chars = list(text)
+    marks = set("(\"'\u201c\u201d\u2018\u2019.")
+    arm = False
+    for index, char in enumerate(chars):
+        if arm and char.isalpha():
+            chars[index] = char.upper()
+            arm = False
+        elif char in marks:
+            arm = True
+        elif not char.isspace():
+            arm = False
+    return "".join(chars)
+
+
 def title_token(token: str) -> str:
     if not token:
         return token
@@ -174,7 +194,7 @@ def title_token(token: str) -> str:
     apostrophe = "'" if "'" in token else ("’" if "’" in token else "")
     if apostrophe:
         head, tail = token.split(apostrophe, 1)
-        return title_token(head) + apostrophe + title_token(tail)
+        return capitalize_after_marks(title_token(head) + apostrophe + title_token(tail))
     if re.fullmatch(r"[A-Za-z]\.", token):
         return token[0].upper() + "."
     if re.fullmatch(r"[A-Za-z]", token):
@@ -185,8 +205,12 @@ def title_token(token: str) -> str:
     if lower in {"ii", "iii", "iv"}:
         return lower.upper()
     if lower.startswith("mc") and len(lower) > 2 and lower[2].isalpha():
-        return "Mc" + lower[2].upper() + lower[3:]
-    return lower[:1].upper() + lower[1:]
+        return capitalize_after_marks("Mc" + lower[2].upper() + lower[3:])
+    if lower.startswith("mac") and lower not in MAC_PLAIN and len(lower) > 4 and lower[3].isalpha():
+        rest = lower[3:]
+        if len(rest) >= 4:
+            return capitalize_after_marks("Mac" + rest[0].upper() + rest[1:])
+    return capitalize_after_marks(lower[:1].upper() + lower[1:])
 
 
 def display_name(name: str, county: str) -> str:
