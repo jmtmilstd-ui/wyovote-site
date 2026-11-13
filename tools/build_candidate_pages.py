@@ -91,7 +91,7 @@ PHONE_RE = re.compile(r"(?:\+?1[\s.-]?)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b")
 BOX_RE = re.compile(r"\b(?:p\.?\s*o\.?\s*box|po box)\s*\d+\b", re.I)
 STREET_RE = re.compile(
     r"(?i)(?:mailing address:\s*)?\b\d{1,6}\s+(?:[A-Za-z0-9.'#-]+\s+){0,6}"
-    r"(?:Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Lane|Ln|Boulevard|Blvd|Court|Ct|Circle|Cir|Place|Pl|Way|Trail|Highway|Hwy)\.?"
+    r"(?:Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Lane|Ln|Boulevard|Blvd|Court|Ct|Circle|Cir|Place|Pl|Way|Trail|Highway|Hwy)\b\.?"
     r"(?:,\s*[A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3}(?:,?\s+[A-Z]{2})?(?:\s+\d{5})?)?"
 )
 PRIVATE_WORD_RE = re.compile(r"iverson|open range record|coefficient", re.I)
@@ -108,6 +108,8 @@ def clean(value) -> str | None:
     text = re.sub(r"(?i)\bmailing address:\s*", "", text)
     text = re.sub(r"(?i)\blive at\s*(?:[.,]\s*)?in\b", "live in", text)
     text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"(?<!\.)\.\.(?!\.)", ".", text)
+    text = re.sub(r"(\d{4})[–-]\1\b", r"\1", text)
     text = re.sub(r"\s+([,.;:])", r"\1", text).strip(" ,;")
     if PRIVATE_WORD_RE.search(text):
         return None
@@ -208,7 +210,7 @@ def offices_text(node) -> str | None:
             continue
         start = clean(str(item.get("start"))) if item.get("start") else None
         end = clean(str(item.get("end"))) if item.get("end") else None
-        if start and end:
+        if start and end and start != end:
             lines.append(f"{office}, {start}–{end}")
         elif start:
             lines.append(f"{office}, {start}")
