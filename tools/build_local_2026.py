@@ -118,11 +118,7 @@ def status_line(info: dict) -> str:
 # Plain public notes. Collection problems stay in the status files, not on the page.
 NOTES = {
     "Albany": "Official general county results were not posted as of November 13, 2026.",
-    "Fremont": (
-        "Commissioner seats on the ballot are Districts 1, 3, and 4. District 2 was not on the ballot. "
-        "The general abstract lists the assessor as Riggs. The primary nominee is Tara M. Berg. "
-        "The general abstract prints surnames only."
-    ),
+    "Fremont": "Fremont's general results list surnames only.",
     "Johnson": "An official primary summary was not posted.",
 }
 
@@ -197,8 +193,6 @@ def display_name(name: str, county: str) -> str:
     raw = (name or "").strip()
     letters = [char for char in raw if char.isalpha()]
     if not raw or not letters or raw != raw.upper():
-        return raw
-    if county == "Fremont" and " " not in raw:
         return raw
     particles = {"de", "da", "del", "della", "di", "la", "le", "van", "von", "der", "den", "ten", "ter"}
     words = []
@@ -301,16 +295,15 @@ def source_html(links: list[tuple[str, str]]) -> str:
     return f"          <p>Source: {bits}</p>"
 
 
-def list_item(name: str, party: str, result: str, winner: bool, href: str | None) -> str:
+def list_item(name: str, party: str, result: str, href: str | None) -> str:
     abbr = cand.party_abbr(party) if party else ""
     abbr_html = f' <span class="cand-abbr">{esc(abbr)}</span>' if abbr else ""
     result_html = f' <span class="cand-res">{esc(result)}</span>' if result else ""
-    win_html = ' <span class="cand-win" aria-label="Winner">✔</span>' if winner else ""
     if href:
         label = f'<a href="{esc(href)}">{esc(name)}</a>'
     else:
         label = esc(name)
-    return f"              <li>{label}{abbr_html}{result_html}{win_html}</li>"
+    return f"              <li>{label}{abbr_html}{result_html}</li>"
 
 
 def race_block(title: str, items: list[str]) -> str:
@@ -322,6 +315,167 @@ def race_block(title: str, items: list[str]) -> str:
         + "\n            </ul>\n"
         "          </section>"
     )
+
+
+NAME_SUFFIXES = {"jr", "sr", "ii", "iii", "iv"}
+
+
+def name_tokens(name: str) -> list[str]:
+    tokens = []
+    for raw in name.replace(".", " ").split():
+        token = raw.strip(".")
+        if token and token.lower() not in NAME_SUFFIXES:
+            tokens.append(token)
+    return tokens
+
+
+def given_compatible(left: list[str], right: list[str]) -> bool:
+    if not left or not right:
+        return False
+    short, long = (left, right) if len(left) <= len(right) else (right, left)
+    for index, token in enumerate(short):
+        other = long[index]
+        if token.casefold() == other.casefold():
+            continue
+        if len(token) == 1 and other[:1].casefold() == token.casefold():
+            continue
+        if len(other) == 1 and token[:1].casefold() == other.casefold():
+            continue
+        return False
+    return True
+
+
+def same_person(left: str, right: str) -> bool:
+    left_tokens, right_tokens = name_tokens(left), name_tokens(right)
+    if len(left_tokens) < 2 or len(right_tokens) < 2:
+        return False
+    if left_tokens[-1].casefold() != right_tokens[-1].casefold():
+        return False
+    return given_compatible(left_tokens[:-1], right_tokens[:-1])
+
+
+def fuller_name(left: str, right: str) -> str:
+    if len(name_tokens(left)) != len(name_tokens(right)):
+        return left if len(name_tokens(left)) > len(name_tokens(right)) else right
+    return left if len(left) >= len(right) else right
+
+
+def fill_result(row: dict, other: dict) -> None:
+    for field in ("primary_votes", "general_votes"):
+        if not (row.get(field) or "").strip() and (other.get(field) or "").strip():
+            row[field] = other[field]
+    if (row.get("primary_result") or "") in {"", "n/a", "not_on_ballot"} and (other.get("primary_result") or "") in {
+        "nominated",
+        "defeated",
+        "withdrawn",
+    }:
+        row["primary_result"] = other["primary_result"]
+        row["primary_status"] = other.get("primary_status") or row.get("primary_status")
+    if (row.get("general_result") or "") in {"", "n/a", "not_on_ballot"} and (other.get("general_result") or "") in {
+        "elected",
+        "defeated",
+    }:
+        row["general_result"] = other["general_result"]
+        row["general_status"] = other.get("general_status") or row.get("general_status")
+    if (other.get("winner") or "").strip() == "Y":
+        row["winner"] = "Y"
+
+
+def fremont_full_name(row: dict, peers: list[dict]) -> str | None:
+    tokens = name_tokens(row.get("candidate_ballot_name") or "")
+    if row.get("county") != "Fremont" or len(tokens) != 1:
+        return None
+    surname = tokens[0].casefold()
+    matches = []
+    for other in peers:
+        if other is row or is_writein(other):
+            continue
+        if (other.get("party") or "") != (row.get("party") or ""):
+            continue
+        if (other.get("primary_result") or "") != "nominated":
+            continue
+        other_tokens = name_tokens(other.get("candidate_ballot_name") or "")
+        if len(other_tokens) < 2 or other_tokens[-1].casefold() != surname:
+            continue
+        matches.append(other.get("candidate_ballot_name") or "")
+    if len(matches) == 1:
+        return matches[0]
+    return None
+
+
+def merge_race(members: list[dict]) -> tuple[list[dict], list[str]]:
+    """Fold same-person variants and an unambiguous Fremont surname into one row."""
+    notes = []
+    remaining = [dict(row) for row in members if not is_writein(row)]
+    folded = []
+    for row in remaining:
+        full = fremont_full_name(row, remaining)
+        if not full:
+            continue
+        target = next(other for other in remaining if other.get("candidate_ballot_name") == full)
+        fill_result(target, row)
+        folded.append(row)
+        notes.append(
+            f"{row.get('county')} {row.get('office_normalized')}: "
+            f"{row.get('candidate_ballot_name')} -> {full}"
+        )
+    remaining = [row for row in remaining if row not in folded]
+    consumed: set[int] = set()
+    partners: dict[int, list[dict]] = defaultdict(list)
+    for index, left in enumerate(remaining):
+        for right in remaining[index + 1 :]:
+            if (left.get("party") or "") != (right.get("party") or ""):
+                continue
+            if same_person(left.get("candidate_ballot_name") or "", right.get("candidate_ballot_name") or ""):
+                partners[id(left)].append(right)
+                partners[id(right)].append(left)
+    ranked = sorted(
+        remaining,
+        key=lambda row: (
+            -len(name_tokens(row.get("candidate_ballot_name") or "")),
+            -len(row.get("candidate_ballot_name") or ""),
+        ),
+    )
+    merged = []
+    for row in ranked:
+        if id(row) in consumed:
+            continue
+        current = dict(row)
+        for mate in partners[id(row)]:
+            if id(mate) in consumed:
+                continue
+            rivals = [other for other in partners[id(mate)] if other is not row and id(other) not in consumed]
+            if rivals:
+                continue
+            short = mate.get("candidate_ballot_name") or ""
+            full = fuller_name(current.get("candidate_ballot_name") or "", short)
+            if full == short:
+                current, mate = dict(mate), current
+                short = mate.get("candidate_ballot_name") or ""
+            fill_result(current, mate)
+            current["candidate_ballot_name"] = full
+            notes.append(
+                f"{row.get('county')} {row.get('office_normalized')}: {short} + {full} -> {full}"
+            )
+            consumed.add(id(mate))
+        consumed.add(id(row))
+        merged.append(current)
+    return merged, notes
+
+
+def prepare_rows(rows: list[dict]) -> tuple[list[dict], list[str]]:
+    grouped: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
+    for row in rows:
+        if is_writein(row):
+            continue
+        grouped[(row.get("county") or "", row.get("office_normalized") or "", row.get("seat_or_term") or "")].append(row)
+    prepared = []
+    notes = []
+    for members in grouped.values():
+        merged, race_notes = merge_race(members)
+        prepared.extend(merged)
+        notes.extend(race_notes)
+    return prepared, notes
 
 
 def assign_slugs(rows: list[dict]) -> dict[tuple[str, str], str]:
@@ -441,13 +595,11 @@ def county_races(rows: list[dict], county: str, slugs: dict[tuple[str, str], str
     for office in OFFICES:
         seats = sorted(seat for off, seat in groups if off == office)
         for seat in seats:
-            members = groups[(office, seat)]
-            named = [row for row in members if not is_writein(row)]
-            writeins = [row for row in members if is_writein(row)]
+            members = [row for row in groups[(office, seat)] if not is_writein(row)]
             order = {"REP": 0, "DEM": 1, "IND": 2, "LIB": 3}
-            named.sort(key=lambda row: (order.get((row.get("party") or "").strip(), 9), display_name(row.get("candidate_ballot_name") or "", county)))
+            members.sort(key=lambda row: (order.get((row.get("party") or "").strip(), 9), display_name(row.get("candidate_ballot_name") or "", county)))
             items = []
-            for row in named:
+            for row in members:
                 name = display_name(row.get("candidate_ballot_name") or "", county)
                 slug = slugs[(county, row.get("candidate_ballot_name") or "")]
                 items.append(
@@ -455,14 +607,9 @@ def county_races(rows: list[dict], county: str, slugs: dict[tuple[str, str], str
                         name,
                         party_name(row.get("party") or ""),
                         result_word(row),
-                        (row.get("winner") or "").strip() == "Y",
                         f"c/{slug}.html",
                     )
                 )
-            for row in writeins:
-                party = party_name(row.get("party") or "")
-                label = f"Write-ins, {party} primary" if party else "Write-ins"
-                items.append(list_item(label, "", "", False, None))
             if items:
                 races.append(race_block(office_heading(office, seat), items))
     if not races:
@@ -558,7 +705,11 @@ def load_status(filename: str) -> dict:
 
 
 def main() -> None:
-    rows = load_rows()
+    rows, merge_notes = prepare_rows(load_rows())
+    for note in merge_notes:
+        print("merge:", note)
+    if not merge_notes:
+        print("merge: none")
     by_county: dict[str, list[dict]] = defaultdict(list)
     for row in rows:
         by_county[row["county"]].append(row)
