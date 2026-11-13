@@ -99,6 +99,9 @@ size:reports/2023/2023-all-legislative-counties.pdf
 # Builds the preview 2026 Local page. Not a site asset.
 unreferenced:tools/build_local_2026.py
 
+# Marks preview links that leave WyoVote. Not a site asset.
+unreferenced:tools/mark_outside_links.py
+
 # 2026 county-office source files for that page. Not linked from HTML.
 unreferenced:preview/data/local/2026/SCHEMA.md
 unreferenced:preview/data/local/2026/STATUS.md

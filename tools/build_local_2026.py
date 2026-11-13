@@ -118,7 +118,6 @@ NOTES = {
         "The general abstract prints surnames only."
     ),
     "Johnson": "An official primary summary was not posted.",
-    "Weston": "The commissioner surname Nessle was read from a vertical header.",
 }
 
 
@@ -164,8 +163,49 @@ def is_writein(row: dict) -> bool:
     return (row.get("candidate_ballot_name") or "").strip().lower() == "write-in totals"
 
 
+def title_token(token: str) -> str:
+    if not token:
+        return token
+    if "-" in token:
+        return "-".join(title_token(part) for part in token.split("-"))
+    apostrophe = "'" if "'" in token else ("’" if "’" in token else "")
+    if apostrophe:
+        head, tail = token.split(apostrophe, 1)
+        return title_token(head) + apostrophe + title_token(tail)
+    if re.fullmatch(r"[A-Za-z]\.", token):
+        return token[0].upper() + "."
+    if re.fullmatch(r"[A-Za-z]", token):
+        return token.upper()
+    lower = token.lower()
+    if lower in {"jr", "sr"}:
+        return lower[:1].upper() + lower[1:]
+    if lower in {"ii", "iii", "iv"}:
+        return lower.upper()
+    if lower.startswith("mc") and len(lower) > 2 and lower[2].isalpha():
+        return "Mc" + lower[2].upper() + lower[3:]
+    return lower[:1].upper() + lower[1:]
+
+
+def display_name(name: str, county: str) -> str:
+    """Title-case all-caps clerk names. Fremont's one-word surnames stay as printed."""
+    raw = (name or "").strip()
+    letters = [char for char in raw if char.isalpha()]
+    if not raw or not letters or raw != raw.upper():
+        return raw
+    if county == "Fremont" and " " not in raw:
+        return raw
+    particles = {"de", "da", "del", "della", "di", "la", "le", "van", "von", "der", "den", "ten", "ter"}
+    words = []
+    for index, word in enumerate(raw.split()):
+        if index and word.lower() in particles:
+            words.append(word.lower())
+        else:
+            words.append(title_token(word))
+    return " ".join(words)
+
+
 def row_html(row: dict) -> str:
-    name = (row.get("candidate_ballot_name") or "").strip()
+    name = display_name(row.get("candidate_ballot_name") or "", row.get("county") or "")
     writein = is_writein(row)
     if writein:
         party = party_name(row.get("party") or "")
@@ -247,7 +287,7 @@ def county_html(name: str, slug: str, info: dict, rows: list[dict]) -> str:
 
 def page_html(sections: str, buttons: str) -> str:
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="cand-local">
   <head>
     <meta charset="utf-8">
     <meta name="robots" content="noindex">
@@ -359,13 +399,20 @@ def main() -> None:
         buttons.append(f'            <li><a href="#{slug}">{esc(name)}</a></li>')
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(page_html("\n".join(sections), "\n".join(buttons)), encoding="utf-8")
+    import importlib.util
+    marker_path = Path(__file__).with_name("mark_outside_links.py")
+    spec = importlib.util.spec_from_file_location("mark_outside_links", marker_path)
+    marker = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(marker)
+    updated, marked = marker.apply_text(OUT.read_text(encoding="utf-8"))
+    OUT.write_text(updated, encoding="utf-8")
     size = OUT.stat().st_size
     if size > 500 * 1024:
         raise SystemExit(f"{OUT} is {size} bytes, over 500 KB")
     ensure_button(PREVIEW / "candidates.html", "candidates/2026-local.html")
     for _name, slug, _status in COUNTIES:
         ensure_button(PREVIEW / "candidates" / "2026-primary" / f"{slug}.html", f"../2026-local.html#{slug}")
-    print(f"wrote {OUT.relative_to(ROOT)} ({size} bytes)")
+    print(f"wrote {OUT.relative_to(ROOT)} ({size} bytes, {marked['markers']} outside markers)")
 
 
 if __name__ == "__main__":
