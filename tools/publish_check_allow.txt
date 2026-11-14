@@ -140,3 +140,21 @@ unreferenced:preview/data/local/2026/status/teton.json
 unreferenced:preview/data/local/2026/status/uinta.json
 unreferenced:preview/data/local/2026/status/washakie.json
 unreferenced:preview/data/local/2026/status/weston.json
+
+# Builds the preview 2024 and 2022 Local pages. Not a site asset.
+unreferenced:tools/build_local_archive.py
+
+# 2022 and 2024 county-office source files. Not linked from HTML.
+unreferenced:preview/data/local/2022/STATUS.md
+unreferenced:preview/data/local/2022/county_offices_2022.csv
+unreferenced:preview/data/local/2022/races_2022.csv
+unreferenced:preview/data/local/2022/precinct_committee_2022_part1.csv
+unreferenced:preview/data/local/2022/precinct_committee_2022_part2.csv
+unreferenced:preview/data/local/2022/precinct_committee_2022_part3.csv
+unreferenced:preview/data/local/2022/sources/sources.csv
+unreferenced:preview/data/local/2024/STATUS.md
+unreferenced:preview/data/local/2024/county_offices_2024.csv
+unreferenced:preview/data/local/2024/races_2024.csv
+unreferenced:preview/data/local/2024/precinct_committee_2024_part1.csv
+unreferenced:preview/data/local/2024/precinct_committee_2024_part2.csv
+unreferenced:preview/data/local/2024/sources/sources.csv
