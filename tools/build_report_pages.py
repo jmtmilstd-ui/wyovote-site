@@ -1250,8 +1250,10 @@ def rewrite_links(mapping: dict[Path, Path]) -> int:
 
 
 def full_ratings_pdf(year: str, kind: str) -> Path:
-    label = "Ranked_103" if kind == "ranked" else "Alpha_104"
-    return ROOT / "reports" / year / f"wyovote_{year}_Ratings_{label}_v1.0.pdf"
+    """Full Ranked sheets are the preview v1.1 PDFs. Alpha stays on the live v1.0 file."""
+    if kind == "ranked":
+        return PREVIEW / "reports" / year / f"wyovote_{year}_Ratings_Ranked_103_v1.1.pdf"
+    return ROOT / "reports" / year / f"wyovote_{year}_Ratings_Alpha_104_v1.0.pdf"
 
 
 def retarget_full_ratings() -> int:

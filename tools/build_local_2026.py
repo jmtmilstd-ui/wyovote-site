@@ -69,6 +69,7 @@ PARTIES = {
     "DEM": "Democrat",
     "IND": "Independent",
     "LIB": "Libertarian",
+    "CST": "Constitution",
 }
 
 
@@ -677,31 +678,46 @@ def assign_slugs(rows: list[dict]) -> dict[tuple[str, str], str]:
     return slugs
 
 
-def detail_sentence(name: str, party: str, office: str, row: dict) -> str:
+def detail_sentence(
+    name: str,
+    party: str,
+    office: str,
+    row: dict,
+    primary_date: str = "August 18, 2026",
+    general_date: str = "November 3, 2026",
+) -> str:
     bits = f"{name} ({party})." if party else f"{name}."
     votes = (row.get("general_votes") or "").strip()
     primary_votes = (row.get("primary_votes") or "").strip()
     general_result = (row.get("general_result") or "").strip()
     primary_result = (row.get("primary_result") or "").strip()
     if general_result == "elected" and votes:
-        bits += f" Won the November 3, 2026 general election for {office} with {votes} votes."
+        bits += f" Won the {general_date} general election for {office} with {votes} votes."
     elif general_result == "defeated" and votes:
-        bits += f" Lost the November 3, 2026 general election for {office} with {votes} votes."
+        bits += f" Lost the {general_date} general election for {office} with {votes} votes."
     elif primary_result == "withdrawn":
-        bits += f" Withdrew from the August 18, 2026 primary for {office}."
+        bits += f" Withdrew from the {primary_date} primary for {office}."
     elif primary_result == "nominated" and primary_votes:
-        bits += f" Won the August 18, 2026 primary for {office} with {primary_votes} votes."
+        bits += f" Won the {primary_date} primary for {office} with {primary_votes} votes."
     elif primary_result == "defeated" and primary_votes:
-        bits += f" Lost the August 18, 2026 primary for {office} with {primary_votes} votes."
+        bits += f" Lost the {primary_date} primary for {office} with {primary_votes} votes."
     return bits
 
 
-def detail_page(row: dict, county_slug: str, county: str, office: str, links: list[tuple[str, str]]) -> str:
+def detail_page(
+    row: dict,
+    county_slug: str,
+    county: str,
+    office: str,
+    links: list[tuple[str, str]],
+    primary_date: str = "August 18, 2026",
+    general_date: str = "November 3, 2026",
+) -> str:
     name = display_name(row.get("candidate_ballot_name") or "", county)
     party = party_name(row.get("party") or "")
     primary = vote_cell(row.get("primary_votes") or "", row.get("primary_result") or "", row.get("primary_status") or "")
     general = vote_cell(row.get("general_votes") or "", row.get("general_result") or "", row.get("general_status") or "")
-    blurb = detail_sentence(name, party, office, row)
+    blurb = detail_sentence(name, party, office, row, primary_date, general_date)
     facts = (
         '<table class="cand-facts">'
         f'<tr><th scope="row">Primary votes</th><td>{primary}</td></tr>'
