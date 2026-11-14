@@ -230,6 +230,23 @@ def display_name(name: str, county: str) -> str:
     return " ".join(words)
 
 
+def office_line_votes(row: dict) -> str | None:
+    """Vote total for the result shown on a county-office line.
+
+    A general Won or Lost uses the general total. A primary result uses the
+    primary total. Blank when that sheet did not print a number.
+    """
+    word = result_word(row)
+    general = (row.get("general_votes") or "").strip()
+    primary = (row.get("primary_votes") or "").strip()
+    general_result = (row.get("general_result") or "").strip()
+    if word in {"Won", "Lost"} and general_result in {"elected", "defeated"}:
+        return general or None
+    if word in {"Won", "Lost", "Nominated", "Withdrawn"}:
+        return primary or None
+    return None
+
+
 def result_word(row: dict) -> str:
     primary = (row.get("primary_result") or "").strip()
     general = (row.get("general_result") or "").strip()
@@ -806,6 +823,7 @@ def county_races(rows: list[dict], county: str, slugs: dict[tuple[str, str], str
                         party_name(row.get("party") or ""),
                         result_word(row),
                         f"c/{slug}.html",
+                        office_line_votes(row),
                     )
                 )
             if items:
