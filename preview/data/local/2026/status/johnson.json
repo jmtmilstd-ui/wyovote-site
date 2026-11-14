@@ -2,26 +2,28 @@
   "county": "Johnson",
   "status": "partial",
   "cycle": "2026",
-  "retrieved_date": "2026-11-13",
-  "primary_status": "not_posted",
+  "retrieved_date": "2026-11-14",
+  "primary_status": "unofficial",
   "general_status": "official",
-  "races_primary": 0,
+  "races_primary": 16,
   "races_general": 8,
-  "named_candidates": 10,
-  "rows": 18,
-  "checks_ok": 8,
+  "named_candidates": 11,
+  "rows": 35,
+  "checks_ok": 24,
   "checks_failed": 0,
   "issues": [
-    "Official 2026 primary summary not found in the clerk Drive folder; unofficial primary scan and a public-test file are on disk and were not keyed as official results."
+    "Official canvassed 2026 primary summary is not posted; primary rows are keyed from the clerk-posted UNOFFICIAL election-night summary (08/18/2026 9:10 PM).",
+    "The johnsoncowy.gov link \"Primary 2026 Summary Report\" is the PUBLIC TEST deck, not results."
   ],
-  "notes": "Official general totals are the Totals row of the clerk's official precinct summary (Johnson County Precinct Results, exported 11/05/2026 4:31 PM America/Denver), visually verified. The Drive file named 2026 General Election Results.pdf is identical to 2026 General Election Unofficial Results.pdf (same MD5) and is unofficial; not used for totals. Treasurer names were read from vertical column headers. An official primary summary was not in the clerk's 2026 Results Drive folder (Primary 2026 Summary Report is a PUBLIC TEST file; a separate unofficial primary scan is on file).",
+  "notes": "Primary: UNOFFICIAL summary from the clerk 2026 Results Drive folder (OCR at 300 dpi; all contests reconcile). General: official summary (11/06/2026 12:19 PM), names as printed; totals equal the official precinct summary.",
   "sources": {
     "results_page": "https://www.johnsoncowy.gov/departments/elections",
     "results_folder": "https://drive.google.com/drive/folders/1N3Y2bRXMqGkIIKxPpUhO41bNOi3S97Tg",
-    "general": "https://drive.google.com/file/d/1vfmKkmawmREEplnTg3RVOoKKXscEWj2V/view",
-    "primary": "",
-    "primary_status": "not_posted",
-    "general_status": "official",
-    "notes": "Official general totals are the Totals row of the clerk's official precinct summary (Johnson County Precinct Results, exported 11/05/2026 4:31 PM America/Denver), visually verified. The Drive file named 2026 General Election Results.pdf is identical to 2026 General Election Unofficial Results.pdf (same MD5) and is unofficial; not used for totals. Treasurer names were read from vertical column headers. An official primary summary was not in the clerk's 2026 Results Drive folder (Primary 2026 Summary Report is a PUBLIC TEST file; a separate unofficial primary scan is on file)."
+    "primary": "https://drive.google.com/file/d/14VhWna_5e7VOT6lNFHHVnKW5_1DNmPEW/view",
+    "general": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view",
+    "general_precinct": "https://drive.google.com/file/d/1vfmKkmawmREEplnTg3RVOoKKXscEWj2V/view",
+    "public_test_not_results": "https://drive.google.com/file/d/1gqMrrDc53Hm1_9J1A_S7KM4NYifJuTQY/view",
+    "primary_status": "unofficial",
+    "general_status": "official"
   }
 }

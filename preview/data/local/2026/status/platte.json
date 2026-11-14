@@ -1,22 +1,24 @@
 {
   "county": "Platte",
-  "status": "not_yet_posted",
+  "status": "complete",
   "cycle": "2026",
-  "retrieved_date": "2026-11-13",
-  "primary_status": "unknown",
-  "general_status": "unknown",
-  "races_primary": 0,
-  "races_general": 0,
-  "named_candidates": 0,
-  "rows": 0,
-  "checks_ok": 0,
+  "retrieved_date": "2026-11-14",
+  "primary_status": "official",
+  "general_status": "official",
+  "races_primary": 16,
+  "races_general": 8,
+  "named_candidates": 14,
+  "rows": 38,
+  "checks_ok": 24,
   "checks_failed": 0,
   "issues": [],
-  "notes": "Results of Election page is an empty historical shell with no 2026 PDF links. Alternate media paths that work for 2024 results and 2026 rosters/proclamation/sample ballot do not have a 2026 official summary. Nominated-candidate roster (updated 2026-09-01 2:24 PM America/Denver) and general proclamation are saved under raw/platte/. No official vote totals located.",
+  "notes": "Official primary Summary Results Report (08/21/2026) and official general Precinct Summary (Final Official, 11/06/2026; county totals summed, equal to the scanned official Summary Report). Files are in the Results of Election folder widget (2026 > Primary/General > Official Results).",
   "sources": {
     "results_page": "https://www.plattecountywyoming.com/departments/Elections/ResultsofElection",
-    "elections_page": "https://www.plattecountywyoming.com/departments/elections",
-    "roster_nominated": "https://www.plattecountywyoming.com/media/Elections/2026/General%20Rosters/2026%20PE%20Candidate%20Roster%20Nominated.pdf",
-    "proclamation": "https://www.plattecountywyoming.com/media/Elections/2026/Proclamation/2026%20General%20Proclamation.pdf"
+    "primary": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf",
+    "general": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf",
+    "general_precinct": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Precinct%20Report_Final%20Official.pdf",
+    "primary_status": "official",
+    "general_status": "official"
   }
 }

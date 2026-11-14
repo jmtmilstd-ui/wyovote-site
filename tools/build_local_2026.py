@@ -342,9 +342,9 @@ PRECINCT_CSVS = (
     DATA / "precinct_committee_2026_part1.csv",
     DATA / "precinct_committee_2026_part2.csv",
 )
-PRECINCT_MISSING = {"Johnson", "Laramie", "Platte"}
-PRECINCT_LABEL = {"Fremont": "Partial.", "Goshen": "Unofficial."}
-PRECINCT_AS_OF = "November 13, 2026"
+PRECINCT_MISSING: set[str] = set()
+PRECINCT_LABEL = {"Johnson": "Unofficial."}
+PRECINCT_AS_OF = "November 14, 2026"
 PARTY_TITLE = {"REP": "Republican", "DEM": "Democratic"}
 
 
@@ -426,7 +426,7 @@ def precinct_section(county: str, rows: list[dict] | None = None) -> str:
         )
     label = PRECINCT_LABEL.get(county, "Official.")
     url = (rows[0].get("source_url") or "").strip()
-    link_label = "Unofficial primary results" if county == "Goshen" else "Official primary results"
+    link_label = "Unofficial primary results" if label.startswith("Unofficial") else "Official primary results"
     source = ""
     if url:
         source = (
