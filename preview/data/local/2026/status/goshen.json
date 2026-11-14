@@ -1,27 +1,25 @@
 {
   "county": "Goshen",
-  "status": "partial",
+  "status": "complete",
   "cycle": "2026",
-  "retrieved_date": "2026-11-13",
-  "primary_status": "unofficial",
-  "general_status": "unofficial",
+  "retrieved_date": "2026-11-14",
+  "primary_status": "official",
+  "general_status": "official",
   "races_primary": 16,
   "races_general": 8,
   "named_candidates": 13,
   "rows": 37,
   "checks_ok": 24,
   "checks_failed": 0,
-  "issues": [
-    "Official canvassed 2026 summaries were not posted; keyed from clerk-posted unofficial summaries."
-  ],
-  "notes": "Official 2026 summaries are not on the Election Results page as of 2026-11-13; keyed from clerk-posted unofficial summaries (14 of 14 precincts). Do not treat as canvassed official.",
+  "issues": [],
+  "notes": "Official canvassed summaries (primary OFFICIAL RESULTS 08/20/2026; general OFFICIAL RESULTS 11/06/2026) from the Goshen County Archive (ADID 161 primary summary, 162 general summary; 160/163 precinct reports). Replaced the unofficial summaries on 2026-11-14.",
   "sources": {
-    "results_page": "https://www.goshencountywy.gov/191/Election-Results",
-    "unofficial_page": "https://www.goshencountywy.gov/384/Unofficial-Election-Results",
-    "primary": "https://www.goshencountywy.gov/DocumentCenter/View/1512/UNOFFICIAL-2026-Primary-Election-Goshen-County-Summary-Report",
-    "general": "https://www.goshencountywy.gov/DocumentCenter/View/1539/2026-GENERAL-ELECTION-UNOFFICIAL-RESULTS",
-    "primary_status": "unofficial",
-    "general_status": "unofficial",
-    "notes": "Official 2026 summaries are not on the Election Results page as of 2026-11-13; keyed from clerk-posted unofficial summaries (14 of 14 precincts). Do not treat as canvassed official."
+    "results_page": "https://www.goshencountywy.gov/Archive.aspx?AMID=35",
+    "primary": "https://www.goshencountywy.gov/Archive.aspx?ADID=161",
+    "general": "https://www.goshencountywy.gov/Archive.aspx?ADID=162",
+    "primary_precinct": "https://www.goshencountywy.gov/Archive.aspx?ADID=160",
+    "general_precinct": "https://www.goshencountywy.gov/Archive.aspx?ADID=163",
+    "primary_status": "official",
+    "general_status": "official"
   }
 }

@@ -230,6 +230,23 @@ def display_name(name: str, county: str) -> str:
     return " ".join(words)
 
 
+def office_line_votes(row: dict) -> str | None:
+    """Vote total for the result shown on a county-office line.
+
+    A general Won or Lost uses the general total. A primary result uses the
+    primary total. Blank when that sheet did not print a number.
+    """
+    word = result_word(row)
+    general = (row.get("general_votes") or "").strip()
+    primary = (row.get("primary_votes") or "").strip()
+    general_result = (row.get("general_result") or "").strip()
+    if word in {"Won", "Lost"} and general_result in {"elected", "defeated"}:
+        return general or None
+    if word in {"Won", "Lost", "Nominated", "Withdrawn"}:
+        return primary or None
+    return None
+
+
 def result_word(row: dict) -> str:
     primary = (row.get("primary_result") or "").strip()
     general = (row.get("general_result") or "").strip()
@@ -342,9 +359,9 @@ PRECINCT_CSVS = (
     DATA / "precinct_committee_2026_part1.csv",
     DATA / "precinct_committee_2026_part2.csv",
 )
-PRECINCT_MISSING = {"Johnson", "Laramie", "Platte"}
-PRECINCT_LABEL = {"Fremont": "Partial.", "Goshen": "Unofficial."}
-PRECINCT_AS_OF = "November 13, 2026"
+PRECINCT_MISSING: set[str] = set()
+PRECINCT_LABEL = {"Johnson": "Unofficial."}
+PRECINCT_AS_OF = "November 14, 2026"
 PARTY_TITLE = {"REP": "Republican", "DEM": "Democratic"}
 
 
@@ -426,7 +443,7 @@ def precinct_section(county: str, rows: list[dict] | None = None) -> str:
         )
     label = PRECINCT_LABEL.get(county, "Official.")
     url = (rows[0].get("source_url") or "").strip()
-    link_label = "Unofficial primary results" if county == "Goshen" else "Official primary results"
+    link_label = "Unofficial primary results" if label.startswith("Unofficial") else "Official primary results"
     source = ""
     if url:
         source = (
@@ -806,6 +823,7 @@ def county_races(rows: list[dict], county: str, slugs: dict[tuple[str, str], str
                         party_name(row.get("party") or ""),
                         result_word(row),
                         f"c/{slug}.html",
+                        office_line_votes(row),
                     )
                 )
             if items:
