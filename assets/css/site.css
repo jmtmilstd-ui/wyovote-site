@@ -1758,6 +1758,31 @@ body.cand-page {
   font-weight: 700;
 }
 
+/* Local county pages: office and precinct lines share one size.
+   A winner line is bold from the name through Won. Lost, Nominated,
+   write-in totals, and "being verified" stay normal weight. */
+html.cand-local .cand-race .cand-names,
+html.cand-local .cand-race .cand-names a,
+html.cand-local .cand-race .cand-names .cand-abbr,
+html.cand-local .cand-race .cand-names .cand-res {
+  font-family: inherit;
+  font-size: 12pt;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html.cand-local .cand-race .cand-names li.cand-won,
+html.cand-local .cand-race .cand-names li.cand-won a,
+html.cand-local .cand-race .cand-names li.cand-won .cand-abbr,
+html.cand-local .cand-race .cand-names li.cand-won .cand-res {
+  font-size: 12pt;
+  font-weight: 700;
+}
+
+html.cand-local .cand-race .cand-names li.cand-won .cand-note {
+  font-weight: 400;
+}
+
 .cand-page .page-body a {
   color: #0e2a18;
 }
@@ -1805,12 +1830,32 @@ body.cand-page {
   .cand-names a,
   .cand-abbr,
   .cand-names .cand-res,
+  html.cand-local .cand-race .cand-names,
+  html.cand-local .cand-race .cand-names a,
+  html.cand-local .cand-race .cand-names .cand-abbr,
+  html.cand-local .cand-race .cand-names .cand-res,
+  html.cand-local .cand-race .cand-names li.cand-won,
+  html.cand-local .cand-race .cand-names li.cand-won a,
+  html.cand-local .cand-race .cand-names li.cand-won .cand-abbr,
+  html.cand-local .cand-race .cand-names li.cand-won .cand-res,
+  html.cand-local .cand-race .cand-names .cand-note,
   .cand-facts,
   .cand-facts th,
   .cand-facts td,
   .cand-topic {
     color: #000000;
     font-size: 12pt;
+  }
+
+  html.cand-local .cand-race .cand-names li.cand-won,
+  html.cand-local .cand-race .cand-names li.cand-won a,
+  html.cand-local .cand-race .cand-names li.cand-won .cand-abbr,
+  html.cand-local .cand-race .cand-names li.cand-won .cand-res {
+    font-weight: 700;
+  }
+
+  html.cand-local .cand-race .cand-names li.cand-won .cand-note {
+    font-weight: 400;
   }
 
   .cand-facts th,

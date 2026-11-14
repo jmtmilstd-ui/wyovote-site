@@ -166,6 +166,26 @@ def is_writein(row: dict) -> bool:
     return (row.get("candidate_ballot_name") or "").strip().lower() == "write-in totals"
 
 
+# Ordinary words that start with Mac, not Mac + a second name.
+MAC_PLAIN = {"macy", "macey", "mack", "machado", "mackenzie", "mackowiak"}
+
+
+def capitalize_after_marks(text: str) -> str:
+    """Capitalize the first letter after (, a quote, or a period."""
+    chars = list(text)
+    marks = set("(\"'\u201c\u201d\u2018\u2019.")
+    arm = False
+    for index, char in enumerate(chars):
+        if arm and char.isalpha():
+            chars[index] = char.upper()
+            arm = False
+        elif char in marks:
+            arm = True
+        elif not char.isspace():
+            arm = False
+    return "".join(chars)
+
+
 def title_token(token: str) -> str:
     if not token:
         return token
@@ -174,7 +194,7 @@ def title_token(token: str) -> str:
     apostrophe = "'" if "'" in token else ("’" if "’" in token else "")
     if apostrophe:
         head, tail = token.split(apostrophe, 1)
-        return title_token(head) + apostrophe + title_token(tail)
+        return capitalize_after_marks(title_token(head) + apostrophe + title_token(tail))
     if re.fullmatch(r"[A-Za-z]\.", token):
         return token[0].upper() + "."
     if re.fullmatch(r"[A-Za-z]", token):
@@ -185,8 +205,12 @@ def title_token(token: str) -> str:
     if lower in {"ii", "iii", "iv"}:
         return lower.upper()
     if lower.startswith("mc") and len(lower) > 2 and lower[2].isalpha():
-        return "Mc" + lower[2].upper() + lower[3:]
-    return lower[:1].upper() + lower[1:]
+        return capitalize_after_marks("Mc" + lower[2].upper() + lower[3:])
+    if lower.startswith("mac") and lower not in MAC_PLAIN and len(lower) > 4 and lower[3].isalpha():
+        rest = lower[3:]
+        if len(rest) >= 4:
+            return capitalize_after_marks("Mac" + rest[0].upper() + rest[1:])
+    return capitalize_after_marks(lower[:1].upper() + lower[1:])
 
 
 def display_name(name: str, county: str) -> str:
@@ -296,15 +320,21 @@ def source_html(links: list[tuple[str, str]]) -> str:
     return f"          <p>Source: {bits}</p>"
 
 
-def list_item(name: str, party: str, result: str, href: str | None) -> str:
+def list_item(name: str, party: str, result: str, href: str | None, votes: str | None = None) -> str:
+    """Name, party letter, votes, then Won or Lost. A Won line is bold end to end."""
     abbr = cand.party_abbr(party) if party else ""
     abbr_html = f' <span class="cand-abbr">{esc(abbr)}</span>' if abbr else ""
-    result_html = f' <span class="cand-res">{esc(result)}</span>' if result else ""
+    votes_html = f' <span class="cand-res">{esc(votes)}</span>' if (votes or "").strip() else ""
+    if result:
+        result_html = f' <span class="cand-res">{esc(result)}</span>'
+    else:
+        result_html = ""
     if href:
         label = f'<a href="{esc(href)}">{esc(name)}</a>'
     else:
         label = esc(name)
-    return f"              <li>{label}{abbr_html}{result_html}</li>"
+    li_class = ' class="cand-won"' if result == "Won" else ""
+    return f"              <li{li_class}>{label}{abbr_html}{votes_html}{result_html}</li>"
 
 
 PRECINCT_CSVS = (
@@ -329,8 +359,20 @@ def precinct_rows() -> dict[str, list[dict]]:
 
 
 def write_in_total(name: str) -> bool:
-    folded = re.sub(r"[^a-z]", "", (name or "").casefold())
-    return folded in {"writeintotals", "writeintotal"}
+    low = (name or "").casefold()
+    if "total" not in low:
+        return False
+    head = re.sub(r"[^a-z]", "", low.split("total", 1)[0])
+    return head.startswith("write")
+
+
+def precinct_display_name(name: str, county: str) -> str:
+    """Title-case all-caps names the same way county offices do. Mixed case stays."""
+    raw = (name or "").strip()
+    match = re.match(r"(?i)write-in\s*:\s*(.*)$", raw)
+    if match:
+        return "Write-In: " + display_name(match.group(1).strip(), county)
+    return display_name(raw, county)
 
 
 def being_verified(notes: str) -> bool:
@@ -343,20 +385,31 @@ def being_verified(notes: str) -> bool:
     )
 
 
-def precinct_item(row: dict) -> str:
-    verified = ' <span class="cand-res">being verified</span>' if being_verified(row.get("notes") or "") else ""
+def precinct_result(row: dict) -> str:
+    result = (row.get("result") or "").strip()
+    if result == "elected":
+        return "Won"
+    if result == "defeated":
+        return "Lost"
+    return ""
+
+
+def precinct_item(row: dict, county: str) -> str:
+    verified = ' <span class="cand-res cand-note">being verified</span>' if being_verified(row.get("notes") or "") else ""
     if write_in_total(row.get("candidate_name") or ""):
         votes = (row.get("votes") or "").strip()
         return f"              <li>Write-in (not named): {esc(votes)}{verified}</li>"
-    bits = [esc(row.get("candidate_name") or "")]
-    votes = (row.get("votes") or "").strip()
-    if votes:
-        bits.append(f'<span class="cand-res">{esc(votes)}</span>')
-    if (row.get("result") or "").strip() == "elected":
-        bits.append('<span class="cand-res">Elected</span>')
-    if being_verified(row.get("notes") or ""):
-        bits.append('<span class="cand-res">being verified</span>')
-    return "              <li>" + " ".join(bits) + "</li>"
+    name = precinct_display_name(row.get("candidate_name") or "", county)
+    item = list_item(
+        name,
+        party_name(row.get("party") or ""),
+        precinct_result(row),
+        None,
+        (row.get("votes") or "").strip(),
+    )
+    if verified:
+        item = item.replace("</li>", verified + "</li>", 1)
+    return item
 
 
 def precinct_section(county: str, rows: list[dict] | None = None) -> str:
@@ -399,7 +452,7 @@ def precinct_section(county: str, rows: list[dict] | None = None) -> str:
         for party, seats in parties.items():
             party_title = PARTY_TITLE.get(party, party)
             for seat, members in seats.items():
-                cards.append(race_block(f"{party_title} {seat}", [precinct_item(row) for row in members]))
+                cards.append(race_block(f"{party_title} {seat}", [precinct_item(row, county) for row in members]))
         blocks.append(
             '          <section class="cand-group">\n'
             f"          <h2 class=\"cand-group-title\">Precinct {esc(precinct)}</h2>\n"
@@ -834,8 +887,30 @@ def load_status(filename: str) -> dict:
     return json.loads((DATA / "status" / f"{filename}.json").read_text(encoding="utf-8"))
 
 
+def replace_group(text: str, title: str, block: str, end_at: str | None = None) -> str:
+    start_marker = (
+        '          <section class="cand-group">\n'
+        f'          <h2 class="cand-group-title">{title}</h2>'
+    )
+    start = text.find(start_marker)
+    if start == -1:
+        raise SystemExit(f"missing {title} section")
+    if end_at:
+        end = text.find(end_at, start)
+    else:
+        end = text.find('          <section class="cand-group">', start + len(start_marker))
+    if end == -1:
+        raise SystemExit(f"no end for {title}")
+    return text[:start] + block + "\n" + text[end:]
+
+
 def insert_precinct_sections() -> None:
-    """Add the Precinct Committee section to county pages already on disk."""
+    """Rewrite county-office and precinct lines on the county pages already on disk."""
+    rows, _notes = prepare_rows(load_rows())
+    by_county: dict[str, list[dict]] = defaultdict(list)
+    for row in rows:
+        by_county[row["county"]].append(row)
+    slugs = assign_slugs(rows)
     token = "      </div></section>\n    </main>"
     pages = 0
     for name, slug, _status in COUNTIES:
@@ -843,17 +918,17 @@ def insert_precinct_sections() -> None:
         text = path.read_text(encoding="utf-8")
         if token not in text:
             raise SystemExit(f"no insert point in {path}")
+        if 'cand-group-title">County offices' in text:
+            text = replace_group(text, "County offices", county_races(by_county.get(name, []), name, slugs))
         block = precinct_section(name)
-        start = text.find('          <section class="cand-group">\n          <h2 class="cand-group-title">Precinct Committee</h2>')
-        if start != -1:
-            end = text.find(token, start)
-            text = text[:start] + block + "\n" + text[end:]
+        if 'cand-group-title">Precinct Committee' in text:
+            text = replace_group(text, "Precinct Committee", block, token)
         else:
             text = text.replace(token, block + "\n" + token, 1)
         path.write_text(text, encoding="utf-8")
         mark_file(path)
         pages += 1
-    print(f"added precinct committee to {pages} county pages")
+    print(f"rewrote office and precinct lines on {pages} county pages")
 
 
 def main() -> None:
