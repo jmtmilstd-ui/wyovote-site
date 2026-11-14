@@ -477,6 +477,13 @@
   list-style: none;
 }
 
+/* User's Guide sits in the same footer row, slightly apart from About/Privacy/Contact. */
+.site-footer .footer-links li.footer-guide {
+  margin-left: 0.75rem;
+  padding-left: 1.25rem;
+  border-left: 1px solid #e7f8ec;
+}
+
 .site-footer .footer-inner p {
   margin: 0;
 }
