@@ -16,6 +16,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OFFICIALS = ROOT / "preview" / "officials"
 DEEPER = re.compile(r'<p class="pf-deeper"><a href="([^"]+)">Deeper dive</a></p>')
+OLD_COMMITTEE = (
+    "Coming soon. No 2021–2026 committee report in this repo lists this legislator."
+)
+NEW_COMMITTEE = "No committee votes for this legislator in the 2021–2026 reports."
 HEAD = re.compile(
     r'(<section class="pf-head"[\s\S]*?</section>)(\s*)(<section class="pf-card")'
 )
@@ -41,16 +45,29 @@ def stamp(text: str) -> str | None:
     return updated
 
 
+def reader_notes(text: str) -> str | None:
+    if OLD_COMMITTEE not in text:
+        return None
+    return text.replace(OLD_COMMITTEE, NEW_COMMITTEE)
+
+
 def main() -> None:
     changed = 0
+    noted = 0
     for path in sorted(OFFICIALS.rglob("*.html")):
         text = path.read_text(encoding="utf-8")
         updated = stamp(text)
         if updated is None:
-            continue
-        path.write_text(updated, encoding="utf-8")
-        changed += 1
-    print(f"added the Deeper dive button on {changed} preview official pages")
+            updated = text
+        rewritten = reader_notes(updated)
+        if rewritten is not None:
+            updated = rewritten
+            noted += 1
+        if updated != text:
+            path.write_text(updated, encoding="utf-8")
+            changed += 1
+    print(f"added the Deeper dive button or reader note on {changed} preview official pages")
+    print(f"replaced the committee note on {noted} pages")
 
 
 if __name__ == "__main__":
