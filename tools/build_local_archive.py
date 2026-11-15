@@ -115,6 +115,7 @@ def archive_shell(title: str, description: str, depth: int, body: str) -> str:
             <li><a href="{root}archive/committees.html">Committees</a></li>
             <li><a href="{root}archive/counties.html">Counties</a></li>
             <li><a href="{root}officials.html">Officials</a></li>
+            <li><a href="{root}people/index.html">Name Index</a></li>
             <li><a href="{root}research.html">Research</a></li>
           </ul>
         </nav>

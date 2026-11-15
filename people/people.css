@@ -1,0 +1,26 @@
+/* Name Index button page (preview). Dark text only. */
+.ni-years { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 0.4rem 0 1rem; font-size: 14pt; }
+.ni-years-label { font-weight: 700; color: #142117; }
+.ni-years a { display: inline-block; padding: 0.3rem 0.8rem; border: 2px solid #146b31; border-radius: 0.3rem; background: #ffffff; color: #0e2a18; font-weight: 700; text-decoration: none; }
+.ni-years a:hover, .ni-years a:focus-visible { background: #e7f5eb; }
+.ni-year { margin: 0 0 1.3rem; padding: 0.85rem 1rem 0.6rem; border: 2px solid #146b31; border-radius: 0.35rem; background: #ffffff; }
+.ni-year h2 { margin: 0 0 0.3rem; color: #142117; }
+.ni-year h3 { margin: 0.8rem 0 0.4rem; color: #142117; font-size: 1.15rem; }
+.ni-buttons { display: grid; grid-template-columns: 1fr; gap: 0.5rem; margin: 0 0 0.4rem; padding: 0; list-style: none; }
+@media (min-width: 600px) { .ni-buttons { grid-template-columns: repeat(3, minmax(0, 1fr)); } .ni-buttons.ni-wide { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1000px) { .ni-buttons { grid-template-columns: repeat(5, minmax(0, 1fr)); } .ni-buttons.ni-wide { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.ni-buttons.ni-one { grid-template-columns: minmax(0, 22rem); }
+.ni-buttons a { display: block; padding: 0.55rem 0.8rem; border: 2px solid #146b31; border-radius: 0.3rem; background: #ffffff; color: #0e2a18; font-size: 13pt; font-weight: 700; text-decoration: none; }
+.ni-buttons a:hover, .ni-buttons a:focus-visible { background: #e7f5eb; color: #0e2a18; }
+/* search */
+.ni-search { margin: 0 0 1.4rem; padding: 0.9rem 1rem; border: 2px solid #146b31; border-radius: 0.35rem; background: #ffffff; color: #142117; }
+.ni-search h2 { margin: 0 0 0.5rem; color: #142117; }
+.ni-form { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.8rem; font-size: 14pt; }
+.ni-form label { font-weight: 700; color: #142117; }
+.ni-form select, .ni-form input { font-size: 14pt; padding: 0.35rem 0.5rem; border: 2px solid #146b31; border-radius: 0.3rem; background: #ffffff; color: #0e2a18; }
+.ni-form input { width: 14rem; }
+.ni-form input::placeholder { color: #3b4a40; opacity: 1; }
+.ni-msg { margin: 0.6rem 0 0.3rem; color: #142117; font-weight: 700; }
+.ni-out { margin: 0; padding: 0; list-style: none; font-size: 13pt; color: #142117; }
+.ni-out li { padding: 0.25rem 0; border-bottom: 1px solid #b9c4bb; }
+.ni-lists-h { margin: 0.4rem 0 0.4rem; color: #142117; }

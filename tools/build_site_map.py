@@ -50,6 +50,7 @@ TREE = (
             "Officials",
             [("Session", [("Official", [("Deeper Dive", [])])])],
         ),
+        ("Name Index", []),
         ("Research", []),
         ("News", [("Article", [])]),
         (
@@ -755,6 +756,7 @@ def write_site_map_page() -> None:
             <li><a href="committees.html">Committees</a></li>
             <li><a href="counties.html">Counties</a></li>
             <li><a href="officials.html">Officials</a></li>
+            <li><a href="people/index.html">Name Index</a></li>
             <li><a href="research.html">Research</a></li>
           </ul>
         </nav>

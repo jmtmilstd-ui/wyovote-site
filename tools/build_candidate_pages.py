@@ -822,6 +822,7 @@ def preview_shell(title: str, description: str, depth: int, body: str, current: 
         nav("Committees", root + "archive/committees.html", "committees"),
         nav("Counties", root + "archive/counties.html", "counties"),
         nav("Officials", root + "officials.html", "officials"),
+        nav("Name Index", root + "people/index.html", "people"),
         nav("Research", root + "research.html", "research"),
     ]
     return f"""<!DOCTYPE html>
