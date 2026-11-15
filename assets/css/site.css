@@ -686,10 +686,22 @@
   overflow: hidden;
 }
 
+body.pf-2021,
+body.pf-2022,
+body.pf-2023,
+body.pf-2024,
 body.pf-2025 {
   font-size: 14pt;
 }
 
+body.pf-2021 table.deep-table,
+body.pf-2021 .deep-votes td,
+body.pf-2022 table.deep-table,
+body.pf-2022 .deep-votes td,
+body.pf-2023 table.deep-table,
+body.pf-2023 .deep-votes td,
+body.pf-2024 table.deep-table,
+body.pf-2024 .deep-votes td,
 body.pf-2025 table.deep-table,
 body.pf-2025 .deep-votes td {
   font-size: 12.5pt;
@@ -785,6 +797,30 @@ body.pf-2025 .deep-votes td {
 .official-btn.party-d:focus-visible {
   background: #e8eef8;
   color: #1a4a8a;
+}
+
+.official-btn.party-l {
+  background: #c99700;
+  border-color: #5c4306;
+  color: #142117;
+}
+
+.official-btn.party-l:hover,
+.official-btn.party-l:focus-visible {
+  background: #a87e00;
+  color: #142117;
+}
+
+.official-btn.party-i {
+  background: #4b2a7b;
+  border-color: #2e1850;
+  color: #ffffff;
+}
+
+.official-btn.party-i:hover,
+.official-btn.party-i:focus-visible {
+  background: #351c5a;
+  color: #ffffff;
 }
 
 .official-btn.general {
