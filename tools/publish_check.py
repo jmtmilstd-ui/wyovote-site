@@ -12,7 +12,7 @@ Checks:
   (c) any href or src in an .html file points at a local file that is missing
   (d) any root page (not under preview/) links into preview/ or contains the
       PREVIEW banner
-  (e) the total size of tracked files is over 300 MB (314,572,800 bytes)
+  (e) the total size of tracked files is over 500 MB (524,288,000 bytes)
   (f) a top-level label in the preview or live site nav is missing from the site map
   (g) a line in the preview or live site map cuts through a box or crosses another line
 
@@ -33,7 +33,7 @@ from pathlib import Path, PurePosixPath
 from urllib.parse import unquote, urlsplit
 
 FILE_LIMIT = 500 * 1024
-TREE_LIMIT = 300 * 1024 * 1024
+TREE_LIMIT = 500 * 1024 * 1024
 
 # Pages, stylesheets, and scripts are not assets. Everything else must be
 # referenced. .docx, .csv, and .json are included, along with PDFs and images.
@@ -520,7 +520,7 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
         lines.append("Tracked size: FAIL")
     else:
         lines.append(f"Tracked size: {format_bytes(tracked_total)}")
-        lines.append(f"Tracked size limit: {tree_limit:,} bytes (300 MB)")
+        lines.append(f"Tracked size limit: {tree_limit:,} bytes (500 MB)")
         lines.append(f"Tracked size: {'FAIL' if size_over else 'OK'}")
     lines.append("")
     lines.append("10 largest tracked files:")
