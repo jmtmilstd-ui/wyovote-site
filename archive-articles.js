@@ -59,7 +59,7 @@
   function entry(item, root) {
     var li = el("li", "article-entry");
     var title = el("p", "article-entry-title");
-    if (item.kind === "news" || item.kind === "special" || item.kind === "research") {
+    if (item.kind === "news" || item.kind === "special" || item.kind === "research" || item.kind === "feature") {
       var kickerClass = "news-kicker";
       var kickerText = "News";
       if (item.kind === "special") {
@@ -68,6 +68,9 @@
       } else if (item.kind === "research") {
         kickerClass = "news-kicker news-kicker-research";
         kickerText = "Research";
+      } else if (item.kind === "feature") {
+        kickerClass = "news-kicker news-kicker-feature";
+        kickerText = "Feature";
       }
       title.appendChild(el("span", kickerClass, kickerText));
       title.appendChild(document.createTextNode(" "));

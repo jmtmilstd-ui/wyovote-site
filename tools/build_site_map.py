@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
-"""Stamp the Site Map and the small header trail, then promote preview to live.
+"""Stamp the Site Map and the small header trail on the site pages.
 
 The full diagram and the trail on each page come from the same page
-structure. Run this after adding preview pages:
+structure. Run this after adding pages:
 
     python3 tools/build_site_map.py
 
 tools/build_candidate_pages.py runs it at the end, so a candidate rebuild
-picks up the trail on new pages. The same run copies every preview HTML
-page to its live twin, following PUBLISH.md.
+picks up the trail on new pages.
+
+Single tree since 2026-11-15: there is no in-site preview/ copy and no
+promote step. Pages are stamped where they live. Review a change on a
+Cloudflare branch preview (see PUBLISH.md).
 """
 
 from __future__ import annotations
@@ -22,9 +25,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PREVIEW = ROOT / "preview"
-# Terms was removed from the live site on purpose. The preview copy stays.
-SKIP_LIVE = {"terms.html"}
+SITE = ROOT  # single tree: stamp the live pages directly
 
 # Levels only. Repeating pages are one box, not one box per name.
 TREE = (
@@ -371,13 +372,13 @@ def root_prefix(rel: str) -> str:
 
 
 def insert_nav(text: str, rel: str) -> str:
-    """Preview no longer has a Site Map. Drop the button wherever it was stamped."""
+    """The site no longer has a Site Map page. Drop the button wherever it was stamped."""
     del rel
     return re.sub(r"\s*<li><a class=\"site-map-link\".*?</li>", "", text, flags=re.S)
 
 
 def insert_trail(text: str, labels: list[str]) -> str:
-    """Preview no longer shows the header trail."""
+    """The site no longer shows the header trail."""
     del labels
     text = re.sub(r"\s*<!-- page-trail -->.*?<!-- /page-trail -->", "", text, flags=re.S)
     return re.sub(r"\s*<div class=\"page-trail\">.*?</div>", "", text, flags=re.S)
@@ -731,17 +732,15 @@ def write_site_map_page() -> None:
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Site Map — WyoVote</title>
     <meta name="description" content="A diagram of the WyoVote pages and how they are nested.">
     <link rel="icon" href="assets/img/surveyor-icon.png" type="image/png">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="preview.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="assets/css/site.css">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href="index.html">
@@ -773,7 +772,7 @@ def write_site_map_page() -> None:
       </section>
       <section class="page-body">
         <div class="wrap page-prose">
-          <p>This map reflects the current structure of the site. Repeating pages are shown once, by level. A rounded box is the lowest page in a stair. The boxes are information only. The structure is recorded in <a href="../data/site-map.json">data/site-map.json</a>.</p>
+          <p>This map reflects the current structure of the site. Repeating pages are shown once, by level. A rounded box is the lowest page in a stair. The boxes are information only. The structure is recorded in <a href="data/site-map.json">data/site-map.json</a>.</p>
           {diagram}
         </div>
       </section>
@@ -785,7 +784,7 @@ def write_site_map_page() -> None:
             <li><a href="about.html">About</a></li>
             <li><a href="privacy.html">Privacy</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li class="footer-guide"><a href="/preview/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
+            <li class="footer-guide"><a href="/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
           </ul>
         </nav>
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
@@ -794,107 +793,37 @@ def write_site_map_page() -> None:
   </body>
 </html>
 """
-    (PREVIEW / "site-map.html").write_text(page, encoding="utf-8")
+    (SITE / "site-map.html").write_text(page, encoding="utf-8")
 
 
 def stamp(path: Path) -> None:
-    rel = path.relative_to(PREVIEW).as_posix()
+    rel = path.relative_to(SITE).as_posix()
     text = path.read_text(encoding="utf-8")
     text = insert_nav(text, rel)
     text = insert_trail(text, crumbs(rel, text))
     path.write_text(text, encoding="utf-8")
 
 
-def to_live(text: str, src: Path) -> str:
-    """PUBLISH.md: drop preview chrome and retarget links that leave /preview."""
-    text = re.sub(r"[ \t]*<meta name=\"robots\" content=\"noindex\">\n", "", text)
-    text = re.sub(r"[ \t]*<p class=\"preview-banner\"[^>]*>.*?</p>\n", "", text)
-    text = text.replace("https://wyovote.com/preview/", "https://wyovote.com/")
-    text = text.replace("https://www.wyovote.com/preview/", "https://www.wyovote.com/")
-    preview_root = PREVIEW.resolve()
-    repo_root = ROOT.resolve()
-    live_dir = (ROOT / src.relative_to(PREVIEW)).parent.resolve()
-
-    def retarget(match: re.Match) -> str:
-        raw = match.group(2)
-        if re.match(r"^(?:https?:|mailto:|#|data:|javascript:)", raw, re.I):
-            return match.group(0)
-        path, query, frag = raw, "", ""
-        if "#" in path:
-            path, frag = path.split("#", 1)
-            frag = "#" + frag
-        if "?" in path:
-            path, query = path.split("?", 1)
-            query = "?" + query
-        if not path or path.startswith("/"):
-            return match.group(0)
-        target = (src.parent / path).resolve()
-        try:
-            target.relative_to(preview_root)
-            return match.group(0)
-        except ValueError:
-            pass
-        try:
-            target.relative_to(repo_root)
-        except ValueError:
-            return match.group(0)
-        rewritten = Path(os.path.relpath(target, live_dir)).as_posix()
-        return f'{match.group(1)}{rewritten}{query}{frag}"'
-
-    text = re.sub(r'((?:href|src)=")([^"]*)"', retarget, text)
-    text = text.replace('preview.css"', 'assets/css/site.css"')
-    return text
-
-
-def sync_live_styles() -> None:
-    """Copy the promoted preview rules into the live stylesheet."""
-    preview_css = (PREVIEW / "preview.css").read_text(encoding="utf-8")
-    parts = []
-    for name in ("election", "map", "report"):
-        match = re.search(
-            rf"/\* PROMOTE_START {name} \*/\n(.*)/\* PROMOTE_END {name} \*/",
-            preview_css,
-            re.S,
-        )
-        if not match:
-            raise SystemExit(f"missing promote block {name} in preview.css")
-        parts.append(match.group(1).rstrip() + "\n")
-    block = "/* PROMOTE_START */\n" + "\n".join(parts) + "/* PROMOTE_END */\n"
-    site_path = ROOT / "assets" / "css" / "site.css"
-    site = site_path.read_text(encoding="utf-8")
-    if "/* PROMOTE_START */" in site:
-        site = re.sub(r"/\* PROMOTE_START \*/.*?/\* PROMOTE_END \*/\n?", block, site, count=1, flags=re.S)
-    else:
-        if not site.endswith("\n"):
-            site += "\n"
-        site += "\n" + block
-    site_path.write_text(site, encoding="utf-8")
-
-
-def promote_live() -> int:
-    sync_live_styles()
-    count = 0
-    for src in sorted(PREVIEW.rglob("*.html")):
-        rel = src.relative_to(PREVIEW)
-        if rel.as_posix() in SKIP_LIVE:
+def site_pages() -> list[Path]:
+    pages = []
+    for path in sorted(SITE.rglob("*.html")):
+        parts = path.relative_to(SITE).parts
+        if ".git" in parts or "tools" in parts or ".github" in parts:
             continue
-        dest = ROOT / rel
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_text(to_live(src.read_text(encoding="utf-8"), src), encoding="utf-8")
-        count += 1
-    return count
+        pages.append(path)
+    return pages
 
 
 def main() -> None:
-    site_map = PREVIEW / "site-map.html"
+    site_map = SITE / "site-map.html"
     if site_map.is_file():
         site_map.unlink()
-    pages = sorted(PREVIEW.rglob("*.html"))
+    pages = site_pages()
     for path in pages:
         stamp(path)
-    print(f"stamped {len(pages)} preview pages")
+    print(f"stamped {len(pages)} pages")
     if "--publish" in sys.argv:
-        print(f"promoted {promote_live()} live pages")
+        print("--publish is retired: there is no preview/ tree to promote (single tree since 2026-11-15)")
 
 
 if __name__ == "__main__":

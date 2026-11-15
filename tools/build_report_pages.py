@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Build one preview web page for each published WyoVote report PDF.
+"""Build one web page for each published WyoVote report PDF.
+
+Single tree since 2026-11-15: pages are written at their live paths under
+reports/. Review a change on a Cloudflare branch preview, not in preview/.
 
 The PDF builders (ranking.py, build_counties.py, build_committees_year.py,
 combined_ratings/build_combined.py) are not in this repository. These pages
@@ -23,9 +26,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PREVIEW = ROOT / "preview"
+SITE = ROOT  # single tree: write the live pages directly
 REPORTS = ROOT / "reports"
-OUT = PREVIEW / "reports"
+OUT = SITE / "reports"
 CURRENT_YEAR = "2026"
 
 NAV = """
@@ -157,7 +160,7 @@ def page_path(pdf: Path, kind: str) -> Path:
 
 def load_officials() -> dict[str, Path]:
     found: dict[str, Path] = {}
-    for path in (PREVIEW / "officials").glob("*.html"):
+    for path in (SITE / "officials").glob("*.html"):
         if path.name == "index.html" or path.name.endswith("-deep.html"):
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
@@ -820,7 +823,7 @@ def section_blurb(title: str, rows: list[dict], alpha: bool) -> tuple[str, str]:
 
 def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> None:
     year = parsed["year"]
-    depth = len(dest.relative_to(PREVIEW).parts) - 1
+    depth = len(dest.relative_to(SITE).parts) - 1
     root = "../" * depth
     current = ' aria-current="page"'
     nav = NAV.format(
@@ -1035,17 +1038,15 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{esc(parsed["title"])} — WyoVote</title>
     <meta name="description" content="{esc(parsed["doc_sub"])}">
     <link rel="icon" href="{root}assets/img/surveyor-icon.png" type="image/png">
-    <link rel="stylesheet" href="{root}../css/styles.css">
-    <link rel="stylesheet" href="{root}preview.css">
+    <link rel="stylesheet" href="{root}css/styles.css">
+    <link rel="stylesheet" href="{root}assets/css/site.css">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href="{root}index.html">
@@ -1082,7 +1083,7 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
             <li><a href="{root}about.html">About</a></li>
             <li><a href="{root}privacy.html">Privacy</a></li>
             <li><a href="{root}contact.html">Contact</a></li>
-            <li class="footer-guide"><a href="/preview/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
+            <li class="footer-guide"><a href="/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
           </ul>
         </nav>
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
@@ -1102,7 +1103,7 @@ def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> N
         render_ratings(pdf, parsed, dest, officials)
         return
     year, _slug = slug_for(pdf, parsed["kind"])
-    depth = len(dest.relative_to(PREVIEW).parts) - 1
+    depth = len(dest.relative_to(SITE).parts) - 1
     root = "../" * depth
     current = ' aria-current="page"'
     nav_flags = {"home": "", "archive": "", "committees": "", "counties": ""}
@@ -1159,17 +1160,15 @@ def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> N
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{esc(parsed["title"])} — WyoVote</title>
     <meta name="description" content="{esc(parsed["subtitle"] or parsed["title"])}">
     <link rel="icon" href="{root}assets/img/surveyor-icon.png" type="image/png">
-    <link rel="stylesheet" href="{root}../css/styles.css">
-    <link rel="stylesheet" href="{root}preview.css">
+    <link rel="stylesheet" href="{root}css/styles.css">
+    <link rel="stylesheet" href="{root}assets/css/site.css">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href="{root}index.html">
@@ -1207,7 +1206,7 @@ def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> N
             <li><a href="{root}about.html">About</a></li>
             <li><a href="{root}privacy.html">Privacy</a></li>
             <li><a href="{root}contact.html">Contact</a></li>
-            <li class="footer-guide"><a href="/preview/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
+            <li class="footer-guide"><a href="/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
           </ul>
         </nav>
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
@@ -1227,7 +1226,7 @@ def rewrite_links(mapping: dict[Path, Path]) -> int:
     by_name = {}
     for pdf, page in mapping.items():
         by_name.setdefault(pdf.name, page)
-    for html_path in PREVIEW.rglob("*.html"):
+    for html_path in SITE.rglob("*.html"):
         text = html_path.read_text(encoding="utf-8")
         original = text
 
@@ -1253,9 +1252,9 @@ def rewrite_links(mapping: dict[Path, Path]) -> int:
 
 
 def full_ratings_pdf(year: str, kind: str) -> Path:
-    """Full Ranked sheets are the preview v1.1 PDFs. Alpha stays on the live v1.0 file."""
+    """Full Ranked sheets are the v1.1 PDFs. Alpha stays on the v1.0 file."""
     if kind == "ranked":
-        return PREVIEW / "reports" / year / f"wyovote_{year}_Ratings_Ranked_103_v1.1.pdf"
+        return ROOT / "reports" / year / f"wyovote_{year}_Ratings_Ranked_103_v1.1.pdf"
     return ROOT / "reports" / year / f"wyovote_{year}_Ratings_Alpha_104_v1.0.pdf"
 
 
@@ -1263,7 +1262,7 @@ def retarget_full_ratings() -> int:
     """Full Ranked and Alpha sheets stay PDFs. One-page sheets stay web pages."""
     changed = 0
     anchor = re.compile(r'<a\b([^>]*?)href="([^"]+)"([^>]*)>')
-    for html_path in PREVIEW.rglob("*.html"):
+    for html_path in SITE.rglob("*.html"):
         text = html_path.read_text(encoding="utf-8")
         original = text
 
@@ -1320,7 +1319,7 @@ def build(kind: str) -> int:
         if is_summary_pdf(pdf) and summary_rows < 5:
             raise SystemExit(f"summary table too short in {pdf}: {summary_rows}")
     print(f"wrote {count} {kind} pages")
-    print(f"relinked {rewrite_links(mapping)} preview pages")
+    print(f"relinked {rewrite_links(mapping)} pages")
     if kind == "ratings":
         print(f"pointed {retarget_full_ratings()} full Ranked/Alpha links at the PDFs")
     subprocess.check_call([sys.executable, str(ROOT / "tools" / "build_site_map.py")])
@@ -1465,7 +1464,7 @@ def build_legacy() -> int:
         mapping[pdf.resolve()] = dest
         count += 1
     print(f"wrote {count} legacy pages")
-    print(f"relinked {rewrite_links(mapping)} preview pages")
+    print(f"relinked {rewrite_links(mapping)} pages")
     subprocess.check_call([sys.executable, str(ROOT / "tools" / "build_site_map.py")])
     subprocess.check_call([sys.executable, str(ROOT / "tools" / "mark_outside_links.py")])
     return count

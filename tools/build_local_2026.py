@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Build the preview Local candidate pages in the Primary/General format.
+"""Build the Local candidate pages in the Primary/General format.
 
-Reads preview/data/local/2026/ and writes the Local hub, one county page per
-county, and a simple detail page for each named candidate. The markup uses the
-same classes as preview/candidates/2026-primary/.
+Reads tools/local-data/2026/ (generator input, not deployed) and writes the
+Local hub, one county page per county, and a simple detail page for each named
+candidate, at their live paths. The markup uses the same classes as
+candidates/2026-primary/. Single tree since 2026-11-15: review a change on a
+Cloudflare branch preview, not in an in-site preview/ folder.
 """
 
 from __future__ import annotations
@@ -21,10 +23,10 @@ from pathlib import Path
 import build_candidate_pages as cand
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "preview" / "data" / "local" / "2026"
-OUT = ROOT / "preview" / "candidates" / "2026-local.html"
-LOCAL_DIR = ROOT / "preview" / "candidates" / "2026-local"
-PREVIEW = ROOT / "preview"
+DATA = ROOT / "tools" / "local-data" / "2026"
+OUT = ROOT / "candidates" / "2026-local.html"
+LOCAL_DIR = ROOT / "candidates" / "2026-local"
+SITE = ROOT  # single tree: write the live pages directly
 
 COUNTIES = [
     ("Albany", "albany", "albany"),
@@ -266,22 +268,20 @@ def result_word(row: dict) -> str:
 def shell(title: str, description: str, depth: int, body: str) -> str:
     """Same header as the 2026 Primary county pages, with Local selected."""
     root = "../" * depth
-    css = "../" * (depth + 1) + "css/styles.css"
+    css = "../" * depth + "css/styles.css"
     return f"""<!DOCTYPE html>
 <html lang="en" class="cand-local">
   <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{esc(title)}</title>
     <meta name="description" content="{esc(description)}">
     <link rel="icon" href="{root}assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="{css}">
-    <link rel="stylesheet" href="{root}preview.css">
+    <link rel="stylesheet" href="{root}assets/css/site.css">
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
-    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href="{root}index.html">
@@ -312,7 +312,7 @@ def shell(title: str, description: str, depth: int, body: str) -> str:
             <li><a href="{root}about.html">About</a></li>
             <li><a href="{root}privacy.html">Privacy</a></li>
             <li><a href="{root}contact.html">Contact</a></li>
-            <li class="footer-guide"><a href="/preview/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
+            <li class="footer-guide"><a href="/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
           </ul>
         </nav>
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
@@ -1036,10 +1036,10 @@ def main() -> None:
         encoding="utf-8",
     )
     mark_file(OUT)
-    ensure_button(PREVIEW / "candidates.html", "candidates/2026-local.html")
+    ensure_button(SITE / "candidates.html", "candidates/2026-local.html")
     for _name, slug, _status in COUNTIES:
         ensure_button(
-            PREVIEW / "candidates" / "2026-primary" / f"{slug}.html",
+            SITE / "candidates" / "2026-primary" / f"{slug}.html",
             f"../2026-local/{slug}.html",
         )
     print(f"wrote {pages + 1} local pages")

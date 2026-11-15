@@ -1,4 +1,4 @@
-"""Officials archive generator (preview build). Templates = the published officials/2025 pages; ranks from ranking.py."""
+"""Officials archive generator (single tree: writes live paths; review on a Cloudflare branch preview). Templates = the published officials/2025 pages; ranks from ranking.py."""
 import csv, json, re, sys, os, html, math, datetime
 sys.path.insert(0, '/workspace/wyoleg'); sys.path.insert(0, '/workspace/name-index/tools'); sys.path.insert(0, os.path.dirname(__file__))
 import ranking, namelib as N, rolls, match2021

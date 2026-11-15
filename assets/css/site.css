@@ -1,4 +1,4 @@
-/* Live layout. Same rules as preview/preview.css.
+/* Live layout. The only site stylesheet (preview/preview.css was retired 2026-11-15).
    The owner will style it later. */
 
 .site-nav ul {
@@ -1515,6 +1515,16 @@ ol.method-steps li {
   color: #ffffff;
 }
 
+.news-kicker-feature {
+  background: #5c4306;
+  color: #ffffff;
+}
+
+.article-list h3 .news-kicker {
+  margin: 0 0.4rem 0 0;
+  vertical-align: 0.08em;
+}
+
 .news-date,
 .news-summary,
 .news-more,
@@ -1814,7 +1824,7 @@ body.cand-page {
 }
 
 .cand-topic {
-  margin: 0.55rem 0 0.15rem;
+  margin: 0.65rem 0 0.15rem;
   color: #142117;
   font-size: 12pt;
   font-weight: 700;
@@ -1822,7 +1832,7 @@ body.cand-page {
 }
 
 .cand-sources {
-  margin: 1rem 0 0;
+  margin: 1.15rem 0 0;
   padding: 0;
   color: #142117;
   font-size: 14pt;
@@ -1956,6 +1966,17 @@ html.cand-local .cand-race .cand-names li.cand-won .cand-note {
 
   .punch-list {
     display: none !important;
+  }
+
+  .cand-unofficial {
+    color: #8a1c1c;
+    print-color-adjust: exact;
+  }
+
+  .cand-election-btn {
+    border: 2px solid #000000;
+    color: #000000;
+    background: #ffffff;
   }
 }
 
@@ -2911,6 +2932,10 @@ html.cand-general .page-trail .cand-view-general {
   }
 }
 /* PROMOTE_END */
+
+.pf-head .ext {
+  color: #ffffff;
+}
 
 /* Outside buttons. Gold ring does not change the border width.
    Grid buttons give 8px on each side to the space between them (16px
