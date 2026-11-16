@@ -1,11 +1,15 @@
-"""Officials archive generator (single tree: writes live paths; review on a Cloudflare branch preview). Templates = the published officials/2025 pages; ranks from ranking.py."""
+"""Officials archive generator (single tree: writes live paths; review on a Cloudflare branch preview). Templates = the published officials/2025 pages; ranks from ranking.py.
+Deep pages carry the rank-history chart (tools/rank_chart.py). Run: python3 tools/gen.py BASE OUT 2008,...,2024 (OA_FIRST=2008)."""
 import csv, json, re, sys, os, html, math, datetime
 sys.path.insert(0, '/workspace/wyoleg'); sys.path.insert(0, '/workspace/name-index/tools'); sys.path.insert(0, os.path.dirname(__file__))
-import ranking, namelib as N, rolls, match2021
+import ranking, namelib as N, rolls, match2021, rank_chart
 BASE = sys.argv[1] if len(sys.argv) > 1 else '/workspace/officials-archive/base'
 OUT = sys.argv[2] if len(sys.argv) > 2 else '/workspace/officials-archive/site'
 YEARS = [int(y) for y in (sys.argv[3].split(',') if len(sys.argv) > 3 else ['2021', '2022', '2023', '2024'])]
 BUILT = '2026-11-15'
+FIRST = int(os.environ.get('OA_FIRST', '2008'))
+REVIEW = []
+CONFIRMED = {'WY-WALTERS-THOMAS', 'WY-LEBEAU-ANDI'}
 W = '/workspace/wyoleg'
 E = html.escape
 T = lambda p: open(f'{BASE}/officials/2025/{p}', encoding='utf-8').read()
@@ -20,9 +24,22 @@ def fdate(s):
 # ---------- person ids per year ----------
 def pid_rows(Y):
     Y = int(Y)
-    if Y == 2021:
-        A = list(csv.DictReader(open(f'{W}/y2021/legislators_2021.csv')))
-        for r in A: r['pid'] = match2021.match(r['full_name'], r['district'])[0]
+    if Y <= 2021:
+        A = list(csv.DictReader(open(f'{W}/y{Y}/legislators_{Y}.csv')))
+        match2021.YEAR = str(Y)
+        for r in A:
+            pid, how, cand = match2021.match(r['full_name'], r['district'])
+            if how != 'name match': REVIEW.append(dict(year=Y, full_name=r['full_name'], roster_label=r['legislator'], chamber=r['chamber'], district=r['district'], reason=how, matched_person_id=pid, candidates=cand, ratings_file_person_id=r['person_id']))
+            # unmatched: provisional key from the ratings file, prefixed so it never links to a Name Index person
+            if not pid and r['person_id'] in CONFIRMED:   # errata E060/E061: owner-confirmed same person, link by the ratings-file ID
+                pid = r['person_id']; REVIEW.pop()
+            r['pid'] = pid or ('PROV:' + r['person_id'])
+        import collections
+        cnt = collections.Counter(r['pid'] for r in A)
+        for r in A:
+            if cnt[r['pid']] > 1:   # two people in one roster matched the same Name Index person: don't guess
+                REVIEW.append(dict(year=Y, full_name=r['full_name'], roster_label=r['legislator'], chamber=r['chamber'], district=r['district'], reason='two roster members matched the same person', matched_person_id='', candidates=r['pid'], ratings_file_person_id=r['person_id']))
+                r['pid'] = 'PROV:' + r['person_id']
         return A
     if Y in (2022, 2023):
         A = list(csv.DictReader(open(f'{W}/y{Y}/legislators_{Y}.csv')))
@@ -32,12 +49,12 @@ def pid_rows(Y):
     for r in A: r['pid'] = r['person_id']
     return A
 PID = {}   # (Y, chamber, label) -> pid
-for Y in range(2021, 2027):
+for Y in range(FIRST, 2027):
     for r in pid_rows(Y): PID[(Y, r['chamber'], r['legislator'])] = r['pid']
-RK = {Y: ranking.load(Y) for Y in range(2021, 2027) if Y <= max(YEARS)}
+RK = {Y: ranking.load(Y) for Y in range(FIRST, 2027) if Y <= max(YEARS)}
 BYP = {}   # pid -> {Y: row}
 YEARS_OF = {}
-for Y in range(2021, 2027):
+for Y in range(FIRST, 2027):
     for r in pid_rows(Y): YEARS_OF.setdefault(r['pid'], set()).add(Y)
 for Y, d in RK.items():
     for r in d['all']:
@@ -65,11 +82,14 @@ def slugs(Y, A):
             else: out[r['pid']] = f"{b}-{re.sub(r'[^a-z]', '', N.parse(r['full_name'])['first'])}"
     assert len(set(out.values())) == len(out), Y
     return out
+BANDS_OF = {y: rank_chart.bands_from_ranking(d) for y, d in RK.items()}
+def rank_series(p, Y):
+    return [(y, BYP[p][y]['rank_all'], RK[y]['n_ranked'], BYP[p][y]['band']) for y in range(FIRST, Y + 1) if y in BYP.get(p, {})]
 def band_span(b): return f'<span class="pf-band pf-band-{b.lower()}">{b}</span>'
 def change(Y, p):
     cur = BYP[p][Y]; prev = BYP[p].get(Y - 1)
     if cur['rank_all'] is None: return 'Not ranked, too few votes.'
-    if Y == 2021: return 'No comparison: 2021 is the earliest year shown.'
+    if Y == FIRST: return f'No comparison: {FIRST} is the earliest year shown.'
     if prev is None:
         if any(y < Y for y in BYP[p]): return f"Not in the {Y-1} report; #{cur['rank_all']} in {Y}."
         return f'New in {Y}.'
@@ -92,7 +112,8 @@ def build_year(Y):
     for v in csv.DictReader(open(f'{W}/y{Y}/wy_{Y}_legislator_votes.csv')):
         votes.setdefault((v['Chamber'], v['Legislator']), []).append((pos[int(v['VoteID'])], 'No' if v['Vote'] == 'Nay' else v['Vote']))
     lv = fdate(d['LV'])
-    asof_tail = f'the last voting day of the {Y} session' if Y != 2021 else 'the last voting day of 2021 (regular and special sessions)'
+    asof_tail = {2021: 'the last voting day of 2021 (regular and special sessions)', 2020: 'the last voting day of 2020 (regular and special sessions)'}.get(Y, f'the last voting day of the {Y} session')
+    src = f'published {Y} reports' if Y >= 2021 else f'approved {Y} WyoVote ratings'
     pages = {}
     ih, ifo = split(TPL['idx']); ph, pfo = split(TPL['pg']); dh, dfo = split(TPL['dp'])
     for r in A:
@@ -130,7 +151,7 @@ def build_year(Y):
           </div>
         </section>
         <section class="pf-card" aria-labelledby="h-chart">
-          <h2 id="h-chart">{"Overall rank change" if Y == 2021 else f"Overall rank change, {Y-1} to {Y}"}</h2>
+          <h2 id="h-chart">{"Overall rank change" if Y == FIRST else f"Overall rank change, {Y-1} to {Y}"}</h2>
           <p class="pf-none">{ch_s}</p>
           <p class="deep-note">This compares overall rank only. Chamber ranks are not compared across years.</p>
         </section>
@@ -139,7 +160,7 @@ def build_year(Y):
           <p class="pf-none">No recent coverage found.</p>
         </section>
         <p class="pf-deeper"><a href="{s}-deep.html">Deeper dive</a></p>
-        <p class="pf-foot">Ranks and bands are copied from the published {Y} reports. Preview page, built {BUILT}.</p>
+        <p class="pf-foot">Ranks and bands are {'copied from the ' if Y >= 2021 else 'from the '}{src}. Preview page, built {BUILT}.</p>
       </div>
     </main>
 '''
@@ -149,7 +170,7 @@ def build_year(Y):
         pages[f'{s}.html'] = head + main + pfo
         # deep page
         hist = []
-        for y in range(2021, Y + 1):
+        for y in range(FIRST, Y + 1):
             q = BYP[p].get(y)
             if not q: continue
             if q['rank_all'] is None: hist.append(f'                <tr><td>{y}</td><td colspan="2">Not ranked, too few votes</td></tr>')
@@ -166,7 +187,7 @@ def build_year(Y):
         <section class="pf-card" aria-labelledby="h-rank">
           <h2 id="h-rank">Rank history</h2>
           <p class="deep-note">{ch_s} Chamber ranks are not compared across years.</p>
-          <div class="deep-scroll">
+{rank_chart.chart_block(r['full_name'], rank_series(p, Y), BANDS_OF)}          <div class="deep-scroll">
             <table class="deep-table">
               <thead><tr><th scope="col">Year</th><th scope="col">Overall rank</th><th scope="col">Band</th></tr></thead>
               <tbody>
@@ -237,7 +258,7 @@ def build_year(Y):
       <section class="page-body">
         <div class="wrap">
           <p class="year-choice">{Y} roster. The current year is on the <a href="../../officials.html">Officials</a> page.</p>
-          <p class="intro">{Y} House and Senate. Ranks and bands are from the published {Y} reports. Party letter: {pltxt}.</p>
+          <p class="intro">{Y} House and Senate. Ranks and bands are from the {src}. Party letter: {pltxt}.</p>
           <nav class="officials-jump" aria-label="On this page">
             <a class="jump-btn" href="#house-heading">House</a>
             <a class="jump-btn" href="#senate-heading">Senate</a>

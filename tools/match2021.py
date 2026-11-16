@@ -13,6 +13,14 @@ def match(full, dist=''):
     global DIST; DIST=dist
     q=N.parse(full); c=idx.get(q['last'],[])
     exact={p['person_id'] for p,k in c if N.given_compatible(q,k) or (q['nick'] and q['nick']==k['first']) or (k['nick'] and k['nick'].split()[0]==q['first'])}
+    def conflict(pid):
+        for p,k in c:
+            if p['person_id']!=pid or not k['middles'] or not q['middles']: continue
+            if k['middles'][0][:1]!=q['middles'][0][:1]: return True
+        return False
+    bad={x for x in exact if conflict(x)}
+    if bad and len(exact)==1: return '','middle-name conflict, needs review','; '.join(sorted(bad))
+    exact-=bad
     if len(exact)==1: return exact.pop(),'name match',''
     if len(exact)>1:
         ly={r['person_id'] for r in LY if r['year']==YEAR and r['district']==DIST and r['person_id'] in exact}

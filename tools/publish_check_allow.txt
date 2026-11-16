@@ -2950,3 +2950,7 @@ unreferenced:tools/assemble.py
 unreferenced:tools/match2021.py
 unreferenced:tools/rolls.py
 unreferenced:tools/to_preview.py
+
+# Rank-history chart on the Deeper dive pages (t597u). Build tools, not site assets.
+unreferenced:tools/rank_chart.py
+unreferenced:tools/stamp_rank_chart.py
