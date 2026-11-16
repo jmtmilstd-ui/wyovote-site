@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Extend the 93 current (2026) Profiles (officials/<slug>-deep.html) back through 2008: add the 2008-2020 rows
-to Missed votes and Committee record for the years each person served. Band history and the rank chart already
+to Missed votes and Committee record for the years each person served, and set the header and description
+year range to 2008-2026. Band history and the rank chart already
 cover 2008-2026 (tools/stamp_rank_chart.py). Idempotent: years already in a table are left alone.
 
     python3 -B tools/stamp_profiles_2026.py [SITE_ROOT]
@@ -66,13 +67,21 @@ def add_comm(t, p, rel):
     STATS['committee rows'] += len(rows); STATS['pages with committee rows added'] += 1
     return t[:i] + sec + t[j:]
 
+# Michael, Nov 16 (t619u): the 2026 Profiles now cover 2008-2026, so the header and description say so.
+RANGE_FIX = [('Ranks and bands are copied from the published WyoVote rating reports for 2021–2026.', 'Ranks and bands are copied from the published WyoVote rating reports for 2008–2026.'),
+             ('missed votes and committees from the published WyoVote reports, 2021–2026.', 'missed votes and committees from the published WyoVote reports, 2008–2026.')]
+def fix_ranges(t):
+    for a, b in RANGE_FIX:
+        if a in t: t = t.replace(a, b); STATS['range sentences'] += 1
+    return t
+
 def main():
     s2p = {v[0]: k for k, v in S26.items()}; s2p.update(OVERRIDE_2026); changed = []
     for f in sorted(glob.glob(f'{ROOT}/officials/*-deep.html')):
         rel = os.path.relpath(f, ROOT); p = s2p.get(os.path.basename(f)[:-10]); assert p, rel
         t = open(f, encoding='utf-8').read()
         if any(y < EARLY for y in BYP[p]): STATS['served before 2021'] += 1
-        n = add_comm(add_missed(t, p, rel), p, rel)
+        n = fix_ranges(add_comm(add_missed(t, p, rel), p, rel))
         if n != t: open(f, 'w', encoding='utf-8').write(n); changed.append(rel)
         STATS['pages'] += 1
     print(dict(STATS)); print('changed files', len(changed))
