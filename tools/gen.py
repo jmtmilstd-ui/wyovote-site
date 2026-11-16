@@ -1,13 +1,15 @@
 """Officials archive generator (single tree: writes live paths; review on a Cloudflare branch preview). Templates = the published officials/2025 pages; ranks from ranking.py.
-Deep pages carry the rank-history chart (tools/rank_chart.py). Run: python3 tools/gen.py BASE OUT 2008,...,2024 (OA_FIRST=2008)."""
+Profile pages (*-deep.html) carry the rank-history chart (tools/rank_chart.py) plus band history, issue areas, missed votes and committee record
+(tools/profile_data.py). Run: python3 tools/gen.py BASE OUT 2008,...,2025 (OA_FIRST=2008; OA_DEEP_ONLY=2025 writes only Profiles for 2025)."""
 import csv, json, re, sys, os, html, math, datetime
 sys.path.insert(0, '/workspace/wyoleg'); sys.path.insert(0, '/workspace/name-index/tools'); sys.path.insert(0, os.path.dirname(__file__))
-import ranking, namelib as N, rolls, match2021, rank_chart
+import ranking, namelib as N, rolls, match2021, rank_chart, profile_data
 BASE = sys.argv[1] if len(sys.argv) > 1 else '/workspace/officials-archive/base'
 OUT = sys.argv[2] if len(sys.argv) > 2 else '/workspace/officials-archive/site'
 YEARS = [int(y) for y in (sys.argv[3].split(',') if len(sys.argv) > 3 else ['2021', '2022', '2023', '2024'])]
 BUILT = '2026-11-15'
 FIRST = int(os.environ.get('OA_FIRST', '2008'))
+DEEP_ONLY = {int(y) for y in os.environ.get('OA_DEEP_ONLY', '2025').split(',') if y}   # years where only the Profile (*-deep.html) pages are written
 REVIEW = []
 CONFIRMED = {'WY-WALTERS-THOMAS', 'WY-LEBEAU-ANDI'}
 W = '/workspace/wyoleg'
@@ -22,6 +24,11 @@ CH = {'H': ('House', 'Representative'), 'S': ('Senate', 'Senator')}
 def fdate(s):
     d = datetime.date.fromisoformat(s); return f"{d.strftime('%b')} {d.day}, {d.year}"
 # ---------- person ids per year ----------
+# Split keys confirmed as one person (Nov 16 identity check): same chamber and district line, continuous years, and the
+# same full name in every year of the official wyoleg.gov legislator directory (counties_<Y>/src/legislators_<Y>_<H|S>.json).
+#   Kinskey S22 2015-2024, "David Kinskey"; Henderson H41 2017-2024, "William Henderson"; Stubson H56 2008-2016, "Timothy Stubson".
+# Not merged (no split, single provisional key; the Name Index candidate is a different record): Illoway, Peterson.
+MERGED = {'WY-KINSKEY-DAVE': 'WY-KINSKEY-DAVID', 'PROV:WY-HENDERSON-WILLIAM': 'WY-HENDERSON-WILLIAM', 'PROV:WY-STUBSON-TIMOTHY': 'WY-STUBSON-TIM'}
 def pid_rows(Y):
     Y = int(Y)
     if Y <= 2021:
@@ -34,6 +41,9 @@ def pid_rows(Y):
             if not pid and r['person_id'] in CONFIRMED:   # errata E060/E061: owner-confirmed same person, link by the ratings-file ID
                 pid = r['person_id']; REVIEW.pop()
             r['pid'] = pid or ('PROV:' + r['person_id'])
+        for r in A:
+            if r['pid'] in MERGED:   # confirmed same person (MERGED below): one Profile, one key
+                r['pid'] = MERGED[r['pid']]
         import collections
         cnt = collections.Counter(r['pid'] for r in A)
         for r in A:
@@ -86,6 +96,99 @@ BANDS_OF = {y: rank_chart.bands_from_ranking(d) for y, d in RK.items()}
 def rank_series(p, Y):
     return [(y, BYP[p][y]['rank_all'], RK[y]['n_ranked'], BYP[p][y]['band']) for y in range(FIRST, Y + 1) if y in BYP.get(p, {})]
 def band_span(b): return f'<span class="pf-band pf-band-{b.lower()}">{b}</span>'
+import statewide_data
+SW_LINK = {statewide_data.site_key(q): (statewide_data.SLUG[q], statewide_data.link_label(q)) for q in statewide_data.LEG_PEOPLE}   # legislator -> statewide Profile
+PROFILE_2026_OVERRIDE = {'WY-PEARSON-LAURA': 'taliaferro'}   # 2026 page h1 reads "Laura Taliaferro (formerly Pearson)"
+SLUGS = {}
+def slug_of(p, y):
+    if y not in SLUGS: SLUGS[y] = slugs(y, RK[y]['all'])
+    return SLUGS[y].get(p)
+def latest_profile(p, Y):
+    """(href from officials/<Y>/, label) of this person's latest Profile, or None when the Y page is the latest."""
+    if 2026 in YEARS_OF[p]:
+        s = S26.get(p, (None,))[0] or PROFILE_2026_OVERRIDE.get(p)
+        return (f'../{s}-deep.html', '2026') if s else None
+    last = max(y for y in BYP[p] if y <= max(RK))
+    return None if last == Y else (f'../{last}/{slug_of(p, last)}-deep.html', str(last))
+def bands_text(y):
+    b = BANDS_OF[y]; return ', '.join(f'{b[k][0]}–{b[k][1]}' for k in ('Conservative', 'Moderate', 'Liberal') if b.get(k))
+def n_ch(y, ch): return sum(1 for r in RK[y]['ranked'] if r['chamber'] == ch)
+def profile_sections(p, Y, r):
+    """Band history, Issue-area breakdown, Missed votes and Committee record for the Y Profile (years up to Y)."""
+    yrs = [y for y in range(Y, FIRST - 1, -1) if y in BYP[p]]
+    band = []
+    for y in yrs:
+        q = BYP[p][y]
+        if q['rank_all'] is None: band.append(f'                <tr><td>{y}</td><td colspan="4">Not ranked, too few votes</td></tr>')
+        else: band.append(f'                <tr><td>{y}</td><td>{q["rank_all"]} of {RK[y]["n_ranked"]}</td><td>{q["rank_ch"]} of {n_ch(y, q["chamber"])}</td><td>{band_span(q["band"])}</td><td>{bands_text(y)}</td></tr>')
+    if r['rank_all'] is None:
+        issue = f'          <p class="deep-note">Not ranked in {Y} (too few votes), so there is no issue-area breakdown for {Y}.</p>\n'
+    else:
+        rows = []
+        for g, a, b, c in profile_data.issue_rows(Y, r['chamber'], r['legislator']):
+            if a is None: rows.append(f'                <tr><th scope="row">{E(g)}</th><td colspan="3">{c}</td></tr>')
+            else: rows.append(f'                <tr><th scope="row">{E(g)}</th><td>{a}</td><td>{b}</td><td>{band_span(c) if c else "no band (too few different results)"}</td></tr>')
+        issue = f'''          <p class="cat-prelim">Categories preliminary</p>
+          <p class="deep-note">{Y} roll calls. Chamber rank is within the House or Senate. Overall rank is among legislators ranked in that category. 1 is MOST Conservative, last is Most Liberal. A blank rank is explained in the row.</p>
+          <div class="deep-scroll">
+            <table class="deep-table">
+              <thead><tr><th scope="col">Category</th><th scope="col">Chamber rank</th><th scope="col">Overall rank</th><th scope="col">Band</th></tr></thead>
+              <tbody>
+{chr(10).join(rows)}
+              </tbody>
+            </table>
+          </div>
+'''
+    miss = []
+    for y in yrs:
+        a, mx, m, pc = profile_data.missed(y, BYP[p][y]['nv']); miss.append(f'                <tr><td>{y}</td><td>{a}</td><td>{mx}</td><td>{m}</td><td>{pc}</td></tr>')
+    comm = []
+    for y in sorted(yrs):
+        q = BYP[p][y]
+        for title, role, href in profile_data.committee_rows(y, q['chamber'], q['legislator']):
+            name = f'<a href="../../{href}">{E(title)}</a>' if href else E(title)
+            comm.append(f'                <tr><td>{y}</td><td>{name}</td><td>{E(role)}</td></tr>')
+    comm_body = (f'''          <div class="deep-scroll">
+            <table class="deep-table">
+              <thead><tr><th scope="col">Year</th><th scope="col">Committee</th><th scope="col">Role</th></tr></thead>
+              <tbody>
+{chr(10).join(comm)}
+              </tbody>
+            </table>
+          </div>
+''' if comm else f'          <p class="pf-none">No committee listed in the WyoVote committee reports for these years.</p>\n')
+    return f'''        <section class="pf-card" aria-labelledby="h-band">
+          <h2 id="h-band">Band history</h2>
+          <p class="deep-note">The band is the overall-rank band for that year. Moderate is white. Cutoffs are the natural breaks printed on that year’s ratings sheet.</p>
+          <div class="deep-scroll">
+            <table class="deep-table">
+              <thead><tr><th scope="col">Year</th><th scope="col">Overall rank</th><th scope="col">Chamber rank</th><th scope="col">Band</th><th scope="col">That year’s bands</th></tr></thead>
+              <tbody>
+{chr(10).join(band)}
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="pf-card" aria-labelledby="h-issue">
+          <h2 id="h-issue">Issue-area breakdown, {Y}</h2>
+{issue}        </section>
+        <section class="pf-card" aria-labelledby="h-miss">
+          <h2 id="h-miss">Missed votes</h2>
+          <p class="deep-note">Missed votes are the session maximum in that year’s report note, minus Aye and Nay votes on the ratings sheet.</p>
+          <div class="deep-scroll">
+            <table class="deep-table">
+              <thead><tr><th scope="col">Year</th><th scope="col">Aye and Nay</th><th scope="col">Session roll calls</th><th scope="col">Missed</th><th scope="col">Missed %</th></tr></thead>
+              <tbody>
+{chr(10).join(miss)}
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="pf-card" aria-labelledby="h-comm">
+          <h2 id="h-comm">Committee record</h2>
+          <p class="deep-note">Committees whose WyoVote committee data lists this legislator. Reports for 2021 and later are linked. These sheets do not include each committee vote.</p>
+{comm_body}        </section>
+'''
 def change(Y, p):
     cur = BYP[p][Y]; prev = BYP[p].get(Y - 1)
     if cur['rank_all'] is None: return 'Not ranked, too few votes.'
@@ -95,8 +198,8 @@ def change(Y, p):
         return f'New in {Y}.'
     if prev['rank_all'] is None: return f"Not ranked in {Y-1} (too few votes); #{cur['rank_all']} in {Y}."
     d = prev['rank_all'] - cur['rank_all']; n = abs(d)
-    if d > 0: s = f"Moved up {n} place{'s' if n != 1 else ''} overall: #{prev['rank_all']} in {Y-1}, #{cur['rank_all']} in {Y}."
-    elif d < 0: s = f"Moved down {n} place{'s' if n != 1 else ''} overall: #{prev['rank_all']} in {Y-1}, #{cur['rank_all']} in {Y}."
+    if d > 0: s = f"Overall rank moved up {n}: #{prev['rank_all']} in {Y-1}, #{cur['rank_all']} in {Y}."
+    elif d < 0: s = f"Overall rank moved down {n}: #{prev['rank_all']} in {Y-1}, #{cur['rank_all']} in {Y}."
     else: s = f"No change: #{cur['rank_all']} both years."
     if prev['chamber'] != cur['chamber']: s += f" The {Y-1} rank was in the {CH[prev['chamber']][0]}."
     return s
@@ -140,7 +243,7 @@ def build_year(Y):
           <p class="pf-sub">{title} · {chn} District {dist} · {party[1]}{served}</p>
           <p class="pf-links">{links}</p>
         </section>
-        <p class="pf-dive"><a class="pf-dive-btn" href="{s}-deep.html">Deeper dive →</a></p>
+        <p class="pf-dive"><a class="pf-dive-btn" href="{s}-deep.html">Profile →</a></p>
         <section class="pf-card" aria-labelledby="h-num">
           <h2 id="h-num">{Y} numbers <small>as of {lv}</small></h2>
           <div class="pf-tiles pf-tiles-4">
@@ -159,7 +262,7 @@ def build_year(Y):
           <h2 id="h-news">Views and News</h2>
           <p class="pf-none">No recent coverage found.</p>
         </section>
-        <p class="pf-deeper"><a href="{s}-deep.html">Deeper dive</a></p>
+        <p class="pf-deeper"><a href="{s}-deep.html">Profile</a></p>
         <p class="pf-foot">Ranks and bands are {'copied from the ' if Y >= 2021 else 'from the '}{src}. Preview page, built {BUILT}.</p>
       </div>
     </main>
@@ -169,12 +272,10 @@ def build_year(Y):
                  .replace('class="pf pf-2025"', f'class="pf pf-{Y}"')
         pages[f'{s}.html'] = head + main + pfo
         # deep page
-        hist = []
-        for y in range(FIRST, Y + 1):
-            q = BYP[p].get(y)
-            if not q: continue
-            if q['rank_all'] is None: hist.append(f'                <tr><td>{y}</td><td colspan="2">Not ranked, too few votes</td></tr>')
-            else: hist.append(f'                <tr><td>{y}</td><td>{q["rank_all"]} of {RK[y]["n_ranked"]}</td><td>{band_span(q["band"])}</td></tr>')
+        chart = rank_chart.chart_block(r['full_name'], rank_series(p, Y), BANDS_OF, table_hint='The Band history table below repeats the same ranks, with chamber ranks.')
+        lp = latest_profile(p, Y)
+        latest_line = f'          <p class="pf-links"><span class="pf-asof">This Profile runs through {Y}.</span> <a class="pf-btn" href="{lp[0]}">Latest Profile: {lp[1]} →</a></p>\n' if lp else ''
+        if p in SW_LINK: latest_line += f'          <p class="pf-links"><a class="pf-btn" href="../statewide/{SW_LINK[p][0]}.html">{SW_LINK[p][1]}</a></p>\n'
         pr = sorted(votes.get((r['chamber'], r['legislator']), []))
         pairs = json.dumps([[i, v] for i, v in pr], separators=(',', ':'))
         dmain = f'''    <main id="main" class="profile">
@@ -182,36 +283,13 @@ def build_year(Y):
         <p class="back-row"><a class="back-btn" href="{s}.html">← Back to {nm}</a></p>
         <section class="pf-head" aria-labelledby="h-name">
           <h1 id="h-name">{nm}</h1>
-          <p class="pf-sub">Deeper dive · {chn} District {dist} · {Y}</p>
-        </section>
+          <p class="pf-sub">Profile · {chn} District {dist} · {Y}</p>
+{latest_line}        </section>
         <section class="pf-card" aria-labelledby="h-rank">
           <h2 id="h-rank">Rank history</h2>
           <p class="deep-note">{ch_s} Chamber ranks are not compared across years.</p>
-{rank_chart.chart_block(r['full_name'], rank_series(p, Y), BANDS_OF)}          <div class="deep-scroll">
-            <table class="deep-table">
-              <thead><tr><th scope="col">Year</th><th scope="col">Overall rank</th><th scope="col">Band</th></tr></thead>
-              <tbody>
-{chr(10).join(hist)}
-              </tbody>
-            </table>
-          </div>
-        </section>
-        <section class="pf-card" aria-labelledby="h-issue">
-          <h2 id="h-issue">Issue areas</h2>
-          <p class="deep-note">Category data not available for {Y}.</p>
-        </section>
-        <section class="pf-card" aria-labelledby="h-miss">
-          <h2 id="h-miss">Missed votes</h2>
-          <div class="deep-scroll">
-            <table class="deep-table">
-              <thead><tr><th scope="col">Year</th><th scope="col">Votes counted</th><th scope="col">Missed</th></tr></thead>
-              <tbody>
-                <tr><td>{Y}</td><td>{r["nv"]}</td><td>{miss} ({pct}% of {mx} roll calls)</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-        <section class="pf-card" aria-labelledby="h-votes">
+{chart or '          <p class="deep-note">Only one ranked year so far, so there is no chart. The Band history table below shows the rank.</p>' + chr(10)}        </section>
+{profile_sections(p, Y, r)}        <section class="pf-card" aria-labelledby="h-votes">
           <h2 id="h-votes">Scored votes</h2>
           <p class="deep-note">Each row is one roll call. Category is Uncategorized because {Y} roll calls are not tagged. Bill lean is Conservative, Liberal, or Neutral.</p>
           <details class="vote-details" data-rolls="../../data/roll-calls-{Y}.json">
@@ -232,7 +310,7 @@ def build_year(Y):
       </div>
     </main>
 '''
-        dhead = dh.replace('<title>Bill Allemand — 2025 Deeper dive — WyoVote</title>', f'<title>{nm} — {Y} Deeper dive — WyoVote</title>') \
+        dhead = dh.replace('<title>Bill Allemand — 2025 Profile — WyoVote</title>', f'<title>{nm} — {Y} Profile — WyoVote</title>') \
                   .replace('content="Bill Allemand: 2025 ranks, bands and scored votes."', f'content="{nm}: {Y} ranks, bands and scored votes."') \
                   .replace('class="pf pf-2025"', f'class="pf pf-{Y}"')
         pages[f'{s}-deep.html'] = dhead + dmain + dfo
@@ -288,7 +366,23 @@ if __name__ == '__main__':
     for Y in YEARS:
         pages, rj = build_year(Y)
         od = f'{OUT}/officials/{Y}'; os.makedirs(od, exist_ok=True)
-        for f, t in pages.items(): open(f'{od}/{f}', 'w', encoding='utf-8').write(t)
-        os.makedirs(f'{OUT}/data', exist_ok=True)
-        json.dump(rj, open(f'{OUT}/data/roll-calls-{Y}.json', 'w', encoding='utf-8'), ensure_ascii=False)
+        deep_only = Y in DEEP_ONLY   # 2025: session pages and roll-call file are the published hand-built ones; only Profiles are rebuilt
+        if deep_only:
+            # The published roll-call file keeps its own order (same roll calls, checked), so the published Scored votes
+            # section is kept as is and only the Profile sections from Rank history up to Scored votes are replaced.
+            assert sorted(map(tuple, json.load(open(f'{BASE}/data/roll-calls-{Y}.json', encoding='utf-8')))) == sorted(tuple(x) for x in json.loads(json.dumps(rj, ensure_ascii=False))), f'roll-calls-{Y}.json differs'
+            pages = {f: t for f, t in pages.items() if f.endswith('-deep.html')}
+            missing = [f for f in pages if not os.path.exists(f'{BASE}/officials/{Y}/{f}')]
+            assert not missing, missing
+            S0, S1 = '        <section class="pf-card" aria-labelledby="h-rank">', '        <section class="pf-card" aria-labelledby="h-votes">'
+            for f in pages:
+                old = open(f'{BASE}/officials/{Y}/{f}', encoding='utf-8').read(); g = pages[f]
+                old = old[:old.index(S0)] + g[g.index(S0):g.index(S1)] + old[old.index(S1):]
+                h0 = '          <p class="pf-sub">'; i = old.index('\n', old.index(h0)) + 1; i2 = old.index('        </section>', i)
+                j = g.index('\n', g.index(h0)) + 1; k = g.index('        </section>', j)
+                pages[f] = old[:i] + g[j:k] + old[i2:]   # replace the whole head below pf-sub, so re-runs are idempotent
+        for f, t in pages.items(): open(f'{od}/{f}', 'w', encoding='utf-8').write(rank_chart.add_legend(rank_chart.rank_wording(t)))
+        if not deep_only:
+            os.makedirs(f'{OUT}/data', exist_ok=True)
+            json.dump(rj, open(f'{OUT}/data/roll-calls-{Y}.json', 'w', encoding='utf-8'), ensure_ascii=False)
         print(Y, 'pages', len(pages), 'list', len([f for f in pages if f != 'index.html' and not f.endswith('-deep.html')]), 'deep', len([f for f in pages if f.endswith('-deep.html')]), 'rolls', len(rj))

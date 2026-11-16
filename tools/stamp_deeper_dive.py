@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Put a large Deeper dive button under the name on official pages.
+"""Put a large Profile button (formerly "Deeper dive"; renamed Nov 16, 2026) under the name on official pages.
 
 Single tree since 2026-11-15: edits the live officials/ pages directly.
 
@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OFFICIALS = ROOT / "officials"
-DEEPER = re.compile(r'<p class="pf-deeper"><a href="([^"]+)">Deeper dive</a></p>')
+DEEPER = re.compile(r'<p class="pf-deeper"><a href="([^"]+)">Profile</a></p>')
 OLD_COMMITTEE = (
     "Coming soon. No 2021–2026 committee report in this repo lists this legislator."
 )
@@ -28,7 +28,7 @@ HEAD = re.compile(
 
 
 def button(href: str) -> str:
-    return f'<p class="pf-dive"><a class="pf-dive-btn" href="{href}">Deeper dive →</a></p>'
+    return f'<p class="pf-dive"><a class="pf-dive-btn" href="{href}">Profile →</a></p>'
 
 
 def stamp(text: str) -> str | None:
@@ -68,7 +68,7 @@ def main() -> None:
         if updated != text:
             path.write_text(updated, encoding="utf-8")
             changed += 1
-    print(f"added the Deeper dive button or reader note on {changed} official pages")
+    print(f"added the Profile button or reader note on {changed} official pages")
     print(f"replaced the committee note on {noted} pages")
 
 

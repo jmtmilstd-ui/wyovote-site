@@ -49,7 +49,7 @@ TREE = (
         ),
         (
             "Officials",
-            [("Session", [("Official", [("Deeper Dive", [])])])],
+            [("Session", [("Official", [("Profile", [])])])],
         ),
         ("Name Index", []),
         ("Research", []),
@@ -184,7 +184,7 @@ def crumbs(rel: str, text: str) -> list[str]:
                 chain.append("Year")
             elif name.endswith("-deep.html"):
                 chain.append("Official")
-                chain.append("Deeper Dive")
+                chain.append("Profile")
             else:
                 chain.append("Official")
     else:

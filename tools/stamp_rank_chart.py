@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Put the rank-history chart (tools/rank_chart.py) on every legislator Deeper dive page, and make each
+"""Put the rank-history chart (tools/rank_chart.py) on every legislator Profile page (the *-deep.html pages, formerly "Deeper dive"), and make each
 rank-history row match ranking.py (counts = ranked members only). Idempotent: re-running replaces the chart.
 
     python3 tools/stamp_rank_chart.py [SITE_ROOT]      # default: the repo this file is in
 
-2008-2024 deep pages also get the chart from tools/gen.py on a rebuild; 2025 and 2026 deep pages are
+2008-2025 Profiles also get the chart from tools/gen.py on a rebuild (2025: Profile sections only); 2026 Profiles are
 hand-built, so this stamp is how they get it. Prints a summary of every row it corrected.
 """
 import os, re, sys, glob, json, collections
@@ -49,9 +49,11 @@ def fix_rows_archive(rel, t, p, Y):
     assert [int(x) for x in rows] == [y for y in range(G['FIRST'], Y + 1) if y in BYP[p]], (rel, rows)
     return t[:i] + new + t[j:]
 
-def fix_rows_2026(rel, t, p):
+def fix_rows_2026(rel, t, p, Y=2026):
     i = t.index('aria-labelledby="h-band"'); j = t.index('</section>', i); sec = t[i:j]; new = sec
-    for y in range(G['FIRST'], 2027):
+    rows = [int(x) for x in re.findall(r'<tr><td>(\d{4})</td>', sec)]
+    assert sorted(rows, reverse=True) == [y for y in range(Y, G['FIRST'] - 1, -1) if y in BYP[p]], (rel, rows)   # newest first (haroldson-deep.html is oldest first)
+    for y in range(G['FIRST'], Y + 1):
         q = BYP[p].get(y)
         if not q: continue
         m = re.search(rf'<tr><td>{y}</td>(.*?)</tr>', new); assert m, (rel, y)
@@ -69,7 +71,21 @@ def fix_rows_2026(rel, t, p):
             new = new.replace(m.group(0), exp, 1)
     return t[:i] + new + t[j:]
 
+H_ARCH = re.compile(r'(        <section class="pf-card" aria-labelledby="h-rank">\n          <h2 id="h-rank">Rank history</h2>\n(?:          <p class="deep-note rank-legend">[^\n]*</p>\n)?          <p class="deep-note">[^\n]*</p>\n)(.*?)(        </section>\n)', re.S)
+def stamp_profile_archive(rel, t, p, Y):
+    """2008-2025 Profiles in the full layout (tools/gen.py): chart only in Rank history, ranks in the Band history table."""
+    t = fix_rows_2026(rel, t, p, Y)
+    ser = rank_series(p, Y); chk = {}
+    blk = rank_chart.chart_block(BYP[p][Y]['full_name'], ser, BANDS_OF, table_hint='The Band history table below repeats the same ranks, with chamber ranks.', check=chk)
+    if blk: body = blk; CHECKS.append((rel, chk)); STATS['chart'] += 1
+    else:
+        body = '          <p class="deep-note">Only one ranked year so far, so there is no chart. The Band history table below shows the rank.</p>\n'
+        STATS['no chart (fewer than 2 ranked years)'] += 1
+    m = H_ARCH.search(t); assert m, rel
+    return t[:m.start()] + m.group(1) + body + m.group(3) + t[m.end():]
+
 def stamp_archive(rel, t, p, Y):
+    if 'id="h-band"' in t: return stamp_profile_archive(rel, t, p, Y)
     t = strip_chart(t)
     t = fix_rows_archive(rel, t, p, Y)
     ser = rank_series(p, Y); chk = {}
@@ -103,13 +119,13 @@ def main():
         s2p = {v: k for k, v in slugs(Y, RK[Y]['all']).items()}
         for f in sorted(glob.glob(f'{ROOT}/officials/{Y}/*-deep.html')):
             rel = os.path.relpath(f, ROOT); p = s2p.get(os.path.basename(f)[:-10]); assert p, rel
-            t = open(f, encoding='utf-8').read(); n = stamp_archive(rel, t, p, Y)
+            t = open(f, encoding='utf-8').read(); n = rank_chart.add_legend(rank_chart.rank_wording(stamp_archive(rel, t, p, Y)))
             if n != t: open(f, 'w', encoding='utf-8').write(n); changed.append(rel)
             STATS['pages'] += 1
     s2p = {v[0]: k for k, v in S26.items()}; s2p.update(OVERRIDE_2026)
     for f in sorted(glob.glob(f'{ROOT}/officials/*-deep.html')):
         rel = os.path.relpath(f, ROOT); p = s2p.get(os.path.basename(f)[:-10]); assert p, rel
-        t = open(f, encoding='utf-8').read(); n = stamp_2026(rel, t, p)
+        t = open(f, encoding='utf-8').read(); n = rank_chart.add_legend(rank_chart.rank_wording(stamp_2026(rel, t, p)))
         if n != t: open(f, 'w', encoding='utf-8').write(n); changed.append(rel)
         STATS['pages'] += 1
     print(dict(STATS)); print('changed files', len(changed))

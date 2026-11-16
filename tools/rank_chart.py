@@ -1,4 +1,4 @@
-"""Rank-history chart for the legislator Deeper dive pages (approved design, Michael t587u-t589u, "add it" t597u).
+"""Rank-history chart for the legislator Profile pages (*-deep.html, formerly "Deeper dive") (approved design, Michael t587u-t589u, "add it" t597u).
 
 chart_svg(name, series, bands) -> inline SVG string
     series: [(year, rank_or_None, n_ranked, band_or_None), ...] one entry per year in the page's rank table.
@@ -8,11 +8,11 @@ chart_block(name, series, bands, table_hint) -> '<div id="rank-chart">note + svg
 bands_from_ranking(d) -> band ranges for one ranking.load(Y) result.
 
 Rules: ranks and counts only (never coefficients); counts are ranked members only (ranking.py);
-y-axis = percent position in that year's list, 0 (MOST Conservative, #1) at the top to 100 (Most Liberal) at the bottom,
+y-axis = rank as a percent of that year's list (Rank (% of list)), 0 (MOST Conservative, #1) at the top to 100 (Most Liberal) at the bottom,
 gridlines every 20 (Michael t599u);
 no light-gray text; type is 12 pt or larger when printed 7.5 in wide.
 1 ranked year: no chart. 2+ ranked years: the year-to-year line plus a straight trend 'vector' (Michael t601u):
-a dashed dark-brick line (t604u) from the first ranked year's point to the last ranked year's x at the average position (%)
+a dashed dark-brick line (t604u) from the first ranked year's point to the last ranked year's x at the average rank (% of list)
 of all ranked years, ending in a filled arrowhead. The arrowhead never covers a point label.
 """
 from __future__ import annotations
@@ -272,7 +272,7 @@ def chart_svg(name, series, bands, check=None) -> str:
         cur.append(p)
     if cur:
         segs.append(cur)
-    # trend vector: first ranked point -> (last ranked year's x, average position of all ranked years)
+    # trend vector: first ranked point -> (last ranked year's x, average rank (% of list) of all ranked years)
     vector = None; hard = []
     if len(points) >= 2:
         avg = sum(_frac(p["rank"], p["n"]) for p in points) / len(points)
@@ -305,9 +305,9 @@ def chart_svg(name, series, bands, check=None) -> str:
     o.append(f'<svg class="deep-chart" id="rank-history-chart" viewBox="0 0 {W} {H}" role="img" aria-labelledby="rt rd" '
              f'style="width:100%;height:auto;-webkit-print-color-adjust:exact;print-color-adjust:exact">')
     o.append(f'<title id="rt">{nm} overall rank, {years[0]} through {years[-1]}</title>')
-    o.append(f'<desc id="rd">Overall rank by year, as position in that year’s list: {"; ".join(parts)}. '
-             'The scale is percent position in that year’s list: 0 (MOST Conservative, #1) at the top, 100 (Most Liberal) at the bottom. '
-             + ('The brick-red arrow runs from the first ranked year to the average position of all ranked years. ' if vector else '')
+    o.append(f'<desc id="rd">Overall rank by year: {"; ".join(parts)}. '
+             'The scale is rank as a percent of that year’s list: 0 (MOST Conservative, #1) at the top, 100 (Most Liberal) at the bottom. '
+             + ('The brick-red arrow runs from the first ranked year to the average rank (% of list) of all ranked years. ' if vector else '')
              + 'A year with no dot is a year this person did not serve or was not ranked.</desc>')
     for i, y in enumerate(years):
         b = bands[y]; n = b["n"]
@@ -331,7 +331,7 @@ def chart_svg(name, series, bands, check=None) -> str:
     o.append(_halo_text(plot_x, PLOT_Y + PLOT_H + 30, "Most Liberal", anchor="start"))
     tx, ty = plot_x - 70, PLOT_Y + PLOT_H / 2
     o.append(f'<text x="{tx:.1f}" y="{ty:.1f}" font-size="{FS}" font-weight="700" font-family="{FONT}" text-anchor="middle" '
-             f'fill="{INK}" transform="rotate(-90 {tx:.1f} {ty:.1f})">Position in list (%)</text>')
+             f'fill="{INK}" transform="rotate(-90 {tx:.1f} {ty:.1f})">Rank (% of list)</text>')
     o.append(f'<rect x="{plot_x:.1f}" y="{PLOT_Y}" width="{plot_w:.1f}" height="{PLOT_H}" fill="none" stroke="{INK}" stroke-width="1.75"/>')
     for seg in segs:
         if len(seg) >= 2:
@@ -384,12 +384,12 @@ def chart_block(name, series, bands, table_hint="The table below repeats the sam
     chk = {} if check is None else check
     svg = chart_svg(name, series, bands, check=chk)
     trend = chk.get("trend", False)
-    note = ("Each point is overall rank shown as a percent position in that year’s list, from 0 (MOST Conservative, #1) "
+    note = ("Each point is overall rank shown as a percent of that year’s list, from 0 (MOST Conservative, #1) "
             "at the top to 100 (Most Liberal) at the bottom, so a year with 90 ranked legislators can be compared with a year with 93. "
             "Labels give the actual rank, such as 77 of 92. "
             "The solid line is each year’s rank. "
             + ("The brick-red arrow is the trend: it starts at the first ranked year and ends, at the last ranked year, "
-               "at this person’s average position across all ranked years. " if trend else "")
+               "at this person’s average rank (% of list) across all ranked years. " if trend else "")
             + "Shading behind each year is that year’s own Conservative, Moderate, and Liberal cutoffs. "
             "A year with no dot is a year this person did not serve or was not ranked. " + table_hint)
     sp = " " * indent
@@ -398,3 +398,24 @@ def chart_block(name, series, bands, table_hint="The table below repeats the sam
             f'{sp}  {svg}\n'
             f'{sp}  {legend_html(trend)}\n'
             f'{sp}</div>\n')
+
+
+# ---------- rank legend (Michael, Nov 16, t613u-t617u) ----------
+LEGEND = '<p class="deep-note rank-legend">Rank: 1 = MOST Conservative.</p>'
+LEGEND_SECTIONS = ('h-rank', 'h-band', 'h-issue', 'h-num')   # Profile chart, Band history, Issue areas; session/official Rank tiles
+import re as _re
+def add_legend(t):
+    """Put the rank legend once, right under the heading, in each rank section that is present. Idempotent."""
+    for sid in LEGEND_SECTIONS:
+        m = _re.search(rf'( *)<h2 id="{sid}">.*?</h2>\n', t)
+        if not m: continue
+        end = t.find('</section>', m.end()); sec = t[m.end():end]
+        if 'rank-legend' in sec: continue
+        if sid == 'h-issue' and '<table' not in sec: continue        # no ranks shown (not ranked / no data)
+        if sid == 'h-num' and 'pf-rankline' not in sec: continue
+        t = t[:m.end()] + m.group(1) + LEGEND + '\n' + t[m.end():]
+    return t
+MOVED = _re.compile(r'Moved (up|down) (\d+) places? overall:')
+def rank_wording(t):
+    """'Moved up 3 places overall:' -> 'Overall rank moved up 3:' (keep the word rank; no place/position wording)."""
+    return MOVED.sub(r'Overall rank moved \1 \2:', t)
