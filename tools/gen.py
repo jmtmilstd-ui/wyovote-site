@@ -198,8 +198,8 @@ def change(Y, p):
         return f'New in {Y}.'
     if prev['rank_all'] is None: return f"Not ranked in {Y-1} (too few votes); #{cur['rank_all']} in {Y}."
     d = prev['rank_all'] - cur['rank_all']; n = abs(d)
-    if d > 0: s = f"Moved up {n} place{'s' if n != 1 else ''} overall: #{prev['rank_all']} in {Y-1}, #{cur['rank_all']} in {Y}."
-    elif d < 0: s = f"Moved down {n} place{'s' if n != 1 else ''} overall: #{prev['rank_all']} in {Y-1}, #{cur['rank_all']} in {Y}."
+    if d > 0: s = f"Overall rank moved up {n}: #{prev['rank_all']} in {Y-1}, #{cur['rank_all']} in {Y}."
+    elif d < 0: s = f"Overall rank moved down {n}: #{prev['rank_all']} in {Y-1}, #{cur['rank_all']} in {Y}."
     else: s = f"No change: #{cur['rank_all']} both years."
     if prev['chamber'] != cur['chamber']: s += f" The {Y-1} rank was in the {CH[prev['chamber']][0]}."
     return s
@@ -381,7 +381,7 @@ if __name__ == '__main__':
                 h0 = '          <p class="pf-sub">'; i = old.index('\n', old.index(h0)) + 1; i2 = old.index('        </section>', i)
                 j = g.index('\n', g.index(h0)) + 1; k = g.index('        </section>', j)
                 pages[f] = old[:i] + g[j:k] + old[i2:]   # replace the whole head below pf-sub, so re-runs are idempotent
-        for f, t in pages.items(): open(f'{od}/{f}', 'w', encoding='utf-8').write(t)
+        for f, t in pages.items(): open(f'{od}/{f}', 'w', encoding='utf-8').write(rank_chart.add_legend(rank_chart.rank_wording(t)))
         if not deep_only:
             os.makedirs(f'{OUT}/data', exist_ok=True)
             json.dump(rj, open(f'{OUT}/data/roll-calls-{Y}.json', 'w', encoding='utf-8'), ensure_ascii=False)

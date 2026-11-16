@@ -71,7 +71,7 @@ def fix_rows_2026(rel, t, p, Y=2026):
             new = new.replace(m.group(0), exp, 1)
     return t[:i] + new + t[j:]
 
-H_ARCH = re.compile(r'(        <section class="pf-card" aria-labelledby="h-rank">\n          <h2 id="h-rank">Rank history</h2>\n          <p class="deep-note">[^\n]*</p>\n)(.*?)(        </section>\n)', re.S)
+H_ARCH = re.compile(r'(        <section class="pf-card" aria-labelledby="h-rank">\n          <h2 id="h-rank">Rank history</h2>\n(?:          <p class="deep-note rank-legend">[^\n]*</p>\n)?          <p class="deep-note">[^\n]*</p>\n)(.*?)(        </section>\n)', re.S)
 def stamp_profile_archive(rel, t, p, Y):
     """2008-2025 Profiles in the full layout (tools/gen.py): chart only in Rank history, ranks in the Band history table."""
     t = fix_rows_2026(rel, t, p, Y)
@@ -119,13 +119,13 @@ def main():
         s2p = {v: k for k, v in slugs(Y, RK[Y]['all']).items()}
         for f in sorted(glob.glob(f'{ROOT}/officials/{Y}/*-deep.html')):
             rel = os.path.relpath(f, ROOT); p = s2p.get(os.path.basename(f)[:-10]); assert p, rel
-            t = open(f, encoding='utf-8').read(); n = stamp_archive(rel, t, p, Y)
+            t = open(f, encoding='utf-8').read(); n = rank_chart.add_legend(rank_chart.rank_wording(stamp_archive(rel, t, p, Y)))
             if n != t: open(f, 'w', encoding='utf-8').write(n); changed.append(rel)
             STATS['pages'] += 1
     s2p = {v[0]: k for k, v in S26.items()}; s2p.update(OVERRIDE_2026)
     for f in sorted(glob.glob(f'{ROOT}/officials/*-deep.html')):
         rel = os.path.relpath(f, ROOT); p = s2p.get(os.path.basename(f)[:-10]); assert p, rel
-        t = open(f, encoding='utf-8').read(); n = stamp_2026(rel, t, p)
+        t = open(f, encoding='utf-8').read(); n = rank_chart.add_legend(rank_chart.rank_wording(stamp_2026(rel, t, p)))
         if n != t: open(f, 'w', encoding='utf-8').write(n); changed.append(rel)
         STATS['pages'] += 1
     print(dict(STATS)); print('changed files', len(changed))
