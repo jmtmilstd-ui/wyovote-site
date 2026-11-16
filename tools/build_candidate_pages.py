@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""Build preview candidate detail pages from the research store.
+"""Build candidate detail pages from the research store.
+
+Single tree (since 2026-11-15): pages are written at their live paths in the
+repository root. Review a change on a Cloudflare branch preview
+(BRANCH=<name> deploy_pages.sh), not in an in-site preview/ folder.
 
 Reads one cycle of compact records and rewrites the Level 3 pages for
 candidates who do not already have a 2026 officials deeper-dive page.
 Sitting legislators stay linked from the county pages; this script does
 not touch those links or the officials pages.
 
-Compact data lives at preview/data/candidate-research/<cycle>/part-NN.json.
+Compact data lives at data/candidate-research/<cycle>/part-NN.json.
 A future cycle (2024 or 2028) is a new JSON file plus:
 
     python3 tools/build_candidate_pages.py --cycle 2028-primary
@@ -16,7 +20,7 @@ To compile that JSON from a research archive (people/ and cycles/<cycle>/):
     python3 tools/build_candidate_pages.py --archive /path/to/archive --cycle 2026-primary
 
 General election views read data/candidate-research/<cycle>/general.json and
-update the preview pages only:
+update the candidate pages:
 
     python3 tools/build_candidate_pages.py --general
 
@@ -36,12 +40,12 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PREVIEW = ROOT / "preview"
-INDEX = PREVIEW / "data" / "candidates-2026-primary.json"
+SITE = ROOT  # single tree: write the live pages directly
+INDEX = SITE / "data" / "candidates-2026-primary.json"
 DATA_DIR = ROOT / "data" / "candidate-research"
 SHARD_LIMIT = 450_000
-PAGES = PREVIEW / "candidates" / "2026-primary" / "c"
-OFFICIALS = PREVIEW / "officials"
+PAGES = SITE / "candidates" / "2026-primary" / "c"
+OFFICIALS = SITE / "officials"
 
 BLANK = {
     "",
@@ -670,11 +674,13 @@ def install_general_files(archive: Path, cycle: str) -> None:
 
 
 def mirror_research(cycle: str) -> None:
-    """Refresh a preview research copy when that cycle already has one."""
+    """Refresh a research copy when that cycle already has one."""
     source = DATA_DIR / cycle
-    dest = PREVIEW / "data" / "candidate-research" / cycle
+    dest = SITE / "data" / "candidate-research" / cycle
     if not source.is_dir() or not dest.is_dir():
         return
+    if source.resolve() == dest.resolve():
+        return  # single tree: the research store is already the published copy
     dest.mkdir(parents=True, exist_ok=True)
     keep = {path.name for path in source.glob("*.json")}
     for old in dest.glob("*.json"):
@@ -803,11 +809,11 @@ def sitting_slug(record: dict, officials: dict[str, str]) -> str | None:
     return None
 
 
-def preview_shell(title: str, description: str, depth: int, body: str, current: str = "candidates") -> str:
-    # depth is the number of directories under preview/.
+def page_shell(title: str, description: str, depth: int, body: str, current: str = "candidates") -> str:
+    # depth is the number of directories under the site root.
     root = "../" * depth
-    css = "../" * (depth + 1) + "css/styles.css"
-    preview_css = root + "preview.css"
+    css = "../" * depth + "css/styles.css"
+    site_css = root + "assets/css/site.css"
     assets = root + "assets/img/surveyor-icon.png"
     home = root + "index.html"
 
@@ -829,17 +835,15 @@ def preview_shell(title: str, description: str, depth: int, body: str, current: 
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{esc(title)}</title>
     <meta name="description" content="{esc(description)}">
     <link rel="icon" href="{assets}" type="image/png">
     <link rel="stylesheet" href="{css}">
-    <link rel="stylesheet" href="{preview_css}">
+    <link rel="stylesheet" href="{site_css}">
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
-    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href="{home}">
@@ -863,7 +867,7 @@ def preview_shell(title: str, description: str, depth: int, body: str, current: 
             <li><a href="{root}about.html">About</a></li>
             <li><a href="{root}privacy.html">Privacy</a></li>
             <li><a href="{root}contact.html">Contact</a></li>
-            <li class="footer-guide"><a href="/preview/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
+            <li class="footer-guide"><a href="/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
           </ul>
         </nav>
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
@@ -940,7 +944,7 @@ def generate_archive(records: list[dict], cycle: str) -> dict[str, int]:
     primary_dates = {"2024": "August 20, 2024", "2022": "August 16, 2022", "2026": "August 18, 2026"}
     date_line = primary_dates.get(year, year)
     officials = officials_index()
-    folder = PREVIEW / "candidates" / cycle
+    folder = SITE / "candidates" / cycle
     detail_dir = folder / "c"
     detail_dir.mkdir(parents=True, exist_ok=True)
     used: dict[str, str] = {}
@@ -969,7 +973,7 @@ def generate_archive(records: list[dict], cycle: str) -> dict[str, int]:
             f"{archive_detail_inner(record, official)}\n"
             "      </div></section>"
         )
-        page = preview_shell(
+        page = page_shell(
             f"{name} — {year} Primary — WyoVote",
             record.get("blurb") or f"{name}, {record.get('office')}, {year} primary.",
             3,
@@ -1032,7 +1036,7 @@ def generate_archive(records: list[dict], cycle: str) -> dict[str, int]:
             + "\n          ".join(groups)
             + "\n      </div></section>"
         )
-        page = preview_shell(
+        page = page_shell(
             f"{county} County — {year} Primary — WyoVote",
             f"{year} primary candidates in {county} County.",
             2,
@@ -1056,7 +1060,7 @@ def generate_archive(records: list[dict], cycle: str) -> dict[str, int]:
         "      </div></section>"
     )
     (folder / "index.html").write_text(
-        preview_shell(
+        page_shell(
             f"{year} Primary — WyoVote",
             f"{year} Wyoming primary candidates by county.",
             2,
@@ -1341,7 +1345,7 @@ def general_only_inner(candidate: dict, office: str, district: str | None, when:
 
 
 def write_missing_detail(cycle: str, slug: str, candidate: dict, office: str, district: str | None, when: str, shards: dict, officials: dict) -> None:
-    folder = PREVIEW / "candidates" / cycle / "c"
+    folder = SITE / "candidates" / cycle / "c"
     folder.mkdir(parents=True, exist_ok=True)
     path = folder / f"{slug}.html"
     name = candidate["name_on_ballot"]
@@ -1383,7 +1387,7 @@ def write_missing_detail(cycle: str, slug: str, candidate: dict, office: str, di
         "      </div></section>"
     )
     path.write_text(
-        preview_shell(f"{name} — {year} Primary — WyoVote", description, 3, body),
+        page_shell(f"{name} — {year} Primary — WyoVote", description, 3, body),
         encoding="utf-8",
     )
 
@@ -1517,7 +1521,7 @@ def apply_general(cycle: str) -> dict[str, int]:
     data = json.loads(path.read_text(encoding="utf-8"))
     when = long_date(data["election_date"])
     label = certification_label((data.get("certification") or {}).get("status") or "")
-    detail_dir = PREVIEW / "candidates" / cycle / "c"
+    detail_dir = SITE / "candidates" / cycle / "c"
     slugs = load_name_slugs(detail_dir)
     shards = shard_name_index(cycle)
     officials = officials_index()
@@ -1558,7 +1562,7 @@ def apply_general(cycle: str) -> dict[str, int]:
             if county in by_county:
                 by_county[county].append(race)
     for county in COUNTY_ORDER:
-        county_path = PREVIEW / "candidates" / cycle / f"{county_slug(county)}.html"
+        county_path = SITE / "candidates" / cycle / f"{county_slug(county)}.html"
         if not county_path.is_file():
             raise SystemExit(f"missing county page {county_path}")
         text = county_path.read_text(encoding="utf-8")
@@ -1569,10 +1573,10 @@ def apply_general(cycle: str) -> dict[str, int]:
         text = install_county(text, when, label, groups)
         county_path.write_text(text, encoding="utf-8")
     if cycle == "2026-primary":
-        level1 = PREVIEW / "candidates.html"
+        level1 = SITE / "candidates.html"
         filename = "candidates.html"
     else:
-        level1 = PREVIEW / "candidates" / cycle / "index.html"
+        level1 = SITE / "candidates" / cycle / "index.html"
         filename = "index.html"
     text = level1.read_text(encoding="utf-8")
     text = ensure_election_script(text)
@@ -1582,7 +1586,7 @@ def apply_general(cycle: str) -> dict[str, int]:
     text = install_level1(text, f"{when}. Federal, statewide, and legislative races. Choose a county.", label)
     level1.write_text(text, encoding="utf-8")
     if " hidden" not in label:
-        raise SystemExit(f"{cycle} is not certified; the live preview should hide the unofficial label")
+        raise SystemExit(f"{cycle} is not certified; the live pages should hide the unofficial label")
     return {"candidates": len(seen), "details_updated": updated, "details_created": created, "counties": len(COUNTY_ORDER)}
 
 
@@ -1590,7 +1594,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cycle", default=None)
     parser.add_argument("--archive", type=Path, help="research archive with people/ and cycles/")
-    parser.add_argument("--general", action="store_true", help="add the general election view to preview pages")
+    parser.add_argument("--general", action="store_true", help="add the general election view to the candidate pages")
     args = parser.parse_args()
     if args.general:
         test_certification_label()
@@ -1619,7 +1623,7 @@ def main() -> None:
     else:
         records = read_shards(args.cycle)
     if args.cycle == "2026-primary":
-        print(f"updated {write_pages(records)} preview candidate pages")
+        print(f"updated {write_pages(records)} candidate pages")
     else:
         counts = generate_archive(records, args.cycle)
         print(f"{args.cycle}: {counts}")

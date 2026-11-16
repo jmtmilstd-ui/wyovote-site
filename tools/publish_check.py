@@ -10,11 +10,16 @@ Checks:
   (b) any asset other than HTML, CSS, or JS is not referenced by an HTML
       href/src or a CSS url()
   (c) any href or src in an .html file points at a local file that is missing
-  (d) any root page (not under preview/) links into preview/ or contains the
-      PREVIEW banner
+  (d) any page links into preview/ or contains the PREVIEW banner
   (e) the total size of tracked files is over 500 MB (524,288,000 bytes)
-  (f) a top-level label in the preview or live site nav is missing from the site map
-  (g) a line in the preview or live site map cuts through a box or crosses another line
+  (f) a top-level label in the live site nav is missing from the site map
+  (g) a line in the live site map cuts through a box or crosses another line
+  (h) any file exists under preview/ (single tree since 2026-11-15: review
+      changes on a Cloudflare branch preview, not in an in-site preview/ copy;
+      old /preview/ URLs are handled by _redirects)
+  (i) the deploy tree is over 20,000 files, the Cloudflare Pages Free plan cap
+      (counted like deploy_pages.sh: every file except .git, .github, tools,
+      _redirects and _headers)
 
 The report always includes the tracked size, the 10 largest tracked files,
 and the counts. Exceptions belong in tools/publish_check_allow.txt, or in
@@ -34,6 +39,11 @@ from urllib.parse import unquote, urlsplit
 
 FILE_LIMIT = 500 * 1024
 TREE_LIMIT = 500 * 1024 * 1024
+DEPLOY_FILE_LIMIT = 20_000
+# deploy_pages.sh drops these names at any depth (shutil.ignore_patterns).
+DEPLOY_SKIP_NAMES = {".git", ".github", "tools"}
+# Sent as deployment form fields, not counted as Pages assets.
+DEPLOY_SKIP_ROOT = {"_redirects", "_headers"}
 
 # Pages, stylesheets, and scripts are not assets. Everything else must be
 # referenced. .docx, .csv, and .json are included, along with PDFs and images.
@@ -75,6 +85,29 @@ def iter_files(root: Path) -> list[Path]:
         if path.is_file() and path.suffix.lower() != ".pyc":
             files.append(path)
     return files
+
+
+def deploy_files(root: Path) -> list[str]:
+    """Files deploy_pages.sh would upload as Cloudflare Pages assets."""
+    found: list[str] = []
+    for path in root.rglob("*"):
+        rel = path.relative_to(root)
+        if any(part in DEPLOY_SKIP_NAMES for part in rel.parts):
+            continue
+        if not path.is_file():
+            continue
+        name = rel.as_posix()
+        if name in DEPLOY_SKIP_ROOT:
+            continue
+        found.append(name)
+    return found
+
+
+def preview_files(root: Path) -> list[str]:
+    folder = root / "preview"
+    if not folder.exists():
+        return []
+    return sorted(rel_posix(root, path) for path in folder.rglob("*") if path.is_file())
 
 
 def rel_posix(root: Path, path: Path) -> str:
@@ -416,7 +449,7 @@ def diagram_geometry(page: str) -> list[str]:
 
 
 def site_map_geometry(root: Path) -> list[str]:
-    """Lines in the preview and live site-map diagrams must not cut a box or cross."""
+    """Lines in the live site-map diagram must not cut a box or cross."""
     errors = []
     for which, page_path in (
         ("live", root / "site-map.html"),
@@ -428,7 +461,13 @@ def site_map_geometry(root: Path) -> list[str]:
     return errors
 
 
-def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int) -> tuple[int, str]:
+def check(
+    root: Path,
+    allow_path: Path | None,
+    file_limit: int,
+    tree_limit: int,
+    deploy_limit: int = DEPLOY_FILE_LIMIT,
+) -> tuple[int, str]:
     root = root.resolve()
     if not root.is_dir():
         return 2, f"repository path is not a directory: {root}"
@@ -504,8 +543,20 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
     size_over = names is not None and tracked_total > tree_limit
     map_gaps = site_map_gaps(root)
     map_lines = site_map_geometry(root)
+    in_preview = preview_files(root)
+    deploy_count = len(deploy_files(root))
+    deploy_over = deploy_count > deploy_limit
     failed = bool(
-        oversized or unreferenced or missing_left or root_left or size_over or git_error or map_gaps or map_lines
+        oversized
+        or unreferenced
+        or missing_left
+        or root_left
+        or size_over
+        or git_error
+        or map_gaps
+        or map_lines
+        or in_preview
+        or deploy_over
     )
 
     lines: list[str] = []
@@ -522,6 +573,10 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
         lines.append(f"Tracked size: {format_bytes(tracked_total)}")
         lines.append(f"Tracked size limit: {tree_limit:,} bytes (500 MB)")
         lines.append(f"Tracked size: {'FAIL' if size_over else 'OK'}")
+    lines.append("")
+    lines.append(f"Deploy files (Cloudflare Pages assets): {deploy_count:,}")
+    lines.append(f"Deploy file limit: {deploy_limit:,} (Cloudflare Pages Free plan)")
+    lines.append(f"Deploy files: {'FAIL' if deploy_over else 'OK'}")
     lines.append("")
     lines.append("10 largest tracked files:")
     if not tracked_rows:
@@ -551,7 +606,7 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
     if not missing_left:
         lines.append("  (none)")
     lines.append("")
-    lines.append(f"Root pages linking into preview/ or showing the PREVIEW banner: {len(root_left)}")
+    lines.append(f"Pages linking into preview/ or showing the PREVIEW banner: {len(root_left)}")
     for kind, source, line, detail, resolved in root_left:
         if kind == "banner":
             lines.append(f"  {source}  contains {detail}")
@@ -559,6 +614,14 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
             where = f":{line}" if line else ""
             lines.append(f"  {source}{where}  links to {detail}  ->  {resolved}")
     if not root_left:
+        lines.append("  (none)")
+    lines.append("")
+    lines.append(f"Files under preview/ (must be none; use a branch preview): {len(in_preview)}")
+    for name in in_preview[:20]:
+        lines.append(f"  {name}")
+    if len(in_preview) > 20:
+        lines.append(f"  ... and {len(in_preview) - 20} more")
+    if not in_preview:
         lines.append("  (none)")
     lines.append("")
     lines.append(f"Top-level nav labels missing from the site map: {len(map_gaps)}")
@@ -585,7 +648,9 @@ def check(root: Path, allow_path: Path | None, file_limit: int, tree_limit: int)
         f"missing={len(missing_left)} "
         f"root_preview={len(root_left)} "
         f"site_map={len(map_gaps)} "
-        f"site_map_lines={len(map_lines)}"
+        f"site_map_lines={len(map_lines)} "
+        f"preview_files={len(in_preview)} "
+        f"deploy_files={deploy_count}"
     )
     return (1 if failed else 0), "\n".join(lines) + "\n"
 

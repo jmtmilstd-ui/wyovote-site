@@ -1,11 +1,11 @@
-# Cloudflare Pages redirects. Old report pages and the site map.
+# Cloudflare Pages redirects. Old report pages, the site map, and the retired /preview/ copy.
 # https://developers.cloudflare.com/pages/configuration/redirects/
 /site-map.html / 301
 /sitemap.html / 301
 /site-map / 301
 /sitemap / 301
-/preview/site-map.html /preview/index.html 301
-/preview/sitemap.html /preview/index.html 301
+/preview/site-map.html / 301
+/preview/sitemap.html / 301
 /reports/2021/committee/01-judiciary.html /reports/2021/wyovote_2021_Committee_01_Judiciary_112_v1.1.pdf 301
 /preview/reports/2021/committee/01-judiciary.html /reports/2021/wyovote_2021_Committee_01_Judiciary_112_v1.1.pdf 301
 /reports/2021/committee/02-appropriations.html /reports/2021/wyovote_2021_Committee_02_Appropriations_112_v1.1.pdf 301
@@ -798,3 +798,47 @@
 /preview/reports/2026/ratings/alpha-one-page.html /reports/2026/wyovote_2026_Ratings_Alpha_1p_106_v1.0.pdf 301
 /reports/2026/ratings/ranked-one-page.html /reports/2026/wyovote_2026_Ratings_Ranked_1p_105_v1.1.pdf 301
 /preview/reports/2026/ratings/ranked-one-page.html /reports/2026/wyovote_2026_Ratings_Ranked_1p_105_v1.1.pdf 301
+
+# --- Retired in-site /preview/ copy (removed 2026-11-15). ---
+# Static rules first. The 396 /preview/reports/...html -> PDF rules above must stay above the splats below.
+/preview / 301
+/preview/ / 301
+/preview/index.html / 301
+/preview/about.html /about.html 301
+/preview/archive.html /archive.html 301
+/preview/candidates.html /candidates.html 301
+/preview/committee-ratings.html /committee-ratings.html 301
+/preview/committees.html /committees.html 301
+/preview/contact-thanks.html /contact-thanks.html 301
+/preview/contact.html /contact.html 301
+/preview/counties.html /counties.html 301
+/preview/county-ratings.html /county-ratings.html 301
+/preview/historical-articles.html /historical-articles.html 301
+/preview/historical-criteria.html /historical-criteria.html 301
+/preview/historical-ratings.html /historical-ratings.html 301
+/preview/how-ratings-work.html /how-ratings-work.html 301
+/preview/legislative-ratings.html /legislative-ratings.html 301
+/preview/officials.html /officials.html 301
+/preview/privacy.html /privacy.html 301
+/preview/reports.html /reports.html 301
+/preview/research.html /research.html 301
+/preview/404.html /404.html 301
+/preview/archive-articles.js /archive-articles.js 301
+/preview/news-box.js /news-box.js 301
+# Terms was taken off the site on 2026-11-15 (archived copy kept off-site).
+/preview/terms.html / 301
+/preview/preview.css /assets/css/site.css 301
+# Section splats (dynamic). /preview/data/:file matches one path segment only.
+/preview/officials/* /officials/:splat 301
+/preview/people/* /people/:splat 301
+/preview/candidates/* /candidates/:splat 301
+/preview/articles/* /articles/:splat 301
+/preview/archive/* /archive/:splat 301
+/preview/news/* /news/:splat 301
+/preview/guide/* /guide/:splat 301
+/preview/assets/* /assets/:splat 301
+/preview/reports/* /reports/:splat 301
+/preview/data/candidate-research/* /data/candidate-research/:splat 301
+# Local source data moved out of the site to tools/local-data/ (not deployed).
+/preview/data/local/* /candidates.html 301
+/preview/data/:file /data/:file 301

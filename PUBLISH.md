@@ -1,25 +1,60 @@
-# Publishing the preview
+# Publishing WyoVote
 
-Work in progress lives in `preview/`. GitHub Pages serves that folder at:
+The live site is https://wyovote.com, served by Cloudflare Pages (project
+`wyovote`, direct upload). GitHub Pages was retired on 2026-11-15.
 
-- https://jmtmilstd-ui.github.io/wyovote-site/preview/
-- later, https://wyovote.com/preview/
+## One tree (since 2026-11-15)
 
-Those pages use relative links. Shared PDFs stay in `reports/`, and shared images stay in `assets/`. `preview/` does not contain its own copies.
+The repository holds only the live pages, at their live paths. There is no
+in-site `preview/` folder any more, and `tools/publish_check.py` fails if one
+comes back. Old `https://wyovote.com/preview/...` links are sent to the live
+page by `_redirects`.
 
-Do not add a `CNAME` file until DNS for wyovote.com is ready.
+Generators (`tools/build_*.py`, `tools/mark_outside_links.py`,
+`tools/stamp_deeper_dive.py`, `tools/assemble.py`) write the live paths
+directly. Source data that is not a site page lives under `tools/`, which is
+never deployed (for example `tools/local-data/` for the Local builders).
 
-## Publish to the live pages
+## Review a change before it goes live
 
-The live pages are the HTML files in the repository root. Publish by copying the preview pages over those root pages in a pull request to `main`, then taking the preview-only pieces back out.
+1. Make the change on a branch or in a local copy of the repository.
+2. Run `python3 tools/publish_check.py`. It must say `Result: PASS`.
+3. Deploy that tree to a Cloudflare branch preview, never to production:
 
-1. Copy each `preview/*.html` file to the repository root, replacing the root file of the same name.
-2. Remove these from the copied pages:
-   - the `PREVIEW, not the live site` banner
-   - `<meta name="robots" content="noindex">`
-   - the `preview.css` stylesheet link
-3. Point shared files at the repository root again. In the copied pages, change `../assets/` to `assets/`, `../css/` to `css/`, and `../reports/` to `reports/`. Links from one page to another (`index.html`, `reports.html`, and the rest) stay as they are.
-4. Do not copy `preview/preview.css` onto the live pages. Do not add a `CNAME` file.
-5. Open a pull request to `main`. The root pages update when that pull request is merged. Leave `preview/` in place for the next round of work.
+   ```bash
+   BRANCH=<short-name> W=work_<short-name> SRC_DIR=<tree> \
+     /workspace/cloudflare/deploy_pages.sh prepare <commit-sha>
+   ```
 
-Last preview update: 2026-11-13 (county and committee report pages, older archive sheets, and one-page Ranked and Alpha sheets published to the live pages; full Ranked and Alpha reports stay PDFs).
+   then the usual upload and create-deployment steps from
+   `/workspace/cloudflare/DEPLOY.md`. The preview is at
+   `https://<short-name>.wyovote.pages.dev`, with the same paths as the live
+   site. Branch names must be DNS-safe (`pr-77`, `officials-2008`).
+4. Optional: to show a PREVIEW banner and `noindex` on the review copy, run
+   `python3 tools/to_preview.py <staging-copy>` on a copy outside the
+   repository before deploying it. Never commit those changes and never deploy a
+   marked copy to production.
+5. Send the `*.wyovote.pages.dev` link for review. Branch previews are public
+   to anyone with the link, so do not put private drafts there.
+
+## Publish
+
+Only after Michael's own "publish":
+
+1. Open a pull request to `main`. The Publish check workflow runs
+   `tools/publish_check.py` on it.
+2. Merge it.
+3. Deploy the merge commit to production with `BRANCH=main` (see
+   `/workspace/cloudflare/DEPLOY.md`), then verify links and redirects.
+
+## Limits the publish check enforces
+
+| Check | Limit |
+| --- | --- |
+| Deploy files (Cloudflare Pages Free plan) | 20,000 |
+| Any single file | 500 KB unless allow-listed |
+| Tracked repository size | 500 MB |
+| `_redirects` | 2,000 static + 100 dynamic rules (Cloudflare limit; check by hand) |
+| Files under `preview/` | none |
+
+Do not add a `CNAME` file. The custom domain is set in Cloudflare Pages.

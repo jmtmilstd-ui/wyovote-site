@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Build the preview 2024 and 2022 Local pages with the 2026 entry format.
+"""Build the 2024 and 2022 Local pages with the 2026 entry format.
 
 County chooser, one page per county, and a detail page for each named
 candidate. Missing counties get a plain note instead of an empty section.
-Does not write the live root.
+Single tree since 2026-11-15: writes the live pages directly. Source data
+is read from tools/local-data/<year>/ (generator input, not deployed).
 """
 
 from __future__ import annotations
@@ -15,8 +16,8 @@ from pathlib import Path
 import build_local_2026 as local
 
 ROOT = Path(__file__).resolve().parents[1]
-PREVIEW = ROOT / "preview"
-DATA_ROOT = PREVIEW / "data" / "local"
+SITE = ROOT  # single tree: write the live pages directly
+DATA_ROOT = ROOT / "tools" / "local-data"
 MISSING_NOTE = "Results not yet available from the county"
 
 YEARS = {
@@ -85,22 +86,20 @@ def load_sources(year: str) -> dict[str, list[tuple[str, str]]]:
 def archive_shell(title: str, description: str, depth: int, body: str) -> str:
     """Archive header, with the same Local page classes as 2026."""
     root = "../" * depth
-    css = "../" * (depth + 1) + "css/styles.css"
+    css = "../" * depth + "css/styles.css"
     return f"""<!DOCTYPE html>
 <html lang="en" class="cand-local">
   <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{local.esc(title)}</title>
     <meta name="description" content="{local.esc(description)}">
     <link rel="icon" href="{root}assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="{css}">
-    <link rel="stylesheet" href="{root}preview.css">
+    <link rel="stylesheet" href="{root}assets/css/site.css">
   </head>
   <body class="cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
-    <p class="preview-banner" role="status">PREVIEW, not the live site</p>
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href="{root}index.html">
@@ -131,7 +130,7 @@ def archive_shell(title: str, description: str, depth: int, body: str) -> str:
             <li><a href="{root}about.html">About</a></li>
             <li><a href="{root}privacy.html">Privacy</a></li>
             <li><a href="{root}contact.html">Contact</a></li>
-            <li class="footer-guide"><a href="/preview/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
+            <li class="footer-guide"><a href="/guide/WyoVote-Users-Guide-v1.1.pdf">User's Guide</a></li>
           </ul>
         </nav>
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
@@ -387,11 +386,11 @@ def build_year(year: str) -> int:
     sources = load_sources(year)
     slugs = local.assign_slugs(rows)
     dates = YEARS[year]
-    local_dir = PREVIEW / "candidates" / f"{year}-local"
+    local_dir = SITE / "candidates" / f"{year}-local"
     local_dir.mkdir(parents=True, exist_ok=True)
     (local_dir / "c").mkdir(exist_ok=True)
     pages = 0
-    hub = PREVIEW / "candidates" / f"{year}-local.html"
+    hub = SITE / "candidates" / f"{year}-local.html"
     hub.write_text(
         archive_shell(
             f"{year} Local — WyoVote",
@@ -470,7 +469,7 @@ def build_year(year: str) -> int:
 def add_local_tabs() -> int:
     changed = 0
     for year in YEARS:
-        folder = PREVIEW / "candidates" / f"{year}-primary"
+        folder = SITE / "candidates" / f"{year}-primary"
         for path in sorted(folder.glob("*.html")):
             text = path.read_text(encoding="utf-8")
             if 'data-election="local"' in text:
@@ -490,7 +489,7 @@ def add_local_tabs() -> int:
                 raise SystemExit(f"no General button in {path}")
             path.write_text(text.replace(needle, insert, 1), encoding="utf-8")
             changed += 1
-    archive = PREVIEW / "archive" / "candidates.html"
+    archive = SITE / "archive" / "candidates.html"
     text = archive.read_text(encoding="utf-8")
     if "2024-local.html" in text and "2022-local.html" in text:
         return changed
@@ -515,7 +514,7 @@ def main() -> None:
         print(f"{year}: {count} local pages")
         pages += count
     tabs = add_local_tabs()
-    print(f"updated {tabs} existing preview pages")
+    print(f"updated {tabs} existing pages")
     print(f"wrote {pages} local pages")
 
 

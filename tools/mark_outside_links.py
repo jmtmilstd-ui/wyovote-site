@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mark preview links that leave WyoVote, and open them in the same tab.
+"""Mark links that leave WyoVote, and open them in the same tab.
 
 Outside links (http or https to a host other than wyovote.com) lose
 target="_blank" and rel="noopener"/"noreferrer", then gain a plain
@@ -11,11 +11,12 @@ A button-styled outside link gains class "btn-out" and does not get
 that per-button marker. One legend line on the page covers those
 buttons. Plain text links keep the marker.
 
-Run after a preview or live rebuild:
+Run after a rebuild:
 
     python3 tools/mark_outside_links.py
 
-The same rules are applied to preview/ and to the live root pages.
+Single tree since 2026-11-15: the rules are applied to every page in the
+repository (there is no in-site preview/ copy any more).
 """
 
 from __future__ import annotations
@@ -26,7 +27,6 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-PREVIEW = ROOT / "preview"
 MARKER = '<span class="ext">(leaves WyoVote)</span>'
 A_RE = re.compile(r"<a\b([^>]*)>(.*?)</a>", re.I | re.S)
 HREF_RE = re.compile(r"""href\s*=\s*(['"])(.*?)\1""", re.I)
@@ -233,18 +233,14 @@ def apply_paths(paths: list[Path]) -> dict[str, int]:
     return totals
 
 
-def apply_tree(root: Path = PREVIEW) -> dict[str, int]:
+def apply_tree(root: Path = ROOT) -> dict[str, int]:
     return apply_paths(sorted(root.rglob("*.html")))
 
 
 def live_pages() -> list[Path]:
-    preview_root = PREVIEW.resolve()
     pages = []
     for path in sorted(ROOT.rglob("*.html")):
-        if ".git" in path.parts:
-            continue
-        resolved = path.resolve()
-        if resolved == preview_root or preview_root in resolved.parents:
+        if ".git" in path.parts or "tools" in path.relative_to(ROOT).parts:
             continue
         pages.append(path)
     return pages
@@ -263,8 +259,7 @@ def report(label: str, totals: dict[str, int]) -> None:
 
 
 def main() -> None:
-    report("preview", apply_tree(PREVIEW))
-    report("live", apply_paths(live_pages()))
+    report("site", apply_paths(live_pages()))
 
 
 if __name__ == "__main__":

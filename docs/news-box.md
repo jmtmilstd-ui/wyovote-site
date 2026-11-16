@@ -1,6 +1,6 @@
 # News box and Special box
 
-The home page has three columns. The middle column and the right column each open with one solid dark green line, and neither column has a title. The News box sits under the middle line, then the article list. A Special, when one is active, sits under the right-hand line. When no special is active, that column shows the line “Specials and featured items appear here.” The live page and the preview page use the same arrangement.
+The home page has three columns. The middle column and the right column each open with one solid dark green line, and neither column has a title. The News box sits under the middle line, then the article list. A Special, when one is active, sits under the right-hand line. When no special is active, that column shows the line “Specials and featured items appear here.”
 
 The live files are:
 
@@ -9,7 +9,7 @@ The live files are:
 - `news/YYYY-MM-DD-slug.html`
 - `news/archive.html`
 
-Keep the copies under `preview/` the same: `preview/data/news.json`, `preview/news-box.js`, and `preview/news/`. A weekly update edits both copies.
+There is one copy of each file (single tree since 2026-11-15; there is no `preview/` copy). Review a change on a Cloudflare branch preview.
 
 ## The data file
 
@@ -37,15 +37,15 @@ The `summary` is the text in the home-page box. Write it to about five lines at 
 
 Post one WyoVote news article each Monday, about Wyoming. Write 300 to 500 words in the WyoVote article voice: short sentences, the facts in hand, and no new claims. Use the standard article template (`article-body`, byline, date, deck, section headings, and a numbered Credits and Sources list). Put a News tag at the top. The Back button returns to Home. Body text stays 14 pt or larger, in `#142117`, with no light gray.
 
-1. Add `news/YYYY-MM-DD-slug.html`, and the same page at `preview/news/YYYY-MM-DD-slug.html`.
-2. In `data/news.json` and `preview/data/news.json`, move the current `current_news` object to the front of `archive`.
+1. Add `news/YYYY-MM-DD-slug.html`.
+2. In `data/news.json`, move the current `current_news` object to the front of `archive`.
 3. Set `current_news` to the new article.
 
-The previous article then leaves the home box. Past news goes to the Archive Articles page (`archive/articles.html`, and `preview/archive/articles.html`). That page reads `news.json`, so the outgoing article and the new one appear in the same list as the other articles, newest first, with a News tag. You do not add those lines by hand. A special in the file appears there with a Special tag.
+The previous article then leaves the home box. Past news goes to the Archive Articles page (`archive/articles.html`). That page reads `news.json`, so the outgoing article and the new one appear in the same list as the other articles, newest first, with a News tag. You do not add those lines by hand. A special in the file appears there with a Special tag.
 
-`news/archive.html` and `preview/news/archive.html` redirect to the Archive Articles page so older links still land there.
+`news/archive.html` redirects to the Archive Articles page so older links still land there.
 
-A regular article, one that is not news or a special, is still added by hand in the article list inside `archive/articles.html` and `preview/archive/articles.html`. Title and date only.
+A regular article, one that is not news or a special, is still added by hand in the article list inside `archive/articles.html`. Title and date only.
 
 ## A special
 

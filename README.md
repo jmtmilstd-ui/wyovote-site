@@ -1,8 +1,8 @@
 # WyoVote
 
-Static website for WyoVote, which publishes Wyoming legislator ratings. The site is plain HTML and CSS. There is no build step. GitHub Pages serves it from the repository root of the `main` branch at `https://jmtmilstd-ui.github.io/wyovote-site/`.
+Static website for WyoVote, which publishes Wyoming legislator ratings. The site is plain HTML and CSS. There is no build step. Cloudflare Pages serves it at `https://wyovote.com` (direct upload of the `main` branch). GitHub Pages was retired on 2026-11-15. See `PUBLISH.md`.
 
-Links in the HTML are relative, so the same files work on that project site and in a local preview. Do not add a `CNAME` file. The custom domain is not being changed yet.
+Links in the HTML are relative, so the same files work on the live site, on a Cloudflare branch preview, and in a local preview. Do not add a `CNAME` file; the custom domain is set in Cloudflare Pages.
 
 ## Folder layout
 
@@ -46,11 +46,11 @@ Use the human-readable title as the link text. Keep the address relative. Do not
 
 3. Commit the PDF and the updated HTML, then push to `main`.
 
-GitHub Pages serves the PDF at that same path. Replacing a file without renaming it keeps existing links working. More detail is in `reports/README.md`.
+The site serves the PDF at that same path. Replacing a file without renaming it keeps existing links working. More detail is in `reports/README.md`.
 
 ## Publishing
 
-In the repository settings, set GitHub Pages to deploy from the `main` branch and the root folder (`/`). No build command is required. Leave the custom domain blank.
+See `PUBLISH.md`. Review happens on a Cloudflare branch preview (`https://<branch>.wyovote.pages.dev`), not in an in-site `preview/` folder. No build command is required.
 
 ## Local preview
 

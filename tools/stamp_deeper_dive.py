@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Put a large Deeper dive button under the name on preview official pages.
+"""Put a large Deeper dive button under the name on official pages.
+
+Single tree since 2026-11-15: edits the live officials/ pages directly.
 
 The button uses the same href as the existing link at the bottom of the page.
 Run after rebuilding official pages:
@@ -14,7 +16,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-OFFICIALS = ROOT / "preview" / "officials"
+OFFICIALS = ROOT / "officials"
 DEEPER = re.compile(r'<p class="pf-deeper"><a href="([^"]+)">Deeper dive</a></p>')
 OLD_COMMITTEE = (
     "Coming soon. No 2021–2026 committee report in this repo lists this legislator."
@@ -66,7 +68,7 @@ def main() -> None:
         if updated != text:
             path.write_text(updated, encoding="utf-8")
             changed += 1
-    print(f"added the Deeper dive button or reader note on {changed} preview official pages")
+    print(f"added the Deeper dive button or reader note on {changed} official pages")
     print(f"replaced the committee note on {noted} pages")
 
 
