@@ -88,6 +88,8 @@ BANDS_OF = {y: rank_chart.bands_from_ranking(d) for y, d in RK.items()}
 def rank_series(p, Y):
     return [(y, BYP[p][y]['rank_all'], RK[y]['n_ranked'], BYP[p][y]['band']) for y in range(FIRST, Y + 1) if y in BYP.get(p, {})]
 def band_span(b): return f'<span class="pf-band pf-band-{b.lower()}">{b}</span>'
+import statewide_data
+SW_LINK = {statewide_data.site_key(q): (statewide_data.SLUG[q], statewide_data.link_label(q)) for q in statewide_data.LEG_PEOPLE}   # legislator -> statewide Profile
 PROFILE_2026_OVERRIDE = {'WY-PEARSON-LAURA': 'taliaferro'}   # 2026 page h1 reads "Laura Taliaferro (formerly Pearson)"
 SLUGS = {}
 def slug_of(p, y):
@@ -264,7 +266,8 @@ def build_year(Y):
         # deep page
         chart = rank_chart.chart_block(r['full_name'], rank_series(p, Y), BANDS_OF, table_hint='The Band history table below repeats the same ranks, with chamber ranks.')
         lp = latest_profile(p, Y)
-        latest_line = f'          <p class="pf-links"><span class="pf-asof">This Profile runs through {Y}. Latest Profile: <a href="{lp[0]}">{nm}, {lp[1]}</a>.</span></p>\n' if lp else ''
+        latest_line = f'          <p class="pf-links"><span class="pf-asof">This Profile runs through {Y}.</span> <a class="pf-btn" href="{lp[0]}">Latest Profile: {lp[1]} →</a></p>\n' if lp else ''
+        if p in SW_LINK: latest_line += f'          <p class="pf-links"><a class="pf-btn" href="../statewide/{SW_LINK[p][0]}.html">{SW_LINK[p][1]}</a></p>\n'
         pr = sorted(votes.get((r['chamber'], r['legislator']), []))
         pairs = json.dumps([[i, v] for i, v in pr], separators=(',', ':'))
         dmain = f'''    <main id="main" class="profile">
