@@ -66,8 +66,10 @@ After the expires date, the special hides from the right-hand column by itself a
 
 ## Current items
 
-The interim-committees article is the current news, published Nov. 11, 2026. Its dateline stays “Week of Nov 16, 2026.”
+The new-leaders article is the current news, published Nov. 16, 2026. Its dateline is “Week of Nov 16, 2026.”
 
-The next scheduled news article is Monday, Nov. 16, 2026. That article replaces this one. Move this one to the front of `archive`.
+The interim-committees article moved to the front of `archive`.
+
+The next scheduled news article is Monday, Nov. 23, 2026. That article replaces this one.
 
 The special on certified election results shows from Nov. 11, 2026. It stays up through Nov. 18 and hides the morning of Nov. 19 (`expires` is `2026-11-19`).
