@@ -4,7 +4,7 @@ rank-history row match ranking.py (counts = ranked members only). Idempotent: re
 
     python3 tools/stamp_rank_chart.py [SITE_ROOT]      # default: the repo this file is in
 
-2008-2024 deep pages also get the chart from tools/gen.py on a rebuild; 2025 and 2026 deep pages are
+2008-2025 Profiles also get the chart from tools/gen.py on a rebuild (2025: Profile sections only); 2026 Profiles are
 hand-built, so this stamp is how they get it. Prints a summary of every row it corrected.
 """
 import os, re, sys, glob, json, collections
@@ -49,9 +49,11 @@ def fix_rows_archive(rel, t, p, Y):
     assert [int(x) for x in rows] == [y for y in range(G['FIRST'], Y + 1) if y in BYP[p]], (rel, rows)
     return t[:i] + new + t[j:]
 
-def fix_rows_2026(rel, t, p):
+def fix_rows_2026(rel, t, p, Y=2026):
     i = t.index('aria-labelledby="h-band"'); j = t.index('</section>', i); sec = t[i:j]; new = sec
-    for y in range(G['FIRST'], 2027):
+    rows = [int(x) for x in re.findall(r'<tr><td>(\d{4})</td>', sec)]
+    assert sorted(rows, reverse=True) == [y for y in range(Y, G['FIRST'] - 1, -1) if y in BYP[p]], (rel, rows)   # newest first (haroldson-deep.html is oldest first)
+    for y in range(G['FIRST'], Y + 1):
         q = BYP[p].get(y)
         if not q: continue
         m = re.search(rf'<tr><td>{y}</td>(.*?)</tr>', new); assert m, (rel, y)
@@ -69,7 +71,21 @@ def fix_rows_2026(rel, t, p):
             new = new.replace(m.group(0), exp, 1)
     return t[:i] + new + t[j:]
 
+H_ARCH = re.compile(r'(        <section class="pf-card" aria-labelledby="h-rank">\n          <h2 id="h-rank">Rank history</h2>\n          <p class="deep-note">[^\n]*</p>\n)(.*?)(        </section>\n)', re.S)
+def stamp_profile_archive(rel, t, p, Y):
+    """2008-2025 Profiles in the full layout (tools/gen.py): chart only in Rank history, ranks in the Band history table."""
+    t = fix_rows_2026(rel, t, p, Y)
+    ser = rank_series(p, Y); chk = {}
+    blk = rank_chart.chart_block(BYP[p][Y]['full_name'], ser, BANDS_OF, table_hint='The Band history table below repeats the same ranks, with chamber ranks.', check=chk)
+    if blk: body = blk; CHECKS.append((rel, chk)); STATS['chart'] += 1
+    else:
+        body = '          <p class="deep-note">Only one ranked year so far, so there is no chart. The Band history table below shows the rank.</p>\n'
+        STATS['no chart (fewer than 2 ranked years)'] += 1
+    m = H_ARCH.search(t); assert m, rel
+    return t[:m.start()] + m.group(1) + body + m.group(3) + t[m.end():]
+
 def stamp_archive(rel, t, p, Y):
+    if 'id="h-band"' in t: return stamp_profile_archive(rel, t, p, Y)
     t = strip_chart(t)
     t = fix_rows_archive(rel, t, p, Y)
     ser = rank_series(p, Y); chk = {}
