@@ -45,7 +45,31 @@ The previous article then leaves the home box. Past news goes to the Archive Art
 
 `news/archive.html` redirects to the Archive Articles page so older links still land there.
 
-A regular article, one that is not news or a special, is still added by hand in the article list inside `archive/articles.html`. Title and date only.
+A regular article, one that is not news or a special, is still added by hand in the article list inside `archive/articles.html`. Title and date only. Its home-page line comes from `data/home-articles.json` (see the 15-day rule below).
+
+## Home Articles column (15-day rule)
+
+The article list under the News box follows two rules at once:
+
+- At most 4 articles, newest on top. A new article pushes the oldest one down and off.
+- No article older than 15 days, counted on the Denver calendar date. An article dated D shows through D + 15 days and leaves the home page on the morning of D + 16, even when nothing new is posted.
+
+Articles that leave the home page stay on the Archive Articles page (`archive/articles.html`) only.
+
+The list is built, not typed into `index.html`:
+
+- `data/home-articles.json` holds the articles that may appear on the home page (date, kicker, title, url, excerpt). `kicker` is `feature`, `research`, or `null`.
+- `tools/build_home_articles.py` writes the block between the `HOME-ARTICLES` markers in `index.html`. `--date YYYY-MM-DD` renders a test date; `--check` exits 1 if the page is out of date.
+- `tools/expire_home_articles.py` is the daily check. It prints `no change` and exits 0 when nothing needs expiring. Otherwise it lists the articles leaving the home page and rebuilds `index.html`, which then needs a commit and a deploy.
+- `news-box.js` applies the same rule in the browser on the Denver date, so an article leaves on time even before the next deploy.
+
+When no article is within 15 days, the News box is the only item in the column. A large dark green button, “Older articles are in the Archive →”, then shows under it and links to `archive/articles.html`. While articles are shown, a smaller “More articles in the Archive →” link sits at the bottom of the column instead.
+
+To add a regular article:
+
+1. Add the article page and its line in `archive/articles.html`, as before.
+2. Add it at the top of `articles` in `data/home-articles.json`.
+3. Run `python3 -B tools/build_home_articles.py .` and commit `index.html` with the data file.
 
 ## A special
 

@@ -1,0 +1,11 @@
+{
+  "rule": "Home Articles column: at most 4 articles, newest on top, none older than 15 days (Denver date). Older ones stay on archive/articles.html only.",
+  "max_items": 4,
+  "max_age_days": 15,
+  "articles": [
+    {"date": "2026-11-11", "kicker": "feature", "title": "Wyoming's Official Symbols, Written Into Law", "url": "articles/a010-official-symbols.html", "excerpt": "The state flag, the Indian paintbrush, the meadowlark, and the bison did not wander into office on their own. The Legislature wrote each symbol into Wyoming law."},
+    {"date": "2026-11-11", "kicker": "feature", "title": "How Wyoming Became the Equality State", "url": "articles/a009-equality-state.html", "excerpt": "Wyoming women won the right to vote in 1869, when this land was still a territory. The name Equality State comes from that law, and from the right later written into the state constitution."},
+    {"date": "2026-11-11", "kicker": null, "title": "A Blue Swing on the High Plains", "url": "articles/a005-high-plains-blue-swing.html", "excerpt": "Wyoming had a blue swing from 2024 to 2026. Voters moved toward Democrats in every county. Republicans still won the big races, and one House seat changed parties."},
+    {"date": "2026-11-09", "kicker": null, "title": "Wyoming's 2026 Legislative Election: One Party Flip, 38 Open Seats", "url": "articles/a002-2026-legislature-election-results.html", "excerpt": "Unofficial returns show House District 11 moving from Republican to Democratic hands, with 38 open seats."}
+  ]
+}
