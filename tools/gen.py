@@ -24,6 +24,11 @@ CH = {'H': ('House', 'Representative'), 'S': ('Senate', 'Senator')}
 def fdate(s):
     d = datetime.date.fromisoformat(s); return f"{d.strftime('%b')} {d.day}, {d.year}"
 # ---------- person ids per year ----------
+# Split keys confirmed as one person (Nov 16 identity check): same chamber and district line, continuous years, and the
+# same full name in every year of the official wyoleg.gov legislator directory (counties_<Y>/src/legislators_<Y>_<H|S>.json).
+#   Kinskey S22 2015-2024, "David Kinskey"; Henderson H41 2017-2024, "William Henderson"; Stubson H56 2008-2016, "Timothy Stubson".
+# Not merged (no split, single provisional key; the Name Index candidate is a different record): Illoway, Peterson.
+MERGED = {'WY-KINSKEY-DAVE': 'WY-KINSKEY-DAVID', 'PROV:WY-HENDERSON-WILLIAM': 'WY-HENDERSON-WILLIAM', 'PROV:WY-STUBSON-TIMOTHY': 'WY-STUBSON-TIM'}
 def pid_rows(Y):
     Y = int(Y)
     if Y <= 2021:
@@ -36,6 +41,9 @@ def pid_rows(Y):
             if not pid and r['person_id'] in CONFIRMED:   # errata E060/E061: owner-confirmed same person, link by the ratings-file ID
                 pid = r['person_id']; REVIEW.pop()
             r['pid'] = pid or ('PROV:' + r['person_id'])
+        for r in A:
+            if r['pid'] in MERGED:   # confirmed same person (MERGED below): one Profile, one key
+                r['pid'] = MERGED[r['pid']]
         import collections
         cnt = collections.Counter(r['pid'] for r in A)
         for r in A:
@@ -370,9 +378,9 @@ if __name__ == '__main__':
             for f in pages:
                 old = open(f'{BASE}/officials/{Y}/{f}', encoding='utf-8').read(); g = pages[f]
                 old = old[:old.index(S0)] + g[g.index(S0):g.index(S1)] + old[old.index(S1):]
-                h0 = '          <p class="pf-sub">'; i = old.index('\n', old.index(h0)) + 1
+                h0 = '          <p class="pf-sub">'; i = old.index('\n', old.index(h0)) + 1; i2 = old.index('        </section>', i)
                 j = g.index('\n', g.index(h0)) + 1; k = g.index('        </section>', j)
-                pages[f] = old[:i] + g[j:k] + old[i:]
+                pages[f] = old[:i] + g[j:k] + old[i2:]   # replace the whole head below pf-sub, so re-runs are idempotent
         for f, t in pages.items(): open(f'{od}/{f}', 'w', encoding='utf-8').write(t)
         if not deep_only:
             os.makedirs(f'{OUT}/data', exist_ok=True)
