@@ -6,7 +6,7 @@ repository root. Review a change on a Cloudflare branch preview
 (BRANCH=<name> deploy_pages.sh), not in an in-site preview/ folder.
 
 Reads one cycle of compact records and rewrites the Level 3 pages for
-candidates who do not already have a 2026 officials deeper-dive page.
+candidates who do not already have a 2026 officials Profile page.
 Sitting legislators stay linked from the county pages; this script does
 not touch those links or the officials pages.
 
@@ -894,7 +894,7 @@ def archive_detail_inner(record: dict, officials_slug: str | None) -> str:
         lines.append(f'<p class="cand-res">General result: {esc(result_sentence(record["general"]))}</p>')
     if officials_slug:
         lines.append(
-            f'<p><a href="../../../officials/{esc(officials_slug)}-deep.html">Officials deeper dive</a></p>'
+            f'<p><a href="../../../officials/{esc(officials_slug)}-deep.html">Officials profile</a></p>'
         )
     rows = []
     if record.get("occupation"):
@@ -1362,7 +1362,7 @@ def write_missing_detail(cycle: str, slug: str, candidate: dict, office: str, di
         if cycle == "2026-primary":
             official = sitting_slug(record, officials)
             if official and "officials/" not in inner:
-                link = f'<p><a href="../../../officials/{esc(official)}-deep.html">Officials deeper dive</a></p>'
+                link = f'<p><a href="../../../officials/{esc(official)}-deep.html">Officials profile</a></p>'
                 inner = inner.replace(
                     '<p class="cand-res cand-general-line">',
                     link + '\n          <p class="cand-res cand-general-line">',

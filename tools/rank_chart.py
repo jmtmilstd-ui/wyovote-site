@@ -1,4 +1,4 @@
-"""Rank-history chart for the legislator Deeper dive pages (approved design, Michael t587u-t589u, "add it" t597u).
+"""Rank-history chart for the legislator Profile pages (*-deep.html, formerly "Deeper dive") (approved design, Michael t587u-t589u, "add it" t597u).
 
 chart_svg(name, series, bands) -> inline SVG string
     series: [(year, rank_or_None, n_ranked, band_or_None), ...] one entry per year in the page's rank table.

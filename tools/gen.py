@@ -140,7 +140,7 @@ def build_year(Y):
           <p class="pf-sub">{title} · {chn} District {dist} · {party[1]}{served}</p>
           <p class="pf-links">{links}</p>
         </section>
-        <p class="pf-dive"><a class="pf-dive-btn" href="{s}-deep.html">Deeper dive →</a></p>
+        <p class="pf-dive"><a class="pf-dive-btn" href="{s}-deep.html">Profile →</a></p>
         <section class="pf-card" aria-labelledby="h-num">
           <h2 id="h-num">{Y} numbers <small>as of {lv}</small></h2>
           <div class="pf-tiles pf-tiles-4">
@@ -159,7 +159,7 @@ def build_year(Y):
           <h2 id="h-news">Views and News</h2>
           <p class="pf-none">No recent coverage found.</p>
         </section>
-        <p class="pf-deeper"><a href="{s}-deep.html">Deeper dive</a></p>
+        <p class="pf-deeper"><a href="{s}-deep.html">Profile</a></p>
         <p class="pf-foot">Ranks and bands are {'copied from the ' if Y >= 2021 else 'from the '}{src}. Preview page, built {BUILT}.</p>
       </div>
     </main>
@@ -182,7 +182,7 @@ def build_year(Y):
         <p class="back-row"><a class="back-btn" href="{s}.html">← Back to {nm}</a></p>
         <section class="pf-head" aria-labelledby="h-name">
           <h1 id="h-name">{nm}</h1>
-          <p class="pf-sub">Deeper dive · {chn} District {dist} · {Y}</p>
+          <p class="pf-sub">Profile · {chn} District {dist} · {Y}</p>
         </section>
         <section class="pf-card" aria-labelledby="h-rank">
           <h2 id="h-rank">Rank history</h2>
@@ -232,7 +232,7 @@ def build_year(Y):
       </div>
     </main>
 '''
-        dhead = dh.replace('<title>Bill Allemand — 2025 Deeper dive — WyoVote</title>', f'<title>{nm} — {Y} Deeper dive — WyoVote</title>') \
+        dhead = dh.replace('<title>Bill Allemand — 2025 Profile — WyoVote</title>', f'<title>{nm} — {Y} Profile — WyoVote</title>') \
                   .replace('content="Bill Allemand: 2025 ranks, bands and scored votes."', f'content="{nm}: {Y} ranks, bands and scored votes."') \
                   .replace('class="pf pf-2025"', f'class="pf pf-{Y}"')
         pages[f'{s}-deep.html'] = dhead + dmain + dfo

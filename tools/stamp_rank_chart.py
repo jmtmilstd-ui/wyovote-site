@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Put the rank-history chart (tools/rank_chart.py) on every legislator Deeper dive page, and make each
+"""Put the rank-history chart (tools/rank_chart.py) on every legislator Profile page (the *-deep.html pages, formerly "Deeper dive"), and make each
 rank-history row match ranking.py (counts = ranked members only). Idempotent: re-running replaces the chart.
 
     python3 tools/stamp_rank_chart.py [SITE_ROOT]      # default: the repo this file is in
