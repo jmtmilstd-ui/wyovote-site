@@ -170,3 +170,40 @@
       .catch(function () { fail(mount); });
   });
 })();
+
+/* Home Articles column: at most 4, none older than 15 days (Denver date).
+   The build (tools/build_home_articles.py) already applies the rule; this
+   repeats it in the browser so articles leave on time without a redeploy. */
+(function () {
+  var list = document.querySelector(".article-list[data-max-age-days]");
+  var prompt = document.querySelector(".archive-prompt");
+  var foot = document.querySelector(".home-side .column-foot");
+  if (!prompt) return;
+  function denverToday() {
+    try {
+      var p = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Denver", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(new Date());
+      var v = {};
+      p.forEach(function (x) { v[x.type] = x.value; });
+      return Date.UTC(Number(v.year), Number(v.month) - 1, Number(v.day));
+    } catch (e) {
+      var n = new Date();
+      return Date.UTC(n.getFullYear(), n.getMonth(), n.getDate());
+    }
+  }
+  var left = 0;
+  if (list) {
+    var maxAge = Number(list.getAttribute("data-max-age-days")) || 15;
+    var maxItems = Number(list.getAttribute("data-max-items")) || 4;
+    var today = denverToday();
+    Array.prototype.slice.call(list.querySelectorAll("li[data-date]")).forEach(function (li) {
+      var d = li.getAttribute("data-date").split("-");
+      var t = Date.UTC(Number(d[0]), Number(d[1]) - 1, Number(d[2]));
+      var age = Math.round((today - t) / 86400000);
+      if (isNaN(age) || age > maxAge || left >= maxItems) li.parentNode.removeChild(li);
+      else left += 1;
+    });
+    if (!left) list.parentNode.removeChild(list);
+  }
+  prompt.hidden = left > 0;
+  if (foot) foot.hidden = left === 0;
+})();
