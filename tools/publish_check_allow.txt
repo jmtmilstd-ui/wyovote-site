@@ -2941,8 +2941,12 @@ unreferenced:people/data/2026/zwo.json
 # User's Guide v1.1. Larger than 500 KB on purpose.
 size:guide/WyoVote-Users-Guide-v1.1.pdf
 
-# User's Guide v1.0 stays on disk so old links keep working. Pages now link to v1.1.
+# User's Guide v1.0 and v1.1 stay on disk so old links keep working. Pages now link to v1.2.
 unreferenced:guide/WyoVote-Users-Guide-v1.0.pdf
+unreferenced:guide/WyoVote-Users-Guide-v1.1.pdf
+
+# User's Guide v1.2. Larger than 500 KB on purpose.
+size:guide/WyoVote-Users-Guide-v1.2.pdf
 
 # Builds the 2021-2024 Officials archive. Not a site asset.
 unreferenced:tools/gen.py
