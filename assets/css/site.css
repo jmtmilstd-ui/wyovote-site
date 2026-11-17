@@ -3026,3 +3026,43 @@ a.official-btn.btn-out {
   font-size: 1rem;
   font-weight: 700;
 }
+
+/* Home: large User's Guide button under the page title (the footer link stays).
+   Full width on phones and tablets, gold on dark ink, no light gray. */
+.guide-top {
+  padding-top: 1.1rem;
+}
+
+.guide-top-btn {
+  display: inline-block;
+  padding: 0.85rem 1.6rem;
+  border: 3px solid #5c4306;
+  border-radius: 0.4rem;
+  background: #b8860b;
+  color: #142117;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: inset 0 -4px 0 #5c4306;
+}
+
+.guide-top-btn:hover,
+.guide-top-btn:focus-visible {
+  background: #d39b14;
+  color: #142117;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .guide-top-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media print {
+  .guide-top { display: none; }
+}
