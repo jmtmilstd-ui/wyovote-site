@@ -90,7 +90,7 @@
 
 .home-columns {
   display: grid;
-  grid-template-columns: minmax(0, 2.1fr) minmax(14rem, 1fr) minmax(11rem, 0.85fr);
+  grid-template-columns: minmax(0, 2.1fr) minmax(14rem, 1fr) minmax(14rem, 1fr);
   gap: 1.75rem;
   align-items: start;
   padding-top: 1.5rem;
@@ -3112,5 +3112,80 @@ a.official-btn.btn-out {
 
 .site-guide-list span {
   display: block;
+  color: #142117;
+}
+
+
+/* About-the-tab pages under /about/. Dark text, large type, phone first. */
+.about-tab-prose {
+  padding-bottom: 2rem;
+}
+
+.about-tab-prose ol {
+  margin: 0.35rem 0 0.9rem;
+  padding-left: 1.4rem;
+  color: #142117;
+  font-size: 14pt;
+}
+
+.about-tab-prose ol li {
+  margin: 0.35rem 0;
+  color: #142117;
+}
+
+.about-tab-go {
+  margin: 1.4rem 0 1.1rem;
+}
+
+.go-tab-btn {
+  display: inline-block;
+  padding: 0.85rem 1.5rem;
+  background: #1f5c2e;
+  color: #ffffff !important;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  border: 2px solid #0e2a18;
+  border-radius: 0.7rem;
+}
+
+.go-tab-btn:hover,
+.go-tab-btn:focus-visible {
+  background: #174726;
+  color: #ffffff !important;
+  border-color: #0e2a18;
+}
+
+@media (max-width: 1024px) {
+  .go-tab-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+
+.about-tab-also {
+  margin: 0.4rem 0 0;
+  font-size: 14pt;
+  line-height: 1.55;
+  color: #142117;
+}
+
+.about-tab-also a {
+  color: #0e2a18;
+  font-weight: 700;
+}
+
+.about-tab-also .is-current {
+  font-weight: 700;
+  color: #142117;
+}
+
+.about-tab-also-label {
+  display: inline;
+  margin-left: 0.55rem;
+  margin-right: 0.35rem;
   color: #142117;
 }
