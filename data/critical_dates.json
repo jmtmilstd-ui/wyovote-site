@@ -1,0 +1,41 @@
+{
+  "comment": "Hand-edited list of Critical Dates for the Current Schedule page. Past items are dropped daily by tools/schedule/build_schedule.py. Times are Mountain Time. designated_by is 'standing' for verified recurring constitutional or official-calendar items, or the name of the person who added a one-off item.",
+  "items": [
+    {
+      "date": "2027-01-04",
+      "time": "",
+      "title": "Elected officials assume office; legislators' terms begin",
+      "location": "",
+      "source_url": "https://sos.wyo.gov/Elections/Docs/2026/2026_Election_Calendar.pdf",
+      "designated_by": "standing",
+      "sort": 10
+    },
+    {
+      "date": "2027-01-12",
+      "time": "12:00 noon MT",
+      "title": "Start of the General Session",
+      "location": "House and Senate Chambers, State Capitol, Cheyenne",
+      "source_url": "https://wyoleg.gov/citizenEngagement/AttendLegSession",
+      "designated_by": "standing",
+      "sort": 20
+    },
+    {
+      "date": "2027-01-12",
+      "time": "12:00 noon MT",
+      "title": "Legislators take the oath of office",
+      "location": "House and Senate Chambers, State Capitol, Cheyenne",
+      "source_url": "https://wyoleg.gov/MediaRoomDocs/2025%20Joint%20Session%20News%20Release.pdf",
+      "designated_by": "standing",
+      "sort": 30
+    },
+    {
+      "date": "2027-01-13",
+      "time": "10:00 a.m. MT",
+      "title": "Joint Session",
+      "location": "House Chamber, State Capitol, Cheyenne",
+      "source_url": "https://www.wyoleg.gov/Calendar/20270113/Meeting",
+      "designated_by": "standing",
+      "sort": 40
+    }
+  ]
+}
