@@ -90,7 +90,7 @@
 
 .home-columns {
   display: grid;
-  grid-template-columns: minmax(0, 2.1fr) minmax(14rem, 1fr) minmax(11rem, 0.85fr);
+  grid-template-columns: minmax(0, 2.1fr) minmax(14rem, 1fr) minmax(14rem, 1fr);
   gap: 1.75rem;
   align-items: start;
   padding-top: 1.5rem;
@@ -3113,4 +3113,193 @@ a.official-btn.btn-out {
 .site-guide-list span {
   display: block;
   color: #142117;
+}
+
+
+/* About-the-tab pages under /about/. Dark text, large type, phone first. */
+.about-tab-prose {
+  padding-bottom: 2rem;
+}
+
+.about-tab-prose ol {
+  margin: 0.35rem 0 0.9rem;
+  padding-left: 1.4rem;
+  color: #142117;
+  font-size: 14pt;
+}
+
+.about-tab-prose ol li {
+  margin: 0.35rem 0;
+  color: #142117;
+}
+
+.about-tab-go {
+  margin: 1.4rem 0 1.1rem;
+}
+
+.go-tab-btn {
+  display: inline-block;
+  padding: 0.85rem 1.5rem;
+  background: #1f5c2e;
+  color: #ffffff !important;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  border: 2px solid #0e2a18;
+  border-radius: 0.7rem;
+}
+
+.go-tab-btn:hover,
+.go-tab-btn:focus-visible {
+  background: #174726;
+  color: #ffffff !important;
+  border-color: #0e2a18;
+}
+
+@media (max-width: 1024px) {
+  .go-tab-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+
+.about-tab-also {
+  margin: 0.4rem 0 0;
+  font-size: 14pt;
+  line-height: 1.55;
+  color: #142117;
+}
+
+.about-tab-also a {
+  color: #0e2a18;
+  font-weight: 700;
+}
+
+.about-tab-also .is-current {
+  font-weight: 700;
+  color: #142117;
+}
+
+.about-tab-also-label {
+  display: inline;
+  margin-left: 0.55rem;
+  margin-right: 0.35rem;
+  color: #142117;
+}
+
+
+/* How to get there: click-path diagrams on About-the-tab pages. */
+.howto-diagram {
+  margin: 0.55rem 0 1.15rem;
+  padding: 0;
+  border: 0;
+}
+
+.howto-diagram figcaption {
+  margin: 0 0 0.55rem;
+  font-size: 14pt;
+  font-weight: 700;
+  color: #142117;
+}
+
+.howto-path {
+  margin: 0 0 0.85rem;
+}
+
+.howto-path:last-child {
+  margin-bottom: 0;
+}
+
+.howto-path-label {
+  margin: 0 0 0.35rem;
+  font-size: 14pt;
+  font-weight: 700;
+  color: #142117;
+}
+
+.about-tab-prose ol.howto-steps {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 1.55rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-tab-prose ol.howto-steps li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0.55rem 0.65rem;
+  border: 2px solid #0e2a18;
+  border-radius: 0.7rem;
+  background: #ffffff;
+  color: #142117;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.about-tab-prose ol.howto-steps li:not(:last-child)::after {
+  content: "\2192";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  width: 1.55rem;
+  margin-top: 0;
+  transform: translateY(-50%);
+  color: #0e2a18;
+  font-size: 18pt;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  pointer-events: none;
+}
+
+@media (max-width: 639px) {
+  .about-tab-prose ol.howto-steps {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.45rem;
+  }
+
+  .about-tab-prose ol.howto-steps li {
+    flex: 0 0 auto;
+  }
+
+  .about-tab-prose ol.howto-steps li:not(:last-child)::after {
+    content: "\2193";
+    left: 50%;
+    top: 100%;
+    width: auto;
+    transform: translate(-50%, 0.15rem);
+  }
+}
+
+@media print {
+  .howto-diagram {
+    break-inside: avoid;
+  }
+
+  .about-tab-prose ol.howto-steps li {
+    background: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .about-tab-prose ol.howto-steps li:not(:last-child)::after {
+    color: #000000;
+  }
 }
