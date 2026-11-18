@@ -97,6 +97,14 @@
   padding-bottom: 2.5rem;
 }
 
+/* Wide desktop: move unused Reports stretch into the right-hand column
+   once Reports can stay wide enough for the session tiles. */
+@media (min-width: 1200px) {
+  .home-columns {
+    grid-template-columns: minmax(0, 1.5fr) minmax(14rem, 1fr) minmax(14rem, 1.6fr);
+  }
+}
+
 .home-columns h1,
 .home-columns h2 {
   margin: 0 0 0.75rem;
@@ -134,6 +142,27 @@
 
 #reports-note {
   margin: 0 0 0.55rem;
+}
+
+/* Home: keep General and Budget session columns close; the
+   two-page note matches that width. Saved width goes to the
+   right-hand Spotlight column via .home-columns. */
+.reports-sessions {
+  width: max-content;
+  max-width: 100%;
+}
+
+.reports-sessions #reports-note {
+  width: 0;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.home-columns .session-grid {
+  grid-template-columns: minmax(0, max-content) minmax(0, max-content);
+  width: max-content;
+  max-width: 100%;
+  justify-content: start;
 }
 
 .report-link,
@@ -3076,6 +3105,11 @@ a.official-btn.btn-out {
   border-radius: 0.35rem;
   background: #ffffff;
   color: #142117;
+}
+
+/* Space between Special and What's on WyoVote, only when a Special is shown. */
+#home-spotlight:has(.news-box-special) + .site-guide-box {
+  margin-top: 1.2rem; /* 24px at the 20px desktop root */
 }
 
 .site-guide-box h2 {
