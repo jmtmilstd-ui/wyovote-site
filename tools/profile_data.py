@@ -1,4 +1,4 @@
-"""Profile sections shared by tools/gen.py (2008-2025 Profile pages) and tools/stamp_profiles_2026.py (current Profiles).
+"""Profile sections shared by tools/gen.py (2014-2025 Profile pages) and tools/stamp_profiles_2026.py (current Profiles).
 Ranks and band labels only; coefficients are internal and never printed.
 
 issue_rows(Y, chamber, label) -> [(category, chamber_rank, overall_rank, band) or (category, None, None, note)]
