@@ -1,14 +1,21 @@
 #!/usr/bin/env python3
 """Build data/schedule.json and schedule/index.html from official sources.
 
-Upcoming events only (today onward, America/Denver). Past items are dropped
-each run. Critical Dates come first from data/critical_dates.json.
+Events from today through the next 60 days (America/Denver). Past items are
+dropped each run. Critical Dates come first from data/critical_dates.json
+and are shown even when they fall more than 60 days out.
 
   python3 -B tools/schedule/build_schedule.py [repo]
 
 During a legislative session, legislative sections keep the standard
 committee (and floor) schedule only; statewide office events are still
 included.
+
+TODO: Once Management Council adopts the 2027 General Session calendar
+(meeting Nov. 23, 2026), add the verified End of Session date to
+data/critical_dates.json (date, time, location, source URL). Do not list
+a tentative end date before then. The daily schedule rebuild will pick
+it up automatically and show it under Critical Dates.
 """
 from __future__ import annotations
 
@@ -65,21 +72,27 @@ JOINT_NAMES = {
     "J12": "Rules and Procedure",
 }
 
-OFFICE_SECTIONS = [
+HORIZON_DAYS = 60
+
+# The five statewide elected offices (not including House/Senate).
+FIVE_OFFICES = [
     ("governor", "Governor"),
     ("secretary-of-state", "Secretary of State"),
     ("auditor", "State Auditor"),
     ("treasurer", "State Treasurer"),
     ("superintendent", "Superintendent of Public Instruction"),
+]
+CHAMBERS = [
     ("house", "House"),
     ("senate", "Senate"),
 ]
+# Combined list kept for any office-or-chamber lookups.
+OFFICE_SECTIONS = FIVE_OFFICES + CHAMBERS
 
-# Boards of the five statewide officers. Each event is listed under every
-# participating office.
-SLIB_OFFICES = ["governor", "secretary-of-state", "auditor", "treasurer", "superintendent"]
-SBC_OFFICES = list(SLIB_OFFICES)
-CANVASS_OFFICES = ["governor", "secretary-of-state", "auditor", "treasurer"]
+# Boards the five statewide officials sit on are listed once, in this section,
+# not repeated under each office.
+BOARDS_ID = "boards"
+BOARDS_HEADING = "Boards of the Five Statewide Officials"
 
 # Kind-4 LSO calendar titles that are not statewide public meetings we keep
 # in office or committee sections (holidays, out-of-state councils).
@@ -220,6 +233,7 @@ def event_record(
     end_date: str = "",
     source_name: str = "",
     tentative: bool = False,
+    unverified: bool = False,
 ) -> dict:
     rec = {
         "date": date_s,
@@ -232,6 +246,7 @@ def event_record(
         "source_url": source_url,
         "source_name": source_name,
         "tentative": bool(tentative),
+        "unverified": bool(unverified),
     }
     return rec
 
@@ -566,7 +581,7 @@ def fetch_sbc_events(today: date) -> list[dict]:
                     date_s=d.isoformat(),
                     time_s="",
                     office="State Building Commission",
-                    section="sbc",
+                    section=BOARDS_ID,
                     title="State Building Commission meeting (tentative)",
                     location="Cheyenne (location to be posted)",
                     source_url=SBC_PAGE,
@@ -607,7 +622,7 @@ def fetch_slib_events(today: date) -> list[dict]:
                         date_s=d.isoformat(),
                         time_s=tm,
                         office="State Loan and Investment Board",
-                        section="slib",
+                        section=BOARDS_ID,
                         title=title,
                         location=loc,
                         source_url=SLIB_PAGE,
@@ -760,6 +775,7 @@ def load_critical_dates(path: Path, today: date) -> list[dict]:
             location=it.get("location") or "",
             source_url=it.get("source_url") or "",
             source_name="",
+            unverified=bool(it.get("unverified")),
         )
         rec["sort"] = it.get("sort", 100)
         out.append(rec)
@@ -798,7 +814,10 @@ def in_legislative_session(today: date, start: date | None, end: date | None) ->
 def section_defs(committees: list[dict]) -> list[tuple[str, str, str]]:
     """Return (section_id, heading, kind) in page order."""
     out = [("critical-dates", "Critical Dates", "critical")]
-    for sid, heading in OFFICE_SECTIONS:
+    for sid, heading in FIVE_OFFICES:
+        out.append((sid, heading, "office"))
+    out.append((BOARDS_ID, BOARDS_HEADING, "boards"))
+    for sid, heading in CHAMBERS:
         out.append((sid, heading, "office"))
     # Joint standing in number order, then management, then select A-Z.
     joint: list[tuple[str, str]] = []
@@ -866,38 +885,30 @@ def assign_lso_events(
                 continue
             if key in CRITICAL_KIND4:
                 continue
-            if "state loan" in key or "investment board" in key:
-                recs_section = "slib"
-                offices = SLIB_OFFICES
+            if "state loan" in key or "investment board" in key or "land commissioners" in key:
+                board_title = title_name
             elif "state building commission" in key:
-                recs_section = "sbc"
-                offices = SBC_OFFICES
+                board_title = title_name
             elif "canvass" in key:
-                recs_section = "canvass"
-                offices = CANVASS_OFFICES
+                board_title = title_name
             else:
                 # Unrecognized kind-4 item: skip rather than misfile
                 print("skip kind4:", title_name, file=sys.stderr)
                 continue
-            time_s = lso_time_label(ev, start, utc)
-            loc = lso_location(ev)
-            src = lso_source_url(ev, start)
-            for oid, heading in OFFICE_SECTIONS:
-                if oid in offices:
-                    out.append(
-                        event_record(
-                            date_s=start_d.isoformat(),
-                            end_date=end_d.isoformat() if end_d != start_d else "",
-                            time_s=time_s,
-                            office=heading,
-                            section=oid,
-                            title=title_name,
-                            location=loc,
-                            source_url=src,
-                            source_name="Wyoming Legislature calendar",
-                            tentative=(ev.get("category") == "Tentative"),
-                        )
-                    )
+            out.append(
+                event_record(
+                    date_s=start_d.isoformat(),
+                    end_date=end_d.isoformat() if end_d != start_d else "",
+                    time_s=lso_time_label(ev, start, utc),
+                    office=BOARDS_HEADING,
+                    section=BOARDS_ID,
+                    title=board_title,
+                    location=lso_location(ev),
+                    source_url=lso_source_url(ev, start),
+                    source_name="Wyoming Legislature calendar",
+                    tentative=(ev.get("category") == "Tentative"),
+                )
+            )
             continue
 
         owner = owner_from_event(ev, committees)
@@ -934,27 +945,17 @@ def assign_lso_events(
     return out, owner_full
 
 
-def merge_board_into_offices(events: list[dict], board_section: str, offices: list[str]) -> list[dict]:
-    extra: list[dict] = []
-    seen = set()
-    for ev in events:
-        if ev["section"] != board_section:
-            continue
-        key = (ev["date"], ev["title"], ev["time"])
-        if key in seen:
-            continue
-        seen.add(key)
-        for oid, heading in OFFICE_SECTIONS:
-            if oid not in offices:
-                continue
-            rec = dict(ev)
-            rec["section"] = oid
-            rec["office"] = heading
-            extra.append(rec)
-    # drop the generic board-section copies
-    kept = [e for e in events if e["section"] != board_section]
-    return kept + extra
 
+def within_horizon(ev: dict, today: date, until: date) -> bool:
+    """Critical Dates are kept whenever they are still upcoming.
+    Other events must overlap today through today + HORIZON_DAYS."""
+    start = parse_date(ev.get("date") or "")
+    if not start or start < today:
+        return False
+    if ev.get("section") == "critical-dates":
+        return True
+    end = parse_date(ev.get("end_date") or "") or start
+    return start <= until and end >= today
 
 
 def _board_family(title: str) -> str:
@@ -969,17 +970,20 @@ def _board_family(title: str) -> str:
 
 
 def dedupe(events: list[dict]) -> list[dict]:
-    # Collapse the same board meeting listed from two official pages.
+    # Collapse the same board meeting listed from two official pages, once
+    # in the boards section.
     best: dict = {}
     leftover = []
-    office_ids = {oid for oid, _ in OFFICE_SECTIONS}
     for ev in events:
         family = _board_family(ev.get("title") or "")
-        if family and ev["section"] in office_ids | {"sbc", "slib"}:
-            key = (ev["section"], ev["date"], family)
+        if family and ev["section"] in {BOARDS_ID, "sbc", "slib", "canvass"}:
+            key = (BOARDS_ID, ev["date"], family)
             prev = best.get(key)
             if prev is None or len(ev.get("title") or "") > len(prev.get("title") or ""):
-                best[key] = ev
+                rec = dict(ev)
+                rec["section"] = BOARDS_ID
+                rec["office"] = BOARDS_HEADING
+                best[key] = rec
             continue
         leftover.append(ev)
     events = leftover + list(best.values())
@@ -1072,7 +1076,7 @@ def render_page(
         "      </section>",
         '      <section class="page-body schedule-page">',
         '        <div class="wrap page-prose">',
-        "          <p>Statewide meetings and events for the five elected state offices, the House, the Senate, and the Legislature's current formal committees. Past items are removed daily. Times are Mountain Time.</p>",
+        "          <p>Statewide meetings and events posted for the next 60 days, for the five elected state offices, the boards those offices sit on, the House, the Senate, and the Legislature's current formal committees. Critical Dates are listed even when they fall later. Past items are removed daily. Times are Mountain Time.</p>",
         session_note,
         '          <p class="schedule-updated">Last updated: %s</p>' % esc(label_updated(generated)),
         '          <nav class="schedule-jump" aria-label="On this page">',
@@ -1101,7 +1105,10 @@ def render_page(
                     parts.append('                <span class="sched-time">%s</span></p>' % esc(ev["time"]))
                 else:
                     parts.append("                </p>")
-                parts.append('                <p class="sched-title">%s</p>' % esc(ev["title"]))
+                title_html = esc(ev["title"])
+                if ev.get("unverified"):
+                    title_html += ' <span class="sched-unverified">(unverified)</span>'
+                parts.append('                <p class="sched-title">%s</p>' % title_html)
                 if ev.get("location"):
                     parts.append('                <p class="sched-loc">%s</p>' % esc(ev["location"]))
                 if ev.get("source_url"):
@@ -1152,7 +1159,7 @@ def main() -> int:
     critical = load_critical_dates(critical_path, today)
     start, end = session_window(critical_path, today)
     during = in_legislative_session(today, start, end)
-    print("today", today.isoformat(), "in_session", during)
+    print("today", today.isoformat(), "horizon", (today + timedelta(days=HORIZON_DAYS)).isoformat(), "in_session", during)
 
     year = committee_year_for(today)
     print("committee year", year)
@@ -1197,9 +1204,11 @@ def main() -> int:
     print("SBE upcoming", len(sbe))
     events.extend(sbe)
 
-    events = merge_board_into_offices(events, "sbc", SBC_OFFICES)
-    events = merge_board_into_offices(events, "slib", SLIB_OFFICES)
     events = dedupe(events)
+    until = today + timedelta(days=HORIZON_DAYS)
+    before = len(events)
+    events = [e for e in events if within_horizon(e, today, until)]
+    print("horizon through", until.isoformat(), "kept", len(events), "of", before)
 
     payload = {
         "generated_at": generated.isoformat(),
