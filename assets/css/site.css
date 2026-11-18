@@ -3066,3 +3066,51 @@ a.official-btn.btn-out {
 @media print {
   .guide-top { display: none; }
 }
+
+/* Home: "What's on WyoVote" box under the Special (right column).
+   One line per top-menu button. Dark text, no light gray. */
+.site-guide-box {
+  margin: 1.1rem 0 0;
+  padding: 0.9rem 1rem 1rem;
+  border: 2px solid #1f5d34;
+  border-radius: 0.35rem;
+  background: #ffffff;
+  color: #142117;
+}
+
+.site-guide-box h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.2rem;
+  line-height: 1.25;
+  color: #142117;
+}
+
+.site-guide-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-guide-list li {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #142117;
+}
+
+.site-guide-list li + li {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid #1f5d34;
+}
+
+.site-guide-list a {
+  display: inline-block;
+  font-weight: 700;
+  color: #1f5d34;
+}
+
+.site-guide-list span {
+  display: block;
+  color: #142117;
+}
