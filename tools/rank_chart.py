@@ -353,9 +353,8 @@ def chart_svg(name, series, bands, check=None) -> str:
     for y in years:
         o.append(f'<text x="{xs[y]:.1f}" y="{PLOT_Y + PLOT_H + 72:.1f}" font-size="{FS}" font-weight="700" font-family="{FONT}" '
                  f'text-anchor="middle" fill="{INK}">\'{y % 100:02d}</text>')
-    yr = f"{years[0]}–{years[-1]}"
     o.append(f'<text x="{plot_x + plot_w / 2:.1f}" y="{H - 18}" font-size="{FS}" font-weight="700" font-family="{FONT}" '
-             f'text-anchor="middle" fill="{INK}">Year ({yr})</text>')
+             f'text-anchor="middle" fill="{INK}">Year</text>')
     o.append("</svg>")
     return "".join(o)
 

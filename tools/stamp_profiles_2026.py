@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Extend the 93 current (2026) Profiles (officials/<slug>-deep.html) back through 2008: add the 2008-2020 rows
-to Missed votes and Committee record for the years each person served, and set the header and description
-year range to 2008-2026. Band history and the rank chart already
-cover 2008-2026 (tools/stamp_rank_chart.py). Idempotent: years already in a table are left alone.
+"""Extend the 93 current (2026) Profiles (officials/<slug>-deep.html) back through the first year of the current window: add earlier missed-vote and committee rows
+for the years each person served in that window, and keep the header and description
+in timeless wording. Band history and the rank chart already
+cover the current window (tools/stamp_rank_chart.py). Idempotent: years already in a table are left alone.
 
     python3 -B tools/stamp_profiles_2026.py [SITE_ROOT]
 """
@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import profile_data
-sys.argv = ['gen.py', ROOT, '/tmp/stamp-profiles-unused', '2026']; os.environ.setdefault('OA_FIRST', '2008')
+sys.argv = ['gen.py', ROOT, '/tmp/stamp-profiles-unused', '2026']; os.environ.setdefault('OA_FIRST', '2015')
 G = {'__file__': f'{HERE}/gen.py', '__name__': 'gen_lib'}
 exec(compile(open(f'{HERE}/gen.py').read(), f'{HERE}/gen.py', 'exec'), G)
 BYP, S26, FIRST = G['BYP'], G['S26'], G['FIRST']
@@ -67,9 +67,11 @@ def add_comm(t, p, rel):
     STATS['committee rows'] += len(rows); STATS['pages with committee rows added'] += 1
     return t[:i] + sec + t[j:]
 
-# Michael, Nov 16 (t619u): the 2026 Profiles now cover 2008-2026, so the header and description say so.
-RANGE_FIX = [('Ranks and bands are copied from the published WyoVote rating reports for 2021–2026.', 'Ranks and bands are copied from the published WyoVote rating reports for 2008–2026.'),
-             ('missed votes and committees from the published WyoVote reports, 2021–2026.', 'missed votes and committees from the published WyoVote reports, 2008–2026.')]
+# Standing text stays timeless (no current-year numbers; no rolling start year).
+RANGE_FIX = [('Ranks and bands are copied from the published WyoVote rating reports for 2021–2026.', 'Ranks and bands are copied from the published WyoVote rating reports.'),
+             ('Ranks and bands are copied from the published WyoVote rating reports for 2008–2026.', 'Ranks and bands are copied from the published WyoVote rating reports.'),
+             ('missed votes and committees from the published WyoVote reports, 2021–2026.', 'missed votes and committees from the published WyoVote reports.'),
+             ('missed votes and committees from the published WyoVote reports, 2008–2026.', 'missed votes and committees from the published WyoVote reports.')]
 def fix_ranges(t):
     for a, b in RANGE_FIX:
         if a in t: t = t.replace(a, b); STATS['range sentences'] += 1
