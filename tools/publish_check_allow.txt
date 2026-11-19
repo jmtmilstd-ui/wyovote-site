@@ -2968,3 +2968,9 @@ unreferenced:favicon-32x32.png
 unreferenced:data/home-articles.json
 unreferenced:tools/build_home_articles.py
 unreferenced:tools/expire_home_articles.py
+
+# Current Schedule builder, its notes, and its source data. Not site pages.
+unreferenced:data/critical_dates.json
+unreferenced:data/schedule.json
+unreferenced:tools/schedule/README.md
+unreferenced:tools/schedule/build_schedule.py
