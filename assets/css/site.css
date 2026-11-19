@@ -3643,3 +3643,84 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
 .county-officials a:hover {
   color: #0e2a18;
 }
+
+/* County officeholder pages, compact layout: each office is a bordered light box,
+   boxes sit in a grid (3 columns wide desktop, 2 medium, 1 phone). A January change
+   stays on the holder's line. Names 18pt, January text 15pt, headings 22pt. */
+.co-group {
+  margin: 1.4rem 0 0;
+}
+
+.co-boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+}
+
+@media (min-width: 701px) {
+  .co-boxes {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .co-boxes {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.co-box {
+  margin: 0;
+  padding: 0.6rem 0.8rem 0.5rem;
+  border: 1px solid #142117;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #142117;
+}
+
+.co-box-title {
+  margin: 0 0 0.25rem;
+  font-size: 18pt;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #142117;
+}
+
+.co-box-sub {
+  margin: 0.4rem 0 0.1rem;
+  font-size: 15pt;
+  font-weight: 700;
+  color: #142117;
+}
+
+.co-box .co-names {
+  margin: 0;
+}
+
+.co-box .co-office-note {
+  margin: 0.3rem 0 0;
+  font-size: 15pt;
+}
+
+.co-box .co-next {
+  display: inline;
+  margin: 0;
+  font-size: 15pt;
+}
+
+.co-link-line {
+  margin: 0 0 0.5rem;
+  font-size: 18pt;
+  line-height: 1.4;
+  color: #142117;
+}
+
+.co-shared-wrap {
+  margin-bottom: 1.5rem;
+}
+
+.co-shared {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
