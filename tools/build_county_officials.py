@@ -7,11 +7,20 @@ writes counties/<slug>.html for every JSON file, or for one county with --county
 
     python3 tools/build_county_officials.py
     python3 tools/build_county_officials.py --county weston
+    python3 tools/build_county_officials.py --county weston --as-of 2027-01-04
 
-The existing county report (v1.1 PDF) is rendered at the top of the page. The new
-officeholders section is below it, and the page version comes from the JSON
-(page_version, currently v2.0). Other counties can be added later by dropping in
-a JSON file with the same shape; no generator change is required.
+The existing county report (the v1.1 PDF) is rendered at the top of the page
+and remains the Print report; there is no v2.0 PDF. The officeholders section
+is below it. The page version comes from the JSON (page_version, currently v2.0).
+
+Holders who will be replaced have a `succeeding` entry. Before `term_switch_date`
+(2027-01-04 for Weston, the day the new terms begin), the page shows today's
+holder with an "In January: Name" line. A rebuild on or after that date, using
+the America/Denver calendar (or `--as-of`), promotes the elect to the holder
+and drops the January line. See data/county_officials/SCHEMA.md.
+
+Other counties can be added later by dropping in a JSON file with the same
+shape; no generator change is required.
 
 Does not write the production manifest, open a pull request, or publish.
 """
@@ -23,7 +32,12 @@ import html
 import importlib.util
 import json
 import os
+from copy import deepcopy
+from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+DENVER = ZoneInfo("America/Denver")
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "county_officials"
@@ -40,6 +54,85 @@ _SPEC.loader.exec_module(_REPORTS)
 
 def esc(text: str) -> str:
     return html.escape(text, quote=True)
+
+
+def denver_today() -> date:
+    return datetime.now(DENVER).date()
+
+
+def parse_iso_date(value: str, label: str) -> date:
+    try:
+        return date.fromisoformat(value)
+    except ValueError as exc:
+        raise SystemExit(f"Invalid {label}: {value!r}") from exc
+
+
+def switch_reached(switch: str | None, as_of: date) -> bool:
+    """True when as_of is on or after the ISO switch date (Denver calendar)."""
+    if not switch:
+        return False
+    return as_of >= parse_iso_date(switch, "term_switch_date")
+
+
+def promote_holder(holder: dict, default_switch: str | None, as_of: date) -> dict:
+    """If the term-switch date has arrived, the elect becomes the holder."""
+    nxt = holder.get("succeeding")
+    if not nxt:
+        return holder
+    switch = nxt.get("switch_date") or default_switch
+    if not switch_reached(switch, as_of):
+        return holder
+    promoted = {
+        "name": nxt["name"],
+        "sources": nxt.get("sources") or holder.get("sources") or [],
+    }
+    if nxt.get("party") or holder.get("party"):
+        promoted["party"] = nxt.get("party") or holder.get("party")
+    if nxt.get("href"):
+        promoted["href"] = nxt["href"]
+    if nxt.get("role"):
+        promoted["role"] = nxt["role"]
+    if nxt.get("ballot_name"):
+        promoted["ballot_name"] = nxt["ballot_name"]
+    return promoted
+
+
+def apply_term_switch(data: dict, as_of: date) -> dict:
+    """Return a copy of the county data with elects promoted when due.
+
+    On or after term_switch_date, each holder who has a succeeding entry is
+    replaced by that person and the succeeding (In January) line is dropped.
+    An office may set succeeding.switch_date to override the county date.
+    """
+    data = deepcopy(data)
+    default_switch = data.get("term_switch_date")
+
+    def map_offices(offices: list[dict] | None) -> None:
+        for office in offices or []:
+            office["holders"] = [
+                promote_holder(holder, default_switch, as_of)
+                for holder in office.get("holders") or []
+            ]
+
+    pending = False
+    for group in data.get("groups") or []:
+        map_offices(group.get("offices"))
+        for precinct in group.get("precincts") or []:
+            map_offices(precinct.get("offices"))
+        for office in (group.get("offices") or []) + [
+            office
+            for precinct in group.get("precincts") or []
+            for office in precinct.get("offices") or []
+        ]:
+            for holder in office.get("holders") or []:
+                if holder.get("succeeding"):
+                    pending = True
+
+    if pending:
+        data["intro"] = data.get("intro") or ""
+    else:
+        data["intro"] = data.get("intro_after_switch") or "Names are the people in office today."
+    return data
 
 
 def party_suffix(party: str | None) -> str:
@@ -181,7 +274,8 @@ def report_fragment(pdf: Path, dest: Path) -> str:
     }
 
 
-def page_html(data: dict, dest: Path) -> str:
+def page_html(data: dict, dest: Path, as_of: date) -> str:
+    data = apply_term_switch(data, as_of)
     number = data["county_number"]
     county = data["county"]
     version = data.get("page_version") or "v2.0"
@@ -276,19 +370,26 @@ def load_county(path: Path) -> dict:
     return data
 
 
-def build_one(path: Path) -> Path:
+def build_one(path: Path, as_of: date) -> Path:
     slug = path.stem
     dest = OUT / f"{slug}.html"
     data = load_county(path)
     dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text(page_html(data, dest), encoding="utf-8")
+    dest.write_text(page_html(data, dest, as_of), encoding="utf-8")
     return dest
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--county", help="Build only this county slug (filename without .json).")
+    parser.add_argument(
+        "--as-of",
+        metavar="YYYY-MM-DD",
+        help="Build as of this America/Denver date instead of today. "
+        "Use to preview or apply the term switch (Weston: 2027-01-04).",
+    )
     args = parser.parse_args()
+    as_of = parse_iso_date(args.as_of, "--as-of") if args.as_of else denver_today()
     files = sorted(DATA.glob("*.json"))
     if args.county:
         files = [DATA / f"{args.county}.json"]
@@ -297,8 +398,8 @@ def main() -> None:
     if not files:
         raise SystemExit(f"No county JSON files in {DATA}")
     for path in files:
-        dest = build_one(path)
-        print(f"wrote {dest.relative_to(ROOT)} ({dest.stat().st_size} bytes)")
+        dest = build_one(path, as_of)
+        print(f"wrote {dest.relative_to(ROOT)} ({dest.stat().st_size} bytes) as of {as_of.isoformat()}")
 
 
 if __name__ == "__main__":
