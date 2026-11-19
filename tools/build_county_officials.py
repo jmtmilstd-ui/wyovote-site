@@ -357,11 +357,13 @@ def page_html(data: dict, dest: Path, as_of: date, slug: str) -> str:
     groups = [g for g in data["groups"] if g["id"] not in SHARED_IDS and not g.get("precincts")]
     has_precincts = any(g.get("precincts") for g in data["groups"])
     rendered = "\n".join(render_group(group, dest) for group in groups)
-    links = ['<p class="co-link-line">Federal and statewide officials: '
-             '<a href="../counties.html#federal-statewide">see the Counties page</a>.</p>']
+    # Large, easy-to-find buttons (precinct page first, most prominent).
+    buttons = []
     if has_precincts:
-        links.append(f'<p class="co-link-line">Precinct committee people: '
-                     f'<a href="{esc(slug)}-precincts.html">see the {esc(county)} County precinct page</a>.</p>')
+        buttons.append(f'<a class="co-btn co-btn-primary" href="{esc(slug)}-precincts.html">'
+                       f'{esc(county)} County precinct committee people</a>')
+    buttons.append('<a class="co-btn" href="../counties.html#federal-statewide">Federal and statewide officials</a>')
+    links = [f'<nav class="co-btns" aria-label="More officeholders">{"".join(buttons)}</nav>']
     body = f"""          <p class="report-kicker">County page · {esc(version)}</p>
           <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(report['pdf_href'])}">Print report (PDF)</a></p>
           {report['body']}
@@ -384,7 +386,7 @@ def precinct_page_html(data: dict, dest: Path, as_of: date, slug: str) -> str | 
     title = f"{county_title(data)} Precinct Committee People"
     rendered = "\n".join(render_group(group, dest) for group in groups)
     body = f"""          <section class="county-officials" id="precinct-committee-people">
-            <p class="co-link-line"><a href="{esc(slug)}.html">Back to the {esc(county)} County page</a> for the county report and officeholders.</p>
+            <nav class="co-btns" aria-label="Back to county"><a class="co-btn co-btn-primary" href="{esc(slug)}.html">← Back to the {esc(county)} County page</a></nav>
 {rendered}
           </section>"""
     return page_shell(title, f"Precinct committee people for {county} County, Wyoming.",

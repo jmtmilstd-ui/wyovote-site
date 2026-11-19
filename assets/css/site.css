@@ -3724,3 +3724,63 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
   padding-top: 0;
   border-top: 0;
 }
+
+/* County page buttons: precinct page and federal/statewide links, and the
+   precinct page Back button. Dark text on white, strong dark-green border,
+   44px+ tap targets, side by side on desktop, stacked full width on a phone. */
+.co-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 0.4rem 0 1.2rem;
+}
+
+.county-officials a.co-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.6rem 1.2rem;
+  background: #ffffff;
+  color: #0e2a18;
+  border: 3px solid #1f5c2e;
+  border-radius: 0.6rem;
+  font-size: 18pt;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+}
+
+.county-officials a.co-btn-primary {
+  border-width: 4px;
+  background: #eef6ef;
+}
+
+.county-officials a.co-btn:hover,
+.county-officials a.co-btn:focus-visible {
+  background: #e2efe4;
+  color: #0e2a18;
+  text-decoration: underline;
+  outline: 3px solid #0e2a18;
+  outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+  .co-btns {
+    flex-direction: column;
+  }
+
+  .county-officials a.co-btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media print {
+  .county-officials a.co-btn {
+    background: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+  }
+}
