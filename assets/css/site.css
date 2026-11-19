@@ -3521,3 +3521,125 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
     max-height: 4in;
   }
 }
+
+/* County officeholders (v2.0 county pages)
+   Names 18pt (about 1.29x the original 14pt). Section headings (Federal,
+   Statewide, and the rest) 22pt, larger still. "Current officeholders" 24pt.
+   All counties inherit these classes. Text stays #142117 / #0e2a18, never light gray.
+   The two-column group grid stacks below 701px so a 390px phone stays readable;
+   office/name rows also stack on that width. */
+.county-officials {
+  margin-top: 2.2rem;
+  padding-top: 1.4rem;
+  border-top: 2px solid #142117;
+  color: #142117;
+}
+
+.county-officials h2,
+.county-officials h3,
+.county-officials h4,
+.county-officials p,
+.county-officials li,
+.county-officials span {
+  color: #142117;
+}
+
+.county-officials h2 {
+  margin: 0 0 0.45rem;
+  font-size: 24pt;
+}
+
+.co-intro,
+.co-group-note,
+.co-office-note {
+  margin: 0 0 0.9rem;
+  font-size: 16pt;
+  line-height: 1.45;
+}
+
+.co-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.15rem 1.6rem;
+}
+
+@media (min-width: 701px) {
+  .co-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.co-group h3 {
+  margin: 0 0 0.5rem;
+  font-size: 22pt;
+  font-weight: 700;
+}
+
+.co-office {
+  margin: 0 0 0.65rem;
+}
+
+.co-line {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 42%) minmax(0, 1fr);
+  gap: 0.35rem 0.7rem;
+  align-items: start;
+  margin: 0 0 0.32rem;
+  font-size: 18pt;
+  line-height: 1.35;
+}
+
+@media (max-width: 700px) {
+  .co-line {
+    grid-template-columns: 1fr;
+    gap: 0.08rem 0;
+  }
+}
+
+.co-label {
+  font-weight: 700;
+}
+
+.co-value,
+.co-names {
+  margin: 0;
+}
+
+.co-names {
+  padding: 0;
+  list-style: none;
+  font-size: 18pt;
+  line-height: 1.35;
+}
+
+.co-names li {
+  margin: 0 0 0.18rem;
+}
+
+.co-office-heading,
+.co-precinct-name {
+  margin: 0.55rem 0 0.15rem;
+  font-size: 18pt;
+  font-weight: 700;
+}
+
+.co-precinct {
+  margin: 0 0 0.8rem;
+}
+
+.co-next {
+  display: block;
+  margin-top: 0.05rem;
+  color: #0e2a18;
+  font-size: 15pt;
+  font-weight: 400;
+}
+
+.county-officials a {
+  color: #142117;
+  text-decoration: underline;
+}
+
+.county-officials a:hover {
+  color: #0e2a18;
+}

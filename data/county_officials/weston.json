@@ -1,0 +1,1247 @@
+{
+  "county": "Weston",
+  "county_number": 21,
+  "page_version": "v2.0",
+  "as_of": "2026-11-18",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_21_Weston_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 1 (S01)",
+          "layout": "office-and-name",
+          "note": "Also covers Campbell and Crook.",
+          "holders": [
+            {
+              "name": "Ogden Driskill",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://wyoleg.gov/Legislators/2026/S/1972"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_21_Weston_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S01, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/driskill.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 3 (S03)",
+          "layout": "office-and-name",
+          "note": "Also covers Goshen and Niobrara.",
+          "holders": [
+            {
+              "name": "Cheri Steinmetz",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2011"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_21_Weston_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S03, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/steinmetz.html",
+              "ballot_name": "Cheri E Steinmetz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 1 (H01)",
+          "layout": "office-and-name",
+          "note": "Also covers Crook.",
+          "holders": [
+            {
+              "name": "Chip Neiman",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://wyoleg.gov/Legislators/2026/House/2070"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_21_Weston_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/neiman.html",
+              "succeeding": {
+                "name": "Troy Claycomb",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H01",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "House District 2 (H02)",
+          "layout": "office-and-name",
+          "note": "Also covers Goshen and Niobrara.",
+          "holders": [
+            {
+              "name": "JD Williams",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_21_Weston_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H02, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/williams.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Nathan Todd",
+              "sources": [
+                {
+                  "label": "Weston County Commissioners page (Chairman)",
+                  "url": "https://www.westongov.com/county-commissioners/"
+                },
+                {
+                  "label": "Elected 2022 and re-elected in the latest general",
+                  "url": "candidates/2022-local/weston.html"
+                },
+                {
+                  "label": "Weston County official general summary",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R",
+              "role": "Chairman"
+            },
+            {
+              "name": "Ed Wagoner",
+              "sources": [
+                {
+                  "label": "Weston County Commissioners page (Vice-Chairman)",
+                  "url": "https://www.westongov.com/county-commissioners/"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/weston.html"
+                }
+              ],
+              "party": "R",
+              "role": "Vice Chairman"
+            },
+            {
+              "name": "Garrett Borton",
+              "sources": [
+                {
+                  "label": "Weston County Commissioners page",
+                  "url": "https://www.westongov.com/county-commissioners/"
+                },
+                {
+                  "label": "Elected 2022 and re-elected in the latest general",
+                  "url": "candidates/2022-local/weston.html"
+                },
+                {
+                  "label": "Weston County official general summary",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Marty Ertman",
+              "sources": [
+                {
+                  "label": "Weston County Commissioners page",
+                  "url": "https://www.westongov.com/county-commissioners/"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/weston.html"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Vera Huber",
+              "sources": [
+                {
+                  "label": "Weston County Commissioners page",
+                  "url": "https://www.westongov.com/county-commissioners/"
+                },
+                {
+                  "label": "Elected 2022 and re-elected in the latest general",
+                  "url": "candidates/2022-local/weston.html"
+                },
+                {
+                  "label": "Weston County official general summary",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Amber Green",
+              "sources": [
+                {
+                  "label": "Weston County Clerk page (photo caption: County Clerk Amber Green)",
+                  "url": "https://www.westongov.com/county-clerk/"
+                },
+                {
+                  "label": "Weston County official special minutes, July 29, 2026 (appointment as Acting County Clerk)",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/08/July-29-2026-Minutes.pdf"
+                },
+                {
+                  "label": "Weston County official minutes, September 15, 2026 (Clerk Amber Green present)",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/10/September-15-2026-Minutes.pdf"
+                },
+                {
+                  "label": "Weston County official general summary, elected",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected as Amber Prell-Green",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R",
+              "notes": "Appointed Acting County Clerk on July 29, 2026, after a mid-term vacancy; later served as County Clerk. Elected in the latest general, so the office does not change in January. The county clerk page caption names Amber Green; the page contact block still lists Becky Hadlock and appears stale. Ballot name: Amber Prell-Green.",
+              "ballot_name": "Amber Prell-Green"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Susan Overman",
+              "sources": [
+                {
+                  "label": "Weston County Treasurer page",
+                  "url": "https://www.westongov.com/county-treasurer/"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/weston.html"
+                },
+                {
+                  "label": "Weston County official general summary, re-elected",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R",
+              "notes": "County site also styles the name Susan (Susie) Overman. Re-elected in the latest general."
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kara Lenardson",
+              "sources": [
+                {
+                  "label": "Weston County Assessor page",
+                  "url": "https://www.westongov.com/county-assessor/"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/weston.html"
+                },
+                {
+                  "label": "Weston County official general summary, re-elected",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bryan Colvard",
+              "sources": [
+                {
+                  "label": "Weston County Sheriff page",
+                  "url": "https://www.westongov.com/county-sheriff/"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected as Bryan E. Colvard",
+                  "url": "candidates/2022-local/weston.html"
+                },
+                {
+                  "label": "Weston County official general summary, re-elected",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected as Bryan E. Colvard",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Bryan E. Colvard"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Michael Stulken",
+              "sources": [
+                {
+                  "label": "Weston County Attorney page",
+                  "url": "https://www.westongov.com/county-attorney/"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected as Michael W. Stulken",
+                  "url": "candidates/2022-local/weston.html"
+                },
+                {
+                  "label": "Weston County official general summary, re-elected",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected as Michael Stulken",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Michael W. Stulken"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Riki Kaiser",
+              "sources": [
+                {
+                  "label": "Weston County Clerk of District Court page",
+                  "url": "https://www.westongov.com/clerk-of-district-court/"
+                },
+                {
+                  "label": "Weston County official minutes, February 4, 2025 (appointment)",
+                  "url": "https://www.westongov.com/wp-content/uploads/2025/02/February-4-2025-Minutes.pdf"
+                },
+                {
+                  "label": "Weston County official general summary, elected",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R",
+              "notes": "Appointed after Tina Cote resigned effective Dec. 31, 2024. Official county page lists Riki Kaiser as Clerk of District Court. Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott E. Beachler",
+              "sources": [
+                {
+                  "label": "Weston County Coroner page",
+                  "url": "https://www.westongov.com/county-coroner/"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/weston.html"
+                },
+                {
+                  "label": "Weston County official general summary, re-elected",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file, elected",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Republican precinct committeemen and committeewomen elected at the latest primary, from the official Weston County primary precinct results. Democratic precinct races were write-in only; no named Democratic winners were certified.",
+      "precincts": [
+        {
+          "id": "1-1",
+          "name": "Precinct 1-1 Newcastle Outside",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jon Tidyman",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Rick Wehri",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Megan Stith",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Marty Ertman",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "name": "Precinct 1-2 Newcastle Outside",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bill Lambert",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Ed Wagoner",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Marcia Lambert",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jill Pischke",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2-1",
+          "name": "Precinct 2-1 Osage Area",
+          "offices": [
+            {
+              "office": "Republican Committeeman",
+              "layout": "office-and-name",
+              "holders": [
+                {
+                  "name": "Clay Branscom",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 1",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewoman",
+              "layout": "office-and-name",
+              "holders": [
+                {
+                  "name": "Charleen Haynes",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 1",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3-1",
+          "name": "Precinct 3-1 Upton Outside",
+          "offices": [
+            {
+              "office": "Republican Committeeman",
+              "layout": "office-and-name",
+              "holders": [
+                {
+                  "name": "Curtis Rankin",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 1",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewoman",
+              "layout": "office-and-name",
+              "holders": [
+                {
+                  "name": "Roxie Taft",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 1",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4-1",
+          "name": "Precinct 4-1 Upton Inside",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Nathan Todd",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Cody Barritt",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Chelsie Todd",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Ragina Barritt",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5-1",
+          "name": "Precinct 5-1 Newcastle Inside",
+          "offices": [
+            {
+              "office": "Republican Committeeman",
+              "layout": "office-and-name",
+              "holders": [
+                {
+                  "name": "Matt Conzelman",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 1",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kim Conzelman",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Teresa I. Gross",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "name": "Precinct 5-2 Newcastle Inside",
+          "offices": [
+            {
+              "office": "Republican Committeeman",
+              "layout": "office-and-name",
+              "holders": [
+                {
+                  "name": "Robert W. Akers",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 1",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewoman",
+              "layout": "office-and-name",
+              "holders": [
+                {
+                  "name": "Joanna L. Akers",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 1",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "name": "Precinct 5-3 Newcastle Inside",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kolby Pisciotti",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jason Jenkins",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Riki Kaiser",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Suzanne Burrough",
+                  "sources": [
+                    {
+                      "label": "Weston County official primary precinct results, Vote For 2",
+                      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -74,19 +74,14 @@ unreferenced:tools/publish_check_allow.txt
 # GitHub Action that runs the publish check. Not a site asset.
 unreferenced:.github/workflows/publish-check.yml
 
-# Linked Word download of the A002 research report. Kept over 500 KB on purpose.
+# A002 feature article Word copy. Kept over 500 KB on purpose.
 size:articles/a002/A002_v1.0_2026_Legislature_Election_Results.docx
 
-# Linked PDF of the A005 research report. Kept over 500 KB on purpose.
-size:articles/a005/A005_v0.6_High_Plains_Blue_Swing_Research.pdf
 
-# A009 feature article downloads and photo. Kept over 500 KB on purpose.
-size:articles/a009/A009_v0.3_Equality_State_Research.pdf
+# A009 feature article Word copy and photo. Kept over 500 KB on purpose.
 size:articles/a009/A009_v0.3_Equality_State.docx
 size:articles/a009/A009_franchise_highsmith.jpg
 
-# A010 research PDF. Kept over 500 KB on purpose.
-size:articles/a010/A010_v0.3_Official_State_Symbols_Research.pdf
 
 # A016 feature article Word copy. Kept over 500 KB on purpose.
 size:articles/a016/A016_v0.1_Grand_Teton_Park.docx
@@ -2986,3 +2981,8 @@ unreferenced:.gitignore
 
 # A017 feature article Word copy. Kept over 500 KB on purpose.
 size:articles/a017/A017_v0.1_Eatons_Ranch_Family.docx
+
+# Weston County v2.0 officeholder source and builder. Not site pages.
+unreferenced:data/county_officials/SCHEMA.md
+unreferenced:data/county_officials/weston.json
+unreferenced:tools/build_county_officials.py
