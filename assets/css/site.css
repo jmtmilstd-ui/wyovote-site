@@ -3337,3 +3337,112 @@ a.official-btn.btn-out {
     color: #000000;
   }
 }
+
+/* Home: Current Schedule sits with How the Ratings Work, under Rank/Alpha. */
+.home-action-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Current Schedule page: phone/tablet first, stacked event cards. */
+.schedule-page .schedule-updated {
+  margin: 0.4rem 0 1rem;
+  font-weight: 700;
+  color: #142117;
+}
+
+.schedule-jump {
+  margin: 0 0 1.5rem;
+  padding: 0.9rem 1.1rem 1rem;
+  border: 1px solid #ddd9ce;
+  border-radius: 0.55rem;
+  background: #ffffff;
+}
+
+.schedule-jump p {
+  margin: 0 0 0.35rem;
+  font-weight: 700;
+  color: #142117;
+}
+
+.schedule-jump ol {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.2rem 1.25rem;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+@media (min-width: 640px) {
+  .schedule-jump ol {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.sched-section {
+  margin-top: 2rem;
+}
+
+.sched-section h2 {
+  margin: 0 0 0.6rem;
+  scroll-margin-top: 0.75rem;
+  color: #142117;
+}
+
+.sched-empty {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid #ddd9ce;
+  border-radius: 0.45rem;
+  background: #ffffff;
+  color: #142117;
+}
+
+.sched-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sched-item {
+  margin: 0 0 0.65rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #ddd9ce;
+  border-left: 6px solid #146b31;
+  border-radius: 0.45rem;
+  background: #ffffff;
+  color: #142117;
+}
+
+.sched-item p {
+  margin: 0;
+}
+
+.sched-when {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.85rem;
+  font-weight: 700;
+}
+
+.sched-date {
+  font-family: var(--font-serif, Georgia, serif);
+}
+
+.sched-title {
+  margin-top: 0.3rem;
+  font-weight: 700;
+}
+
+.sched-loc,
+.sched-src {
+  margin-top: 0.2rem;
+  color: #142117;
+}
+
+.sched-unverified {
+  color: #142117;
+  font-weight: 700;
+}
