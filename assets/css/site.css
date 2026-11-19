@@ -3522,7 +3522,12 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
   }
 }
 
-/* County officeholders (v2.0 county pages) */
+/* County officeholders (v2.0 county pages)
+   Names 18pt (about 1.29x the original 14pt). Section headings (Federal,
+   Statewide, and the rest) 22pt, larger still. "Current officeholders" 24pt.
+   All counties inherit these classes. Text stays #142117 / #0e2a18, never light gray.
+   The two-column group grid stacks below 701px so a 390px phone stays readable;
+   office/name rows also stack on that width. */
 .county-officials {
   margin-top: 2.2rem;
   padding-top: 1.4rem;
@@ -3541,14 +3546,14 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
 
 .county-officials h2 {
   margin: 0 0 0.45rem;
-  font-size: 16pt;
+  font-size: 24pt;
 }
 
 .co-intro,
 .co-group-note,
 .co-office-note {
   margin: 0 0 0.9rem;
-  font-size: 14pt;
+  font-size: 16pt;
   line-height: 1.45;
 }
 
@@ -3565,13 +3570,13 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
 }
 
 .co-group h3 {
-  margin: 0 0 0.45rem;
-  font-size: 14pt;
+  margin: 0 0 0.5rem;
+  font-size: 22pt;
   font-weight: 700;
 }
 
 .co-office {
-  margin: 0 0 0.55rem;
+  margin: 0 0 0.65rem;
 }
 
 .co-line {
@@ -3579,9 +3584,16 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
   grid-template-columns: minmax(7.5rem, 42%) minmax(0, 1fr);
   gap: 0.35rem 0.7rem;
   align-items: start;
-  margin: 0 0 0.28rem;
-  font-size: 14pt;
+  margin: 0 0 0.32rem;
+  font-size: 18pt;
   line-height: 1.35;
+}
+
+@media (max-width: 700px) {
+  .co-line {
+    grid-template-columns: 1fr;
+    gap: 0.08rem 0;
+  }
 }
 
 .co-label {
@@ -3596,30 +3608,30 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
 .co-names {
   padding: 0;
   list-style: none;
-  font-size: 14pt;
+  font-size: 18pt;
   line-height: 1.35;
 }
 
 .co-names li {
-  margin: 0 0 0.15rem;
+  margin: 0 0 0.18rem;
 }
 
 .co-office-heading,
 .co-precinct-name {
   margin: 0.55rem 0 0.15rem;
-  font-size: 14pt;
+  font-size: 18pt;
   font-weight: 700;
 }
 
 .co-precinct {
-  margin: 0 0 0.7rem;
+  margin: 0 0 0.8rem;
 }
 
 .co-next {
   display: block;
   margin-top: 0.05rem;
   color: #0e2a18;
-  font-size: 12pt;
+  font-size: 15pt;
   font-weight: 400;
 }
 
