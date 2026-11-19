@@ -2981,3 +2981,8 @@ unreferenced:.gitignore
 
 # A017 feature article Word copy. Kept over 500 KB on purpose.
 size:articles/a017/A017_v0.1_Eatons_Ranch_Family.docx
+
+# Weston County v2.0 officeholder source and builder. Not site pages.
+unreferenced:data/county_officials/SCHEMA.md
+unreferenced:data/county_officials/weston.json
+unreferenced:tools/build_county_officials.py
