@@ -3513,4 +3513,11 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
   body:has(.article-body) .article-figure {
     break-inside: avoid;
   }
+
+  /* Keep each photo and its credit line on one page without a big gap. */
+  body:has(.article-body) .article-figure img {
+    width: auto;
+    max-width: 100%;
+    max-height: 4in;
+  }
 }
