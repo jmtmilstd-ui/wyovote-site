@@ -1,0 +1,1022 @@
+{
+  "county": "Sublette",
+  "county_number": 23,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_23_Sublette_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 14 (S14)",
+          "layout": "office-and-name",
+          "note": "Also covers Sweetwater, Lincoln and Uinta.",
+          "holders": [
+            {
+              "name": "Laura Pearson",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_23_Sublette_113_v1.1.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 20 (H20)",
+          "layout": "office-and-name",
+          "note": "Also covers Lincoln.",
+          "holders": [
+            {
+              "name": "Mike Schmid",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2121"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_23_Sublette_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Albert Sommers",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H20",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/schmid.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lynn Bernard",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County commissioners page",
+                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/sublette.html"
+                }
+              ],
+              "role": "Chairman"
+            },
+            {
+              "name": "Dave Stephens",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County commissioners page",
+                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/sublette.html"
+                }
+              ],
+              "role": "Vice Chairman"
+            },
+            {
+              "name": "Sam White",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County commissioners page",
+                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/sublette.html"
+                }
+              ]
+            },
+            {
+              "name": "Doug Vickrey",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County commissioners page",
+                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/sublette.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Andy Nelson",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Sublette County official general results, County Commissioner",
+                    "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Mack Bradley",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County commissioners page",
+                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/sublette.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Robin Schamber",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Sublette County official general results, County Commissioner",
+                    "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ],
+          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jessica Rice",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County Board of Commissioners page (County Clerk)",
+                  "url": "https://www.sublettecountywy.gov/86/Board-of-County-Commissioners"
+                },
+                {
+                  "label": "Sublette County official general results, elected",
+                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Emily Paravicini",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County treasurer page",
+                  "url": "https://www.sublettecountywy.gov/140/Treasurer"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/sublette.html"
+                },
+                {
+                  "label": "Sublette County official general results, re-elected",
+                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "ballot_name": "Emily D. Paravicini"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Laila Illoway",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County assessor page",
+                  "url": "https://www.sublettecountywy.gov/64/Assessor"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/sublette.html"
+                },
+                {
+                  "label": "Sublette County official general results, re-elected",
+                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "KC Lehr",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County sheriff page",
+                  "url": "https://www.sublettecountywy.gov/139/sublette-county-sheriffs-office"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/sublette.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Tom Hatch",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Sublette County official general results, County Sheriff",
+                    "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Clayton M. Melinkovich",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County attorney page",
+                  "url": "https://www.sublettecountywy.gov/87/Attorney"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/sublette.html"
+                },
+                {
+                  "label": "Sublette County official general results, re-elected",
+                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Janet K. Montgomery",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County clerk of district court page",
+                  "url": "https://www.sublettecountywy.gov/165/Clerk-of-District-Court"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/sublette.html"
+                },
+                {
+                  "label": "Sublette County official general results, re-elected",
+                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Covill",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Sublette County coroner page",
+                  "url": "https://www.sublettecountywy.gov/94/Coroner"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/sublette.html"
+                },
+                {
+                  "label": "Sublette County official general results, re-elected",
+                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Sublette County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-1",
+          "name": "Precinct 1-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dave Lankford",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Greg Schamber",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Shad Cooper",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mary Lankford",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Robin Schamber",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Katie Cooper",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dave Racich",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-3",
+          "name": "Precinct 1-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Albert Sommers",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Coke Landers",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Brendan Fitzsimmons",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Debbie Vickrey",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jonita Sommers",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Darcy L. Young",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-4",
+          "name": "Precinct 1-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joel Bousman",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Fender Allison",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Susan G. Bousman",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jasmine Allison",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-1",
+          "name": "Precinct 2-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brian David",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jakobi Burbank",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Paige Phillips",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-2",
+          "name": "Precinct 2-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jim D. Robinson",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Fran Robinson",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-1",
+          "name": "Precinct 4-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Eric Marincic",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Laura Marincic",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kent Van",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-2",
+          "name": "Precinct 4-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Herman Siems",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Erin Siems",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rollin D. Sparrowe",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bettina Sparrowe",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-5-1",
+          "name": "Precinct 5-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bill Winney",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Louise Winney",
+                  "sources": [
+                    {
+                      "label": "Sublette County official primary results",
+                      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results",
+    "primary_results": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election",
+    "checked": "2026-11-19"
+  }
+}

@@ -1,0 +1,4355 @@
+{
+  "county": "Natrona",
+  "county_number": 1,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 2 (S02)",
+          "layout": "office-and-name",
+          "note": "Also covers Converse.",
+          "holders": [
+            {
+              "name": "Brian Boner",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2021"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/boner.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 27 (S27)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bill Landen",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/434"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Kevin Helling",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, S27",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/landen.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 28 (S28)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jim Anderson",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1985"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/anderson.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 29 (S29)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bob Ide",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2089"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Lisa Engebretsen",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, S29",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/ide.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 30 (S30)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Charles Scott",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/294"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/scott.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 35 (H35)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tony Locke",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2106"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Christopher Dresang",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H35",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/locke.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 36 (H36)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Art Washut",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2058"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H36, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/washut.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 37 (H37)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Steve Harshman",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/717"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Brian Costello",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H37",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/harshman.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 38 (H38)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jayme Lien",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2126"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert L. Hendry",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H38",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/lien.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 56 (H56)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Elissa Campbell",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2133"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H56, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/campbell-elissa.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 57 (H57)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Julie Jarvis",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2134"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H57, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/jarvis.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 58 (H58)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bill Allemand",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2114"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H58, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/allemand.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 59 (H59)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "J.R. Riggins",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2135"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H59, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/riggins.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 62 (H62)",
+          "layout": "office-and-name",
+          "note": "Also covers Converse.",
+          "holders": [
+            {
+              "name": "Kevin Campbell",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2136"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H62, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Kevin J. Campbell",
+              "href": "officials/campbell-kevin.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jim Milne",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County commissioners page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                }
+              ],
+              "role": "Chairman",
+              "succeeding": {
+                "name": "Ray Pacheco",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Natrona County official general results, County Commissioner",
+                    "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Casey Coates",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County commissioners page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/natrona.html"
+                }
+              ],
+              "role": "Vice Chairman"
+            },
+            {
+              "name": "Dallas Laird",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County commissioners page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                },
+                {
+                  "label": "Natrona County official general results, re-elected",
+                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Peter Nicolaysen",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County commissioners page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Matt Keating",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Natrona County official general results, County Commissioner",
+                    "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Dave North",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County commissioners page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/natrona.html"
+                }
+              ]
+            }
+          ],
+          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tracy Good",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County clerk page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                },
+                {
+                  "label": "Natrona County official general results, re-elected",
+                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tom Doyle",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County treasurer page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Heather Bryan",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Natrona County official general results, County Treasurer",
+                    "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tammy Saulsbury",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County assessor page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                },
+                {
+                  "label": "Natrona County official general results, re-elected",
+                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "John Harlin",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County sheriff page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                },
+                {
+                  "label": "Natrona County official general results, re-elected",
+                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "District Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan J. Itzen",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                },
+                {
+                  "label": "Natrona County official general results, re-elected",
+                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name.",
+              "ballot_name": "Daniel J. Itzen"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jill Kiester",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County clerk of district court page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                },
+                {
+                  "label": "Natrona County official general results, re-elected",
+                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "James Whipps",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Natrona County coroner page",
+                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/natrona.html"
+                },
+                {
+                  "label": "Natrona County official general results, re-elected",
+                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "ballot_name": "James L. Whipps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Natrona County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-1",
+          "name": "Precinct 1-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Patrick \"Pat\" Sweeney",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kelle Burger",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Deborah D. McGregor",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-2",
+          "name": "Precinct 1-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Clifford Womack",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Connie Womack",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-3",
+          "name": "Precinct 1-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Shea Ward",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Barr Zeidler Ii",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Amy Womack",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Stacey Zeidler",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-4",
+          "name": "Precinct 1-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tim Stubson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jason Dewitt",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Susan Stubson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Alaina M. Stedillie",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Becky L. Steensland",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-5",
+          "name": "Precinct 1-5",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dick Jay",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Elissa Campbell",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jane Ifland",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-6",
+          "name": "Precinct 1-6",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Nathan Redding",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Thomas Myler",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ashley Myler",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Renea Redding",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "William (Bill) Jaworski",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Paula Jaworski",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-7",
+          "name": "Precinct 1-7",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bradley Erickson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lindsey Erickson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-9",
+          "name": "Precinct 1-9",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jim Anderson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Joseph McGinley",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Pete Fox",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Diane McGinley",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Ronna Boril",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Beth Worthen",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Christopher Kost",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-11",
+          "name": "Precinct 1-11",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Frank D. Jeffers Jr",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Pamela Mills",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-12",
+          "name": "Precinct 1-12",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jeffrey Sleep",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Stephanie Clark-Sleep",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-1",
+          "name": "Precinct 2-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Stuart A. Hill",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Shan Sorensen",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Eileen A. Hill",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Melinda Schweda",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Janet De Vries",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-2",
+          "name": "Precinct 2-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Matt Keating",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jennifer Keating",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-4",
+          "name": "Precinct 2-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Zachary Schneider",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kim Walker",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-6",
+          "name": "Precinct 2-6",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Clark Jensen",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Diemer True",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Shane True",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Pat Thomas",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lisa Engebretsen",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Joann True",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kathy Sanford Thomas",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Linda L. Jones",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Claudia Heaney",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-7",
+          "name": "Precinct 2-7",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Steven Freel",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Brad Cundy",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Cody James Weinrich",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mathew Brown",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jayme Lien",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jan Cundy",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Sarah Bieber",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Wendy Wilson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dennis H. Bangen",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-8",
+          "name": "Precinct 2-8",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Doug Bergeron",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Brian Wagner",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mike Bingle-Davis",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lisa Wilkinson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Linda Bergeron",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Esther Wagner",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Marron Bingle-Davis",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Catherine McQueen",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-9",
+          "name": "Precinct 2-9",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "John Brodrecht",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jim Wall",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ada Wall",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-10",
+          "name": "Precinct 2-10",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Andy Elston",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Cameron S. Walker",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Fred Sanders",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Annie Sanders",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Susan Schroeder",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Patricia Robison",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-2",
+          "name": "Precinct 3-2",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jill Wright",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Ally Garner",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Whitney Wharton",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-3",
+          "name": "Precinct 3-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Keith B. Goodenough",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Elijah Leinen",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Debra L. Cheatham",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Janie C. Wait",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-4",
+          "name": "Precinct 3-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jonathan Patterson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "William Ward",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Julie Jarvis",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jeanette Ward",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Liz Batton",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-5",
+          "name": "Precinct 3-5",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "James A. Anderson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Michael \"Mike\" G. Eathorne",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jennifer Dyer",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Cody Anderson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-6",
+          "name": "Precinct 3-6",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Peter Wold",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Joe Macguire",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Larry King",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jim Corkery",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Marla Speas Wold",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Emily King",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Lisa Scroggins",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Crystal Macguire",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-8",
+          "name": "Precinct 3-8",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Steve Forgey",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Tom Lane",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Shirley Forgey",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jennifer Lane",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-9",
+          "name": "Precinct 3-9",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Donald Siemens",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jason Loose",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Cheryl A. Siemens",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-10",
+          "name": "Precinct 3-10",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bruce A. Hinchey",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Austin Hinchey",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Tony Locke",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Thomas W. Shanor",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Eric Schlidt",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Greyson Buckingham",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jason Meyers",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Erich Schmidt",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Glenda Catchpole",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Karen Hinchey",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Marcia Neumiller",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Marissa Hinchey",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Tassma Powers",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Brittany Buckingham",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jayme Locke",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mary Schmidt",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kathryn Morgan",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-1",
+          "name": "Precinct 4-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dale Shelden",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Greg Flesvig",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Laura Johnson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Crystal Rodgers",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dacia Edwards",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-2",
+          "name": "Precinct 4-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Peter C. Nicolaysen",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Paul C. Bertoglio",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Bob Brechtel",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Gene Vandeest",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tiffany Gamble",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jackie Bertoglio",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Leann Brechtel",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Max Jacobson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-7-1",
+          "name": "Precinct 7-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Guy Chapman",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Paula Chapman",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-7-2",
+          "name": "Precinct 7-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bill Allemand",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mary Owens",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-8-1",
+          "name": "Precinct 8-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Michael Howe",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jimmy Skovgard",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Stephen West",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "John Gudger",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Leah Juarez",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jeanne Yetter",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Darcie Gudger",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-8-2",
+          "name": "Precinct 8-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Robert L. Eldredge",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Shianne Huston",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-8-3",
+          "name": "Precinct 8-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Curt Simpson Ii",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Zach Houghtaling",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Cathi Carr",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Phyllis Simpson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-8-4",
+          "name": "Precinct 8-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Burt Andreen",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Tom Reeder",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Tom Jones",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Angela Berry",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Connie Reeder",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Renee Penton-Jones",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joan Brust",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-8-5",
+          "name": "Precinct 8-5",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brian Childress",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Dustin Smart",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Dan Sabrosky",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kent Hopkins",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jenifer Hopkins",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Melissa Childress",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kyla Alvey",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Virginia Smart",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-9-1",
+          "name": "Precinct 9-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dave North",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Dave True",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Stephen Brown",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Scott Wells",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Amy Gerlock",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Virginia Babcock",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Helen Brown",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Melanie True",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Laurie Longtine",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-11-1",
+          "name": "Precinct 11-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Shad Forgey",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Janel Moore",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-11-3",
+          "name": "Precinct 11-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tom Walters",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kade S. Walters",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-11-4",
+          "name": "Precinct 11-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jim Milne",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-12-2",
+          "name": "Precinct 12-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Clark McPherson",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rebecca Sedar",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-13-1",
+          "name": "Precinct 13-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Heath Hornecker",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jaime R. Hornecker",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-13-2",
+          "name": "Precinct 13-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Robert L. Hendry",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Leslie Hendry",
+                  "sources": [
+                    {
+                      "label": "Natrona County official primary results",
+                      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary",
+    "primary_results": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF",
+    "checked": "2026-11-19"
+  }
+}

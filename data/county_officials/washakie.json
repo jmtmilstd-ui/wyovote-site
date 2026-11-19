@@ -1,0 +1,727 @@
+{
+  "county": "Washakie",
+  "county_number": 20,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_20_Washakie_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 20 (S20)",
+          "layout": "office-and-name",
+          "note": "Also covers Fremont, Hot Big Horn, Springs and Park.",
+          "holders": [
+            {
+              "name": "Ed Cooper",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2068"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_20_Washakie_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/cooper.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 27 (H27)",
+          "layout": "office-and-name",
+          "note": "Also covers Big Horn.",
+          "holders": [
+            {
+              "name": "Martha Lawley",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2102"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_20_Washakie_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H27, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/lawley.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Morgan Martinez",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County commissioners page",
+                  "url": "https://www.washakiecountywy.gov/169/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/washakie.html"
+                },
+                {
+                  "label": "Washakie County official general results, re-elected",
+                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Terrence D. Wolf",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County commissioners page",
+                  "url": "https://www.washakiecountywy.gov/169/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/washakie.html"
+                },
+                {
+                  "label": "Washakie County official general results, re-elected",
+                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Tom Schmeltzer",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County commissioners page",
+                  "url": "https://www.washakiecountywy.gov/169/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/washakie.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lily Rakness Parra",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County clerk page",
+                  "url": "https://www.washakiecountywy.gov/182/Departments"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/washakie.html"
+                },
+                {
+                  "label": "Washakie County official general results, re-elected",
+                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Doris Kern",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County treasurer page",
+                  "url": "https://www.washakiecountywy.gov/226/Treasurer"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/washakie.html"
+                },
+                {
+                  "label": "Washakie County official general results, re-elected",
+                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Nancy Quinn",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County staff directory (County Assessor)",
+                  "url": "https://www.washakiecountywy.gov/directory.aspx"
+                }
+              ],
+              "succeeding": {
+                "name": "Bobby Swalstad",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Washakie County official general results, County Assessor",
+                    "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Austin T. Brookwell",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County sheriff page",
+                  "url": "https://www.washakiecountywy.gov/225/Sheriff"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/washakie.html"
+                },
+                {
+                  "label": "Washakie County official general results, re-elected",
+                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Anthony Barton",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County attorney page",
+                  "url": "https://www.washakiecountywy.gov/193/Attorney"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/washakie.html"
+                },
+                {
+                  "label": "Washakie County official general results, re-elected",
+                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mirian Hansen",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County Clerk of District Court page",
+                  "url": "https://www.washakiecountywy.gov/204/Clerk-of-District-Court"
+                },
+                {
+                  "label": "Washakie County official general results, elected",
+                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jeffrey Lapp",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Washakie County coroner page",
+                  "url": "https://www.washakiecountywy.gov/205/Coroner"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/washakie.html"
+                },
+                {
+                  "label": "Washakie County official general results, re-elected",
+                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "ballot_name": "Jeffrey D. Lapp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Washakie County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-3-1",
+          "name": "Precinct 3-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ernie Beckley",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-5-1",
+          "name": "Precinct 5-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Roger Lawley",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Gary Mitchell",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Martha Lawley",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Rebecca George",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mandy Weaver",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-5-2",
+          "name": "Precinct 5-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brad Horath",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Courtney Seghetti",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-5-3",
+          "name": "Precinct 5-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Armando Parra Ii",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Tim Young",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lily Rakness Parra",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Tami Young",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Matt Naber",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Theresa Livingston",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-5-5",
+          "name": "Precinct 5-5",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Landis Benson",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Nick Nickelson",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brenda Ferguson",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Janet G. Benson",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Yolanda Campos",
+                  "sources": [
+                    {
+                      "label": "Washakie County official primary results",
+                      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General",
+    "primary_results": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS",
+    "checked": "2026-11-19"
+  }
+}

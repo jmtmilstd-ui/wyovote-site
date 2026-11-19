@@ -1,0 +1,812 @@
+{
+  "county": "Hot Springs",
+  "county_number": 15,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_15_Hot_Springs_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 20 (S20)",
+          "layout": "office-and-name",
+          "note": "Also covers Fremont and Park.",
+          "holders": [
+            {
+              "name": "Ed Cooper",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2068"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_15_Hot_Springs_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/cooper.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 28 (H28)",
+          "layout": "office-and-name",
+          "note": "Also covers Big Horn, Fremont and Park.",
+          "holders": [
+            {
+              "name": "John Winter",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2056"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_15_Hot_Springs_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Allen Hogg",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H28",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/winter.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bob Aguiar",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Hot Springs County commissioners page",
+                  "url": "https://hscounty.com/government/commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/hot-springs.html"
+                }
+              ],
+              "role": "Chairman"
+            },
+            {
+              "name": "Paul Galovich",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Hot Springs County commissioners page",
+                  "url": "https://hscounty.com/government/commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/hot-springs.html"
+                }
+              ],
+              "role": "Vice-Chairman",
+              "succeeding": {
+                "name": "Chip Axtell",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Hot Springs County official general results, County Commissioner",
+                    "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Tom Ryan",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Hot Springs County commissioners page",
+                  "url": "https://hscounty.com/government/commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/hot-springs.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Phillip Scheel",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Hot Springs County official general results, County Commissioner",
+                    "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ],
+          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Becky Kersten",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Hot Springs County clerk page",
+                  "url": "https://hscounty.com/departments/clerk"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/hot-springs.html"
+                },
+                {
+                  "label": "Hot Springs County official general results, re-elected",
+                  "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Julie Mortimore",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Hot Springs County treasurer page",
+                  "url": "https://hscounty.com/departments/treasurer"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/hot-springs.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Stacia Noorda",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Hot Springs County official general results, County Treasurer",
+                    "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Daniel Webber",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Hot Springs County assessor page",
+                  "url": "https://hscounty.com/departments/assessor"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/hot-springs.html"
+                },
+                {
+                  "label": "Hot Springs County official general results, re-elected",
+                  "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jerimie Kraushaar",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Hot Springs County sheriff page",
+                  "url": "https://hscounty.com/departments/sheriff"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/hot-springs.html"
+                },
+                {
+                  "label": "Hot Springs County official general results, re-elected",
+                  "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jill Logan",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Hot Springs County attorney page",
+                  "url": "https://hscounty.com/departments/attorney"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/hot-springs.html"
+                },
+                {
+                  "label": "Hot Springs County official general results, re-elected",
+                  "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kris McNeff",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Hot Springs County clerk of district court page",
+                  "url": "https://hscounty.com/departments/clerk-of-court"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/hot-springs.html"
+                },
+                {
+                  "label": "Hot Springs County official general results, re-elected",
+                  "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Mortimore",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/hot-springs.html"
+                },
+                {
+                  "label": "Hot Springs County official general results, re-elected",
+                  "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Hot Springs County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-1",
+          "name": "Precinct 1-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jerry D. Williams",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Chuck Cooper",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Meri Ann Dorman",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Stephanie Conrad",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "John V. Fenton",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Traci Moriarity",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-2",
+          "name": "Precinct 1-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Shawn Mohr",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Trystan Ryan Tuttle",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Melissa Mohr",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Sienna Galovich",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Natalie Strauss",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-1",
+          "name": "Precinct 2-1",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Barbara J. Petty",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Georgeanne Hammond",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-1",
+          "name": "Precinct 3-1",
+          "offices": [
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Danita Anne Sayers",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-1",
+          "name": "Precinct 4-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Chip Axtell",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mike Baker",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Clay Vanantwerp",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Phyllis Baker",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Chris Bentley",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Shurie Scheel",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Larry Alwin",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Barbara Rice",
+                  "sources": [
+                    {
+                      "label": "Hot Springs County official primary results",
+                      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://hscounty.com/component/edocman/2026-hot-springs-co-general-election-offical-results/download?Itemid=100",
+    "primary_results": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100",
+    "checked": "2026-11-19"
+  }
+}

@@ -1,0 +1,1451 @@
+{
+  "county": "Lincoln",
+  "county_number": 12,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 14 (S14)",
+          "layout": "office-and-name",
+          "note": "Also covers Sweetwater, Sublette and Uinta.",
+          "holders": [
+            {
+              "name": "Laura Pearson",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 16 (S16)",
+          "layout": "office-and-name",
+          "note": "Also covers Teton.",
+          "holders": [
+            {
+              "name": "Dan Dockstader",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1048"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/dockstader.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 18 (H18)",
+          "layout": "office-and-name",
+          "note": "Also covers Sweetwater and Uinta.",
+          "holders": [
+            {
+              "name": "Scott Heiner",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2074"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Kenneth D Roberts",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H18",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/heiner.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 20 (H20)",
+          "layout": "office-and-name",
+          "note": "Also covers Sublette.",
+          "holders": [
+            {
+              "name": "Mike Schmid",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2121"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Albert Sommers",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H20",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/schmid.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 21 (H21)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "McKay Erickson",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2122"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H21, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "McKay L. Erickson",
+              "href": "officials/erickson.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 22 (H22)",
+          "layout": "office-and-name",
+          "note": "Also covers Teton.",
+          "holders": [
+            {
+              "name": "Andrew Byron",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2099"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H22, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/byron.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Teri Bowers",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County commissioners page",
+                  "url": "https://www.lincolncountywy.gov/government/county_commissioners/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/lincoln.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Jake Long",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Lincoln County official general results, County Commissioner",
+                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Kent Connelly",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County commissioners page",
+                  "url": "https://www.lincolncountywy.gov/government/county_commissioners/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/lincoln.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Jesica Lozier",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Lincoln County official general results, County Commissioner",
+                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Mel Shumway",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County commissioners page",
+                  "url": "https://www.lincolncountywy.gov/government/county_commissioners/index.php"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/lincoln.html"
+                }
+              ]
+            }
+          ],
+          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "April Brunski",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County clerk page",
+                  "url": "https://www.lincolncountywy.gov/government/clerk/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/lincoln.html"
+                },
+                {
+                  "label": "Lincoln County official general results, re-elected",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jerry Greenfield",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County Treasurer page",
+                  "url": "https://www.lincolncountywy.gov/government/treasurer/index.php"
+                }
+              ],
+              "succeeding": {
+                "name": "Joey K. Antilla",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Lincoln County official general results, County Treasurer",
+                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Debbie Larson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County assessor page",
+                  "url": "https://www.lincolncountywy.gov/government/assessor/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/lincoln.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Jason Rosas",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Lincoln County official general results, County Assessor",
+                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "M. Shane Johnson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County Sheriff page",
+                  "url": "https://www.lincolncountywy.gov/government/sheriff/index.php"
+                },
+                {
+                  "label": "Lincoln County official general results, elected",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Spencer Allred",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County attorney page",
+                  "url": "https://www.lincolncountywy.gov/government/attorney/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/lincoln.html"
+                },
+                {
+                  "label": "Lincoln County official general results, re-elected",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "ballot_name": "Spencer L. Allred"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kenneth D. Roberts",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County clerk of district court page",
+                  "url": "https://www.lincolncountywy.gov/government/district_court/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/lincoln.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Jenny Clarke",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Lincoln County official general results, Clerk of District Court",
+                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dain Schwab",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Lincoln County coroner page",
+                  "url": "https://www.lincolncountywy.gov/government/coroner.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/lincoln.html"
+                },
+                {
+                  "label": "Lincoln County official general results, re-elected",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Lincoln County primary results. No named Democratic winners were certified. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-1",
+          "name": "Precinct 1-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kenneth D. Roberts",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Destry Dearden",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kent Connelly",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jamie Thornock",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Ember Oakley",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Riley Jo Heward",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-4",
+          "name": "Precinct 1-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ken Kuluski",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-7",
+          "name": "Precinct 1-7",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ellie Bienz",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-8",
+          "name": "Precinct 1-8",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rick Marquardt",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dawn Marquardt",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-1",
+          "name": "Precinct 2-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lance Oviatt",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Brock Brown",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jason Nielsen",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "John Erickson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Margaret Tueller",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Marion Izatt",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Vicky Little",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-2",
+          "name": "Precinct 2-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Evan J. Simpson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bev Simpson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-4",
+          "name": "Precinct 2-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Anthony Cazier",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "M. Shane Johnson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Teressa Cazier",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Janet R. Erickson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-5",
+          "name": "Precinct 2-5",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jake Long",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jeff Wolfley",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Tom Wood",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Marti Halverson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Lou Ann Henderson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-6",
+          "name": "Precinct 2-6",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dan Dockstader",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Brian G. Andrews",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kimberly Dockstader",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Chera L. Nelson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-7",
+          "name": "Precinct 2-7",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "McKay L. Erickson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Justin Rollin Gardner",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Lane Allred",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jon Shumway",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "T. Deb Wolfley",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Heidi Erickson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kadi Shumway",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Britani Lester Erickson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Vanessa Gardner",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jennifer Lee Scherbel",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-8",
+          "name": "Precinct 2-8",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joe Heward",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Lane Walton",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Robert E. King",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Stephanie Walton",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Annisa Simpson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-9",
+          "name": "Precinct 2-9",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Carolyn Reed",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-10",
+          "name": "Precinct 2-10",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Trevor Aitken",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rebecca Hutchinson",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Sally Humpherys",
+                  "sources": [
+                    {
+                      "label": "Lincoln County official primary results",
+                      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf",
+    "primary_results": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf",
+    "checked": "2026-11-19"
+  }
+}
