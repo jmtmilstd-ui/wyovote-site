@@ -4,7 +4,7 @@ rank-history row match ranking.py (counts = ranked members only). Idempotent: re
 
     python3 tools/stamp_rank_chart.py [SITE_ROOT]      # default: the repo this file is in
 
-2014-2025 Profiles also get the chart from tools/gen.py on a rebuild (2025: Profile sections only); 2026 Profiles are
+2015-2025 Profiles also get the chart from tools/gen.py on a rebuild (2025: Profile sections only); 2026 Profiles are
 hand-built, so this stamp is how they get it. Prints a summary of every row it corrected.
 """
 import os, re, sys, glob, json, collections
@@ -15,7 +15,7 @@ import rank_chart
 
 def load_gen():
     sys.argv = ['gen.py', ROOT, '/tmp/stamp-rank-chart-unused', '2026']
-    os.environ.setdefault('OA_FIRST', '2014')
+    os.environ.setdefault('OA_FIRST', '2015')
     g = {'__file__': f'{HERE}/gen.py', '__name__': 'gen_lib'}
     exec(compile(open(f'{HERE}/gen.py').read(), f'{HERE}/gen.py', 'exec'), g)
     return g
@@ -73,7 +73,7 @@ def fix_rows_2026(rel, t, p, Y=2026):
 
 H_ARCH = re.compile(r'(        <section class="pf-card" aria-labelledby="h-rank">\n          <h2 id="h-rank">Rank history</h2>\n(?:          <p class="deep-note rank-legend">[^\n]*</p>\n)?          <p class="deep-note">[^\n]*</p>\n)(.*?)(        </section>\n)', re.S)
 def stamp_profile_archive(rel, t, p, Y):
-    """2014-2025 Profiles in the full layout (tools/gen.py): chart only in Rank history, ranks in the Band history table."""
+    """2015-2025 Profiles in the full layout (tools/gen.py): chart only in Rank history, ranks in the Band history table."""
     t = fix_rows_2026(rel, t, p, Y)
     ser = rank_series(p, Y); chk = {}
     blk = rank_chart.chart_block(BYP[p][Y]['full_name'], ser, BANDS_OF, table_hint='The Band history table below repeats the same ranks, with chamber ranks.', check=chk)

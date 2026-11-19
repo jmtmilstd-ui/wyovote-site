@@ -1,6 +1,6 @@
 """Officials archive generator (single tree: writes live paths; review on a Cloudflare branch preview). Templates = the published officials/2025 pages; ranks from ranking.py.
 Profile pages (*-deep.html) carry the rank-history chart (tools/rank_chart.py) plus band history, issue areas, missed votes and committee record
-(tools/profile_data.py). Run: python3 tools/gen.py BASE OUT 2014,...,2025 (OA_FIRST=2014; OA_DEEP_ONLY=2025 writes only Profiles for 2025)."""
+(tools/profile_data.py). Run: python3 tools/gen.py BASE OUT 2015,...,2025 (OA_FIRST=2015; OA_DEEP_ONLY=2025 writes only Profiles for 2025)."""
 import csv, json, re, sys, os, html, math, datetime
 sys.path.insert(0, '/workspace/wyoleg'); sys.path.insert(0, '/workspace/name-index/tools'); sys.path.insert(0, os.path.dirname(__file__))
 import ranking, namelib as N, rolls, match2021, rank_chart, profile_data
@@ -8,7 +8,7 @@ BASE = sys.argv[1] if len(sys.argv) > 1 else '/workspace/officials-archive/base'
 OUT = sys.argv[2] if len(sys.argv) > 2 else '/workspace/officials-archive/site'
 YEARS = [int(y) for y in (sys.argv[3].split(',') if len(sys.argv) > 3 else ['2021', '2022', '2023', '2024'])]
 BUILT = '2026-11-15'
-FIRST = int(os.environ.get('OA_FIRST', '2014'))
+FIRST = int(os.environ.get('OA_FIRST', '2015'))
 DEEP_ONLY = {int(y) for y in os.environ.get('OA_DEEP_ONLY', '2025').split(',') if y}   # years where only the Profile (*-deep.html) pages are written
 REVIEW = []
 CONFIRMED = {'WY-WALTERS-THOMAS', 'WY-LEBEAU-ANDI'}

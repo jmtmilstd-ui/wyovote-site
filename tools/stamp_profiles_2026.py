@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import profile_data
-sys.argv = ['gen.py', ROOT, '/tmp/stamp-profiles-unused', '2026']; os.environ.setdefault('OA_FIRST', '2014')
+sys.argv = ['gen.py', ROOT, '/tmp/stamp-profiles-unused', '2026']; os.environ.setdefault('OA_FIRST', '2015')
 G = {'__file__': f'{HERE}/gen.py', '__name__': 'gen_lib'}
 exec(compile(open(f'{HERE}/gen.py').read(), f'{HERE}/gen.py', 'exec'), G)
 BYP, S26, FIRST = G['BYP'], G['S26'], G['FIRST']
