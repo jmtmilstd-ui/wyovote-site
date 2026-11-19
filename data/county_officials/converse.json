@@ -1,0 +1,1619 @@
+{
+  "county": "Converse",
+  "county_number": 13,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_13_Converse_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 2 (S02)",
+          "layout": "office-and-name",
+          "note": "Also covers Natrona.",
+          "holders": [
+            {
+              "name": "Brian Boner",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2021"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_13_Converse_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/boner.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 6 (H06)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tomi Strock",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2094"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_13_Converse_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H06, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/strock.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 62 (H62)",
+          "layout": "office-and-name",
+          "note": "Also covers Natrona.",
+          "holders": [
+            {
+              "name": "Kevin Campbell",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2136"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_13_Converse_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H62, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Kevin J. Campbell",
+              "href": "officials/campbell-kevin.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jim Willox",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Converse County commissioners page",
+                  "url": "https://conversecountywy.gov/148/County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/converse.html"
+                }
+              ],
+              "role": "Chairman",
+              "succeeding": {
+                "name": "Cody Torgerson",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Converse County official general results, County Commissioner",
+                    "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Rick Grant",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Converse County commissioners page",
+                  "url": "https://conversecountywy.gov/148/County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/converse.html"
+                }
+              ],
+              "role": "Vice-Chairman"
+            },
+            {
+              "name": "Trent Kaufman",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Converse County commissioners page",
+                  "url": "https://conversecountywy.gov/148/County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/converse.html"
+                },
+                {
+                  "label": "Converse County official general results, re-elected",
+                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Donald J. Blackburn",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Converse County commissioners page",
+                  "url": "https://conversecountywy.gov/148/County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/converse.html"
+                }
+              ]
+            },
+            {
+              "name": "Robert Short",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Converse County commissioners page",
+                  "url": "https://conversecountywy.gov/148/County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/converse.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Macey Moore",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Converse County official general results, County Commissioner",
+                    "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ],
+          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Karen Rimmer",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Converse County clerk page",
+                  "url": "https://conversecountywy.gov/186/County-Clerk"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/converse.html"
+                },
+                {
+                  "label": "Converse County official general results, re-elected",
+                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joel Schell",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/converse.html"
+                },
+                {
+                  "label": "Converse County official general results, re-elected",
+                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dixie J. Huxtable",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Converse County assessor page",
+                  "url": "https://conversecountywy.gov/177/County-Assessor"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/converse.html"
+                },
+                {
+                  "label": "Converse County official general results, re-elected",
+                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Clint Becker",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/converse.html"
+                },
+                {
+                  "label": "Converse County official general results, re-elected",
+                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name.",
+              "ballot_name": "Clinton Becker"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Quentin Richardson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Converse County attorney page",
+                  "url": "https://conversecountywy.gov/185/County-Attorney"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/converse.html"
+                },
+                {
+                  "label": "Converse County official general results, re-elected",
+                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Barbara Harris",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Converse County commissioners, special meeting minutes, April 10 (appointment)",
+                  "url": "https://conversecountywy.gov/AgendaCenter/ViewFile/Minutes/_04102026-925"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Converse County District Court (Clerk: Barbara Harris)",
+                  "url": "https://www.wyocourts.gov/court/district-court-8th-judicial-district-converse-county/"
+                },
+                {
+                  "label": "Douglas Budget, Commissioners tap Harris",
+                  "url": "https://www.douglas-budget.com/article/862,commissioners-tap-harris-as-clerk-of-district-court-slot"
+                },
+                {
+                  "label": "Converse County official general results, elected",
+                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Appointed April 10 after Pam McCullough retired. Elected in the latest general."
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Roscoe J. \"Ross\" Gorman",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/converse.html"
+                },
+                {
+                  "label": "Converse County official general results, re-elected",
+                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name.",
+              "ballot_name": "Roscoe J. (Ross) Gorman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Converse County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-1-lost-springs",
+          "name": "Precinct 1-1 Lost Springs",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ty Etchemendy",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-2-orin",
+          "name": "Precinct 2-2 Orin",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Roger Wesnitzer",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Becky Moore Costantino",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Hank Szramkowski",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kay Szramkowski",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-1-guthrie",
+          "name": "Precinct 3-1 Guthrie",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bob Winney",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Vickie Winney",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-4-rural-douglas",
+          "name": "Precinct 4-4 Rural Douglas",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Colt Rodeman",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Don Luhrsen",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dixie J. Huxtable",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Candace Luhrsen",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-6-6-boxelder",
+          "name": "Precinct 6-6 Boxelder",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joe Benedetta",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Candy Benedetta",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-7-7-laprele",
+          "name": "Precinct 7-7 Laprele",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "John T. Leman",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sibylle Strock Smith",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-8-8-east-antelope",
+          "name": "Precinct 8-8 East Antelope",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jim Willox",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Donna Mathis",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-9-2-west-glenrock",
+          "name": "Precinct 9-2 West Glenrock",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kevin J. Campbell",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kimberly Taylor",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-10-10-rural-glenrock",
+          "name": "Precinct 10-10 Rural Glenrock",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Preston Sorensen",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brandi Sorensen",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-11-11-rolling-hills",
+          "name": "Precinct 11-11 Rolling Hills",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Shane W. Brow",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Deanna C. Brow",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-13-13-dry-creek",
+          "name": "Precinct 13-13 Dry Creek",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "George P. Etchemendy",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jean Etchemendy",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-23-1-northeast-douglas",
+          "name": "Precinct 23-1 Northeast Douglas",
+          "offices": [
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Edward Klouda",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-23-2-northwest-douglas",
+          "name": "Precinct 23-2 Northwest Douglas",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Frank N. Moore",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jim Creaser",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Elaine M. Moore",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Shelly Creaser",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lisa M. Thompson",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-23-3-southwest-douglas",
+          "name": "Precinct 23-3 Southwest Douglas",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "William M. Tibbs",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Brian A. Rossignol",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Cathy J. Tibbs",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-23-4-courthouse",
+          "name": "Precinct 23-4 Courthouse",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "John Rabun",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Michael Hollenback",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rhonda Dilts",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kathryn Skuza",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Cynthia Barker",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-23-5-south-douglas",
+          "name": "Precinct 23-5 South Douglas",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Margaret (Peggy) Jorgensen",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-23-6-fairview",
+          "name": "Precinct 23-6 Fairview",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joel Schell",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mary Schell",
+                  "sources": [
+                    {
+                      "label": "Converse County official primary results",
+                      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT",
+    "primary_results": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT",
+    "checked": "2026-11-19"
+  }
+}

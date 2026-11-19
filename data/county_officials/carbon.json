@@ -1,0 +1,1035 @@
+{
+  "county": "Carbon",
+  "county_number": 6,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_06_Carbon_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 11 (S11)",
+          "layout": "office-and-name",
+          "note": "Also covers Sweetwater.",
+          "holders": [
+            {
+              "name": "Larry Hicks",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1963"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_06_Carbon_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Bob Davis",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, S11",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/hicks.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 15 (H15)",
+          "layout": "office-and-name",
+          "note": "Also covers Sweetwater.",
+          "holders": [
+            {
+              "name": "Pam Thayer",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2119"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_06_Carbon_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H15, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Pamela Thayer",
+              "href": "officials/thayer.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 47 (H47)",
+          "layout": "office-and-name",
+          "note": "Also covers Sweetwater.",
+          "holders": [
+            {
+              "name": "Bob Davis",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2110"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_06_Carbon_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eamon O'Toole",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H47",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/davis.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Gwynn G. Bartlett",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County commissioners page",
+                  "url": "https://www.carboncountywy.gov/319/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/carbon.html"
+                }
+              ]
+            },
+            {
+              "name": "John Espy",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County commissioners page",
+                  "url": "https://www.carboncountywy.gov/319/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/carbon.html"
+                }
+              ]
+            },
+            {
+              "name": "John Johnson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County commissioners page",
+                  "url": "https://www.carboncountywy.gov/319/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/carbon.html"
+                },
+                {
+                  "label": "Carbon County official general results, re-elected",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Sue Jones",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County commissioners page",
+                  "url": "https://www.carboncountywy.gov/319/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/carbon.html"
+                }
+              ]
+            },
+            {
+              "name": "R. Travis Moore",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County commissioners page",
+                  "url": "https://www.carboncountywy.gov/319/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/carbon.html"
+                },
+                {
+                  "label": "Carbon County official general results, re-elected",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lisa Smith",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County Clerk page",
+                  "url": "https://www.carboncountywy.gov/938/County-Clerk"
+                },
+                {
+                  "label": "Carbon County official general results, elected",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Former clerk Gwynn Bartlett now serves as a commissioner. Elected in the latest general as Lisa M. Smith."
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lindsey West",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County treasurer page",
+                  "url": "https://www.carboncountywy.gov/951/County-Treasurer"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/carbon.html"
+                },
+                {
+                  "label": "Carbon County official general results, re-elected",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Renee Snider",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County assessor page",
+                  "url": "https://www.carboncountywy.gov/936/County-Assessor"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/carbon.html"
+                },
+                {
+                  "label": "Carbon County official general results, re-elected",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Alex S. Bakken",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County sheriff page",
+                  "url": "https://www.carboncountywy.gov/950/County-Sheriff"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/carbon.html"
+                },
+                {
+                  "label": "Carbon County official general results, re-elected",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Sarah Chavez Harkins",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County attorney page",
+                  "url": "https://www.carboncountywy.gov/937/County-Attorney"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/carbon.html"
+                },
+                {
+                  "label": "Carbon County official general results, re-elected",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mara M. Sanger",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County clerk of district court page",
+                  "url": "https://www.carboncountywy.gov/952/Clerk-of-District-Court"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/carbon.html"
+                },
+                {
+                  "label": "Carbon County official general results, re-elected",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brittany Nyman",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Carbon County coroner page",
+                  "url": "https://www.carboncountywy.gov/8/Departments"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/carbon.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Shayna Casada",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Carbon County official general results, County Coroner",
+                    "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Carbon County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-01-02",
+          "name": "Precinct 01-02",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Amanda Engstrom",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-02-01",
+          "name": "Precinct 02-01",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jerry French",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Loretta J. Hansen",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-02-02",
+          "name": "Precinct 02-02",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Paul E. Metevier Ii",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ryane M. Metevier",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Barbara Parsons",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-03-02",
+          "name": "Precinct 03-02",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "John Espy",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sandra Mehle-Hanson",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-05-01",
+          "name": "Precinct 05-01",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Gary Gilbert",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-11-01",
+          "name": "Precinct 11-01",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joey Correnti Iv",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Nanette \"Chia\" Valdez",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-14-01",
+          "name": "Precinct 14-01",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brian Lally",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-15-01",
+          "name": "Precinct 15-01",
+          "offices": [
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Linda L. Fleming",
+                  "sources": [
+                    {
+                      "label": "Carbon County official primary results",
+                      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins",
+    "primary_results": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins",
+    "checked": "2026-11-19"
+  }
+}

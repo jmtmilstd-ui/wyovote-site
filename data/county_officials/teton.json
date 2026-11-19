@@ -1,0 +1,1948 @@
+{
+  "county": "Teton",
+  "county_number": 22,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 16 (S16)",
+          "layout": "office-and-name",
+          "note": "Also covers Lincoln.",
+          "holders": [
+            {
+              "name": "Dan Dockstader",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1048"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/dockstader.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 17 (S17)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mike Gierau",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2027"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S17, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "D",
+              "href": "officials/gierau.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 16 (H16)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mike Yin",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2054"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H16, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "D",
+              "href": "officials/yin.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 22 (H22)",
+          "layout": "office-and-name",
+          "note": "Also covers Lincoln.",
+          "holders": [
+            {
+              "name": "Andrew Byron",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2099"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H22, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/byron.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 23 (H23)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Liz Storer",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2100"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H23, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "D",
+              "href": "officials/storer.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mark Newcomb",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Teton County commissioners page",
+                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/teton.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Ali Dunford",
+                "party": "D",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Teton County official general results, County Commissioner",
+                    "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Luther Propst",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Teton County commissioners page",
+                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/teton.html"
+                },
+                {
+                  "label": "Teton County official general results, re-elected",
+                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Wes Gardner",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Teton County commissioners page",
+                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/teton.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Karyn Chin",
+                "party": "D",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Teton County official general results, County Commissioner",
+                    "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Len Carlman",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Teton County commissioners page",
+                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/teton.html"
+                }
+              ]
+            },
+            {
+              "name": "Natalia D. Macker",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Teton County commissioners page",
+                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/teton.html"
+                }
+              ]
+            }
+          ],
+          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Maureen \"Mo\" Murphy",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Teton County clerk page",
+                  "url": "https://tetoncountywy.gov/259/Clerk"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/teton.html"
+                },
+                {
+                  "label": "Teton County official general results, re-elected",
+                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Katie Smits",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Teton County treasurer page",
+                  "url": "https://tetoncountywy.gov/433/Treasurer"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/teton.html"
+                },
+                {
+                  "label": "Teton County official general results, re-elected",
+                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Melissa \"Mel\" Shinkle",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Teton County assessor page",
+                  "url": "https://tetoncountywy.gov/185/Assessor"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/teton.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Ashlee Nader",
+                "party": "D",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Teton County official general results, County Assessor",
+                    "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt Carr",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/teton.html"
+                },
+                {
+                  "label": "Teton County official general results, re-elected",
+                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Richard Stout",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Teton County and Prosecuting Attorney page",
+                  "url": "https://tetoncountywy.gov/231/County-Prosecuting-Attorney"
+                },
+                {
+                  "label": "Teton County official general results, elected",
+                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Anne Comeaux Sutton",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Teton County clerk of district court page",
+                  "url": "https://tetoncountywy.gov/204/Clerk-of-the-District-Court"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/teton.html"
+                },
+                {
+                  "label": "Teton County official general results, re-elected",
+                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brent \"Doc\" Blue",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Teton County coroner page",
+                  "url": "https://tetoncountywy.gov/258/Coroner"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/teton.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Katrina L. Clauson",
+                "party": "D",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Teton County official general results, County Coroner",
+                    "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Teton County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-1",
+          "name": "Precinct 1-1",
+          "offices": [
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lesli Hobart",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-2",
+          "name": "Precinct 1-2",
+          "offices": [
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Arne Olaus Jorgensen",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Julien C. Hass",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Geneva Chong",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Mary Obringer",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Lea Bonnecaze",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Maureen Barry",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-3",
+          "name": "Precinct 1-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Paul Vogelheim",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Julia Stanley",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jim Hunt",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-4",
+          "name": "Precinct 1-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "David Scheurn",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rose Robertson",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kevin Regan",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-5",
+          "name": "Precinct 1-5",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "David Bott",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Cornelius Kinsey",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Maureen \"Mo\" Murphy",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mary M. Martin",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mike Yin",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Mike Gierau",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ashlee Nader",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Annette Osnos",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Ragan Jolly",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Kimberly Johnston",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-6",
+          "name": "Precinct 1-6",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Thomas Smits",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Katie Smits",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-7",
+          "name": "Precinct 1-7",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Keith Gingery",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Chuck Rhea",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Karen Jerger",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-10",
+          "name": "Precinct 1-10",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "John F. Turner",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Margaret Mary Aeckerle",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Robyn Houser Lunsford",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-11",
+          "name": "Precinct 1-11",
+          "offices": [
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Luther Propst",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Liz Storer",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-12",
+          "name": "Precinct 1-12",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Andrew Byron",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kasey Mateosky",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lisa Wilson",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Rebecca Cloetta",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-1",
+          "name": "Precinct 2-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mark Deboer",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-1",
+          "name": "Precinct 3-1",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Shannon A. Brennan",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Penelope Maldonado",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-1",
+          "name": "Precinct 4-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Cory Herrick",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Cindy Day",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Steven Grossman",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Katrina L. Clauson",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-2",
+          "name": "Precinct 4-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Cody M. Hansen",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sharry Firestone",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "John P. Carey Iii",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Laurie Thal",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Karyn Chin",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-3",
+          "name": "Precinct 4-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Matt Hall",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Len Carlman",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-4",
+          "name": "Precinct 4-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rob Wallace",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Celia Wallace",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Carol Harkness",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-5-1",
+          "name": "Precinct 5-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Hunter Christensen",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Anita Christensen",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ali Dunford",
+                  "sources": [
+                    {
+                      "label": "Teton County official primary results",
+                      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary",
+    "primary_results": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results",
+    "checked": "2026-11-19"
+  }
+}

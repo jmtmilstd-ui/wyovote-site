@@ -1,0 +1,2190 @@
+{
+  "county": "Fremont",
+  "county_number": 10,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_10_Fremont_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 20 (S20)",
+          "layout": "office-and-name",
+          "note": "Also covers Springs, Park, Big Horn and Hot Washakie.",
+          "holders": [
+            {
+              "name": "Ed Cooper",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2068"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_10_Fremont_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/cooper.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 25 (S25)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cale Case",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/945"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_10_Fremont_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S25, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/case.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 26 (S26)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tim Salazar",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2028"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_10_Fremont_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/salazar.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 28 (H28)",
+          "layout": "office-and-name",
+          "note": "Also covers Big Horn, Hot Springs and Park.",
+          "holders": [
+            {
+              "name": "John Winter",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2056"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_10_Fremont_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Allen Hogg",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H28",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/winter.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 33 (H33)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ivan Posey",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2141"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_10_Fremont_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H33, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "D",
+              "ballot_name": "Ivan D. Posey",
+              "href": "officials/posey.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 34 (H34)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Pepper Ottman",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2076"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_10_Fremont_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H34, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Pepper L Ottman",
+              "href": "officials/ottman.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 54 (H54)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lloyd Larsen",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/1988"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_10_Fremont_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H54, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Lloyd Charles Larsen",
+              "href": "officials/larsen.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 55 (H55)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joel Guggenmos",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2132"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_10_Fremont_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Carl Manning",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H55",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/guggenmos.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Larry Allen",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County commissioners page",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "role": "Chairman, District 2"
+            },
+            {
+              "name": "Michael Jones",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County commissioners page",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "role": "Vice-Chairman, District 4",
+              "succeeding": {
+                "name": "Steff Kessler",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Fremont County official general results, County Commissioner",
+                    "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ],
+                "ballot_name": "Kessler"
+              }
+            },
+            {
+              "name": "Clarence Thomas",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County commissioners page",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "role": "District 1",
+              "succeeding": {
+                "name": "Nicole A. Wagon",
+                "party": "I",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Fremont County official general results, County Commissioner",
+                    "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ],
+                "ballot_name": "Wagon"
+              }
+            },
+            {
+              "name": "Ron Fabrizius",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County commissioners page",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "role": "District 3",
+              "succeeding": {
+                "name": "Shanell Stanley",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Fremont County official general results, County Commissioner",
+                    "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ],
+                "ballot_name": "Stanley"
+              }
+            },
+            {
+              "name": "Jennifer Wilson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County commissioners page",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "role": "District 5"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Julie A. Freese",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County elected officials directory",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                },
+                {
+                  "label": "Fremont County official general results, elected",
+                  "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "James A. Anderson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County elected officials directory",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                },
+                {
+                  "label": "Fremont County official general results, elected",
+                  "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ella M. Riggs",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County Assessor page (appointed interim County Assessor on September 29)",
+                  "url": "https://fremontcountywy.org/government/elected_officials/assessor/tara_berg.php"
+                },
+                {
+                  "label": "County 10, Riggs named ballot successor for County Assessor",
+                  "url": "https://county10.com/fremont-republican-central-committee-selects-ella-riggs-as-general-election-ballot-successor-for-county-assessor-position/"
+                },
+                {
+                  "label": "Fremont County official general results, elected",
+                  "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Appointed after the death of Assessor Tara Berg; elected in the latest general. The county directory page still lists Tara Berg."
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ryan Lee",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County elected officials directory",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "succeeding": {
+                "name": "John Zerga",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Fremont County official general results, County Sheriff",
+                    "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ],
+                "ballot_name": "Zerga"
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Micah Wyatt",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County elected officials directory",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                },
+                {
+                  "label": "Fremont County official general results, elected",
+                  "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Amanda R. Sanchez",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County elected officials directory",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                },
+                {
+                  "label": "Fremont County official general results, elected",
+                  "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Erin Ivie",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Fremont County elected officials directory",
+                  "url": "https://www.fremontcountywy.gov/government/elected_officials_directory.php"
+                },
+                {
+                  "label": "Fremont County official general results, elected",
+                  "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Fremont County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-1-lander",
+          "name": "Precinct 1-1 Lander",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Karen M. Wetzel",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Christine Parr",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-2-lander",
+          "name": "Precinct 1-2 Lander",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lisa Wilson",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Gary L. Curtis",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Darla Curtis",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-3-lander",
+          "name": "Precinct 1-3 Lander",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Juanita Duncan",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-4-lander",
+          "name": "Precinct 1-4 Lander",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "James A. Anderson",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rod Haper",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mary D. Haper",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-5-lander",
+          "name": "Precinct 1-5 Lander",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Charles Clifford",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "John L. Larsen",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tina Clifford",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Diana Currah",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Robert J. Oakleaf",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Barbara J. Oakleaf",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-2-riverton",
+          "name": "Precinct 3-2 Riverton",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sandy K. Luers",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-3-riverton",
+          "name": "Precinct 3-3 Riverton",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jeremy Aycock",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Roger Bower",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kristine A. Anderson",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Ginger Bennett",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-4-riverton",
+          "name": "Precinct 3-4 Riverton",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joel Guggenmos",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Elizabeth Guggenmos",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-5-riverton",
+          "name": "Precinct 3-5 Riverton",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kevin S. Broemer",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Gerri Boesch",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kami Cunningham",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-6-riverton",
+          "name": "Precinct 3-6 Riverton",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Georgia Davis",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-1-ft-washakie",
+          "name": "Precinct 4-1 Ft Washakie",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Nate Penn",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sarah Penn",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-5-1-milford",
+          "name": "Precinct 5-1 Milford",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Troy Jones",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "John P. Shade",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joan Patricia Jones",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Amanda Shade",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-6-1-beebe",
+          "name": "Precinct 6-1 Beebe",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Pavlos Papadopoulos",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Anne Thurston",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Maia Rose",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-7-1-dubois",
+          "name": "Precinct 7-1 Dubois",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Reg Phillips",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Amy L. Cross",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-8-1-arapahoe",
+          "name": "Precinct 8-1 Arapahoe",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lori Weber",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-9-1-valley",
+          "name": "Precinct 9-1 Valley",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Elizabeth Philp",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-10-1-delfelder",
+          "name": "Precinct 10-1 Delfelder",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joseph Calvin Martinez",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-12-1-jeffrey-city",
+          "name": "Precinct 12-1 Jeffrey City",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Thad Dockery",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Hadessa Clyde",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-13-1-ethete",
+          "name": "Precinct 13-1 Ethete",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Patricia Ann McNiven",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-14-1-pavillion",
+          "name": "Precinct 14-1 Pavillion",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Steven J. Lynn",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Chris Rodkey",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Evelyn Griffin",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-16-1-morton",
+          "name": "Precinct 16-1 Morton",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mitch Benson",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jerri L. Robinson",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-17-1-luthy",
+          "name": "Precinct 17-1 Luthy",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rafael Delgadillo",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Donna Drogos",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-18-1-big-bend",
+          "name": "Precinct 18-1 Big Bend",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ron Fabrizius",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kim Fabrizius",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Pepper L. Ottman",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Sarah Trehearne",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-19-1-crowheart",
+          "name": "Precinct 19-1 Crowheart",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Colby Gillespie",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Georgia D. Gillespie",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-20-1-shoshoni",
+          "name": "Precinct 20-1 Shoshoni",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joel Highsmith",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-21-1-reclamation",
+          "name": "Precinct 21-1 Reclamation",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Terry Cantrell",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Deborah Thomas",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-24-1-atlantic-city",
+          "name": "Precinct 24-1 Atlantic City",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "John Birbari",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tatum Hall",
+                  "sources": [
+                    {
+                      "label": "Fremont County official primary results",
+                      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf",
+    "primary_results": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Official%20Primary%20Results.pdf",
+    "checked": "2026-11-19"
+  }
+}

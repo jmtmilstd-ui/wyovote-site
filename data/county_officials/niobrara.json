@@ -1,0 +1,930 @@
+{
+  "county": "Niobrara",
+  "county_number": 14,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_14_Niobrara_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 3 (S03)",
+          "layout": "office-and-name",
+          "note": "Also covers Goshen and Weston.",
+          "holders": [
+            {
+              "name": "Cheri Steinmetz",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2011"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_14_Niobrara_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S03, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Cheri E Steinmetz",
+              "href": "officials/steinmetz.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 2 (H02)",
+          "layout": "office-and-name",
+          "note": "Also covers Goshen and Weston.",
+          "holders": [
+            {
+              "name": "JD Williams",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2087"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_14_Niobrara_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H02, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/williams.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Elaine Griffith",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Niobrara County commissioners page",
+                  "url": "https://www.niobraracounty.org/_departments/_commissioners/index.asp"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/niobrara.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Kevin H. Baars",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Niobrara County official general results, County Commissioner",
+                    "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Patrick Wade",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Niobrara County commissioners page",
+                  "url": "https://www.niobraracounty.org/"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/niobrara.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Tiffany Thurston",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Niobrara County official general results, County Commissioner",
+                    "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Jeb Hanson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Niobrara County commissioners page",
+                  "url": "https://www.niobraracounty.org/_departments/_commissioners/index.asp"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/niobrara.html"
+                }
+              ]
+            }
+          ],
+          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Becky L. Freeman",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Niobrara County clerk page",
+                  "url": "https://www.niobraracounty.org/"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/niobrara.html"
+                },
+                {
+                  "label": "Niobrara County official general results, re-elected",
+                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Keri Thompson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Niobrara County treasurer page",
+                  "url": "https://www.niobraracounty.org/_departments/_treasurer/index.asp"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/niobrara.html"
+                },
+                {
+                  "label": "Niobrara County official general results, re-elected",
+                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Teri Stephens",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Niobrara County assessor page",
+                  "url": "https://www.niobraracounty.org/_departments/_assessor/index.asp"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/niobrara.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Lori A. Himes",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Niobrara County official general results, County Assessor",
+                    "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Randy Starkey",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/niobrara.html"
+                },
+                {
+                  "label": "Niobrara County official general results, re-elected",
+                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Anne K. Wasserburger",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Niobrara County attorney page",
+                  "url": "https://www.niobraracounty.org/_departments/_county_attorney/index.asp"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/niobrara.html"
+                },
+                {
+                  "label": "Niobrara County official general results, re-elected",
+                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chrisanna Lund",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Niobrara County clerk of district court page",
+                  "url": "https://www.niobraracounty.org/_departments/_clerk_of_the_district_court/index.asp"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/niobrara.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Amber Smith",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Niobrara County official general results, Clerk of District Court",
+                    "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Peter W. Pier",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/niobrara.html"
+                },
+                {
+                  "label": "Niobrara County official general results, re-elected",
+                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Niobrara County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-2",
+          "name": "Precinct 1-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Boe Simmons",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kristen Zerbst-Stauffer",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-2",
+          "name": "Precinct 3-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jeb Hanson",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kaylee Barner",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-1",
+          "name": "Precinct 4-1",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Janae Miller",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-6-1",
+          "name": "Precinct 6-1",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Roxanne Sharp",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-6-2",
+          "name": "Precinct 6-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Danny W. Cushman",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Richard D. Pullen",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Barbara K. Cushman",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jane Bakalian",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Becky Blackburn",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-7-1",
+          "name": "Precinct 7-1",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Velvet A. Dorwart",
+                  "sources": [
+                    {
+                      "label": "Niobrara County official primary results",
+                      "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf",
+    "primary_results": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf",
+    "checked": "2026-11-19"
+  }
+}

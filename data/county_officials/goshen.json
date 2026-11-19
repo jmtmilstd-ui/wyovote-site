@@ -1,0 +1,1584 @@
+{
+  "county": "Goshen",
+  "county_number": 7,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_07_Goshen_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 3 (S03)",
+          "layout": "office-and-name",
+          "note": "Also covers Niobrara and Weston.",
+          "holders": [
+            {
+              "name": "Cheri Steinmetz",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2011"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_07_Goshen_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S03, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Cheri E Steinmetz",
+              "href": "officials/steinmetz.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 2 (H02)",
+          "layout": "office-and-name",
+          "note": "Also covers Niobrara and Weston.",
+          "holders": [
+            {
+              "name": "JD Williams",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2087"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_07_Goshen_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H02, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/williams.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 5 (H05)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott Smith",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2093"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_07_Goshen_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Joe Speckner",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H05",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/smith.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael McNamee",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County commissioners page",
+                  "url": "https://www.goshencountywy.gov/262/County-Commissioners"
+                }
+              ],
+              "role": "Chairman",
+              "succeeding": {
+                "name": "Brent L. Anderson",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Goshen County official general results, County Commissioner",
+                    "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ],
+                "ballot_name": "Brent L. Anderson"
+              }
+            },
+            {
+              "name": "Justin Burkart",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County commissioners page",
+                  "url": "https://www.goshencountywy.gov/262/County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/goshen.html"
+                }
+              ],
+              "role": "Vice Chairman"
+            },
+            {
+              "name": "Aaron P. Walsh",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County commissioners page",
+                  "url": "https://www.goshencountywy.gov/262/County-Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/goshen.html"
+                },
+                {
+                  "label": "Goshen County official general results, re-elected",
+                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mary B. Feagler",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County clerk page",
+                  "url": "https://www.goshencountywy.gov/CivicAlerts.aspx?AID=37"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/goshen.html"
+                },
+                {
+                  "label": "Goshen County official general results, re-elected",
+                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Leticia Dominguez",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County treasurer page",
+                  "url": "https://www.goshencountywy.gov/231/Treasurer"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/goshen.html"
+                },
+                {
+                  "label": "Goshen County official general results, re-elected",
+                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Debbi Surratt",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County Assessor page",
+                  "url": "https://www.goshencountywy.gov/158/Assessor"
+                }
+              ],
+              "ballot_name": "Debra A. Surratt",
+              "succeeding": {
+                "name": "Jeremy Wardell",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Goshen County official general results, County Assessor",
+                    "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kory Fleenor",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County staff directory, Sheriff",
+                  "url": "https://www.goshencountywy.gov/directory.aspx?DID=22"
+                }
+              ],
+              "succeeding": {
+                "name": "Herb Irons",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Goshen County official general results, County Sheriff",
+                    "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Eric R. Boyer",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County attorney page",
+                  "url": "https://www.goshencountywy.gov/180/Attorney"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/goshen.html"
+                },
+                {
+                  "label": "Goshen County official general results, re-elected",
+                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brandi Correa",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County clerk of district court page",
+                  "url": "https://www.goshencountywy.gov/188/Clerk-of-District-Court"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/goshen.html"
+                },
+                {
+                  "label": "Goshen County official general results, re-elected",
+                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Darin R. Yates",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Goshen County coroner page",
+                  "url": "https://www.goshencountywy.gov/184/Coroner"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/goshen.html"
+                },
+                {
+                  "label": "Goshen County official general results, re-elected",
+                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Goshen County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-2-1-jay-em",
+          "name": "Precinct 2-1 Jay Em",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dewey William Hageman",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dinelle Hageman",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "John B. Patrick",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Katherine Patrick",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-7-1-city-of-torrington",
+          "name": "Precinct 7-1 City of Torrington",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Herbert K. Doby",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Anthony Iddings",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Randall Kieser",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Douglas R. Mercer",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Bob Peterson",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Clay Peterson",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Shane Viktorin",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rebecca Doby",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jane Iddings",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Susan Johnson",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Diane Mercer",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Marci Shaver",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-7-2-torrington",
+          "name": "Precinct 7-2 Torrington",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Roger Huckfeldt",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Thomas O. Mitchell",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Corey Steinmetz",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Maxine Mitchell",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Cheri Steinmetz",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kathy Trumbull",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-7-3-torrington",
+          "name": "Precinct 7-3 Torrington",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "David Muhlenkamp",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sheila Muhlenkamp",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mary Viktorin",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-8-1-lingle",
+          "name": "Precinct 8-1 Lingle",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Scott Smith",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Charissa Smith",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Nancy Ann Heller",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-8-2-lingle",
+          "name": "Precinct 8-2 Lingle",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tom Massey",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Julie Cunningham Massey",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-9-1-fort-laramie",
+          "name": "Precinct 9-1 Fort Laramie",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Hugh A. Hageman",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mary Lee Hageman",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Robert Melonuk",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kelea Wm Burns",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-13-1-veteran",
+          "name": "Precinct 13-1 Veteran",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dakota \"Kody\" Mc Clun",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lori Schafer",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joyce Evans",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-15-1-yoder",
+          "name": "Precinct 15-1 Yoder",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Michael Ridenour",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Cindy Ridenour",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-16-1-huntley",
+          "name": "Precinct 16-1 Huntley",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jeff Jones",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jill Tregemba",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-17-1-hawk-springs",
+          "name": "Precinct 17-1 Hawk Springs",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kent Hunter",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Marti Hubbs",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-18-1-la-grange",
+          "name": "Precinct 18-1 La Grange",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kirk Haas",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Stephanie Haas",
+                  "sources": [
+                    {
+                      "label": "Goshen County official primary results",
+                      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.goshencountywy.gov/Archive.aspx?ADID=162",
+    "primary_results": "https://www.goshencountywy.gov/Archive.aspx?ADID=161",
+    "checked": "2026-11-19"
+  }
+}

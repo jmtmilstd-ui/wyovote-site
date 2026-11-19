@@ -1,6 +1,6 @@
 # County officials data
 
-One JSON file per county, named for the page slug (`weston.json` → `counties/weston.html`).
+One JSON file per county, named for the page slug (`weston.json` → `counties/weston.html`, `big-horn.json` → `counties/big-horn.html`). All 23 counties have a file.
 
 Build with:
 
@@ -12,14 +12,14 @@ The page keeps the existing county report at the top and adds the current-office
 
 Required keys: `county`, `county_number`, `page_version`, `report_pdf`, `groups`.
 
-`groups` is the list of sections, in page order. Weston uses: Federal, Statewide, State Senate, State House, County Offices, Precincts.
+`groups` is the list of sections, in page order. Every county uses: Federal, Statewide, State Senate, State House, County Offices, Precincts. An optional top-level `sources` object records the county's official general and primary results links and the date they were checked.
 
 Each office is either:
 
 - `layout: "office-and-name"` — one line with the office title and the holder
 - `layout: "heading-then-names"` — office title once, then just the names (for multi-member offices such as County Commissioners)
 
-A holder may include `succeeding` when the person in office today will be replaced when the new term begins. List the current holder; do not invent names. If a name cannot be verified, use `Vacant / not found`.
+A holder may include `succeeding` when the person in office today will be replaced when the new term begins. List the current holder; do not invent names. If a name cannot be verified, use `Not yet confirmed` (or `Vacant / not found` for a known vacancy). A holder may also carry `notes` (not shown on the page) and `ballot_name` when the ballot spelling differs. Appointees may set `role` (for example `interim`).
 
 ## Term switch date
 

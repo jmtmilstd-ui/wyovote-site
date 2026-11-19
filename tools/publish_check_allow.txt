@@ -2982,7 +2982,29 @@ unreferenced:.gitignore
 # A017 feature article Word copy. Kept over 500 KB on purpose.
 size:articles/a017/A017_v0.1_Eatons_Ranch_Family.docx
 
-# Weston County v2.0 officeholder source and builder. Not site pages.
+# County v2.0 officeholder source files (all 23 counties) and builder. Not site pages.
 unreferenced:data/county_officials/SCHEMA.md
+unreferenced:data/county_officials/albany.json
+unreferenced:data/county_officials/big-horn.json
+unreferenced:data/county_officials/campbell.json
+unreferenced:data/county_officials/carbon.json
+unreferenced:data/county_officials/converse.json
+unreferenced:data/county_officials/crook.json
+unreferenced:data/county_officials/fremont.json
+unreferenced:data/county_officials/goshen.json
+unreferenced:data/county_officials/hot-springs.json
+unreferenced:data/county_officials/johnson.json
+unreferenced:data/county_officials/laramie.json
+unreferenced:data/county_officials/lincoln.json
+unreferenced:data/county_officials/natrona.json
+unreferenced:data/county_officials/niobrara.json
+unreferenced:data/county_officials/park.json
+unreferenced:data/county_officials/platte.json
+unreferenced:data/county_officials/sheridan.json
+unreferenced:data/county_officials/sublette.json
+unreferenced:data/county_officials/sweetwater.json
+unreferenced:data/county_officials/teton.json
+unreferenced:data/county_officials/uinta.json
+unreferenced:data/county_officials/washakie.json
 unreferenced:data/county_officials/weston.json
 unreferenced:tools/build_county_officials.py

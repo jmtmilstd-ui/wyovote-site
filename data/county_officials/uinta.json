@@ -1,0 +1,1693 @@
+{
+  "county": "Uinta",
+  "county_number": 19,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_19_Uinta_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 14 (S14)",
+          "layout": "office-and-name",
+          "note": "Also covers Sublette, Lincoln and Sweetwater.",
+          "holders": [
+            {
+              "name": "Laura Pearson",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_19_Uinta_113_v1.1.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 15 (S15)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Wendy Schuler",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2062"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_19_Uinta_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S15, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "ballot_name": "Wendy Davis Schuler",
+              "href": "officials/schuler.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 18 (H18)",
+          "layout": "office-and-name",
+          "note": "Also covers Lincoln and Sweetwater.",
+          "holders": [
+            {
+              "name": "Scott Heiner",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2074"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_19_Uinta_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Kenneth D Roberts",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H18",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/heiner.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 19 (H19)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joe Webb",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2120"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_19_Uinta_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chad Stephens",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H19",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/webb.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 49 (H49)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Robert Wharff",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2082"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_19_Uinta_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "David Walton",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H49",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/wharff.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Eric South",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County commissioners page",
+                  "url": "https://uintacountywy.gov/1084/List-of-All-Elected-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/uinta.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Jon R. Conrad",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Uinta County official general results, County Commissioner",
+                    "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ],
+                "ballot_name": "Jon R. Conrad"
+              }
+            },
+            {
+              "name": "David Mark Anderson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County commissioners page",
+                  "url": "https://uintacountywy.gov/1084/List-of-All-Elected-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/uinta.html"
+                },
+                {
+                  "label": "Uinta County official general results, re-elected",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Brent Hatch",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County commissioners page",
+                  "url": "https://uintacountywy.gov/15/county-commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/uinta.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Amanda Hutchinson",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County clerk page",
+                  "url": "https://uintacountywy.gov/15/county-commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/uinta.html"
+                },
+                {
+                  "label": "Uinta County official general results, re-elected",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Terry Brimhall",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County treasurer page",
+                  "url": "https://uintacountywy.gov/24/County-Treasurer"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/uinta.html"
+                },
+                {
+                  "label": "Uinta County official general results, re-elected",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ashlee Richins",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County Assessor page",
+                  "url": "https://uintacountywy.gov/18/County-Assessor"
+                },
+                {
+                  "label": "Uinta County official general results, elected",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Andy Kopp",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County sheriff page",
+                  "url": "https://uintacountywy.gov/25/County-Sheriff"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/uinta.html"
+                },
+                {
+                  "label": "Uinta County official general results, re-elected",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Loretta Howieson Kallas",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County attorney page",
+                  "url": "https://uintacountywy.gov/17/County-Attorney"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/uinta.html"
+                },
+                {
+                  "label": "Uinta County official general results, re-elected",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kerri Wright",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County clerk of district court page",
+                  "url": "https://uintacountywy.gov/22/Clerk-of-District-Court"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/uinta.html"
+                },
+                {
+                  "label": "Uinta County official general results, re-elected",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Greg Crandall",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Uinta County coroner page",
+                  "url": "https://uintacountywy.gov/1084/List-of-All-Elected-Officials"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/uinta.html"
+                },
+                {
+                  "label": "Uinta County official general results, re-elected",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Uinta County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-1",
+          "name": "Precinct 1-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joshua Rasnake",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Garry C. Piiparinen",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jeremy Kallas",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Eldon Stahl",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Michael Cummings",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Wendy Davis Schuler",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kelly Rasnake",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Loretta Howieson Kallas",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Judy Stahl",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Elizabeth Jackson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-2",
+          "name": "Precinct 1-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brent Hatch",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Robert Wharff",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jonathan Lange",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jim Johnson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Richard Ong",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tina Johnson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Emily Davis Vanvleet",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-3",
+          "name": "Precinct 1-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jared J. Houghton",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Vladimir Allred",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sheila Hart",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Chris Katzl",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-4",
+          "name": "Precinct 1-4",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Casey Davis",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joy Bell",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Teresa Odell",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-1",
+          "name": "Precinct 2-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Eric South",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Rowdy Dean",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Gilbert C. Olson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sherrie South",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Becky C. Olson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Anne H. Barrett",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bill Jackson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Marilee Jackson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-1",
+          "name": "Precinct 3-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "L. Scott Dickerson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Ronald Walker",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Parker Jackson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Maschelle M. Dickerson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Chandra H. Jackson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jana Anderson",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-2",
+          "name": "Precinct 3-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Spencer J. Eyre",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Allen Jaggi",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Julie Eyre",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Marcia Shelton",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-1",
+          "name": "Precinct 4-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joe V. Hickey",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jon R. Conrad",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mark D. Walker",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Nikki D. Walker",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Cindy Hickey",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Pete Roitz",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Barbara Roitz",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-2",
+          "name": "Precinct 4-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lonnie Meeks",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Trevor Benton",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Shannon Meeks",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Valynne Stoddard",
+                  "sources": [
+                    {
+                      "label": "Uinta County official primary results",
+                      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial",
+    "primary_results": "https://uintacountywy.gov/DocumentCenter/View/8645",
+    "checked": "2026-11-19"
+  }
+}

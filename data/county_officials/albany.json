@@ -1,0 +1,1855 @@
+{
+  "county": "Albany",
+  "county_number": 5,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_05_Albany_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 9 (S09)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chris Rothfuss",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1971"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_05_Albany_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S09, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "D",
+              "href": "officials/rothfuss.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 10 (S10)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Gary Crum",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2144"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_05_Albany_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/crum.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 13 (H13)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ken Chestek",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2095"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_05_Albany_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H13, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "D",
+              "href": "officials/chestek.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 14 (H14)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Trey Sherwood",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2072"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_05_Albany_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H14, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "D",
+              "href": "officials/sherwood.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 45 (H45)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Karlee Provenza",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2080"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_05_Albany_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H45, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "D",
+              "href": "officials/provenza.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 46 (H46)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ocean Andrew",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2081"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_05_Albany_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Cam Wright",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H46",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/andrew.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Terri Jones",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Albany County commissioners page",
+                  "url": "https://www.albanycountywy.gov/338/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/albany.html"
+                },
+                {
+                  "label": "Albany County official general results, re-elected",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "role": "Chairperson"
+            },
+            {
+              "name": "Pete Gosar",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Albany County commissioners page",
+                  "url": "https://www.albanycountywy.gov/338/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/albany.html"
+                },
+                {
+                  "label": "Albany County official general results, re-elected",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Thad Hoff",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Albany County commissioners page",
+                  "url": "https://www.albanycountywy.gov/338/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/albany.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kayla White",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Albany County clerk page",
+                  "url": "https://www.albanycountywy.gov/157/Clerk"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/albany.html"
+                },
+                {
+                  "label": "Albany County official general results, re-elected",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tracy Fletcher",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Albany County treasurer page",
+                  "url": "https://www.albanycountywy.gov/267/Treasurer"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/albany.html"
+                },
+                {
+                  "label": "Albany County official general results, re-elected",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chelsie Mathews",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Albany County assessor page",
+                  "url": "https://www.albanycountywy.gov/158/Assessor"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/albany.html"
+                },
+                {
+                  "label": "Albany County official general results, re-elected",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Aaron Appelhans",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Albany County sheriff page",
+                  "url": "https://www.albanycountywy.gov/212/Sheriff"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/albany.html"
+                },
+                {
+                  "label": "Albany County official general results, re-elected",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kurt Britzius",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Albany County Attorney page",
+                  "url": "https://www.albanycountywy.gov/194/Attorney"
+                },
+                {
+                  "label": "Albany County official general results, elected",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "ballot_name": "Edward Kurt Britzius",
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Stacy Lam",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Albany County clerk of district court page",
+                  "url": "https://www.albanycountywy.gov/213/Clerk-of-Court"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/albany.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Kayla Marroquin",
+                "party": "D",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Albany County official general results, Clerk of District Court",
+                    "url": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Sally King",
+              "party": "D",
+              "sources": [
+                {
+                  "label": "Albany County coroner page",
+                  "url": "https://www.albanycountywy.gov/226/Coroner"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/albany.html"
+                },
+                {
+                  "label": "Albany County official general results, re-elected",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Albany County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-13-1",
+          "name": "Precinct 13-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Karl Schueler",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Diana Seabeck",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Lois H. Roberts",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Linda Lillegraven",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Rayne Goins",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-13-2",
+          "name": "Precinct 13-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Eric Swingley",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-13-3",
+          "name": "Precinct 13-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "A. Michael Pezeshki",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sandi P. Rees",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-14-0",
+          "name": "Precinct 14-0",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Keith Kennedy",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Sam Rubino",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Emily Study",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Rosemary Ferrill",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-14-2",
+          "name": "Precinct 14-2",
+          "offices": [
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Christopher Stratton",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Barbra Hill",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-14-3",
+          "name": "Precinct 14-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lynn Hill",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "John Holtz",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Tom Mattimore",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Joe Giustozzi",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Peter Matthews",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tammy Hooper",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Laurie Hill",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Lori Matthews",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Elizabeth Parks",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Carol Giustozzi",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "David M. Wilhelms",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Erin O'Doherty",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-45-1",
+          "name": "Precinct 45-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joe Arnold",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Scott Porter",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Rick Martin",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mary Arnold",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Peg Connor",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bern Hinckley",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Clifford Marks",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Karlee Provenza",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Sharon Cumbie",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-45-2",
+          "name": "Precinct 45-2",
+          "offices": [
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Cynthia Deford",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Quinn Lamoureux",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                },
+                {
+                  "name": "Greg Hunter",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-46-0",
+          "name": "Precinct 46-0",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jack W. Settlemire, Jr",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Ronald W. Marrs",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jerry L. Gruber",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "R. Mark Armstrong",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Jeffrey Reed",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Heidi Reed",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Glenna Marrs",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Sandra Green",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Susan Maguire",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mary Ann Perez",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Barbara J. Maselli",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Meray Ben David",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-46-1",
+          "name": "Precinct 46-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tom Schmit",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "William Hensley",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Roxie Hensley",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Karen Schmit",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Gary Wilken",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Bernice Burr-Wilken",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-46-2",
+          "name": "Precinct 46-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brandon Newman",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Steve Westfahl",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sue Westfahl",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lisa J. Halbsgut",
+                  "sources": [
+                    {
+                      "label": "Albany County official primary results",
+                      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.albanycountywy.gov/DocumentCenter/View/8518/2026-General-Election-Summary-Official-Results-with-Certification",
+    "primary_results": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County",
+    "checked": "2026-11-19"
+  }
+}

@@ -1,0 +1,1515 @@
+{
+  "county": "Crook",
+  "county_number": 18,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_18_Crook_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 1 (S01)",
+          "layout": "office-and-name",
+          "note": "Also covers Campbell and Weston.",
+          "holders": [
+            {
+              "name": "Ogden Driskill",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1972"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_18_Crook_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S01, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/driskill.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 1 (H01)",
+          "layout": "office-and-name",
+          "note": "Also covers Weston.",
+          "holders": [
+            {
+              "name": "Chip Neiman",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2070"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_18_Crook_113_v1.1.pdf"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Troy Claycomb",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, H01",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              },
+              "href": "officials/neiman.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Fred Devish",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County commissioners page",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/crook.html"
+                },
+                {
+                  "label": "Crook County official general results, re-elected",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Bob Latham",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County commissioners page",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/crook.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Keith Haiar",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Crook County official general results, County Commissioner",
+                    "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "John D. Davis",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County commissioners page",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/crook.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Melissa Jones",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County clerk page",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/crook.html"
+                },
+                {
+                  "label": "Crook County official general results, re-elected",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tammy Jundt",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County treasurer page",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/crook.html"
+                },
+                {
+                  "label": "Crook County official general results, re-elected",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Thomas",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County assessor page",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/crook.html"
+                },
+                {
+                  "label": "Crook County official general results, re-elected",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jeff Hodge",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County sheriff page",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/crook.html"
+                },
+                {
+                  "label": "Crook County official general results, re-elected",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "DaNece Day",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County elected officials page",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+                },
+                {
+                  "label": "Crook County official general results, elected",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Julie Crawford",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County elected officials page",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+                },
+                {
+                  "label": "Crook County official general results, elected",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Michael Frolander",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Crook County, The Elected County Officials from 1885 to Date (Coroner: in office)",
+                  "url": "https://cms2.revize.com/revize/crookscountynew/elected_officials/History%20of%20Elected%20Officials.pdf"
+                }
+              ],
+              "succeeding": {
+                "name": "Eric Stevens",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Crook County official general results, County Coroner",
+                    "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Crook County primary results. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-01-01",
+          "name": "Precinct 01-01",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brad Marchant",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dorothy Jean Greenwood",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-01-02",
+          "name": "Precinct 01-02",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mark L. Hughes",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Marcy Havner",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-02-02",
+          "name": "Precinct 02-02",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tylan (Ty) Stutzman",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Shad Schloredt",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Carol Stutzman",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kelsey Schloredt",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Democratic Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ralph W. Goodson",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-03-03",
+          "name": "Precinct 03-03",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mark E. Macy",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Crystal Sherrard",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-07-07",
+          "name": "Precinct 07-07",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jared Hansen",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ramona Hauck",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-09-09",
+          "name": "Precinct 09-09",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Wayne Jordan",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rachel Mahoney",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-11-11",
+          "name": "Precinct 11-11",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kelly Dennis",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Andrea Driskill Wood",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-12-12",
+          "name": "Precinct 12-12",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "David Holland",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Clint Rising",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tess Policky",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Holly Rising",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-13-13",
+          "name": "Precinct 13-13",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Chip Neiman",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joni L. Neiman",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-14-14",
+          "name": "Precinct 14-14",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Thomas A. Lindmier",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Connie Lindmier",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-15-15",
+          "name": "Precinct 15-15",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kim Pfeifle",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Carol Thomas",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-16-16",
+          "name": "Precinct 16-16",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Dale W. Wood",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Sherry Wood",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-18-01",
+          "name": "Precinct 18-01",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kaiden Blakeman",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Kaylei Blakeman",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-18-02",
+          "name": "Precinct 18-02",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jace Baker",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Brandi Baker",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-23-23",
+          "name": "Precinct 23-23",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Mark Busenitz",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Joan Busenitz",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-24-24",
+          "name": "Precinct 24-24",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Tim Burch",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Linda Burch",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-26-26",
+          "name": "Precinct 26-26",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Todd Busenitz",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Rebecca Busenitz",
+                  "sources": [
+                    {
+                      "label": "Crook County official primary results",
+                      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part2.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/COUNTY%20ELECTION%20SUMMARY.pdf",
+    "primary_results": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf",
+    "checked": "2026-11-19"
+  }
+}

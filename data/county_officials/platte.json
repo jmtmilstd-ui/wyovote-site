@@ -1,0 +1,1165 @@
+{
+  "county": "Platte",
+  "county_number": 8,
+  "page_version": "v2.0",
+  "as_of": "2026-11-19",
+  "term_switch_date": "2027-01-04",
+  "report_pdf": "reports/2026/wyovote_2026_County_08_Platte_113_v1.1.pdf",
+  "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is noted under the name. Those elects take office in January.",
+  "intro_after_switch": "Names are the people in office today.",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senators",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "sources": [
+                {
+                  "label": "U.S. Senate directory / Sen. Barrasso official site",
+                  "url": "https://www.barrasso.senate.gov/"
+                },
+                {
+                  "label": "Not on the latest general-election ballot; term continues"
+                }
+              ],
+              "party": "R"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "sources": [
+                {
+                  "label": "U.S. Senate / Sen. Lummis official site",
+                  "url": "https://www.lummis.senate.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Harriet Hageman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Senator",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "sources": [
+                {
+                  "label": "U.S. House / Rep. Hageman official site",
+                  "url": "https://hageman.house.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Chuck Gray",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, U.S. Representative",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "Wyoming SOS 2026 General Election Results page",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Governor's official site",
+                  "url": "https://governor.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Eric Barlow",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Governor",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Secretary of State",
+                  "url": "https://sos.wyo.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Robert Short",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Secretary of State",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Auditor official site",
+                  "url": "https://sao.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "State Treasurer official site",
+                  "url": "https://statetreasurer.wyo.gov/"
+                },
+                {
+                  "label": "Wyoming SOS official general results, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "sources": [
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote Statewide Profiles (as of Nov 16)",
+                  "url": "statewide-profiles.html"
+                },
+                {
+                  "label": "Wyoming Department of Education",
+                  "url": "https://edu.wyoming.gov/"
+                }
+              ],
+              "party": "R",
+              "succeeding": {
+                "name": "Steve Harshman",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Wyoming SOS official general results, Superintendent",
+                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
+                  },
+                  {
+                    "label": "WyoVote Statewide Profiles (official-elect)",
+                    "url": "statewide-profiles.html"
+                  },
+                  {
+                    "label": "WyoVote certified general extract",
+                    "url": "data/candidate-research/2026-primary/general.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 6 (S06)",
+          "layout": "office-and-name",
+          "note": "Also covers Laramie.",
+          "holders": [
+            {
+              "name": "Taft Love",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2145"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_08_Platte_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, S06, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/love.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 4 (H04)",
+          "layout": "office-and-name",
+          "note": "Also covers Laramie.",
+          "holders": [
+            {
+              "name": "Jeremy Haroldson",
+              "sources": [
+                {
+                  "label": "Wyoming Legislature member page",
+                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2071"
+                },
+                {
+                  "label": "WyoVote Officials tab",
+                  "url": "officials.html"
+                },
+                {
+                  "label": "WyoVote current county report",
+                  "url": "reports/2026/wyovote_2026_County_08_Platte_113_v1.1.pdf"
+                },
+                {
+                  "label": "Wyoming SOS official general results, H04, re-elected",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "party": "R",
+              "href": "officials/haroldson.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Steve Shockley",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Platte County commissioners page",
+                  "url": "https://www.plattecountywyoming.com/directory/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/platte.html"
+                },
+                {
+                  "label": "Platte County official general results, re-elected",
+                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            },
+            {
+              "name": "Ian Jolovich",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Platte County commissioners page",
+                  "url": "https://www.plattecountywyoming.com/directory/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/platte.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Kayla Mantle",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Platte County official general results, County Commissioner",
+                    "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Jeb Baker",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Platte County commissioners page",
+                  "url": "https://www.plattecountywyoming.com/directory/Commissioners"
+                },
+                {
+                  "label": "WyoVote 2024 local results, elected",
+                  "url": "candidates/2024-local/platte.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Malcolm J. Ervin",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Platte County clerk page",
+                  "url": "https://www.plattecountywyoming.com/directory"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/platte.html"
+                },
+                {
+                  "label": "Platte County official general results, re-elected",
+                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Rietz",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Platte County treasurer page",
+                  "url": "https://www.plattecountywyoming.com/directory/Treasurer"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/platte.html"
+                }
+              ],
+              "succeeding": {
+                "name": "Lisa Glover",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Platte County official general results, County Treasurer",
+                    "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Danette Eppel",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/platte.html"
+                },
+                {
+                  "label": "Platte County official general results, re-elected",
+                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tony Krotz",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Platte County Sheriff page (appointed October 17, 2025)",
+                  "url": "https://www.plattecountywyoming.com/directory/Sheriff"
+                },
+                {
+                  "label": "Platte County official general results, elected",
+                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "ballot_name": "Anthony Krotz",
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Doug Weaver",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Platte County staff directory (County Attorney)",
+                  "url": "https://www.plattecountywyoming.com/directory"
+                }
+              ],
+              "ballot_name": "Douglas W. Weaver",
+              "succeeding": {
+                "name": "Marel E. Bunker Roth",
+                "party": "R",
+                "takes_office": "January",
+                "sources": [
+                  {
+                    "label": "Platte County official general results, County Attorney",
+                    "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
+                  },
+                  {
+                    "label": "WyoVote 2026 local offices file",
+                    "url": "tools/local-data/2026/county_offices_2026.csv"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mona McAuley",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Platte County clerk of district court page",
+                  "url": "https://www.plattecountywyoming.com/directory/ClerkofCourt"
+                },
+                {
+                  "label": "WyoVote 2022 local results, elected",
+                  "url": "candidates/2022-local/platte.html"
+                },
+                {
+                  "label": "Platte County official general results, re-elected",
+                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tiffany Dean",
+              "party": "R",
+              "sources": [
+                {
+                  "label": "Platte County Coroner page",
+                  "url": "https://www.plattecountywyoming.com/directory/Coroner"
+                },
+                {
+                  "label": "Platte County official general results, elected",
+                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
+                },
+                {
+                  "label": "WyoVote 2026 local offices file",
+                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                }
+              ],
+              "ballot_name": "Tiffany Gorman Dean",
+              "notes": "Elected in the latest general, so the office does not change in January."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committeemen and committeewomen elected at the latest primary, from the official Platte County primary results. No named Democratic winners were certified. Precincts with no named winner (write-in only) are not listed.",
+      "precincts": [
+        {
+          "id": "precinct-1-1",
+          "name": "Precinct 1-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Marty Shepard",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Roy Birt",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mike Bookout",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mike Hoffman",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Elizabeth Lauck",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Sharon Utter",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mary Jo Birt",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Kayla Mantle",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-2",
+          "name": "Precinct 1-2",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Josh Graves",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Jill R. Graves",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-3",
+          "name": "Precinct 1-3",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Pat Cullen",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-1-6",
+          "name": "Precinct 1-6",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Zane Nevins",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Steve Sherard",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Douglas W. Weaver",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "William L. Allison",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Daryl Tiltrum",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Lynda Lenz",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Mona Sherard",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Cindy Witt",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Judy Miller",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "Amy Bates",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-2-1",
+          "name": "Precinct 2-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ronald Green",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                },
+                {
+                  "name": "John W. Castle",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Ellie Behrmann",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-3-1",
+          "name": "Precinct 3-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Douglas Brickman",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Anne M. Brickman",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "precinct-4-1",
+          "name": "Precinct 4-1",
+          "offices": [
+            {
+              "office": "Republican Committeemen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Daniel Stevens",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            },
+            {
+              "office": "Republican Committeewomen",
+              "layout": "heading-then-names",
+              "holders": [
+                {
+                  "name": "Barbara Fletcher",
+                  "sources": [
+                    {
+                      "label": "Platte County official primary results",
+                      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+                    },
+                    {
+                      "label": "WyoVote precinct committee file",
+                      "url": "tools/local-data/2026/precinct_committee_2026_part1.csv"
+                    }
+                  ],
+                  "party": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "general_results": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf",
+    "primary_results": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf",
+    "checked": "2026-11-19"
+  }
+}
