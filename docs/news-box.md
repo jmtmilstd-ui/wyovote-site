@@ -108,4 +108,4 @@ The next scheduled news article is Monday, Nov. 23, 2026. That article replaces 
 
 The special on certified election results (Nov. 11, 2026) came down the morning of Nov. 19 and moved into `archive` with `"kind": "special"`. `special` is `null`.
 
-As of Nov. 19, 2026, no article in `data/home-articles.json` is within 7 days, so the home page shows the News box and the “Older articles are in the Archive →” button.
+As of Nov. 19, 2026, the only article within 7 days is the feature “The Long Fight That Finished Grand Teton National Park” (dated Nov. 19, 2026). It shows through Nov. 26 and leaves the home page the morning of Nov. 27. The four earlier articles are on the Archive Articles page only.
