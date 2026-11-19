@@ -3425,3 +3425,92 @@ a.official-btn.btn-out {
   color: #142117;
   font-weight: 700;
 }
+
+/* Article pages (any page with an .article-body): no white-on-dark boxes.
+   Articles are printed, so the title box, Back button, and footer use dark
+   text on white with a thin dark-green border. Every article and news page
+   inherits this; the rest of the site keeps its green title band. */
+body:has(.article-body) .page-hero {
+  background: #ffffff;
+  background-image: none;
+  color: #142117;
+  border-top: 2px solid #1f5d34;
+  border-bottom: 2px solid #1f5d34;
+}
+
+body:has(.article-body) .page-hero h1 {
+  color: #142117;
+}
+
+body:has(.article-body) .back-btn {
+  background: #ffffff;
+  color: #142117 !important;
+  border: 2px solid #1f5d34;
+}
+
+body:has(.article-body) .back-btn:hover,
+body:has(.article-body) .back-btn:focus-visible {
+  background: #eef6f0;
+  color: #142117 !important;
+  border-color: #1f5d34;
+}
+
+body:has(.article-body) .article-tag {
+  background: #ffffff;
+  color: #142117;
+  border: 2px solid #146b31;
+}
+
+body:has(.article-body) .article-tag-special {
+  border-color: #b8860b;
+}
+
+body:has(.article-body) .site-footer {
+  background: #ffffff;
+  color: #142117;
+  border-top: 2px solid #1f5d34;
+}
+
+body:has(.article-body) .site-footer a,
+body:has(.article-body) .site-footer a:hover {
+  color: #142117;
+}
+
+body:has(.article-body) .site-footer .footer-links li.footer-guide {
+  border-left-color: #1f5d34;
+}
+
+/* Printed articles: black text on white for all article content. */
+@media print {
+  body:has(.article-body),
+  body:has(.article-body) main,
+  body:has(.article-body) .page-hero,
+  body:has(.article-body) .page-hero h1,
+  body:has(.article-body) .page-body,
+  body:has(.article-body) .article-body,
+  body:has(.article-body) .article-body *,
+  body:has(.article-body) .site-footer,
+  body:has(.article-body) .site-footer * {
+    color: #000000 !important;
+    background: #ffffff !important;
+    background-image: none !important;
+    text-shadow: none !important;
+  }
+
+  body:has(.article-body) .page-hero,
+  body:has(.article-body) .site-footer {
+    border-color: #000000 !important;
+  }
+
+  body:has(.article-body) .article-body a {
+    text-decoration: underline;
+  }
+
+  body:has(.article-body) .back-wrap {
+    display: none;
+  }
+
+  body:has(.article-body) .article-figure {
+    break-inside: avoid;
+  }
+}
