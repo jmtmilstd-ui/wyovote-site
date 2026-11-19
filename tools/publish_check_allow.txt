@@ -2981,3 +2981,7 @@ unreferenced:tools/schedule/build_schedule.py
 
 # Git ignore file for local Python caches (not a web page)
 unreferenced:.gitignore
+
+# A017 feature article downloads. Kept over 500 KB on purpose.
+size:articles/a017/A017_v0.1_Eatons_Ranch_Family_Research.pdf
+size:articles/a017/A017_v0.1_Eatons_Ranch_Family.docx

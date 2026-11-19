@@ -108,4 +108,4 @@ The next scheduled news article is Monday, Nov. 23, 2026. That article replaces 
 
 The special on certified election results (Nov. 11, 2026) came down the morning of Nov. 19 and moved into `archive` with `"kind": "special"`. `special` is `null`.
 
-As of Nov. 19, 2026, the only article within 7 days is the feature “The Long Fight That Finished Grand Teton National Park” (dated Nov. 19, 2026). It shows through Nov. 26 and leaves the home page the morning of Nov. 27. The four earlier articles are on the Archive Articles page only.
+As of Nov. 19, 2026, two features are within 7 days, both dated Nov. 19, 2026: “The Eaton Family's Long Ride on Wolf Creek” (on top) and “The Long Fight That Finished Grand Teton National Park.” Both show through Nov. 26 and leave the home page the morning of Nov. 27. The four earlier articles are on the Archive Articles page only.
