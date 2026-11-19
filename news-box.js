@@ -22,6 +22,36 @@
     return new Date(now.getFullYear(), now.getMonth(), now.getDate());
   }
 
+  /* 7-day rule (Denver date): the News box and a Special leave the home
+     page once they are more than home_max_age_days (7) old. An item dated
+     D shows through D + 7 and leaves on the morning of D + 8. It stays on
+     the Archive Articles page. */
+  var DEFAULT_MAX_AGE = 7;
+
+  function denverDay() {
+    try {
+      var p = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Denver", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(new Date());
+      var v = {};
+      p.forEach(function (x) { v[x.type] = x.value; });
+      return Date.UTC(Number(v.year), Number(v.month) - 1, Number(v.day));
+    } catch (e) {
+      var n = new Date();
+      return Date.UTC(n.getFullYear(), n.getMonth(), n.getDate());
+    }
+  }
+
+  function maxAge(data) {
+    var n = Number(data && data.home_max_age_days);
+    return n > 0 ? n : DEFAULT_MAX_AGE;
+  }
+
+  function tooOld(item, data) {
+    var d = parseISODate(item && item.date);
+    if (!d) return true;
+    var t = Date.UTC(d.getFullYear(), d.getMonth(), d.getDate());
+    return Math.round((denverDay() - t) / 86400000) > maxAge(data);
+  }
+
   function formatDate(value) {
     var date = parseISODate(value);
     if (!date) return "";
@@ -34,11 +64,11 @@
     return (root || "") + url;
   }
 
-  function specialState(special, today) {
+  function specialState(special, today, data) {
     if (!special || !special.title || !special.url || !special.date) return "none";
     var expires = parseISODate(special.expires);
     if (!expires) return "none";
-    if (today < expires) return "current";
+    if (today < expires && !tooOld(special, data)) return "current";
     return "expired";
   }
 
@@ -82,8 +112,9 @@
 
   function renderHome(mount, data, today) {
     var root = mount.getAttribute("data-root") || "";
-    var news = data.current_news && data.current_news.title && data.current_news.url ? data.current_news : null;
-    var hasPast = (data.archive && data.archive.length) || specialState(data.special, today) === "expired";
+    var listed = data.current_news && data.current_news.title && data.current_news.url ? data.current_news : null;
+    var news = listed && !tooOld(listed, data) ? listed : null;
+    var hasPast = (data.archive && data.archive.length) || specialState(data.special, today, data) === "expired" || (listed && !news);
     mount.textContent = "";
     if (!news && !hasPast) {
       mount.hidden = true;
@@ -98,7 +129,7 @@
     var root = mount.getAttribute("data-root") || "";
     mount.textContent = "";
     mount.hidden = false;
-    if (specialState(data.special, today) === "current") {
+    if (specialState(data.special, today, data) === "current") {
       mount.appendChild(box(data.special, "special", root));
       return;
     }
@@ -110,7 +141,7 @@
     (data.archive || []).forEach(function (item) {
       if (item && item.title && item.url) items.push(item);
     });
-    if (specialState(data.special, today) === "expired") {
+    if (specialState(data.special, today, data) === "expired") {
       var special = data.special;
       var already = items.some(function (item) { return item.url === special.url; });
       if (!already) items.push({
@@ -171,7 +202,8 @@
   });
 })();
 
-/* Home Articles column: at most 4, none older than 15 days (Denver date).
+/* Home Articles column: at most 4, none older than 7 days (Denver date).
+   Features and research articles follow the same rule.
    The build (tools/build_home_articles.py) already applies the rule; this
    repeats it in the browser so articles leave on time without a redeploy. */
 (function () {
@@ -192,7 +224,7 @@
   }
   var left = 0;
   if (list) {
-    var maxAge = Number(list.getAttribute("data-max-age-days")) || 15;
+    var maxAge = Number(list.getAttribute("data-max-age-days")) || 7;
     var maxItems = Number(list.getAttribute("data-max-items")) || 4;
     var today = denverToday();
     Array.prototype.slice.call(list.querySelectorAll("li[data-date]")).forEach(function (li) {

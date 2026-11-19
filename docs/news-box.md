@@ -45,14 +45,24 @@ The previous article then leaves the home box. Past news goes to the Archive Art
 
 `news/archive.html` redirects to the Archive Articles page so older links still land there.
 
-A regular article, one that is not news or a special, is still added by hand in the article list inside `archive/articles.html`. Title and date only. Its home-page line comes from `data/home-articles.json` (see the 15-day rule below).
+A regular article, one that is not news or a special, is still added by hand in the article list inside `archive/articles.html`. Title and date only. Its home-page line comes from `data/home-articles.json` (see the 7-day rule below).
 
-## Home Articles column (15-day rule)
+## The 7-day rule (every home item)
+
+Nothing older than 7 days shows on the home page. This covers every kind of item: normal articles, features, research articles, the News box, and a Special. Nothing is exempt. Age is counted on the Denver calendar date. An item dated D shows through D + 7 days and leaves the home page on the morning of D + 8, even when nothing new is posted.
+
+- News box: hidden once `current_news` is more than 7 days old (`home_max_age_days` in `data/news.json`). The “Past news” link stays.
+- Special: hidden on its `expires` morning or once it is more than 7 days old, whichever comes first.
+- Article list: see the next section.
+
+Items that leave the home page stay on the Archive Articles page (`archive/articles.html`).
+
+## Home Articles column
 
 The article list under the News box follows two rules at once:
 
 - At most 4 articles, newest on top. A new article pushes the oldest one down and off.
-- No article older than 15 days, counted on the Denver calendar date. An article dated D shows through D + 15 days and leaves the home page on the morning of D + 16, even when nothing new is posted.
+- No article older than 7 days (`max_age_days` in `data/home-articles.json`). Features and research articles follow the same rule.
 
 Articles that leave the home page stay on the Archive Articles page (`archive/articles.html`) only.
 
@@ -60,10 +70,10 @@ The list is built, not typed into `index.html`:
 
 - `data/home-articles.json` holds the articles that may appear on the home page (date, kicker, title, url, excerpt). `kicker` is `feature`, `research`, or `null`.
 - `tools/build_home_articles.py` writes the block between the `HOME-ARTICLES` markers in `index.html`. `--date YYYY-MM-DD` renders a test date; `--check` exits 1 if the page is out of date.
-- `tools/expire_home_articles.py` is the daily check. It prints `no change` and exits 0 when nothing needs expiring. Otherwise it lists the articles leaving the home page and rebuilds `index.html`, which then needs a commit and a deploy.
-- `news-box.js` applies the same rule in the browser on the Denver date, so an article leaves on time even before the next deploy.
+- `tools/expire_home_articles.py` is the daily check. It prints `no change` and exits 0 when nothing needs expiring. Otherwise it lists the articles leaving the home page and rebuilds `index.html`, which then needs a commit and a deploy. It also names a News box or Special in `data/news.json` that is past 7 days, so that file can be tidied.
+- `news-box.js` applies the same rule in the browser on the Denver date, to the article list, the News box, and a Special, so an item leaves on time even before the next deploy.
 
-When no article is within 15 days, the News box is the only item in the column. A large dark green button, “Older articles are in the Archive →”, then shows under it and links to `archive/articles.html`. While articles are shown, a smaller “More articles in the Archive →” link sits at the bottom of the column instead.
+When no article is within 7 days, the News box is the only item in the column. A large dark green button, “Older articles are in the Archive →”, then shows under it and links to `archive/articles.html`. While articles are shown, a smaller “More articles in the Archive →” link sits at the bottom of the column instead.
 
 To add a regular article:
 
@@ -76,7 +86,7 @@ To add a regular article:
 A special is optional and can be posted any day. It appears under the line at the top of the right-hand column, with a Special label. It is not shown in the News column.
 
 1. Add the article page the same way, with a Special tag instead of a News tag.
-2. Set `special` in both JSON files. Set `expires` to the morning the box should come down.
+2. Set `special` in `data/news.json`. Set `expires` to the morning the box should come down, no later than 8 days after its date (the 7-day rule).
 
 To take a special down early, move that object into `archive`, add `"kind": "special"`, and set `special` to `null`.
 
@@ -96,4 +106,6 @@ The interim-committees article moved to the front of `archive`.
 
 The next scheduled news article is Monday, Nov. 23, 2026. That article replaces this one.
 
-The special on certified election results shows from Nov. 11, 2026. It stays up through Nov. 18 and hides the morning of Nov. 19 (`expires` is `2026-11-19`).
+The special on certified election results (Nov. 11, 2026) came down the morning of Nov. 19 and moved into `archive` with `"kind": "special"`. `special` is `null`.
+
+As of Nov. 19, 2026, no article in `data/home-articles.json` is within 7 days, so the home page shows the News box and the “Older articles are in the Archive →” button.

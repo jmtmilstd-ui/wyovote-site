@@ -2,9 +2,10 @@
 """Build the home-page Articles stack (middle column, under the News box).
 
 Rule: at most max_items (4) articles, newest on top, and none older than
-max_age_days (15) by article date, counted on the Denver calendar date.
-An article dated D shows through D + 15 days and leaves the home page on
-D + 16. It stays on archive/articles.html.
+max_age_days (7) by article date, counted on the Denver calendar date.
+An article dated D shows through D + 7 days and leaves the home page on
+D + 8. Features and research articles follow the same rule; nothing is
+exempt. It stays on archive/articles.html.
 
 Source: data/home-articles.json. Target: the block between the
 HOME-ARTICLES markers in index.html.
@@ -39,7 +40,7 @@ def label(d):
 def select(data, today):
     """Return (shown, expired) lists of (date, article)."""
     max_items = int(data.get('max_items', 4))
-    max_age = int(data.get('max_age_days', 15))
+    max_age = int(data.get('max_age_days', 7))
     items = [(datetime.date.fromisoformat(a['date']), i, a) for i, a in enumerate(data['articles'])]
     items.sort(key=lambda t: (-t[0].toordinal(), t[1]))  # newest first, file order for ties
     fresh = [(d, a) for d, _, a in items if 0 <= (today - d).days <= max_age]
@@ -49,7 +50,7 @@ def select(data, today):
 
 def render(data, today):
     shown, _ = select(data, today)
-    max_items = int(data.get('max_items', 4)); max_age = int(data.get('max_age_days', 15))
+    max_items = int(data.get('max_items', 4)); max_age = int(data.get('max_age_days', 7))
     out = ['%s (built by tools/build_home_articles.py from data/home-articles.json for %s. Max %d, newest on top, none older than %d days. Do not edit by hand.) -->'
            % (START, today.isoformat(), max_items, max_age)]
     if shown:
