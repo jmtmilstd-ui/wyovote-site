@@ -2974,3 +2974,6 @@ unreferenced:data/critical_dates.json
 unreferenced:data/schedule.json
 unreferenced:tools/schedule/README.md
 unreferenced:tools/schedule/build_schedule.py
+
+# Git ignore file for local Python caches (not a web page)
+unreferenced:.gitignore
