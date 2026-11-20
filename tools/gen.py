@@ -121,7 +121,9 @@ def profile_sections(p, Y, r):
         q = BYP[p][y]
         if q['rank_all'] is None: band.append(f'                <tr><td>{y}</td><td colspan="4">Not ranked, too few votes</td></tr>')
         else: band.append(f'                <tr><td>{y}</td><td>{q["rank_all"]} of {RK[y]["n_ranked"]}</td><td>{q["rank_ch"]} of {n_ch(y, q["chamber"])}</td><td>{band_span(q["band"])}</td><td>{bands_text(y)}</td></tr>')
-    if r['rank_all'] is None:
+    if Y == 2026:
+        issue = profile_data.issue_votes_block(Y, p)
+    elif r['rank_all'] is None:
         issue = f'          <p class="deep-note">Not ranked in {Y} (too few votes), so there is no issue-area breakdown for {Y}.</p>\n'
     else:
         rows = []

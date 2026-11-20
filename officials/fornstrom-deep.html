@@ -62,34 +62,33 @@
         </section>
         <section class="pf-card" aria-labelledby="h-issue">
           <h2 id="h-issue">Issue-area breakdown</h2>
-          <p class="deep-note rank-legend">Rank: 1 = MOST Conservative.</p>
           <p class="cat-prelim">Categories preliminary</p>
-          <p class="deep-note">Chamber rank is within the House or Senate. Overall rank is among legislators ranked in that category. 1 is MOST Conservative, last is Most Liberal. A blank rank is explained in the row.</p>
+          <p class="deep-note">Aye and No are this session’s roll calls tagged in each category. Each pair belongs to the side named in that row. Excused, absent, and conflict are not counted. A roll call tagged on both sides of a category is counted on both. Legislating in Budget has only one side.</p>
           <div class="deep-scroll">
             <table class="deep-table">
-              <thead><tr><th scope="col">Category</th><th scope="col">Chamber rank</th><th scope="col">Overall rank</th><th scope="col">Band</th></tr></thead>
+              <thead><tr><th scope="col">Category</th><th scope="col">Side</th><th scope="col">Aye</th><th scope="col">No</th><th scope="col">Side</th><th scope="col">Aye</th><th scope="col">No</th></tr></thead>
               <tbody>
-                <tr><th scope="row">Taxes</th><td>41</td><td>70</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
-                <tr><th scope="row">Spending</th><td>39</td><td>58</td><td><span class="pf-band pf-band-liberal">Liberal</span></td></tr>
-                <tr><th scope="row">Regulations</th><td>37</td><td>37</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
-                <tr><th scope="row">Government Size</th><td>47</td><td>52</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
-                <tr><th scope="row">Government Over-Reach</th><td>17</td><td>17</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
-                <tr><th scope="row">States Rights</th><td>12</td><td>12</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
-                <tr><th scope="row">Wyoming Constitution</th><td colspan="3">too few votes in category</td></tr>
-                <tr><th scope="row">US Constitution</th><td>38</td><td>38</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
-                <tr><th scope="row">Free Speech</th><td>23</td><td>23</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
-                <tr><th scope="row">Second Amendment</th><td>32</td><td>32</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
-                <tr><th scope="row">Education Spending</th><td>41</td><td>49</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
-                <tr><th scope="row">Legislating in Budget</th><td>41</td><td>54</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
-                <tr><th scope="row">Private Property</th><td>37</td><td>42</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
-                <tr><th scope="row">Pro-Life</th><td>43</td><td>46</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
-                <tr><th scope="row">Picking Losers/Winners</th><td>30</td><td>30</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
-                <tr><th scope="row">Local Control</th><td>45</td><td>76</td><td><span class="pf-band pf-band-liberal">Liberal</span></td></tr>
-                <tr><th scope="row">Transparency</th><td>39</td><td>65</td><td><span class="pf-band pf-band-liberal">Liberal</span></td></tr>
-                <tr><th scope="row">Federal Funds</th><td>41</td><td>69</td><td><span class="pf-band pf-band-liberal">Liberal</span></td></tr>
-                <tr><th scope="row">Health Care</th><td>41</td><td>69</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
-                <tr><th scope="row">Criminal Penalties</th><td>39</td><td>52</td><td><span class="pf-band pf-band-conservative">Conservative</span></td></tr>
-                <tr><th scope="row">Property Tax</th><td>41</td><td>69</td><td><span class="pf-band pf-band-moderate">Moderate</span></td></tr>
+                <tr><th scope="row">Taxes</th><td class="side-name">Increase Taxes</td><td class="vote-num">17</td><td class="vote-num">2</td><td class="side-name">Decrease Taxes</td><td class="vote-num">25</td><td class="vote-num">7</td></tr>
+                <tr><th scope="row">Spending</th><td class="side-name">Increase Spending</td><td class="vote-num">177</td><td class="vote-num">34</td><td class="side-name">Decrease Spending</td><td class="vote-num">8</td><td class="vote-num">10</td></tr>
+                <tr><th scope="row">Regulations</th><td class="side-name">Increase Regulations</td><td class="vote-num">46</td><td class="vote-num">9</td><td class="side-name">Decrease Regulations</td><td class="vote-num">18</td><td class="vote-num">2</td></tr>
+                <tr><th scope="row">Government Size</th><td class="side-name">Increase Gov Size</td><td class="vote-num">37</td><td class="vote-num">4</td><td class="side-name">Decrease Gov Size</td><td class="vote-num">6</td><td class="vote-num">1</td></tr>
+                <tr><th scope="row">Government Over-Reach</th><td class="side-name">Expand Gov Reach</td><td class="vote-num">1</td><td class="vote-num">0</td><td class="side-name">Limit Gov Reach</td><td class="vote-num">16</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">States Rights</th><td class="side-name">Strengthen States Rights</td><td class="vote-num">7</td><td class="vote-num">1</td><td class="side-name">Weaken States Rights</td><td class="vote-num">0</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">Wyoming Constitution</th><td class="side-name">Strengthen WY Constitution</td><td class="vote-num">0</td><td class="vote-num">1</td><td class="side-name">Weaken WY Constitution</td><td class="vote-num">0</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">US Constitution</th><td class="side-name">Strengthen US Constitution</td><td class="vote-num">2</td><td class="vote-num">1</td><td class="side-name">Weaken US Constitution</td><td class="vote-num">0</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">Free Speech</th><td class="side-name">Strengthen Free Speech</td><td class="vote-num">9</td><td class="vote-num">0</td><td class="side-name">Weaken Free Speech</td><td class="vote-num">0</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">Second Amendment</th><td class="side-name">Strengthen 2nd Amendment</td><td class="vote-num">13</td><td class="vote-num">0</td><td class="side-name">Weaken 2nd Amendment</td><td class="vote-num">0</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">Education Spending</th><td class="side-name">Increase Edu Spending</td><td class="vote-num">28</td><td class="vote-num">12</td><td class="side-name">Decrease Edu Spending</td><td class="vote-num">1</td><td class="vote-num">1</td></tr>
+                <tr><th scope="row">Legislating in Budget</th><td class="side-name">Legislates in Budget</td><td class="vote-num">6</td><td class="vote-num">3</td><td class="side-name"></td><td class="vote-num">—</td><td class="vote-num">—</td></tr>
+                <tr><th scope="row">Private Property</th><td class="side-name">Increase Private Property Rights</td><td class="vote-num">9</td><td class="vote-num">1</td><td class="side-name">Decrease Private Property Rights</td><td class="vote-num">5</td><td class="vote-num">5</td></tr>
+                <tr><th scope="row">Pro-Life</th><td class="side-name">Strengthen Pro-Life Protections</td><td class="vote-num">5</td><td class="vote-num">1</td><td class="side-name">Weaken Pro-Life Protections</td><td class="vote-num">0</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">Picking Losers/Winners</th><td class="side-name">Increase Picking Winners/Losers</td><td class="vote-num">10</td><td class="vote-num">1</td><td class="side-name">Decrease Picking Winners/Losers</td><td class="vote-num">1</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">Local Control</th><td class="side-name">Strengthen Local Control</td><td class="vote-num">9</td><td class="vote-num">2</td><td class="side-name">Weaken Local Control</td><td class="vote-num">17</td><td class="vote-num">7</td></tr>
+                <tr><th scope="row">Transparency</th><td class="side-name">Increase Transparency</td><td class="vote-num">9</td><td class="vote-num">9</td><td class="side-name">Decrease Transparency</td><td class="vote-num">0</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">Federal Funds</th><td class="side-name">Accept Federal Funds</td><td class="vote-num">25</td><td class="vote-num">3</td><td class="side-name">Refuse Federal Funds</td><td class="vote-num">1</td><td class="vote-num">0</td></tr>
+                <tr><th scope="row">Health Care</th><td class="side-name">Expand Gov Role in Health Care</td><td class="vote-num">17</td><td class="vote-num">4</td><td class="side-name">Reduce Gov Role in Health Care</td><td class="vote-num">4</td><td class="vote-num">1</td></tr>
+                <tr><th scope="row">Criminal Penalties</th><td class="side-name">Expand Criminal Penalties</td><td class="vote-num">34</td><td class="vote-num">2</td><td class="side-name">Reduce Criminal Penalties</td><td class="vote-num">1</td><td class="vote-num">2</td></tr>
+                <tr><th scope="row">Property Tax</th><td class="side-name">Increase Property Taxes</td><td class="vote-num">4</td><td class="vote-num">1</td><td class="side-name">Decrease Property Taxes</td><td class="vote-num">11</td><td class="vote-num">6</td></tr>
               </tbody>
             </table>
           </div>
@@ -121,6 +120,29 @@
             </table>
           </div>
         </section>
+        <section class="pf-card cand-research" aria-labelledby="h-research">
+                    <h2 id="h-research">Research</h2>
+                    <table class="cand-facts">
+                      <tr><th scope="row">Residence</th><td>Pine Bluffs, Laramie County</td></tr>
+                      <tr><th scope="row">Occupation</th><td>Farmer and business owner</td></tr>
+                      <tr><th scope="row">Background</th><td><p>Justin Fornstrom was born in Falls Church, Virginia. He earned a bachelor&#x27;s degree in health sciences from the University of Wyoming. Fornstrom&#x27;s career experience includes working as a farmer and a business owner. He has also served as the Laramie County Fire District 5 president and the mayor of Pine Bluffs, Wyoming.</p><p>I am a fourth-generation farmer and small business owner, representing the people of House District 10. Raised in Pine Bluffs, I graduated from Pine Bluffs High School in 1990 and earned a bachelor&#x27;s degree from the University of Wyoming in 1995. After college, I returned home to farm with my brother and help grow several local businesses. My commitment to service includes 16 years as President of Laramie County Fire District 5, election as Mayor of Pine Bluffs in 2021, and appointment to the Wyoming House of Representatives in 2025. I also serve on the Board of Directors for the Wyoming Municipal Power Agency and represent Eastern Laramie County through Cheyenne LEADS. …</p></td></tr>
+                      <tr><th scope="row">Education</th><td>Bachelor&#x27;s: University of Wyoming</td></tr>
+                      <tr><th scope="row">Prior offices</th><td>Wyoming House District 10, 2025–Present</td></tr>
+                      <tr><th scope="row">Website</th><td><a href="https://justinfornstrom.com">justinfornstrom.com</a> <span class="ext">(leaves WyoVote)</span></td></tr>
+                      <tr><th scope="row">Issue positions</th><td><p class="cand-topic">What are the biggest challenges and opportunities facing Wyoming today? As a legislator, how would you address them?</p><p>Wyoming’s biggest challenges are affordability, healthcare access, workforce shortages, housing, infrastructure and protecting our core industries such as energy and agriculture. Our opportunities include: energy, agriculture, tourism, small business, outdoor recreation and a strong quality of life. …</p><p class="cand-topic">We asked WyoFile readers to rank issues that are important to them, and healthcare costs and access topped the list. What can the Legislature do to make healthcare more affordable and accessible to Wyomingites?</p><p>Healthcare is especially difficult in a rural state with long distances and small populations. Wyoming should support rural hospitals and clinics, expand telehealth, grow our healthcare workforce, reduce unnecessary regulation and look for ways to increase competition and transparency in pricing. …</p><p class="cand-topic">Do you support efforts to sell or transfer public land in Wyoming? How do you plan to ensure that state and federal land is managed in the best interest of the people of Wyoming?</p><p>I generally oppose the sale of public lands. Public lands are an important part of Wyoming&#x27;s heritage and support recreation, grazing, hunting, tourism, and economic development. Once public lands are sold, they are often lost to public access permanently. …</p><p class="cand-topic">No two Wyoming counties are the same when it comes to how they generate revenue. As a legislator, how would you approach the public&#x27;s desire for property tax relief with local revenue needs?</p><p>People need property tax relief, especially homeowners on fixed incomes, but counties, schools, fire districts and local governments also rely on that revenue. I support targeted, responsible relief that protects residents without creating budget crises for essential services. …</p><p class="cand-topic">What role, if any, should the Wyoming Legislature play in economic development?</p><p>The Legislature should not pick winners and losers, but it should create the conditions for growth: low taxes, reasonable regulation, reliable infrastructure, workforce training, housing availability and support for Wyoming’s core industries. …</p><p class="cand-topic">Explain your values when it comes to campaign donations. Does Wyoming&#x27;s system for monitoring campaign donations and expenditures need reform?</p><p>My values are simple: be transparent, follow the law and never let a donation influence a vote. People deserve to know who is supporting candidates and how money is being spent. …</p></td></tr>
+                      <tr><th scope="row">Fundraising</th><td>Raised $31,301.86. Spent $21,168.86. 2026 election (primary and general periods combined); primary-period subtotal shown separately when reported, through latest filings compiled by WyoFile (guide last updated Oct 29, 2026). Primary election: raised $28,701.86, spent $16,617.78. Largest reported contributors: WY REALTORS PAC (CASPER) ($2,500); EKLUND, SUZANNE (CHEYENNE) ($1,500); BURNETTE, JEFF AND KIM (CARPENTER) ($1,500); LERWICK, MICHAEL (ALBIN) ($1,500); SAMUELSON, DOUG (CHEYENNE) ($1,500). Source: WyoFile election guide, as of Oct 29, 2026.</td></tr>
+                      <tr><th scope="row">2026 primary result</th><td>Unopposed, 2,297 votes (100%), 1st of 1.</td></tr>
+                    </table>
+                    <h2 id="h-sources">Sources</h2>
+                    <ul class="cand-sources">
+                      <li><a href="https://wyoleg.gov/LsoService/api/legislator/2146">Wyoming Legislature member record</a> <span class="ext">(leaves WyoVote)</span></li>
+                      <li><a href="https://ballotpedia.org/Justin_Fornstrom">Ballotpedia</a> <span class="ext">(leaves WyoVote)</span></li>
+                      <li><a href="https://sos.wyo.gov/Elections/Docs/2026/2026_WY_Primary_Election_Candidates.csv">Wyoming SOS 2026 primary candidate filing</a> <span class="ext">(leaves WyoVote)</span></li>
+                      <li><a href="https://projects.wyofile.com/election-guide-2026/candidates/fornstrom-justin/">WyoFile 2026 Election Guide (candidate questionnaire / profile)</a> <span class="ext">(leaves WyoVote)</span></li>
+                      <li><a href="https://www.wycampaignfinance.gov/WYCFWebApplication/GSF_SystemConfiguration/SearchContributions.aspx">WyCampaignFinance search (underlying public filings)</a> <span class="ext">(leaves WyoVote)</span></li>
+                      <li><a href="https://sos.wyo.gov/Elections/Docs/2026/Results/Primary/2026_Wyoming_Primary_Results.zip">Wyoming SOS official 2026 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span></li>
+                    </ul>
+                  </section>
         <section class="pf-card" aria-labelledby="h-votes">
           <h2 id="h-votes">Scored votes</h2>
           <p class="deep-note">Each row is one roll call. Category is Uncategorized when the roll call has no issue tag. Bill lean is Conservative, Liberal, or Neutral.</p>

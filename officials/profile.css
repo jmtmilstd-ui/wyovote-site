@@ -133,4 +133,16 @@ table.deep-table caption { caption-side: bottom; text-align: left; padding-top: 
   body.pf .brand img { height: 2.6rem; } body.pf .site-name { font-size: 1.6rem; }
   body.pf .site-nav a { padding: 0.5rem 0.55rem; font-size: 14.5pt; }
 }
-@media print { .preview-banner { display: block; } .pf-narrow { display: none; } .pf-wide { display: block; } .pf-band, .pf-chart, .pf-note { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+
+/* 2026 issue-area vote counts: side names in the row, Aye/No numeric */
+table.deep-table td.side-name,
+table.deep-table th.side-name { font-weight: 600; }
+table.deep-table td.vote-num,
+table.deep-table th.vote-num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pf-card.cand-research { margin-top: 0; }
+.pf-card.cand-research .cand-facts,
+.pf-card.cand-research .cand-facts th,
+.pf-card.cand-research .cand-facts td,
+.pf-card.cand-research .cand-topic,
+.pf-card.cand-research .cand-sources { color: #142117; font-size: 12.5pt; }
+@media print { .preview-banner { display: block; } .pf-narrow { display: none; } .pf-wide { display: block; } .pf-band, .pf-chart, .pf-note { -webkit-print-color-adjust: exact; print-color-adjust: exact; } table.deep-table, table.deep-table th, table.deep-table td, .cand-facts, .cand-facts th, .cand-facts td, .cand-topic, .cand-sources { color: #000000; font-size: 12.5pt; } }

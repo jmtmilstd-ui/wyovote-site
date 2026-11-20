@@ -523,7 +523,11 @@ def research_html(record: dict) -> str:
         parts.append('            <h2 id="h-sources">Sources</h2>')
         parts.append('            <ul class="cand-sources">')
         for source in record["sources"]:
-            parts.append(f'              <li>{outside_link(source["url"], source["name"])}</li>')
+            url = source.get("url")
+            if url:
+                parts.append(f'              <li>{outside_link(url, source["name"])}</li>')
+            else:
+                parts.append(f'              <li>{esc(source["name"])}</li>')
         parts.append("            </ul>")
     parts.append("          </section>")
     return "\n".join(parts)
