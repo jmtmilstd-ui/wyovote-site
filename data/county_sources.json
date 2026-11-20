@@ -1,0 +1,49 @@
+{
+  "comment": "County schedule pilot (Michael, t749s3093): Weston and Crook. The daily schedule crawl (tools/schedule/spider.py) reads every source here in the same run. method: agenda_links = dated agenda links on the page; text_dates = dates written on the page; diligent_calendar = script-built meeting calendar (headless Chrome); status_only = checked but nothing to read. regular = the meeting rule the body itself posts; a rule meeting is shown as 'regular schedule' until an agenda for that date is posted. Times are Mountain Time.",
+  "counties": {
+    "weston": {
+      "name": "Weston",
+      "sources": [
+        {"id": "weston-bocc", "body": "Weston County Commissioners", "url": "https://www.westongov.com/county-commissioners/agendas/",
+         "method": "agenda_links", "location": "Commissioners' Room, Weston County Courthouse, 1 West Main Street, Newcastle",
+         "regular": {"weekday": "Tue", "nth": [1, 3], "time": "9:00 a.m. MT", "rule_text": "first and third Tuesday", "rule_url": "https://www.westongov.com/county-clerk/"}},
+        {"id": "weston-lepc", "body": "Weston County Local Emergency Planning Committee", "url": "https://www.westongov.com/lepc-agendas/",
+         "method": "agenda_links", "location": ""},
+        {"id": "weston-planning", "body": "Weston County Planning Board", "url": "https://www.westongov.com/growth-and-development/agendas/",
+         "method": "agenda_links", "location": ""},
+        {"id": "wcsd1", "body": "Weston County School District #1 Board of Trustees", "url": "https://www.wcsd1.org/apps/pages/Board_Agendas",
+         "method": "agenda_links", "location": "Administration Building boardroom, 116 Casper Avenue, Newcastle",
+         "regular": {"weekday": "Wed", "nth": [2, -1], "months": {"6": [2], "7": [3], "11": [2], "12": [2]}, "time": "7:00 p.m. MT",
+                     "rule_text": "second and last Wednesday; one meeting in June, July, November and December",
+                     "rule_url": "https://newslj.com/2026-weston-county-school-district-no-1-meeting-notice"}},
+        {"id": "weston7", "body": "Weston County School District #7 Board of Education", "url": "https://www.weston7.org/page/board-of-education/",
+         "method": "status_only", "browser": true, "location": "Upton",
+         "regular": {"weekday": "Wed", "nth": [2], "time": "6:00 p.m. MT", "rule_text": "second Wednesday", "rule_url": "https://www.weston7.org/page/board-of-education/"}},
+        {"id": "newcastle", "body": "Newcastle City Council", "url": "https://www.newcastlewyoming.com/agendas-minutes",
+         "method": "agenda_links", "location": "City Council Chambers, Newcastle",
+         "regular": {"weekday": "Mon", "nth": [1, 3], "time": "7:00 p.m. MT", "rule_text": "first and third Monday", "rule_url": "https://www.newcastlewyoming.com/city-government-1"}},
+        {"id": "upton", "body": "Upton Town Council", "url": "https://www.townofupton.com/cityGovernment.php",
+         "method": "agenda_links", "location": "City Hall (Pine Street entrance), Upton",
+         "regular": {"weekday": "Tue", "nth": [2], "time": "7:00 p.m. MT", "rule_text": "second Tuesday", "rule_url": "https://www.townofupton.com/cityGovernment.php"}}
+      ]
+    },
+    "crook": {
+      "name": "Crook",
+      "sources": [
+        {"id": "crook-bocc", "body": "Crook County Commissioners", "url": "https://www.crookcounty.wy.gov/elected_officials/commissioners/2026_meeting_agendas___minutes.php",
+         "method": "text_dates", "location": "Commissioner's Room, Crook County Courthouse, 309 Cleveland Street, Sundance",
+         "regular": {"weekday": "Tue", "nth": [1], "also_next_day": true, "time": "8:30 a.m. MT", "rule_text": "first Tuesday and Wednesday", "rule_url": "https://www.crookcounty.wy.gov/elected_officials/commissioners/index.php"}},
+        {"id": "crook-notices", "body": "Crook County public notices", "url": "https://www.crookcounty.wy.gov/public_notice/",
+         "method": "text_dates", "title": "Public hearing or meeting (posted notice)", "location": "Crook County Courthouse, Sundance"},
+        {"id": "ccsd1", "body": "Crook County School District #1 Board of Trustees", "url": "https://crook1.community.highbond.com/Portal/MeetingSchedule.aspx",
+         "method": "diligent_calendar", "browser": true, "location": ""},
+        {"id": "sundance", "body": "Sundance City Council", "url": "https://www.cityofsundancewy.com/meetings",
+         "method": "status_only", "not_online": "The city site blocks automated visits (bot check)."},
+        {"id": "moorcroft", "body": "Moorcroft Town Council", "url": "http://www.townofmoorcroft.com/",
+         "method": "status_only", "not_online": "The town site returned a server error."},
+        {"id": "hulett", "body": "Hulett Town Council", "url": "https://www.townofhulettwy.com/government/town-council-agendas/",
+         "method": "status_only", "not_online": "The agendas page says \"Coming Soon\"."}
+      ]
+    }
+  }
+}

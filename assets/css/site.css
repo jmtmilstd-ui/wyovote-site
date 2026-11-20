@@ -3390,7 +3390,7 @@ a.official-btn.btn-out {
 }
 
 /* Current Schedule page: phone/tablet first, stacked event cards. */
-.schedule-page .schedule-updated {
+:is(.schedule-page, .schedule-county) .schedule-updated {
   margin: 0.4rem 0 1rem;
   font-weight: 700;
   color: #142117;
@@ -3847,4 +3847,202 @@ body:has(.article-body) .site-footer .footer-links li.footer-guide {
     border: 2px solid #000000;
     color: #000000;
   }
+}
+
+/* Current Schedule, two levels (Michael t741u): Schedule page with Critical
+   Dates, The Weekly, and four category buttons; one page per category.
+   Printed: dark text on white, 14 pt body, 12 pt tables. No white-on-dark. */
+body:has(.schedule-page) .page-hero {
+  background: #ffffff;
+  background-image: none;
+  color: #142117;
+  border-top: 2px solid #1f5d34;
+  border-bottom: 2px solid #1f5d34;
+}
+body:has(.schedule-page) .page-hero h1 { color: #142117; }
+body:has(.schedule-page) .back-btn {
+  background: #ffffff;
+  color: #142117 !important;
+  border: 2px solid #1f5d34;
+}
+body:has(.schedule-page) .back-btn:hover,
+body:has(.schedule-page) .back-btn:focus-visible {
+  background: #eef6f0;
+  color: #142117 !important;
+  border-color: #1f5d34;
+}
+body:has(.schedule-page) .site-footer {
+  background: #ffffff;
+  color: #142117;
+  border-top: 2px solid #1f5d34;
+}
+body:has(.schedule-page) .site-footer a,
+body:has(.schedule-page) .site-footer a:hover { color: #142117; }
+body:has(.schedule-page) .site-footer .footer-links li.footer-guide { border-left-color: #1f5d34; }
+
+.schedule-page h2 { margin: 1.6rem 0 0.5rem; color: #142117; }
+.sched-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  color: #142117;
+  font-size: 12pt;
+  line-height: 1.35;
+}
+.sched-table th,
+.sched-table td {
+  border: 1px solid #b9b3a3;
+  padding: 0.35rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+  color: #142117;
+}
+.sched-table thead th { background: #eef3ec; }
+.sched-crit th { width: 9.5rem; white-space: nowrap; }
+.sched-day th {
+  background: #f6f4ee;
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: 13pt;
+}
+.sched-t { white-space: nowrap; width: 7rem; }
+.sched-table a { white-space: normal; }
+.sched-none,
+.sched-nothing,
+.sched-jumpline { margin: 0.6rem 0 0; color: #142117; }
+
+.sched-cat-btns {
+  list-style: none;
+  margin: 0.4rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+.sched-cat-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 4.2rem;
+  padding: 0.8rem 1.1rem;
+  background: #ffffff;
+  color: #142117 !important;
+  border: 2px solid #1f5d34;
+  border-radius: 0.7rem;
+  text-decoration: none;
+}
+.sched-cat-btn:hover,
+.sched-cat-btn:focus-visible { background: #eef6f0; }
+.sched-cat-name { font-size: 16pt; font-weight: 700; line-height: 1.2; }
+.sched-cat-count { font-size: 12pt; margin-top: 0.15rem; }
+
+@media (max-width: 640px) {
+  .sched-cat-btns { grid-template-columns: 1fr; }
+  /* Phone: each row is one compact block; no per-cell boxes. */
+  :is(.schedule-page, .schedule-county) .sched-table tbody tr {
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #b9b3a3;
+    border-radius: 0;
+    padding: 0.35rem 0.5rem;
+    background: #ffffff;
+  }
+  :is(.schedule-page, .schedule-county) .sched-table tbody th,
+  :is(.schedule-page, .schedule-county) .sched-table tbody td {
+    display: inline;
+    width: auto;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    overflow-wrap: anywhere;
+  }
+  :is(.schedule-page, .schedule-county) .sched-table tbody td::before { content: none; }
+  :is(.schedule-page, .schedule-county) .sched-table a { white-space: normal; }
+  :is(.schedule-page, .schedule-county) .sched-crit tbody th::after { content: ": "; }
+  :is(.schedule-page, .schedule-county) .sched-weekly td.sched-t { font-weight: 700; }
+  :is(.schedule-page, .schedule-county) .sched-weekly td.sched-t::after { content: " "; }
+  :is(.schedule-page, .schedule-county) .sched-weekly td.sched-note { display: block; }
+  :is(.schedule-page, .schedule-county) .sched-table tr.sched-day { background: #f6f4ee; border-top: 2px solid #1f5d34; }
+  :is(.schedule-page, .schedule-county) .sched-table tr.sched-day th { display: block; }
+}
+
+@media print {
+  body:has(.schedule-page),
+  body:has(.schedule-page) main,
+  body:has(.schedule-page) .page-hero,
+  body:has(.schedule-page) .page-hero h1,
+  body:has(.schedule-page) .page-body,
+  body:has(.schedule-page) .page-body *,
+  body:has(.schedule-page) .site-footer,
+  body:has(.schedule-page) .site-footer * {
+    color: #000000 !important;
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  .schedule-page { font-size: 14pt; }
+  :is(.schedule-page, .schedule-county) .sched-table,
+  :is(.schedule-page, .schedule-county) .sched-table * { font-size: 12pt; }
+  .sched-cat-btn { border: 1px solid #000000; min-height: 0; }
+  .sched-item { break-inside: avoid; }
+}
+:is(.schedule-page, .schedule-county) .ext { color: #142117; }
+.sched-table .ext { font-size: 1em; }
+
+/* The Weekly: CRITICAL rows. Word tag in a dark box plus a heavy dark left
+   rule, so it reads in black-and-white print; no color-only cue. */
+.crit-tag {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  border: 2px solid #000000;
+  background: #ffffff;
+  color: #000000;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+.sched-table tr.sched-critical td { font-weight: 700; }
+.sched-table tr.sched-critical td:first-child { border-left: 6px solid #000000; }
+.sched-legend { margin: 0 0 0.6rem; color: #142117; }
+.sched-later { margin: 0.4rem 0 0; padding-left: 0; list-style: none; }
+.sched-later li { margin: 0 0 0.35rem; color: #142117; }
+@media (max-width: 640px) {
+  :is(.schedule-page, .schedule-county) .sched-table tr.sched-critical { border-left: 6px solid #000000; }
+  :is(.schedule-page, .schedule-county) .sched-table tr.sched-critical td:first-child { border-left: 0; }
+}
+@media print {
+  .crit-tag { border: 2px solid #000000 !important; color: #000000 !important; }
+  .sched-table tr.sched-critical td:first-child { border-left: 6px solid #000000 !important; }
+}
+.sched-rows td.sched-d { white-space: nowrap; font-weight: 700; }
+@media (max-width: 640px) {
+  :is(.schedule-page, .schedule-county) .sched-rows td.sched-d { font-weight: 700; }
+  :is(.schedule-page, .schedule-county) .sched-rows td.sched-d::after,
+  :is(.schedule-page, .schedule-county) .sched-rows td.sched-t::after { content: " "; }
+}
+
+/* County page: The Weekly (county, school district and town meetings) */
+.county-weekly {
+  margin-top: 2.2rem;
+  padding-top: 1.4rem;
+  border-top: 2px solid #142117;
+  color: #142117;
+}
+.county-weekly h2 {
+  margin: 0 0 0.45rem;
+  font-size: 24pt;
+  color: #142117;
+}
+.county-weekly p { color: #142117; font-size: 14pt; }
+.county-weekly .co-intro { font-size: 16pt; }
+.county-weekly .sched-none { font-size: 16pt; font-weight: 700; }
+.county-weekly a { color: #142117; text-decoration: underline; }
+@media print {
+  .county-weekly p { font-size: 14pt; }
+  .county-weekly .sched-table,
+  .county-weekly .sched-table * { font-size: 12pt; }
+}
+@media (max-width: 640px) {
+  .county-weekly .sched-table thead { display: none; }
+  .county-weekly .sched-table,
+  .county-weekly .sched-table tbody,
+  .county-weekly .sched-table tr { display: block; width: 100%; }
 }

@@ -344,6 +344,15 @@ def county_title(data: dict) -> str:
     return f"{data['county_number']:02d} {data['county']} County"
 
 
+def county_weekly(slug: str, as_of: date) -> str:
+    """The Weekly section for pilot counties (tools/schedule/county.py); empty otherwise."""
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "tools" / "schedule"))
+    import county as _county
+    block = _county.block_for(ROOT, slug, as_of)
+    return "\n" + block if block else ""
+
+
 def page_html(data: dict, dest: Path, as_of: date, slug: str) -> str:
     """County page: report on top, then legislators and county offices in box grids."""
     data = apply_term_switch(data, as_of)
@@ -366,7 +375,7 @@ def page_html(data: dict, dest: Path, as_of: date, slug: str) -> str:
     links = [f'<nav class="co-btns" aria-label="More officeholders">{"".join(buttons)}</nav>']
     body = f"""          <p class="report-kicker">County page · {esc(version)}</p>
           <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(report['pdf_href'])}">Print report (PDF)</a></p>
-          {report['body']}
+          {report['body']}{county_weekly(slug, as_of)}
           <section class="county-officials" id="current-officeholders">
             <h2>Current officeholders</h2>
             <p class="co-intro">{esc(data.get("intro") or "")}</p>

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Build data/schedule.json and schedule/index.html from official sources.
+"""Build data/schedule.json and the Current Schedule pages from official sources.
+
+One run writes schedule/index.html (Critical Dates, The Weekly, four buttons)
+and the four category pages: schedule/state-offices.html, boards.html,
+standing-committees.html, and other-committees.html.
 
 Events from today through the next 60 days (America/Denver). Past items are
 dropped each run. Critical Dates come first from data/critical_dates.json
@@ -705,8 +709,8 @@ def fetch_sbe_events(today: date) -> list[dict]:
                         event_record(
                             date_s=d.isoformat(),
                             time_s=time_s,
-                            office="Superintendent of Public Instruction",
-                            section="superintendent",
+                            office=BOARDS_HEADING,
+                            section=BOARDS_ID,
                             title="State Board of Education meeting",
                             location=loc,
                             source_url=SBE_PAGE,
@@ -755,6 +759,40 @@ def fetch_treasurer_announcements(today: date) -> list[dict]:
             source_name="Wyoming State Treasurer's Office",
         )
     )
+    return out
+
+
+WCSAB_PAGE = "https://edu.wyoming.gov/wyoming-charter-school-authorizing-board/"
+WCSAB_NAME = "Wyoming Charter School Authorizing Board"
+
+
+def fetch_wcsab_events(today: date) -> list[dict]:
+    """Department of Education: the Charter School Authorizing Board posts an
+    'Upcoming Meeting Dates' list (dates only)."""
+    status, body = fetch(WCSAB_PAGE)
+    if status != 200:
+        raise RuntimeError("HTTP %s" % status)
+    text = body.decode("utf-8", "replace")
+    i = text.find("Upcoming Meeting Dates")
+    if i < 0:
+        raise RuntimeError("Upcoming Meeting Dates list not found")
+    chunk = html.unescape(re.sub(r"<[^>]+>", "\n", text[i:i + 8000]))
+    j = chunk.find("Past Meeting")
+    if j > 0:
+        chunk = chunk[:j]
+    out = []
+    for m in re.finditer(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s*(\d{4})", chunk):
+        try:
+            d = datetime.strptime("%s %s %s" % m.groups(), "%B %d %Y").date()
+        except ValueError:
+            continue
+        if d < today:
+            continue
+        out.append(event_record(
+            date_s=d.isoformat(), time_s="", office=BOARDS_HEADING, section=BOARDS_ID,
+            title="%s meeting" % WCSAB_NAME, location="", source_url=WCSAB_PAGE,
+            source_name="Wyoming Department of Education",
+        ))
     return out
 
 
@@ -848,7 +886,38 @@ def section_defs(committees: list[dict]) -> list[tuple[str, str, str]]:
     select.sort(key=lambda x: x[1].lower())
     for sid, name in joint + management + select:
         out.append((sid, name, "committee"))
+    out.append((JCC_ID, JCC_HEADING, "committee"))
     return out
+
+
+JCC_ID = "committee-jcc"
+JCC_HEADING = "Conference Committees"
+JCC_RE = re.compile(r"^\s*(HB|SF|HJ|SJ)0*(\d+)JCC0*(\d+)\s*[-–]?\s*(.*)$", re.I)
+
+
+def conference_title(name: str) -> str:
+    """'HB0011JCC01 - Manufacturing sales...' -> 'HB 11 Conference Committee: Manufacturing sales...'.
+    A second committee on the same bill is 'Conference Committee No. 2'."""
+    m = JCC_RE.match(name or "")
+    if not m:
+        return ""
+    kind, num, n, catch = m.group(1).upper(), int(m.group(2)), int(m.group(3)), m.group(4).strip().rstrip(".")
+    t = "%s %d Conference Committee" % (kind, num)
+    if n > 1:
+        t += " No. %d" % n
+    return t + (": " + catch if catch else "")
+
+
+def floor_chamber(ev: dict, title_name: str) -> tuple[str, str] | None:
+    """House or Senate floor session from the LSO calendar, else None."""
+    name = (title_name or "").lower()
+    mtype = (ev.get("meetingType") or "").strip().lower()
+    if ev.get("meetingKind") == 1 or "floor session" in name:
+        if "senate" in name or (mtype == "senate" and "house" not in name):
+            return ("senate", "Senate")
+        if "house" in name or mtype == "house":
+            return ("house", "House")
+    return None
 
 
 def assign_lso_events(
@@ -878,8 +947,44 @@ def assign_lso_events(
         comm = ev.get("committee") or {}
         title_name = (comm.get("fullName") or comm.get("displayName") or comm.get("shortName") or "").strip()
         kind = ev.get("meetingKind")
+        # Kind 1: House and Senate floor sessions (committeeId 0, no code).
+        chamber = floor_chamber(ev, title_name)
+        if chamber:
+            sid, heading = chamber
+            out.append(
+                event_record(
+                    date_s=start_d.isoformat(),
+                    end_date=end_d.isoformat() if end_d != start_d else "",
+                    time_s=lso_time_label(ev, start, utc),
+                    office=heading,
+                    section=sid,
+                    title="%s floor session" % heading,
+                    location=lso_location(ev),
+                    source_url=lso_source_url(ev, start),
+                    source_name="Wyoming Legislature calendar",
+                    tentative=(ev.get("category") == "Tentative"),
+                )
+            )
+            continue
         # Kind 4: holidays, boards, session convening
         if kind == 4 or ev.get("committeeId") in (0, None):
+            jcc = conference_title(title_name)
+            if jcc:
+                out.append(
+                    event_record(
+                        date_s=start_d.isoformat(),
+                        end_date=end_d.isoformat() if end_d != start_d else "",
+                        time_s=lso_time_label(ev, start, utc),
+                        office=JCC_HEADING,
+                        section=JCC_ID,
+                        title=jcc,
+                        location=lso_location(ev),
+                        source_url=lso_source_url(ev, start),
+                        source_name="Wyoming Legislature calendar",
+                        tentative=(ev.get("category") == "Tentative"),
+                    )
+                )
+                continue
             key = title_name.lower()
             if key in SKIP_KIND4 or not title_name:
                 continue
@@ -1005,39 +1110,106 @@ def counts_by_section(events: list[dict], sections: list[tuple[str, str, str]]) 
     return {sid: c.get(sid, 0) for sid, _, _ in sections}
 
 
-def render_page(
-    repo: Path,
-    generated: datetime,
-    events: list[dict],
-    sections: list[tuple[str, str, str]],
-    during_session: bool,
-) -> str:
-    by = defaultdict(list)
-    for ev in events:
-        by[ev["section"]].append(ev)
+# ---------- Two-level pages: Schedule (level 1) and four category pages (level 2) ----------
 
-    jump_bits = []
-    for sid, heading, _kind in sections:
-        if sid == "critical-dates" or by.get(sid):
-            jump_bits.append(
-                '<li><a href="#%s">%s</a></li>' % (esc(sid), esc(heading))
+WEEKLY_DAYS = 7  # today plus the next six calendar days
+SESSION_PAGE_DAYS = 14  # category pages during a session: today plus the next 13 days
+
+
+def page_days(during_session: bool) -> int:
+    return SESSION_PAGE_DAYS if during_session else HORIZON_DAYS
+
+# (page id, button/heading label, one-line description)
+CATEGORIES = [
+    ("state-offices", "State Offices",
+     "The five elected state offices, the House, and the Senate."),
+    ("boards", "Boards",
+     "Boards and commissions the five statewide officials sit on, listed once."),
+    ("standing-committees", "Standing Committees",
+     "The Legislature's joint standing committees."),
+    ("other-committees", "Other Committees",
+     "Management Council, select committees, task forces, and working groups."),
+]
+CATEGORY_LABEL = {cid: label for cid, label, _ in CATEGORIES}
+WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+WD_SHORT = ["Mon.", "Tue.", "Wed.", "Thu.", "Fri.", "Sat.", "Sun."]
+FOLD_MIN = 3  # fold a body's repeated meetings when there are at least this many in a row
+
+
+def category_for(sid: str, kind: str) -> str:
+    """Map a schedule section to one of the four level-2 pages."""
+    if kind == "office":
+        return "state-offices"
+    if kind == "boards" or sid == BOARDS_ID:
+        return "boards"
+    if re.fullmatch(r"committee-j\d\d", sid):
+        return "standing-committees"
+    return "other-committees"
+
+
+def short_note(ev: dict, heading: str) -> str:
+    """Event title without the body name it repeats."""
+    t = (ev.get("title") or "").strip()
+    if heading and t.lower().startswith(heading.lower()):
+        t = t[len(heading):].strip()
+        t = re.sub(r"^meeting\b\s*", "", t, flags=re.I).strip()
+    return t or "Meeting"
+
+
+def short_time(t: str) -> str:
+    return (t or "").replace(" MT", "")
+
+
+def fold_repeats(items: list[dict]) -> list[dict]:
+    """Fold runs of the same one-day meeting (same title, time, place) on
+    consecutive days, weekends allowed as gaps, into one entry."""
+    out: list[dict] = []
+    i = 0
+    while i < len(items):
+        ev = items[i]
+        run = [ev]
+        if (ev.get("end_date") or ev["date"]) == ev["date"]:
+            j = i + 1
+            while j < len(items):
+                nx = items[j]
+                prev = parse_date(run[-1]["date"])
+                d = parse_date(nx["date"])
+                if (
+                    (nx.get("end_date") or nx["date"]) == nx["date"]
+                    and nx["title"] == ev["title"]
+                    and nx["time"] == ev["time"]
+                    and nx["location"] == ev["location"]
+                    and d and prev and 1 <= (d - prev).days <= 3
+                    and all((prev + timedelta(days=k)).weekday() >= 5 for k in range(1, (d - prev).days))
+                ):
+                    run.append(nx)
+                    j += 1
+                else:
+                    break
+        if len(run) >= FOLD_MIN:
+            rec = dict(ev)
+            rec["end_date"] = run[-1]["date"]
+            rec["folded"] = len(run)
+            rec["fold_weekdays_only"] = any(
+                (parse_date(b["date"]) - parse_date(a["date"])).days > 1 for a, b in zip(run, run[1:])
             )
+            out.append(rec)
+            i += len(run)
+        else:
+            out.append(ev)
+            i += 1
+    return out
 
-    session_note = ""
-    if during_session:
-        session_note = (
-            "<p>The Legislature is in session. The House, Senate, and committee "
-            "sections show the standard committee schedule.</p>"
-        )
 
+def page_shell(title: str, back_href: str, back_label: str, description: str, body: list[str]) -> str:
     parts = [
         "<!DOCTYPE html>",
         '<html lang="en">',
         "  <head>",
         '    <meta charset="utf-8">',
         '    <meta name="viewport" content="width=device-width, initial-scale=1">',
-        "    <title>Current Schedule — WyoVote</title>",
-        '    <meta name="description" content="Current statewide meetings and events for Wyoming\'s five elected offices, the House, the Senate, and formal legislative committees.">',
+        "    <title>%s — WyoVote</title>" % esc(title),
+        '    <meta name="description" content="%s">' % esc(description),
         '    <link rel="icon" href="../assets/img/surveyor-icon.png" type="image/png">',
         '    <link rel="stylesheet" href="../css/styles.css">',
         '    <link rel="stylesheet" href="../assets/css/site.css">',
@@ -1067,59 +1239,17 @@ def render_page(
         "",
         '    <main id="main">',
         '      <div class="wrap back-wrap">',
-        '        <p class="back-row"><a class="back-btn" href="../index.html">← Back to Home</a></p>',
+        '        <p class="back-row"><a class="back-btn" href="%s">← Back to %s</a></p>' % (esc(back_href), esc(back_label)),
         "      </div>",
         '      <section class="page-hero">',
         '        <div class="wrap">',
-        "          <h1>Current Schedule</h1>",
+        "          <h1>%s</h1>" % esc(title),
         "        </div>",
         "      </section>",
         '      <section class="page-body schedule-page">',
         '        <div class="wrap page-prose">',
-        "          <p>Statewide meetings and events posted for the next 60 days, for the five elected state offices, the boards those offices sit on, the House, the Senate, and the Legislature's current formal committees. Critical Dates are listed even when they fall later. Past items are removed daily. Times are Mountain Time.</p>",
-        session_note,
-        '          <p class="schedule-updated">Last updated: %s</p>' % esc(label_updated(generated)),
-        '          <nav class="schedule-jump" aria-label="On this page">',
-        "            <p>On this page</p>",
-        "            <ol>",
-        *["              " + b for b in jump_bits],
-        "            </ol>",
-        "          </nav>",
     ]
-
-    for sid, heading, _kind in sections:
-        items = by.get(sid) or []
-        parts.append('          <section class="sched-section" id="%s" aria-labelledby="%s-h">' % (esc(sid), esc(sid)))
-        parts.append('            <h2 id="%s-h">%s</h2>' % (esc(sid), esc(heading)))
-        if not items:
-            parts.append('            <p class="sched-empty">No scheduled events posted.</p>')
-        else:
-            parts.append('            <ul class="sched-list">')
-            for ev in items:
-                d = parse_date(ev["date"])
-                end = parse_date(ev.get("end_date") or "")
-                date_l = label_range(d, end) if d else ev["date"]
-                parts.append('              <li class="sched-item">')
-                parts.append('                <p class="sched-when"><span class="sched-date">%s</span>' % esc(date_l))
-                if ev.get("time"):
-                    parts.append('                <span class="sched-time">%s</span></p>' % esc(ev["time"]))
-                else:
-                    parts.append("                </p>")
-                title_html = esc(ev["title"])
-                if ev.get("unverified"):
-                    title_html += ' <span class="sched-unverified">(unverified)</span>'
-                parts.append('                <p class="sched-title">%s</p>' % title_html)
-                if ev.get("location"):
-                    parts.append('                <p class="sched-loc">%s</p>' % esc(ev["location"]))
-                if ev.get("source_url"):
-                    parts.append(
-                        '                <p class="sched-src"><a href="%s">Source</a></p>'
-                        % esc(ev["source_url"])
-                    )
-                parts.append("              </li>")
-            parts.append("            </ul>")
-        parts.append("          </section>")
-
+    parts += ["          " + b for b in body if b is not None and b != ""]
     parts += [
         "        </div>",
         "      </section>",
@@ -1142,109 +1272,374 @@ def render_page(
         "</html>",
         "",
     ]
-    # drop empty strings from session_note when not in session
-    return "\n".join(p for p in parts if p is not None)
+    return "\n".join(parts)
+
+
+def render_card(ev: dict) -> list[str]:
+    d = parse_date(ev["date"])
+    end = parse_date(ev.get("end_date") or "")
+    if ev.get("folded"):
+        when = "%s, %s" % (
+            "Weekdays" if ev.get("fold_weekdays_only") else "Daily",
+            label_range(d, end),
+        )
+    else:
+        when = ("%s %s" % (WD_SHORT[d.weekday()], label_range(d, end))) if d else ev["date"]
+    out = ['<li class="sched-item">', '<p class="sched-when"><span class="sched-date">%s</span>' % esc(when)]
+    out[-1] += (' <span class="sched-time">%s</span></p>' % esc(ev["time"])) if ev.get("time") else "</p>"
+    title_html = esc(ev["title"])
+    if ev.get("unverified"):
+        title_html += ' <span class="sched-unverified">(unverified)</span>'
+    if ev.get("folded"):
+        title_html += " (%d meetings)" % ev["folded"]
+    out.append('<p class="sched-title">%s</p>' % title_html)
+    if ev.get("location"):
+        out.append('<p class="sched-loc">%s</p>' % esc(ev["location"]))
+    if ev.get("source_url"):
+        label = "Source (first meeting)" if ev.get("folded") else "Source"
+        extra = " (%s)" % esc(ev["source_name"]) if ev.get("source_name") else ""
+        out.append('<p class="sched-src"><a href="%s">%s</a>%s</p>' % (esc(ev["source_url"]), label, extra))
+    out.append("</li>")
+    return out
+
+
+CARD_MAX = 4  # a body with more entries than this gets one table row per entry
+
+
+def render_rows(items: list[dict]) -> list[str]:
+    """Compact table for a body with many meetings (mostly during a session)."""
+    out = ['<table class="sched-table sched-rows">',
+           '<thead><tr><th scope="col">Date</th><th scope="col">Time</th><th scope="col">Meeting and place</th></tr></thead>',
+           "<tbody>"]
+    for ev in items:
+        d = parse_date(ev["date"])
+        end = parse_date(ev.get("end_date") or "")
+        if ev.get("folded"):
+            when = "%s, %s" % ("Weekdays" if ev.get("fold_weekdays_only") else "Daily", label_range(d, end))
+        else:
+            when = "%s %s" % (WD_SHORT[d.weekday()], label_range(d, end))
+        what = esc(ev["title"])
+        if ev.get("folded"):
+            what += " (%d meetings)" % ev["folded"]
+        if ev.get("location"):
+            what += ". " + esc(ev["location"])
+        if ev.get("source_url"):
+            what += ' <a href="%s">Source</a>' % esc(ev["source_url"])
+        out.append('<tr><td class="sched-d">%s</td><td class="sched-t">%s</td><td class="sched-note">%s</td></tr>' % (
+            esc(when), esc(short_time(ev["time"])) or "—", what))
+    out += ["</tbody>", "</table>"]
+    return out
+
+
+def updated_line(generated: datetime) -> str:
+    return '<p class="schedule-updated">Last updated: %s</p>' % esc(label_updated(generated))
+
+
+def time_sort_key(t: str) -> str:
+    """Sort key for a time label: clock times in order, then all-day/blank."""
+    m = re.search(r"(\d{1,2}):(\d{2})\s*(a\.m\.|p\.m\.)|(12:00 noon)", t or "")
+    if not m:
+        return "99:99"
+    if m.group(4):
+        return "12:00"
+    h = int(m.group(1)) % 12 + (12 if m.group(3) == "p.m." else 0)
+    return "%02d:%s" % (h, m.group(2))
+
+
+CRITICAL_TAG = '<strong class="crit-tag">CRITICAL</strong>'
+
+
+def render_level1(generated: datetime, events: list[dict], sections, during_session: bool, today: date) -> str:
+    head_of = {sid: h for sid, h, _ in sections}
+    cat_of = {sid: category_for(sid, k) for sid, _, k in sections}
+    crit = [e for e in events if e["section"] == "critical-dates"]
+    reg = [e for e in events if e["section"] != "critical-dates" and e["section"] in head_of]
+    last = today + timedelta(days=WEEKLY_DAYS - 1)
+    body = [
+        ("<p>Meetings and events posted by the five elected state offices, the boards they sit on, "
+         "the House, the Senate, and the Legislature's formal committees. The Weekly lists today and "
+         "the next six days and moves forward each day. The four buttons below list everything posted "
+         "for the next %d days, with locations and sources. Past items are removed daily. "
+         "Times are Mountain Time.</p>") % page_days(during_session),
+    ]
+    if during_session:
+        body.append("<p>The Legislature is in session. Legislative listings show the floor and standard committee schedule.</p>")
+    body.append(updated_line(generated))
+    body.append('<h2 id="weekly">The Weekly</h2>')
+    body.append('<p class="sched-legend">%s marks a critical date: legislators taking office, the start and end of a session, and other key dates. Select a name for details.</p>' % CRITICAL_TAG)
+
+    def in_week(e):
+        s = parse_date(e["date"])
+        en = parse_date(e.get("end_date") or "") or s
+        return bool(s and s <= last and en >= today)
+
+    week = [e for e in crit + reg if in_week(e)]
+    if not week:
+        body.append('<p class="sched-none">Nothing posted for today or the next six days.</p>')
+    else:
+        body.append('<table class="sched-table sched-weekly">')
+        body.append('<thead><tr><th scope="col">Time</th><th scope="col">Who</th><th scope="col">What</th></tr></thead>')
+        days = defaultdict(list)
+        for e in week:
+            days[max(parse_date(e["date"]), today)].append(e)
+        for day in sorted(days):
+            label = "%s, %s" % (WEEKDAYS[day.weekday()], label_date(day))
+            body.append('<tbody><tr class="sched-day"><th scope="rowgroup" colspan="3">%s</th></tr>' % esc(label))
+            rows = sorted(days[day], key=lambda x: (0 if x["section"] == "critical-dates" else 1, time_sort_key(x["time"]), x.get("sort", 100), head_of.get(x["section"], "")))
+            for e in rows:
+                t = esc(short_time(e["time"])) or "—"
+                en = parse_date(e.get("end_date") or "")
+                span = " (%s)" % label_range(parse_date(e["date"]), en) if en and en > parse_date(e["date"]) else ""
+                if e["section"] == "critical-dates":
+                    what = esc(e["title"]) + (" (unverified)" if e.get("unverified") else "")
+                    if e.get("location"):
+                        what += ". " + esc(e["location"])
+                    if e.get("source_url"):
+                        what += ' <a href="%s">Source</a>' % esc(e["source_url"])
+                    body.append('<tr class="sched-critical"><td class="sched-t">%s</td><td>%s</td><td class="sched-note">%s%s</td></tr>' % (t, CRITICAL_TAG, what, esc(span)))
+                else:
+                    h = head_of[e["section"]]
+                    body.append('<tr><td class="sched-t">%s</td><td><a href="%s.html#%s">%s</a></td><td class="sched-note">%s</td></tr>' % (
+                        t, cat_of[e["section"]], esc(e["section"]), esc(h), esc(short_note(e, h) + span)))
+            body.append("</tbody>")
+        body.append("</table>")
+    counts = defaultdict(int)
+    cutoff = (today + timedelta(days=page_days(during_session) - 1)).isoformat()
+    for e in reg:
+        if e["date"] <= cutoff:
+            counts[cat_of[e["section"]]] += 1
+    body.append('<h2 id="more">Next %d Days</h2>' % page_days(during_session))
+    body.append('<ul class="sched-cat-btns">')
+    for cid, label, _desc in CATEGORIES:
+        n = counts.get(cid, 0)
+        sub = "Nothing posted" if n == 0 else ("1 item posted" if n == 1 else "%d items posted" % n)
+        body.append('<li><a class="sched-cat-btn" href="%s.html"><span class="sched-cat-name">%s</span><span class="sched-cat-count">%s</span></a></li>' % (cid, esc(label), sub))
+    body.append("</ul>")
+    later = [e for e in crit if parse_date(e["date"]) > last]
+    body.append('<h2 id="critical-later">Later Critical Dates</h2>')
+    if later:
+        body.append('<ul class="sched-later">')
+        for e in later:
+            bits = "<strong>%s</strong>: %s" % (esc(label_date(parse_date(e["date"]))), esc(e["title"]))
+            if e.get("unverified"):
+                bits += " (unverified)"
+            if e.get("time"):
+                bits += ", " + esc(short_time(e["time"]))
+            if e.get("source_url"):
+                bits += ' <a href="%s">Source</a>' % esc(e["source_url"])
+            body.append("<li>%s %s</li>" % (CRITICAL_TAG, bits))
+        body.append("</ul>")
+    else:
+        body.append('<p class="sched-none">No later critical dates posted.</p>')
+    return page_shell(
+        "Current Schedule", "../index.html", "Home",
+        "Current statewide meetings and events for Wyoming's five elected offices, their boards, the House, the Senate, and formal legislative committees.",
+        body,
+    )
+
+
+def render_level2(cid: str, generated: datetime, events: list[dict], sections, during_session: bool, today: date | None = None) -> str:
+    label = CATEGORY_LABEL[cid]
+    desc = dict((c, d) for c, _, d in CATEGORIES)[cid]
+    mine = [(sid, h) for sid, h, k in sections if sid != "critical-dates" and category_for(sid, k) == cid]
+    days = page_days(during_session)
+    if today is not None:
+        cutoff = (today + timedelta(days=days - 1)).isoformat()
+        events = [e for e in events if e["date"] <= cutoff]
+    by = defaultdict(list)
+    for e in events:
+        by[e["section"]].append(e)
+    body = [
+        "<p>%s Everything posted for the next %d days. Past items are removed daily. Times are Mountain Time.</p>" % (esc(desc), days),
+    ]
+    if during_session and cid in ("state-offices", "standing-committees", "other-committees"):
+        body.append("<p>The Legislature is in session. Legislative listings show the floor and standard committee schedule.</p>")
+    body.append(updated_line(generated))
+    with_ev = [(sid, h) for sid, h in mine if by.get(sid)]
+    empty = [h for sid, h in mine if not by.get(sid)]
+    if len(with_ev) > 3:
+        body.append('<p class="sched-jumpline"><strong>On this page:</strong> ' + "; ".join(
+            '<a href="#%s">%s</a>' % (esc(sid), esc(h)) for sid, h in with_ev) + ".</p>")
+    if not with_ev:
+        body.append('<p class="sched-none">Nothing posted for the next %d days.</p>' % days)
+    for sid, h in with_ev:
+        body.append('<section class="sched-section" id="%s" aria-labelledby="%s-h">' % (esc(sid), esc(sid)))
+        body.append('<h2 id="%s-h">%s</h2>' % (esc(sid), esc(h)))
+        items = fold_repeats(sorted(by[sid], key=lambda x: (x["date"], time_sort_key(x["time"]))))
+        if len(items) <= CARD_MAX:
+            body.append('<ul class="sched-list">')
+            for ev in items:
+                body += render_card(ev)
+            body.append("</ul>")
+        else:
+            body += render_rows(items)
+        body.append("</section>")
+    if empty:
+        body.append('<p class="sched-nothing"><strong>Nothing posted:</strong> %s.</p>' % "; ".join(esc(h) for h in empty))
+    return page_shell(label, "index.html", "Schedule", "Current %s schedule on WyoVote." % label, body)
+
+
+def write_pages(repo: Path, generated: datetime, events: list[dict], sections, during: bool, today: date) -> list[Path]:
+    out_dir = repo / "schedule"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    paths = []
+    p = out_dir / "index.html"
+    p.write_text(render_level1(generated, events, sections, during, today))
+    paths.append(p)
+    for cid, _label, _d in CATEGORIES:
+        p = out_dir / ("%s.html" % cid)
+        p.write_text(render_level2(cid, generated, events, sections, during, today))
+        paths.append(p)
+    return paths
 
 
 def label_updated(dt: datetime) -> str:
     return "%s, %s" % (label_date(dt.date()), format_time_mt(dt))
 
 
-def main() -> int:
-    repo = repo_root()
-    today = today_denver()
-    generated = now_denver()
-    critical_path = repo / "data" / "critical_dates.json"
+def render_only(repo: Path, today: date) -> int:
+    """Rebuild the five pages from the saved data/schedule.json (no fetching).
+    Past items are still dropped."""
+    data = json.loads((repo / "data" / "schedule.json").read_text())
+    generated = datetime.fromisoformat(data["generated_at"])
+    sections = [(s["id"], s["heading"], s["kind"]) for s in data["section_order"]]
+    until = today + timedelta(days=HORIZON_DAYS)
+    events = [e for e in data["events"] if within_horizon(e, today, until)]
+    paths = write_pages(repo, generated, events, sections, bool(data.get("in_session")), today)
+    sys.path.insert(0, str(repo / "tools"))
+    import mark_outside_links as mol
+    print("outside-link markers", mol.apply_paths(paths))
+    for pth in paths:
+        print("wrote", pth)
+    return 0
 
+
+def schedule_date_arg() -> date | None:
+    """--for-date YYYY-MM-DD builds the pages as of that day (a 10 PM crawl
+    stages the next morning's pages)."""
+    args = sys.argv[1:]
+    for i, a in enumerate(args):
+        if a == "--for-date" and i + 1 < len(args):
+            return date.fromisoformat(args[i + 1])
+        if a.startswith("--for-date="):
+            return date.fromisoformat(a.split("=", 1)[1])
+    return None
+
+
+def make_context(repo: Path, today: date) -> dict:
+    critical_path = repo / "data" / "critical_dates.json"
     critical = load_critical_dates(critical_path, today)
     start, end = session_window(critical_path, today)
     during = in_legislative_session(today, start, end)
-    print("today", today.isoformat(), "horizon", (today + timedelta(days=HORIZON_DAYS)).isoformat(), "in_session", during)
-
     year = committee_year_for(today)
-    print("committee year", year)
     committees = load_committees(year)
     sections = section_defs(committees)
-    # Apply fuller names later if events provide them.
+    print("today", today.isoformat(), "horizon", (today + timedelta(days=HORIZON_DAYS)).isoformat(),
+          "in_session", during, "committee year", year)
+    return {"repo": repo, "today": today, "critical": critical, "during": during,
+            "year": year, "committees": committees, "sections": sections, "owner_full": {}}
 
-    raw = fetch_lso_months(today)
-    print("LSO raw events", len(raw))
-    lso_events, owner_full = assign_lso_events(raw, committees, today, during)
-    # Upgrade section headings with fuller official names from events.
-    upgraded = []
-    for sid, heading, kind in sections:
+
+def source_list(ctx: dict) -> list[tuple[str, str, str, object]]:
+    """(source id, label, url, fetcher) for every official source the
+    builder reads. The spider runs the same list."""
+    today, during = ctx["today"], ctx["during"]
+
+    def lso():
+        raw = fetch_lso_months(today)
+        evs, owner_full = assign_lso_events(raw, ctx["committees"], today, during)
+        ctx["owner_full"].update(owner_full)
+        return evs
+
+    out = [("lso", "Legislature calendar (LSO API)", LSO + "/api/Calendar/Events/", lso)]
+    if not during:
+        out += [
+            ("governor", "Governor public calendar (Google feed)", GOV_ICS, lambda: fetch_governor_events(today)),
+            ("treasurer", "State Treasurer announcements", TREAS_HOME, lambda: fetch_treasurer_announcements(today)),
+        ]
+    out += [
+        ("sbc", "State Building Commission", SBC_PAGE, lambda: fetch_sbc_events(today)),
+        ("slib", "State Loan and Investment Board", SLIB_PAGE, lambda: fetch_slib_events(today)),
+        ("sbe", "State Board of Education", SBE_PAGE, lambda: fetch_sbe_events(today)),
+        ("wcsab", "Charter School Authorizing Board (Education)", WCSAB_PAGE, lambda: fetch_wcsab_events(today)),
+    ]
+    return out
+
+
+def collect_sources(ctx: dict) -> dict:
+    results = {}
+    for sid, label, url, fn in source_list(ctx):
+        t0 = time.time()
+        try:
+            evs = list(fn())
+            results[sid] = {"label": label, "url": url, "ok": True, "error": "", "events": evs}
+        except Exception as e:
+            results[sid] = {"label": label, "url": url, "ok": False, "error": str(e)[:200], "events": []}
+        results[sid]["seconds"] = round(time.time() - t0, 1)
+        print("source %-10s %3d events %5.1fs %s" % (sid, len(results[sid]["events"]), results[sid]["seconds"],
+                                                     "" if results[sid]["ok"] else "FAILED " + results[sid]["error"]))
+    return results
+
+
+def build_and_write(ctx: dict, events_from_sources: list[dict], generated: datetime, extra: dict | None = None) -> list[Path]:
+    repo, today, during = ctx["repo"], ctx["today"], ctx["during"]
+    sections = []
+    for sid, heading, kind in ctx["sections"]:
         if kind == "committee" and sid.startswith("committee-"):
             owner = sid.split("committee-", 1)[1].upper()
-            if owner in owner_full:
-                heading = display_name_for(owner, heading, heading, owner_full[owner])
-        upgraded.append((sid, heading, kind))
-    sections = upgraded
-
-    events: list[dict] = list(critical)
-    events.extend(lso_events)
-
-    if not during:
-        gov = fetch_governor_events(today)
-        print("governor ICS upcoming", len(gov))
-        events.extend(gov)
-        # Treasurer public announcements (not tracked on a calendar feed)
-        treas = fetch_treasurer_announcements(today)
-        print("treasurer announcements", len(treas))
-        events.extend(treas)
-    else:
-        print("in session: skipping non-committee special-event scrapes (offices still get boards)")
-
-    sbc = fetch_sbc_events(today)
-    print("SBC upcoming", len(sbc))
-    events.extend(sbc)
-    slib = fetch_slib_events(today)
-    print("SLIB upcoming", len(slib))
-    events.extend(slib)
-    sbe = fetch_sbe_events(today)
-    print("SBE upcoming", len(sbe))
-    events.extend(sbe)
-
-    events = dedupe(events)
+            if owner in ctx["owner_full"]:
+                heading = display_name_for(owner, heading, heading, ctx["owner_full"][owner])
+        sections.append((sid, heading, kind))
+    events = dedupe(list(ctx["critical"]) + list(events_from_sources))
     until = today + timedelta(days=HORIZON_DAYS)
     before = len(events)
     events = [e for e in events if within_horizon(e, today, until)]
     print("horizon through", until.isoformat(), "kept", len(events), "of", before)
-
     payload = {
         "generated_at": generated.isoformat(),
+        "schedule_date": today.isoformat(),
         "timezone": TZ_NAME,
         "in_session": during,
-        "committee_year": year,
+        "committee_year": ctx["year"],
         "events": events,
-        "section_order": [{"id": s, "heading": h, "kind": k} for s, h, k in sections],
+        "section_order": [
+            {"id": s, "heading": h, "kind": k, "category": ("" if s == "critical-dates" else category_for(s, k))}
+            for s, h, k in sections
+        ],
     }
+    if extra:
+        payload.update(extra)
     data_path = repo / "data" / "schedule.json"
     data_path.write_text(json.dumps(payload, indent=2) + "\n")
     print("wrote", data_path, "events", len(events))
-
-    page = render_page(repo, generated, events, sections, during)
-    page_path = repo / "schedule" / "index.html"
-    page_path.write_text(page)
-    print("wrote", page_path)
-
-    # Mark outside links the same way as the rest of the site, on this page only.
+    paths = write_pages(repo, generated, events, sections, during, today)
+    for pth in paths:
+        print("wrote", pth)
     sys.path.insert(0, str(repo / "tools"))
     try:
         import mark_outside_links as mol
-        totals = mol.apply_paths([page_path])
-        print("outside-link markers", totals)
+        print("outside-link markers", mol.apply_paths(paths))
     except Exception as e:
         print("warn: mark_outside_links:", e, file=sys.stderr)
-
     counts = counts_by_section(events, sections)
     print("\nEvent counts by section:")
-    for sid, heading, _ in sections:
+    for sid, heading, kind in sections:
         n = counts.get(sid, 0)
-        if n or sid in {s for s, _, k in sections if k != "committee"}:
+        if n or kind != "committee":
             print("  %3d  %s (%s)" % (n, heading, sid))
-    formal_empty = sum(1 for sid, _, k in sections if k == "committee" and counts.get(sid, 0) == 0)
-    formal_with = sum(1 for sid, _, k in sections if k == "committee" and counts.get(sid, 0) > 0)
-    print("formal committees with events", formal_with, "empty", formal_empty, "total", formal_with + formal_empty)
+    return [data_path] + paths
+
+
+def main() -> int:
+    repo = repo_root()
+    today = schedule_date_arg() or today_denver()
+    if "--render-only" in sys.argv[1:]:
+        return render_only(repo, today)
+    generated = now_denver()
+    ctx = make_context(repo, today)
+    results = collect_sources(ctx)
+    evs = [e for r in results.values() for e in r["events"]]
+    build_and_write(ctx, evs, generated)
     return 0
 
 

@@ -2975,6 +2975,11 @@ unreferenced:data/critical_dates.json
 unreferenced:data/schedule.json
 unreferenced:tools/schedule/README.md
 unreferenced:tools/schedule/build_schedule.py
+unreferenced:tools/schedule/spider.py
+unreferenced:tools/schedule/render_pages.mjs
+unreferenced:tools/schedule/county.py
+unreferenced:data/county_sources.json
+unreferenced:data/county_schedule.json
 
 # Git ignore file for local Python caches (not a web page)
 unreferenced:.gitignore

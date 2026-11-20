@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-11-19T05:49:05.330697-07:00",
+  "generated_at": "2026-11-19T19:24:41.906644-07:00",
+  "schedule_date": "2026-11-19",
   "timezone": "America/Denver",
   "in_session": false,
   "committee_year": 2026,
@@ -75,11 +76,11 @@
       "time": "8:30 a.m. MT",
       "office": "Appropriations",
       "section": "committee-j02",
-      "title": "Appropriations meeting (tentative)",
+      "title": "Appropriations meeting",
       "location": "Wyoming State Capitol, E301, 200 West 24th Street, Cheyenne, Wyoming",
       "source_url": "https://www.wyoleg.gov/Calendar/20261207/Meeting?id=15169&type=committee",
       "source_name": "Wyoming Legislature calendar",
-      "tentative": true,
+      "tentative": false,
       "unverified": false
     },
     {
@@ -148,16 +149,29 @@
       "unverified": false
     },
     {
+      "date": "2026-12-16",
+      "end_date": "2026-12-16",
+      "time": "",
+      "office": "Boards of the Five Statewide Officials",
+      "section": "boards",
+      "title": "Wyoming Charter School Authorizing Board meeting",
+      "location": "",
+      "source_url": "https://edu.wyoming.gov/wyoming-charter-school-authorizing-board/",
+      "source_name": "Wyoming Department of Education",
+      "tentative": false,
+      "unverified": false
+    },
+    {
       "date": "2026-12-17",
       "end_date": "2026-12-17",
       "time": "8:30 a.m. MT",
       "office": "Select Water Committee",
       "section": "committee-swc",
-      "title": "Select Water Committee meeting (tentative)",
-      "location": "Cheyenne, Wyoming",
+      "title": "Select Water Committee meeting",
+      "location": "Capitol Extension, Room E005, 200 W 24th Street, Cheyenne, Wyoming",
       "source_url": "https://www.wyoleg.gov/Calendar/20261217/Meeting?id=15130&type=committee",
       "source_name": "Wyoming Legislature calendar",
-      "tentative": true,
+      "tentative": false,
       "unverified": false
     },
     {
@@ -207,202 +221,285 @@
     {
       "id": "critical-dates",
       "heading": "Critical Dates",
-      "kind": "critical"
+      "kind": "critical",
+      "category": ""
     },
     {
       "id": "governor",
       "heading": "Governor",
-      "kind": "office"
+      "kind": "office",
+      "category": "state-offices"
     },
     {
       "id": "secretary-of-state",
       "heading": "Secretary of State",
-      "kind": "office"
+      "kind": "office",
+      "category": "state-offices"
     },
     {
       "id": "auditor",
       "heading": "State Auditor",
-      "kind": "office"
+      "kind": "office",
+      "category": "state-offices"
     },
     {
       "id": "treasurer",
       "heading": "State Treasurer",
-      "kind": "office"
+      "kind": "office",
+      "category": "state-offices"
     },
     {
       "id": "superintendent",
       "heading": "Superintendent of Public Instruction",
-      "kind": "office"
+      "kind": "office",
+      "category": "state-offices"
     },
     {
       "id": "boards",
       "heading": "Boards of the Five Statewide Officials",
-      "kind": "boards"
+      "kind": "boards",
+      "category": "boards"
     },
     {
       "id": "house",
       "heading": "House",
-      "kind": "office"
+      "kind": "office",
+      "category": "state-offices"
     },
     {
       "id": "senate",
       "heading": "Senate",
-      "kind": "office"
+      "kind": "office",
+      "category": "state-offices"
     },
     {
       "id": "committee-j01",
       "heading": "Judiciary",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j02",
       "heading": "Appropriations",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j03",
       "heading": "Revenue",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j04",
       "heading": "Education",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j05",
       "heading": "Agriculture, State and Public Lands and Water Resources",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j06",
       "heading": "Travel, Recreation, Wildlife and Cultural Resources",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j07",
       "heading": "Corporations, Elections and Political Subdivisions",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j08",
       "heading": "Transportation, Highways and Military Affairs",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j09",
       "heading": "Minerals, Business and Economic Development",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j10",
       "heading": "Labor, Health and Social Services",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j11",
       "heading": "Journal",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-j12",
       "heading": "Rules and Procedure",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "standing-committees"
     },
     {
       "id": "committee-smc",
       "heading": "Management Council",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-sma",
       "heading": "Management Audit Committee",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-sat",
       "heading": "Air Transportation Liaison Committee",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-s28",
       "heading": "Capitol Square Governance Committee",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-s51",
       "heading": "Fraud Protection Working Group",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-s50",
       "heading": "Health Insurance Affordability Task Force",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-s49",
       "heading": "House Special Investigative Committee",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-s38",
       "heading": "Riverton State Office Task Force",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-s19",
       "heading": "Select Committee on Blockchain, Financial Technology and Digital Innovation Technology",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-scf",
       "heading": "Select Committee on Capital Financing & Investments",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-s44",
       "heading": "Select Committee on Gaming",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-sft",
       "heading": "Select Committee on Legislative Facilities, Technology and Process",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-ssf",
       "heading": "Select Committee on School Facilities",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-ssr",
       "heading": "Select Committee on School Finance Recalibration",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-str",
       "heading": "Select Committee on Tribal Relations",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-sfr",
       "heading": "Select Federal Natural Resource Management Committee",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-snr",
       "heading": "Select Natural Resource Funding Committee",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-swc",
       "heading": "Select Water Committee",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
     },
     {
       "id": "committee-s35",
       "heading": "State Shooting Complex Oversight Task Force",
-      "kind": "committee"
+      "kind": "committee",
+      "category": "other-committees"
+    },
+    {
+      "id": "committee-jcc",
+      "heading": "Conference Committees",
+      "kind": "committee",
+      "category": "other-committees"
     }
-  ]
+  ],
+  "sources": {
+    "lso": {
+      "status": "ok",
+      "events": 11,
+      "fingerprint": "d613d9851a7e4d29"
+    },
+    "governor": {
+      "status": "ok",
+      "events": 0,
+      "fingerprint": "e3b0c44298fc1c14"
+    },
+    "treasurer": {
+      "status": "ok",
+      "events": 1,
+      "fingerprint": "1ced05a6dfdcfd23"
+    },
+    "sbc": {
+      "status": "ok",
+      "events": 4,
+      "fingerprint": "63a01db931eb3c09"
+    },
+    "slib": {
+      "status": "ok",
+      "events": 1,
+      "fingerprint": "6bd2a7f1ee1376dd"
+    },
+    "sbe": {
+      "status": "ok",
+      "events": 4,
+      "fingerprint": "542eee25b3d692e7"
+    },
+    "wcsab": {
+      "status": "ok",
+      "events": 7,
+      "fingerprint": "3d42a9efcdf454bc"
+    }
+  }
 }
