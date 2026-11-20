@@ -873,7 +873,7 @@ def page_shell(title: str, description: str, depth: int, body: str, current: str
             <li><a href="{root}about.html">About</a></li>
             <li><a href="{root}privacy.html">Privacy</a></li>
             <li><a href="{root}contact.html">Contact</a></li>
-            <li class="footer-guide"><a href="/guide/WyoVote-Users-Guide-v1.2.pdf">User's Guide</a></li>
+            <li class="footer-guide"><a href="/guide/WyoVote-Users-Guide-v2.0.pdf">User's Guide</a></li>
           </ul>
         </nav>
         <p>&copy; 2026 WyoVote. All rights reserved.</p>
