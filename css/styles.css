@@ -15,7 +15,7 @@
   --color-ink: #142117;
   --color-paper: #f4f3ee;
   --color-white: #ffffff;
-  --color-hero-text: #f6fbf7;
+  --color-hero-text: #142117;
   --color-line: #ddd9ce;
   --font-sans: "Segoe UI", Candara, "Helvetica Neue", Arial, sans-serif;
   --font-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Times New Roman", serif;
@@ -166,24 +166,30 @@ main {
 
 .hero,
 .page-hero {
-  color: var(--color-hero-text);
-  background-color: var(--color-green-deep);
+  color: #142117;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .page-hero {
-  background-image: linear-gradient(160deg, rgba(8, 28, 16, 0.94) 0%, rgba(18, 64, 34, 0.9) 52%, rgba(8, 30, 16, 0.94) 100%);
+  background-image: none;
+  border-top: 2px solid #1f5d34;
+  border-bottom: 2px solid #1f5d34;
 }
 
 .hero {
   flex: 0 0 auto;
   min-height: 24rem;
+  color: #142117;
+  background-color: #ffffff;
   background-image:
-    linear-gradient(105deg, rgba(6, 18, 12, 0.88) 0%, rgba(8, 26, 16, 0.74) 42%, rgba(8, 22, 14, 0.5) 100%),
+    linear-gradient(105deg, rgba(255, 255, 255, 0.94) 0%, rgba(231, 245, 235, 0.9) 42%, rgba(255, 255, 255, 0.88) 100%),
     var(--hero-background-image);
   background-position: center 62%;
+  border-top: 2px solid #1f5d34;
+  border-bottom: 2px solid #1f5d34;
 }
 
 .hero-copy {
@@ -222,7 +228,7 @@ h3 {
 .lede {
   margin: 0;
   max-width: 40rem;
-  color: var(--color-hero-text);
+  color: #142117;
   font-size: 1.32rem;
   line-height: 1.6;
   text-wrap: pretty;
@@ -249,7 +255,7 @@ h3 {
   min-width: 4rem;
   border: 0;
   border-radius: 999px;
-  background: rgba(246, 251, 247, 0.78);
+  background: #1f5d34;
 }
 
 .page-body {
@@ -442,8 +448,9 @@ tr:last-child td {
 }
 
 .site-footer {
-  background: #102416;
-  color: #e8f4eb;
+  background: #ffffff;
+  color: #142117;
+  border-top: 2px solid #1f5d34;
 }
 
 .footer-inner {
@@ -471,16 +478,16 @@ tr:last-child td {
 }
 
 .photo-credit {
-  color: #c9e0d0;
+  color: #142117;
   font-size: 0.95rem;
 }
 
 .site-footer a {
-  color: #e7f8ec;
+  color: #142117;
 }
 
 .site-footer a:hover {
-  color: #ffffff;
+  color: #142117;
 }
 
 @media (max-width: 900px) {

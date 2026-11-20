@@ -81,8 +81,9 @@
 .preview-banner {
   margin: 0;
   padding: 0.55rem 1rem;
-  background: #8a1c1c;
-  color: #ffffff;
+  background: #fdecea;
+  color: #8a1c1c;
+  border-bottom: 2px solid #8a1c1c;
   text-align: center;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -510,7 +511,7 @@
 .site-footer .footer-links li.footer-guide {
   margin-left: 0.75rem;
   padding-left: 1.25rem;
-  border-left: 1px solid #e7f8ec;
+  border-left: 1px solid #1f5d34;
 }
 
 .site-footer .footer-inner p {
@@ -686,10 +687,10 @@
 .contact-form button {
   justify-self: start;
   padding: 0.7rem 1.35rem;
-  border: 2px solid #0e2a18;
+  border: 2px solid #1f5d34;
   border-radius: 0.7rem;
-  background: #1f5c2e;
-  color: #ffffff;
+  background: #ffffff;
+  color: #142117;
   font-size: 14pt;
   font-weight: 700;
   cursor: pointer;
@@ -697,7 +698,8 @@
 
 .contact-form button:hover,
 .contact-form button:focus-visible {
-  background: #174726;
+  background: #eef6f0;
+  color: #142117;
 }
 
 .form-pending {
@@ -771,9 +773,10 @@ body.pf-2025 .deep-votes td {
   display: inline-block;
   min-width: 9rem;
   padding: 0.75rem 1.5rem;
+  border: 2px solid #1f5d34;
   border-radius: 0.4rem;
-  background: #1f5d34;
-  color: #ffffff;
+  background: #ffffff;
+  color: #142117;
   font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
@@ -782,8 +785,8 @@ body.pf-2025 .deep-votes td {
 
 .officials-jump .jump-btn:hover,
 .officials-jump .jump-btn:focus {
-  background: #164427;
-  color: #ffffff;
+  background: #eef6f0;
+  color: #142117;
 }
 
 .officials-jump .jump-link {
@@ -859,15 +862,15 @@ body.pf-2025 .deep-votes td {
 }
 
 .official-btn.party-i {
-  background: #4b2a7b;
-  border-color: #2e1850;
-  color: #ffffff;
+  background: #f3eef8;
+  border-color: #4b2a7b;
+  color: #2e1850;
 }
 
 .official-btn.party-i:hover,
 .official-btn.party-i:focus-visible {
-  background: #351c5a;
-  color: #ffffff;
+  background: #e8dff3;
+  color: #2e1850;
 }
 
 .official-btn.general {
@@ -919,9 +922,10 @@ body.pf-2025 .deep-votes td {
   display: inline-block;
   min-width: 9rem;
   padding: 0.75rem 1.5rem;
+  border: 2px solid #1f5d34;
   border-radius: 0.4rem;
-  background: #1f5d34;
-  color: #ffffff;
+  background: #ffffff;
+  color: #142117;
   font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
@@ -930,8 +934,8 @@ body.pf-2025 .deep-votes td {
 
 .method-jump .jump-btn:hover,
 .method-jump .jump-btn:focus {
-  background: #164427;
-  color: #ffffff;
+  background: #eef6f0;
+  color: #142117;
 }
 
 .method-section {
@@ -1039,7 +1043,8 @@ ol.method-steps li {
 }
 
 .guide-table thead th {
-  background: #e8efe9;
+  background: #e7f5eb;
+  color: #142117;
   font-weight: 700;
 }
 
@@ -1224,9 +1229,10 @@ ol.method-steps li {
   display: inline-block;
   margin: 0;
   padding: 0.52rem 1rem;
+  border: 2px solid #1f5d34;
   border-radius: 0.32rem;
-  background: #1f5d34;
-  color: #ffffff;
+  background: #ffffff;
+  color: #142117;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
@@ -1235,8 +1241,8 @@ ol.method-steps li {
 
 .how-ratings-btn:hover,
 .how-ratings-btn:focus {
-  background: #164427;
-  color: #ffffff;
+  background: #eef6f0;
+  color: #142117;
 }
 
 @media (max-width: 640px) {
@@ -1505,8 +1511,9 @@ ol.method-steps li {
   display: inline-block;
   margin: 0 0 0.35rem;
   padding: 0.05rem 0.5rem;
-  background: #146b31;
-  color: #ffffff;
+  background: #e7f5eb;
+  color: #142117;
+  border: 2px solid #146b31;
   font-size: 14pt;
   font-weight: 700;
   line-height: 1.3;
@@ -1514,18 +1521,21 @@ ol.method-steps li {
 
 .news-box-special .news-kicker,
 .news-kicker-special {
-  background: #b8860b;
+  background: #f8eec8;
   color: #142117;
+  border: 2px solid #5c4306;
 }
 
 .news-kicker-research {
-  background: #0e2a18;
-  color: #ffffff;
+  background: #e7f5eb;
+  color: #142117;
+  border-color: #0e2a18;
 }
 
 .news-kicker-feature {
-  background: #5c4306;
-  color: #ffffff;
+  background: #f8eec8;
+  color: #142117;
+  border: 2px solid #5c4306;
 }
 
 .article-list h3 .news-kicker {
@@ -1576,8 +1586,9 @@ ol.method-steps li {
   display: inline-block;
   margin: 0 0 0.65rem;
   padding: 0.05rem 0.5rem;
-  background: #146b31;
-  color: #ffffff;
+  background: #e7f5eb;
+  color: #142117;
+  border: 2px solid #146b31;
   font-size: 14pt;
   font-weight: 700;
   line-height: 1.3;
@@ -1585,8 +1596,9 @@ ol.method-steps li {
 }
 
 .article-tag-special {
-  background: #b8860b;
+  background: #f8eec8;
   color: #142117;
+  border-color: #5c4306;
 }
 
 .news-past {
@@ -1726,8 +1738,8 @@ body.cand-page {
 .cand-race h3 {
   margin: 0;
   padding: 0.4rem 0.75rem;
-  background: #0e2a18;
-  color: #ffffff;
+  background: #e7f5eb;
+  color: #142117;
   font-size: 14pt;
   font-weight: 700;
   line-height: 1.25;
@@ -1926,8 +1938,9 @@ html.cand-local .cand-race .cand-names li.cand-won .cand-note {
   display: inline-block;
   margin: 0 0.25rem;
   padding: 0 0.4rem;
-  background: #146b31;
-  color: #ffffff;
+  background: #e7f5eb;
+  color: #142117;
+  border: 2px solid #146b31;
   font-size: 14pt;
   font-weight: 700;
   line-height: 1.3;
@@ -2115,9 +2128,9 @@ html.cand-local .cand-page .page-body a.cand-election-btn[data-election="primary
 }
 
 .site-nav a.site-map-link[aria-current="page"] {
-  background: #1f5d34;
-  color: #ffffff;
-  box-shadow: none;
+  background: #b8860b;
+  color: #142117;
+  box-shadow: inset 0 -4px 0 #5c4306;
 }
 
 .page-hero .wrap:has(.page-trail) {
@@ -2489,8 +2502,8 @@ html.cand-general .page-trail .cand-view-general {
 
 .report-stats th,
 .report-table th {
-  background: #1f5d34;
-  color: #ffffff;
+  background: #e7f5eb;
+  color: #142117;
   font-weight: 700;
 }
 
@@ -3111,10 +3124,10 @@ a.official-btn.btn-out {
 .archive-prompt-btn {
   display: block;
   padding: 0.8rem 1rem;
-  border: 2px solid #164427;
+  border: 2px solid #1f5d34;
   border-radius: 0.35rem;
-  background: #1f5d34;
-  color: #ffffff;
+  background: #ffffff;
+  color: #142117;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.3;
@@ -3124,8 +3137,8 @@ a.official-btn.btn-out {
 
 .archive-prompt-btn:hover,
 .archive-prompt-btn:focus {
-  background: #164427;
-  color: #ffffff;
+  background: #eef6f0;
+  color: #142117;
   text-decoration: underline;
 }
 
@@ -3252,21 +3265,21 @@ a.official-btn.btn-out {
 .go-tab-btn {
   display: inline-block;
   padding: 0.85rem 1.5rem;
-  background: #1f5c2e;
-  color: #ffffff !important;
+  background: #ffffff;
+  color: #142117 !important;
   font-size: 14pt;
   font-weight: 700;
   line-height: 1.25;
   text-decoration: none;
-  border: 2px solid #0e2a18;
+  border: 2px solid #1f5d34;
   border-radius: 0.7rem;
 }
 
 .go-tab-btn:hover,
 .go-tab-btn:focus-visible {
-  background: #174726;
-  color: #ffffff !important;
-  border-color: #0e2a18;
+  background: #eef6f0;
+  color: #142117 !important;
+  border-color: #1f5d34;
 }
 
 @media (max-width: 1024px) {
@@ -3527,8 +3540,8 @@ a.official-btn.btn-out {
 
 /* Article pages (any page with an .article-body): no white-on-dark boxes.
    Articles are printed, so the title box, Back button, and footer use dark
-   text on white with a thin dark-green border. Every article and news page
-   inherits this; the rest of the site keeps its green title band. */
+   text on white with a thin dark-green border. These rules remain as a
+   belt-and-suspenders match to the site-wide print-friendly defaults. */
 body:has(.article-body) .page-hero {
   background: #ffffff;
   background-image: none;
