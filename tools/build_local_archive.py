@@ -14,6 +14,7 @@ from collections import defaultdict
 from pathlib import Path
 
 import build_local_2026 as local
+import render_candidate_profile as rcp
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT  # single tree: write the live pages directly
@@ -461,6 +462,7 @@ def build_year(year: str) -> int:
                 ),
                 encoding="utf-8",
             )
+            rcp.rewrite_page(detail)
             local.mark_file(detail)
             pages += 1
     return pages

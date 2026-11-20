@@ -21,6 +21,7 @@ from collections import defaultdict
 from pathlib import Path
 
 import build_candidate_pages as cand
+import render_candidate_profile as rcp
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "tools" / "local-data" / "2026"
@@ -1023,6 +1024,7 @@ def main() -> None:
                 ),
                 encoding="utf-8",
             )
+            rcp.rewrite_page(detail_path)
             mark_file(detail_path)
             pages += 1
         buttons.append(f'            <li><a href="2026-local/{slug}.html">{esc(name)}</a></li>')

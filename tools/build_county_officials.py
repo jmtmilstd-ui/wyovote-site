@@ -37,6 +37,7 @@ import os
 from copy import deepcopy
 from datetime import date, datetime
 from pathlib import Path
+import render_candidate_profile as rcp
 from zoneinfo import ZoneInfo
 
 DENVER = ZoneInfo("America/Denver")
@@ -149,6 +150,7 @@ def party_suffix(party: str | None) -> str:
 def href_from(page: Path, href: str | None) -> str | None:
     if not href:
         return None
+    href = rcp.rewrite_session_href(href)
     if href.startswith(("http://", "https://", "/", "#")):
         return href
     target = (ROOT / href).resolve()

@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Keenan Morgan — 2026 Primary — WyoVote</title>
+    <title>Keenan Morgan — Profile — WyoVote</title>
     <meta name="description" content="Keenan Morgan (Democratic, Bar Nunn): Student. Unopposed in the Aug. 18, 2026 Democratic primary for State House District 58.">
     <link rel="icon" href="../../../assets/img/surveyor-icon.png" type="image/png">
     <link rel="stylesheet" href="../../../css/styles.css">
     <link rel="stylesheet" href="../../../assets/css/site.css">
+    <link rel="stylesheet" href="../../../officials/profile.css">
   </head>
-  <body class="cand-page">
+  <body class="pf cand-page">
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="wrap header-inner">
@@ -31,24 +32,20 @@
         </nav>
       </div>
     </header>
-    <main id="main">
-      <div class="wrap back-wrap">
+    <main id="main" class="profile">
+      <div class="wrap">
         <p class="back-row"><a class="back-btn" id="cand-back" href="../../../candidates.html">← Back to Candidates</a></p>
-      </div>
-      <section class="page-hero">
-        <div class="wrap">
-          <h1>Keenan Morgan</h1>
-        </div>
-      </section>
-      <section class="page-body">
-        <div class="wrap">
+        <section class="pf-head" aria-labelledby="h-name">
+          <h1 id="h-name">Keenan Morgan</h1>
+          <p class="pf-sub">Profile · <span data-election-label data-election-label-general="2026 General">2026 Primary</span></p>
+        </section>
           <p class="cand-blurb">Keenan Morgan (Democratic, Bar Nunn): Student. Unopposed in the Aug. 18, 2026 Democratic primary for State House District 58.</p>
-          <p class="cand-meta">House District 58 · Democratic</p>
           <p class="cand-res">Primary result: Unopposed</p>
           <p class="cand-res cand-general-line">General result: State House HD58, Democratic, 571 votes (26%), Lost.</p>
-          <section class="cand-research" aria-labelledby="h-research">
-                      <h2 id="h-research">Research</h2>
-                      <table class="cand-facts">
+
+        <section class="pf-card cand-research" aria-labelledby="h-research">
+          <h2 id="h-research">Research</h2>
+          <table class="cand-facts">
                         <tr><th scope="row">Residence</th><td>Bar Nunn, Natrona County</td></tr>
                         <tr><th scope="row">Occupation</th><td>Student</td></tr>
                         <tr><th scope="row">Background</th><td><p>I am a student and lifelong Wyomingite. I have a BA degree in Political Science from UW and 3 AA degrees in Secondary Education, Political Science, and History from Casper College. My teaching and academic experience includes being a writing tutor, teaching via community presentations, 260 hours of teacher practicum/residency teaching experience, attending conferences on pedagogy, co-running an academic journal, engaging in extensive research, and more. …</p></td></tr>
@@ -59,19 +56,19 @@
                         <tr><th scope="row">Fundraising</th><td>Raised $7,464.62. Spent $6,490.93. 2026 election (primary and general periods combined); primary-period subtotal shown separately when reported, through latest filings compiled by WyoFile (guide last updated Oct 29, 2026). Primary election: raised $2,972.50, spent $1,669.13. Largest reported contributors: MERRIFIELD, SCOTT (CHEYENNE) ($700); BANGEN, DENNIS (CASPER) ($250); SHERWOOD, TREY (LARAMIE) ($200); NATRONA DEMOCRATIC PARTY CENTRAL COMMITTEE (CASPER) ($200); BARTLETT, KIMBERLY (THERMOPOLIS) ($200). Source: WyoFile election guide, as of Oct 29, 2026.</td></tr>
                         <tr><th scope="row">2026 primary result</th><td>Unopposed, 97 votes (100%), 1st of 1.</td></tr>
                       </table>
-                      <h2 id="h-sources">Sources</h2>
-                      <ul class="cand-sources">
+          <div class="cand-sources-block">
+            <h2 id="h-sources">Sources</h2>
+            <ul class="cand-sources">
                         <li><a href="https://sos.wyo.gov/Elections/Docs/2026/2026_WY_Primary_Election_Candidates.csv">Wyoming Secretary of State 2026 primary candidate filing list</a> <span class="ext">(leaves WyoVote)</span> </li>
                         <li><a href="https://projects.wyofile.com/election-guide-2026/candidates/morgan-keenan/">WyoFile 2026 Election Guide</a> <span class="ext">(leaves WyoVote)</span> </li>
                         <li><a href="https://ballotpedia.org/Keenan_Morgan">Ballotpedia</a> <span class="ext">(leaves WyoVote)</span> </li>
                         <li><a href="https://www.wycampaignfinance.gov/WYCFWebApplication/GSF_SystemConfiguration/SearchContributions.aspx">WyCampaignFinance search (underlying public filings)</a> <span class="ext">(leaves WyoVote)</span> </li>
                         <li><a href="https://sos.wyo.gov/Elections/Docs/2026/Results/Primary/2026_Wyoming_Primary_Results.zip">Wyoming SOS official 2026 primary results (Results Summaries - OFFICIAL)</a> <span class="ext">(leaves WyoVote)</span> </li>
                       </ul>
-                    </section>
-        </div>
-      </section>
+          </div>
+        </section>
+      </div>
     </main>
-
     <footer class="site-footer">
       <div class="wrap footer-inner">
         <nav aria-label="Footer">
@@ -87,6 +84,18 @@
     </footer>
     <script>
       (function () {
+        var general = new URLSearchParams(location.search).get("e") === "general";
+        document.documentElement.classList.toggle("cand-general", general);
+        if (general) {
+          var nodes = document.querySelectorAll("[data-election-label]");
+          for (var i = 0; i < nodes.length; i++) {
+            var next = nodes[i].getAttribute("data-election-label-general");
+            if (next) nodes[i].textContent = next;
+          }
+          if (document.title.indexOf("Primary") !== -1) {
+            document.title = document.title.replace("Primary", "General");
+          }
+        }
         var link = document.getElementById("cand-back");
         if (!link) return;
         function countyName(slug) {
@@ -96,21 +105,12 @@
         }
         function useCounty(slug) {
           if (!/^[a-z]+(?:-[a-z]+)*$/.test(slug)) return false;
-          var general = new URLSearchParams(location.search).get("e") === "general";
           link.setAttribute("href", "../" + slug + ".html" + (general ? "?e=general" : ""));
           link.textContent = "\u2190 Back to " + countyName(slug) + " County";
           return true;
         }
         var from = new URLSearchParams(location.search).get("from");
         if (from && useCounty(from)) return;
-        if (!document.referrer) return;
-        var ref;
-        try { ref = new URL(document.referrer); } catch (error) { return; }
-        if (ref.origin !== location.origin) return;
-        var path = ref.pathname.replace(/\/+$/, "");
-        var match = path.match(/\/candidates\/2026-primary\/([a-z]+(?:-[a-z]+)*)(?:\.html)?$/);
-        if (!match) return;
-        useCounty(match[1]);
       })();
     </script>
   </body>

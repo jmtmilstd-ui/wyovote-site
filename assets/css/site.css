@@ -40,21 +40,21 @@
 .back-btn {
   display: inline-block;
   padding: 0.7rem 1.35rem;
-  background: #1f5c2e;
-  color: #ffffff !important;
+  background: #ffffff;
+  color: #142117 !important;
   font-size: 14pt;
   font-weight: 700;
   line-height: 1.25;
   text-decoration: none;
-  border: 2px solid #0e2a18;
+  border: 2px solid #1f5d34;
   border-radius: 0.7rem;
 }
 
 .back-btn:hover,
 .back-btn:focus-visible {
-  background: #174726;
-  color: #ffffff !important;
-  border-color: #0e2a18;
+  background: #eef6f0;
+  color: #142117 !important;
+  border-color: #1f5d34;
 }
 
 @media (max-width: 900px) {
@@ -3041,7 +3041,7 @@ html.cand-general .page-trail .cand-view-general {
 /* PROMOTE_END */
 
 .pf-head .ext {
-  color: #ffffff;
+  color: #142117;
 }
 
 /* Outside buttons. Gold ring does not change the border width.

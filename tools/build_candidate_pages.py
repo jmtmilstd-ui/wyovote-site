@@ -38,6 +38,7 @@ import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
+import render_candidate_profile as rcp
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT  # single tree: write the live pages directly
@@ -618,6 +619,8 @@ def write_pages(records: list[dict]) -> int:
         text = update_back_script(text)
         path.write_text(text, encoding="utf-8")
         updated += 1
+    for path in sorted(PAGES.glob("*.html")):
+        rcp.rewrite_page(path)
     return updated
 
 
@@ -987,7 +990,9 @@ def generate_archive(records: list[dict], cycle: str) -> dict[str, int]:
             3,
             body,
         )
-        (detail_dir / f"{slug}.html").write_text(page, encoding="utf-8")
+        dest = detail_dir / f"{slug}.html"
+        dest.write_text(page, encoding="utf-8")
+        rcp.rewrite_page(dest)
     for county in COUNTY_ORDER:
         races: dict[tuple, list] = {}
         for record, name, slug in by_county[county]:
@@ -1400,6 +1405,7 @@ def write_missing_detail(cycle: str, slug: str, candidate: dict, office: str, di
         page_shell(f"{name} — {year} Primary — WyoVote", description, 3, body),
         encoding="utf-8",
     )
+    rcp.rewrite_page(path)
 
 
 def render_general_groups(races: list[dict], county: str, slug_of: dict[str, str]) -> str:
@@ -1558,6 +1564,7 @@ def apply_general(cycle: str) -> dict[str, int]:
                 text = patch_back_script(page.read_text(encoding="utf-8"))
                 text = insert_general_line(text, sentence)
                 page.write_text(text, encoding="utf-8")
+                rcp.rewrite_page(page)
                 updated += 1
             else:
                 existed = page.is_file()

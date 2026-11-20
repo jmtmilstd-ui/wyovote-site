@@ -11,15 +11,15 @@ body.pf .wrap { width: min(60rem, calc(100% - 1.5rem)); }
 .profile { padding-bottom: 1.5rem; }
 .profile h1, .profile h2 { font-family: var(--font-serif); }
 .pf-back { margin: 0.55rem 0 0.4rem; font-size: 14.5pt; }
-.pf-head { background: #0e2a18; color: #ffffff; border-radius: 0.5rem; padding: 0.75rem 1rem 0.85rem; margin-bottom: 0.65rem; }
-.pf-head h1 { margin: 0; font-size: 2rem; line-height: 1.15; color: #ffffff; }
+.pf-head { background: #ffffff; color: #142117; border: 2px solid #1f5d34; border-radius: 0.5rem; padding: 0.75rem 1rem 0.85rem; margin-bottom: 0.65rem; }
+.pf-head h1 { margin: 0; font-size: 2rem; line-height: 1.15; color: #142117; }
 .pf-sub { margin: 0.15rem 0 0; font-size: 15.5pt; font-weight: 600; }
 .pf-comms { margin: 0.35rem 0 0; font-size: 14.5pt; }
 .pf-links { margin: 0.5rem 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem 0.9rem; font-size: 14.5pt; }
-.pf-btn { display: inline-block; padding: 0.45rem 0.9rem; background: #ffffff; color: #0e2a18 !important; font-weight: 700; border-radius: 0.3rem; text-decoration: none; min-height: 44px; line-height: 1.7; }
-.pf-btn:hover, .pf-btn:focus-visible { background: #dff3e4; }
-.pf-asof { color: #ffffff; }
-.pf-head .ext { color: #ffffff; }
+.pf-btn { display: inline-block; padding: 0.45rem 0.9rem; background: #ffffff; color: #142117 !important; font-weight: 700; border: 2px solid #1f5d34; border-radius: 0.3rem; text-decoration: none; min-height: 44px; line-height: 1.7; }
+.pf-btn:hover, .pf-btn:focus-visible { background: #eef6f0; }
+.pf-asof { color: #142117; }
+.pf-head .ext { color: #142117; }
 .pf-card { background: #ffffff; border: 1px solid #b9b5a8; border-radius: 0.5rem; padding: 0.7rem 0.9rem 0.8rem; margin-bottom: 0.65rem; }
 .pf-card h2 { margin: 0 0 0.3rem; font-size: 1.4rem; line-height: 1.2; color: #0e2a18; }
 .pf-card h2 small { font-family: var(--font-sans); font-size: 14.5pt; font-weight: 600; color: #142117; margin-left: 0.35rem; }

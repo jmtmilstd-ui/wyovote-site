@@ -163,6 +163,9 @@ def load_officials() -> dict[str, Path]:
     for path in (SITE / "officials").glob("*.html"):
         if path.name == "index.html" or path.name.endswith("-deep.html"):
             continue
+        deep = path.with_name(path.stem + "-deep.html")
+        if deep.is_file():
+            path = deep
         text = path.read_text(encoding="utf-8", errors="replace")
         match = re.search(r"<h1[^>]*>(.*?)</h1>", text, re.S)
         if not match:
