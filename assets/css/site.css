@@ -1839,16 +1839,34 @@ body.cand-page {
   line-height: 1.35;
 }
 
+/* Sources sits inside the Research section (or its own card).
+   Left padding keeps the bullets inside the card / page margins;
+   padding: 0 plus list-style-position: outside hung them outside. */
+.cand-sources-block {
+  margin-top: 0.85rem;
+}
+
+.cand-research h2#h-sources {
+  margin-top: 0.85rem;
+  margin-bottom: 0.35rem;
+}
+
+.cand-sources-block h2#h-sources {
+  margin-top: 0;
+}
+
 .cand-sources {
-  margin: 1.15rem 0 0;
-  padding: 0;
+  margin: 0.25rem 0 0;
+  padding: 0 0.25rem 0 1.4rem;
   color: #142117;
   font-size: 14pt;
   line-height: 1.4;
+  overflow-wrap: break-word;
 }
 
 .cand-sources li {
   margin: 0.2rem 0;
+  padding: 0;
 }
 
 .cand-names .cand-res {

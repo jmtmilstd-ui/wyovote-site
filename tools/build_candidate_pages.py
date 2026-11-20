@@ -520,15 +520,17 @@ def research_html(record: dict) -> str:
             parts.append(f'              <tr><th scope="row">{esc(label)}</th><td>{value}</td></tr>')
         parts.append("            </table>")
     if record.get("sources"):
-        parts.append('            <h2 id="h-sources">Sources</h2>')
-        parts.append('            <ul class="cand-sources">')
+        parts.append('            <div class="cand-sources-block">')
+        parts.append('              <h2 id="h-sources">Sources</h2>')
+        parts.append('              <ul class="cand-sources">')
         for source in record["sources"]:
             url = source.get("url")
             if url:
-                parts.append(f'              <li>{outside_link(url, source["name"])}</li>')
+                parts.append(f'                <li>{outside_link(url, source["name"])}</li>')
             else:
-                parts.append(f'              <li>{esc(source["name"])}</li>')
-        parts.append("            </ul>")
+                parts.append(f'                <li>{esc(source["name"])}</li>')
+        parts.append("              </ul>")
+        parts.append("            </div>")
     parts.append("          </section>")
     return "\n".join(parts)
 
@@ -932,6 +934,7 @@ def archive_detail_inner(record: dict, officials_slug: str | None) -> str:
             lines.extend(f'<tr><th scope="row">{esc(label)}</th><td>{value}</td></tr>' for label, value in rows)
             lines.append("</table>")
         if record.get("sources"):
+            lines.append('<div class="cand-sources-block">')
             lines.append('<h2 id="h-sources">Sources</h2>')
             lines.append('<ul class="cand-sources">')
             lines.extend(
@@ -939,6 +942,7 @@ def archive_detail_inner(record: dict, officials_slug: str | None) -> str:
                 for source in record["sources"]
             )
             lines.append("</ul>")
+            lines.append("</div>")
         lines.append("</section>")
     return "\n".join("          " + line for line in lines)
 
@@ -1335,10 +1339,12 @@ def general_only_inner(candidate: dict, office: str, district: str | None, when:
     source_html = ""
     if sources:
         source_html = (
+            '          <div class="cand-sources-block">\n'
             '          <h2 id="h-sources">Sources</h2>\n'
             '          <ul class="cand-sources">\n'
             + "\n".join(sources)
-            + "\n          </ul>"
+            + "\n          </ul>\n"
+            '          </div>'
         )
     return (
         f'          <p class="cand-blurb">{esc(blurb)}</p>\n'
