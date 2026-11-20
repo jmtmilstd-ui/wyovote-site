@@ -42,6 +42,8 @@ unreferenced:tools/publish_check.py
 
 # Rebuilds candidate detail pages. Not a site asset.
 unreferenced:tools/build_candidate_pages.py
+# Rebuilds a candidate page in Officials Profile chrome. Not a site asset.
+unreferenced:tools/render_candidate_profile.py
 
 # Stamps the Site Map and the small header trail. Not a site asset.
 unreferenced:tools/build_site_map.py

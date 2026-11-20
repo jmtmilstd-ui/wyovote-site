@@ -1823,6 +1823,23 @@ body.cand-page {
   font-weight: 700;
 }
 
+/* Close the last row of the Research / Results facts table.
+   css/styles.css zeros tr:last-child borders for open typographic tables,
+   which left this boxed table without a bottom line. */
+.cand-facts tr:last-child th,
+.cand-facts tr:last-child td {
+  border-bottom: 2px solid #146b31;
+}
+
+@media (max-width: 640px) {
+  .cand-facts tbody td:last-child,
+  .cand-facts tbody tr:last-child th,
+  .cand-facts tbody tr:last-child td,
+  .cand-facts tbody tr:last-child td:last-child {
+    border-bottom: 2px solid #146b31;
+  }
+}
+
 .cand-facts a,
 .cand-sources a {
   color: #0e2a18;
