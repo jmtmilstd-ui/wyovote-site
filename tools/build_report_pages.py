@@ -33,13 +33,13 @@ CURRENT_YEAR = "2026"
 
 NAV = """
             <li><a href="{root}index.html"{home}>Home</a></li>
-            <li><a href="{root}archive.html"{archive}>Archive</a></li>
             <li><a href="{root}candidates.html">Candidates</a></li>
             <li><a href="{root}committees.html"{committees}>Committees</a></li>
             <li><a href="{root}counties.html"{counties}>Counties</a></li>
             <li><a href="{root}officials.html">Officials</a></li>
             <li><a href="{root}people/index.html">Name Index</a></li>
             <li><a href="{root}research.html">Research</a></li>
+            <li><a href="{root}archive.html"{archive}>Archive</a></li>
             <li><a class="site-map-link" href="{root}site-map.html">Site Map</a></li>
 """
 

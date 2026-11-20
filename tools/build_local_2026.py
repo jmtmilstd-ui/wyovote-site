@@ -291,13 +291,13 @@ def shell(title: str, description: str, depth: int, body: str) -> str:
         <nav class="site-nav" aria-label="Site">
           <ul>
             <li><a href="{root}index.html">Home</a></li>
-            <li><a href="{root}archive.html">Archive</a></li>
             <li><a href="{root}candidates.html" aria-current="page">Candidates</a></li>
             <li><a href="{root}committees.html">Committees</a></li>
             <li><a href="{root}counties.html">Counties</a></li>
             <li><a href="{root}officials.html">Officials</a></li>
             <li><a href="{root}people/index.html">Name Index</a></li>
             <li><a href="{root}research.html">Research</a></li>
+            <li><a href="{root}archive.html">Archive</a></li>
           </ul>
         </nav>
       </div>

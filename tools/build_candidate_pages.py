@@ -829,13 +829,13 @@ def page_shell(title: str, description: str, depth: int, body: str, current: str
 
     links = [
         nav("Home", home, "home"),
-        nav("Archive", root + "archive.html", "archive"),
         nav("Candidates", root + "candidates.html", "candidates"),
         nav("Committees", root + "archive/committees.html", "committees"),
         nav("Counties", root + "archive/counties.html", "counties"),
         nav("Officials", root + "officials.html", "officials"),
         nav("Name Index", root + "people/index.html", "people"),
         nav("Research", root + "research.html", "research"),
+        nav("Archive", root + "archive.html", "archive"),
     ]
     return f"""<!DOCTYPE html>
 <html lang="en">
