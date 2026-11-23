@@ -100,11 +100,11 @@ After the expires date, the special hides from the right-hand column by itself a
 
 ## Current items
 
-The new-leaders article is the current news, published Nov. 16, 2026. Its dateline is “Week of Nov 16, 2026.”
+The supplemental-budget article is the current news, published Nov. 23, 2026. Its dateline is “Week of Nov 23, 2026.”
 
-The interim-committees article moved to the front of `archive`.
+The new-leaders article (Nov. 16, 2026) moved to the front of `archive`.
 
-The next scheduled news article is Monday, Nov. 23, 2026. That article replaces this one.
+The next scheduled news article is Monday, Nov. 30, 2026. That article replaces this one.
 
 The special on certified election results (Nov. 11, 2026) came down the morning of Nov. 19 and moved into `archive` with `"kind": "special"`. `special` is `null`.
 
