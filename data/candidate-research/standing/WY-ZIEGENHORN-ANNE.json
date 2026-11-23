@@ -91,6 +91,18 @@
     {
       "name": "Associated General Contractors of Wyoming, 2026 Primary Election Candidate Guide (HD03 – Anne Ziegenhorn)",
       "url": "https://www.agcwyo.org/uploads/1/4/9/4/149409622/2026_primary_election_-_agc_endorsed_candidate_guide.pdf"
+    },
+    {
+      "name": "Campbell County official 2026 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    },
+    {
+      "name": "Campbell County official 2024 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "name": "Campbell County official 2022 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
     }
   ],
   "counties": [
@@ -98,6 +110,44 @@
   ],
   "blurb": "Anne Ziegenhorn (Republican, Wright): Educator (31 years; 20 in Campbell County School District). Lost the Aug. 18, 2026 Republican primary for State House District 3 with 45.2% of the vote.",
   "roles": [
-    "2026 House District 3 (Republican)"
+    "2026 House District 3 (Republican)",
+    "2026 Primary: Precinct Committeewoman, precinct 14-01 (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct 14-01 (Republican), Won",
+    "2022 Primary: Precinct Committeewoman, precinct 14-01 (Republican), Won"
+  ],
+  "paths": [
+    "candidates/2026-primary/c/anne-ziegenhorn.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Campbell",
+      "precinct": "14-01",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "241",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    },
+    {
+      "year": "2024",
+      "county": "Campbell",
+      "precinct": "14-01",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "189",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "year": "2022",
+      "county": "Campbell",
+      "precinct": "14-01",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "206",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
   ]
 }

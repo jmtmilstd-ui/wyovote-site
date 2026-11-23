@@ -1,0 +1,51 @@
+{
+  "person_id": "WY-BARLOW-ERIC",
+  "name": "Eric Barlow",
+  "display_name": "Eric Barlow",
+  "match_names": [
+    "Eric Barlow"
+  ],
+  "website": null,
+  "counties": [
+    "Campbell"
+  ],
+  "roles": [
+    "2024 Primary: Precinct Committeeman, precinct 13-01 (Republican), Lost",
+    "2022 Primary: Precinct Committeeman, precinct 13-01 (Republican), Won"
+  ],
+  "paths": [
+    "officials/barlow-deep.html"
+  ],
+  "sources": [
+    {
+      "name": "Campbell County official 2024 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "name": "Campbell County official 2022 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Campbell",
+      "precinct": "13-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "43",
+      "result": "Lost",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "year": "2022",
+      "county": "Campbell",
+      "precinct": "13-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "77",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
+  ]
+}

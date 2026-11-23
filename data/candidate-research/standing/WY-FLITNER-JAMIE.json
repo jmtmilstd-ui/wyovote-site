@@ -24,10 +24,33 @@
     {
       "name": "Wyoming Legislature historical legislator directory (LsoService)",
       "url": "https://www.wyoleg.gov/LsoService/api/legislator"
+    },
+    {
+      "name": "Big Horn County official 2022 primary results",
+      "url": "https://bighorncountywy.gov/images/OFFICIAL_PRIMARY_CUSTOM_TABLE_REPORT_8-16-22.pdf"
     }
   ],
   "roles": [
     "State Representative, House District 26 (ended, 2021–2022)",
-    "2022: House H26 (elected)"
+    "2022: House H26 (elected)",
+    "2022 Primary: Precinct Committeewoman, precinct SHELL 16-01 (Republican), Won"
+  ],
+  "counties": [
+    "Big Horn"
+  ],
+  "paths": [
+    "officials/2022/flitner-deep.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Big Horn",
+      "precinct": "SHELL 16-01",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "178",
+      "result": "Won",
+      "source": "https://bighorncountywy.gov/images/OFFICIAL_PRIMARY_CUSTOM_TABLE_REPORT_8-16-22.pdf"
+    }
   ]
 }

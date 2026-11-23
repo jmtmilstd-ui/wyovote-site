@@ -91,6 +91,14 @@
     {
       "name": "Wyoming SOS official 2026 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/Primary/2026_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Uinta County official 2026 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+    },
+    {
+      "name": "Uinta County official 2024 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/9460"
     }
   ],
   "counties": [
@@ -98,6 +106,33 @@
   ],
   "blurb": "Tina Johnson (Republican, Evanston). Lost the Aug. 18, 2026 Republican primary for State Senate District 15 with 25.2% of the vote.",
   "roles": [
-    "2026 Senate District 15 (Republican)"
+    "2026 Senate District 15 (Republican)",
+    "2026 Primary: Precinct Committeewoman, precinct 1-2 (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct 1-2 (Republican), Lost"
+  ],
+  "paths": [
+    "candidates/2026-primary/c/tina-johnson.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Uinta",
+      "precinct": "1-2",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "496",
+      "result": "Won",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/8645"
+    },
+    {
+      "year": "2024",
+      "county": "Uinta",
+      "precinct": "1-2",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "96",
+      "result": "Lost",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/9460"
+    }
   ]
 }

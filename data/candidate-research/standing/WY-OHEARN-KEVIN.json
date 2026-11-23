@@ -31,6 +31,10 @@
     {
       "name": "Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Natrona County official 2022 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
     }
   ],
   "roles": [
@@ -39,9 +43,25 @@
     "2022 Primary: State Representative, Won",
     "2022: House H59 (elected)",
     "2023: House H59 (elected)",
-    "2024: House H59 (elected)"
+    "2024: House H59 (elected)",
+    "2022 Primary: Precinct Committeeman, precinct 2-3 (Republican), Won"
   ],
   "counties": [
     "Natrona"
+  ],
+  "paths": [
+    "candidates/2022-primary/c/kevin-o-hearn.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Natrona",
+      "precinct": "2-3",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "174",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
+    }
   ]
 }

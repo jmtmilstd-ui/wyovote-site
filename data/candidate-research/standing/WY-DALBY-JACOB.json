@@ -24,12 +24,32 @@
     {
       "name": "Campbell County official 2026 general election summary",
       "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+    },
+    {
+      "name": "Campbell County official 2022 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2022 Primary: Precinct Committeeman, precinct 02-01 (Republican), Lost"
   ],
   "counties": [
     "Campbell"
+  ],
+  "paths": [
+    "candidates/2026-local/c/jacob-dalby.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Campbell",
+      "precinct": "02-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "84",
+      "result": "Lost",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
   ]
 }

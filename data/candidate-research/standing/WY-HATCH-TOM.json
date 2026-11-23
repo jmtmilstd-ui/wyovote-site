@@ -3,9 +3,9 @@
   "name": "Tom Hatch",
   "display_name": "Tom Hatch",
   "match_names": [
-    "Tom Hatch",
+    "Thomas Hatch",
     "Thomas James Hatch",
-    "Thomas Hatch"
+    "Tom Hatch"
   ],
   "office": "County Sheriff",
   "party": "Republican",
@@ -42,15 +42,32 @@
     {
       "name": "Pinedale Roundup, Aug. 18, 2026, 2026 Primary Election unofficial results from Sublette County",
       "url": "https://pinedaleroundup.com/stories/2026-primary-election-unofficial-results-from-sublette-county,131108"
+    },
+    {
+      "name": "Sublette County official 2024 primary results",
+      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/5780/OFFICIAL-RESULTS-ELECTION-SUMMARY"
     }
   ],
   "roles": [
-    "2026 Local general: County Sheriff, Won"
+    "2026 Local general: County Sheriff, Won",
+    "2024 Primary: Precinct Committeeman, precinct (2) 2-1 (Republican), Won"
   ],
   "counties": [
     "Sublette"
   ],
   "paths": [
     "candidates/2026-local/c/tom-hatch.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Sublette",
+      "precinct": "(2) 2-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "344",
+      "result": "Won",
+      "source": "https://www.sublettecountywy.gov/DocumentCenter/View/5780/OFFICIAL-RESULTS-ELECTION-SUMMARY"
+    }
   ]
 }

@@ -24,10 +24,15 @@
     {
       "name": "Natrona County elected county officials page",
       "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+    },
+    {
+      "name": "Natrona County official 2022 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
     }
   ],
   "roles": [
-    "2024 Local primary: County Commissioner, Lost"
+    "2024 Local primary: County Commissioner, Lost",
+    "2022 Primary: Precinct Committeeman, precinct 3-10 (Republican), Won"
   ],
   "counties": [
     "Natrona"
@@ -35,5 +40,17 @@
   "paths": [
     "candidates/2022-local/c/terry-wingerter.html",
     "candidates/2024-local/c/terry-wingerter.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Natrona",
+      "precinct": "3-10",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "682",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
+    }
   ]
 }

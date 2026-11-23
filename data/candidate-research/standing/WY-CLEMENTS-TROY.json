@@ -35,9 +35,25 @@
     }
   ],
   "roles": [
-    "2022 Local general: County Assessor, Won"
+    "2022 Local general: County Assessor, Won",
+    "2022 Primary: Precinct Committeeman, precinct 01-23 (Republican), Won"
   ],
   "counties": [
     "Campbell"
+  ],
+  "paths": [
+    "candidates/2022-local/c/troy-d-clements.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Campbell",
+      "precinct": "01-23",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "254",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
   ]
 }

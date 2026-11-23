@@ -1,0 +1,51 @@
+{
+  "person_id": "WY-WYLIE-CODY",
+  "name": "Cody Wylie",
+  "display_name": "Cody Wylie",
+  "match_names": [
+    "Cody Wylie"
+  ],
+  "website": null,
+  "counties": [
+    "Sweetwater"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeeman, precinct 05-8 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 05-10 (Republican), Won"
+  ],
+  "paths": [
+    "officials/wylie-deep.html"
+  ],
+  "sources": [
+    {
+      "name": "Sweetwater County official 2026 primary results",
+      "url": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2024 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sweetwater",
+      "precinct": "05-8",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "239",
+      "result": "Won",
+      "source": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Sweetwater",
+      "precinct": "05-10",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "193",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    }
+  ]
+}

@@ -28,10 +28,15 @@
     {
       "name": "Teton County election results page",
       "url": "https://www.tetoncountywy.gov/271/Election-Results"
+    },
+    {
+      "name": "Teton County official 2022 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/23128/2022-Primary-Election---Official-Summary-Report"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Lost"
+    "2026 Local general: County Commissioner, Lost",
+    "2022 Primary: Precinct Committeeman, precinct DIST 1 PCT 1 (Republican), Lost"
   ],
   "counties": [
     "Teton"
@@ -39,5 +44,17 @@
   "paths": [
     "candidates/2022-local/c/alex-muromcew.html",
     "candidates/2026-local/c/alex-muromcew.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Teton",
+      "precinct": "DIST 1 PCT 1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "73",
+      "result": "Lost",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/23128/2022-Primary-Election---Official-Summary-Report"
+    }
   ]
 }

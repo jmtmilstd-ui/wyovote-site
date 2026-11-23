@@ -3,8 +3,8 @@
   "name": "Douglas W. Weaver",
   "display_name": "Douglas W. Weaver",
   "match_names": [
-    "Douglas W. Weaver",
     "Doug Weaver",
+    "Douglas W. Weaver",
     "Douglas Weaver"
   ],
   "office": "County Attorney",
@@ -30,15 +30,32 @@
     {
       "name": "Wyoming Secretary of State, 2026 Platte County official general precinct-by-precinct results",
       "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Platte_County_General_PbP.pdf"
+    },
+    {
+      "name": "Platte County official 2026 primary results",
+      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
     }
   ],
   "roles": [
-    "2022 Local general: County Attorney, Won"
+    "2022 Local general: County Attorney, Won",
+    "2026 Primary: Precinct Committeeman, precinct 1-6 (Republican), Won"
   ],
   "counties": [
     "Platte"
   ],
   "paths": [
     "candidates/2022-local/c/douglas-w-weaver.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Platte",
+      "precinct": "1-6",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "440",
+      "result": "Won",
+      "source": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+    }
   ]
 }

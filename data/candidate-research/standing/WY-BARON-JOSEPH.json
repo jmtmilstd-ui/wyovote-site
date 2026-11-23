@@ -3,9 +3,9 @@
   "name": "Joseph M. Baron",
   "display_name": "Joseph M. Baron",
   "match_names": [
-    "Joseph M. Baron",
     "Joe Baron",
-    "Joseph Baron"
+    "Joseph Baron",
+    "Joseph M. Baron"
   ],
   "office": "County Attorney",
   "party": "Democratic",
@@ -30,15 +30,47 @@
     {
       "name": "Crook County elected officials page",
       "url": "https://www.crookcounty.wy.gov/elected_officials/index.php"
+    },
+    {
+      "name": "Crook County official 2024 primary results",
+      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2024/Election%20Summary%20Official%20Results%202024.pdf"
+    },
+    {
+      "name": "Crook County official 2022 primary results",
+      "url": "https://www.crookcounty.wy.gov/Official%20Crook%20County-Election%202022.pdf"
     }
   ],
   "roles": [
-    "2022 Local general: County Attorney, Won"
+    "2022 Local general: County Attorney, Won",
+    "2024 Primary: Precinct Committeeman, precinct 01-02 (Democratic), Won",
+    "2022 Primary: Precinct Committeeman, precinct 01-02 (Democratic), Won"
   ],
   "counties": [
     "Crook"
   ],
   "paths": [
     "candidates/2022-local/c/joseph-m-baron.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Crook",
+      "precinct": "01-02",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "9",
+      "result": "Won",
+      "source": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2024/Election%20Summary%20Official%20Results%202024.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Crook",
+      "precinct": "01-02",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "12",
+      "result": "Won",
+      "source": "https://www.crookcounty.wy.gov/Official%20Crook%20County-Election%202022.pdf"
+    }
   ]
 }

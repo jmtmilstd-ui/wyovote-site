@@ -36,12 +36,32 @@
     {
       "name": "Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Fremont County official 2026 primary results",
+      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
     }
   ],
   "roles": [
-    "2024 Primary: State Representative, Lost"
+    "2024 Primary: State Representative, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct LANDER 1-5 (Republican), Won"
   ],
   "counties": [
     "Fremont"
+  ],
+  "paths": [
+    "candidates/2024-primary/c/tina-clifford.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Fremont",
+      "precinct": "LANDER 1-5",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "193",
+      "result": "Won",
+      "source": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+    }
   ]
 }

@@ -40,15 +40,32 @@
     {
       "name": "Park County official 2026 general election results summary",
       "url": "https://parkcounty-wy.gov/wp-content/uploads/2026/11/Official-Park-General-2026-Summary.pdf"
+    },
+    {
+      "name": "Park County official 2026 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
     }
   ],
   "roles": [
-    "2022 Local general: County Clerk, Won"
+    "2022 Local general: County Clerk, Won",
+    "2026 Primary: Precinct Committeewoman, precinct 2-1 (Republican), Won"
   ],
   "counties": [
     "Park"
   ],
   "paths": [
     "candidates/2022-local/c/colleen-renner.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Park",
+      "precinct": "2-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "514",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    }
   ]
 }

@@ -27,12 +27,25 @@
     }
   ],
   "roles": [
-    "2022 Local primary: County Commissioner, Lost"
+    "2022 Local primary: County Commissioner, Lost",
+    "2022 Primary: Precinct Committeeman, precinct (RV4) PRECINCT 2-1 (Republican), Lost"
   ],
   "counties": [
     "Park"
   ],
   "paths": [
     "candidates/2022-local/c/tyson-b-williams.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Park",
+      "precinct": "(RV4) PRECINCT 2-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "210",
+      "result": "Lost",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election%20Results/2022%20Primary%20Election%20results%20summary.pdf"
+    }
   ]
 }

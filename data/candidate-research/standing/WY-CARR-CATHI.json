@@ -32,15 +32,58 @@
     {
       "name": "Oil City News, Nov. 4, 2026, Republicans sweep Wyoming's federal, state and Natrona County elections",
       "url": "https://oilcity.news/community/elections/2026/11/04/republicans-sweep-wyomings-federal-state-and-natrona-county-elections/"
+    },
+    {
+      "name": "Natrona County official 2024 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "name": "Natrona County official 2022 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 8-3 (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct 8-3 (Republican), Won",
+    "2022 Primary: Precinct Committeewoman, precinct 8-3 (Republican), Won"
   ],
   "counties": [
     "Natrona"
   ],
   "paths": [
     "candidates/2026-local/c/cathi-carr.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "8-3",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "149",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "year": "2024",
+      "county": "Natrona",
+      "precinct": "8-3",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "130",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "year": "2022",
+      "county": "Natrona",
+      "precinct": "8-3",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "196",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
+    }
   ]
 }

@@ -3,6 +3,7 @@
   "name": "Meghan R. Jensen",
   "display_name": "Meghan R. Jensen",
   "match_names": [
+    "Meghan Jensen",
     "Meghan R. Jensen"
   ],
   "office": "United States Representative",
@@ -39,12 +40,33 @@
     {
       "name": "Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Sweetwater County official 2024 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
     }
   ],
   "roles": [
-    "2022 Primary: U.S. Representative, Lost"
+    "2022 Primary: U.S. Representative, Lost",
+    "2024 Primary: Precinct Committeewoman, precinct 04-5 (Democratic), Won"
   ],
   "counties": [
-    "Statewide"
+    "Statewide",
+    "Sweetwater"
+  ],
+  "paths": [
+    "candidates/2022-primary/c/meghan-r-jensen.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Sweetwater",
+      "precinct": "04-5",
+      "office": "Precinct Committeewoman",
+      "party": "Democratic",
+      "votes": "16",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    }
   ]
 }

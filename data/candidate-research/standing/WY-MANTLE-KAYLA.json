@@ -28,10 +28,15 @@
     {
       "name": "Platte County commissioners page",
       "url": "https://www.plattecountywyoming.com/directory/Commissioners"
+    },
+    {
+      "name": "Platte County official 2026 primary results",
+      "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeewoman, precinct 1-1 (Republican), Won"
   ],
   "counties": [
     "Platte"
@@ -39,5 +44,17 @@
   "paths": [
     "candidates/2024-local/c/kayla-mantle.html",
     "candidates/2026-local/c/kayla-mantle.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Platte",
+      "precinct": "1-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "359",
+      "result": "Won",
+      "source": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf"
+    }
   ]
 }

@@ -3,7 +3,8 @@
   "name": "Melchor Dylan Moore",
   "display_name": "Melchor Dylan Moore",
   "match_names": [
-    "Melchor Dylan Moore"
+    "Melchor Dylan Moore",
+    "Melchor Moore"
   ],
   "office": "County Commissioner",
   "party": "Republican",
@@ -28,10 +29,15 @@
     {
       "name": "Teton County election results page",
       "url": "https://www.tetoncountywy.gov/271/Election-Results"
+    },
+    {
+      "name": "Teton County official 2024 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/32498"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Lost"
+    "2026 Local general: County Commissioner, Lost",
+    "2024 Primary: Precinct Committeeman, precinct DIST 1 PCT 10 (Republican), Won"
   ],
   "counties": [
     "Teton"
@@ -39,5 +45,17 @@
   "paths": [
     "candidates/2024-local/c/melchor-dylan-moore.html",
     "candidates/2026-local/c/melchor-dylan-moore.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Teton",
+      "precinct": "DIST 1 PCT 10",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "37",
+      "result": "Won",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/32498"
+    }
   ]
 }

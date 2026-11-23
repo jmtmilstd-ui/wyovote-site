@@ -75,6 +75,14 @@
     {
       "name": "Shannon A. Brennan campaign site, House District 23",
       "url": "https://sabrennanforwyhouse.com"
+    },
+    {
+      "name": "Teton County official 2026 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+    },
+    {
+      "name": "Teton County official 2024 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/32498"
     }
   ],
   "counties": [
@@ -82,6 +90,33 @@
   ],
   "blurb": "Shannon A. Brennan (Republican, Jackson): Energy consultant. Unopposed in the Aug. 18, 2026 Republican primary for State House District 23.",
   "roles": [
-    "2026 House District 23 (Republican)"
+    "2026 House District 23 (Republican)",
+    "2026 Primary: Precinct Committeewoman, precinct DIST 3 PCT 1 (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct DIST 3 PCT 1 (Republican), Won"
+  ],
+  "paths": [
+    "candidates/2026-primary/c/shannon-a-brennan.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Teton",
+      "precinct": "DIST 3 PCT 1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "48",
+      "result": "Won",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+    },
+    {
+      "year": "2024",
+      "county": "Teton",
+      "precinct": "DIST 3 PCT 1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "25",
+      "result": "Won",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/32498"
+    }
   ]
 }

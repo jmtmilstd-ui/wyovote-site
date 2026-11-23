@@ -24,10 +24,33 @@
     {
       "name": "Wyoming Legislature historical legislator directory (LsoService)",
       "url": "https://www.wyoleg.gov/LsoService/api/legislator"
+    },
+    {
+      "name": "Laramie County official 2022 primary results",
+      "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
     }
   ],
   "roles": [
     "State Representative, House District 42 (ended, 2021–2022)",
-    "2022: House H42 (elected)"
+    "2022: House H42 (elected)",
+    "2022 Primary: Precinct Committeeman, precinct 4-02 (Republican), Won"
+  ],
+  "counties": [
+    "Laramie"
+  ],
+  "paths": [
+    "officials/2022/blackburn-deep.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Laramie",
+      "precinct": "4-02",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "976",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
+    }
   ]
 }

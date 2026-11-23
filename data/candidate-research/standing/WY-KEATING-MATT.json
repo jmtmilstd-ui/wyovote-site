@@ -39,7 +39,8 @@
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct 2-2 (Republican), Won"
   ],
   "counties": [
     "Natrona"
@@ -48,5 +49,17 @@
     "candidates/2022-local/c/matt-keating.html",
     "candidates/2024-local/c/matt-keating.html",
     "candidates/2026-local/c/matt-keating.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "2-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "117",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    }
   ]
 }

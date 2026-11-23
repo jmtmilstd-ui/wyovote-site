@@ -32,10 +32,15 @@
     {
       "name": "Albany County results of election page",
       "url": "https://www.albanycountywy.gov/176/Results-of-Election"
+    },
+    {
+      "name": "Albany County official 2022 primary results",
+      "url": "https://www.albanycountywy.gov/DocumentCenter/View/5008/2022-Primary-Election-Official-Results"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Won"
+    "2026 Local primary: County Commissioner, Won",
+    "2022 Primary: Precinct Committeewoman, precinct 46-0 (Republican), Won"
   ],
   "counties": [
     "Albany"
@@ -43,5 +48,17 @@
   "paths": [
     "candidates/2022-local/c/terri-jones.html",
     "candidates/2026-local/c/terri-jones.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Albany",
+      "precinct": "46-0",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "904",
+      "result": "Won",
+      "source": "https://www.albanycountywy.gov/DocumentCenter/View/5008/2022-Primary-Election-Official-Results"
+    }
   ]
 }

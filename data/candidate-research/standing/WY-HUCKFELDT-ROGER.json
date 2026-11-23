@@ -20,15 +20,32 @@
     {
       "name": "Goshen County official 2026 general election results",
       "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
+    },
+    {
+      "name": "Goshen County official 2026 primary results",
+      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 7-2 TORRINGTON (Republican), Won"
   ],
   "counties": [
     "Goshen"
   ],
   "paths": [
     "candidates/2026-local/c/roger-huckfeldt.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Goshen",
+      "precinct": "7-2 TORRINGTON",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "233",
+      "result": "Won",
+      "source": "https://www.goshencountywy.gov/Archive.aspx?ADID=161"
+    }
   ]
 }

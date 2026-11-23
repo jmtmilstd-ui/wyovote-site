@@ -28,15 +28,32 @@
     {
       "name": "Wyoming Secretary of State, 2026 Washakie County official general precinct-by-precinct results",
       "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Washakie_County_General_PbP.pdf"
+    },
+    {
+      "name": "Washakie County official 2022 primary results",
+      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/315/2022-Primary-PDF"
     }
   ],
   "roles": [
-    "2022 Local general: County Assessor, Won"
+    "2022 Local general: County Assessor, Won",
+    "2022 Primary: Precinct Committeewoman, precinct 5-1 (Republican), Won"
   ],
   "counties": [
     "Washakie"
   ],
   "paths": [
     "candidates/2022-local/c/nancy-quinn.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Washakie",
+      "precinct": "5-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "429",
+      "result": "Won",
+      "source": "https://www.washakiecountywy.gov/DocumentCenter/View/315/2022-Primary-PDF"
+    }
   ]
 }

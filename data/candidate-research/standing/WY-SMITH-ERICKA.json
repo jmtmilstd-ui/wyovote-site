@@ -47,12 +47,25 @@
     }
   ],
   "roles": [
-    "2026 Local general: County Attorney, Won"
+    "2026 Local general: County Attorney, Won",
+    "2026 Primary: Precinct Committeewoman, precinct 9-1 (Republican), Won"
   ],
   "counties": [
     "Park"
   ],
   "paths": [
     "candidates/2026-local/c/ericka-smith.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Park",
+      "precinct": "9-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "212",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    }
   ]
 }

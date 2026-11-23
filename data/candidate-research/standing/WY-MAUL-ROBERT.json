@@ -27,9 +27,25 @@
     }
   ],
   "roles": [
-    "2022 Local primary: County Commissioner, Lost"
+    "2022 Local primary: County Commissioner, Lost",
+    "2022 Primary: Precinct Committeeman, precinct 02-01 (Republican), Won"
   ],
   "counties": [
     "Campbell"
+  ],
+  "paths": [
+    "candidates/2022-local/c/robert-bob-maul.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Campbell",
+      "precinct": "02-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "106",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
   ]
 }

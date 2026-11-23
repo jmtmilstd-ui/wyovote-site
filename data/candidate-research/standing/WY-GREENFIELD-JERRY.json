@@ -32,15 +32,32 @@
     {
       "name": "Joey Antilla campaign site, Antilla For Treasurer",
       "url": "https://antillafortreasurer.com/"
+    },
+    {
+      "name": "Lincoln County official 2022 primary results",
+      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/Official%20County%20Election%20Summary.pdf"
     }
   ],
   "roles": [
-    "2022 Local general: County Treasurer, Won"
+    "2022 Local general: County Treasurer, Won",
+    "2022 Primary: Precinct Committeeman, precinct 1-1 (Republican), Won"
   ],
   "counties": [
     "Lincoln"
   ],
   "paths": [
     "candidates/2022-local/c/jerry-l-greenfield.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Lincoln",
+      "precinct": "1-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "507",
+      "result": "Won",
+      "source": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/Official%20County%20Election%20Summary.pdf"
+    }
   ]
 }

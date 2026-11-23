@@ -24,15 +24,62 @@
     {
       "name": "Natrona County elected county officials page",
       "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+    },
+    {
+      "name": "Natrona County official 2026 primary results",
+      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "name": "Natrona County official 2024 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "name": "Natrona County official 2022 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
     }
   ],
   "roles": [
-    "2022 Local primary: County Commissioner, Lost"
+    "2022 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 8-2 (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct 8-2 (Republican), Won",
+    "2022 Primary: Precinct Committeewoman, precinct 8-2 (Republican), Won"
   ],
   "counties": [
     "Natrona"
   ],
   "paths": [
     "candidates/2022-local/c/shianne-huston.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "8-2",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "92",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "year": "2024",
+      "county": "Natrona",
+      "precinct": "8-2",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "87",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "year": "2022",
+      "county": "Natrona",
+      "precinct": "8-2",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "74",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
+    }
   ]
 }

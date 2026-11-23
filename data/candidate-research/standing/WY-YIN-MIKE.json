@@ -1,0 +1,51 @@
+{
+  "person_id": "WY-YIN-MIKE",
+  "name": "Mike Yin",
+  "display_name": "Mike Yin",
+  "match_names": [
+    "Mike Yin"
+  ],
+  "website": null,
+  "counties": [
+    "Teton"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeeman, precinct DIST 1 PCT 5 (Democratic), Won",
+    "2024 Primary: Precinct Committeeman, precinct DIST 1 PCT 5 (Democratic), Won"
+  ],
+  "paths": [
+    "officials/yin-deep.html"
+  ],
+  "sources": [
+    {
+      "name": "Teton County official 2026 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+    },
+    {
+      "name": "Teton County official 2024 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/32498"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Teton",
+      "precinct": "DIST 1 PCT 5",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "221",
+      "result": "Won",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+    },
+    {
+      "year": "2024",
+      "county": "Teton",
+      "precinct": "DIST 1 PCT 5",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "167",
+      "result": "Won",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/32498"
+    }
+  ]
+}

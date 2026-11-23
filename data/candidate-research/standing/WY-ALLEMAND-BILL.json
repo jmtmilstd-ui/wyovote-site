@@ -1,0 +1,66 @@
+{
+  "person_id": "WY-ALLEMAND-BILL",
+  "name": "Bill Allemand",
+  "display_name": "Bill Allemand",
+  "match_names": [
+    "Bill Allemand"
+  ],
+  "website": null,
+  "counties": [
+    "Natrona"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeeman, precinct 7-2 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 7-2 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 7-2 (Republican), Won"
+  ],
+  "paths": [
+    "officials/allemand-deep.html"
+  ],
+  "sources": [
+    {
+      "name": "Natrona County official 2026 primary results",
+      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "name": "Natrona County official 2024 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "name": "Natrona County official 2022 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "7-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "39",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "year": "2024",
+      "county": "Natrona",
+      "precinct": "7-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "59",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "year": "2022",
+      "county": "Natrona",
+      "precinct": "7-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "48",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
+    }
+  ]
+}

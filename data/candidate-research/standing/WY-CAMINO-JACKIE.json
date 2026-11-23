@@ -36,15 +36,32 @@
     {
       "name": "Johnson County official 2026 general election results (county clerk Google Drive posting)",
       "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
+    },
+    {
+      "name": "Johnson County official 2026 primary results",
+      "url": "https://drive.google.com/file/d/14VhWna_5e7VOT6lNFHHVnKW5_1DNmPEW/view"
     }
   ],
   "roles": [
-    "2024 Local general: County Clerk, Won"
+    "2024 Local general: County Clerk, Won",
+    "2026 Primary: Precinct Committeewoman, precinct Oliver (Republican), Won"
   ],
   "counties": [
     "Johnson"
   ],
   "paths": [
     "candidates/2024-local/c/jackie-camino.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Johnson",
+      "precinct": "Oliver",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "371",
+      "result": "Won",
+      "source": "https://drive.google.com/file/d/14VhWna_5e7VOT6lNFHHVnKW5_1DNmPEW/view"
+    }
   ]
 }

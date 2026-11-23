@@ -4,11 +4,11 @@
   "display_name": "James \"Jim\" Milne",
   "match_names": [
     "James \"Jim\" Milne",
-    "Jim Milne",
-    "James Milne"
+    "James Milne",
+    "Jim Milne"
   ],
   "office": "County Commissioner",
-  "party": null,
+  "party": "Republican",
   "residence": "Natrona County",
   "occupation": "Natrona County commissioner (serving through the current term, which ends in January 2027)",
   "education": null,
@@ -34,11 +34,31 @@
     {
       "name": "Natrona County official 2026 general election summary",
       "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+    },
+    {
+      "name": "Natrona County official 2026 primary results",
+      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
     }
   ],
-  "roles": null,
+  "roles": [
+    "2026 Primary: Precinct Committeeman, precinct 11-4 (Republican), Won"
+  ],
   "counties": [
     "Natrona"
   ],
-  "paths": null
+  "paths": [
+    "candidates/precinct/c/milne-jim.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "11-4",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "55",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    }
+  ]
 }

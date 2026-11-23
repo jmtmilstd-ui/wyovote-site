@@ -3,10 +3,10 @@
   "name": "Brittnee M Borgialli",
   "display_name": "Brittnee M. Borgialli",
   "match_names": [
-    "Brittnee M Borgialli",
-    "Brittnee M. Borgialli",
+    "Britnee Borgialli",
     "Brittnee Borgialli",
-    "Britnee Borgialli"
+    "Brittnee M Borgialli",
+    "Brittnee M. Borgialli"
   ],
   "office": "County Treasurer",
   "party": "Republican",
@@ -39,15 +39,62 @@
     {
       "name": "Johnson County treasurer page",
       "url": "https://www.johnsoncowy.gov/departments/treasurer"
+    },
+    {
+      "name": "Johnson County official 2026 primary results",
+      "url": "https://drive.google.com/file/d/14VhWna_5e7VOT6lNFHHVnKW5_1DNmPEW/view"
+    },
+    {
+      "name": "Johnson County official 2024 primary results",
+      "url": "https://drive.google.com/file/d/1HEQSGg3tRSfLa1hkk472RLkH7hpewFJ2/view"
+    },
+    {
+      "name": "Johnson County official 2022 primary results",
+      "url": "https://drive.google.com/file/d/1YBWXzvaCgs-uzI8YFeIoXm0BEsFq6z2-/view"
     }
   ],
   "roles": [
-    "2026 Local general: County Treasurer, Won"
+    "2026 Local general: County Treasurer, Won",
+    "2026 Primary: Precinct Committeewoman, precinct W Cen Buff (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct W CENTRAL BUFFALO 3-2 (Republican), Won",
+    "2022 Primary: Precinct Committeewoman, precinct 3-2 (Republican), Won"
   ],
   "counties": [
     "Johnson"
   ],
   "paths": [
     "candidates/2026-local/c/brittnee-borgialli.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Johnson",
+      "precinct": "W Cen Buff",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "130",
+      "result": "Won",
+      "source": "https://drive.google.com/file/d/14VhWna_5e7VOT6lNFHHVnKW5_1DNmPEW/view"
+    },
+    {
+      "year": "2024",
+      "county": "Johnson",
+      "precinct": "W CENTRAL BUFFALO 3-2",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "140",
+      "result": "Won",
+      "source": "https://drive.google.com/file/d/1HEQSGg3tRSfLa1hkk472RLkH7hpewFJ2/view"
+    },
+    {
+      "year": "2022",
+      "county": "Johnson",
+      "precinct": "3-2",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "162",
+      "result": "Won",
+      "source": "https://drive.google.com/file/d/1YBWXzvaCgs-uzI8YFeIoXm0BEsFq6z2-/view"
+    }
   ]
 }

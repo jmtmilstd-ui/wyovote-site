@@ -3,6 +3,7 @@
   "name": "Mara M. Sanger",
   "display_name": "Mara M. Sanger",
   "match_names": [
+    "Mara M Sanger",
     "Mara M. Sanger",
     "Mara Sanger"
   ],
@@ -29,10 +30,15 @@
     {
       "name": "Carbon County official 2026 general election summary",
       "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+    },
+    {
+      "name": "Carbon County official 2022 primary results",
+      "url": "https://www.carboncountywy.gov/DocumentCenter/View/6299/2022-PRIMARY-OFFICIAL-RESULTS"
     }
   ],
   "roles": [
-    "2026 Local general: Clerk of District Court, Won"
+    "2026 Local general: Clerk of District Court, Won",
+    "2022 Primary: Precinct Committeewoman, precinct 3-2 03-02 (Republican), Won"
   ],
   "counties": [
     "Carbon"
@@ -40,5 +46,17 @@
   "paths": [
     "candidates/2022-local/c/mara-m-sanger.html",
     "candidates/2026-local/c/mara-m-sanger.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Carbon",
+      "precinct": "3-2 03-02",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "344",
+      "result": "Won",
+      "source": "https://www.carboncountywy.gov/DocumentCenter/View/6299/2022-PRIMARY-OFFICIAL-RESULTS"
+    }
   ]
 }

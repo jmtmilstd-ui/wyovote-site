@@ -3,6 +3,7 @@
   "name": "Barbara A. Poley",
   "display_name": "Barbara A. Poley",
   "match_names": [
+    "Barbara A Poley",
     "Barbara A. Poley"
   ],
   "office": "County Commissioner",
@@ -47,11 +48,22 @@
     {
       "name": "Park County official 2026 general election results summary",
       "url": "https://parkcounty-wy.gov/wp-content/uploads/2026/11/Official-Park-General-2026-Summary.pdf"
+    },
+    {
+      "name": "Park County official 2024 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/2024/08/Official-County-Election-Summary-Park-County-Primary-2024.pdf"
+    },
+    {
+      "name": "Park County official 2022 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election%20Results/2022%20Primary%20Election%20results%20summary.pdf"
     }
   ],
   "roles": [
     "2022 Local general: County Treasurer, Won",
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeewoman, precinct 4-1 (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct PRECINCT 4-1 (Republican), Won",
+    "2022 Primary: Precinct Committeewoman, precinct (RV4) PRECINCT 4-1 (Republican), Won"
   ],
   "counties": [
     "Park"
@@ -59,5 +71,37 @@
   "paths": [
     "candidates/2022-local/c/barbara-a-poley.html",
     "candidates/2026-local/c/barbara-a-poley.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Park",
+      "precinct": "4-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "428",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Park",
+      "precinct": "PRECINCT 4-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "324",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2024/08/Official-County-Election-Summary-Park-County-Primary-2024.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Park",
+      "precinct": "(RV4) PRECINCT 4-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "443",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election%20Results/2022%20Primary%20Election%20results%20summary.pdf"
+    }
   ]
 }

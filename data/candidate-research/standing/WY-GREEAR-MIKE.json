@@ -24,10 +24,48 @@
     {
       "name": "Wyoming Legislature historical legislator directory (LsoService)",
       "url": "https://www.wyoleg.gov/LsoService/api/legislator"
+    },
+    {
+      "name": "Washakie County official 2024 primary results",
+      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/314/2024-Primary-PDF"
+    },
+    {
+      "name": "Washakie County official 2022 primary results",
+      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/315/2022-Primary-PDF"
     }
   ],
   "roles": [
     "State Representative, House District 27 (ended, 2021–2022)",
-    "2022: House H27 (elected)"
+    "2022: House H27 (elected)",
+    "2024 Primary: Precinct Committeeman, precinct 5-1 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 5-1 (Republican), Won"
+  ],
+  "counties": [
+    "Washakie"
+  ],
+  "paths": [
+    "officials/2022/greear-deep.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Washakie",
+      "precinct": "5-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "277",
+      "result": "Won",
+      "source": "https://www.washakiecountywy.gov/DocumentCenter/View/314/2024-Primary-PDF"
+    },
+    {
+      "year": "2022",
+      "county": "Washakie",
+      "precinct": "5-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "360",
+      "result": "Won",
+      "source": "https://www.washakiecountywy.gov/DocumentCenter/View/315/2022-Primary-PDF"
+    }
   ]
 }

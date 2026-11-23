@@ -1,0 +1,66 @@
+{
+  "person_id": "WY-BRADY-MARLENE",
+  "name": "Marlene Brady",
+  "display_name": "Marlene Brady",
+  "match_names": [
+    "Marlene Brady"
+  ],
+  "website": null,
+  "counties": [
+    "Sweetwater"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeewoman, precinct 10-11 (Republican), Lost",
+    "2024 Primary: Precinct Committeewoman, precinct 10-11 (Republican), Won",
+    "2022 Primary: Precinct Committeewoman, precinct 10-11 (Republican), Won"
+  ],
+  "paths": [
+    "officials/brady-deep.html"
+  ],
+  "sources": [
+    {
+      "name": "Sweetwater County official 2026 primary results",
+      "url": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2024 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2022 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sweetwater",
+      "precinct": "10-11",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "287",
+      "result": "Lost",
+      "source": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Sweetwater",
+      "precinct": "10-11",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "381",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Sweetwater",
+      "precinct": "10-11",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "508",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
+    }
+  ]
+}

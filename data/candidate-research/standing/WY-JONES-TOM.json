@@ -36,12 +36,62 @@
     {
       "name": "Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Natrona County official 2026 primary results",
+      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "name": "Natrona County official 2024 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "name": "Natrona County official 2022 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
     }
   ],
   "roles": [
-    "2024 Primary: State Representative, Lost"
+    "2024 Primary: State Representative, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 8-4 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 8-4 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 8-4 (Republican), Won"
   ],
   "counties": [
     "Natrona"
+  ],
+  "paths": [
+    "candidates/2024-primary/c/tom-jones.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "8-4",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "210",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "year": "2024",
+      "county": "Natrona",
+      "precinct": "8-4",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "213",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "year": "2022",
+      "county": "Natrona",
+      "precinct": "8-4",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "197",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
+    }
   ]
 }

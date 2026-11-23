@@ -3,7 +3,8 @@
   "name": "Cody Torgerson",
   "display_name": "Cody Torgerson",
   "match_names": [
-    "Cody Torgerson"
+    "Cody Torgerson",
+    "Write-In: Cody Torgerson"
   ],
   "office": "County Commissioner",
   "party": "Republican",
@@ -28,15 +29,32 @@
     {
       "name": "Converse County commissioners page",
       "url": "https://conversecountywy.gov/148/County-Commissioners"
+    },
+    {
+      "name": "Converse County official 2026 primary results",
+      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct SOUTH DOUGLAS 23-5 (Republican), on the official results"
   ],
   "counties": [
     "Converse"
   ],
   "paths": [
     "candidates/2026-local/c/cody-torgerson.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Converse",
+      "precinct": "SOUTH DOUGLAS 23-5",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "1",
+      "result": "",
+      "source": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+    }
   ]
 }

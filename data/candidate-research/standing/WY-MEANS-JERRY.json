@@ -39,9 +39,25 @@
     }
   ],
   "roles": [
-    "2024 Local general: County Commissioner, Won"
+    "2024 Local general: County Commissioner, Won",
+    "2024 Primary: Precinct Committeeman, precinct 02-01 (Republican), Won"
   ],
   "counties": [
     "Campbell"
+  ],
+  "paths": [
+    "candidates/2024-local/c/jerry-r-means.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Campbell",
+      "precinct": "02-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "93",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    }
   ]
 }

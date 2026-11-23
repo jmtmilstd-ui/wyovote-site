@@ -3,12 +3,12 @@
   "name": "Curt Simpson Jr.",
   "display_name": "Curt Simpson Jr.",
   "match_names": [
-    "Curt Simpson Jr.",
+    "Curt Simpson",
     "Curt Simpson II",
-    "Curt Simpson"
+    "Curt Simpson Jr."
   ],
   "office": "County Commissioner",
-  "party": null,
+  "party": "Republican",
   "residence": "Natrona County",
   "occupation": null,
   "education": null,
@@ -26,11 +26,31 @@
     {
       "name": "Natrona County elected county officials page",
       "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+    },
+    {
+      "name": "Natrona County official 2024 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
     }
   ],
-  "roles": null,
+  "roles": [
+    "2024 Primary: Precinct Committeeman, precinct 8-3 (Republican), Won"
+  ],
   "counties": [
     "Natrona"
   ],
-  "paths": null
+  "paths": [
+    "candidates/precinct/c/simpson-curt.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Natrona",
+      "precinct": "8-3",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "105",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    }
+  ]
 }

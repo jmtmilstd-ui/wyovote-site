@@ -28,10 +28,25 @@
     {
       "name": "Uinta County 2026 election information page",
       "url": "https://www.uintacountywy.gov/26/Elections"
+    },
+    {
+      "name": "Uinta County official 2026 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+    },
+    {
+      "name": "Uinta County official 2024 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/9460"
+    },
+    {
+      "name": "Uinta County official 2022 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/8713"
     }
   ],
   "roles": [
-    "2026 Local primary: County Sheriff, Lost"
+    "2026 Local primary: County Sheriff, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 2-1 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 2-1 (Republican), Lost",
+    "2022 Primary: Precinct Committeeman, precinct 2-1 (Republican), Won"
   ],
   "counties": [
     "Uinta"
@@ -39,5 +54,37 @@
   "paths": [
     "candidates/2022-local/c/rowdy-dean.html",
     "candidates/2026-local/c/rowdy-dean.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Uinta",
+      "precinct": "2-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "287",
+      "result": "Won",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/8645"
+    },
+    {
+      "year": "2024",
+      "county": "Uinta",
+      "precinct": "2-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "148",
+      "result": "Lost",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/9460"
+    },
+    {
+      "year": "2022",
+      "county": "Uinta",
+      "precinct": "2-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "247",
+      "result": "Won",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/8713"
+    }
   ]
 }

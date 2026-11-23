@@ -28,10 +28,15 @@
     {
       "name": "Sheridan County official 2026 general election summary",
       "url": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/General/Reports/Election%20Summary%20Report-Official.pdf"
+    },
+    {
+      "name": "Sheridan County official 2022 primary results",
+      "url": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/Election%20Results/2022%20Primary/Sheridan%20County%20Election%20Summary%20Report.pdf"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2022 Primary: Precinct Committeewoman, precinct 11-1 11-1 (Republican), Won"
   ],
   "counties": [
     "Sheridan"
@@ -39,5 +44,17 @@
   "paths": [
     "candidates/2022-local/c/christi-burgess-haswell.html",
     "candidates/2026-local/c/christi-haswell.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Sheridan",
+      "precinct": "11-1 11-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "328",
+      "result": "Won",
+      "source": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/Election%20Results/2022%20Primary/Sheridan%20County%20Election%20Summary%20Report.pdf"
+    }
   ]
 }

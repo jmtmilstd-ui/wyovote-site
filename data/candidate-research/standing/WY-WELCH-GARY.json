@@ -32,13 +32,33 @@
     {
       "name": "Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Big Horn County official 2022 primary results",
+      "url": "https://bighorncountywy.gov/images/OFFICIAL_PRIMARY_CUSTOM_TABLE_REPORT_8-16-22.pdf"
     }
   ],
   "roles": [
-    "2022 Primary: State Representative, Lost"
+    "2022 Primary: State Representative, Lost",
+    "2022 Primary: Precinct Committeeman, precinct LOVELL 20-01 (Republican), Won"
   ],
   "counties": [
     "Big Horn",
     "Park"
+  ],
+  "paths": [
+    "candidates/2022-primary/c/gary-welch.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Big Horn",
+      "precinct": "LOVELL 20-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "513",
+      "result": "Won",
+      "source": "https://bighorncountywy.gov/images/OFFICIAL_PRIMARY_CUSTOM_TABLE_REPORT_8-16-22.pdf"
+    }
   ]
 }

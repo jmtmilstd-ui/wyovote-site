@@ -3,7 +3,8 @@
   "name": "Beth McGowan",
   "display_name": "Beth McGowan",
   "match_names": [
-    "Beth McGowan"
+    "Beth McGowan",
+    "Beth Mcgowan"
   ],
   "office": "County Treasurer",
   "party": "Republican",
@@ -27,9 +28,25 @@
     }
   ],
   "roles": [
-    "2026 Local primary: County Treasurer, Lost"
+    "2026 Local primary: County Treasurer, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 01-15 (Republican), Lost"
   ],
   "counties": [
     "Campbell"
+  ],
+  "paths": [
+    "candidates/2026-local/c/beth-mcgowan.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Campbell",
+      "precinct": "01-15",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "187",
+      "result": "Lost",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    }
   ]
 }

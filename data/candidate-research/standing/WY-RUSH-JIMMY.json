@@ -31,12 +31,25 @@
     }
   ],
   "roles": [
-    "2026 Local primary: County Clerk, Lost"
+    "2026 Local primary: County Clerk, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 16-1 (Republican), Lost"
   ],
   "counties": [
     "Park"
   ],
   "paths": [
     "candidates/2026-local/c/jimmy-rush.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Park",
+      "precinct": "16-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "110",
+      "result": "Lost",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    }
   ]
 }

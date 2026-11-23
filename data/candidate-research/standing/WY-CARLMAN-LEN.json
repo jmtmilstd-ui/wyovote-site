@@ -24,15 +24,32 @@
     {
       "name": "Teton County election results page",
       "url": "https://www.tetoncountywy.gov/271/Election-Results"
+    },
+    {
+      "name": "Teton County official 2026 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
     }
   ],
   "roles": [
-    "2024 Local general: County Commissioner, Won"
+    "2024 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct DIST 4 PCT 3 (Democratic), Won"
   ],
   "counties": [
     "Teton"
   ],
   "paths": [
     "candidates/2024-local/c/len-carlman.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Teton",
+      "precinct": "DIST 4 PCT 3",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "93",
+      "result": "Won",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+    }
   ]
 }

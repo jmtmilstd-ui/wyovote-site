@@ -3,8 +3,8 @@
   "name": "Cindy Lane-Swenson",
   "display_name": "Cindy Lane-Swenson",
   "match_names": [
-    "Cindy Lane-Swenson",
     "Cindy Lane",
+    "Cindy Lane-Swenson",
     "Cynthia L. Lane"
   ],
   "office": "County Clerk",
@@ -49,9 +49,25 @@
     }
   ],
   "roles": [
-    "2026 Local primary: County Clerk, Lost"
+    "2026 Local primary: County Clerk, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 05-8 (Republican), Won"
   ],
   "counties": [
     "Sweetwater"
+  ],
+  "paths": [
+    "candidates/2026-local/c/cindy-lane-swenson.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sweetwater",
+      "precinct": "05-8",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "273",
+      "result": "Won",
+      "source": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf"
+    }
   ]
 }

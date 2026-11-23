@@ -3,6 +3,7 @@
   "name": "Don Odom",
   "display_name": "Don Odom",
   "match_names": [
+    "Don E Odom",
     "Don Odom"
   ],
   "office": "House District 61",
@@ -35,12 +36,62 @@
     {
       "name": "Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Laramie County official 2026 primary results",
+      "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "name": "Laramie County official 2024 primary results",
+      "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/2024-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "name": "Laramie County official 2022 primary results",
+      "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
     }
   ],
   "roles": [
-    "2022 Primary: State Representative, Lost"
+    "2022 Primary: State Representative, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 3-03 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 3-03 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 3-03 (Republican), Won"
   ],
   "counties": [
     "Laramie"
+  ],
+  "paths": [
+    "candidates/2022-primary/c/don-odom.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Laramie",
+      "precinct": "3-03",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "381",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Laramie",
+      "precinct": "3-03",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "348",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/2024-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Laramie",
+      "precinct": "3-03",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "588",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
+    }
   ]
 }

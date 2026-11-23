@@ -32,10 +32,16 @@
     {
       "name": "Oil City News, Nov. 4, 2026, Republicans sweep Wyoming's federal, state and Natrona County elections",
       "url": "https://oilcity.news/community/elections/2026/11/04/republicans-sweep-wyomings-federal-state-and-natrona-county-elections/"
+    },
+    {
+      "name": "Natrona County official 2024 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 8-4 (Republican), Lost",
+    "2024 Primary: Precinct Committeewoman, precinct 8-4 (Republican), Lost"
   ],
   "counties": [
     "Natrona"
@@ -43,5 +49,27 @@
   "paths": [
     "candidates/2024-local/c/rozmaring-czaban.html",
     "candidates/2026-local/c/rozmaring-czaban.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "8-4",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "112",
+      "result": "Lost",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "year": "2024",
+      "county": "Natrona",
+      "precinct": "8-4",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "70",
+      "result": "Lost",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    }
   ]
 }

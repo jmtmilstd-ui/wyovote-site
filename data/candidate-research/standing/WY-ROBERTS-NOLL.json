@@ -78,6 +78,10 @@
     {
       "name": "Wyoming SOS official 2026 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/Primary/2026_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Sheridan County official 2024 primary results",
+      "url": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/Election%20Results/2024%20Primary/Precinct%202-2.pdf"
     }
   ],
   "counties": [
@@ -85,6 +89,22 @@
   ],
   "blurb": "Noll Roberts (Republican, Sheridan). Lost the Aug. 18, 2026 Republican primary for State House District 29 with 7.5% of the vote.",
   "roles": [
-    "2026 House District 29 (Republican)"
+    "2026 House District 29 (Republican)",
+    "2024 Primary: Precinct Committeeman, precinct 2-2 (Republican), Lost"
+  ],
+  "paths": [
+    "candidates/2026-primary/c/noll-roberts.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Sheridan",
+      "precinct": "2-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "65",
+      "result": "Lost",
+      "source": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/Election%20Results/2024%20Primary/Precinct%202-2.pdf"
+    }
   ]
 }

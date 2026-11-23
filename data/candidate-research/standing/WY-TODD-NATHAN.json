@@ -28,10 +28,20 @@
     {
       "name": "Weston County official 2026 general election local summary",
       "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+    },
+    {
+      "name": "Weston County official 2026 primary results",
+      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+    },
+    {
+      "name": "Weston County official 2022 primary results",
+      "url": "https://www.westongov.com/wp-content/uploads/2022/08/Official-2022-Primary-Election.pdf"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct 4-1 UPTON INSIDE (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 4-1 (Republican), Won"
   ],
   "counties": [
     "Weston"
@@ -39,5 +49,27 @@
   "paths": [
     "candidates/2022-local/c/nathan-todd.html",
     "candidates/2026-local/c/nathan-todd.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Weston",
+      "precinct": "4-1 UPTON INSIDE",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "257",
+      "result": "Won",
+      "source": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Weston",
+      "precinct": "4-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "332",
+      "result": "Won",
+      "source": "https://www.westongov.com/wp-content/uploads/2022/08/Official-2022-Primary-Election.pdf"
+    }
   ]
 }

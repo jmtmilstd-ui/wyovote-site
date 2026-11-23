@@ -3,7 +3,8 @@
   "name": "Thomas \"Bucky\" Hall",
   "display_name": "Thomas \"Bucky\" Hall",
   "match_names": [
-    "Thomas \"Bucky\" Hall"
+    "Thomas \"Bucky\" Hall",
+    "Thomas Bucky Hall"
   ],
   "office": "County Commissioner",
   "party": "Republican",
@@ -24,15 +25,43 @@
     {
       "name": "Park County official 2026 general election results summary",
       "url": "https://parkcounty-wy.gov/wp-content/uploads/2026/11/Official-Park-General-2026-Summary.pdf"
+    },
+    {
+      "name": "Park County official 2022 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election%20Results/2022%20Primary%20Election%20results%20summary.pdf"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 24-1 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct (RV1) PRECINCT 24-3 (Republican), Won"
   ],
   "counties": [
     "Park"
   ],
   "paths": [
     "candidates/2026-local/c/thomas-bucky-hall.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Park",
+      "precinct": "24-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "384",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Park",
+      "precinct": "(RV1) PRECINCT 24-3",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "67",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election%20Results/2022%20Primary%20Election%20results%20summary.pdf"
+    }
   ]
 }

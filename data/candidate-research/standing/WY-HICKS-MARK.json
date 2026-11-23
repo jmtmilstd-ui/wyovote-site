@@ -24,15 +24,32 @@
     {
       "name": "Converse County clerk page",
       "url": "https://conversecountywy.gov/186/County-Clerk"
+    },
+    {
+      "name": "Converse County official 2022 primary results",
+      "url": "https://conversecountywy.gov/DocumentCenter/View/4725/OFFICIAL-2022-RESULTS-ELECTION-SUMMARY-REPORT"
     }
   ],
   "roles": [
-    "2022 Local primary: County Commissioner, Lost"
+    "2022 Local primary: County Commissioner, Lost",
+    "2022 Primary: Precinct Committeeman, precinct RURAL GLENROCK 10-10 (Republican), Won"
   ],
   "counties": [
     "Converse"
   ],
   "paths": [
     "candidates/2022-local/c/mark-s-hicks.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Converse",
+      "precinct": "RURAL GLENROCK 10-10",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "130",
+      "result": "Won",
+      "source": "https://conversecountywy.gov/DocumentCenter/View/4725/OFFICIAL-2022-RESULTS-ELECTION-SUMMARY-REPORT"
+    }
   ]
 }

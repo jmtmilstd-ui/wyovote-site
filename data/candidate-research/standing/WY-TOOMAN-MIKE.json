@@ -4,8 +4,8 @@
   "display_name": "James Michael Tooman",
   "match_names": [
     "James Michael Tooman",
-    "Mike Tooman",
-    "Michael Tooman"
+    "Michael Tooman",
+    "Mike Tooman"
   ],
   "office": "County Clerk",
   "party": "Republican",
@@ -34,15 +34,32 @@
     {
       "name": "Weston County clerk page",
       "url": "https://www.westongov.com/county-clerk/"
+    },
+    {
+      "name": "Weston County official 2026 primary results",
+      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
     }
   ],
   "roles": [
-    "2026 Local primary: County Clerk, Lost"
+    "2026 Local primary: County Clerk, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 1-2 NEWCASTLE OUTSIDE (Republican), Lost"
   ],
   "counties": [
     "Weston"
   ],
   "paths": [
     "candidates/2026-local/c/mike-tooman.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Weston",
+      "precinct": "1-2 NEWCASTLE OUTSIDE",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "57",
+      "result": "Lost",
+      "source": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+    }
   ]
 }

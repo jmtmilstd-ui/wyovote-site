@@ -1,0 +1,67 @@
+{
+  "person_id": "WY-BEAR-JOHN",
+  "name": "John Bear",
+  "display_name": "John Bear",
+  "match_names": [
+    "John Bear",
+    "John W. Bear"
+  ],
+  "website": null,
+  "counties": [
+    "Campbell"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeeman, precinct 01-22 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 01-22 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 01-22 (Republican), Won"
+  ],
+  "paths": [
+    "officials/bear-deep.html"
+  ],
+  "sources": [
+    {
+      "name": "Campbell County official 2026 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    },
+    {
+      "name": "Campbell County official 2024 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "name": "Campbell County official 2022 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Campbell",
+      "precinct": "01-22",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "69",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    },
+    {
+      "year": "2024",
+      "county": "Campbell",
+      "precinct": "01-22",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "72",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "year": "2022",
+      "county": "Campbell",
+      "precinct": "01-22",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "112",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
+  ]
+}

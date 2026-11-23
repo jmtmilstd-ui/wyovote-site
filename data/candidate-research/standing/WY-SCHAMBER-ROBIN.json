@@ -36,10 +36,15 @@
     {
       "name": "Sublette County election information page",
       "url": "https://www.sublettecountywy.gov/110/Election-Information"
+    },
+    {
+      "name": "Sublette County official 2026 primary results",
+      "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeewoman, precinct 1-1 (Republican), Won"
   ],
   "counties": [
     "Sublette"
@@ -47,5 +52,17 @@
   "paths": [
     "candidates/2022-local/c/robin-schamber.html",
     "candidates/2026-local/c/robin-schamber.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sublette",
+      "precinct": "1-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "450",
+      "result": "Won",
+      "source": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election"
+    }
   ]
 }

@@ -27,9 +27,25 @@
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Lost"
+    "2026 Local general: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 01-07 (Democratic), Won"
   ],
   "counties": [
     "Campbell"
+  ],
+  "paths": [
+    "candidates/2026-local/c/brenda-kirk.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Campbell",
+      "precinct": "01-07",
+      "office": "Precinct Committeewoman",
+      "party": "Democratic",
+      "votes": "10",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    }
   ]
 }

@@ -35,12 +35,25 @@
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 4-1 (Republican), Won"
   ],
   "counties": [
     "Natrona"
   ],
   "paths": [
     "candidates/2026-local/c/greg-flesvig.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "4-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "130",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    }
   ]
 }

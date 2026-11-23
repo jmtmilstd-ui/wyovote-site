@@ -29,13 +29,33 @@
     {
       "name": "League of Women Voters of Wyoming 2022 Statewide Primary Voter Guide",
       "url": "https://wyominglwv.org/wp-content/uploads/2022/07/2022_Wyoming-State-Wide-Primary-Voter-Guide.pdf"
+    },
+    {
+      "name": "Carbon County official 2022 primary results",
+      "url": "https://www.carboncountywy.gov/DocumentCenter/View/6299/2022-PRIMARY-OFFICIAL-RESULTS"
     }
   ],
   "roles": [
-    "2022 Primary: State Representative, Lost"
+    "2022 Primary: State Representative, Lost",
+    "2022 Primary: Precinct Committeeman, precinct 09-01 09-01 (Republican), Won"
   ],
   "counties": [
     "Carbon",
     "Sweetwater"
+  ],
+  "paths": [
+    "candidates/2022-primary/c/clyde-r-johnson.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Carbon",
+      "precinct": "09-01 09-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "111",
+      "result": "Won",
+      "source": "https://www.carboncountywy.gov/DocumentCenter/View/6299/2022-PRIMARY-OFFICIAL-RESULTS"
+    }
   ]
 }

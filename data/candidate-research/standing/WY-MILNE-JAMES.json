@@ -4,8 +4,8 @@
   "display_name": "James \"Jim\" Milne",
   "match_names": [
     "James \"Jim\" Milne",
-    "Jim Milne",
-    "James Milne"
+    "James Milne",
+    "Jim Milne"
   ],
   "office": "County Commissioner",
   "party": "Republican",
@@ -34,15 +34,47 @@
     {
       "name": "Natrona County official 2026 general election summary",
       "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
+    },
+    {
+      "name": "Natrona County official 2024 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "name": "Natrona County official 2022 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
     }
   ],
   "roles": [
-    "2022 Local general: County Commissioner, Won"
+    "2022 Local general: County Commissioner, Won",
+    "2024 Primary: Precinct Committeeman, precinct 11-4 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 11-4 (Republican), Won"
   ],
   "counties": [
     "Natrona"
   ],
   "paths": [
     "candidates/2022-local/c/james-jim-milne.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Natrona",
+      "precinct": "11-4",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "56",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    },
+    {
+      "year": "2022",
+      "county": "Natrona",
+      "precinct": "11-4",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "58",
+      "result": "Won",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
+    }
   ]
 }

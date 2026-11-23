@@ -1,0 +1,51 @@
+{
+  "person_id": "WY-HOEFT-PAUL",
+  "name": "Paul Hoeft",
+  "display_name": "Paul Hoeft",
+  "match_names": [
+    "Paul Hoeft"
+  ],
+  "website": null,
+  "counties": [
+    "Park"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeeman, precinct 10-2 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct PRECINCT 10-2 (Republican), Won"
+  ],
+  "paths": [
+    "officials/hoeft-deep.html"
+  ],
+  "sources": [
+    {
+      "name": "Park County official 2026 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    },
+    {
+      "name": "Park County official 2024 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/2024/08/Official-County-Election-Summary-Park-County-Primary-2024.pdf"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Park",
+      "precinct": "10-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "387",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Park",
+      "precinct": "PRECINCT 10-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "409",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2024/08/Official-County-Election-Summary-Park-County-Primary-2024.pdf"
+    }
+  ]
+}

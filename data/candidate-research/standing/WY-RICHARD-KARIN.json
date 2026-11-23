@@ -40,7 +40,8 @@
   ],
   "roles": [
     "2024 Local general: County Commissioner, Lost",
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 4-1 (Republican), Won"
   ],
   "counties": [
     "Park"
@@ -48,5 +49,17 @@
   "paths": [
     "candidates/2024-local/c/karin-richard.html",
     "candidates/2026-local/c/karin-richard.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Park",
+      "precinct": "4-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "298",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    }
   ]
 }

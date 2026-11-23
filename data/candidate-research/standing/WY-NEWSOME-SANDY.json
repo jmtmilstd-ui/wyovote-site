@@ -1,0 +1,66 @@
+{
+  "person_id": "WY-NEWSOME-SANDY",
+  "name": "Sandy Newsome",
+  "display_name": "Sandy Newsome",
+  "match_names": [
+    "Sandy Newsome"
+  ],
+  "website": null,
+  "counties": [
+    "Park"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeewoman, precinct 4-1 (Republican), Lost",
+    "2024 Primary: Precinct Committeewoman, precinct PRECINCT 4-1 (Republican), Lost",
+    "2022 Primary: Precinct Committeewoman, precinct (RV4) PRECINCT 4-1 (Republican), Won"
+  ],
+  "paths": [
+    "candidates/2022-primary/c/sandy-newsome.html"
+  ],
+  "sources": [
+    {
+      "name": "Park County official 2026 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    },
+    {
+      "name": "Park County official 2024 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/2024/08/Official-County-Election-Summary-Park-County-Primary-2024.pdf"
+    },
+    {
+      "name": "Park County official 2022 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election%20Results/2022%20Primary%20Election%20results%20summary.pdf"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Park",
+      "precinct": "4-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "258",
+      "result": "Lost",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Park",
+      "precinct": "PRECINCT 4-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "215",
+      "result": "Lost",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2024/08/Official-County-Election-Summary-Park-County-Primary-2024.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Park",
+      "precinct": "(RV4) PRECINCT 4-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "307",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election%20Results/2022%20Primary%20Election%20results%20summary.pdf"
+    }
+  ]
+}

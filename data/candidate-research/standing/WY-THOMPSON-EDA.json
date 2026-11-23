@@ -29,11 +29,16 @@
     {
       "name": "Sheridan County election results archive",
       "url": "https://www.sheridancountywy.gov/departments/elections/election_results_archive.php"
+    },
+    {
+      "name": "Sheridan County official 2026 primary results",
+      "url": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/Primary/Official%20Results.pdf"
     }
   ],
   "roles": [
     "2022 Local general: County Clerk, Won",
-    "2026 Local general: County Clerk, Won"
+    "2026 Local general: County Clerk, Won",
+    "2026 Primary: Precinct Committeewoman, precinct 12-1 (Republican), Won"
   ],
   "counties": [
     "Sheridan"
@@ -41,5 +46,17 @@
   "paths": [
     "candidates/2022-local/c/eda-schunk-thompson.html",
     "candidates/2026-local/c/eda-schunk-thompson.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sheridan",
+      "precinct": "12-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "641",
+      "result": "Won",
+      "source": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/Primary/Official%20Results.pdf"
+    }
   ]
 }

@@ -3,8 +3,8 @@
   "name": "Lily Rakness Parra",
   "display_name": "Lily Rakness Parra",
   "match_names": [
-    "Lily Rakness Parra",
-    "Lily Parra"
+    "Lily Parra",
+    "Lily Rakness Parra"
   ],
   "office": "County Clerk",
   "party": "Republican",
@@ -29,10 +29,20 @@
     {
       "name": "Washakie County staff directory",
       "url": "https://www.washakiecountywy.gov/directory.aspx"
+    },
+    {
+      "name": "Washakie County official 2026 primary results",
+      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+    },
+    {
+      "name": "Washakie County official 2024 primary results",
+      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/314/2024-Primary-PDF"
     }
   ],
   "roles": [
-    "2026 Local general: County Clerk, Won"
+    "2026 Local general: County Clerk, Won",
+    "2026 Primary: Precinct Committeewoman, precinct 5-3 (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct 5-3 (Republican), Won"
   ],
   "counties": [
     "Washakie"
@@ -40,5 +50,27 @@
   "paths": [
     "candidates/2022-local/c/lily-rakness-parra.html",
     "candidates/2026-local/c/lily-rakness-parra.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Washakie",
+      "precinct": "5-3",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "149",
+      "result": "Won",
+      "source": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+    },
+    {
+      "year": "2024",
+      "county": "Washakie",
+      "precinct": "5-3",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "140",
+      "result": "Won",
+      "source": "https://www.washakiecountywy.gov/DocumentCenter/View/314/2024-Primary-PDF"
+    }
   ]
 }

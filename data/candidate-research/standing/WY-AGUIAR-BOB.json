@@ -24,15 +24,32 @@
     {
       "name": "Hot Springs County elections page",
       "url": "https://www.hscounty.com/elections/"
+    },
+    {
+      "name": "Hot Springs County official 2024 primary results",
+      "url": "https://hscounty.com/component/edocman/2024-hot-springs-co-primary-election-official-results-2/download?Itemid=100"
     }
   ],
   "roles": [
-    "2024 Local general: County Commissioner, Won"
+    "2024 Local general: County Commissioner, Won",
+    "2024 Primary: Precinct Committeeman, precinct 4-1 (Republican), Won"
   ],
   "counties": [
     "Hot Springs"
   ],
   "paths": [
     "candidates/2024-local/c/bob-aguiar.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Hot Springs",
+      "precinct": "4-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "305",
+      "result": "Won",
+      "source": "https://hscounty.com/component/edocman/2024-hot-springs-co-primary-election-official-results-2/download?Itemid=100"
+    }
   ]
 }

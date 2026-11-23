@@ -24,12 +24,62 @@
     {
       "name": "Laramie County official 2024 general election summary",
       "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+    },
+    {
+      "name": "Laramie County official 2026 primary results",
+      "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "name": "Laramie County official 2024 primary results",
+      "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/2024-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "name": "Laramie County official 2022 primary results",
+      "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
     }
   ],
   "roles": [
-    "2024 Local primary: County Commissioner, Lost"
+    "2024 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 3-05 (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct 3-05 (Republican), Won",
+    "2022 Primary: Precinct Committeewoman, precinct 3-05 (Republican), Won"
   ],
   "counties": [
     "Laramie"
+  ],
+  "paths": [
+    "candidates/2024-local/c/kathy-scigliano.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Laramie",
+      "precinct": "3-05",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "372",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Laramie",
+      "precinct": "3-05",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "285",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/2024-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Laramie",
+      "precinct": "3-05",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "467",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
+    }
   ]
 }

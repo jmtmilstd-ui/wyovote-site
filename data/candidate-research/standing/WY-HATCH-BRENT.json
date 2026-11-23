@@ -28,15 +28,62 @@
     {
       "name": "Uinta County 2026 election information page",
       "url": "https://www.uintacountywy.gov/26/Elections"
+    },
+    {
+      "name": "Uinta County official 2026 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+    },
+    {
+      "name": "Uinta County official 2024 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/9460"
+    },
+    {
+      "name": "Uinta County official 2022 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/8713"
     }
   ],
   "roles": [
-    "2024 Local general: County Commissioner, Won"
+    "2024 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct 1-2 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 1-2 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 1-2 (Republican), Won"
   ],
   "counties": [
     "Uinta"
   ],
   "paths": [
     "candidates/2024-local/c/brent-hatch.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Uinta",
+      "precinct": "1-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "558",
+      "result": "Won",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/8645"
+    },
+    {
+      "year": "2024",
+      "county": "Uinta",
+      "precinct": "1-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "339",
+      "result": "Won",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/9460"
+    },
+    {
+      "year": "2022",
+      "county": "Uinta",
+      "precinct": "1-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "606",
+      "result": "Won",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/8713"
+    }
   ]
 }

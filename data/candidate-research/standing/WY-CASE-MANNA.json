@@ -29,15 +29,32 @@
     {
       "name": "Johnson County official 2026 general election results (county clerk Google Drive posting)",
       "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
+    },
+    {
+      "name": "Johnson County official 2024 primary results",
+      "url": "https://drive.google.com/file/d/1HEQSGg3tRSfLa1hkk472RLkH7hpewFJ2/view"
     }
   ],
   "roles": [
-    "2026 Local general: County Treasurer, Lost"
+    "2026 Local general: County Treasurer, Lost",
+    "2024 Primary: Precinct Committeeman, precinct OLIVER 4-7 (Democratic), Won"
   ],
   "counties": [
     "Johnson"
   ],
   "paths": [
     "candidates/2026-local/c/manna-dudley-case.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Johnson",
+      "precinct": "OLIVER 4-7",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "5",
+      "result": "Won",
+      "source": "https://drive.google.com/file/d/1HEQSGg3tRSfLa1hkk472RLkH7hpewFJ2/view"
+    }
   ]
 }

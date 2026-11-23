@@ -37,12 +37,62 @@
     {
       "name": "Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Campbell County official 2026 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    },
+    {
+      "name": "Campbell County official 2024 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "name": "Campbell County official 2022 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
     }
   ],
   "roles": [
-    "2024 Primary: State Representative, Lost"
+    "2024 Primary: State Representative, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 01-25 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 01-25 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 01-25 (Republican), Lost"
   ],
   "counties": [
     "Campbell"
+  ],
+  "paths": [
+    "candidates/2024-primary/c/george-dunlap.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Campbell",
+      "precinct": "01-25",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "128",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    },
+    {
+      "year": "2024",
+      "county": "Campbell",
+      "precinct": "01-25",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "199",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "year": "2022",
+      "county": "Campbell",
+      "precinct": "01-25",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "214",
+      "result": "Lost",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
   ]
 }

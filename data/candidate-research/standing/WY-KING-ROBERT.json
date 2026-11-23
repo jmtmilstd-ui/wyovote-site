@@ -3,6 +3,7 @@
   "name": "Robert Edward King",
   "display_name": "Robert Edward King",
   "match_names": [
+    "Robert E. King",
     "Robert Edward King"
   ],
   "office": "County Commissioner",
@@ -24,15 +25,47 @@
     {
       "name": "Lincoln County commissioners page",
       "url": "https://www.lincolncountywy.gov/government/county_commissioners/index.php"
+    },
+    {
+      "name": "Lincoln County official 2026 primary results",
+      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+    },
+    {
+      "name": "Lincoln County official 2022 primary results",
+      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/Official%20County%20Election%20Summary.pdf"
     }
   ],
   "roles": [
-    "2022 Local primary: County Commissioner, Lost"
+    "2022 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 2-8 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 2-8 (Republican), Won"
   ],
   "counties": [
     "Lincoln"
   ],
   "paths": [
     "candidates/2022-local/c/robert-edward-king.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Lincoln",
+      "precinct": "2-8",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "161",
+      "result": "Won",
+      "source": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Lincoln",
+      "precinct": "2-8",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "235",
+      "result": "Won",
+      "source": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/Official%20County%20Election%20Summary.pdf"
+    }
   ]
 }

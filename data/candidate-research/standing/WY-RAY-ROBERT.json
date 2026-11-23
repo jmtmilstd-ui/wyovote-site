@@ -4,6 +4,7 @@
   "display_name": "Bob Ray",
   "match_names": [
     "Bob Ray",
+    "Robert (Bob) Ray",
     "Robert Allen Ray"
   ],
   "office": "House District 42",
@@ -50,13 +51,33 @@
     {
       "name": "WyoFile 2024 Election Guide (candidate questionnaire / profile), Bob Ray",
       "url": "https://projects.wyofile.com/election-guide-2024/candidates/robert-ray/"
+    },
+    {
+      "name": "Laramie County official 2022 primary results",
+      "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-democratic-precinct-committee-people-2022.pdf"
     }
   ],
   "roles": [
     "2024 General: State Representative, Lost",
-    "2024 Primary: State Representative, Unopposed"
+    "2024 Primary: State Representative, Unopposed",
+    "2022 Primary: Precinct Committeeman, precinct 4-02 (Democratic), Won"
   ],
   "counties": [
     "Laramie"
+  ],
+  "paths": [
+    "candidates/2024-primary/c/bob-ray.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Laramie",
+      "precinct": "4-02",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "45",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-democratic-precinct-committee-people-2022.pdf"
+    }
   ]
 }

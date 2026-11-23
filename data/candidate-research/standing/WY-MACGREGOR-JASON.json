@@ -3,7 +3,8 @@
   "name": "Jason MacGregor",
   "display_name": "Jason MacGregor",
   "match_names": [
-    "Jason MacGregor"
+    "Jason MacGregor",
+    "Jason Macgregor"
   ],
   "office": "County Commissioner",
   "party": "Republican",
@@ -28,12 +29,47 @@
     {
       "name": "Laramie County official 2026 general election summary",
       "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+    },
+    {
+      "name": "Laramie County official 2026 primary results",
+      "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "name": "Laramie County official 2022 primary results",
+      "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 1-06 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 1-06 (Republican), Won"
   ],
   "counties": [
     "Laramie"
+  ],
+  "paths": [
+    "candidates/2026-local/c/jason-macgregor.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Laramie",
+      "precinct": "1-06",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "358",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Laramie",
+      "precinct": "1-06",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "507",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
+    }
   ]
 }

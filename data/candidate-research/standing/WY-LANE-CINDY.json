@@ -46,12 +46,47 @@
     {
       "name": "Sweetwater County official 2026 general election summary",
       "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2024 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2022 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
     }
   ],
   "roles": [
-    "2022 Local general: County Clerk, Won"
+    "2022 Local general: County Clerk, Won",
+    "2024 Primary: Precinct Committeewoman, precinct 05-8 (Republican), Lost",
+    "2022 Primary: Precinct Committeewoman, precinct 05-8 (Republican), Won"
   ],
   "counties": [
     "Sweetwater"
+  ],
+  "paths": [
+    "candidates/2022-local/c/cindy-lane.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Sweetwater",
+      "precinct": "05-8",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "129",
+      "result": "Lost",
+      "source": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Sweetwater",
+      "precinct": "05-8",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "270",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
+    }
   ]
 }

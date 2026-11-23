@@ -3,6 +3,7 @@
   "name": "Joe V. Hickey",
   "display_name": "Joe V. Hickey",
   "match_names": [
+    "Joe V Hickey",
     "Joe V. Hickey"
   ],
   "office": "County Commissioner",
@@ -24,15 +25,62 @@
     {
       "name": "Uinta County list of elected officials",
       "url": "https://uintacountywy.gov/1084/List-of-All-Elected-Officials"
+    },
+    {
+      "name": "Uinta County official 2026 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/8645"
+    },
+    {
+      "name": "Uinta County official 2024 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/9460"
+    },
+    {
+      "name": "Uinta County official 2022 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/8713"
     }
   ],
   "roles": [
-    "2022 Local primary: County Commissioner, Lost"
+    "2022 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 4-1 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 4-1 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 4-1 (Republican), Won"
   ],
   "counties": [
     "Uinta"
   ],
   "paths": [
     "candidates/2022-local/c/joe-v-hickey.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Uinta",
+      "precinct": "4-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "427",
+      "result": "Won",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/8645"
+    },
+    {
+      "year": "2024",
+      "county": "Uinta",
+      "precinct": "4-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "315",
+      "result": "Won",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/9460"
+    },
+    {
+      "year": "2022",
+      "county": "Uinta",
+      "precinct": "4-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "459",
+      "result": "Won",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/8713"
+    }
   ]
 }

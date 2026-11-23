@@ -20,15 +20,32 @@
     {
       "name": "Teton County election results page",
       "url": "https://www.tetoncountywy.gov/271/Election-Results"
+    },
+    {
+      "name": "Teton County official 2022 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/23128/2022-Primary-Election---Official-Summary-Report"
     }
   ],
   "roles": [
-    "2022 Local general: County Commissioner, Lost"
+    "2022 Local general: County Commissioner, Lost",
+    "2022 Primary: Precinct Committeeman, precinct DIST 3 PCT 1 (Republican), Won"
   ],
   "counties": [
     "Teton"
   ],
   "paths": [
     "candidates/2022-local/c/peter-long.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Teton",
+      "precinct": "DIST 3 PCT 1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "85",
+      "result": "Won",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/23128/2022-Primary-Election---Official-Summary-Report"
+    }
   ]
 }

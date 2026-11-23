@@ -3,7 +3,8 @@
   "name": "Troy Bray",
   "display_name": "Troy Bray",
   "match_names": [
-    "Troy Bray"
+    "Troy Bray",
+    "Troy D. Bray"
   ],
   "office": "House District 25",
   "party": "Republican",
@@ -32,13 +33,63 @@
     {
       "name": "Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Park County official 2026 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    },
+    {
+      "name": "Park County official 2024 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/2024/08/Official-County-Election-Summary-Park-County-Primary-2024.pdf"
+    },
+    {
+      "name": "Park County official 2022 primary results",
+      "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election%20Results/2022%20Primary%20Election%20results%20summary.pdf"
     }
   ],
   "roles": [
     "2022 Primary: State Representative, Lost",
-    "2026 Local primary: County Treasurer, Lost"
+    "2026 Local primary: County Treasurer, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 9-7 (Republican), Lost",
+    "2024 Primary: Precinct Committeeman, precinct PRECINCT 9-7 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct (RV3) PRECINCT 9-7 (Republican), Won"
   ],
   "counties": [
     "Park"
+  ],
+  "paths": [
+    "candidates/2022-primary/c/troy-bray.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Park",
+      "precinct": "9-7",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "166",
+      "result": "Lost",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2026/08/2026-Primary-Official-Results-Summary.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Park",
+      "precinct": "PRECINCT 9-7",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "205",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/2024/08/Official-County-Election-Summary-Park-County-Primary-2024.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Park",
+      "precinct": "(RV3) PRECINCT 9-7",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "316",
+      "result": "Won",
+      "source": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election%20Results/2022%20Primary%20Election%20results%20summary.pdf"
+    }
   ]
 }

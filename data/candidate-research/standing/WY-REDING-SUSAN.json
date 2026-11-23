@@ -25,15 +25,32 @@
     {
       "name": "Albany County clerk page",
       "url": "https://www.albanycountywy.gov/157/Clerk"
+    },
+    {
+      "name": "Albany County official 2022 primary results",
+      "url": "https://www.albanycountywy.gov/DocumentCenter/View/5008/2022-Primary-Election-Official-Results"
     }
   ],
   "roles": [
-    "2022 Local primary: County Clerk, Won"
+    "2022 Local primary: County Clerk, Won",
+    "2022 Primary: Precinct Committeewoman, precinct 45-1 (Republican), Won"
   ],
   "counties": [
     "Albany"
   ],
   "paths": [
     "candidates/2022-local/c/susan-reding.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Albany",
+      "precinct": "45-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "338",
+      "result": "Won",
+      "source": "https://www.albanycountywy.gov/DocumentCenter/View/5008/2022-Primary-Election-Official-Results"
+    }
   ]
 }

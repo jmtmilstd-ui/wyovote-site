@@ -32,10 +32,15 @@
     {
       "name": "Sundance Times, Nov. 12, 2026, Election results now official",
       "url": "https://www.sundancetimes.com/story/2026/11/12/news/election-results-now-official/13374.html"
+    },
+    {
+      "name": "Crook County official 2026 primary results",
+      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
     }
   ],
   "roles": [
-    "2026 Local primary: County Coroner, Lost"
+    "2026 Local primary: County Coroner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 26-26 (Republican), Lost"
   ],
   "counties": [
     "Crook"
@@ -43,5 +48,17 @@
   "paths": [
     "candidates/2022-local/c/everett-zimmerschied.html",
     "candidates/2026-local/c/everett-zimmerschied.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Crook",
+      "precinct": "26-26",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "9",
+      "result": "Lost",
+      "source": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+    }
   ]
 }

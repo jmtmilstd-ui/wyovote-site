@@ -36,15 +36,32 @@
     {
       "name": "Weston County official 2026 general election local summary",
       "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+    },
+    {
+      "name": "Weston County official 2026 primary results",
+      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
     }
   ],
   "roles": [
-    "2026 Local general: Clerk of District Court, Won"
+    "2026 Local general: Clerk of District Court, Won",
+    "2026 Primary: Precinct Committeewoman, precinct 5-3 NEWCASTLE INSIDE (Republican), Won"
   ],
   "counties": [
     "Weston"
   ],
   "paths": [
     "candidates/2026-local/c/riki-kaiser.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Weston",
+      "precinct": "5-3 NEWCASTLE INSIDE",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "146",
+      "result": "Won",
+      "source": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+    }
   ]
 }

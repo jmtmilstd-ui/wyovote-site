@@ -1,0 +1,51 @@
+{
+  "person_id": "WY-TEMPLE-JAMES",
+  "name": "James Temple",
+  "display_name": "James Temple",
+  "match_names": [
+    "James Temple"
+  ],
+  "website": null,
+  "counties": [
+    "Sheridan"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeeman, precinct 2-1 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 3-5 3-5 (Republican), Lost"
+  ],
+  "paths": [
+    "candidates/2026-primary/c/james-temple.html"
+  ],
+  "sources": [
+    {
+      "name": "Sheridan County official 2026 primary results",
+      "url": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/Primary/Official%20Results.pdf"
+    },
+    {
+      "name": "Sheridan County official 2022 primary results",
+      "url": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/Election%20Results/2022%20Primary/Sheridan%20County%20Election%20Summary%20Report.pdf"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sheridan",
+      "precinct": "2-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "142",
+      "result": "Won",
+      "source": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/Primary/Official%20Results.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Sheridan",
+      "precinct": "3-5 3-5",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "134",
+      "result": "Lost",
+      "source": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/Election%20Results/2022%20Primary/Sheridan%20County%20Election%20Summary%20Report.pdf"
+    }
+  ]
+}

@@ -24,12 +24,43 @@
     {
       "name": "Campbell County official 2026 general election summary",
       "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+    },
+    {
+      "name": "Campbell County official 2024 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 13-01 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 13-01 (Republican), Won"
   ],
   "counties": [
     "Campbell"
+  ],
+  "paths": [
+    "candidates/2026-local/c/ira-shober.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Campbell",
+      "precinct": "13-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "74",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    },
+    {
+      "year": "2024",
+      "county": "Campbell",
+      "precinct": "13-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "65",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    }
   ]
 }

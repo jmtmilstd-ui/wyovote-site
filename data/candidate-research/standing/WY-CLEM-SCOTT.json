@@ -32,12 +32,58 @@
     {
       "name": "Campbell County official 2026 general election summary",
       "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+    },
+    {
+      "name": "Campbell County official 2024 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "name": "Campbell County official 2022 primary results",
+      "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct 01-17 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 01-17 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 01-17 (Republican), Won"
   ],
   "counties": [
     "Campbell"
+  ],
+  "paths": [
+    "candidates/2026-local/c/scott-clem.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Campbell",
+      "precinct": "01-17",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "181",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report"
+    },
+    {
+      "year": "2024",
+      "county": "Campbell",
+      "precinct": "01-17",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "179",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/23726/2024-Primary-Election"
+    },
+    {
+      "year": "2022",
+      "county": "Campbell",
+      "precinct": "01-17",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "276",
+      "result": "Won",
+      "source": "https://www.campbellcountywy.gov/DocumentCenter/View/22575/2022-Primary-Election"
+    }
   ]
 }

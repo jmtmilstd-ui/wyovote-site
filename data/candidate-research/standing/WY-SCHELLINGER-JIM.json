@@ -28,15 +28,47 @@
     {
       "name": "Sheridan County official 2026 general election summary",
       "url": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/General/Reports/Election%20Summary%20Report-Official.pdf"
+    },
+    {
+      "name": "Sheridan County official 2026 primary results",
+      "url": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/Primary/Official%20Results.pdf"
+    },
+    {
+      "name": "Sheridan County official 2024 primary results",
+      "url": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/Election%20Results/2024%20Primary/Precinct%202-5.pdf"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct 2-5 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 2-5 (Republican), Won"
   ],
   "counties": [
     "Sheridan"
   ],
   "paths": [
     "candidates/2026-local/c/jim-schellinger.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sheridan",
+      "precinct": "2-5",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "603",
+      "result": "Won",
+      "source": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/2026%20Election%20Documents/Primary/Official%20Results.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Sheridan",
+      "precinct": "2-5",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "377",
+      "result": "Won",
+      "source": "https://www.sheridancountywy.gov/Document%20Center/Departments/Elected%20Office/Election%20Results/2024%20Primary/Precinct%202-5.pdf"
+    }
   ]
 }

@@ -3,7 +3,8 @@
   "name": "Daniel E. Erramouspe",
   "display_name": "Daniel E. Erramouspe",
   "match_names": [
-    "Daniel E. Erramouspe"
+    "Daniel E. Erramouspe",
+    "Daniel Erramouspe"
   ],
   "office": "County Attorney",
   "party": "Republican",
@@ -27,9 +28,25 @@
     }
   ],
   "roles": [
-    "2026 Local general: County Attorney, Won"
+    "2026 Local general: County Attorney, Won",
+    "2026 Primary: Precinct Committeeman, precinct 03-7 (Republican), Won"
   ],
   "counties": [
     "Sweetwater"
+  ],
+  "paths": [
+    "candidates/2026-local/c/daniel-e-erramouspe.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sweetwater",
+      "precinct": "03-7",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "323",
+      "result": "Won",
+      "source": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf"
+    }
   ]
 }

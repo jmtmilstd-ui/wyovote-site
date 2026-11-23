@@ -24,10 +24,33 @@
     {
       "name": "Wyoming Legislature historical legislator directory (LsoService)",
       "url": "https://www.wyoleg.gov/LsoService/api/legislator"
+    },
+    {
+      "name": "Sweetwater County official 2022 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
     }
   ],
   "roles": [
     "State Representative, House District 60 (ended, 2021–2022)",
-    "2022: House H60 (elected)"
+    "2022: House H60 (elected)",
+    "2022 Primary: Precinct Committeeman, precinct 10-11 (Republican), Won"
+  ],
+  "counties": [
+    "Sweetwater"
+  ],
+  "paths": [
+    "officials/2022/baker-deep.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Sweetwater",
+      "precinct": "10-11",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "535",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
+    }
   ]
 }

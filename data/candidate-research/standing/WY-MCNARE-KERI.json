@@ -3,7 +3,8 @@
   "name": "KERI McNARE",
   "display_name": "KERI McNARE",
   "match_names": [
-    "KERI McNARE"
+    "KERI McNARE",
+    "Keri Mcnare"
   ],
   "office": "County Sheriff",
   "party": "Republican",
@@ -24,15 +25,32 @@
     {
       "name": "Converse County clerk page",
       "url": "https://conversecountywy.gov/186/County-Clerk"
+    },
+    {
+      "name": "Converse County official 2022 primary results",
+      "url": "https://conversecountywy.gov/DocumentCenter/View/4725/OFFICIAL-2022-RESULTS-ELECTION-SUMMARY-REPORT"
     }
   ],
   "roles": [
-    "2022 Local primary: County Sheriff, Lost"
+    "2022 Local primary: County Sheriff, Lost",
+    "2022 Primary: Precinct Committeewoman, precinct SOUTH DOUGLAS 23-5 (Republican), Won"
   ],
   "counties": [
     "Converse"
   ],
   "paths": [
     "candidates/2022-local/c/keri-mcnare.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Converse",
+      "precinct": "SOUTH DOUGLAS 23-5",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "175",
+      "result": "Won",
+      "source": "https://conversecountywy.gov/DocumentCenter/View/4725/OFFICIAL-2022-RESULTS-ELECTION-SUMMARY-REPORT"
+    }
   ]
 }

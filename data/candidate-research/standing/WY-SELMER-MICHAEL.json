@@ -3,8 +3,9 @@
   "name": "Mike Selmer",
   "display_name": "Mike Selmer",
   "match_names": [
-    "Mike Selmer",
-    "Michael P Selmer JR"
+    "Michael P Selmer JR",
+    "Michael Selmer, Jr",
+    "Mike Selmer"
   ],
   "office": "Senate District 10",
   "party": "Democratic",
@@ -45,13 +46,48 @@
     {
       "name": "Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Albany County official 2024 primary results",
+      "url": "https://www.albanycountywy.gov/DocumentCenter/View/6819/OFFICIAL-RESULTS---2024-Primary-Election-"
+    },
+    {
+      "name": "Albany County official 2022 primary results",
+      "url": "https://www.albanycountywy.gov/DocumentCenter/View/5008/2022-Primary-Election-Official-Results"
     }
   ],
   "roles": [
     "2024 General: State Senator, Lost",
-    "2024 Primary: State Senator, Unopposed"
+    "2024 Primary: State Senator, Unopposed",
+    "2024 Primary: Precinct Committeeman, precinct 14-3 V6 (Democratic), Won",
+    "2022 Primary: Precinct Committeeman, precinct 14-3 (Democratic), Won"
   ],
   "counties": [
     "Albany"
+  ],
+  "paths": [
+    "candidates/2024-primary/c/mike-selmer.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Albany",
+      "precinct": "14-3 V6",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "295",
+      "result": "Won",
+      "source": "https://www.albanycountywy.gov/DocumentCenter/View/6819/OFFICIAL-RESULTS---2024-Primary-Election-"
+    },
+    {
+      "year": "2022",
+      "county": "Albany",
+      "precinct": "14-3",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "127",
+      "result": "Won",
+      "source": "https://www.albanycountywy.gov/DocumentCenter/View/5008/2022-Primary-Election-Official-Results"
+    }
   ]
 }

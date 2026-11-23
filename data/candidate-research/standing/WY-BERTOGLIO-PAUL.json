@@ -24,10 +24,15 @@
     {
       "name": "Natrona County elected county officials page",
       "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+    },
+    {
+      "name": "Natrona County official 2026 primary results",
+      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
     }
   ],
   "roles": [
-    "2024 Local primary: County Commissioner, Lost"
+    "2024 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 4-2 (Republican), Won"
   ],
   "counties": [
     "Natrona"
@@ -35,5 +40,17 @@
   "paths": [
     "candidates/2022-local/c/paul-c-bertoglio.html",
     "candidates/2024-local/c/paul-c-bertoglio.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "4-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "281",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    }
   ]
 }

@@ -33,10 +33,15 @@
     {
       "name": "Natrona County elected county officials page",
       "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
+    },
+    {
+      "name": "Natrona County official 2022 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
     }
   ],
   "roles": [
-    "2026 Local general: County Coroner, Won"
+    "2026 Local general: County Coroner, Won",
+    "2022 Primary: Precinct Committeeman, precinct 3-3 (Republican), Lost"
   ],
   "counties": [
     "Natrona"
@@ -44,5 +49,17 @@
   "paths": [
     "candidates/2022-local/c/james-whipps.html",
     "candidates/2026-local/c/james-l-whipps.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Natrona",
+      "precinct": "3-3",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "232",
+      "result": "Lost",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/7474"
+    }
   ]
 }

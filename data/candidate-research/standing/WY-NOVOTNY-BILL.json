@@ -40,10 +40,25 @@
     {
       "name": "Johnson County official 2026 general election results (county clerk Google Drive posting)",
       "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
+    },
+    {
+      "name": "Johnson County official 2026 primary results",
+      "url": "https://drive.google.com/file/d/14VhWna_5e7VOT6lNFHHVnKW5_1DNmPEW/view"
+    },
+    {
+      "name": "Johnson County official 2024 primary results",
+      "url": "https://drive.google.com/file/d/1HEQSGg3tRSfLa1hkk472RLkH7hpewFJ2/view"
+    },
+    {
+      "name": "Johnson County official 2022 primary results",
+      "url": "https://drive.google.com/file/d/1YBWXzvaCgs-uzI8YFeIoXm0BEsFq6z2-/view"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct W Cen Buff (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct W CENTRAL BUFFALO 3-2 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 3-2 (Republican), Won"
   ],
   "counties": [
     "Johnson"
@@ -51,5 +66,37 @@
   "paths": [
     "candidates/2022-local/c/bill-novotny.html",
     "candidates/2026-local/c/bill-novotny.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Johnson",
+      "precinct": "W Cen Buff",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "127",
+      "result": "Won",
+      "source": "https://drive.google.com/file/d/14VhWna_5e7VOT6lNFHHVnKW5_1DNmPEW/view"
+    },
+    {
+      "year": "2024",
+      "county": "Johnson",
+      "precinct": "W CENTRAL BUFFALO 3-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "129",
+      "result": "Won",
+      "source": "https://drive.google.com/file/d/1HEQSGg3tRSfLa1hkk472RLkH7hpewFJ2/view"
+    },
+    {
+      "year": "2022",
+      "county": "Johnson",
+      "precinct": "3-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "111",
+      "result": "Won",
+      "source": "https://drive.google.com/file/d/1YBWXzvaCgs-uzI8YFeIoXm0BEsFq6z2-/view"
+    }
   ]
 }

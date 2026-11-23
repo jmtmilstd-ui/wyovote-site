@@ -36,12 +36,32 @@
     {
       "name": "Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Goshen County official 2022 primary results",
+      "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=132"
     }
   ],
   "roles": [
-    "2024 Primary: State Representative, Lost"
+    "2024 Primary: State Representative, Lost",
+    "2022 Primary: Precinct Committeewoman, precinct 7-1 (Republican), Won"
   ],
   "counties": [
     "Goshen"
+  ],
+  "paths": [
+    "candidates/2024-primary/c/jackie-van-mark.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Goshen",
+      "precinct": "7-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "751",
+      "result": "Won",
+      "source": "https://www.goshencountywy.gov/Archive.aspx?ADID=132"
+    }
   ]
 }

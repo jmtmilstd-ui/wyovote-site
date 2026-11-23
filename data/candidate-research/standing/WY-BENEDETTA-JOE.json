@@ -24,10 +24,20 @@
     {
       "name": "Douglas Budget / WyoRoundup, Nov. 3, 2026, Converse County voters pick new leaders in Douglas, Glenrock and Rolling Hills",
       "url": "https://www.wyoroundup.com/article/920,converse-county-voters-pick-new-leaders-in-douglas-glenrock-and-rolling-hills"
+    },
+    {
+      "name": "Converse County official 2026 primary results",
+      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+    },
+    {
+      "name": "Converse County official 2024 primary results",
+      "url": "https://conversecountywy.gov/DocumentCenter/View/5627/2024-OFFICAL-RESULTS-ELECTION-SUMMARY-REPORT"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct BOXELDER 6-6 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct BOXELDER 6-6 (Republican), Won"
   ],
   "counties": [
     "Converse"
@@ -35,5 +45,27 @@
   "paths": [
     "candidates/2024-local/c/joe-benedetta.html",
     "candidates/2026-local/c/joe-benedetta.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Converse",
+      "precinct": "BOXELDER 6-6",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "174",
+      "result": "Won",
+      "source": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+    },
+    {
+      "year": "2024",
+      "county": "Converse",
+      "precinct": "BOXELDER 6-6",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "94",
+      "result": "Won",
+      "source": "https://conversecountywy.gov/DocumentCenter/View/5627/2024-OFFICAL-RESULTS-ELECTION-SUMMARY-REPORT"
+    }
   ]
 }

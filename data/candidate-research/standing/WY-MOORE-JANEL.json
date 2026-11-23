@@ -35,12 +35,25 @@
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 11-1 (Republican), Won"
   ],
   "counties": [
     "Natrona"
   ],
   "paths": [
     "candidates/2026-local/c/janel-moore.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "11-1",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "59",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    }
   ]
 }

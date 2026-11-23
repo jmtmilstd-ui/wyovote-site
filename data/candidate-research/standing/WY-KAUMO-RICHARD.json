@@ -38,9 +38,25 @@
     }
   ],
   "roles": [
-    "2026 Local general: County Sheriff, Won"
+    "2026 Local general: County Sheriff, Won",
+    "2026 Primary: Precinct Committeeman, precinct 04-4 (Republican), Won"
   ],
   "counties": [
     "Sweetwater"
+  ],
+  "paths": [
+    "candidates/2026-local/c/richard-f-kaumo.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sweetwater",
+      "precinct": "04-4",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "193",
+      "result": "Won",
+      "source": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf"
+    }
   ]
 }

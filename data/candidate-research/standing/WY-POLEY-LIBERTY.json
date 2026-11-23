@@ -32,13 +32,48 @@
     {
       "name": "Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Johnson County official 2024 primary results",
+      "url": "https://drive.google.com/file/d/1HEQSGg3tRSfLa1hkk472RLkH7hpewFJ2/view"
+    },
+    {
+      "name": "Johnson County official 2022 primary results",
+      "url": "https://drive.google.com/file/d/1YBWXzvaCgs-uzI8YFeIoXm0BEsFq6z2-/view"
     }
   ],
   "roles": [
-    "2024 Primary: State Representative, Lost"
+    "2024 Primary: State Representative, Lost",
+    "2024 Primary: Precinct Committeewoman, precinct BIGHORNS 4-8 (Republican), Lost",
+    "2022 Primary: Precinct Committeewoman, precinct 4-8 (Republican), Won"
   ],
   "counties": [
     "Johnson",
     "Sheridan"
+  ],
+  "paths": [
+    "candidates/2024-primary/c/liberty-poley.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Johnson",
+      "precinct": "BIGHORNS 4-8",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "244",
+      "result": "Lost",
+      "source": "https://drive.google.com/file/d/1HEQSGg3tRSfLa1hkk472RLkH7hpewFJ2/view"
+    },
+    {
+      "year": "2022",
+      "county": "Johnson",
+      "precinct": "4-8",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "253",
+      "result": "Won",
+      "source": "https://drive.google.com/file/d/1YBWXzvaCgs-uzI8YFeIoXm0BEsFq6z2-/view"
+    }
   ]
 }

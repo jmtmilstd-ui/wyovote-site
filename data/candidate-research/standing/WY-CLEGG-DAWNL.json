@@ -24,15 +24,32 @@
     {
       "name": "Uinta County list of elected officials",
       "url": "https://uintacountywy.gov/1084/List-of-All-Elected-Officials"
+    },
+    {
+      "name": "Uinta County official 2022 primary results",
+      "url": "https://uintacountywy.gov/DocumentCenter/View/8713"
     }
   ],
   "roles": [
-    "2022 Local primary: County Commissioner, Lost"
+    "2022 Local primary: County Commissioner, Lost",
+    "2022 Primary: Precinct Committeewoman, precinct 3-2 (Republican), Lost"
   ],
   "counties": [
     "Uinta"
   ],
   "paths": [
     "candidates/2022-local/c/dawnl-clegg.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Uinta",
+      "precinct": "3-2",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "154",
+      "result": "Lost",
+      "source": "https://uintacountywy.gov/DocumentCenter/View/8713"
+    }
   ]
 }

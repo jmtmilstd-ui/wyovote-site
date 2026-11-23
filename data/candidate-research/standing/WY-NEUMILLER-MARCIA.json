@@ -1,0 +1,51 @@
+{
+  "person_id": "WY-NEUMILLER-MARCIA",
+  "name": "Marcia Neumiller",
+  "display_name": "Marcia Neumiller",
+  "match_names": [
+    "Marcia Neumiller"
+  ],
+  "website": null,
+  "counties": [
+    "Natrona"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeewoman, precinct 3-10 (Republican), Won",
+    "2024 Primary: Precinct Committeewoman, precinct 3-10 (Republican), Lost"
+  ],
+  "paths": [
+    "candidates/2026-primary/c/marcia-neumiller.html"
+  ],
+  "sources": [
+    {
+      "name": "Natrona County official 2026 primary results",
+      "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "name": "Natrona County official 2024 primary results",
+      "url": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Natrona",
+      "precinct": "3-10",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "613",
+      "result": "Won",
+      "source": "https://www.natronacounty-wy.gov/DocumentCenter/View/13867/2026-Primary---Election-Summary-PDF"
+    },
+    {
+      "year": "2024",
+      "county": "Natrona",
+      "precinct": "3-10",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "345",
+      "result": "Lost",
+      "source": "https://wy-natronacounty2.civicplus.com/DocumentCenter/View/9954"
+    }
+  ]
+}

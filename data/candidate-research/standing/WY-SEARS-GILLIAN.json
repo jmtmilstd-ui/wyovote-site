@@ -24,15 +24,32 @@
     {
       "name": "News Letter Journal, Weston County certifies 2026 primary results",
       "url": "https://newslj.com/final-digits-weston-county-certifies-primary-results-state-canvas-set-wednesday"
+    },
+    {
+      "name": "Weston County official 2026 primary results",
+      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct 1-1 NEWCASTLE OUTSIDE (Republican), Lost"
   ],
   "counties": [
     "Weston"
   ],
   "paths": [
     "candidates/2026-local/c/gillian-sears.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Weston",
+      "precinct": "1-1 NEWCASTLE OUTSIDE",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "129",
+      "result": "Lost",
+      "source": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+    }
   ]
 }

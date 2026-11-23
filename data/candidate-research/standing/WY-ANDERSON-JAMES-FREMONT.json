@@ -3,9 +3,9 @@
   "name": "James A. Anderson",
   "display_name": "James A. Anderson",
   "match_names": [
+    "Anderson",
     "James A. Anderson",
-    "Jim Anderson",
-    "Anderson"
+    "Jim Anderson"
   ],
   "office": "County Treasurer",
   "party": "Republican",
@@ -34,15 +34,32 @@
     {
       "name": "Fremont County official 2026 general election results summary",
       "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/General/2026%20General%20OFFICIAL%20Results%20Summary%20-%20Official%20Abstract%202026.11.5.pdf"
+    },
+    {
+      "name": "Fremont County official 2026 primary results",
+      "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
     }
   ],
   "roles": [
-    "2026 Local general: County Treasurer, Won"
+    "2026 Local general: County Treasurer, Won",
+    "2026 Primary: Precinct Committeeman, precinct LANDER 1-4 (Republican), Won"
   ],
   "counties": [
     "Fremont"
   ],
   "paths": [
     "candidates/2026-local/c/james-a-anderson.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Fremont",
+      "precinct": "LANDER 1-4",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "109",
+      "result": "Won",
+      "source": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026%20Election%20Results/Primary/2026%20Primary%20Official%20Precinct%20Summary%20Report.pdf"
+    }
   ]
 }

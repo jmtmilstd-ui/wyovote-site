@@ -32,13 +32,33 @@
     {
       "name": "Wyoming SOS official 2022 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/Primary/2022_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Albany County official 2022 primary results",
+      "url": "https://www.albanycountywy.gov/DocumentCenter/View/5008/2022-Primary-Election-Official-Results"
     }
   ],
   "roles": [
     "2022 General: State Representative, Lost",
-    "2022 Primary: State Representative, Unopposed"
+    "2022 Primary: State Representative, Unopposed",
+    "2022 Primary: Precinct Committeeman, precinct 13-1 (Republican), Won"
   ],
   "counties": [
     "Albany"
+  ],
+  "paths": [
+    "candidates/2022-primary/c/wayne-b-pinch.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Albany",
+      "precinct": "13-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "475",
+      "result": "Won",
+      "source": "https://www.albanycountywy.gov/DocumentCenter/View/5008/2022-Primary-Election-Official-Results"
+    }
   ]
 }

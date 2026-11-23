@@ -28,12 +28,32 @@
     {
       "name": "Sweetwater County official 2022 county election summary with write-ins",
       "url": "https://www.sweetwatercountywy.gov/County%20-%20Election%20Summary%20with%20Write-Ins.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2022 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
     }
   ],
   "roles": [
-    "2022 Local general: County Treasurer, Lost"
+    "2022 Local general: County Treasurer, Lost",
+    "2022 Primary: Precinct Committeeman, precinct 06-1 (Democratic), Won"
   ],
   "counties": [
     "Sweetwater"
+  ],
+  "paths": [
+    "candidates/2022-local/c/joseph-m-barbuto.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Sweetwater",
+      "precinct": "06-1",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "36",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
+    }
   ]
 }

@@ -28,15 +28,48 @@
     {
       "name": "Converse County official 2026 general election summary",
       "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+    },
+    {
+      "name": "Converse County official 2026 primary results",
+      "url": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+    },
+    {
+      "name": "Converse County official 2022 primary results",
+      "url": "https://conversecountywy.gov/DocumentCenter/View/4725/OFFICIAL-2022-RESULTS-ELECTION-SUMMARY-REPORT"
     }
   ],
   "roles": [
-    "2022 Local general: County Commissioner, Won"
+    "2022 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct EAST ANTELOPE 8-8 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct EAST ANTELOPE 8-8 (Republican), Lost"
   ],
   "counties": [
     "Converse"
   ],
   "paths": [
-    "candidates/2022-local/c/jim-willox.html"
+    "candidates/2022-local/c/jim-willox.html",
+    "candidates/2026-primary/c/jim-willox.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Converse",
+      "precinct": "EAST ANTELOPE 8-8",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "105",
+      "result": "Won",
+      "source": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
+    },
+    {
+      "year": "2022",
+      "county": "Converse",
+      "precinct": "EAST ANTELOPE 8-8",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "105",
+      "result": "Lost",
+      "source": "https://conversecountywy.gov/DocumentCenter/View/4725/OFFICIAL-2022-RESULTS-ELECTION-SUMMARY-REPORT"
+    }
   ]
 }

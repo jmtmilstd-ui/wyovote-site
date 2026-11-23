@@ -32,15 +32,32 @@
     {
       "name": "Sundance Times, Nov. 12, 2026, Election results now official",
       "url": "https://www.sundancetimes.com/story/2026/11/12/news/election-results-now-official/13374.html"
+    },
+    {
+      "name": "Crook County official 2026 primary results",
+      "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 16-16 (Republican), Lost"
   ],
   "counties": [
     "Crook"
   ],
   "paths": [
     "candidates/2026-local/c/dustin-buckmiller.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Crook",
+      "precinct": "16-16",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "79",
+      "result": "Lost",
+      "source": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2026/Official%20Election%20Summary.pdf"
+    }
   ]
 }

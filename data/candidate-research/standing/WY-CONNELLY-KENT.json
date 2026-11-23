@@ -32,10 +32,20 @@
     {
       "name": "Lincoln County official 2026 general election summary",
       "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
+    },
+    {
+      "name": "Lincoln County official 2026 primary results",
+      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+    },
+    {
+      "name": "Lincoln County official 2022 primary results",
+      "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/Official%20County%20Election%20Summary.pdf"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 1-1 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 1-1 (Republican), Won"
   ],
   "counties": [
     "Lincoln"
@@ -43,5 +53,27 @@
   "paths": [
     "candidates/2022-local/c/kent-connelly.html",
     "candidates/2026-local/c/kent-connelly.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Lincoln",
+      "precinct": "1-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "234",
+      "result": "Won",
+      "source": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Lincoln",
+      "precinct": "1-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "545",
+      "result": "Won",
+      "source": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/Official%20County%20Election%20Summary.pdf"
+    }
   ]
 }

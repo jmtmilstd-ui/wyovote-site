@@ -33,10 +33,15 @@
     {
       "name": "Carbon County official 2026 general election summary",
       "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
+    },
+    {
+      "name": "Carbon County official 2022 primary results",
+      "url": "https://www.carboncountywy.gov/DocumentCenter/View/6299/2022-PRIMARY-OFFICIAL-RESULTS"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2022 Primary: Precinct Committeeman, precinct 2-1 02-01 (Republican), Won"
   ],
   "counties": [
     "Carbon"
@@ -44,5 +49,17 @@
   "paths": [
     "candidates/2022-local/c/r-travis-moore.html",
     "candidates/2026-local/c/r-travis-moore.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2022",
+      "county": "Carbon",
+      "precinct": "2-1 02-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "250",
+      "result": "Won",
+      "source": "https://www.carboncountywy.gov/DocumentCenter/View/6299/2022-PRIMARY-OFFICIAL-RESULTS"
+    }
   ]
 }

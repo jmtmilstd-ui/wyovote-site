@@ -24,15 +24,32 @@
     {
       "name": "Weston County official 2026 general election local summary",
       "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+    },
+    {
+      "name": "Weston County official 2026 primary results",
+      "url": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
     }
   ],
   "roles": [
-    "2024 Local general: County Commissioner, Won"
+    "2024 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct 1-2 NEWCASTLE OUTSIDE (Republican), Won"
   ],
   "counties": [
     "Weston"
   ],
   "paths": [
     "candidates/2024-local/c/ed-wagoner.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Weston",
+      "precinct": "1-2 NEWCASTLE OUTSIDE",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "191",
+      "result": "Won",
+      "source": "https://www.westongov.com/wp-content/uploads/2026/08/2026-Official-Primary-Precinct-Results.pdf"
+    }
   ]
 }

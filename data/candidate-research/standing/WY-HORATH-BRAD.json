@@ -24,15 +24,62 @@
     {
       "name": "Washakie County official 2026 general election results",
       "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
+    },
+    {
+      "name": "Washakie County official 2026 primary results",
+      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+    },
+    {
+      "name": "Washakie County official 2024 primary results",
+      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/314/2024-Primary-PDF"
+    },
+    {
+      "name": "Washakie County official 2022 primary results",
+      "url": "https://www.washakiecountywy.gov/DocumentCenter/View/315/2022-Primary-PDF"
     }
   ],
   "roles": [
-    "2022 Local primary: County Sheriff, Lost"
+    "2022 Local primary: County Sheriff, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 5-2 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 5-2 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 5-2 (Republican), Won"
   ],
   "counties": [
     "Washakie"
   ],
   "paths": [
     "candidates/2022-local/c/brad-horath.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Washakie",
+      "precinct": "5-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "326",
+      "result": "Won",
+      "source": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS"
+    },
+    {
+      "year": "2024",
+      "county": "Washakie",
+      "precinct": "5-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "239",
+      "result": "Won",
+      "source": "https://www.washakiecountywy.gov/DocumentCenter/View/314/2024-Primary-PDF"
+    },
+    {
+      "year": "2022",
+      "county": "Washakie",
+      "precinct": "5-2",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "326",
+      "result": "Won",
+      "source": "https://www.washakiecountywy.gov/DocumentCenter/View/315/2022-Primary-PDF"
+    }
   ]
 }

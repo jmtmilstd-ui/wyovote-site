@@ -32,10 +32,20 @@
     {
       "name": "Wyoming Secretary of State, 2026 Hot Springs County official general precinct-by-precinct results",
       "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_Hot_Springs_County_General_PbP.pdf"
+    },
+    {
+      "name": "Hot Springs County official 2026 primary results",
+      "url": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+    },
+    {
+      "name": "Hot Springs County official 2024 primary results",
+      "url": "https://hscounty.com/component/edocman/2024-hot-springs-co-primary-election-official-results-2/download?Itemid=100"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct 4-1 (Republican), Lost",
+    "2024 Primary: Precinct Committeeman, precinct 4-1 (Republican), Lost"
   ],
   "counties": [
     "Hot Springs"
@@ -43,5 +53,27 @@
   "paths": [
     "candidates/2024-local/c/phillip-scheel.html",
     "candidates/2026-local/c/phillip-scheel.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Hot Springs",
+      "precinct": "4-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "257",
+      "result": "Lost",
+      "source": "https://hscounty.com/component/edocman/2026-hot-springs-co-primary-election-official-results/download?Itemid=100"
+    },
+    {
+      "year": "2024",
+      "county": "Hot Springs",
+      "precinct": "4-1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "199",
+      "result": "Lost",
+      "source": "https://hscounty.com/component/edocman/2024-hot-springs-co-primary-election-official-results-2/download?Itemid=100"
+    }
   ]
 }

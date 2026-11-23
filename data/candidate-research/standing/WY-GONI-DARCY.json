@@ -39,7 +39,8 @@
     }
   ],
   "roles": [
-    "2026 Local primary: County Treasurer, Lost"
+    "2026 Local primary: County Treasurer, Lost",
+    "2026 Primary: Precinct Committeewoman, precinct Oliver (Republican), Lost"
   ],
   "counties": [
     "Johnson"
@@ -47,5 +48,17 @@
   "paths": [
     "candidates/2022-local/c/darcy-goni.html",
     "candidates/2026-local/c/darcy-goni.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Johnson",
+      "precinct": "Oliver",
+      "office": "Precinct Committeewoman",
+      "party": "Republican",
+      "votes": "275",
+      "result": "Lost",
+      "source": "https://drive.google.com/file/d/14VhWna_5e7VOT6lNFHHVnKW5_1DNmPEW/view"
+    }
   ]
 }

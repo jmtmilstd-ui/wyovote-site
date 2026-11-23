@@ -1,0 +1,66 @@
+{
+  "person_id": "WY-HORNOK-BEN",
+  "name": "Ben Hornok",
+  "display_name": "Ben Hornok",
+  "match_names": [
+    "Ben Hornok"
+  ],
+  "website": null,
+  "counties": [
+    "Laramie"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeeman, precinct 4-01 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 4-01 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 4-01 (Republican), Lost"
+  ],
+  "paths": [
+    "candidates/2026-primary/c/ben-hornok.html"
+  ],
+  "sources": [
+    {
+      "name": "Laramie County official 2026 primary results",
+      "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "name": "Laramie County official 2024 primary results",
+      "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/2024-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "name": "Laramie County official 2022 primary results",
+      "url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Laramie",
+      "precinct": "4-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "217",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Laramie",
+      "precinct": "4-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "183",
+      "result": "Won",
+      "source": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/2024-primary/republican-precinct-committee-people.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Laramie",
+      "precinct": "4-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "137",
+      "result": "Lost",
+      "source": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/clerk/documents/election-results/primary-election-results-republican-precinct-committee-people-2022.pdf"
+    }
+  ]
+}

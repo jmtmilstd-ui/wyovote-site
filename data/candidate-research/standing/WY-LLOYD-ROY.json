@@ -3,7 +3,8 @@
   "name": "Roy Allen Lloyd",
   "display_name": "Roy Allen Lloyd",
   "match_names": [
-    "Roy Allen Lloyd"
+    "Roy Allen Lloyd",
+    "Roy Lloyd"
   ],
   "office": "County Commissioner",
   "party": "Republican",
@@ -24,12 +25,47 @@
     {
       "name": "Sweetwater County official 2022 county election summary with write-ins",
       "url": "https://www.sweetwatercountywy.gov/County%20-%20Election%20Summary%20with%20Write-Ins.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2024 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2022 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
     }
   ],
   "roles": [
-    "2022 Local primary: County Commissioner, Lost"
+    "2022 Local primary: County Commissioner, Lost",
+    "2024 Primary: Precinct Committeeman, precinct 10-10 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 10-10 (Republican), Won"
   ],
   "counties": [
     "Sweetwater"
+  ],
+  "paths": [
+    "candidates/2022-local/c/roy-lloyd.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Sweetwater",
+      "precinct": "10-10",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "227",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Sweetwater",
+      "precinct": "10-10",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "369",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
+    }
   ]
 }

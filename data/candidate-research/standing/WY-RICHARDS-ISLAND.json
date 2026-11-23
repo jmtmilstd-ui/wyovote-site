@@ -43,12 +43,58 @@
     {
       "name": "Sweetwater County official 2026 general election summary",
       "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2024 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    },
+    {
+      "name": "Sweetwater County official 2022 primary results",
+      "url": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
     }
   ],
   "roles": [
-    "2026 Local general: County Commissioner, Won"
+    "2026 Local general: County Commissioner, Won",
+    "2026 Primary: Precinct Committeeman, precinct 07-3 (Republican), Won",
+    "2024 Primary: Precinct Committeeman, precinct 07-3 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct 07-3 (Republican), Won"
   ],
   "counties": [
     "Sweetwater"
+  ],
+  "paths": [
+    "candidates/2026-local/c/island-richards.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Sweetwater",
+      "precinct": "07-3",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "233",
+      "result": "Won",
+      "source": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf"
+    },
+    {
+      "year": "2024",
+      "county": "Sweetwater",
+      "precinct": "07-3",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "236",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Election%20Summary%20Official.pdf"
+    },
+    {
+      "year": "2022",
+      "county": "Sweetwater",
+      "precinct": "07-3",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "464",
+      "result": "Won",
+      "source": "https://www.sweetwatercountywy.gov/Precinct%20Committeepeople%20-%20Election%20Summary.pdf"
+    }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "person_id": "WY-VOGELHEIM-PAUL",
+  "name": "Paul Vogelheim",
+  "display_name": "Paul Vogelheim",
+  "match_names": [
+    "Paul Vogelheim"
+  ],
+  "website": null,
+  "counties": [
+    "Teton"
+  ],
+  "roles": [
+    "2026 Primary: Precinct Committeeman, precinct DIST 1 PCT 3 (Republican), Won",
+    "2022 Primary: Precinct Committeeman, precinct DIST 2 PCT 1 (Republican), Won"
+  ],
+  "paths": [
+    "candidates/2022-primary/c/paul-vogelheim.html"
+  ],
+  "sources": [
+    {
+      "name": "Teton County official 2026 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+    },
+    {
+      "name": "Teton County official 2022 primary results",
+      "url": "https://tetoncountywy.gov/DocumentCenter/View/23128/2022-Primary-Election---Official-Summary-Report"
+    }
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Teton",
+      "precinct": "DIST 1 PCT 3",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "148",
+      "result": "Won",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results"
+    },
+    {
+      "year": "2022",
+      "county": "Teton",
+      "precinct": "DIST 2 PCT 1",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "363",
+      "result": "Won",
+      "source": "https://tetoncountywy.gov/DocumentCenter/View/23128/2022-Primary-Election---Official-Summary-Report"
+    }
+  ]
+}

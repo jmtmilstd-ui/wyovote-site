@@ -3,8 +3,8 @@
   "name": "Tom Olmstead",
   "display_name": "Tom Olmstead",
   "match_names": [
-    "Tom Olmstead",
-    "Thomas James Olmstead"
+    "Thomas James Olmstead",
+    "Tom Olmstead"
   ],
   "office": "Senate District 20",
   "party": "Republican",
@@ -45,10 +45,15 @@
     {
       "name": "Wyoming SOS official 2024 primary results (Results Summaries - OFFICIAL)",
       "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/Primary/2024_Wyoming_Primary_Results.zip"
+    },
+    {
+      "name": "Big Horn County official 2024 primary results",
+      "url": "https://www.bighorncountywy.gov/component/edocman/election-night-unofficial-results/download?Itemid="
     }
   ],
   "roles": [
-    "2024 Primary: State Senator, Lost"
+    "2024 Primary: State Senator, Lost",
+    "2024 Primary: Precinct Committeeman, precinct BASIN 01-01 (Republican), Won"
   ],
   "counties": [
     "Big Horn",
@@ -56,5 +61,20 @@
     "Hot Springs",
     "Park",
     "Washakie"
+  ],
+  "paths": [
+    "candidates/2024-primary/c/tom-olmstead.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2024",
+      "county": "Big Horn",
+      "precinct": "BASIN 01-01",
+      "office": "Precinct Committeeman",
+      "party": "Republican",
+      "votes": "257",
+      "result": "Won",
+      "source": "https://www.bighorncountywy.gov/component/edocman/election-night-unofficial-results/download?Itemid="
+    }
   ]
 }

@@ -28,10 +28,15 @@
     {
       "name": "Laramie Reporter, Nov. 5, 2026, Incumbents sweep countywide elections",
       "url": "https://laramiereporter.substack.com/p/incumbents-sweep-countywide-elections"
+    },
+    {
+      "name": "Albany County official 2026 primary results",
+      "url": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
     }
   ],
   "roles": [
-    "2026 Local primary: County Commissioner, Lost"
+    "2026 Local primary: County Commissioner, Lost",
+    "2026 Primary: Precinct Committeeman, precinct 46-2 (Democratic), Lost"
   ],
   "counties": [
     "Albany"
@@ -39,5 +44,17 @@
   "paths": [
     "candidates/2022-local/c/klaus-halbsgut.html",
     "candidates/2026-local/c/klaus-halbsgut.html"
+  ],
+  "precinct_results": [
+    {
+      "year": "2026",
+      "county": "Albany",
+      "precinct": "46-2",
+      "office": "Precinct Committeeman",
+      "party": "Democratic",
+      "votes": "68",
+      "result": "Lost",
+      "source": "https://www.albanycountywy.gov/DocumentCenter/View/8370/2026-Primary-Election-Official-Results---Albany-County"
+    }
   ]
 }
