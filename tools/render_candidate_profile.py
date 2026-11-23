@@ -163,7 +163,7 @@ def last_archive_profile(names: list[str]) -> dict | None:
 def rank_band_html(profile: dict) -> str:
     text = profile["path"].read_text(encoding="utf-8")
     parts = []
-    for sid in ("h-rank", "h-band"):
+    for sid in ("h-rank",):
         m = re.search(
             rf'<section class="pf-card" aria-labelledby="{sid}">.*?</section>',
             text,

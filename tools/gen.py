@@ -1,5 +1,5 @@
 """Officials archive generator (single tree: writes live paths; review on a Cloudflare branch preview). Templates = the published officials/2025 pages; ranks from ranking.py.
-Profile pages (*-deep.html) carry the rank-history chart (tools/rank_chart.py) plus band history, issue areas, missed votes and committee record
+Profile pages (*-deep.html) carry the rank-history chart (tools/rank_chart.py) plus issue areas, missed votes and committee record
 (tools/profile_data.py). Run: python3 tools/gen.py BASE OUT 2015,...,2025 (OA_FIRST=2015; OA_DEEP_ONLY=2025 writes only Profiles for 2025)."""
 import csv, json, re, sys, os, html, math, datetime
 sys.path.insert(0, '/workspace/wyoleg'); sys.path.insert(0, '/workspace/name-index/tools'); sys.path.insert(0, os.path.dirname(__file__))
@@ -113,14 +113,25 @@ def latest_profile(p, Y):
 def bands_text(y):
     b = BANDS_OF[y]; return ', '.join(f'{b[k][0]}–{b[k][1]}' for k in ('Conservative', 'Moderate', 'Liberal') if b.get(k))
 def n_ch(y, ch): return sum(1 for r in RK[y]['ranked'] if r['chamber'] == ch)
-def profile_sections(p, Y, r):
-    """Band history, Issue-area breakdown, Missed votes and Committee record for the Y Profile (years up to Y)."""
-    yrs = [y for y in range(Y, FIRST - 1, -1) if y in BYP[p]]
-    band = []
-    for y in yrs:
+def rank_one_year_note(p, Y):
+    """Rank history body when there are fewer than two ranked years (no chart)."""
+    parts = []
+    for y in [y for y in range(Y, FIRST - 1, -1) if y in BYP[p]]:
         q = BYP[p][y]
-        if q['rank_all'] is None: band.append(f'                <tr><td>{y}</td><td colspan="4">Not ranked, too few votes</td></tr>')
-        else: band.append(f'                <tr><td>{y}</td><td>{q["rank_all"]} of {RK[y]["n_ranked"]}</td><td>{q["rank_ch"]} of {n_ch(y, q["chamber"])}</td><td>{band_span(q["band"])}</td><td>{bands_text(y)}</td></tr>')
+        if q['rank_all'] is None:
+            parts.append(f'{y}: not ranked, too few votes')
+        else:
+            parts.append(f'{y}: overall {q["rank_all"]} of {RK[y]["n_ranked"]}, chamber {q["rank_ch"]} of {n_ch(y, q["chamber"])}, {q["band"]}')
+    body = '. '.join(parts)
+    if body and not body.endswith('.'):
+        body += '.'
+    note = '          <p class="deep-note">Only one ranked year so far, so there is no chart.</p>\n'
+    if body:
+        note += f'          <p class="deep-note">{body}</p>\n'
+    return note
+def profile_sections(p, Y, r):
+    """Issue-area breakdown, Missed votes and Committee record for the Y Profile (years up to Y)."""
+    yrs = [y for y in range(Y, FIRST - 1, -1) if y in BYP[p]]
     if Y == 2026:
         issue = profile_data.issue_votes_block(Y, p)
     elif r['rank_all'] is None:
@@ -159,19 +170,7 @@ def profile_sections(p, Y, r):
             </table>
           </div>
 ''' if comm else f'          <p class="pf-none">No committee listed in the WyoVote committee reports for these years.</p>\n')
-    return f'''        <section class="pf-card" aria-labelledby="h-band">
-          <h2 id="h-band">Band history</h2>
-          <p class="deep-note">The band is the overall-rank band for that year. Moderate is white. Cutoffs are the natural breaks printed on that year’s ratings sheet.</p>
-          <div class="deep-scroll">
-            <table class="deep-table">
-              <thead><tr><th scope="col">Year</th><th scope="col">Overall rank</th><th scope="col">Chamber rank</th><th scope="col">Band</th><th scope="col">That year’s bands</th></tr></thead>
-              <tbody>
-{chr(10).join(band)}
-              </tbody>
-            </table>
-          </div>
-        </section>
-        <section class="pf-card" aria-labelledby="h-issue">
+    return f'''        <section class="pf-card" aria-labelledby="h-issue">
           <h2 id="h-issue">Issue-area breakdown, {Y}</h2>
 {issue}        </section>
         <section class="pf-card" aria-labelledby="h-miss">
@@ -274,7 +273,7 @@ def build_year(Y):
                  .replace('class="pf pf-2025"', f'class="pf pf-{Y}"')
         pages[f'{s}.html'] = head + main + pfo
         # deep page
-        chart = rank_chart.chart_block(r['full_name'], rank_series(p, Y), BANDS_OF, table_hint='The Band history table below repeats the same ranks, with chamber ranks.')
+        chart = rank_chart.chart_block(r['full_name'], rank_series(p, Y), BANDS_OF, table_hint='')
         lp = latest_profile(p, Y)
         latest_line = f'          <p class="pf-links"><span class="pf-asof">This Profile runs through {Y}.</span> <a class="pf-btn" href="{lp[0]}">Latest Profile: {lp[1]} →</a></p>\n' if lp else ''
         if p in SW_LINK: latest_line += f'          <p class="pf-links"><a class="pf-btn" href="../statewide/{SW_LINK[p][0]}.html">{SW_LINK[p][1]}</a></p>\n'
@@ -290,7 +289,7 @@ def build_year(Y):
         <section class="pf-card" aria-labelledby="h-rank">
           <h2 id="h-rank">Rank history</h2>
           <p class="deep-note">{ch_s} Chamber ranks are not compared across years.</p>
-{chart or '          <p class="deep-note">Only one ranked year so far, so there is no chart. The Band history table below shows the rank.</p>' + chr(10)}        </section>
+{chart or rank_one_year_note(p, Y)}        </section>
 {profile_sections(p, Y, r)}        <section class="pf-card" aria-labelledby="h-votes">
           <h2 id="h-votes">Scored votes</h2>
           <p class="deep-note">Each row is one roll call. Category is Uncategorized because {Y} roll calls are not tagged. Bill lean is Conservative, Liberal, or Neutral.</p>

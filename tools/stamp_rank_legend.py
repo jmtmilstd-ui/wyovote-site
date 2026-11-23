@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Rank wording pass (Michael, Nov 16): put 'Rank: 1 = MOST Conservative.' once under each rank section heading
-(Profile Rank history, Band history, Issue areas; session and official Rank tiles) and replace 'Moved up N places overall'
+(Profile Rank history, Issue areas; session and official Rank tiles) and replace 'Moved up N places overall'
 with 'Overall rank moved up N' on every officials page, including the hand-built 2025 session and 2026 pages.
 tools/gen.py and tools/stamp_rank_chart.py apply the same functions (tools/rank_chart.py), so rebuilds match. Idempotent.
 

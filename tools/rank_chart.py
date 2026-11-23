@@ -376,8 +376,8 @@ def ranked_years(series):
     return sum(1 for s in series if s[1] is not None)
 
 
-def chart_block(name, series, bands, table_hint="The table below repeats the same ranks.", indent=10, check=None) -> str:
-    """Note + chart + legend wrapped in <div id="rank-chart">. '' when fewer than 2 ranked years (table only)."""
+def chart_block(name, series, bands, table_hint="", indent=10, check=None) -> str:
+    """Note + chart + legend wrapped in <div id="rank-chart">. '' when fewer than 2 ranked years."""
     if ranked_years(series) < 2:
         return ""
     chk = {} if check is None else check
@@ -390,7 +390,8 @@ def chart_block(name, series, bands, table_hint="The table below repeats the sam
             + ("The brick-red arrow is the trend: it starts at the first ranked year and ends, at the last ranked year, "
                "at this person’s average rank (% of list) across all ranked years. " if trend else "")
             + "Shading behind each year is that year’s own Conservative, Moderate, and Liberal cutoffs. "
-            "A year with no dot is a year this person did not serve or was not ranked. " + table_hint)
+            "A year with no dot is a year this person did not serve or was not ranked."
+            + ((" " + table_hint) if table_hint else ""))
     sp = " " * indent
     return (f'{sp}<div id="rank-chart">\n'
             f'{sp}  <p class="deep-note">{note}</p>\n'
@@ -401,7 +402,7 @@ def chart_block(name, series, bands, table_hint="The table below repeats the sam
 
 # ---------- rank legend (Michael, Nov 16, t613u-t617u) ----------
 LEGEND = '<p class="deep-note rank-legend">Rank: 1 = MOST Conservative.</p>'
-LEGEND_SECTIONS = ('h-rank', 'h-band', 'h-issue', 'h-num')   # Profile chart, Band history, Issue areas; session/official Rank tiles
+LEGEND_SECTIONS = ('h-rank', 'h-issue', 'h-num')   # Profile chart, Issue areas; session/official Rank tiles
 import re as _re
 def add_legend(t):
     """Put the rank legend once, right under the heading, in each rank section that is present. Idempotent."""

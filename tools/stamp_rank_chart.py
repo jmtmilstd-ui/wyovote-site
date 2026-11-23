@@ -50,6 +50,8 @@ def fix_rows_archive(rel, t, p, Y):
     return t[:i] + new + t[j:]
 
 def fix_rows_2026(rel, t, p, Y=2026):
+    if 'aria-labelledby="h-band"' not in t:
+        return t
     i = t.index('aria-labelledby="h-band"'); j = t.index('</section>', i); sec = t[i:j]; new = sec
     rows = [int(x) for x in re.findall(r'<tr><td>(\d{4})</td>', sec)]
     assert sorted(rows, reverse=True) == [y for y in range(Y, G['FIRST'] - 1, -1) if y in BYP[p]], (rel, rows)   # newest first (haroldson-deep.html is oldest first)
@@ -73,19 +75,18 @@ def fix_rows_2026(rel, t, p, Y=2026):
 
 H_ARCH = re.compile(r'(        <section class="pf-card" aria-labelledby="h-rank">\n          <h2 id="h-rank">Rank history</h2>\n(?:          <p class="deep-note rank-legend">[^\n]*</p>\n)?          <p class="deep-note">[^\n]*</p>\n)(.*?)(        </section>\n)', re.S)
 def stamp_profile_archive(rel, t, p, Y):
-    """2015-2025 Profiles in the full layout (tools/gen.py): chart only in Rank history, ranks in the Band history table."""
-    t = fix_rows_2026(rel, t, p, Y)
+    """2015-2025 Profiles in the full layout (tools/gen.py): chart (or a one-year rank line) in Rank history."""
     ser = rank_series(p, Y); chk = {}
-    blk = rank_chart.chart_block(BYP[p][Y]['full_name'], ser, BANDS_OF, table_hint='The Band history table below repeats the same ranks, with chamber ranks.', check=chk)
+    blk = rank_chart.chart_block(BYP[p][Y]['full_name'], ser, BANDS_OF, table_hint='', check=chk)
     if blk: body = blk; CHECKS.append((rel, chk)); STATS['chart'] += 1
     else:
-        body = '          <p class="deep-note">Only one ranked year so far, so there is no chart. The Band history table below shows the rank.</p>\n'
+        body = G['rank_one_year_note'](p, Y)
         STATS['no chart (fewer than 2 ranked years)'] += 1
     m = H_ARCH.search(t); assert m, rel
     return t[:m.start()] + m.group(1) + body + m.group(3) + t[m.end():]
 
 def stamp_archive(rel, t, p, Y):
-    if 'id="h-band"' in t: return stamp_profile_archive(rel, t, p, Y)
+    if 'id="h-rank"' in t: return stamp_profile_archive(rel, t, p, Y)
     t = strip_chart(t)
     t = fix_rows_archive(rel, t, p, Y)
     ser = rank_series(p, Y); chk = {}
@@ -99,14 +100,13 @@ def stamp_archive(rel, t, p, Y):
 
 H2026 = re.compile(r'(        <section class="pf-card" aria-labelledby="h-rank">\n          <h2 id="h-rank">)Rank history[^<]*(</h2>\n)(.*?)(        </section>\n)', re.S)
 def stamp_2026(rel, t, p):
-    t = fix_rows_2026(rel, t, p)
     ser = rank_series(p, 2026); chk = {}
     q = BYP[p][2026]
-    blk = rank_chart.chart_block(q['full_name'], ser, BANDS_OF, table_hint='The Band history table below repeats the same ranks, with chamber ranks.', check=chk)
+    blk = rank_chart.chart_block(q['full_name'], ser, BANDS_OF, table_hint='', check=chk)
     if blk:
         body = blk; CHECKS.append((rel, chk)); STATS['chart'] += 1
     else:
-        body = '          <p class="deep-note">Only one ranked year so far, so there is no chart yet. The Band history table below shows the rank.</p>\n'
+        body = G['rank_one_year_note'](p, 2026)
         STATS['no chart (fewer than 2 ranked years)'] += 1
     m = H2026.search(t); assert m, rel
     return t[:m.start()] + m.group(1) + 'Rank history' + m.group(2) + body + m.group(4) + t[m.end():]

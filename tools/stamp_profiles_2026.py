@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Extend the 93 current (2026) Profiles (officials/<slug>-deep.html) back through the first year of the current window: add earlier missed-vote and committee rows
 for the years each person served in that window, and keep the header and description
-in timeless wording. Band history and the rank chart already
-cover the current window (tools/stamp_rank_chart.py). Also replace the 2026 issue-area rank/band columns with vote counts, and add the candidate Research section when a record exists. Idempotent: years already in a table are left alone; issue-area and Research are rewritten to the current builder output.
+in timeless wording. The rank chart already
+covers the current window (tools/stamp_rank_chart.py). Also replace the 2026 issue-area rank/band columns with vote counts, and add the candidate Research section when a record exists. Idempotent: years already in a table are left alone; issue-area and Research are rewritten to the current builder output.
 
     python3 -B tools/stamp_profiles_2026.py [SITE_ROOT]
 """
