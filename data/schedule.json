@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T05:51:57.818187-07:00",
-  "schedule_date": "2026-11-20",
+  "generated_at": "2026-11-23T05:42:18.026872-07:00",
+  "schedule_date": "2026-11-23",
   "timezone": "America/Denver",
   "in_session": false,
   "committee_year": 2026,
@@ -73,12 +73,12 @@
     {
       "date": "2026-12-14",
       "end_date": "2026-12-14",
-      "time": "8:30 a.m. MT",
-      "office": "Select Committee on School Facilities",
-      "section": "committee-ssf",
-      "title": "Select Committee on School Facilities meeting",
-      "location": "Capitol Extension, E003 for public comment & online, 200 West 24th Street, Cheyenne, Wyoming",
-      "source_url": "https://www.wyoleg.gov/Calendar/20261214/Meeting?id=15198&type=committee",
+      "time": "1:00 p.m. MT",
+      "office": "Select Committee on School Finance Recalibration",
+      "section": "committee-ssr",
+      "title": "Select Committee on School Finance Recalibration meeting",
+      "location": "Capitol Extension, E005, 200 West 24th Street, Cheyenne, Wyoming",
+      "source_url": "https://www.wyoleg.gov/Calendar/20261214/Meeting?id=15195&type=committee",
       "source_name": "Wyoming Legislature calendar",
       "tentative": false,
       "unverified": false
@@ -87,13 +87,13 @@
       "date": "2026-12-14",
       "end_date": "2026-12-14",
       "time": "8:30 a.m. MT",
-      "office": "Select Committee on School Finance Recalibration",
-      "section": "committee-ssr",
-      "title": "Select Committee on School Finance Recalibration meeting (tentative)",
-      "location": "Capitol Extension, E005, 200 West 24th Street, Cheyenne, Wyoming",
-      "source_url": "https://www.wyoleg.gov/Calendar/20261214/Meeting?id=15195&type=committee",
+      "office": "Select Committee on School Facilities",
+      "section": "committee-ssf",
+      "title": "Select Committee on School Facilities meeting",
+      "location": "Capitol Extension, E003 for public comment & online, 200 West 24th Street, Cheyenne, Wyoming",
+      "source_url": "https://www.wyoleg.gov/Calendar/20261214/Meeting?id=15198&type=committee",
       "source_name": "Wyoming Legislature calendar",
-      "tentative": true,
+      "tentative": false,
       "unverified": false
     },
     {
@@ -189,6 +189,45 @@
       "tentative": false,
       "unverified": false,
       "sort": 30
+    },
+    {
+      "date": "2027-01-20",
+      "end_date": "2027-01-20",
+      "time": "",
+      "office": "Boards of the Five Statewide Officials",
+      "section": "boards",
+      "title": "State Building Commission meeting (tentative)",
+      "location": "Cheyenne (location to be posted)",
+      "source_url": "https://stateconstruction.wyo.gov/construction-management/state-building-commission",
+      "source_name": "State Building Commission",
+      "tentative": true,
+      "unverified": false
+    },
+    {
+      "date": "2027-01-20",
+      "end_date": "2027-01-20",
+      "time": "",
+      "office": "Boards of the Five Statewide Officials",
+      "section": "boards",
+      "title": "Wyoming Charter School Authorizing Board meeting",
+      "location": "",
+      "source_url": "https://edu.wyoming.gov/wyoming-charter-school-authorizing-board/",
+      "source_name": "Wyoming Department of Education",
+      "tentative": false,
+      "unverified": false
+    },
+    {
+      "date": "2027-01-21",
+      "end_date": "2027-01-21",
+      "time": "",
+      "office": "Boards of the Five Statewide Officials",
+      "section": "boards",
+      "title": "State Board of Education meeting",
+      "location": "Virtual",
+      "source_url": "https://wyboardofeducation.org/106375_2",
+      "source_name": "Wyoming State Board of Education",
+      "tentative": false,
+      "unverified": false
     }
   ],
   "section_order": [
@@ -443,7 +482,7 @@
     "lso": {
       "status": "ok",
       "events": 10,
-      "fingerprint": "25ad63257363ce23"
+      "fingerprint": "8c06577adf3d24ce"
     },
     "governor": {
       "status": "ok",
