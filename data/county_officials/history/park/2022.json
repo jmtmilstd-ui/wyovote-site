@@ -1,0 +1,2247 @@
+{
+  "county": "Park",
+  "county_number": 11,
+  "snapshot_year": 2022,
+  "as_of": "2022-01-08",
+  "as_of_label": "January 2022 (as of 2022-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2022 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Liz Cheney",
+              "person_id": "WY-CHENEY-ELIZABETH",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cheney-elizabeth.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Edward A. Buchanan",
+              "person_id": "WY-BUCHANAN-EDWARD",
+              "party": "R",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned September 15, 2022 (official State Officers Roster).",
+              "href": "candidates/local-history/c/edward-a-buchanan.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jillian Balow",
+              "person_id": "WY-BALOW-JILLIAN",
+              "party": "R",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned January 16, 2022.",
+              "href": "candidates/local-history/c/balow-jillian.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 18 (S18)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tim French",
+              "person_id": "WY-FRENCH-TIM",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 9,153. Former Park County commissioner.",
+              "href": "candidates/local-history/c/tim-french.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 19 (S19)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "R.J. Kost",
+              "person_id": "WY-KOST-RJ",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 SOS statewide Senate summary, Senate District 19 (left column beside Senate District 21; that district's Total is not used): R. J. Kost (R) Total 5,569. Official Park share 2,859; official Big Horn share 2,710. Ballot R. J. KOST.",
+              "href": "candidates/local-history/c/r-j-kost.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 20 (S20)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Cooper",
+              "person_id": "WY-COOPER-ED",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 405 (Park portion).",
+              "href": "candidates/local-history/c/ed-cooper.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 24 (H24)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Sandy Newsome",
+              "person_id": "WY-NEWSOME-SANDY",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 4,009.",
+              "href": "candidates/local-history/c/sandy-newsome.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 25 (H25)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Laursen",
+              "person_id": "WY-LAURSEN-DAN",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,722.",
+              "href": "candidates/local-history/c/dan-laursen.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 26 (H26)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jamie Flitner",
+              "person_id": "WY-FLITNER-JAMIE",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide House summary, House District 26: Jamie Flitner (R) Total 3,959. Official Park share 164; official Big Horn share 3,795.",
+              "href": "candidates/local-history/c/jamie-flitner.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 28 (H28)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "John R. Winter",
+              "person_id": "WY-WINTER-JOHN",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 409 (Park portion).",
+              "href": "candidates/local-history/c/john-r-winter.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 50 (H50)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Rachel Rodriguez-Williams",
+              "person_id": "WY-RODRIGUEZ-WILLIAMS-RACHEL",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 4,373.",
+              "href": "candidates/local-history/c/rachel-rodriguez-williams.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dossie Overfield",
+              "person_id": "WY-OVERFIELD-DOSSIE",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 8,138 (vote for 3).",
+              "href": "candidates/local-history/c/dossie-overfield.html"
+            },
+            {
+              "name": "Lloyd E. Thiel",
+              "person_id": "WY-THIEL-LLOYD",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 8,048 (vote for 3).",
+              "href": "candidates/local-history/c/lloyd-e-thiel.html"
+            },
+            {
+              "name": "Joe Tilden",
+              "person_id": "WY-TILDEN-JOE",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 8,316 (vote for 3).",
+              "href": "candidates/local-history/c/joe-tilden.html"
+            },
+            {
+              "name": "Scott Mangold",
+              "person_id": "WY-MANGOLD-SCOTT",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 11,253 (vote for 2).",
+              "href": "candidates/local-history/c/scott-mangold.html"
+            },
+            {
+              "name": "Lee Livingston",
+              "person_id": "WY-LIVINGSTON-LEE",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 11,118 (vote for 2).",
+              "href": "candidates/local-history/c/lee-livingston.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Colleen Renner",
+              "person_id": "WY-RENNER-COLLEEN",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Park results: official 2018 general, 10,248.",
+              "href": "candidates/local-history/c/colleen-renner.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Barbara A. Poley",
+              "person_id": "WY-POLEY-BARBARA",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Park results: official 2018 general, 10,224.",
+              "href": "candidates/local-history/c/barbara-a-poley.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Pat Meyer",
+              "person_id": "WY-MEYER-PAT",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 10,071.",
+              "href": "candidates/local-history/c/pat-meyer.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott A. Steward",
+              "person_id": "WY-STEWARD-SCOTT",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 10,292. Elected commissioner in 2022.",
+              "href": "candidates/local-history/c/scott-a-steward.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bryan A. Skoric",
+              "person_id": "WY-SKORIC-BRYAN",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 10,009.",
+              "href": "candidates/local-history/c/bryan-a-skoric.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Patra Lindenthal",
+              "person_id": "WY-LINDENTHAL-PATRA",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 10,002.",
+              "href": "candidates/local-history/c/patra-lindenthal.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tim Power",
+              "person_id": "WY-POWER-TIM",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 10,284.",
+              "href": "candidates/local-history/c/tim-power.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Cody Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt Hall",
+              "person_id": "WY-HALL-MATT",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 4,437.",
+              "href": "candidates/local-history/c/matt-hall.html"
+            }
+          ]
+        },
+        {
+          "office": "Cody City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Justin Baily",
+              "person_id": "WY-BAILY-JUSTIN",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 1,046.",
+              "href": "candidates/local-history/c/justin-baily.html"
+            },
+            {
+              "name": "Andrew Quick",
+              "person_id": "WY-QUICK-ANDREW",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 1,720.",
+              "href": "candidates/local-history/c/andrew-quick.html"
+            }
+          ]
+        },
+        {
+          "office": "Cody City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Heidi Rasmussen",
+              "person_id": "WY-RASMUSSEN-HEIDI",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 833.",
+              "href": "candidates/local-history/c/heidi-rasmussen.html"
+            },
+            {
+              "name": "Jerry Fritz",
+              "person_id": "WY-FRITZ-JERRY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 1,198.",
+              "href": "candidates/local-history/c/jerry-fritz.html"
+            }
+          ]
+        },
+        {
+          "office": "Cody City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Diane Ballard",
+              "person_id": "WY-BALLARD-DIANE",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 1,051.",
+              "href": "candidates/local-history/c/diane-ballard.html"
+            },
+            {
+              "name": "Emily B. Swett",
+              "person_id": "WY-SWETT-EMILY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 1,308. Ballot Emily Swett.",
+              "href": "candidates/local-history/c/emily-b-swett.html"
+            }
+          ]
+        },
+        {
+          "office": "Powell Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "John Wetzel",
+              "person_id": "WY-WETZEL-JOHN",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 2,462. Ballot John Wetzel.",
+              "href": "candidates/local-history/c/john-wetzel.html"
+            }
+          ]
+        },
+        {
+          "office": "Powell City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Steve Lensegrav",
+              "person_id": "WY-LENSEGRAV-STEVE",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 269. Ballot Steven Michael Lensegrav.",
+              "href": "candidates/local-history/c/steve-lensegrav.html"
+            },
+            {
+              "name": "Geoff Hovivian",
+              "person_id": "WY-HOVIVIAN-GEOFF",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 353.",
+              "href": "candidates/local-history/c/geoff-hovivian.html"
+            }
+          ]
+        },
+        {
+          "office": "Powell City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Scott Mangold",
+              "person_id": "WY-MANGOLD-SCOTT",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 510. Later county commissioner.",
+              "href": "candidates/local-history/c/scott-mangold.html"
+            },
+            {
+              "name": "Floyd E. Young",
+              "person_id": "WY-YOUNG-FLOYD",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 902. Ballot Floyd E. Young.",
+              "href": "candidates/local-history/c/floyd-e-young-jr.html"
+            }
+          ]
+        },
+        {
+          "office": "Powell City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Timothy A. Sapp",
+              "person_id": "WY-SAPP-TIMOTHY",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 326.",
+              "href": "candidates/local-history/c/timothy-a-sapp.html"
+            },
+            {
+              "name": "Lesli Spencer",
+              "person_id": "WY-SPENCER-LESLI",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 495.",
+              "href": "candidates/local-history/c/lesli-spencer.html"
+            }
+          ]
+        },
+        {
+          "office": "Meeteetse Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "J.W. \"Bill\" Yetter",
+              "person_id": "WY-YETTER-BILL",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 123.",
+              "href": "candidates/local-history/c/j-w-bill-yetter.html"
+            }
+          ]
+        },
+        {
+          "office": "Meeteetse Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Eric J. Scott",
+              "person_id": "WY-SCOTT-ERIC",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 133 (vote for 2).",
+              "href": "candidates/local-history/c/eric-j-scott.html"
+            },
+            {
+              "name": "Sheridan Trask",
+              "person_id": "WY-TRASK-SHERIDAN",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 124 (vote for 2).",
+              "href": "candidates/local-history/c/sheridan-trask.html"
+            },
+            {
+              "name": "Corey Guthrie",
+              "person_id": "WY-GUTHRIE-COREY",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 139 (vote for 1).",
+              "href": "candidates/local-history/c/corey-guthrie.html"
+            },
+            {
+              "name": "Josh Blake",
+              "person_id": "WY-BLAKE-JOSH",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 164 (vote for 2).",
+              "href": "candidates/local-history/c/josh-blake.html"
+            },
+            {
+              "name": "Corey Guthrie",
+              "person_id": "WY-GUTHRIE-COREY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 149 (vote for 2).",
+              "href": "candidates/local-history/c/corey-guthrie.html"
+            }
+          ]
+        },
+        {
+          "office": "Frannie Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Garret I. Frescoln",
+              "person_id": "WY-FRESCOLN-GARRET",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 4 (vote for 2).",
+              "href": "candidates/local-history/c/garret-i-frescoln.html"
+            },
+            {
+              "name": "Shane C. Roberts",
+              "person_id": "WY-ROBERTS-SHANE-C",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2018 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2018 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 general, 3 (vote for 2).",
+              "href": "candidates/local-history/c/shane-c-roberts.html"
+            },
+            {
+              "name": "Marty Roedel",
+              "person_id": "WY-ROEDEL-MARTY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 5 (vote for 2).",
+              "href": "candidates/local-history/c/marty-roedel.html"
+            },
+            {
+              "name": "Steve Richardson",
+              "person_id": "WY-RICHARDSON-STEVE-FR",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3 (vote for 2). Ballot Steven D. Richardson.",
+              "href": "candidates/local-history/c/steve-richardson.html"
+            },
+            {
+              "name": "Keara Poole",
+              "person_id": "WY-POOLE-KEARA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3 (vote for 1).",
+              "href": "candidates/local-history/c/keara-poole.html"
+            }
+          ]
+        },
+        {
+          "office": "Frannie Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Park County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tracy D. Morris",
+              "person_id": "WY-MORRIS-TRACY-D",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 2,972 (vote for 3).",
+              "href": "candidates/local-history/c/tracy-d-morris.html"
+            },
+            {
+              "name": "Laura Riley",
+              "person_id": "WY-RILEY-LAURA-SD1",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 2,915 (vote for 3).",
+              "href": "candidates/local-history/c/laura-riley.html"
+            },
+            {
+              "name": "Kim Dillivan",
+              "person_id": "WY-DILLIVAN-KIM",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 2,575 (vote for 3).",
+              "href": "candidates/local-history/c/kim-dillivan.html"
+            }
+          ]
+        },
+        {
+          "office": "Park County School District #6 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Stefanie Bell",
+              "person_id": "WY-BELL-STEFANIE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 4,615 (vote for 4).",
+              "href": "candidates/local-history/c/stefanie-bell.html"
+            },
+            {
+              "name": "Sheri Schutzman",
+              "person_id": "WY-SCHUTZMAN-SHERI",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,684 (vote for 4).",
+              "href": "candidates/local-history/c/sheri-schutzman.html"
+            },
+            {
+              "name": "Jessica Case",
+              "person_id": "WY-CASE-JESSICA-SD6",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,341 (vote for 4).",
+              "href": "candidates/local-history/c/jessica-case.html"
+            },
+            {
+              "name": "Tom Keegan",
+              "person_id": "WY-KEEGAN-TOM",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,321 (vote for 4).",
+              "href": "candidates/local-history/c/tom-keegan.html"
+            }
+          ]
+        },
+        {
+          "office": "Park County School District #16 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Angela R. Johnson",
+              "person_id": "WY-JOHNSON-ANGIE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 383 (vote for 3).",
+              "href": "candidates/local-history/c/angie-johnson.html"
+            },
+            {
+              "name": "Kevin C. Cooley",
+              "person_id": "WY-COOLEY-KEVIN-C",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 346 (vote for 3).",
+              "href": "candidates/local-history/c/kevin-c-cooley.html"
+            },
+            {
+              "name": "Duaine Hagen",
+              "person_id": "WY-HAGEN-DUAINE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 341 (vote for 3).",
+              "href": "candidates/local-history/c/duaine-hagen.html"
+            }
+          ]
+        },
+        {
+          "office": "Big Horn School District #1 Trustee Area A (Deaver/Frannie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jared Boardman",
+              "person_id": "WY-BOARDMAN-JARED",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 34 (Park portion).",
+              "href": "candidates/local-history/c/jared-boardman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Northwest College Trustee Subdistrict A (Powell)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark S. Wurzel",
+              "person_id": "WY-WURZEL-MARK",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,225 (vote for 1).",
+              "href": "candidates/local-history/c/mark-s-wurzel.html"
+            }
+          ]
+        },
+        {
+          "office": "Northwest College Trustee Subdistrict B (Cody)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bob Newsome",
+              "person_id": "WY-NEWSOME-BOB",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 4,449 (vote for 2).",
+              "href": "candidates/local-history/c/bob-newsome.html"
+            },
+            {
+              "name": "Tara Kuipers",
+              "person_id": "WY-KUIPERS-TARA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 4,445 (vote for 2).",
+              "href": "candidates/local-history/c/tara-kuipers.html"
+            }
+          ]
+        },
+        {
+          "office": "Northwest College Trustee Subdistrict C (Meeteetse)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Larry Todd",
+              "person_id": "WY-TODD-LARRY-NWC",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 425.",
+              "href": "candidates/local-history/c/larry-todd.html"
+            }
+          ]
+        },
+        {
+          "office": "Cody Fire District #2 Director 2",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ray Lozier",
+              "person_id": "WY-LOZIER-RAY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 2,573.",
+              "href": "candidates/local-history/c/ray-lozier.html"
+            }
+          ]
+        },
+        {
+          "office": "Cody Fire District #2 Director 5",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Robert D. Coe",
+              "person_id": "WY-COE-ROBERT-D",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 424. Ballot Robert Coe.",
+              "href": "candidates/local-history/c/robert-d-coe.html"
+            }
+          ]
+        },
+        {
+          "office": "Powell Fire District #1 Director 4",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott Heny",
+              "person_id": "WY-HENY-SCOTT",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 1,161. Ballot Ronald Scott Heny.",
+              "href": "candidates/local-history/c/scott-heny.html"
+            }
+          ]
+        },
+        {
+          "office": "Meeteetse Fire District #3 Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brodie Serres",
+              "person_id": "WY-SERRES-BRODIE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 258. Ballot Brodie Bennett. Official March 2026 roster still lists Brodie Serres with a term expiring 2024; that stale expiration is flagged and is not used to invent a replacement.",
+              "href": "candidates/local-history/c/brodie-serres.html"
+            }
+          ]
+        },
+        {
+          "office": "Clark Fire District #4 Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dave Hoffert",
+              "person_id": "WY-HOFFERT-DAVE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 357.",
+              "href": "candidates/local-history/c/dave-hoffert.html"
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #5 Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cherie Wambeke",
+              "person_id": "WY-WAMBEKE-CHERIE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 40 (vote for 2, Park portion).",
+              "href": "candidates/local-history/c/cherie-wambeke.html"
+            }
+          ]
+        },
+        {
+          "office": "Bennett Butte Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Rose Weathermon Cox",
+              "person_id": "WY-COX-ROSE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 291 (vote for 3).",
+              "href": "candidates/local-history/c/rose-cox.html"
+            },
+            {
+              "name": "Rick Gorniak",
+              "person_id": "WY-GORNIAK-RICK",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 280 (vote for 3).",
+              "href": "candidates/local-history/c/rick-gorniak.html"
+            }
+          ]
+        },
+        {
+          "office": "Crown Hill Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bill Metzler",
+              "person_id": "WY-METZLER-BILL",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,458 (vote for 3).",
+              "href": "candidates/local-history/c/bill-metzler.html"
+            },
+            {
+              "name": "Syd K. Thompson",
+              "person_id": "WY-THOMPSON-SYD",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,394 (vote for 3).",
+              "href": "candidates/local-history/c/syd-k-thompson.html"
+            },
+            {
+              "name": "Ben D. Keller",
+              "person_id": "WY-KELLER-BEN-D",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 2,313 (vote for 3).",
+              "href": "candidates/local-history/c/ben-d-keller.html"
+            }
+          ]
+        },
+        {
+          "office": "Meeteetse Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brodie Serres",
+              "person_id": "WY-SERRES-BRODIE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 375 (vote for 3). Ballot Brodie Bennett.",
+              "href": "candidates/local-history/c/brodie-serres.html"
+            },
+            {
+              "name": "Ronee Hogg",
+              "person_id": "WY-HOGG-RONEE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 359 (vote for 3).",
+              "href": "candidates/local-history/c/ronee-hogg.html"
+            },
+            {
+              "name": "Scott Jason Coale",
+              "person_id": "WY-COALE-SCOTT-JASON",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 373 (vote for 3).",
+              "href": "candidates/local-history/c/scott-jason-coale.html"
+            }
+          ]
+        },
+        {
+          "office": "Riverside Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tara Hart",
+              "person_id": "WY-HART-TARA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 4,695 (vote for 3).",
+              "href": "candidates/local-history/c/tara-hart.html"
+            },
+            {
+              "name": "Gary Williams",
+              "person_id": "WY-WILLIAMS-GARY-N",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,865 (vote for 3).",
+              "href": "candidates/local-history/c/gary-n-williams.html"
+            },
+            {
+              "name": "Chan Richard",
+              "person_id": "WY-RICHARD-CHAN",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 4,450 (vote for 3).",
+              "href": "candidates/local-history/c/chan-richard.html"
+            }
+          ]
+        },
+        {
+          "office": "Cody Conservation District Supervisor - Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Joe A. Kondelis",
+              "person_id": "WY-KONDELIS-JOE-A",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 5,817 (vote for 2).",
+              "href": "candidates/local-history/c/joe-a-kondelis.html"
+            },
+            {
+              "name": "Richard B. Jones",
+              "person_id": "WY-JONES-RICHARD-B",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 5,269 (vote for 2).",
+              "href": "candidates/local-history/c/richard-b-jones.html"
+            },
+            {
+              "name": "Russell A. Dwyer Jr.",
+              "person_id": "WY-DWYER-RUSSELL",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general 2-year rural, 6,543.",
+              "href": "candidates/local-history/c/russell-a-dwyer-jr.html"
+            }
+          ]
+        },
+        {
+          "office": "Meeteetse Conservation District Supervisor - Rural",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt Burkhart",
+              "person_id": "WY-BURKHART-MATT",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 391. Official Vote-For-2 rural contest lists only this named candidate; the second seat is not invented.",
+              "href": "candidates/local-history/c/matt-burkhart.html"
+            }
+          ]
+        },
+        {
+          "office": "Powell Clarks Fork Conservation District Supervisor - Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Abby Shuler",
+              "person_id": "WY-SHULER-ABBY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,223 (vote for 2).",
+              "href": "candidates/local-history/c/abby-shuler.html"
+            },
+            {
+              "name": "Neil R. Christofferson",
+              "person_id": "WY-CHRISTOFFERSON-NEIL",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 2,855 (vote for 2).",
+              "href": "candidates/local-history/c/neil-r-christofferson.html"
+            }
+          ]
+        },
+        {
+          "office": "Powell Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Syd K. Thompson",
+              "person_id": "WY-THOMPSON-SYD",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,321 (vote for 3).",
+              "href": "candidates/local-history/c/syd-k-thompson.html"
+            },
+            {
+              "name": "Bonita Katz",
+              "person_id": "WY-KATZ-BONITA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 2,556 (vote for 3).",
+              "href": "candidates/local-history/c/bonita-katz.html"
+            },
+            {
+              "name": "Richard Stearns",
+              "person_id": "WY-STEARNS-RICHARD",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 2,570 (vote for 3).",
+              "href": "candidates/local-history/c/richard-stearns.html"
+            }
+          ]
+        },
+        {
+          "office": "West Park Hospital District Trustee - At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Glenn A. Nielson",
+              "person_id": "WY-NIELSON-GLENN-A",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 4,380.",
+              "href": "candidates/local-history/c/glenn-a-nielson.html"
+            },
+            {
+              "name": "Frank Middleton",
+              "person_id": "WY-MIDDLETON-FRANK",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 3,342.",
+              "href": "candidates/local-history/c/frank-middleton.html"
+            }
+          ]
+        },
+        {
+          "office": "West Park Hospital District Trustee - #1 Meeteetse",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lenox Baker",
+              "person_id": "WY-BAKER-LENOX",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 390.",
+              "href": "candidates/local-history/c/lenox-baker.html"
+            }
+          ]
+        },
+        {
+          "office": "West Park Hospital District Trustee - #2 Cody",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ty Nelson",
+              "person_id": "WY-NELSON-TY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 6,620.",
+              "href": "candidates/local-history/c/ty-nelson.html"
+            }
+          ]
+        },
+        {
+          "office": "Meeteetse Museum District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lili Turnell",
+              "person_id": "WY-TURNELL-LILI",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 386 (vote for 3).",
+              "href": "candidates/local-history/c/lili-turnell.html"
+            },
+            {
+              "name": "Jim Allen",
+              "person_id": "WY-ALLEN-JIM-MUS",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 382 (vote for 3).",
+              "href": "candidates/local-history/c/jim-allen.html"
+            },
+            {
+              "name": "Larry Todd",
+              "person_id": "WY-TODD-LARRY-NWC",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general, 362 (vote for 3).",
+              "href": "candidates/local-history/c/larry-todd.html"
+            }
+          ]
+        }
+      ],
+      "note": "Municipal names are keyed from official Park generals beginning in 2016; school and most special-district names are keyed from official generals beginning in 2020. Earlier January seats in those groups are marked Not yet collected rather than invented. The official 2018 Frannie mayoral contest is a 1–1 tie (R. Vance Peregoy and Marty Roedel) and is not filled. The official 2024 Cody Conservation District at-large contest is write-in only (785 write-in totals, no named winner) and is not filled; Carmen Horne-McIntyre appears on the official March 2026 roster in a 2-year unexpired seat and won the official 2026 at-large election. The official 2022 Meeteetse Conservation rural contest and the official 2020 Meeteetse Conservation 2-year at-large contest have no named official winner and are not filled. The official Park Clerk elections page certifies Bethany Winzenried as the write-in elected to the Meeteetse Museum District Director race (included) and Kerstin Harley as the write-in elected in the Park County School District #16 2-year race; the official 2026 general summary names Sarah McKergow as the Vote-For-1 winner (150–57 write-in totals) and does not name Harley — the canvass figures are used and the page text is flagged. Official 2024 Frannie council was a 6–4–4 result (Ganoung, Clendenen, DeSantis); the official roster lists Ganoung and Clendenen in the 2028 seats.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "Judge, 5th Judicial District (official 2016 named retention)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Keith G. Kautz",
+              "person_id": "WY-KAUTZ-KEITH-G",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2016 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2016 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2016 general “KEITH G. KAUTZ,” YES 9,483 / NO 2,742. The official summary does not print district vs. circuit in the contest title.",
+              "href": "candidates/local-history/c/keith-g-kautz.html",
+              "retention": {
+                "year": 2016,
+                "yes": 9483,
+                "no": 2742,
+                "yes_pct": "77.57%",
+                "no_pct": "22.43%",
+                "result": "retained",
+                "source": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2016 General Election results summary.pdf"
+              }
+            },
+            {
+              "name": "Robert E. Skar",
+              "person_id": "WY-SKAR-ROBERT-E",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Park County official 2016 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2016 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2016 general “ROBERT E. SKAR,” YES 9,731 / NO 2,702. The official summary does not print district vs. circuit in the contest title.",
+              "href": "candidates/local-history/c/robert-e-skar.html",
+              "retention": {
+                "year": 2016,
+                "yes": 9731,
+                "no": 2702,
+                "yes_pct": "78.27%",
+                "no_pct": "21.73%",
+                "result": "retained",
+                "source": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2016 General Election results summary.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "office": "District Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bobbi Overfield",
+              "person_id": "WY-OVERFIELD-BOBBI",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general “DISTRICT COURT JUDGE - OVERFIELD,” YES 11,498 / NO 2,235. Official March 2026 roster title: Fifth Judicial District Judge - Big Horn/Hot Springs/Washakie. Distinct from Commissioner Dossie Overfield.",
+              "href": "candidates/local-history/c/bobbi-overfield.html",
+              "retention": {
+                "year": 2020,
+                "yes": 11498,
+                "no": 2235,
+                "yes_pct": "83.73%",
+                "no_pct": "16.27%",
+                "result": "retained",
+                "source": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Luhm",
+              "person_id": "WY-LUHM-ED",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general “CIRCUIT COURT JUDGE- LUHM,” YES 11,163 / NO 2,242. Official March 2026 roster title: Fifth Judicial Circuit Judge - Big Horn/Hot Springs/Washakie.",
+              "href": "candidates/local-history/c/ed-luhm.html",
+              "retention": {
+                "year": 2020,
+                "yes": 11163,
+                "no": 2242,
+                "yes_pct": "83.27%",
+                "no_pct": "16.73%",
+                "result": "retained",
+                "source": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Justice of the Wyoming Supreme Court",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael K. Davis",
+              "person_id": "WY-DAVIS-MICHAEL-K",
+              "party": "",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "Weston County official 2014 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Judicial Nominating Commission announces Supreme Court vacancy (Davis retirement January 16, 2022)",
+                  "url": "https://www.wyocourts.gov/app/uploads/2025/05/News-Release-Announcing-Vacancy-Wyoming-Supreme-Court.pdf"
+                },
+                {
+                  "label": "Park County official 2014 general detailed results (no separate official summary posted)",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2014 General Election results detail.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained on the Weston 2014 ballot (yes 1,573 / no 613). Official JNC release: retired January 16, 2022. Distinct from WY-DAVIS-MICHAEL.",
+              "href": "candidates/local-history/c/michael-k-davis.html",
+              "retention": {
+                "year": 2014,
+                "yes": 1573,
+                "no": 613,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+              }
+            },
+            {
+              "name": "Catherine M. Fox",
+              "person_id": "WY-FOX-CATHERINE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court justices",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Park County official 2016 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2016 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Already serving at the start of the 2015 window (retained 2016 and 2024 on the Weston ballot). Official name Kate M. Fox. Official Judicial Branch: retired May 27, 2025.",
+              "href": "candidates/local-history/c/catherine-m-fox.html",
+              "retention": {
+                "year": 2024,
+                "yes": 2272,
+                "no": 733,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+              }
+            },
+            {
+              "name": "Keith G. Kautz",
+              "person_id": "WY-KAUTZ-KEITH",
+              "party": "",
+              "term_end": "January 2024",
+              "sources": [
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court justices",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Park County official 2016 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2016 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2016 (yes 2,116 / no 988). Official Judicial Branch: retired March 26, 2024 (successor Robert C. Jarosh sworn March 27, 2024).",
+              "href": "candidates/local-history/c/keith-g-kautz.html"
+            },
+            {
+              "name": "Lynne Boomgaarden",
+              "person_id": "WY-BOOMGAARDEN-LYNNE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Welcome Justice Lynne Boomgaarden, February 20, 2018",
+                  "url": "https://www.wyocourts.gov/news/welcome-justice-lynne-boomgaarden/"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Chief Justice Lynne Boomgaarden",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Judicial Branch: tenure began February 20, 2018, appointed by Gov. Mead to succeed William U. Hill. Retained 2020: yes 2,498 / no 654. Official term expires January 2029.",
+              "href": "candidates/local-history/c/lynne-boomgaarden.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2498,
+                "no": 654,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "Kari Jo Gray",
+              "person_id": "WY-GRAY-KARI",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Welcome Justice Kari Jo Gray (tenure began October 9, 2018)",
+                  "url": "https://www.wyocourts.gov/news/welcome-justice-kari-jo-gray/"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Justice Kari Gray",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Park County official 2020 general results",
+                  "url": "https://parkcounty-wy.gov/wp-content/uploads/Documents/Elections/Documents/Election Results/2020 General Election results summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Judicial Branch: tenure began October 9, 2018, appointed by Gov. Mead to succeed E. James Burke. Retained 2020: yes 2,468 / no 649. Official term expires January 2029.",
+              "href": "candidates/local-history/c/kari-jo-gray.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2468,
+                "no": 649,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 5th Judicial District judges who appeared by name on a Park County official retention ballot. The official 2018 general lists district and circuit retentions with no judge’s name; those are not attached to people. Park is in the 5th Judicial District (with Big Horn, Hot Springs, and Washakie); 4th and 6th Judicial District judges are not copied here.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. Official Park primary PDFs are archived under /workspace/wyoleg/local-results/park/<year>/. The current (November 2026) precinct roster is in data/county_officials/park.json, from the official 2026 primary (named winners only).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/park/terms.json",
+  "retrieved": "2026-11-24"
+}

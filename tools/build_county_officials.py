@@ -12,8 +12,10 @@ on counties.html from data/county_officials/shared/federal-statewide.json.
     python3 tools/build_county_officials.py --county weston --as-of 2027-01-04
 
 The existing county report (the v1.1 PDF) is rendered at the top of the page
-and remains the Print report; there is no v2.0 PDF. The officeholders section
-is below it. The page version comes from the JSON (page_version, currently v2.0).
+and remains the legislative Print report. The 114 County Officeholders PDF is
+reached from a small Print officeholders (PDF) link under Current officeholders.
+The officeholders section is below the 113 report. The page version comes from
+the JSON (page_version, currently v2.0).
 
 Holders who will be replaced have a `succeeding` entry. Before `term_switch_date`
 (2027-01-04 for Weston, the day the new terms begin), the page shows today's
@@ -141,10 +143,31 @@ def apply_term_switch(data: dict, as_of: date) -> dict:
 def party_suffix(party: str | None) -> str:
     if not party:
         return ""
-    letter = party.strip()
-    if len(letter) > 1:
-        letter = letter[0]
+    raw = party.strip()
+    if raw.lower() in {"np", "n", "nonpartisan", "non-partisan", "non partisan"}:
+        return ""
+    letter = raw[0] if len(raw) > 1 else raw
     return f" ({esc(letter)})"
+
+
+def retention_html(holder: dict) -> str:
+    r = holder.get("retention")
+    if not r:
+        return ""
+    year = r.get("year") or ""
+    yes = r.get("yes")
+    no = r.get("no")
+    pct = r.get("yes_pct") or ""
+    bits = [f"retained {year}" if year else "retained"]
+    if yes is not None and no is not None:
+        try:
+            yn = f"Yes {int(yes):,} / No {int(no):,}"
+        except (TypeError, ValueError):
+            yn = f"Yes {yes} / No {no}"
+        if pct:
+            yn += f" ({pct})"
+        bits.append(yn)
+    return f'<span class="co-retain">; {esc("; ".join(bits))}</span>'
 
 
 def href_from(page: Path, href: str | None) -> str | None:
@@ -164,7 +187,8 @@ def holder_name_html(holder: dict, page: Path) -> str:
         name = f'<a href="{esc(link)}">{name}</a>'
     role = holder.get("role")
     role_html = f', {esc(role)}' if role else ""
-    return f"{name}{party_suffix(holder.get('party'))}{role_html}"
+    retain = retention_html(holder)
+    return f"{name}{party_suffix(holder.get('party'))}{role_html}{retain}"
 
 
 def succeeding_html(holder: dict) -> str:
@@ -198,7 +222,8 @@ def render_office(office: dict, page: Path) -> str:
 def render_group(group: dict, page: Path) -> str:
     """A titled section whose office boxes sit in a multi-column grid."""
     parts = [f'<section class="co-group" id="co-{esc(group["id"])}">']
-    parts.append(f'<h3>{esc(group["title"])}</h3>')
+    heading = group.get("title") or group.get("label") or group.get("id") or "Offices"
+    parts.append(f'<h3>{esc(heading)}</h3>')
     if group.get("note"):
         parts.append(f'<p class="co-group-note">{esc(group["note"])}</p>')
     boxes = [render_office(office, page) for office in group.get("offices") or []]
@@ -268,6 +293,7 @@ def report_fragment(pdf: Path, dest: Path) -> str:
 
 
 SHARED = DATA / "shared" / "federal-statewide.json"
+JUDICIAL_SHARED = DATA / "shared" / "judicial-statewide.json"
 SHARED_IDS = {"federal", "statewide"}
 COUNTIES_PAGE = ROOT / "counties.html"
 MARK_START = "<!-- county-officials:federal-statewide:start -->"
@@ -346,6 +372,13 @@ def county_title(data: dict) -> str:
     return f"{data['county_number']:02d} {data['county']} County"
 
 
+def officeholders_pdf_rel(data: dict) -> str:
+    """Published 114 County Officeholders PDF, relative to the site root."""
+    number = int(data["county_number"])
+    name = str(data["county"]).replace(" ", "_")
+    return f"reports/2026/wyovote_2026_County_{number:02d}_{name}_114_v1.0.pdf"
+
+
 def county_weekly(slug: str, as_of: date) -> str:
     """The Weekly section for pilot counties (tools/schedule/county.py); empty otherwise."""
     import sys as _sys
@@ -365,9 +398,16 @@ def page_html(data: dict, dest: Path, as_of: date, slug: str) -> str:
     if not pdf.is_file():
         raise SystemExit(f"Missing county report PDF: {pdf}")
     report = report_fragment(pdf, dest)
+    oh_pdf = ROOT / officeholders_pdf_rel(data)
+    if not oh_pdf.is_file():
+        raise SystemExit(f"Missing 114 officeholders PDF: {oh_pdf}")
+    oh_href = Path(os.path.relpath(oh_pdf, dest.parent)).as_posix()
     groups = [g for g in data["groups"] if g["id"] not in SHARED_IDS and not g.get("precincts")]
     has_precincts = any(g.get("precincts") for g in data["groups"])
     rendered = "\n".join(render_group(group, dest) for group in groups)
+    judicial = judicial_shared_html(dest)
+    if judicial:
+        rendered = rendered + "\n" + judicial
     # Large, easy-to-find buttons (precinct page first, most prominent).
     buttons = []
     if has_precincts:
@@ -380,6 +420,7 @@ def page_html(data: dict, dest: Path, as_of: date, slug: str) -> str:
           {report['body']}{county_weekly(slug, as_of)}
           <section class="county-officials" id="current-officeholders">
             <h2>Current officeholders</h2>
+            <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(oh_href)}">Print officeholders (PDF)</a></p>
             <p class="co-intro">{esc(data.get("intro") or "")}</p>
             {"".join(links)}
 {rendered}
@@ -402,6 +443,23 @@ def precinct_page_html(data: dict, dest: Path, as_of: date, slug: str) -> str | 
           </section>"""
     return page_shell(title, f"Precinct committee people for {county} County, Wyoming.",
                       f"{slug}.html", f"Back to {county} County", body)
+
+
+
+def judicial_shared_html(page: Path) -> str:
+    """Statewide judicial officers, when the shared file is present. Retention
+    figures are shown only when stored on the holder (Weston totals today)."""
+    if not JUDICIAL_SHARED.is_file():
+        return ""
+    data = json.loads(JUDICIAL_SHARED.read_text(encoding="utf-8"))
+    parts = [f'<section class="co-group" id="co-judicial-statewide">']
+    parts.append(f'<h3>{esc(data.get("title") or "Statewide judicial officers")}</h3>')
+    if data.get("intro"):
+        parts.append(f'<p class="co-group-note">{esc(data["intro"])}</p>')
+    for group in data.get("groups") or []:
+        parts.append(render_group(group, page))
+    parts.append("</section>")
+    return "\n".join(parts)
 
 
 def shared_block(as_of: date) -> str:
@@ -481,7 +539,7 @@ def main() -> None:
     for path in files:
         dest = build_one(path, as_of)
         print(f"wrote {dest.relative_to(ROOT)} ({dest.stat().st_size} bytes) as of {as_of.isoformat()}")
-    if SHARED.is_file():
+    if SHARED.is_file() and not args.county:
         print(f"wrote {write_counties_page(as_of).relative_to(ROOT)} (federal and statewide box)")
 
 

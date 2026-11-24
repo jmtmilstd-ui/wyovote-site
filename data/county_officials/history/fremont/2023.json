@@ -1,0 +1,2171 @@
+{
+  "county": "Fremont",
+  "county_number": 10,
+  "snapshot_year": 2023,
+  "as_of": "2023-01-08",
+  "as_of_label": "January 2023 (as of 2023-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2023 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 20 (S20)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Cooper",
+              "person_id": "WY-COOPER-ED",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2020 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide Senate summary, Senate District 20 (right column of the official two-column page with District 18): Ed Cooper (R) Total 7,497, Theresa Livingston (D) 1,293. Official Fremont share Cooper 335, Livingston 32.",
+              "href": "candidates/local-history/c/ed-cooper.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 26 (S26)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tim Salazar",
+              "person_id": "WY-SALAZAR-TIM",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2020 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide Senate summary, Senate District 26: Tim Salazar (R) Total 7,790. Fremont-only (official Fremont share equals the official Total).",
+              "href": "candidates/local-history/c/tim-salazar.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 25 (S25)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cale Case",
+              "person_id": "WY-CASE-CALE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide Senate summary, Senate District 25: Cale Case (R) Total 4,365. Fremont-only (official Fremont share equals the official Total).",
+              "href": "candidates/local-history/c/cale-case.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 28 (H28)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "John R. Winter",
+              "person_id": "WY-WINTER-JOHN-R",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 28: John R. Winter (R) Total 3,139, Kimberly M. Bartlett (D) 855. Official Fremont share Winter 259, Bartlett 32. Official other shares: Big Horn 644–90, Hot Springs 1,582–590, Park 654–143.",
+              "href": "candidates/local-history/c/john-r-winter.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 33 (H33)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Sarah Penn",
+              "person_id": "WY-PENN-SARAH",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 33: Sarah Penn (R) 1,077, Andi LeBeau (D) 867. Fremont-only (official Fremont share equals the official Total).",
+              "href": "candidates/local-history/c/sarah-penn.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 34 (H34)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Pepper L. Ottman",
+              "person_id": "WY-OTTMAN-PEPPER-L",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 34: Pepper L. Ottman (R) 3,407. Fremont-only (official Fremont share equals the official Total).",
+              "href": "candidates/local-history/c/pepper-l-ottman.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 54 (H54)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lloyd Charles Larsen",
+              "person_id": "WY-LARSEN-LLOYD-CHARLES",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 54: Lloyd Charles Larsen (R) 2,645, Jeff Martin (I) 1,560. Fremont-only (official Fremont share equals the official Total).",
+              "href": "candidates/local-history/c/lloyd-charles-larsen.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 55 (H55)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ember Oakley",
+              "person_id": "WY-OAKLEY-EMBER",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 55: Ember Oakley (R) 1,798, Bethany Baldes (L) 1,175. Fremont-only (official Fremont share equals the official Total).",
+              "href": "candidates/local-history/c/ember-oakley.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner, District 1",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Clarence Thomas",
+              "person_id": "WY-THOMAS-CLARENCE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County Commissioners page, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials/commissioners/index.php"
+                },
+                {
+                  "label": "Official Fremont County Elected Officials Directory, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Clarence Thomas, District 1. Official 2026 general elects Nicole A. Wagon. Exact 2022 canvass totals are not yet keyed from an official prior-year clerk abstract.",
+              "href": "candidates/local-history/c/clarence-thomas.html"
+            }
+          ]
+        },
+        {
+          "office": "County Commissioner, District 3",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ron Fabrizius",
+              "person_id": "WY-FABRIZIUS-RON",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County Commissioners page, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials/commissioners/index.php"
+                },
+                {
+                  "label": "Official Fremont County Elected Officials Directory, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Ron Fabrizius, District 3. Official 2026 general elects Ryan W. Stanley.",
+              "href": "candidates/local-history/c/ron-fabrizius.html"
+            }
+          ]
+        },
+        {
+          "office": "County Commissioner, District 4",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Michael Jones",
+              "person_id": "WY-JONES-MICHAEL",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County Commissioners page, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials/commissioners/index.php"
+                },
+                {
+                  "label": "Official Fremont County Elected Officials Directory, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Michael Jones, Vice-Chairman, District 4. Official 2026 general elects Steff Kessler (official abstract REP KESSLER; official first name from the official 2026 primary Vote Center page 17, STEFF KESSLER 902, and the official 2026 primary sample ballot).",
+              "href": "candidates/local-history/c/michael-jones.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Julie A. Freese",
+              "person_id": "WY-FREESE-JULIE-A",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County Clerk page, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials/clerk/index.php"
+                },
+                {
+                  "label": "Official Fremont County Elected Officials Directory, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials_directory.php"
+                },
+                {
+                  "label": "Official Fremont County Canvass Board meeting minutes, November 5, 2026 (the heading typographically says PRIMARY but the body is the General Election canvass: Total ballots cast 13,236; Abstract reviewed; winners determined in local races). County Clerk is named Julie A. Freese.",
+                  "url": "https://www.fremontcountywy.gov/Government/Clerk/Elections/2026.11.05%20Minutes.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official clerk page and official directory, retrieved 2026-11-24, name Julie Freese. Official Nov. 5, 2026 canvass minutes name County Clerk Julie A. Freese. Official 2026 general: REP FREESE 10,919, re-elected.",
+              "href": "candidates/local-history/c/julie-a-freese.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "James A. Anderson",
+              "person_id": "WY-ANDERSON-JAMES-A",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County Treasurer page, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials/treasurer/index.php"
+                },
+                {
+                  "label": "Official Fremont County Elected Officials Directory, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official treasurer page, retrieved 2026-11-24, names James A. Anderson (also Jim Anderson). Official 2026 general: REP ANDERSON 10,339, re-elected.",
+              "href": "candidates/local-history/c/james-a-anderson.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ryan Lee",
+              "person_id": "WY-LEE-RYAN",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County Sheriff page, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials/sheriff/index.php"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official sheriff page, retrieved 2026-11-24: Sheriff Ryan Lee was elected and sworn into Office on January 7, 2019, as the 25th Sheriff of Fremont County. Still the official current sheriff as of 2026-11-24. Official 2026 general elects John Zerga. The 2023 start date follows the ordinary four-year sheriff cycle after the 2022 general; the official 2022 canvass totals are not yet keyed.",
+              "href": "candidates/local-history/c/ryan-lee.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Micah Wyatt",
+              "person_id": "WY-WYATT-MICAH",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County Attorney page, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials/attorney/index.php"
+                },
+                {
+                  "label": "Official Fremont County Elected Officials Directory, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official attorney page and official directory, retrieved 2026-11-24, name Micah Wyatt, County Attorney. Official 2026 general: REP WYATT 10,078, re-elected.",
+              "href": "candidates/local-history/c/micah-wyatt.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Amanda R. Sanchez",
+              "person_id": "WY-SANCHEZ-AMANDA-R",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County Clerk of District Court page, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials/clerk_of_district_court/index.php"
+                },
+                {
+                  "label": "Official Fremont County Elected Officials Directory, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official CDC page and official directory, retrieved 2026-11-24, name Amanda Sanchez. Official 2026 primary precinct summary uses AMANDA R. SANCHEZ. Official 2026 general: REP SANCHEZ 10,288, re-elected.",
+              "href": "candidates/local-history/c/amanda-r-sanchez.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Erin Ivie",
+              "person_id": "WY-IVIE-ERIN",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County Coroner page, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials/coroner/index.php"
+                },
+                {
+                  "label": "Official Fremont County Elected Officials Directory, retrieved 2026-11-24",
+                  "url": "https://fremontcountywy.gov/government/elected_officials_directory.php"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official coroner page and official directory, retrieved 2026-11-24, name Erin Ivie. Official 2026 general: REP IVIE 10,825, re-elected.",
+              "href": "candidates/local-history/c/erin-ivie.html"
+            }
+          ]
+        },
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "City of Lander Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Josh Hahn",
+              "person_id": "WY-HAHN-JOSH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official City of Lander Mayor and City Council page, retrieved 2026-11-24",
+                  "url": "https://www.landerwy.gov/1193/Mayor-and-City-Council"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Lander page, retrieved 2026-11-24: Josh Hahn, Council Member, Ward 1, Elected 11/2022, Term Expires 12/2026. Official 2026 general elects George Case in Ward 1.",
+              "href": "candidates/local-history/c/josh-hahn.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "City of Lander Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Larsen",
+              "person_id": "WY-LARSEN-JOHN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official City of Lander Mayor and City Council page, retrieved 2026-11-24",
+                  "url": "https://www.landerwy.gov/1193/Mayor-and-City-Council"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Lander page, retrieved 2026-11-24: John Larsen, Council Member, Ward 3, Elected 11/2022, Term Expires 12/2026. Official 2026 general elects Sarah L. Schlosser.",
+              "href": "candidates/local-history/c/john-larsen.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "City of Riverton Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tim Hancock",
+              "person_id": "WY-HANCOCK-TIM",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official City of Riverton Meet the Mayor page, retrieved 2026-11-24",
+                  "url": "https://www.rivertonwy.gov/departments/mayor___council/meet_the_mayor.php"
+                },
+                {
+                  "label": "Official City of Riverton Elected Officials page, retrieved 2026-11-24",
+                  "url": "https://www.rivertonwy.gov/how_do_i/contact/elected_officials.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Meet the Mayor page, retrieved 2026-11-24: Mayor Tim Hancock, Current Term 2023-2026. Official Elected Officials page names Mayor Timothy Hancock. Official 2026 general elects Michael V. (Mike) Bailey; Hancock won Riverton Ward 3 council.",
+              "href": "candidates/local-history/c/tim-hancock.html"
+            }
+          ]
+        },
+        {
+          "office": "City of Riverton Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kyle M. Larson",
+              "person_id": "WY-LARSON-KYLE-M",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official City of Riverton Meet the Council page, retrieved 2026-11-24",
+                  "url": "https://www.rivertonwy.gov/departments/mayor___council/meet_the_council.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Meet the Council page, retrieved 2026-11-24: Ward 1 Council Member Kyle Larson, Current Term 2023-2026. Official 2026 general: KYLE M. LARSON 344, re-elected.",
+              "href": "candidates/local-history/c/kyle-m-larson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "City of Riverton Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Karla Borders",
+              "person_id": "WY-BORDERS-KARLA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official City of Riverton Meet the Council page, retrieved 2026-11-24",
+                  "url": "https://www.rivertonwy.gov/departments/mayor___council/meet_the_council.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Meet the Council page, retrieved 2026-11-24: Ward 2 Council Member Karla Borders, Current Term 2023-2026. Official 2026 general elects Chancey Wilczewski.",
+              "href": "candidates/local-history/c/karla-borders.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "City of Riverton Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael V. (Mike) Bailey",
+              "person_id": "WY-BAILEY-MICHAEL-V",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official City of Riverton Meet the Council page, retrieved 2026-11-24",
+                  "url": "https://www.rivertonwy.gov/departments/mayor___council/meet_the_council.php"
+                },
+                {
+                  "label": "Official City of Riverton Elected Officials page, retrieved 2026-11-24",
+                  "url": "https://www.rivertonwy.gov/how_do_i/contact/elected_officials.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Meet the Council and Elected Officials pages, retrieved 2026-11-24: Ward 3 Council Member Mike Bailey, Current Term 2023-2026. Official 2026 general elects Bailey mayor and Tim Hancock to Ward 3.",
+              "href": "candidates/local-history/c/michael-v-mike-bailey.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Town of Dubois Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Patricia Neveaux",
+              "person_id": "WY-NEVEAUX-PATRICIA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Dubois Town Council page, retrieved 2026-11-24",
+                  "url": "https://www.townofdubois.org/2159/Town-Council"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Town of Dubois Town Council page, retrieved 2026-11-24, Governing Body: Patricia Neveaux, Mayor. Official 2026 general elects David Furman. The official page does not print a term start; the end date is the January after the official 2026 mayoral canvass.",
+              "href": "candidates/local-history/c/patricia-neveaux.html"
+            }
+          ]
+        },
+        {
+          "office": "Town of Dubois Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Rick Lee",
+              "person_id": "WY-LEE-RICK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Dubois Town Council page, retrieved 2026-11-24",
+                  "url": "https://www.townofdubois.org/2159/Town-Council"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Town of Dubois Town Council page, retrieved 2026-11-24, Governing Body council members: Rick Lee, Randy Lahr, Amanda Ysen, and Bruce John Thompson. Official 2026 general (vote for 2) elects Mike Strasser 327 and Amanda Ysen 255. Which two of the other three official current members were on the expiring cycle is not printed on the official 2026 ballot, so all four current official members are bounded through January 2027 and only the two official 2026 winners are encoded as January 2027 elects.",
+              "href": "candidates/local-history/c/rick-lee.html"
+            },
+            {
+              "name": "Randy Lahr",
+              "person_id": "WY-LAHR-RANDY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Dubois Town Council page, retrieved 2026-11-24",
+                  "url": "https://www.townofdubois.org/2159/Town-Council"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Town of Dubois Town Council page, retrieved 2026-11-24, Governing Body council members: Rick Lee, Randy Lahr, Amanda Ysen, and Bruce John Thompson. Official 2026 general (vote for 2) elects Mike Strasser 327 and Amanda Ysen 255. Which two of the other three official current members were on the expiring cycle is not printed on the official 2026 ballot, so all four current official members are bounded through January 2027 and only the two official 2026 winners are encoded as January 2027 elects.",
+              "href": "candidates/local-history/c/randy-lahr.html"
+            },
+            {
+              "name": "Amanda Ysen",
+              "person_id": "WY-YSEN-AMANDA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Dubois Town Council page, retrieved 2026-11-24",
+                  "url": "https://www.townofdubois.org/2159/Town-Council"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Town of Dubois Town Council page, retrieved 2026-11-24, Governing Body council members: Rick Lee, Randy Lahr, Amanda Ysen, and Bruce John Thompson. Official 2026 general (vote for 2) elects Mike Strasser 327 and Amanda Ysen 255. Which two of the other three official current members were on the expiring cycle is not printed on the official 2026 ballot, so all four current official members are bounded through January 2027 and only the two official 2026 winners are encoded as January 2027 elects.",
+              "href": "candidates/local-history/c/amanda-ysen.html"
+            },
+            {
+              "name": "Bruce John Thompson",
+              "person_id": "WY-THOMPSON-BRUCE-JOHN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Dubois Town Council page, retrieved 2026-11-24",
+                  "url": "https://www.townofdubois.org/2159/Town-Council"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Town of Dubois Town Council page, retrieved 2026-11-24, Governing Body council members: Rick Lee, Randy Lahr, Amanda Ysen, and Bruce John Thompson. Official 2026 general (vote for 2) elects Mike Strasser 327 and Amanda Ysen 255. Which two of the other three official current members were on the expiring cycle is not printed on the official 2026 ballot, so all four current official members are bounded through January 2027 and only the two official 2026 winners are encoded as January 2027 elects.",
+              "href": "candidates/local-history/c/bruce-john-thompson.html"
+            }
+          ]
+        },
+        {
+          "office": "Town of Shoshoni Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joel Highsmith",
+              "person_id": "WY-HIGHSMITH-JOEL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Shoshoni Mayor & Council page, retrieved 2026-11-24",
+                  "url": "https://townofshoshoni.org/government/mayor-council"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Town of Shoshoni Mayor & Council page, retrieved 2026-11-24: Joel Highsmith, Mayor, Term: 2023-2027. Official 2026 general elects Ronald W. Ankeny.",
+              "href": "candidates/local-history/c/joel-highsmith.html"
+            }
+          ]
+        },
+        {
+          "office": "Town of Shoshoni Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jacob Z. Stetler",
+              "person_id": "WY-STETLER-JACOB-Z",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Shoshoni Mayor & Council page, retrieved 2026-11-24",
+                  "url": "https://townofshoshoni.org/government/mayor-council"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Shoshoni page, retrieved 2026-11-24: Jake Z. Stetler, Council Member, Term: 2023-2027. Official 2026 general: JACOB Z STETLER 120, re-elected.",
+              "href": "candidates/local-history/c/jacob-z-stetler.html"
+            },
+            {
+              "name": "Tammie A. Hardtke",
+              "person_id": "WY-HARDTKE-TAMMIE-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Shoshoni Mayor & Council page, retrieved 2026-11-24",
+                  "url": "https://townofshoshoni.org/government/mayor-council"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Shoshoni page, retrieved 2026-11-24: Tammie Hardtke, Council Member, Term: 2023-2027. Official 2026 general: TAMMIE A. HARDTKE 94, re-elected.",
+              "href": "candidates/local-history/c/tammie-a-hardtke.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Town of Hudson Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Sherry Oler",
+              "person_id": "WY-OLER-SHERRY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Hudson Government page, retrieved 2026-11-24",
+                  "url": "https://www.hudsonwy.org/gov/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Town of Hudson Government page, retrieved 2026-11-24: Mayor Sherry Oler, Term expires 12/31/2026. Official 2026 general elects Marilyn V. Robinson.",
+              "href": "candidates/local-history/c/sherry-oler.html"
+            }
+          ]
+        },
+        {
+          "office": "Town of Hudson Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Zeke Bonella",
+              "person_id": "WY-BONELLA-ZEKE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Hudson Government page, retrieved 2026-11-24",
+                  "url": "https://www.hudsonwy.org/gov/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Town of Hudson Government page, retrieved 2026-11-24: Councilman Zeke Bonella, Term expires 12/31/2026. Official 2026 general elects Daniel (Danny) Svilar and re-elects Helen J. Gordon (vote for 2).",
+              "href": "candidates/local-history/c/zeke-bonella.html"
+            },
+            {
+              "name": "Helen J. Gordon",
+              "person_id": "WY-GORDON-HELEN-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Hudson Government page, retrieved 2026-11-24",
+                  "url": "https://www.hudsonwy.org/gov/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Town of Hudson Government page, retrieved 2026-11-24: Councilwoman Helen Gordon, Term expires 12/31/2026. Official 2026 general: HELEN J GORDON 67, re-elected.",
+              "href": "candidates/local-history/c/helen-j-gordon.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "City of Lander Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "City of Lander Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Town of Pavillion Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Town of Pavillion Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Fremont County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mike McConnell",
+              "person_id": "WY-MCCONNELL-MIKE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #1 Governing Board page, Wayback capture 20261021230108 of https://www.landerschools.org/page/governing-board/ (the live Finalsite page returned a JS challenge wall). Official current board with term expires: Taylor Jacobs, Chairperson, 12/1/2028; Mike McConnell, Vice Chairperson, 12/01/2026; Mara Gans, 12/01/2028; Karen Harms, Treasurer, 12/01/2026; Jared Kail, 12/01/2026; Matt Ayers, 12/01/2026; Aileen Brew, 12/1/2026.",
+                  "url": "https://www.landerschools.org/page/governing-board/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #1 Governing Board page (Wayback 2026-10-21): Mike McConnell, Vice Chairperson, term expires 12/01/2026. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Re-elected on the official 2026 canvass.",
+              "href": "candidates/local-history/c/mike-mcconnell.html"
+            },
+            {
+              "name": "Karen Harms",
+              "person_id": "WY-HARMS-KAREN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #1 Governing Board page, Wayback capture 20261021230108 of https://www.landerschools.org/page/governing-board/ (the live Finalsite page returned a JS challenge wall). Official current board with term expires: Taylor Jacobs, Chairperson, 12/1/2028; Mike McConnell, Vice Chairperson, 12/01/2026; Mara Gans, 12/01/2028; Karen Harms, Treasurer, 12/01/2026; Jared Kail, 12/01/2026; Matt Ayers, 12/01/2026; Aileen Brew, 12/1/2026.",
+                  "url": "https://www.landerschools.org/page/governing-board/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #1 Governing Board page (Wayback 2026-10-21): Karen Harms, term expires 12/01/2026. Not among the official 2026 winners. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Official page expiration is printed 12/01/2026 and is mapped to January 2027 for pairing with 2026 elects.",
+              "href": "candidates/local-history/c/karen-harms.html"
+            },
+            {
+              "name": "Jared Kail",
+              "person_id": "WY-KAIL-JARED",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #1 Governing Board page, Wayback capture 20261021230108 of https://www.landerschools.org/page/governing-board/ (the live Finalsite page returned a JS challenge wall). Official current board with term expires: Taylor Jacobs, Chairperson, 12/1/2028; Mike McConnell, Vice Chairperson, 12/01/2026; Mara Gans, 12/01/2028; Karen Harms, Treasurer, 12/01/2026; Jared Kail, 12/01/2026; Matt Ayers, 12/01/2026; Aileen Brew, 12/1/2026.",
+                  "url": "https://www.landerschools.org/page/governing-board/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #1 Governing Board page (Wayback 2026-10-21): Jared Kail, term expires 12/01/2026. Not among the official 2026 winners. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Official page expiration is printed 12/01/2026 and is mapped to January 2027 for pairing with 2026 elects.",
+              "href": "candidates/local-history/c/jared-kail.html"
+            },
+            {
+              "name": "Matt Ayers",
+              "person_id": "WY-AYERS-MATT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #1 Governing Board page, Wayback capture 20261021230108 of https://www.landerschools.org/page/governing-board/ (the live Finalsite page returned a JS challenge wall). Official current board with term expires: Taylor Jacobs, Chairperson, 12/1/2028; Mike McConnell, Vice Chairperson, 12/01/2026; Mara Gans, 12/01/2028; Karen Harms, Treasurer, 12/01/2026; Jared Kail, 12/01/2026; Matt Ayers, 12/01/2026; Aileen Brew, 12/1/2026.",
+                  "url": "https://www.landerschools.org/page/governing-board/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #1 Governing Board page (Wayback 2026-10-21): Matt Ayers, term expires 12/01/2026. Not among the official 2026 winners. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Official page expiration is printed 12/01/2026 and is mapped to January 2027 for pairing with 2026 elects.",
+              "href": "candidates/local-history/c/matt-ayers.html"
+            },
+            {
+              "name": "Aileen Brew",
+              "person_id": "WY-BREW-AILEEN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #1 Governing Board page, Wayback capture 20261021230108 of https://www.landerschools.org/page/governing-board/ (the live Finalsite page returned a JS challenge wall). Official current board with term expires: Taylor Jacobs, Chairperson, 12/1/2028; Mike McConnell, Vice Chairperson, 12/01/2026; Mara Gans, 12/01/2028; Karen Harms, Treasurer, 12/01/2026; Jared Kail, 12/01/2026; Matt Ayers, 12/01/2026; Aileen Brew, 12/1/2026.",
+                  "url": "https://www.landerschools.org/page/governing-board/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #1 Governing Board page (Wayback 2026-10-21): Aileen Brew, term expires 12/01/2026. Not among the official 2026 winners. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Official page expiration is printed 12/01/2026 and is mapped to January 2027 for pairing with 2026 elects.",
+              "href": "candidates/local-history/c/aileen-brew.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fremont County School District #2 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Libby Littler",
+              "person_id": "WY-LITTLER-LIBBY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #2 Governing Board page, retrieved 2026-11-24: Janean Sellers, Chair; Jill Judd, Vice Chair; Libby Littler, Treasurer; Shawn Hess, Clerk; Nicole Polmanteer; Judy Rogers; Leah Vermeire.",
+                  "url": "https://www.fremont2.org/governing-board"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #2 Governing Board page: Libby Littler. Not a named official 2024 four-year winner. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Littler and Rogers were re-elected on the official 2026 canvass; Judd and Hess were not.",
+              "href": "candidates/local-history/c/libby-littler.html"
+            },
+            {
+              "name": "Judy Rogers",
+              "person_id": "WY-ROGERS-JUDY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #2 Governing Board page, retrieved 2026-11-24: Janean Sellers, Chair; Jill Judd, Vice Chair; Libby Littler, Treasurer; Shawn Hess, Clerk; Nicole Polmanteer; Judy Rogers; Leah Vermeire.",
+                  "url": "https://www.fremont2.org/governing-board"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #2 Governing Board page: Judy Rogers. Not a named official 2024 four-year winner. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Littler and Rogers were re-elected on the official 2026 canvass; Judd and Hess were not.",
+              "href": "candidates/local-history/c/judy-rogers.html"
+            },
+            {
+              "name": "Jill Judd",
+              "person_id": "WY-JUDD-JILL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #2 Governing Board page, retrieved 2026-11-24: Janean Sellers, Chair; Jill Judd, Vice Chair; Libby Littler, Treasurer; Shawn Hess, Clerk; Nicole Polmanteer; Judy Rogers; Leah Vermeire.",
+                  "url": "https://www.fremont2.org/governing-board"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #2 Governing Board page: Jill Judd. Not a named official 2024 four-year winner. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Littler and Rogers were re-elected on the official 2026 canvass; Judd and Hess were not.",
+              "href": "candidates/local-history/c/jill-judd.html"
+            },
+            {
+              "name": "Shawn Hess",
+              "person_id": "WY-HESS-SHAWN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #2 Governing Board page, retrieved 2026-11-24: Janean Sellers, Chair; Jill Judd, Vice Chair; Libby Littler, Treasurer; Shawn Hess, Clerk; Nicole Polmanteer; Judy Rogers; Leah Vermeire.",
+                  "url": "https://www.fremont2.org/governing-board"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #2 Governing Board page: Shawn Hess. Not a named official 2024 four-year winner. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Littler and Rogers were re-elected on the official 2026 canvass; Judd and Hess were not.",
+              "href": "candidates/local-history/c/shawn-hess.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fremont County School District #14 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Sanford D. Friday",
+              "person_id": "WY-FRIDAY-SANFORD-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #14 Highbond portal current member widget, retrieved 2026-11-24 (portal lists meetings through November 11, 2026): Arline Trosper, Rich Singer, Tessa Redman, Carlton Underwood, Sanford Friday.",
+                  "url": "https://fremont14-k12-wy.community.highbond.com/Portal/MeetingInformation.aspx?Id=340"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #14 Highbond current member widget: Sanford Friday. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Re-elected on the official 2026 canvass (Sanford D. Friday).",
+              "href": "candidates/local-history/c/sanford-d-friday.html"
+            },
+            {
+              "name": "Arline Trosper",
+              "person_id": "WY-TROSPER-ARLINE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #14 Highbond portal current member widget, retrieved 2026-11-24 (portal lists meetings through November 11, 2026): Arline Trosper, Rich Singer, Tessa Redman, Carlton Underwood, Sanford Friday.",
+                  "url": "https://fremont14-k12-wy.community.highbond.com/Portal/MeetingInformation.aspx?Id=340"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #14 Highbond current member widget: Arline Trosper. Kept distinct from 2026 elect Willena Rosie Trosper. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium).",
+              "href": "candidates/local-history/c/arline-trosper.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fremont County School District #21 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tex LeClair",
+              "person_id": "WY-LECLAIR-TEX",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #21 Fort Washakie High School 2025-2026 Student and Parent Handbook, FCSD #21 Board of Trustees: Tex LeClair, Chairman; Kay Ferris, Vice Chairman; Carla Mann, Treasurer; Bonnie Washakie, Member; David Snyder, Member. The official handbook covers the 2025-2026 school year; it is used as the official board roster and is cross-checked with the official 2024 canvass.",
+                  "url": "https://www.fortwashakieschool.com/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #21 2025-2026 handbook: Tex LeClair, Chairman. Not a named official 2024 winner. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). The official handbook is for the 2025-2026 school year and is the latest official board roster collected.",
+              "href": "candidates/local-history/c/tex-leclair.html"
+            },
+            {
+              "name": "Carla Mann",
+              "person_id": "WY-MANN-CARLA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #21 Fort Washakie High School 2025-2026 Student and Parent Handbook, FCSD #21 Board of Trustees: Tex LeClair, Chairman; Kay Ferris, Vice Chairman; Carla Mann, Treasurer; Bonnie Washakie, Member; David Snyder, Member. The official handbook covers the 2025-2026 school year; it is used as the official board roster and is cross-checked with the official 2024 canvass.",
+                  "url": "https://www.fortwashakieschool.com/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #21 2025-2026 handbook: Carla Mann, Treasurer. Not a named official 2024 winner. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium).",
+              "href": "candidates/local-history/c/carla-mann.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fremont County School District #38 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lionel Bell",
+              "person_id": "WY-BELL-LIONEL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #38 School Board page, retrieved 2026-11-24: Lionel Bell, Chair; Becky Bell, Vice-Chair; Billie Spoonhunter, Clerk; John Goggles, Treasurer; Rose Guerue, Trustee.",
+                  "url": "https://www.arapahoeschools.com/page/school-board"
+                },
+                {
+                  "label": "Official Fremont County 2024 General Election 77-page Official Canvass Results, November 7, 2024 (Custom Table Report / OFFICIAL CANVASS RESULTS November 7, 2024, and Summary Results Report / OFFICIAL WRITE-IN REPORT CANVASS 11-7-2024; footer Fremont County General Election Precinct Summary CANVASS REPORT - 11/07/2024 12:26PM). Face of the file is official. The official elections website labels it as of November 5th, 2024; that website wording is flagged.",
+                  "url": "https://fremontcountywy.gov/Government/Clerk/Elections/2024%20Election%20Results/General%202024%20Official%20Results%20Abstract%20(1).pdf"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #38 School Board page: Lionel Bell, Chair. Official 2024 canvass, Arapahoe District #38 (vote for 3): L SPOONHUNTER 155, GOGGLES 150, BELL 141, P MOSS 138, OLDMAN 114, I MOSS 95, write-ins 59, contest totals 1,356. The official canvass last name BELL does not identify whether Lionel or Becky Bell was the 2024 winner; both appear on the official current board and are listed from the official board page. Term start for the 2024 class is 2025-01-06 where the seat identity is clear (John Goggles); this row uses the official board page as the current-holder source.",
+              "href": "candidates/local-history/c/lionel-bell.html"
+            },
+            {
+              "name": "Becky Bell",
+              "person_id": "WY-BELL-BECKY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #38 School Board page, retrieved 2026-11-24: Lionel Bell, Chair; Becky Bell, Vice-Chair; Billie Spoonhunter, Clerk; John Goggles, Treasurer; Rose Guerue, Trustee.",
+                  "url": "https://www.arapahoeschools.com/page/school-board"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #38 School Board page: Becky Bell, Vice-Chair. Official 2024 canvass last name BELL does not identify which Bell won; both official current members are listed. Official 2022 canvass was not pulled.",
+              "href": "candidates/local-history/c/becky-bell.html"
+            },
+            {
+              "name": "Rose Guerue",
+              "person_id": "WY-GUERUE-ROSE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Fremont County School District #38 School Board page, retrieved 2026-11-24: Lionel Bell, Chair; Becky Bell, Vice-Chair; Billie Spoonhunter, Clerk; John Goggles, Treasurer; Rose Guerue, Trustee.",
+                  "url": "https://www.arapahoeschools.com/page/school-board"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official FCSD #38 School Board page: Rose Guerue, Trustee. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Official sources do not identify which of the current five seats are succeeded by the official 2026 elects.",
+              "href": "candidates/local-history/c/rose-guerue.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fremont County School District #6 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fremont County School District #24 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fremont County School District #25 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Central Wyoming College Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Paula Hunker",
+              "person_id": "WY-HUNKER-PAULA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Central Wyoming College Board of Trustees page, retrieved 2026-11-24: Paula Hunker, Chair; Craig Tolman, Vice Chair; Shana Tarter, Secretary; Carlton Underwood, Treasurer; Alma Law; Gay Hughes; Ernie Over. The official directory supplies subdistrict labels; the live board page is preferred for officer titles. Credentials such as Dr. are not printed.",
+                  "url": "https://www.cwc.edu/leadership/board-of-trustees/"
+                },
+                {
+                  "label": "Official Central Wyoming College directory, retrieved 2026-11-24 (subdistrict labels).",
+                  "url": "https://www.cwc.edu/about/directory/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official CWC Board of Trustees page: Paula Hunker, Chair. Official directory lists a Lander subdistrict. Official 2022 canvass was not pulled; term start is the standard post-2022 January date (medium). Official sources do not identify which current Lander-area trustee is succeeded by Jennifer Pryor.",
+              "href": "candidates/local-history/c/paula-hunker.html"
+            },
+            {
+              "name": "Shana Tarter",
+              "person_id": "WY-TARTER-SHANA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Central Wyoming College Board of Trustees page, retrieved 2026-11-24: Paula Hunker, Chair; Craig Tolman, Vice Chair; Shana Tarter, Secretary; Carlton Underwood, Treasurer; Alma Law; Gay Hughes; Ernie Over. The official directory supplies subdistrict labels; the live board page is preferred for officer titles. Credentials such as Dr. are not printed.",
+                  "url": "https://www.cwc.edu/leadership/board-of-trustees/"
+                },
+                {
+                  "label": "Official Central Wyoming College directory, retrieved 2026-11-24 (subdistrict labels).",
+                  "url": "https://www.cwc.edu/about/directory/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official CWC Board of Trustees page: Shana Tarter, Secretary (Lander subdistrict in the official directory). Official 2022 canvass was not pulled (medium).",
+              "href": "candidates/local-history/c/shana-tarter.html"
+            },
+            {
+              "name": "Craig Tolman",
+              "person_id": "WY-TOLMAN-CRAIG",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Central Wyoming College Board of Trustees page, retrieved 2026-11-24: Paula Hunker, Chair; Craig Tolman, Vice Chair; Shana Tarter, Secretary; Carlton Underwood, Treasurer; Alma Law; Gay Hughes; Ernie Over. The official directory supplies subdistrict labels; the live board page is preferred for officer titles. Credentials such as Dr. are not printed.",
+                  "url": "https://www.cwc.edu/leadership/board-of-trustees/"
+                },
+                {
+                  "label": "Official Central Wyoming College directory, retrieved 2026-11-24 (subdistrict labels).",
+                  "url": "https://www.cwc.edu/about/directory/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official CWC Board of Trustees page: Craig Tolman, Vice Chair (Riverton-Shoshoni subdistrict in the official directory). Re-elected on the official 2026 canvass, CWC Sub-Dist #2. Official 2022 canvass was not pulled (medium).",
+              "href": "candidates/local-history/c/craig-tolman.html"
+            },
+            {
+              "name": "Alma Law",
+              "person_id": "WY-LAW-ALMA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Central Wyoming College Board of Trustees page, retrieved 2026-11-24: Paula Hunker, Chair; Craig Tolman, Vice Chair; Shana Tarter, Secretary; Carlton Underwood, Treasurer; Alma Law; Gay Hughes; Ernie Over. The official directory supplies subdistrict labels; the live board page is preferred for officer titles. Credentials such as Dr. are not printed.",
+                  "url": "https://www.cwc.edu/leadership/board-of-trustees/"
+                },
+                {
+                  "label": "Official Central Wyoming College directory, retrieved 2026-11-24 (subdistrict labels).",
+                  "url": "https://www.cwc.edu/about/directory/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official CWC Board of Trustees page: Alma Law (Riverton-Shoshoni subdistrict in the official directory). Official sources do not identify whether Law or Hughes is succeeded by Robert Hussa in Sub-Dist #2. Official 2022 canvass was not pulled (medium).",
+              "href": "candidates/local-history/c/alma-law.html"
+            },
+            {
+              "name": "Gay Hughes",
+              "person_id": "WY-HUGHES-GAY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Central Wyoming College Board of Trustees page, retrieved 2026-11-24: Paula Hunker, Chair; Craig Tolman, Vice Chair; Shana Tarter, Secretary; Carlton Underwood, Treasurer; Alma Law; Gay Hughes; Ernie Over. The official directory supplies subdistrict labels; the live board page is preferred for officer titles. Credentials such as Dr. are not printed.",
+                  "url": "https://www.cwc.edu/leadership/board-of-trustees/"
+                },
+                {
+                  "label": "Official Central Wyoming College directory, retrieved 2026-11-24 (subdistrict labels).",
+                  "url": "https://www.cwc.edu/about/directory/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official CWC Board of Trustees page: Gay Hughes (Riverton-Shoshoni subdistrict in the official directory). Official 2022 canvass was not pulled (medium).",
+              "href": "candidates/local-history/c/gay-hughes.html"
+            },
+            {
+              "name": "Carlton Underwood",
+              "person_id": "WY-UNDERWOOD-CARLTON",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Central Wyoming College Board of Trustees page, retrieved 2026-11-24: Paula Hunker, Chair; Craig Tolman, Vice Chair; Shana Tarter, Secretary; Carlton Underwood, Treasurer; Alma Law; Gay Hughes; Ernie Over. The official directory supplies subdistrict labels; the live board page is preferred for officer titles. Credentials such as Dr. are not printed.",
+                  "url": "https://www.cwc.edu/leadership/board-of-trustees/"
+                },
+                {
+                  "label": "Official Central Wyoming College directory, retrieved 2026-11-24 (subdistrict labels).",
+                  "url": "https://www.cwc.edu/about/directory/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official CWC Board of Trustees page: Carlton Underwood, Treasurer (Reservation subdistrict in the official directory). Credentials are not printed. The same official name is a current FCSD #14 trustee. Official 2022 canvass was not pulled (medium).",
+              "href": "candidates/local-history/c/carlton-underwood.html"
+            },
+            {
+              "name": "Ernie Over",
+              "person_id": "WY-OVER-ERNIE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Central Wyoming College Board of Trustees page, retrieved 2026-11-24: Paula Hunker, Chair; Craig Tolman, Vice Chair; Shana Tarter, Secretary; Carlton Underwood, Treasurer; Alma Law; Gay Hughes; Ernie Over. The official directory supplies subdistrict labels; the live board page is preferred for officer titles. Credentials such as Dr. are not printed.",
+                  "url": "https://www.cwc.edu/leadership/board-of-trustees/"
+                },
+                {
+                  "label": "Official Central Wyoming College directory, retrieved 2026-11-24 (subdistrict labels).",
+                  "url": "https://www.cwc.edu/about/directory/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official CWC Board of Trustees page: Ernie Over (Dubois-Crowheart subdistrict in the official directory). Official 2022 canvass was not pulled (medium).",
+              "href": "candidates/local-history/c/ernie-over.html"
+            }
+          ]
+        },
+        {
+          "office": "Dubois Cemetery Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Mountain View Cemetery Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Shoshoni-Lysite Cemetery Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Dubois-Crowheart Conservation District Supervisor, At Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Lower Wind River Conservation District Supervisor, Rural",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Lower Wind River Conservation District Supervisor, Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Popo Agie Conservation District Supervisor, Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Dubois Fire District Director, Sub-District #2",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Dubois Fire District Director, Sub-District #3",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Dubois Fire District Director, Sub-District #5",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fremont County Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Jeffrey City Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Lander Senior Citizens District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Riverton Senior Citizens District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Shoshoni Senior Citizens District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 9th Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jason M. Conder",
+              "person_id": "WY-CONDER-JASON-M",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch 9th Judicial District names already used from official court pages in the Teton and Sublette histories (District Judge Jason M. Conder; Circuit Judges Erin E. Weisman and Jefferson Boone Coombs).",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch 9th Judicial District (Fremont) names Jason M. Conder, already used from official court pages in the Sublette and Teton histories. Official 2026 Fremont clerk abstract, JDG A DIST CRT CONDER: YES 8,527, NO 2,343, contest totals 13,236.",
+              "href": "candidates/local-history/c/jason-m-conder.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 9th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Erin E. Weisman",
+              "person_id": "WY-WEISMAN-ERIN-E",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch 9th Judicial District names already used from official court pages in the Teton and Sublette histories (District Judge Jason M. Conder; Circuit Judges Erin E. Weisman and Jefferson Boone Coombs).",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official court page name Erin E. Weisman, already used in the official Teton and Sublette histories. Official 2026 Fremont clerk abstract, CIRCUIT CRT WEISMAN: YES 8,229, NO 2,355.",
+              "href": "candidates/local-history/c/erin-e-weisman.html"
+            },
+            {
+              "name": "Jefferson Boone Coombs",
+              "person_id": "WY-COOMBS-JEFFERSON-BOONE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch 9th Judicial District names already used from official court pages in the Teton and Sublette histories (District Judge Jason M. Conder; Circuit Judges Erin E. Weisman and Jefferson Boone Coombs).",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official court page name Jefferson Boone Coombs, already used in the official Teton and Sublette histories. Official 2026 Fremont clerk abstract, CIRCUIT CRT COOMBS: YES 8,014, NO 2,496.",
+              "href": "candidates/local-history/c/jefferson-boone-coombs.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 9th Judicial District judges (serving Fremont with Sublette and Teton). Full names follow official court pages already used in the Sublette and Teton histories. Official 2026 Fremont clerk abstract named-retention YES/NO totals are recorded for Jason M. Conder, Erin E. Weisman, and Jefferson Boone Coombs.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/fremont/terms.json",
+  "retrieved": "2026-11-24"
+}

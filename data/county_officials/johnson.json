@@ -2,7 +2,7 @@
   "county": "Johnson",
   "county_number": 16,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_16_Johnson_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -10,139 +10,83 @@
   "groups": [
     {
       "id": "state-senate",
-      "title": "State Senate",
+      "title": "State Senate offices",
+      "label": "Wyoming Senate",
       "offices": [
         {
           "office": "Senate District 22 (S22)",
           "layout": "office-and-name",
-          "note": "Also covers Sheridan.",
           "holders": [
             {
               "name": "Barry Crago",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2078"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_16_Johnson_113_v1.1.pdf"
-                }
-              ],
+              "person_id": "WY-CRAGO-BARRY",
               "party": "R",
-              "href": "officials/crago.html"
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/barry-crago.html",
+              "notes": "Official 2024 SOS statewide Senate summary, Senate District 22: Barry Crago (R) Total 8,599. Official Johnson share 4,135; official Sheridan 4,464."
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary, Senate District 22: Barry Crago (R) Total 8,599. Official Johnson share 4,135; official Sheridan 4,464. Official 2024 Johnson clerk summary (OFFICAL typo on the header; Precincts Complete 16 of 16) records the official Johnson share as Barry Crago 4,135. Off-cycle in 2026."
         }
       ]
     },
     {
       "id": "state-house",
-      "title": "State House",
+      "title": "State House offices",
+      "label": "Wyoming House",
       "offices": [
         {
           "office": "House District 40 (H40)",
           "layout": "office-and-name",
-          "note": "Also covers Sheridan.",
           "holders": [
             {
-              "name": "Marilyn Connolly",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2127"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_16_Johnson_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H40, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
+              "name": "Marilyn F Connolly",
+              "person_id": "WY-CONNOLLY-MARILYN",
               "party": "R",
-              "href": "officials/connolly.html"
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/marilyn-f-connolly.html",
+              "notes": "Official 2026 SOS statewide House summary, House District 40: Marilyn Connolly (R) Total 3,677. Official Johnson share 3,122; official Sheridan 555."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary, House District 40: Marilyn Connolly (R) Total 3,677. Official Johnson share 3,122; official Sheridan 555. Official 2026 Johnson clerk canvass (OFFICIAL RESULTS, 16 of 16 precincts complete) records Marilyn Connolly 3,122 in Johnson County. Display name Marilyn F Connolly follows the existing official-history person already used in Sheridan."
         }
       ]
     },
     {
       "id": "county",
       "title": "County Offices",
+      "label": "County offices",
       "offices": [
         {
-          "office": "County Commissioners",
+          "office": "County Commissioner",
           "layout": "heading-then-names",
           "holders": [
             {
-              "name": "Bill Novotny",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County commissioners page",
-                  "url": "https://www.johnsoncowy.gov/"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/johnson.html"
-                },
-                {
-                  "label": "Johnson County official general results, re-elected",
-                  "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "name": "Bill Novotny III",
+              "person_id": "WY-NOVOTNY-BILL-III",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/bill-novotny-iii.html",
+              "notes": "Re-elected; official 2026 general, County Commissioners (vote for 2): Bill Novotny 2,616, Jeff Shelley 2,803."
             },
             {
               "name": "Jeff Shelley",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County commissioners page",
-                  "url": "https://www.johnsoncowy.gov/"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/johnson.html"
-                },
-                {
-                  "label": "Johnson County official general results, re-elected",
-                  "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-SHELLEY-JEFF",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jeff-shelley.html",
+              "notes": "Re-elected; official 2026 general, County Commissioners (vote for 2): Jeff Shelley 2,803, Bill Novotny 2,616."
             },
             {
               "name": "Steve Kozisek",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County commissioners page",
-                  "url": "https://www.johnsoncowy.gov/"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/johnson.html"
-                }
-              ]
+              "person_id": "WY-KOZISEK-STEVE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/steve-kozisek.html",
+              "notes": "Official 2024 general, County Commissioner (vote for 1): Steve Kozisek 4,309. Official commissioners page, retrieved 2026-11-24, lists him as Commissioner."
             }
-          ]
+          ],
+          "note": "Three-member board. Official 2026 general (vote for 2): Bill Novotny 2,616 and Jeff Shelley 2,803, taking office January 2027. Official 2024 general (vote for 1): Steve Kozisek 4,309, term through January 2029. Official commissioners page, retrieved 2026-11-24, lists Novotny as Chairman and Shelley as Vice Chair."
         },
         {
           "office": "County Clerk",
@@ -150,34 +94,20 @@
           "holders": [
             {
               "name": "Jackie Camino",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County clerk page",
-                  "url": "https://www.johnsoncowy.gov/departments/clerk"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/johnson.html"
-                }
-              ],
+              "person_id": "WY-CAMINO-JACKIE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/jackie-camino.html",
+              "notes": "Official 2024 general, County Clerk: Jackie Camino 4,217. Official clerk page, retrieved 2026-11-24, still names Jackie Camino. Official 2026 general names Becky Rodriguez as the next clerk (takes office January 2027). Official 2022, 2024, and 2026 canvasses each have a clerk race; that unusual sequence is recorded as printed and is not resolved beyond the official totals.",
               "succeeding": {
                 "name": "Becky Rodriguez",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Johnson County official general results, County Clerk",
-                    "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "person_id": "WY-RODRIGUEZ-BECKY",
+                "party": "",
+                "takes_office": "January"
               }
             }
-          ]
+          ],
+          "note": "Official clerk page, retrieved 2026-11-24, names Jackie Camino (official 2024 general, 4,217). Official 2026 general: Becky Rodriguez 3,185, taking office January 2027. Official 2022, 2024, and 2026 canvasses each include a clerk race; that sequence is recorded as printed."
         },
         {
           "office": "County Treasurer",
@@ -185,62 +115,35 @@
           "holders": [
             {
               "name": "Carla Bishop",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County treasurer page",
-                  "url": "https://www.johnsoncowy.gov/departments/treasurer"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/johnson.html"
-                }
-              ],
+              "person_id": "WY-BISHOP-CARLA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/carla-bishop.html",
+              "notes": "Official 2022 general, County Treasurer: Carla Bishop 3,451. Official treasurer page, retrieved 2026-11-24, still names Carla Bishop.",
               "succeeding": {
                 "name": "Brittnee Borgialli",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Johnson County official general results, County Treasurer",
-                    "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "person_id": "WY-BORGIALLI-BRITTNEE",
+                "party": "",
+                "takes_office": "January"
               }
             }
-          ]
+          ],
+          "note": "Official treasurer page, retrieved 2026-11-24, names Carla Bishop (official 2022 general, 3,451). Official 2026 general: Brittnee Borgialli 3,249, taking office January 2027."
         },
         {
           "office": "County Assessor",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Stephen Esponda",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County assessor page",
-                  "url": "https://www.johnsoncowy.gov/departments/assessor"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/johnson.html"
-                },
-                {
-                  "label": "Johnson County official general results, re-elected",
-                  "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "name": "Steve Esponda",
+              "person_id": "WY-ESPONDA-STEVE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/steve-esponda.html",
+              "notes": "Re-elected; official 2026 general, County Assessor: Stephen Esponda 3,165. Display name Steve Esponda follows the official assessor page."
             }
-          ]
+          ],
+          "note": "Official assessor page, retrieved 2026-11-24, names Steve Esponda. Official 2022 and 2026 general ballots use Stephen Esponda (3,456 and 3,165)."
         },
         {
           "office": "County Sheriff",
@@ -248,62 +151,35 @@
           "holders": [
             {
               "name": "Rod Odenbach",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County sheriff page",
-                  "url": "https://www.johnsoncowy.gov/departments/sheriff"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/johnson.html"
-                }
-              ],
+              "person_id": "WY-ODENBACH-ROD",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/rod-odenbach.html",
+              "notes": "Official 2022 general, County Sheriff: Rod Odenbach 3,309. Official sheriff page, retrieved 2026-11-24, still names Sheriff Rod Odenbach.",
               "succeeding": {
                 "name": "Adrian Keeler",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Johnson County official general results, County Sheriff",
-                    "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "person_id": "WY-KEELER-ADRIAN",
+                "party": "",
+                "takes_office": "January"
               }
             }
-          ]
+          ],
+          "note": "Official sheriff page, retrieved 2026-11-24, names Sheriff Rod Odenbach (official 2022 general, 3,309). Official 2026 general: Adrian Keeler 3,126, taking office January 2027."
         },
         {
           "office": "County Attorney",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Tucker J. Ruby",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County attorney page",
-                  "url": "https://www.johnsoncowy.gov/departments/attorney"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/johnson.html"
-                },
-                {
-                  "label": "Johnson County official general results, re-elected",
-                  "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "name": "Tucker Ruby",
+              "person_id": "WY-RUBY-TUCKER",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/tucker-ruby.html",
+              "notes": "Re-elected; official 2026 general, County Attorney: Tucker J. Ruby 3,106. Display name Tucker Ruby follows the official attorney page."
             }
-          ]
+          ],
+          "note": "Official attorney page, retrieved 2026-11-24, names Tucker Ruby. Official 2022 and 2026 general ballots use Tucker J. Ruby (3,432 and 3,106)."
         },
         {
           "office": "Clerk of District Court",
@@ -311,55 +187,726 @@
           "holders": [
             {
               "name": "Paige Rhoads",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County clerk of district court page",
-                  "url": "https://www.johnsoncowy.gov/departments/clerk-of-district-court"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/johnson.html"
-                },
-                {
-                  "label": "Johnson County official general results, re-elected",
-                  "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-RHOADS-PAIGE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/paige-rhoads.html",
+              "notes": "Re-elected; official 2026 general, Clerk of District Court: Paige Rhoads 3,288."
             }
-          ]
+          ],
+          "note": "Official CDC page, retrieved 2026-11-24, names Paige Rhoads. Official 2022 general 3,594; official 2026 general 3,288."
         },
         {
           "office": "County Coroner",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Shawn M. Sullivan",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Johnson County coroner page",
-                  "url": "https://www.johnsoncowy.gov/departments/coroner"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/johnson.html"
-                },
-                {
-                  "label": "Johnson County official general results, re-elected",
-                  "url": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "name": "Shawn Sullivan",
+              "person_id": "WY-SULLIVAN-SHAWN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/shawn-sullivan.html",
+              "notes": "Re-elected; official 2026 general, County Coroner: Shawn M. Sullivan 3,291. Display name Shawn Sullivan follows the official coroner page."
             }
-          ]
+          ],
+          "note": "Official coroner page, retrieved 2026-11-24, names Shawn Sullivan. Official 2022 and 2026 general ballots use Shawn M. Sullivan (3,479 and 3,291)."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "label": "Municipal offices",
+      "offices": [
+        {
+          "office": "City of Buffalo Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shane J. Schrader",
+              "person_id": "WY-SCHRADER-SHANE-J",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/shane-j-schrader.html",
+              "notes": "Re-elected; official 2026 general, Mayor: Shane James Schrader 847, Bob Hancock 711. Display name Shane J. Schrader follows the official city page and the official 2022 ballot."
+            }
+          ],
+          "note": "Official City of Buffalo Mayor's Office page, retrieved 2026-11-24, names Mayor Shane J. Schrader. Official 2022 general: Shane J Schrader 1,097. Official 2026 general: Shane James Schrader 847, Bob Hancock 711."
+        },
+        {
+          "office": "City of Buffalo Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Myra Camino",
+              "person_id": "WY-CAMINO-MYRA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/myra-camino.html",
+              "notes": "Re-elected; official 2026 general, City Council Member (vote for 2): Myra Camino 1,100, Craig Rucki 595."
+            },
+            {
+              "name": "Mike Madden",
+              "person_id": "WY-MADDEN-MIKE-COUNCIL",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/mike-madden-buffalo-council.html",
+              "notes": "Official 2022 general, City Council Member (vote for 2): Mike Madden 769, Myra Camino 1,135. Distinct from historical House District 40 member Michael Madden unless an official source identifies them as the same person.",
+              "succeeding": {
+                "name": "Craig Rucki",
+                "person_id": "WY-RUCKI-CRAIG",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Wes Haskins",
+              "person_id": "WY-HASKINS-WES",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/wes-haskins.html",
+              "notes": "Official 2024 general, City Council Member (vote for 2): Wes Haskins 1,339, Richard \"Scott\" Madsen 1,166."
+            },
+            {
+              "name": "Scott Madsen",
+              "person_id": "WY-MADSEN-SCOTT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/scott-madsen.html",
+              "notes": "Official 2024 general, City Council Member (vote for 2): Richard \"Scott\" Madsen 1,166, Wes Haskins 1,339. Display name Scott Madsen follows the official City of Buffalo council page."
+            }
+          ],
+          "note": "Official 2024 general (vote for 2): Wes Haskins 1,339 and Richard \"Scott\" Madsen 1,166, terms through January 2029. Official 2022 general (vote for 2): Myra Camino 1,135 and Mike Madden 769, terms through January 2027. Official 2026 general (vote for 2): Myra Camino 1,100 (re-elected) and Craig Rucki 595, taking office January 2027. Official city council page, retrieved 2026-11-24, lists Myra Camino, Wes Haskins, Mike Madden, and Scott Madsen."
+        },
+        {
+          "office": "Town of Kaycee Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tom Knapp",
+              "person_id": "WY-KNAPP-TOM",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/tom-knapp.html",
+              "notes": "Official Town of Kaycee Town Council page, retrieved 2026-11-24: Tom Knapp, Mayor, Term: 2026–2030. Official page says term spans are the four-year terms each seat is elected for. Kaycee mayor/council were not on the official November 2026 Johnson County general canvass. Exact term-start day is not printed (medium)."
+            }
+          ],
+          "note": "Official Town of Kaycee Town Council page, retrieved 2026-11-24: Tom Knapp, Mayor, Term: 2026–2030. Kaycee offices were not on the official November 2026 Johnson County general canvass."
+        },
+        {
+          "office": "Town of Kaycee Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Pat Foster",
+              "person_id": "WY-FOSTER-PAT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/pat-foster.html",
+              "notes": "Official Town of Kaycee Town Council page, retrieved 2026-11-24: Pat Foster, Vice Mayor, Term: 2024–2028. Exact term-start day is not printed (medium)."
+            },
+            {
+              "name": "Bob Furnival",
+              "person_id": "WY-FURNIVAL-BOB",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/bob-furnival.html",
+              "notes": "Official Town of Kaycee Town Council page, retrieved 2026-11-24: Bob Furnival, Council, Term: 2024–2028. Exact term-start day is not printed (medium)."
+            },
+            {
+              "name": "Alvis Davis",
+              "person_id": "WY-DAVIS-ALVIS",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/alvis-davis.html",
+              "notes": "Official Town of Kaycee Town Council page, retrieved 2026-11-24: Alvis Davis, Council, Term: 2026–2030. Exact term-start day is not printed (medium)."
+            },
+            {
+              "name": "Jennifer Lompe",
+              "person_id": "WY-LOMPE-JENNIFER",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jennifer-lompe.html",
+              "notes": "Official Town of Kaycee Town Council page, retrieved 2026-11-24: Jennifer Lompe, Council, Term: 2026–2030. Exact term-start day is not printed (medium)."
+            }
+          ],
+          "note": "Official Town of Kaycee Town Council page, retrieved 2026-11-24: Pat Foster, Vice Mayor, Term: 2024–2028; Bob Furnival, Term: 2024–2028; Alvis Davis, Term: 2026–2030; Jennifer Lompe, Term: 2026–2030. Official page says those are four-year elective terms. Exact term-start days are not printed."
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "label": "School boards",
+      "offices": [
+        {
+          "office": "Johnson County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Travis D. Pearson",
+              "person_id": "WY-PEARSON-TRAVIS-D",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/travis-d-pearson.html",
+              "notes": "Re-elected; Official 2026 general, School Board Trustee at Large (vote for 4): Travis D. Pearson 2,427."
+            },
+            {
+              "name": "Marcia Goddard",
+              "person_id": "WY-GODDARD-MARCIA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/marcia-goddard.html",
+              "notes": "Official 2022 general, School Board Trustee at Large (vote for 4): Marcia Goddard 2,100. Distinct from any similarly named person unless an official source identifies them as the same.",
+              "succeeding": {
+                "name": "Regg Hagge",
+                "person_id": "WY-HAGGE-REGG",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Dave Belus",
+              "person_id": "WY-BELUS-DAVE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/dave-belus.html",
+              "notes": "Official 2022 general, School Board Trustee at Large (vote for 4): Dave Belus 2,010. Distinct from any similarly named person unless an official source identifies them as the same.",
+              "succeeding": {
+                "name": "Casey Curtright",
+                "person_id": "WY-CURTRIGHT-CASEY",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Casey Rodriguez",
+              "person_id": "WY-RODRIGUEZ-CASEY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/casey-rodriguez.html",
+              "notes": "Official 2022 general, School Board Trustee at Large (vote for 4): Casey Rodriguez 1,890. Distinct from any similarly named person unless an official source identifies them as the same.",
+              "succeeding": {
+                "name": "Bryan Bergstresser",
+                "person_id": "WY-BERGSTRESSER-BRYAN",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Lynette Fox",
+              "person_id": "WY-FOX-LYNETTE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/lynette-fox.html",
+              "notes": "Official 2024 general, School Board Trustee at Large (vote for 5): Lynette Fox 3,013."
+            },
+            {
+              "name": "Daniel \"Noodle\" Escoz",
+              "person_id": "WY-ESCOZ-DANIEL",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/daniel-noodle-escoz.html",
+              "notes": "Official 2024 general, School Board Trustee at Large (vote for 5): Daniel \"Noodle\" Escoz 2,800."
+            },
+            {
+              "name": "Benito A Maya",
+              "person_id": "WY-MAYA-BENITO-A",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/benito-a-maya.html",
+              "notes": "Official 2024 general, School Board Trustee at Large (vote for 5): Benito A Maya 2,698."
+            },
+            {
+              "name": "McKenzi Wright",
+              "person_id": "WY-WRIGHT-MCKENZI",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/mckenzi-wright.html",
+              "notes": "Official 2024 general, School Board Trustee at Large (vote for 5): McKenzi Wright 2,358."
+            },
+            {
+              "name": "Reed Davidson",
+              "person_id": "WY-DAVIDSON-REED",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/reed-davidson.html",
+              "notes": "Official 2024 general, School Board Trustee at Large (vote for 5): Reed Davidson 2,332."
+            }
+          ],
+          "note": "Official ballot title School Board Trustee at Large. Official 2022 general (vote for 4, terms through January 2027): Marcia Goddard 2,100, Dave Belus 2,010, Casey Rodriguez 1,890, Travis D. Pearson 1,788. Official 2024 general (vote for 5, terms through January 2029): Lynette Fox 3,013, Daniel \"Noodle\" Escoz 2,800, Benito A Maya 2,698, McKenzi Wright 2,358, Reed Davidson 2,332. Official 2026 general (vote for 4, taking office January 2027): Travis D. Pearson 2,427, Bryan Bergstresser 2,144, Casey Curtright 2,133, Regg Hagge 2,048. Casey Curtright is not combined with Casey Rodriguez without an official identification. Official jcsd1.us board page is behind a JavaScript challenge and was not used."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "label": "Special districts",
+      "offices": [
+        {
+          "office": "Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Luke Goddard",
+              "person_id": "WY-GODDARD-LUKE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/luke-goddard.html",
+              "notes": "Re-elected; official 2026 general, Cemetery Dist Trustee (vote for 3): Luke Goddard 2,643."
+            },
+            {
+              "name": "Sheila Camino",
+              "person_id": "WY-CAMINO-SHEILA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/sheila-camino.html",
+              "notes": "Re-elected; official 2026 general, Cemetery Dist Trustee (vote for 3): Sheila Camino 2,608."
+            },
+            {
+              "name": "Liz Graves",
+              "person_id": "WY-GRAVES-ELIZABETH",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/liz-graves.html",
+              "notes": "Re-elected; official 2026 general, Cemetery Dist Trustee (vote for 3): Liz Graves 2,552."
+            },
+            {
+              "name": "Kathleen \"Kassie\" Spiering",
+              "person_id": "WY-SPIERING-KATHLEEN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kathleen-kassie-spiering.html",
+              "notes": "Official 2024 general, Cemetery Dist Trustee (vote for 3): Kathleen \"Kassie\" Spiering 3,032."
+            },
+            {
+              "name": "Bob Hancock",
+              "person_id": "WY-HANCOCK-BOB",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/bob-hancock.html",
+              "notes": "Official 2024 general, Cemetery Dist Trustee (vote for 3): Bob Hancock 2,988."
+            },
+            {
+              "name": "Barbara Mueller",
+              "person_id": "WY-MUELLER-BARBARA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/barbara-mueller.html",
+              "notes": "Official 2024 general, Cemetery Dist Trustee (vote for 3): Barbara Mueller 2,920."
+            }
+          ],
+          "note": "Official 2022, 2024, and 2026 Johnson general canvasses (vote for 3; plus a 2022 unexpired race)."
+        },
+        {
+          "office": "Clear Creek Conservation District Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ryan Fieldgrove",
+              "person_id": "WY-FIELDGROVE-RYAN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/ryan-fieldgrove.html",
+              "notes": "Re-elected; official 2026 general, Clear Creek Conservation Dist Rural (vote for 2): Ryan Fieldgrove 2,575, Bill Burke 2,217."
+            },
+            {
+              "name": "Virginia Watt",
+              "person_id": "WY-WATT-VIRGINIA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/virginia-watt.html",
+              "notes": "Official 2022 general, Clear Creek Conservation Dist Rural (vote for 2): Virginia Watt 2,433, Ryan Fieldgrove 2,739.",
+              "succeeding": {
+                "name": "Bill Burke",
+                "person_id": "WY-BURKE-BILL",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Travis Baker",
+              "person_id": "WY-BAKER-TRAVIS",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/travis-baker.html",
+              "notes": "Official 2024 general, Clear Creek Conserv Dist Rural (vote for 1): Travis Baker 3,445."
+            }
+          ],
+          "note": "Official 2022 (vote for 2), 2024 (vote for 1), and 2026 (vote for 2) Johnson general canvasses."
+        },
+        {
+          "office": "Clear Creek Conservation District At Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jay Foss",
+              "person_id": "WY-FOSS-JAY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jay-foss.html",
+              "notes": "Re-elected; official 2026 general, Clear Creek Conservation Dist At Large: Jay Foss 1,191, Rick Pallister 1,099, Kris Whitney 379."
+            }
+          ],
+          "note": "Official 2022 general: Jay Foss 2,822. Official 2026 general: Jay Foss 1,191."
+        },
+        {
+          "office": "Clear Creek Conservation District Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lara Schuman",
+              "person_id": "WY-SCHUMAN-LARA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/lara-schuman.html",
+              "notes": "Official 2024 general, Clear Creek Conserv Dist Urban (vote for 1): Lara Schuman 3,474."
+            }
+          ],
+          "note": "Official 2024 general: Lara Schuman 3,474, term through January 2029."
+        },
+        {
+          "office": "Powder River Conservation District Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Thomas Harlan",
+              "person_id": "WY-HARLAN-THOMAS",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/thomas-harlan.html",
+              "notes": "Re-elected; official 2026 general, Powder River Conservation Dist Rural: Thomas Harlan 319."
+            },
+            {
+              "name": "Wade C Curuchet",
+              "person_id": "WY-CURUCHET-WADE-C",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/wade-c-curuchet.html",
+              "notes": "Official 2024 general, Powder River Conserv Dist Rural (vote for 2): Wade C Curuchet 443, George Renkert 349."
+            },
+            {
+              "name": "George Renkert",
+              "person_id": "WY-RENKERT-GEORGE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/george-renkert.html",
+              "notes": "Official 2024 general, Powder River Conserv Dist Rural (vote for 2): George Renkert 349, Wade C Curuchet 443."
+            }
+          ],
+          "note": "Official 2022, 2024, and 2026 Johnson general canvasses."
+        },
+        {
+          "office": "Powder River Conservation District At Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kevin Lund",
+              "person_id": "WY-LUND-KEVIN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kevin-lund.html",
+              "notes": "Re-elected; official 2026 general, Powder River Conservation Dist At Large: Kevin Lund 317."
+            }
+          ],
+          "note": "Official 2022 and 2026 general canvasses name Kevin Lund."
+        },
+        {
+          "office": "Powder River Conservation District Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "William Jones",
+              "person_id": "WY-JONES-WILLIAM",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/william-jones.html",
+              "notes": "Official 2024 general, Powder River Conserv Dist Urban: William Jones 443."
+            }
+          ],
+          "note": "Official 2024 general: William Jones 443, term through January 2029."
+        },
+        {
+          "office": "Johnson County Fire District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Paul Kozisek",
+              "person_id": "WY-KOZISEK-PAUL",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/paul-kozisek.html",
+              "notes": "Re-elected; official 2026 general, Johnson Co Fire Dist #1 Trustee (vote for 2): Paul Kozisek 1,302, Kirk A. Strom 1,058."
+            },
+            {
+              "name": "Kirk A. Strom",
+              "person_id": "WY-STROM-KIRK-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kirk-a-strom.html",
+              "notes": "Official 2026 general, Johnson Co Fire Dist #1 Trustee (vote for 2): Kirk A. Strom 1,058, Paul Kozisek 1,302."
+            },
+            {
+              "name": "Amanda Hulet",
+              "person_id": "WY-HULET-AMANDA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/amanda-hulet.html",
+              "notes": "Official 2022 general, Johnson County Fire Dist 1 Trustee (vote for 2): Amanda Hulet 1,154, Paul Kozisek 1,353."
+            },
+            {
+              "name": "Tom Lohse",
+              "person_id": "WY-LOHSE-TOM",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/tom-lohse.html",
+              "notes": "Official 2024 general, Johnson Co Fire Dist 1 Trustee 4yr: Tom Lohse 1,713."
+            }
+          ],
+          "note": "Official 2022 (vote for 2), official 2024 (4-year and 2-year seats), and official 2026 (vote for 2) Johnson general canvasses."
+        },
+        {
+          "office": "Powder River Fire District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Matt Carr",
+              "person_id": "WY-CARR-MATT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/matt-carr.html",
+              "notes": "Re-elected; official 2026 general, Powder River Fire Dist Trustee (vote for 2): Matt Carr 207."
+            },
+            {
+              "name": "Bryce Perry",
+              "person_id": "WY-PERRY-BRYCE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/bryce-perry.html",
+              "notes": "Official 2026 general, Powder River Fire Dist Trustee (vote for 2): official named write-in Bryce Perry 102 (Write-In Totals 109). Official certification names Bryce Perry on the official summary."
+            },
+            {
+              "name": "Steve Haines",
+              "person_id": "WY-HAINES-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/steve-haines.html",
+              "notes": "Official 2022 general, Powder River Fire Dist Trustee (vote for 2): Steve Haines 321, Matt Carr 335."
+            },
+            {
+              "name": "Kevin Lund",
+              "person_id": "WY-LUND-KEVIN-FIRE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kevin-lund-powder-river-fire.html",
+              "notes": "Official 2024 general, Powder River Fire Dist Trustee 4yr: Kevin Lund 464. Distinct person ID from the Powder River Conservation District Kevin Lund without an official identification."
+            }
+          ],
+          "note": "Official 2022, 2024 (4-year and 2-year seats), and official 2026 canvasses. Official 2026 names Matt Carr 207 and certified write-in Bryce Perry 102."
+        },
+        {
+          "office": "Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Alecia Kozisek",
+              "person_id": "WY-KOZISEK-ALECIA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/alecia-kozisek.html",
+              "notes": "Re-elected; official 2026 general, Hospital Dist Trustee (vote for 3): Alecia Kozisek 2,297, Thomas Holt 1,813, Rich Griffith 1,635, Mark K. Wilson 1,619, Danielle Hagge 839."
+            },
+            {
+              "name": "Thomas Holt",
+              "person_id": "WY-HOLT-THOMAS",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/thomas-holt.html",
+              "notes": "Re-elected; official 2026 general, Hospital Dist Trustee (vote for 3): Alecia Kozisek 2,297, Thomas Holt 1,813, Rich Griffith 1,635, Mark K. Wilson 1,619, Danielle Hagge 839."
+            },
+            {
+              "name": "Rich Griffith",
+              "person_id": "WY-GRIFFITH-RICH",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/rich-griffith.html",
+              "notes": "Re-elected; official 2026 general, Hospital Dist Trustee (vote for 3): Alecia Kozisek 2,297, Thomas Holt 1,813, Rich Griffith 1,635, Mark K. Wilson 1,619, Danielle Hagge 839."
+            },
+            {
+              "name": "Matthew Hein",
+              "person_id": "WY-HEIN-MATTHEW",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/matthew-hein.html",
+              "notes": "Official 2024 general, Hospital Dist Trustee (vote for 2): Matthew Hein 3,316, Mark Schueler 3,306."
+            },
+            {
+              "name": "Mark Schueler",
+              "person_id": "WY-SCHUELER-MARK",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/mark-schueler.html",
+              "notes": "Official 2024 general, Hospital Dist Trustee (vote for 2): Mark Schueler 3,306, Matthew Hein 3,316."
+            }
+          ],
+          "note": "Official 2022 (vote for 3), 2024 (vote for 2), and 2026 (vote for 3) Johnson general canvasses."
+        },
+        {
+          "office": "Rural Health Care District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mark Schueler",
+              "person_id": "WY-SCHUELER-MARK",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/mark-schueler.html",
+              "notes": "Re-elected; official 2026 general, Rural Health Care Dist Trustee (vote for 3): Mark Schueler 2,552, Adam Michelena 2,471, Courtnee Wampole 2,180."
+            },
+            {
+              "name": "Adam Michelena",
+              "person_id": "WY-MICHELENA-ADAM",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/adam-michelena.html",
+              "notes": "Re-elected; official 2026 general, Rural Health Care Dist Trustee (vote for 3): Adam Michelena 2,471, Mark Schueler 2,552, Courtnee Wampole 2,180."
+            },
+            {
+              "name": "Britni Camino",
+              "person_id": "WY-CAMINO-BRITNI",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/britni-camino.html",
+              "notes": "Official 2022 general, Rural Health Care Dist Trustee (vote for 3): Britni Camino 1,895.",
+              "succeeding": {
+                "name": "Courtnee Wampole",
+                "person_id": "WY-WAMPOLE-COURTNEE",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Mary Litzel",
+              "person_id": "WY-LITZEL-MARY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/mary-litzel.html",
+              "notes": "Official 2024 general, Rural Health Care Dist Trustee (vote for 2): Mary Litzel 3,551, Tim Reimler 3,216."
+            },
+            {
+              "name": "Tim Reimler",
+              "person_id": "WY-REIMLER-TIM",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/tim-reimler.html",
+              "notes": "Official 2024 general, Rural Health Care Dist Trustee (vote for 2): Tim Reimler 3,216, Mary Litzel 3,551."
+            }
+          ],
+          "note": "Official 2022 (vote for 3), 2024 (vote for 2), and 2026 (vote for 3) Johnson general canvasses."
+        },
+        {
+          "office": "Senior Citizen Service District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Margaret R. Fraley",
+              "person_id": "WY-FRALEY-MARGARET-R",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/margaret-r-fraley.html",
+              "notes": "Re-elected; official 2026 general, Senior Citizen Service Dist Trustee (vote for 3): Margaret R. Fraley 2,690, Karen Buffington 2,509, Mark A. Wilson 2,369."
+            },
+            {
+              "name": "Karen Buffington",
+              "person_id": "WY-BUFFINGTON-KAREN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/karen-buffington.html",
+              "notes": "Official 2026 general, Senior Citizen Service Dist Trustee (vote for 3): Karen Buffington 2,509."
+            },
+            {
+              "name": "Mark A. Wilson",
+              "person_id": "WY-WILSON-MARK-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/mark-a-wilson.html",
+              "notes": "Re-elected; official 2026 general, Senior Citizen Service Dist Trustee (vote for 3): Mark A. Wilson 2,369."
+            },
+            {
+              "name": "Dan Gay",
+              "person_id": "WY-GAY-DAN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/dan-gay.html",
+              "notes": "Official 2022 general, Senior Citizen Service Dist Trustee (vote for 3): Dan Gay 3,078, Margaret R Fraley 2,838, Mark Alan Wilson 2,557.",
+              "succeeding": {
+                "name": "Kay Nation",
+                "person_id": "WY-NATION-KAY",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Vicki Edelman",
+              "person_id": "WY-EDELMAN-VICKI",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/vicki-edelman.html",
+              "notes": "Official 2024 general, Snr Citizen Serv Dist Trustee 4yr (vote for 2): Vicki Edelman 3,943. The official 2024 summary lists only one named candidate in that vote-for-2 contest; a second named 4-year winner was not printed."
+            }
+          ],
+          "note": "Official 2022 (vote for 3), official 2024 (4-year vote for 2, with only Vicki Edelman named, and a 2-year seat), official 2026 (vote for 3 plus an unexpired seat won by Kay Nation 2,703)."
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention (district and circuit)",
+      "label": "Judicial",
+      "offices": [
+        {
+          "office": "District Judge, 4th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Darci A.V. Phillips",
+              "person_id": "WY-PHILLIPS-DARCI",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/darci-a-v-phillips.html",
+              "notes": "Official 2024 Johnson general, RETAIN JUDGE A DARCI A. V. PHILLIPS, YES 3,289 / NO 680."
+            },
+            {
+              "name": "Benjamin Kirven",
+              "person_id": "WY-KIRVEN-BENJAMIN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/benjamin-kirven.html",
+              "notes": "Official 2024 Johnson general, RETAIN JUDGE B BENJAMIN KIRVEN, YES 3,519 / NO 781."
+            }
+          ],
+          "note": "Official 2024 Johnson general: RETAIN JUDGE A DARCI A. V. PHILLIPS, YES 3,289 / NO 680; RETAIN JUDGE B BENJAMIN KIRVEN, YES 3,519 / NO 781."
+        },
+        {
+          "office": "Circuit Judge, 4th Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shelley A. Cundiff",
+              "person_id": "WY-CUNDIFF-SHELLEY-A",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/shelley-a-cundiff.html",
+              "notes": "Official 2022 Johnson general, FOURTH JUDICIAL DIST CIRCUIT COURT JUDGE CUNDIFF, YES 2,399 / NO 976. The official 2022 summary does not print a first name; Shelley A. Cundiff is the official name already used in the Sheridan history for this 2022 retention.",
+              "succeeding": {
+                "name": "Ben Burningham",
+                "person_id": "WY-BURNINGHAM-BEN",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ],
+          "note": "Official 2022 Johnson general retained FOURTH JUDICIAL DIST CIRCUIT COURT JUDGE CUNDIFF, YES 2,399 / NO 976. Official 2026 general, RETAIN JUDGE BEN BURNINGHAM, YES 2,398 / NO 568 (the official 2026 line does not itself say circuit). Burningham takes the next ordinary cycle in January 2027."
         }
       ]
     },
@@ -1129,7 +1676,8 @@
   ],
   "sources": {
     "general_results": "https://drive.google.com/file/d/1QrzYmvHr9euYlYbndXbkDZN5RlI0lcYf/view",
-    "primary_results": "https://drive.google.com/file/d/14VhWna_5e7VOT6lNFHHVnKW5_1DNmPEW/view",
-    "checked": "2026-11-19"
+    "clerk_archive": "https://www.johnsoncowy.gov/departments/elections",
+    "checked": "2026-11-24",
+    "local_archive": "/workspace/wyoleg/local-results/johnson/SOURCES.md"
   }
 }

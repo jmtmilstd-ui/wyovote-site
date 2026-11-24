@@ -1,0 +1,1424 @@
+{
+  "county": "Uinta",
+  "county_number": 19,
+  "snapshot_year": 2024,
+  "as_of": "2024-01-08",
+  "as_of_label": "January 2024 (as of 2024-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2024 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 14 (S14)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Fred A. Baldwin",
+              "person_id": "WY-BALDWIN-FRED-A",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2020 statewide Senate candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_Senate_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2020 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide Senate summary totals: Fred Baldwin 7,779. Official Uinta portion: 690.",
+              "href": "candidates/local-history/c/fred-a-baldwin.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 15 (S15)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Wendy Davis Schuler",
+              "person_id": "WY-SCHULER-WENDY-DAVIS",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 statewide Senate candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_Senate_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2022 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide Senate summary totals: Wendy Davis Schuler 5,243 (Uinta-only district).",
+              "href": "candidates/local-history/c/wendy-davis-schuler.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 18 (H18)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott Heiner",
+              "person_id": "WY-HEINER-SCOTT",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2022 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary totals: Scott Heiner 2,689, Dennis B. Laughlin 590. Official Uinta portion: Heiner 429, Laughlin 63.",
+              "href": "candidates/local-history/c/scott-heiner.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 19 (H19)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jon R. Conrad",
+              "person_id": "WY-CONRAD-JON-R",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary totals: Jon R. Conrad 1,748, Sarah Butters 374 (Uinta-only district). The same person is an official 2026 Uinta County commissioner elect.",
+              "href": "candidates/local-history/c/jon-r-conrad.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 49 (H49)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ryan C. Berger",
+              "person_id": "WY-BERGER-RYAN-C",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary totals: Ryan C. Berger 2,060, Tim Beppler 858 (Uinta-only district).",
+              "href": "candidates/local-history/c/ryan-c-berger.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "D. Mark Anderson",
+              "person_id": "WY-ANDERSON-D-MARK",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County official County Commissioners members table",
+                  "url": "https://www.uintacountywy.gov/15/County-Commissioners"
+                },
+                {
+                  "label": "Uinta County official List of All Elected Officials",
+                  "url": "https://www.uintacountywy.gov/1084/List-of-All-Elected-Officials"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): David Mark Anderson 4,536, Eric South 4,215 (Vote-For-2). Official commission page lists him as Mark Anderson, Chairman, term end January 2027. Official 2026 general winner, continues January 2027–2031.. Term begins January 2023.",
+              "href": "candidates/local-history/c/d-mark-anderson.html"
+            },
+            {
+              "name": "Eric South",
+              "person_id": "WY-SOUTH-ERIC",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County official County Commissioners members table",
+                  "url": "https://www.uintacountywy.gov/15/County-Commissioners"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): David Mark Anderson 4,536, Eric South 4,215 (Vote-For-2). Official commission page term end January 2027.. Term begins January 2023.",
+              "href": "candidates/local-history/c/eric-south.html"
+            },
+            {
+              "name": "Brent Hatch",
+              "person_id": "WY-HATCH-BRENT",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Uinta County official Commissioners proceedings, December 21, 2021",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7947"
+                },
+                {
+                  "label": "Uinta County official Commissioners proceedings, January 16, 2024",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8636"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Uinta County Commissioners proceedings December 21, 2021 and January 16, 2024 name Commissioner Brent Hatch as present. Official 2020 clerk general results were not collected here; encoded from official minutes that he held the seat, at medium confidence, through January 2025.",
+              "href": "candidates/local-history/c/brent-hatch.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Amanda Hutchinson",
+              "person_id": "WY-HUTCHINSON-AMANDA",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County official List of All Elected Officials",
+                  "url": "https://www.uintacountywy.gov/1084/List-of-All-Elected-Officials"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Amanda Hutchinson 5,848.. Term begins January 2023. Official 2026 general winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/amanda-hutchinson.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Terry Brimhall",
+              "person_id": "WY-BRIMHALL-TERRY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Terry Brimhall 5,795.. Term begins January 2023. Official 2026 general winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/terry-brimhall.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lori S. Perkins",
+              "person_id": "WY-PERKINS-LORI-S",
+              "party": "REP",
+              "term_end": "January 2026",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County official County Assessor page",
+                  "url": "https://www.uintacountywy.gov/18/County-Assessor"
+                },
+                {
+                  "label": "Uinta County official List of All Elected Officials",
+                  "url": "https://www.uintacountywy.gov/1084/List-of-All-Elected-Officials"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Lori S. Perkins 5,640.. Term begins January 2023. Official current assessor pages list Ashlee Richins (term expires 2027); this term is encoded through the January 2025 snapshot only (term_end 2026-01-05) because a mid-term change is documented on official current pages. The exact official appointment date was not in the official minutes collected here.",
+              "href": "candidates/local-history/c/lori-s-perkins.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Andy Kopp",
+              "person_id": "WY-KOPP-ANDY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Andy Kopp 3,922, Rowdy Dean 2,652.. Term begins January 2023. Official 2026 general winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/andy-kopp.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Loretta Howieson Kallas",
+              "person_id": "WY-KALLAS-LORETTA-HOWIESON",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Loretta Howieson Kallas 5,015.. Term begins January 2023. Official 2026 general winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/loretta-howieson-kallas.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kerri Wright",
+              "person_id": "WY-WRIGHT-KERRI",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Kerri Wright 5,728.. Term begins January 2023. Official 2026 general winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/kerri-wright.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Greg Crandall",
+              "person_id": "WY-CRANDALL-GREG",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Greg Crandall 5,925.. Term begins January 2023. Official 2026 general winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/greg-crandall.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Evanston Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kent Williams",
+              "person_id": "WY-WILLIAMS-KENT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "City of Evanston official Government page",
+                  "url": "https://www.evanstonwy.org/171/Government"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Kent Williams 1,711, Tim Lynch 1,449.. Term begins January 2023. Official City of Evanston Government page lists Mayor Kent Williams as current.",
+              "href": "candidates/local-history/c/kent-williams.html"
+            }
+          ]
+        },
+        {
+          "office": "Evanston City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jennie Hegeman",
+              "person_id": "WY-HEGEMAN-JENNIE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "City of Evanston official Mayor & Council Members directory",
+                  "url": "https://www.evanstonwy.org/Directory.aspx?did=3"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Jen Hegeman 475, Mikal D Welling 452.. Term begins January 2023. Official city directory lists Jennie Hegeman.",
+              "href": "candidates/local-history/c/jennie-hegeman.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Evanston City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jesse Lind",
+              "person_id": "WY-LIND-JESSE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "City of Evanston official Mayor & Council Members directory",
+                  "url": "https://www.evanstonwy.org/Directory.aspx?did=3"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Jesse Lind 699, Tib Ottley 555.. Term begins January 2023. Official city directory lists Jesse Lind, Ward II. Official 2026 Evanston mayor elect.",
+              "href": "candidates/local-history/c/jesse-lind.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Evanston City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "David Don Welling",
+              "person_id": "WY-WELLING-DAVID-DON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "City of Evanston official Mayor & Council Members directory",
+                  "url": "https://www.evanstonwy.org/Directory.aspx?did=3"
+                },
+                {
+                  "label": "Uinta County official 2026 general election summary (official Elections page and PDF header: Official Results)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): David Don Welling 621.. Term begins January 2023. Official city directory lists David Welling. Official 2026 Ward 3 winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/david-don-welling.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Lyman Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shane Hooton",
+              "person_id": "WY-HOOTON-SHANE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Town of Lyman official Mayor and Council page",
+                  "url": "https://lymanwy.com/index.asp?SEC=1194D5D1-CF0F-4001-B916-DF6EFE95A329&Type=B_LIST"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Shane Hooton 392, Allen Wyatt 287.. Term begins January 2023. Official Town of Lyman mayor page: term expires Dec 31, 2026.",
+              "href": "candidates/local-history/c/shane-hooton.html"
+            }
+          ]
+        },
+        {
+          "office": "Lyman Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bronson Berg",
+              "person_id": "WY-BERG-BRONSON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Town of Lyman official Mayor and Council page",
+                  "url": "https://lymanwy.com/index.asp?SEC=1194D5D1-CF0F-4001-B916-DF6EFE95A329&Type=B_LIST"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Bronson Berg 376, Gregg Moretti 373, over Jimmy Bramlett 258, Bob Armstrong 194.. Term begins January 2023. Official town page term expires Dec 31, 2026.",
+              "href": "candidates/local-history/c/bronson-berg.html"
+            },
+            {
+              "name": "Gregg Moretti",
+              "person_id": "WY-MORETTI-GREGG",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Town of Lyman official Mayor and Council page",
+                  "url": "https://lymanwy.com/index.asp?SEC=1194D5D1-CF0F-4001-B916-DF6EFE95A329&Type=B_LIST"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Bronson Berg 376, Gregg Moretti 373.. Term begins January 2023. Official town page term expires Dec 31, 2026.",
+              "href": "candidates/local-history/c/gregg-moretti.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Mountain View Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kelly Bonner",
+              "person_id": "WY-BONNER-KELLY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Kelly Bonner 275, Jamy D. Ferrin 260, over Katie (Johnson) Taylor 221.. Term begins January 2023. Not named on the official Mountain View staff directory retrieved 2026-11-24; live roster omits this seat’s 2022 winner for that reason.",
+              "href": "candidates/local-history/c/kelly-bonner.html"
+            },
+            {
+              "name": "Jamy D. Ferrin",
+              "person_id": "WY-FERRIN-JAMY-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Town of Mountain View official staff directory",
+                  "url": "https://www.mtvwy.com/directory"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Kelly Bonner 275, Jamy D. Ferrin 260.. Term begins January 2023. Official Mountain View directory lists Jamy Ferrin, Council President.",
+              "href": "candidates/local-history/c/jamy-d-ferrin.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Bear River Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brian J. Stokes",
+              "person_id": "WY-STOKES-BRIAN-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County official 2026 general election summary (official Elections page and PDF header: Official Results)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): BJ Stokes 111, Clyde Kofoed 98, over Todd M. Jones 72, James G. Johnson 35 (Vote-For-2).. Term begins January 2023. Official 2026 general Vote-For-2 winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/brian-j-stokes.html"
+            },
+            {
+              "name": "Clyde Kofoed",
+              "person_id": "WY-KOFOED-CLYDE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County official Bear River page, Mayor Clyde Kofoed",
+                  "url": "https://www.uintacountywy.gov/211/Bear-River"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): BJ Stokes 111, Clyde Kofoed 98.. Term begins January 2023. Official Uinta County Bear River page now lists Clyde Kofoed as Mayor; the date he left the council seat, if he did, is not in an official 2024 clerk general collected here.",
+              "href": "candidates/local-history/c/clyde-kofoed.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Mountain View Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Bear River Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "UCSD #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jenny Welling",
+              "person_id": "WY-WELLING-JENNY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County School District #1 official School Board page",
+                  "url": "https://uinta1.com/en-US/school-board-under-construction-c936cc91"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Vote-For-5: Jenny Welling 2,059.. Term begins January 2023.",
+              "href": "candidates/local-history/c/jenny-welling.html"
+            },
+            {
+              "name": "David Bennett",
+              "person_id": "WY-BENNETT-DAVID",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County School District #1 official School Board page",
+                  "url": "https://uinta1.com/en-US/school-board-under-construction-c936cc91"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Vote-For-5: David Bennett 1,911.. Term begins January 2023.",
+              "href": "candidates/local-history/c/david-bennett.html"
+            },
+            {
+              "name": "Caleb Guild",
+              "person_id": "WY-GUILD-CALEB",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County School District #1 official School Board page",
+                  "url": "https://uinta1.com/en-US/school-board-under-construction-c936cc91"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Vote-For-5: Caleb Guild 1,887.. Term begins January 2023.",
+              "href": "candidates/local-history/c/caleb-guild.html"
+            },
+            {
+              "name": "Jesse Lind",
+              "person_id": "WY-LIND-JESSE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County School District #1 official School Board page",
+                  "url": "https://uinta1.com/en-US/school-board-under-construction-c936cc91"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Vote-For-5: Jesse Lind 1,715 (also official 2022 Evanston Ward 2 winner and official 2026 Evanston mayor elect). The official UCSD #1 School Board staff list retrieved 2026-11-24 does not include Jesse Lind; he is omitted from the live roster for that reason.. Term begins January 2023.",
+              "href": "candidates/local-history/c/jesse-lind.html"
+            },
+            {
+              "name": "Janice Davis",
+              "person_id": "WY-DAVIS-JANICE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County School District #1 official School Board page",
+                  "url": "https://uinta1.com/en-US/school-board-under-construction-c936cc91"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Vote-For-5: Janice Davis 1,619, over Brian Woodward 1,597.. Term begins January 2023.",
+              "href": "candidates/local-history/c/janice-davis.html"
+            },
+            {
+              "name": "Christa Barker Weaver",
+              "person_id": "WY-WEAVER-CHRISTA-BARKER",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Unexpired 2-year term: Christa Barker Weaver 2,653, Tamra Mander Petersen 709.. Term begins January 2023.",
+              "href": "candidates/local-history/c/christa-barker-weaver.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "UCSD #4 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kelly Q. Carpenter",
+              "person_id": "WY-CARPENTER-KELLY-Q",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Kelly Q Carpenter 992, Dale Madsen 904 (Vote-For-2).. Term begins January 2023.",
+              "href": "candidates/local-history/c/kelly-q-carpenter.html"
+            },
+            {
+              "name": "Dale Madsen",
+              "person_id": "WY-MADSEN-DALE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County official 2026 general election summary (official Elections page and PDF header: Official Results)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Kelly Q Carpenter 992, Dale Madsen 904.. Term begins January 2023. Official 2026 general Vote-For-2 winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/dale-madsen.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "UCSD #6 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Spencer J. Eyre",
+              "person_id": "WY-EYRE-SPENCER-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County School District #6 official School Board Information page",
+                  "url": "https://sites.google.com/lymanschools.org/ucsd6/information/school-board-information"
+                },
+                {
+                  "label": "Uinta County official 2026 general election summary (official Elections page and PDF header: Official Results)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Spencer J. Eyre 696, Jason Lamberti 473, over Kalli H. Hill 439, Amber Taylor 325.. Term begins January 2023. Official 2026 general Vote-For-2 winner, continues January 2027–2031.",
+              "href": "candidates/local-history/c/spencer-j-eyre.html"
+            },
+            {
+              "name": "Jason Lamberti",
+              "person_id": "WY-LAMBERTI-JASON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County School District #6 official School Board Information page",
+                  "url": "https://sites.google.com/lymanschools.org/ucsd6/information/school-board-information"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Spencer J. Eyre 696, Jason Lamberti 473.. Term begins January 2023.",
+              "href": "candidates/local-history/c/jason-lamberti.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Uinta Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kelly Guild",
+              "person_id": "WY-GUILD-KELLY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County Conservation District official January 2026 newsletter",
+                  "url": "https://www.uintacountycd.com/_files/ugd/3f1386_6e8a8fde5f464717adf302f5938f8bb1.pdf"
+                },
+                {
+                  "label": "Uinta County official 2026 general election summary (official Elections page and PDF header: Official Results)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Kelly Guild 5,482 (Rural).. Term begins January 2023. Official 2026 rural winner, continues. Official CD January 2026 newsletter lists Kelly Guild, Chairman.",
+              "href": "candidates/local-history/c/kelly-guild.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Uinta Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ty Lester",
+              "person_id": "WY-LESTER-TY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County Conservation District official January 2026 newsletter",
+                  "url": "https://www.uintacountycd.com/_files/ugd/3f1386_6e8a8fde5f464717adf302f5938f8bb1.pdf"
+                },
+                {
+                  "label": "Uinta County official 2026 general election summary (official Elections page and PDF header: Official Results)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Ty Lester 5,222 (Urban).. Term begins January 2023. Official 2026 clerk lists Ty Lester as a Rural Vote-For-1 winner (continuing). Official CD January 2026 newsletter lists Ty Lester, Secretary/Treasurer.",
+              "href": "candidates/local-history/c/ty-lester.html"
+            }
+          ]
+        },
+        {
+          "office": "Uinta Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kevin Condos",
+              "person_id": "WY-CONDOS-KEVIN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County Conservation District official January 2026 newsletter",
+                  "url": "https://www.uintacountycd.com/_files/ugd/3f1386_6e8a8fde5f464717adf302f5938f8bb1.pdf"
+                },
+                {
+                  "label": "Uinta County official 2026 general election summary (official Elections page and PDF header: Official Results)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/8642/2026-General-Election-Results-Unofficial"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Kevin Condos 5,167 (At Large).. Term begins January 2023. Official 2026 at-large winner, continues.",
+              "href": "candidates/local-history/c/kevin-condos.html"
+            }
+          ]
+        },
+        {
+          "office": "Uinta County Rural Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dana Stone",
+              "person_id": "WY-STONE-DANA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Uinta County official 2022 general election summary (DocumentCenter/View/7940; header OFFICIAL RESULTS, Election Summary - 11/10/2022 1:19 PM)",
+                  "url": "https://uintacountywy.gov/DocumentCenter/View/7940/2022-Official-General-Election-Summary"
+                },
+                {
+                  "label": "Uinta County official Boards Elected by Special District page",
+                  "url": "https://www.uintacountywy.gov/532/Boards-Elected-by-Special-District"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Uinta clerk general (OFFICIAL RESULTS, 11/10/2022 1:19 PM): Dana Stone 1,721.. Term begins January 2023. Official county special-district boards page lists Dana Stone, term expiration 2026.",
+              "href": "candidates/local-history/c/dana-stone.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "Municipal, school, special-district, and county names for terms beginning January 2027 are keyed from the official Uinta clerk 2026 general summary (DocumentCenter slug still says Unofficial; the official Elections page and the PDF header label Official Results, dated 11/05/2026 12:58PM). Official 2022 and 2024 Uinta clerk general summaries were not posted on the current official elections page (https://uintacountywy.gov/26/Elections), and official SOS Uinta precinct-by-precinct summaries omit county, municipal, and school offices, so earlier January local rows are Not yet collected rather than invented. Evanston and Lyman mayors appear on the official 2026 November ballot and are not council-selected. Mountain View and Bear River mayors were not on the official 2026 general. Official mid-term vacancies are not invented.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Joseph B. Bluemel",
+              "person_id": "WY-BLUEMEL-JOSEPH-B",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 3rd Judicial District, Lincoln County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-3rd-judicial-district-lincoln-county/"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2022 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 retention; official Lincoln 3rd JD district page term expires January 2029.",
+              "href": "candidates/local-history/c/joseph-b-bluemel.html"
+            },
+            {
+              "name": "James C. Kaste",
+              "person_id": "WY-KASTE-JAMES-C",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 3rd Judicial District, Uinta County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-3rd-judicial-district-uinta-county/"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2024 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/General/2024_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch Uinta 3rd JD district page: appointed October 2022 (day unstated; term_start 2022-10-01, medium), retained November 2024, term expires January 2031.",
+              "href": "candidates/local-history/c/james-c-kaste.html"
+            },
+            {
+              "name": "Suzannah G. Robinson",
+              "person_id": "WY-ROBINSON-SUZANNAH-G",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 3rd Judicial District, Sweetwater County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-3rd-judicial-district-sweetwater-county/"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2020 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch Sweetwater 3rd JD district page: appointed October 2019 (day unstated; term_start 2019-10-01, medium), retained November 2020, term expires January 2027.",
+              "href": "candidates/local-history/c/suzannah-g-robinson.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Craig L. Jones",
+              "person_id": "WY-JONES-CRAIG-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS Uinta general PbP retention.",
+              "href": "candidates/local-history/c/craig-l-jones.html"
+            },
+            {
+              "name": "John R. Prokos",
+              "person_id": "WY-PROKOS-JOHN-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS Uinta general PbP retention.",
+              "href": "candidates/local-history/c/john-r-prokos.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 3rd Judicial District judges (Lincoln, Sweetwater, and Uinta). Full names are taken from official SOS lines or official Wyoming Judicial Branch 3rd JD pages, and those sources are cited. Judges of other districts are not copied here.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. The current (November 2026) precinct roster is in data/county_officials/uinta.json, from the official 2026 primary (named winners only; 9 precincts / 53 holders).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/uinta/terms.json",
+  "retrieved": "2026-11-24"
+}

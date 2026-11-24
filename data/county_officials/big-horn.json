@@ -2,7 +2,7 @@
   "county": "Big Horn",
   "county_number": 9,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_09_Big_Horn_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -10,267 +10,144 @@
   "groups": [
     {
       "id": "state-senate",
-      "title": "State Senate",
+      "title": "State Senate offices",
+      "label": "Wyoming Senate",
       "offices": [
         {
           "office": "Senate District 19 (S19)",
           "layout": "office-and-name",
-          "note": "Also covers Park.",
           "holders": [
             {
               "name": "Dan Laursen",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2006"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_09_Big_Horn_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
+              "person_id": "WY-LAURSEN-DAN",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "notes": "Official 2022 SOS statewide Senate summary, Senate District 19: Dan Laursen (R). Official Big Horn share 2,637; official Park share 2,901.",
               "succeeding": {
                 "name": "R. J. Kost",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, S19",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/laursen.html"
+                "person_id": "WY-KOST-RJ",
+                "party": "Republican",
+                "takes_office": "January"
+              }
             }
-          ]
+          ],
+          "note": "Official 2022 SOS statewide Senate summary, Senate District 19: Dan Laursen (R) Total 5,538. Official Big Horn share 2,637, official Park share 2,901. Official 2026 SOS: R. J. Kost (R) Total 5,311. Official Big Horn share 2,562 (official clerk abstract same), official Park share 2,749, taking office January 2027. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "Senate District 20 (S20)",
           "layout": "office-and-name",
-          "note": "Also covers Springs, Park, Fremont and Hot Washakie.",
           "holders": [
             {
               "name": "Ed Cooper",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2068"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_09_Big_Horn_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/cooper.html"
+              "person_id": "WY-COOPER-ED",
+              "party": "Republican",
+              "term_end": "January 2029",
+              "notes": "Official 2024 SOS statewide Senate summary, Senate District 20: Ed Cooper (R) Total 8,236. Official Big Horn share 1,475 (official 2024 clerk canvass same 1,475); official Washakie 3,442, Hot Springs 2,180, Park 834, Fremont 305. Off-cycle in 2026."
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary, Senate District 20: Ed Cooper (R) Total 8,236. Official Big Horn share 1,475 (official 2024 clerk canvass same 1,475); official Washakie 3,442, Hot Springs 2,180, Park 834, Fremont 305. Covers Big Horn, Hot Springs, Fremont, Park, and Washakie. Off-cycle in 2026."
         }
       ]
     },
     {
       "id": "state-house",
-      "title": "State House",
+      "title": "State House offices",
+      "label": "Wyoming House",
       "offices": [
         {
           "office": "House District 26 (H26)",
           "layout": "office-and-name",
-          "note": "Also covers Park.",
           "holders": [
             {
               "name": "Dalton Banks",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2101"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_09_Big_Horn_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H26, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/banks.html"
+              "person_id": "WY-BANKS-DALTON",
+              "party": "Republican",
+              "term_end": "January 2029",
+              "notes": "Official 2026 SOS statewide House summary, House District 26: Dalton Banks (R), Ralph Nieder-Westermann (D). Official Big Horn share Banks 2,301, Nieder-Westermann 538 (official clerk abstract same); official Park Banks 256, Nieder-Westermann 33. Re-elected."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary, House District 26: Dalton Banks (R) Total 2,557, Ralph Nieder-Westermann (D) 571. Official Big Horn share Banks 2,301, Nieder-Westermann 538 (official clerk abstract same); official Park Banks 256, Nieder-Westermann 33. Re-elected. Official 2024 SOS: Dalton Banks (R) Total 3,942. Official Big Horn share Banks 3,584; official Park share 358. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "House District 27 (H27)",
           "layout": "office-and-name",
-          "note": "Also covers Washakie.",
           "holders": [
             {
               "name": "Martha Lawley",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2102"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_09_Big_Horn_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H27, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/lawley.html"
+              "person_id": "WY-LAWLEY-MARTHA",
+              "party": "Republican",
+              "term_end": "January 2029",
+              "notes": "Official 2026 SOS statewide House summary, House District 27: Martha Lawley (R) 2,700, Theresa Livingston (D) 490. Official Big Horn share Lawley 418, Livingston 60 (official clerk abstract same); official Washakie Lawley 2,282, Livingston 430. Re-elected."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary, House District 27: Martha Lawley (R) Total 2,700, Theresa Livingston (D) 490. Official Big Horn share Lawley 418, Livingston 60 (official clerk abstract same); official Washakie Lawley 2,282, Livingston 430. Also covers Washakie. Re-elected."
         },
         {
           "office": "House District 28 (H28)",
           "layout": "office-and-name",
-          "note": "Also covers Fremont, Hot Springs and Park.",
           "holders": [
             {
-              "name": "John Winter",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2056"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_09_Big_Horn_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
+              "name": "John R. Winter",
+              "person_id": "WY-WINTER-JOHN-R",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "notes": "Official 2024 SOS statewide House summary, House District 28: John R. Winter (R) Total 3,986, Larry Alwin (D) 857. Official Big Horn share Winter 920, Alwin 85.",
               "succeeding": {
                 "name": "Allen Hogg",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H28",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/winter.html"
+                "person_id": "WY-HOGG-ALLEN",
+                "party": "Republican",
+                "takes_office": "January"
+              }
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide House summary, House District 28: John R. Winter (R) Total 3,986, Larry Alwin (D) 857. Official Big Horn share Winter 920, Alwin 85. Official 2026 SOS: Allen Hogg (R) Total 3,309, Larry Alwin (D) 504; official Big Horn share Hogg 655, Alwin 66, taking office January 2027. Official SOS name John R. Winter is not combined with earlier official SOS name Nathan Winters."
         }
       ]
     },
     {
       "id": "county",
       "title": "County Offices",
+      "label": "County offices",
       "offices": [
         {
-          "office": "County Commissioners",
+          "office": "County Commissioner",
           "layout": "heading-then-names",
           "holders": [
             {
               "name": "Deb Craft",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Big Horn County commissioners page",
-                  "url": "https://www.bighorncountywy.gov/departments/commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/big-horn.html"
-                }
-              ],
-              "role": "Chairman",
+              "person_id": "WY-CRAFT-DEB",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Deb Craft, Commission Chairman. Official 2024 canvass elected only Bruce H. Jolley (at large). This seat is on the official 2026 ballot (vote for 2).",
               "succeeding": {
-                "name": "Jared Boardman",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Big Horn County official general results, County Commissioner",
-                    "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "name": "Mike Laird",
+                "person_id": "WY-LAIRD-MIKE",
+                "party": "Republican",
+                "takes_office": "January"
               }
             },
             {
               "name": "Dave Neves",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Big Horn County commissioners page",
-                  "url": "https://www.bighorncountywy.gov/departments/commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/big-horn.html"
-                }
-              ],
+              "person_id": "WY-NEVES-DAVE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Dave Neves. Official 2022 class (the official 2024 canvass elected only Bruce H. Jolley).",
               "succeeding": {
-                "name": "Mike Laird",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Big Horn County official general results, County Commissioner",
-                    "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "name": "Jared Boardman",
+                "person_id": "WY-BOARDMAN-JARED",
+                "party": "Republican",
+                "takes_office": "January"
               }
             },
             {
               "name": "Bruce H. Jolley",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Big Horn County commissioners page",
-                  "url": "https://www.bighorncountywy.gov/departments/commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/big-horn.html"
-                }
-              ]
+              "person_id": "WY-JOLLEY-BRUCE-H",
+              "party": "Republican",
+              "term_end": "January 2029",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Bruce H. Jolley. Official 2024 canvass, County Commissioner: REP BRUCE H. JOLLEY 5,081, write-ins 107, contest totals 5,788."
             }
           ],
-          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+          "note": "Official commissioners page, retrieved 2026-11-24: Deb Craft (Chair), Bruce H. Jolley, Dave Neves. Official 2024 canvass elected Bruce H. Jolley at large (5,081). Official 2026 canvass (vote for 2): Mike Laird 3,159, Jared Boardman 2,991, taking office January 2027. Incoming names are shown with the 2022-class commissioners, not as one-to-one seat replacements."
         },
         {
           "office": "County Clerk",
@@ -278,27 +155,13 @@
           "holders": [
             {
               "name": "Lori Smallwood",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Big Horn County clerk page",
-                  "url": "https://www.bighorncountywy.gov/"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/big-horn.html"
-                },
-                {
-                  "label": "Big Horn County official general results, re-elected",
-                  "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-SMALLWOOD-LORI",
+              "party": "Republican",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, County Clerk: REP LORI SMALLWOOD 3,789, write-ins 23, contest totals 4,200."
             }
-          ]
+          ],
+          "note": "Official 2026 canvass minutes name County Clerk Lori Smallwood. Official 2026 general: REP LORI SMALLWOOD 3,789, re-elected."
         },
         {
           "office": "County Treasurer",
@@ -306,24 +169,13 @@
           "holders": [
             {
               "name": "Nicole Vigil",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/big-horn.html"
-                },
-                {
-                  "label": "Big Horn County official general results, re-elected",
-                  "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+              "person_id": "WY-VIGIL-NICOLE",
+              "party": "Republican",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, County Treasurer: REP NICOLE VIGIL 3,707, write-ins 34, contest totals 4,200."
             }
-          ]
+          ],
+          "note": "Official treasurer page, retrieved 2026-11-24: Nicole Vigil. Official 2026 general: REP NICOLE VIGIL 3,707, re-elected."
         },
         {
           "office": "County Assessor",
@@ -331,24 +183,13 @@
           "holders": [
             {
               "name": "Cozette Winters",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Big Horn County Assessor page",
-                  "url": "https://www.bighorncountywy.gov/departments/assessor"
-                },
-                {
-                  "label": "Big Horn County official general results, elected",
-                  "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Listed as County Assessor on the county site (the office changed hands mid-term). Elected in the latest general, so the office does not change in January."
+              "person_id": "WY-WINTERS-COZETTE",
+              "party": "Republican",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, County Assessor: REP COZETTE WINTERS 3,738, write-ins 19, contest totals 4,200."
             }
-          ]
+          ],
+          "note": "Official assessor page, retrieved 2026-11-24: Cozette Winters, County Assessor. Official 2026 general: REP COZETTE WINTERS 3,738, re-elected."
         },
         {
           "office": "County Sheriff",
@@ -356,36 +197,19 @@
           "holders": [
             {
               "name": "Jason Beal",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lovell Chronicle, Beal appointed interim sheriff",
-                  "url": "https://www.lovellchronicle.com/content/beal-appointed-interim-sheriff"
-                },
-                {
-                  "label": "Basin Republican Rustler, Jason Beal appointed as interim Sheriff",
-                  "url": "https://www.basinrepublican-rustler.com/content/jason-beal-appointed-interim-sheriff"
-                }
-              ],
-              "notes": "Appointed interim sheriff after Sheriff Ken Blackburn retired in March. The county LEPC page still lists Blackburn and appears stale.",
+              "person_id": "WY-BEAL-JASON",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "notes": "Official Sheriff Staff page, retrieved 2026-11-24: Sheriff Jason Beal. Official 2026 general elects Craig R. Shidler (undersheriff on the same official staff page).",
               "succeeding": {
                 "name": "Craig R. Shidler",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Big Horn County official general results, County Sheriff",
-                    "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              },
-              "role": "interim"
+                "person_id": "WY-SHIDLER-CRAIG-R",
+                "party": "Republican",
+                "takes_office": "January"
+              }
             }
-          ]
+          ],
+          "note": "Official Sheriff Staff page, retrieved 2026-11-24: Sheriff Jason Beal. Official 2026 canvass: REP CRAIG R. SHIDLER 3,702, taking office January 2027 (undersheriff on the same official staff page)."
         },
         {
           "office": "County Attorney",
@@ -393,27 +217,13 @@
           "holders": [
             {
               "name": "Marcia E. Bean",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Big Horn County attorney page",
-                  "url": "https://www.bighorncountywy.gov/departments/attorney"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/big-horn.html"
-                },
-                {
-                  "label": "Big Horn County official general results, re-elected",
-                  "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-BEAN-MARCIA-E",
+              "party": "Republican",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, County Attorney: REP MARCIA E. BEAN 3,271, write-ins 157, contest totals 4,200."
             }
-          ]
+          ],
+          "note": "Official attorney page, retrieved 2026-11-24: Marcia Bean. Official 2026 canvass: REP MARCIA E. BEAN 3,271, re-elected."
         },
         {
           "office": "Clerk of District Court",
@@ -421,56 +231,2130 @@
           "holders": [
             {
               "name": "Serena K. Lipp",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Big Horn County clerk of district court page",
-                  "url": "https://www.bighorncountywy.gov/departments/clerk-of-district-court"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/big-horn.html"
-                },
-                {
-                  "label": "Big Horn County official general results, re-elected",
-                  "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-LIPP-SERENA-K",
+              "party": "Republican",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Clerk of District Court: REP SERENA K. LIPP 3,824, write-ins 15, contest totals 4,200."
             }
-          ]
+          ],
+          "note": "Official 2026 canvass, Clerk of District Court: REP SERENA K. LIPP 3,824, re-elected."
         },
         {
           "office": "County Coroner",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Michael Kirk Jameson",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Big Horn County coroner page",
-                  "url": "https://www.bighorncountywy.gov/departments/coroner"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/big-horn.html"
-                },
-                {
-                  "label": "Big Horn County official general results, re-elected",
-                  "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "ballot_name": "Michael K. Jameson"
+              "name": "Michael K. Jameson",
+              "person_id": "WY-JAMESON-MICHAEL-K",
+              "party": "Republican",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, County Coroner: REP MICHAEL K. JAMESON 3,768, write-ins 31, contest totals 4,200."
+            }
+          ],
+          "note": "Official coroner page, retrieved 2026-11-24: Michael K. Jameson. Official 2026 canvass: REP MICHAEL K. JAMESON 3,768, re-elected."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "label": "Municipal offices",
+      "offices": [
+        {
+          "office": "Basin Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "CJ Duncan",
+              "person_id": "WY-DUNCAN-CJ",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Basin Mayor: CJ Duncan 288, Clayton John Draggoo 154.",
+              "succeeding": {
+                "name": "Charles (Chuck) Hopkin",
+                "person_id": "WY-HOPKIN-CHARLES",
+                "party": "",
+                "takes_office": "January"
+              }
             }
           ]
+        },
+        {
+          "office": "Basin Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mike Dellos",
+              "person_id": "WY-DELLOS-MIKE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Basin Council (vote for 2): Mike Dellos 333, Linda Weeks 254 (Stuart Desrosier 216 lost 2024 and won a 2026 council seat)."
+            },
+            {
+              "name": "Linda Weeks",
+              "person_id": "WY-WEEKS-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Basin Council (vote for 2): Linda Weeks 254, Mike Dellos 333."
+            },
+            {
+              "name": "Brent Godfrey",
+              "person_id": "WY-GODFREY-BRENT",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Basin Council (vote for 2): Brent Godfrey 327, Charles E. Hopkin 254, Linda Harp 216.",
+              "succeeding": {
+                "name": "Michael Tanner",
+                "person_id": "WY-TANNER-MICHAEL",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Charles (Chuck) Hopkin",
+              "person_id": "WY-HOPKIN-CHARLES",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Basin Council (vote for 2): Charles E. Hopkin 254, Brent Godfrey 327. Official 2026 canvass elects Charles (Chuck) Hopkin as Basin Mayor; same person.",
+              "succeeding": {
+                "name": "Stuart Desrosier",
+                "person_id": "WY-DESROSIER-STUART",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Burlington Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Gerald \"Jerry\" George",
+              "person_id": "WY-GEORGE-GERALD",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Burlington Mayor: Gerald \"Jerry\" George 95.",
+              "succeeding": {
+                "name": "Gary Brunko",
+                "person_id": "WY-BRUNKO-GARY",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Burlington Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Don Hibbert",
+              "person_id": "WY-HIBBERT-DON",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Burlington Council (vote for 2): Don Hibbert 129, Jenny Booth 122."
+            },
+            {
+              "name": "Jenny Booth",
+              "person_id": "WY-BOOTH-JENNY",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Burlington Council (vote for 2): Jenny Booth 122, Don Hibbert 129."
+            },
+            {
+              "name": "Gary Brunko",
+              "person_id": "WY-BRUNKO-GARY",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Burlington Council (vote for 2): Gary Brunko 83, Jessie Hamilton 75, Cortney Allen 47. Official 2026 canvass elects Gary Brunko as Burlington Mayor.",
+              "succeeding": {
+                "name": "Melissa Leonhardt",
+                "person_id": "WY-LEONHARDT-MELISSA",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Jessie Hamilton",
+              "person_id": "WY-HAMILTON-JESSIE",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Burlington Council (vote for 2): Jessie Hamilton 75, Gary Brunko 83. Official 2026 canvass elects Jessie Hamilton to a 2-year council seat.",
+              "succeeding": {
+                "name": "Michael J. Harrington",
+                "person_id": "WY-HARRINGTON-MICHAEL-J",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Burlington Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Burlington Council 2-year: Jessie Hamilton 60, Neal A. Wood 41. Takes office January 2027.",
+              "succeeding": {
+                "name": "Jessie Hamilton",
+                "person_id": "WY-HAMILTON-JESSIE",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Byron Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Allan P. Clark",
+              "person_id": "WY-CLARK-ALLAN-P",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Byron Mayor: Allan P. Clark 134, re-elected."
+            }
+          ]
+        },
+        {
+          "office": "Byron Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brandon Hessenthaler",
+              "person_id": "WY-HESSENTHALER-BRANDON",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Byron Council (vote for 2): Brandon Hessenthaler 103, Shae C. Abraham 101, Taliesha Beech 46. Takes office January 2027."
+            },
+            {
+              "name": "Shae C. Abraham",
+              "person_id": "WY-ABRAHAM-SHAE-C",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Byron Council (vote for 2): Shae C. Abraham 101, Brandon Hessenthaler 103."
+            },
+            {
+              "name": "Mike Brightly",
+              "person_id": "WY-BRIGHTLY-MIKE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Byron Council (vote for 2): Mike Brightly 121, Karma Sanders 109."
+            },
+            {
+              "name": "Karma Sanders",
+              "person_id": "WY-SANDERS-KARMA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Byron Council (vote for 2): Karma Sanders 109, Mike Brightly 121."
+            }
+          ]
+        },
+        {
+          "office": "Cowley Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joel Peterson",
+              "person_id": "WY-PETERSON-JOEL",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Cowley Mayor: Joel Peterson 256.",
+              "succeeding": {
+                "name": "Stephen Winters",
+                "person_id": "WY-WINTERS-STEPHEN",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Cowley Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Scott Crosby",
+              "person_id": "WY-CROSBY-SCOTT",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Cowley Council (vote for 2): Scott Crosby 216, Dexter Woodis 183, Rose Ames 97, Bryan Baird 62. Takes office January 2027."
+            },
+            {
+              "name": "Max Lewis",
+              "person_id": "WY-LEWIS-MAX",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Cowley Council (vote for 2): Max Lewis 181, Rob Johnson 120. A 2024 loser listed as Dexter Woods on the official scan is not combined with official 2026 winner Dexter Woodis."
+            },
+            {
+              "name": "Rob Johnson",
+              "person_id": "WY-JOHNSON-ROB",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Cowley Council (vote for 2): Rob Johnson 120, Max Lewis 181."
+            },
+            {
+              "name": "Emily Anne Simmons",
+              "person_id": "WY-SIMMONS-EMILY-ANNE",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Cowley Council (vote for 2): Emily Anne Simmons 205, Scott Crosby 172.",
+              "succeeding": {
+                "name": "Dexter Woodis",
+                "person_id": "WY-WOODIS-DEXTER",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Deaver Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bill Camp",
+              "person_id": "WY-CAMP-BILL",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Deaver Mayor: Bill Camp 43, re-elected."
+            }
+          ]
+        },
+        {
+          "office": "Deaver Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kayla James",
+              "person_id": "WY-JAMES-KAYLA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Deaver Council (vote for 2): Kayla James 32, Shauna Crouch 35."
+            },
+            {
+              "name": "Nick Loftus",
+              "person_id": "WY-LOFTUS-NICK",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Deaver Council (vote for 2): Nick Loftus 66, Aspen Beall 65."
+            },
+            {
+              "name": "Aspen Beall",
+              "person_id": "WY-BEALL-ASPEN",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Deaver Council (vote for 2): Aspen Beall 65, Nick Loftus 66."
+            },
+            {
+              "name": "Steve Gillett",
+              "person_id": "WY-GILLETT-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Deaver Council (vote for 2): Steve Gillett 44, Kayla James 45.",
+              "succeeding": {
+                "name": "Shauna Crouch",
+                "person_id": "WY-CROUCH-SHAUNA",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Deaver Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Deaver Council 2-year: Kelly Spann 36. Takes office January 2027.",
+              "succeeding": {
+                "name": "Kelly Spann",
+                "person_id": "WY-SPANN-KELLY",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Frannie Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Steve Richardson",
+              "person_id": "WY-RICHARDSON-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Frannie Mayor: Steve Richardson 26, R. Vance Peregoy 22.",
+              "succeeding": {
+                "name": "Garret I. Frescoln",
+                "person_id": "WY-FRESCOLN-GARRET-I",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Frannie Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Keara Poole",
+              "person_id": "WY-POOLE-KEARA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Frannie Council (vote for 2): Keara Poole 37, Guy DeSantis 36. Takes office January 2027."
+            },
+            {
+              "name": "Roger Ganoung",
+              "person_id": "WY-GANOUNG-ROGER",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Frannie Council (vote for 2): Roger Ganoung 36, Shang Clendenen 35 (Guy T. DeSantis 29 lost 2024 and won a 2026 council seat)."
+            },
+            {
+              "name": "Shang Clendenen",
+              "person_id": "WY-CLENDENEN-SHANG",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Frannie Council (vote for 2): Shang Clendenen 35, Roger Ganoung 36."
+            },
+            {
+              "name": "Garret I. Frescoln",
+              "person_id": "WY-FRESCOLN-GARRET-I",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Frannie Council 4-year (vote for 2): Garret I. Frescoln 41, Keara Poole 45. Official 2026 canvass elects Garret I. Frescoln as Frannie Mayor.",
+              "succeeding": {
+                "name": "Guy DeSantis",
+                "person_id": "WY-DESANTIS-GUY",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Frannie Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Frannie Council 2-year: John Ellis 35. Takes office January 2027.",
+              "succeeding": {
+                "name": "John Ellis",
+                "person_id": "WY-ELLIS-JOHN",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Greybull Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Myles R. Foley",
+              "person_id": "WY-FOLEY-MYLES-R",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 Custom Table Report page 27 of 74 (OFFICIAL RESULTS, visually confirmed on the two-column page with Frannie Council 2yr): Greybull Mayor, vote for 1, MYLES R. FOLEY 414, write-ins 43, Total Votes Cast 457, undervotes 103, contest total 560.",
+              "succeeding": {
+                "name": "Michael Johnston",
+                "person_id": "WY-JOHNSTON-MICHAEL",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ],
+          "note": "Official 2022 Custom Table Report page 27 of 74 (visually confirmed): MYLES R. FOLEY 414, write-ins 43, contest total 560. Official 2026 canvass: Michael Johnston 378, Bill Brenner 201, taking office January 2027."
+        },
+        {
+          "office": "Greybull Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Chris Dooley",
+              "person_id": "WY-DOOLEY-CHRIS",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Greybull Council 4-year (vote for 2): Chris Dooley 618, Gerald Crist 510."
+            },
+            {
+              "name": "Gerald Crist",
+              "person_id": "WY-CRIST-GERALD",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Greybull Council 4-year (vote for 2): Gerald Crist 510, Chris Dooley 618."
+            },
+            {
+              "name": "Blaine Jolley",
+              "person_id": "WY-JOLLEY-BLAINE",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Greybull Council 4-year (vote for 2): Blaine Jolley 370, Dean S. Miars 278, Jeremy Kottman 237.",
+              "succeeding": {
+                "name": "Bob Williamson",
+                "person_id": "WY-WILLIAMSON-BOB",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Dean S. Miars",
+              "person_id": "WY-MIARS-DEAN-S",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Greybull Council 4-year (vote for 2): Dean S. Miars 278, Blaine Jolley 370.",
+              "succeeding": {
+                "name": "Robert C. Skillman Jr.",
+                "person_id": "WY-SKILLMAN-ROBERT-C",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Greybull Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Myles R. Foley",
+              "person_id": "WY-FOLEY-MYLES-R",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2024 canvass, Greybull Council 2-year: Myles R. Foley 427, Bill Brenner 319. The official 2022 canvass also names Myles R. Foley as Greybull Mayor (current through January 2027); both official offices are recorded. The 2-year council term ends January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Lovell Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tom Newman",
+              "person_id": "WY-NEWMAN-TOM",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Lovell Mayor: Tom Newman 546, re-elected."
+            }
+          ]
+        },
+        {
+          "office": "Lovell Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Robert Mangus",
+              "person_id": "WY-MANGUS-ROBERT",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Lovell Council (vote for 2): Robert Mangus 366, Daniel L. Anderson 338, Jason W. Sumaya 209, Jeffrey McCollam 166. Takes office January 2027."
+            },
+            {
+              "name": "Daniel L. Anderson",
+              "person_id": "WY-ANDERSON-DANIEL-L",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Lovell Council (vote for 2): Daniel L. Anderson 338, Robert Mangus 366."
+            },
+            {
+              "name": "Michael Lee Grant",
+              "person_id": "WY-GRANT-MICHAEL-LEE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Lovell Council (vote for 2): Michael Lee Grant 456, Carol Miller 442."
+            },
+            {
+              "name": "Carol Miller",
+              "person_id": "WY-MILLER-CAROL",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Lovell Council (vote for 2): Carol Miller 442, Michael Lee Grant 456."
+            }
+          ]
+        },
+        {
+          "office": "Manderson Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Rod Patrick",
+              "person_id": "WY-PATRICK-ROD",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, Manderson Mayor: Rod Patrick 30, Barbara Wall 16.",
+              "succeeding": {
+                "name": "William S. Duncan",
+                "person_id": "WY-DUNCAN-WILLIAM-S",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Manderson Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Thea Saunders",
+              "person_id": "WY-SAUNDERS-THEA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Manderson Council (vote for 2): Thea Saunders 18, Christopher M. Saunders 21."
+            },
+            {
+              "name": "Sharon Sanford",
+              "person_id": "WY-SANFORD-SHARON",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Manderson Council 4-year: Sharon Sanford 20, Thea Saunders 21."
+            },
+            {
+              "name": "Christopher M. Saunders",
+              "person_id": "WY-SAUNDERS-CHRISTOPHER-M",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Manderson Council (vote for 2): Christopher M. Saunders 21, Thea Saunders 18, Howard Applegarth 16, Tim Patrick 13. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": ""
+            }
+          ]
+        },
+        {
+          "office": "Manderson Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Manderson Council 2-year: Aleta Driver 20, Jack Nielsen 15. Takes office January 2027.",
+              "succeeding": {
+                "name": "Aleta Driver",
+                "person_id": "WY-DRIVER-ALETA",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "label": "School boards",
+      "offices": [
+        {
+          "office": "Big Horn County School District #1 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Wendy Fuller",
+              "person_id": "WY-FULLER-WENDY",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #1 At Large (vote for 1): Wendy Fuller 695, Holly Michaels 675."
+            },
+            {
+              "name": "Hiedi J. Christensen",
+              "person_id": "WY-CHRISTENSEN-HIEDI-J",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #1 At Large (vote for 2): Hiedi J. Christensen 712, Holly Michaels 568, Hunter Allen 318, contest totals 2,216. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Holly Michaels",
+              "person_id": "WY-MICHAELS-HOLLY",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #1 At Large (vote for 2): Holly Michaels 568, Hiedi J. Christensen 712. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area A",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jared Boardman",
+              "person_id": "WY-BOARDMAN-JARED",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #1 Area A: Jared Boardman 1,305. Official 2026 commissioner elect; both official offices are recorded."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area B",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "AJ Rasmussen-Dickson",
+              "person_id": "WY-RASMUSSEN-DICKSON-AJ",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #1 Area B: AJ Rasmussen-Dickson 763, Taliesha Beech 422."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area C",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Craig A. Jones",
+              "person_id": "WY-JONES-CRAIG-A",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #1 Area C Burlington: Craig A. Jones 919, re-elected."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area D",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "David V. Banks",
+              "person_id": "WY-BANKS-DAVID-V",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2022 canvass, BHSD #1 Area D Cowley: David V. Banks 1,006.",
+              "succeeding": {
+                "name": "Emily R. Leonhardt",
+                "person_id": "WY-LEONHARDT-EMILY-R",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #2 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Stacy Bair",
+              "person_id": "WY-BAIR-STACY",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #2 At Large (vote for 4): Stacy Bair 1,019."
+            },
+            {
+              "name": "Lance E. Anderson",
+              "person_id": "WY-ANDERSON-LANCE-E",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #2 At Large (vote for 4): Lance E. Anderson (official canvass printed Lance E. Anderson, DMD; the credential is not used in the display name)."
+            },
+            {
+              "name": "C. Tyler Angell",
+              "person_id": "WY-ANGELL-C-TYLER",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #2 At Large (vote for 4): C. Tyler Angell 565."
+            },
+            {
+              "name": "Tess L. Peterson",
+              "person_id": "WY-PETERSON-TESS-L",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #2 At Large (vote for 4): Tess L. Peterson 535 (Kyle Leithead 523 and Ryan Felkins 351 lost 2024; both won 2026 seats)."
+            },
+            {
+              "name": "Ben Walker",
+              "person_id": "WY-WALKER-BEN",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #2 At Large (vote for 3): Ben Walker 746, Kyle Leithead 688, Danny Jolley 598, Marianne Grant 573. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Kyle Leithead",
+              "person_id": "WY-LEITHEAD-KYLE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #2 At Large (vote for 3): Kyle Leithead 688. Takes office January 2027."
+            },
+            {
+              "name": "Danny Jolley",
+              "person_id": "WY-JOLLEY-DANNY",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #2 At Large (vote for 3): Danny Jolley 598. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #2 Trustee At Large (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, BHSD #2 At Large 2-year: Ryan Felkins 947. Takes office January 2027.",
+              "succeeding": {
+                "name": "Ryan Felkins",
+                "person_id": "WY-FELKINS-RYAN",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #3 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "William D. Robertson",
+              "person_id": "WY-ROBERTSON-WILLIAM-D",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #3 At Large (vote for 3): William D. Robertson 770, Lynette Murray 727, Luke Maxson Zeller 709. Takes office January 2027."
+            },
+            {
+              "name": "Lynette Murray",
+              "person_id": "WY-MURRAY-LYNETTE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #3 At Large (vote for 3): Lynette Murray 727."
+            },
+            {
+              "name": "Pam Flitner",
+              "person_id": "WY-FLITNER-PAM",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #3 At Large (vote for 4): Pam Flitner 951."
+            },
+            {
+              "name": "Todd Dalin",
+              "person_id": "WY-DALIN-TODD",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #3 At Large (vote for 4): Todd Dalin 842."
+            },
+            {
+              "name": "Bette Rae Jones",
+              "person_id": "WY-JONES-BETTE-RAE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #3 At Large (vote for 4): Bette Rae Jones 751."
+            },
+            {
+              "name": "Mike Whaley",
+              "person_id": "WY-WHALEY-MIKE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #3 At Large (vote for 4): Mike Whaley 708 (Sandra Menke 700, Mark Dewees 307 lose)."
+            },
+            {
+              "name": "Luke Maxson Zeller",
+              "person_id": "WY-ZELLER-LUKE-MAXSON",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #3 At Large (vote for 3): Luke Maxson Zeller 709. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #4 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Linda Osmond",
+              "person_id": "WY-OSMOND-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #4 At Large (vote for 1): Linda Osmond 894."
+            },
+            {
+              "name": "Pricie Butcher",
+              "person_id": "WY-BUTCHER-PRICIE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #4 At Large (vote for 2): Pricie Butcher 419, Merrita Powell 392, Enrika Rain Joy Potter 311. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Merrita Powell",
+              "person_id": "WY-POWELL-MERRITA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #4 At Large (vote for 2): Merrita Powell 392. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #4 Trustee Area J",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Gregory Gloy",
+              "person_id": "WY-GLOY-GREGORY",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, BHSD #4 Area J Basin: Gregory Gloy 668. Takes office January 2027."
+            },
+            {
+              "name": "Kristen Schlattmann",
+              "person_id": "WY-SCHLATTMANN-KRISTEN",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #4 Area J (vote for 2): Kristen Schlattmann 811, Heath Hopkin 756."
+            },
+            {
+              "name": "Heath Hopkin",
+              "person_id": "WY-HOPKIN-HEATH",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, BHSD #4 Area J (vote for 2): Heath Hopkin 756, Kristen Schlattmann 811."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #4 Trustee Area K/L",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, BHSD #4 Area K/L Manderson-Hyattville: Brenda Wood 691. Official 2024 Area K/L was write-in only (125 write-ins, no certified named winner) and is not filled. Takes office January 2027.",
+              "succeeding": {
+                "name": "Brenda Wood",
+                "person_id": "WY-WOOD-BRENDA",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ],
+          "note": "Official 2024 Area K/L was write-in only (125 write-ins, no certified named winner). Official 2026 canvass: Brenda Wood 691, taking office January 2027."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "label": "Special districts",
+      "offices": [
+        {
+          "office": "Burlington Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Trent A. Aagard",
+              "person_id": "WY-AAGARD-TRENT-A",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Burlington Cemetery (vote for 3): Trent A. Aagard 288, Mike L. Riley 287, Barbara Davidson 279."
+            },
+            {
+              "name": "Mike L. Riley",
+              "person_id": "WY-RILEY-MIKE-L",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Burlington Cemetery (vote for 3): Mike L. Riley 287."
+            },
+            {
+              "name": "Barbara Davidson",
+              "person_id": "WY-DAVIDSON-BARBARA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Burlington Cemetery (vote for 3): Barbara Davidson 279."
+            },
+            {
+              "name": "Jacob Davidson",
+              "person_id": "WY-DAVIDSON-JACOB",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Burlington Cemetery (vote for 3): Jacob Davidson 196, Norman Preator 193, Kimberly Rasmussen 187. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Norman Preator",
+              "person_id": "WY-PREATOR-NORMAN",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Burlington Cemetery (vote for 3): Norman Preator 193. Takes office January 2027."
+            },
+            {
+              "name": "Kimberly Rasmussen",
+              "person_id": "WY-RASMUSSEN-KIMBERLY",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Burlington Cemetery (vote for 3): Kimberly Rasmussen 187. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Burlington Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Burlington Cemetery 2-year: Brandon Preator 209. Takes office January 2027.",
+              "succeeding": {
+                "name": "Brandon Preator",
+                "person_id": "WY-PREATOR-BRANDON",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Byron Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Don A. Hatch",
+              "person_id": "WY-HATCH-DON-A",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Byron Cemetery (vote for 3): Don A. Hatch 231, Jack Hessenthaler 228, Glen Hopkinson 183."
+            },
+            {
+              "name": "Jack Hessenthaler",
+              "person_id": "WY-HESSENTHALER-JACK",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Byron Cemetery (vote for 3): Jack Hessenthaler 228."
+            },
+            {
+              "name": "Glen Hopkinson",
+              "person_id": "WY-HOPKINSON-GLEN",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Byron Cemetery (vote for 3): Glen Hopkinson 183."
+            },
+            {
+              "name": "Steven Shaine Wagner",
+              "person_id": "WY-WAGNER-STEVEN-SHAINE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Byron Cemetery (vote for 3): Steven Shaine Wagner 154, Edward Gifford 153, E. Denney Neville 149. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Edward Gifford",
+              "person_id": "WY-GIFFORD-EDWARD",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Byron Cemetery (vote for 3): Edward Gifford 153. Takes office January 2027."
+            },
+            {
+              "name": "E. Denney Neville",
+              "person_id": "WY-NEVILLE-E-DENNEY",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Byron Cemetery (vote for 3): E. Denney Neville 149. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Cowley Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Cresta Peterson",
+              "person_id": "WY-PETERSON-CRESTA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Cowley Cemetery (vote for 3): Cresta Peterson 453, Lynne T. Strom 439, Lori Hoffman 429."
+            },
+            {
+              "name": "Lynne T. Strom",
+              "person_id": "WY-STROM-LYNNE-T",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Cowley Cemetery (vote for 3): Lynne T. Strom 439."
+            },
+            {
+              "name": "Lori Hoffman",
+              "person_id": "WY-HOFFMAN-LORI",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Cowley Cemetery (vote for 3): Lori Hoffman 429."
+            },
+            {
+              "name": "Ken Blackburn",
+              "person_id": "WY-BLACKBURN-KEN",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Cowley Cemetery (vote for 3): Ken Blackburn 346, Gary D. Leonhardt 333, Donald R. Minchow 326. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Gary D. Leonhardt",
+              "person_id": "WY-LEONHARDT-GARY-D",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Cowley Cemetery (vote for 3): Gary D. Leonhardt 333. Takes office January 2027."
+            },
+            {
+              "name": "Donald R. Minchow",
+              "person_id": "WY-MINCHOW-DONALD-R",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Cowley Cemetery (vote for 3): Donald R. Minchow 326. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Cowley Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Cowley Cemetery 2-year: Coleen Scheeler 387. Takes office January 2027.",
+              "succeeding": {
+                "name": "Coleen Scheeler",
+                "person_id": "WY-SCHEELER-COLEEN",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Deaver-Frannie Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dale R. Estes",
+              "person_id": "WY-ESTES-DALE-R",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Deaver-Frannie Cemetery 4-year (vote for 3): Dale R. Estes 174, Alicia Troutman 167, Lonnie Newton 154."
+            },
+            {
+              "name": "Alicia Troutman",
+              "person_id": "WY-TROUTMAN-ALICIA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Deaver-Frannie Cemetery 4-year: Alicia Troutman 167."
+            },
+            {
+              "name": "Lonnie Newton",
+              "person_id": "WY-NEWTON-LONNIE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Deaver-Frannie Cemetery 4-year: Lonnie Newton 154."
+            },
+            {
+              "name": "Melvyn Wambeke",
+              "person_id": "WY-WAMBEKE-MELVYN",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Deaver-Frannie Cemetery (vote for 3): Melvyn Wambeke 132, Patricia Cline 126, Brenda Kawano 118. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Patricia Cline",
+              "person_id": "WY-CLINE-PATRICIA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Deaver-Frannie Cemetery (vote for 3): Patricia Cline 126. Takes office January 2027."
+            },
+            {
+              "name": "Brenda Kawano",
+              "person_id": "WY-KAWANO-BRENDA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Deaver-Frannie Cemetery (vote for 3): Brenda Kawano 118. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Deaver-Frannie Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brenda Kawano",
+              "person_id": "WY-KAWANO-BRENDA",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2024 canvass, Deaver-Frannie Cemetery 2-year: Brenda Kawano 203. Official 2026 canvass elects Brenda Kawano to a 4-year seat."
+            }
+          ]
+        },
+        {
+          "office": "Emblem Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Fran Nolan",
+              "person_id": "WY-NOLAN-FRAN",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Emblem Cemetery (vote for 3): Fran Nolan, Karen Preis, Julie Werbelow (official named winners; OCR totals 42 / 54 / 52 were not used as a locked ranking)."
+            },
+            {
+              "name": "Karen Preis",
+              "person_id": "WY-PREIS-KAREN",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Emblem Cemetery (vote for 3): Karen Preis."
+            },
+            {
+              "name": "Julie Werbelow",
+              "person_id": "WY-WERBELOW-JULIE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Emblem Cemetery (vote for 3): Julie Werbelow."
+            },
+            {
+              "name": "George Kelso",
+              "person_id": "WY-KELSO-GEORGE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Emblem Cemetery (vote for 3): George Kelso 52, Chris Edwards 43, Janet Kummerfeldt 39. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Chris Edwards",
+              "person_id": "WY-EDWARDS-CHRIS",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Emblem Cemetery (vote for 3): Chris Edwards 43. Takes office January 2027."
+            },
+            {
+              "name": "Janet Kummerfeldt",
+              "person_id": "WY-KUMMERFELDT-JANET",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Emblem Cemetery (vote for 3): Janet Kummerfeldt 39. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Hyattville Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Robert Herman",
+              "person_id": "WY-HERMAN-ROBERT",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Hyattville Cemetery (vote for 3): Robert Herman 102, Nancy Zierolf 79. A third official 2024 named total (Kristine Robertson) was not locked because the official-scan OCR of that digit was messy."
+            },
+            {
+              "name": "Nancy Zierolf",
+              "person_id": "WY-ZIEROLF-NANCY",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Hyattville Cemetery: Nancy Zierolf 79."
+            },
+            {
+              "name": "Kelly Darling",
+              "person_id": "WY-DARLING-KELLY",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Hyattville Cemetery (vote for 3): Kelly Darling 81, Jill Tharp 79, Kelli Mercer 60. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Jill Tharp",
+              "person_id": "WY-THARP-JILL",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Hyattville Cemetery (vote for 3): Jill Tharp 79. Takes office January 2027."
+            },
+            {
+              "name": "Kelli Mercer",
+              "person_id": "WY-MERCER-KELLI",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Hyattville Cemetery (vote for 3): Kelli Mercer 60. Takes office January 2027."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": ""
+            }
+          ]
+        },
+        {
+          "office": "Lovell Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jack W. Nicholls",
+              "person_id": "WY-NICHOLLS-JACK-W",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Lovell Cemetery (vote for 3): Jack W. Nicholls 1,245, Brent Reasch 1,213, Leonard Faber 991."
+            },
+            {
+              "name": "Brent Reasch",
+              "person_id": "WY-REASCH-BRENT",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Lovell Cemetery (vote for 3): Brent Reasch 1,213."
+            },
+            {
+              "name": "Leonard Faber",
+              "person_id": "WY-FABER-LEONARD",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Lovell Cemetery (vote for 3): Leonard Faber 991."
+            },
+            {
+              "name": "Michael K. Jameson",
+              "person_id": "WY-JAMESON-MICHAEL-K",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Lovell Cemetery (vote for 3): Michael K. Jameson 910, Todd Herman 844, Ralph Winland 832. Same official name as the county coroner; one person ID is used. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Todd Herman",
+              "person_id": "WY-HERMAN-TODD",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Lovell Cemetery (vote for 3): Todd Herman 844. Takes office January 2027."
+            },
+            {
+              "name": "Ralph Winland",
+              "person_id": "WY-WINLAND-RALPH",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Lovell Cemetery (vote for 3): Ralph Winland 832. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Otto Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Janalee Jones Call",
+              "person_id": "WY-CALL-JANALEE-JONES",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Otto Cemetery (vote for 3): Janalee Jones Call 81, Andrea Tolman 79, Bevin Schatz 65."
+            },
+            {
+              "name": "Andrea Tolman",
+              "person_id": "WY-TOLMAN-ANDREA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Otto Cemetery (vote for 3): Andrea Tolman 79."
+            },
+            {
+              "name": "Bevin Schatz",
+              "person_id": "WY-SCHATZ-BEVIN",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Otto Cemetery (vote for 3): Bevin Schatz 65."
+            },
+            {
+              "name": "Camilla Hancock",
+              "person_id": "WY-HANCOCK-CAMILLA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Otto Cemetery (vote for 3): Camilla Hancock 54, Michelle Jones 51, Carrinne Jones 50. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Michelle Jones",
+              "person_id": "WY-JONES-MICHELLE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Otto Cemetery (vote for 3): Michelle Jones 51. Takes office January 2027."
+            },
+            {
+              "name": "Carrinne Jones",
+              "person_id": "WY-JONES-CARRINNE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Otto Cemetery (vote for 3): Carrinne Jones 50. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "South Central Special Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Charles Spragg",
+              "person_id": "WY-SPRAGG-CHARLES",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Central Special Cemetery 4-year (vote for 3): Charles Spragg 818, Michelle M. Burns 626. Only two named winners were certified on the official canvass; the third seat is not filled."
+            },
+            {
+              "name": "Michelle M. Burns",
+              "person_id": "WY-BURNS-MICHELLE-M",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Central Special Cemetery 4-year: Michelle M. Burns 626."
+            },
+            {
+              "name": "Brianna Laird",
+              "person_id": "WY-LAIRD-BRIANNA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, South Central Special Cemetery (vote for 3): Brianna Laird 415, Bobby Hawkins 362, Claudine Murdoch 356. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Bobby Hawkins",
+              "person_id": "WY-HAWKINS-BOBBY",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, South Central Special Cemetery (vote for 3): Bobby Hawkins 362. Takes office January 2027."
+            },
+            {
+              "name": "Claudine Murdoch",
+              "person_id": "WY-MURDOCH-CLAUDINE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, South Central Special Cemetery (vote for 3): Claudine Murdoch 356. Takes office January 2027."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": ""
+            }
+          ]
+        },
+        {
+          "office": "South Central Special Cemetery District Trustee (2-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bobby Hawkins",
+              "person_id": "WY-HAWKINS-BOBBY",
+              "party": "",
+              "term_end": "January 2027",
+              "notes": "Official 2024 canvass, South Central Special Cemetery 2-year (vote for 2): only Bobby Hawkins 919 was a named official winner.",
+              "succeeding": {
+                "name": "Arthur McChesney",
+                "person_id": "WY-MCCHESNEY-ARTHUR",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Debie Weidenhaft",
+              "person_id": "WY-WEIDENHAFT-DEBIE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2026 canvass, South Central Special Cemetery 2-year: Debie Weidenhaft 550, Arthur McChesney 497. Takes office January 2027. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Shoshone Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Spencer Ellis",
+              "person_id": "WY-ELLIS-SPENCER",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Shoshone Conserv Rural (vote for 2): Spencer Ellis 2,114, Brad Tippetts 2,030."
+            },
+            {
+              "name": "Brad Tippetts",
+              "person_id": "WY-TIPPETTS-BRAD",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Shoshone Conserv Rural (vote for 2): Brad Tippetts 2,030."
+            },
+            {
+              "name": "Keith Grant",
+              "person_id": "WY-GRANT-KEITH",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Shoshone Conserv Rural: Keith Grant 1,615. Takes office January 2027. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Shoshone Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Shoshone Conserv Urban: David Hessenthaler 1,656. Takes office January 2027.",
+              "succeeding": {
+                "name": "David Hessenthaler",
+                "person_id": "WY-HESSENTHALER-DAVID",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Shoshone Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Shoshone Conserv At Large: Robert Guccion 1,582. Takes office January 2027.",
+              "succeeding": {
+                "name": "Robert Guccion",
+                "person_id": "WY-GUCCION-ROBERT",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Linda Hamilton",
+              "person_id": "WY-HAMILTON-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Big Horn Conserv Rural (vote for 2): Linda Hamilton 2,057, Walter W. Hibbert 1,997."
+            },
+            {
+              "name": "Walter W. Hibbert",
+              "person_id": "WY-HIBBERT-WALTER-W",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Big Horn Conserv Rural (vote for 2): Walter W. Hibbert 1,997."
+            },
+            {
+              "name": "George Kelso",
+              "person_id": "WY-KELSO-GEORGE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, South Big Horn Conserv Rural: George Kelso 1,925. Takes office January 2027. Same official name also won a 2026 Emblem Cemetery seat. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, South Big Horn Conserv Urban: Eddie L. Johnson 1,812. Takes office January 2027.",
+              "succeeding": {
+                "name": "Eddie L. Johnson",
+                "person_id": "WY-JOHNSON-EDDIE-L",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, South Big Horn Conserv At Large: Howard Wildman 1,754. Takes office January 2027.",
+              "succeeding": {
+                "name": "Howard Wildman",
+                "person_id": "WY-WILDMAN-HOWARD",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #1 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bruce H. Jolley",
+              "person_id": "WY-JOLLEY-BRUCE-H",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Fire Protection Dist 1 Director (vote for 2): Bruce H. Jolley 693, Greg Rael 674. Same official name as the sitting commissioner."
+            },
+            {
+              "name": "Greg Rael",
+              "person_id": "WY-RAEL-GREG",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Fire Dist 1 Director (vote for 2): Greg Rael 674."
+            },
+            {
+              "name": "Michael H. Leonhardt",
+              "person_id": "WY-LEONHARDT-MICHAEL-H",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Fire Dist 1 Director: Michael H. Leonhardt 584. Takes office January 2027. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #2 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Deb Craft",
+              "person_id": "WY-CRAFT-DEB",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Fire Dist 2 Director (vote for 2): Deb Craft 192, Barbara Anne Greene 168. Official 2026 Fire Dist 2 was write-in only (31 write-ins) and is not filled."
+            },
+            {
+              "name": "Barbara Anne Greene",
+              "person_id": "WY-GREENE-BARBARA-ANNE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Fire Dist 2 Director (vote for 2): Barbara Anne Greene 168."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official 2024 canvass (vote for 2): Deb Craft 192, Barbara Anne Greene 168. Official 2026 Fire Dist 2 was write-in only (31 write-ins) and is not filled."
+        },
+        {
+          "office": "Big Horn Fire District #3 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Luke Foss",
+              "person_id": "WY-FOSS-LUKE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Fire Dist 3 Director (vote for 2): Luke Foss 95, Dave Paumer 86."
+            },
+            {
+              "name": "Dave Paumer",
+              "person_id": "WY-PAUMER-DAVE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Fire Dist 3 Director (vote for 2): Dave Paumer 86."
+            },
+            {
+              "name": "Joe Wildman",
+              "person_id": "WY-WILDMAN-JOE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Fire Dist 3 Director: Joe Wildman 67. Takes office January 2027. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #4 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Susan Davidson",
+              "person_id": "WY-DAVIDSON-SUSAN",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Fire Dist 4 Director (vote for 2): Susan Davidson 398 was a clear official named winner. Other named totals and a large write-in figure on the official scan were not locked because of messy OCR, and no certified named write-in winner is recorded."
+            },
+            {
+              "name": "Gary Hibbert",
+              "person_id": "WY-HIBBERT-GARY",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Fire Dist 4 Director: Gary Hibbert 314. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": ""
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #5 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kevin Griffin",
+              "person_id": "WY-GRIFFIN-KEVIN",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Fire Dist 5 Director (vote for 2): Kevin Griffin 61, Cherie Wambeke 2."
+            },
+            {
+              "name": "Cherie Wambeke",
+              "person_id": "WY-WAMBEKE-CHERIE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Fire Dist 5 Director (vote for 2): Cherie Wambeke 2."
+            },
+            {
+              "name": "Kendal Wambeke",
+              "person_id": "WY-WAMBEKE-KENDAL",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Fire Dist 5 Director: Kendal Wambeke 53, Stephanie Wambeke 12. Takes office January 2027. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 1",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Park Co Fire Dist 1 Directors 1/3/5 (Big Horn sliver, contest totals 8): Scott Bagnell 7, Gerald (Bear) May 7, Heath Worstell 7. Takes office January 2027.",
+              "succeeding": {
+                "name": "Scott Bagnell",
+                "person_id": "WY-BAGNELL-SCOTT",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Roger Easum",
+              "person_id": "WY-EASUM-ROGER",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 Big Horn canvass, Park Co Fire Prot Dist 1 Director 2: Roger Easum 6, Matt McCaslin 4 (tiny official Big Horn sliver). Whole-district official Park canvass, if later combined, is not re-keyed here."
+            },
+            {
+              "name": "Matt McCaslin",
+              "person_id": "WY-MCCASLIN-MATT",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 Big Horn canvass, Park Co Fire Prot Dist 1 Director 2: Matt McCaslin 4."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 3",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Park Co Fire Dist 1 Director 3 (Big Horn sliver): Gerald (Bear) May 7.",
+              "succeeding": {
+                "name": "Gerald (Bear) May",
+                "person_id": "WY-MAY-GERALD-BEAR",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 4",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott Heny",
+              "person_id": "WY-HENY-SCOTT",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 Big Horn canvass, Park Co Fire Prot Dist 1 Director 4: Scott Heny."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 5",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, Park Co Fire Dist 1 Director 5 (Big Horn sliver): Heath Worstell 7.",
+              "succeeding": {
+                "name": "Heath Worstell",
+                "person_id": "WY-WORSTELL-HEATH",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "David A. Winterholler",
+              "person_id": "WY-WINTERHOLLER-DAVID-A",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, North Hospital At Large (vote for 2): David A. Winterholler 2,141, Max Lewis 1,802."
+            },
+            {
+              "name": "Max Lewis",
+              "person_id": "WY-LEWIS-MAX",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, North Hospital At Large (vote for 2): Max Lewis 1,802. Same official name also holds a Cowley council seat."
+            },
+            {
+              "name": "Bruce Morrison",
+              "person_id": "WY-MORRISON-BRUCE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, North Hospital At Large (vote for 2): only Bruce Morrison 1,637 is a named official winner (write-ins 311 are not combined into a certified name). Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official 2024 canvass (vote for 2): David A. Winterholler 2,141, Max Lewis 1,802. Official 2026 (vote for 2) named only Bruce Morrison 1,637 (write-ins 311 are not combined into a certified name)."
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee Lovell",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Patricia Crumrine",
+              "person_id": "WY-CRUMRINE-PATRICIA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, North Hospital Trustee Lovell: Patricia Crumrine 2,324."
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee Byron-Cowley",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, North Hospital Byron-Cowley: Brett Crosby 1,583. Takes office January 2027.",
+              "succeeding": {
+                "name": "Brett Crosby",
+                "person_id": "WY-CROSBY-BRETT",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee Deaver-Frannie",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, North Hospital Deaver-Frannie: Garret I. Frescoln 1,489. Takes office January 2027.",
+              "succeeding": {
+                "name": "Garret I. Frescoln",
+                "person_id": "WY-FRESCOLN-GARRET-I",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn County Hospital District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Trudy E. Craft",
+              "person_id": "WY-CRAFT-TRUDY-E",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Hospital At Large (vote for 3): Trudy E. Craft 2,088, Fred Werner 1,849, Michael Scherman 1,510."
+            },
+            {
+              "name": "Fred Werner",
+              "person_id": "WY-WERNER-FRED",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Hospital At Large (vote for 3): Fred Werner 1,849."
+            },
+            {
+              "name": "Michael Scherman",
+              "person_id": "WY-SCHERMAN-MICHAEL",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Hospital At Large (vote for 3): Michael Scherman 1,510."
+            },
+            {
+              "name": "Jeff Petty",
+              "person_id": "WY-PETTY-JEFF",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, South Hospital At Large (vote for 2): only Jeff Petty 1,707 is a named official winner. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official 2024 canvass (vote for 3): Trudy E. Craft 2,088, Fred Werner 1,849, Michael Scherman 1,510. Official 2026 (vote for 2) named only Jeff Petty 1,707."
+        },
+        {
+          "office": "North Senior Citizen Service District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lori Scheffler",
+              "person_id": "WY-SCHEFFLER-LORI",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, North Senior At Large (vote for 3): Lori Scheffler 2,077, Annella Prosser 1,879, Edie Crosby 1,842."
+            },
+            {
+              "name": "Annella Prosser",
+              "person_id": "WY-PROSSER-ANNELLA",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, North Senior At Large (vote for 3): Annella Prosser 1,879."
+            },
+            {
+              "name": "Edie Crosby",
+              "person_id": "WY-CROSBY-EDIE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, North Senior At Large (vote for 3): Edie Crosby 1,842."
+            },
+            {
+              "name": "Pauline Tippetts",
+              "person_id": "WY-TIPPETTS-PAULINE",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, North Senior (vote for 2): Pauline Tippetts 1,518, Patricia Parmer 1,423. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Patricia Parmer",
+              "person_id": "WY-PARMER-PATRICIA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, North Senior (vote for 2): Patricia Parmer 1,423. Takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "North Senior Citizen Service District Trustee At Large (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": "",
+              "notes": "Official 2026 canvass, North Senior 2-year: Linda Jo Miller 1,601. Takes office January 2027.",
+              "succeeding": {
+                "name": "Linda Jo Miller",
+                "person_id": "WY-MILLER-LINDA-JO",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ]
+        },
+        {
+          "office": "South Senior Citizen Service District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kristi L. Bonnel-Phillips",
+              "person_id": "WY-BONNEL-PHILLIPS-KRISTI-L",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Senior At Large (vote for 3): Kristi L. Bonnel-Phillips 2,005, Diane Nuttall 1,909, Sherri Emmett 1,888. Official 2026 regular and 2-year South Senior contests were write-in only and are not filled."
+            },
+            {
+              "name": "Diane Nuttall",
+              "person_id": "WY-NUTTALL-DIANE",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Senior At Large (vote for 3): Diane Nuttall 1,909."
+            },
+            {
+              "name": "Sherri Emmett",
+              "person_id": "WY-EMMETT-SHERRI",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, South Senior At Large (vote for 3): Sherri Emmett 1,888."
+            }
+          ],
+          "note": "Official 2024 canvass (vote for 3): Kristi L. Bonnel-Phillips 2,005, Diane Nuttall 1,909, Sherri Emmett 1,888. Official 2026 regular and 2-year contests were write-in only and are not filled."
+        },
+        {
+          "office": "South Senior Citizen Service District Trustee At Large (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official 2026 South Senior 2-year contest was write-in only (186 write-ins) and is not filled."
+        },
+        {
+          "office": "Rural Health District #1 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Deb Rathbun",
+              "person_id": "WY-RATHBUN-DEB",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Rural Health Dist 1 (vote for 2): Deb Rathbun 1,654, Deb Fowler 1,637."
+            },
+            {
+              "name": "Deb Fowler",
+              "person_id": "WY-FOWLER-DEB",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 canvass, Rural Health Dist 1 (vote for 2): Deb Fowler 1,637."
+            },
+            {
+              "name": "Kenneth Nelson",
+              "person_id": "WY-NELSON-KENNETH",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Rural Health Dist 1 (vote for 3): Kenneth Nelson 1,114, Theresa Turner 1,015, Russell Fowler 1,008. Takes office January 2027. Takes office January 2027."
+            },
+            {
+              "name": "Theresa Turner",
+              "person_id": "WY-TURNER-THERESA",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Rural Health Dist 1 (vote for 3): Theresa Turner 1,015. Takes office January 2027."
+            },
+            {
+              "name": "Russell Fowler",
+              "person_id": "WY-FOWLER-RUSSELL",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2026 canvass, Rural Health Dist 1 (vote for 3): Russell Fowler 1,008. Takes office January 2027."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention (district and circuit)",
+      "label": "Judicial",
+      "offices": [
+        {
+          "office": "District Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bobbi Overfield",
+              "person_id": "WY-OVERFIELD-BOBBI",
+              "party": "",
+              "term_end": "January 2033",
+              "notes": "Official 2026 Big Horn canvass, RETAIN JUDGE BOBBI OVERFIELD: YES 2,876, NO 722. Retained, continuing January 2027."
+            }
+          ],
+          "note": "Official March 2026 judicial roster title already used in official Park and Washakie histories. Official 2026 Big Horn canvass, RETAIN JUDGE BOBBI OVERFIELD: YES 2,876 / NO 722. Retained, continuing January 2027."
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Luhm",
+              "person_id": "WY-LUHM-ED",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2024 Big Horn canvass, RETAIN JUDGE EDWARD G. LUHM: YES 4,081, NO 864. Official court/roster name used in the official Park and Washakie histories is Ed Luhm (Edward G. Luhm)."
+            }
+          ],
+          "note": "Official 2024 Big Horn canvass, RETAIN JUDGE EDWARD G. LUHM: YES 4,081 / NO 864. Official roster name Ed Luhm (Edward G. Luhm)."
+        },
+        {
+          "office": "District Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bill Simpson",
+              "person_id": "WY-SIMPSON-BILL",
+              "party": "",
+              "term_end": "January 2031",
+              "notes": "Official 2024 Big Horn canvass, RETAIN JUDGE BILL SIMPSON: YES 4,155, NO 903. Official March 2026 roster names Bill Simpson, Park district judge (also used in official Park and Washakie histories)."
+            }
+          ],
+          "note": "Official 2024 Big Horn canvass, RETAIN JUDGE BILL SIMPSON: YES 4,155 / NO 903. Official March 2026 roster names Bill Simpson (Park district judge)."
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joey Darrah",
+              "person_id": "WY-DARRAH-JOEY",
+              "party": "",
+              "term_end": "January 2029",
+              "notes": "Official 2024 Big Horn canvass, RETAIN JUDGE S. JOSEPH JOEY DARRAH: YES 4,097, NO 906. Official roster name Joey Darrah (Park circuit), already used in official Park and Washakie histories."
+            }
+          ],
+          "note": "Official 2024 Big Horn canvass, RETAIN JUDGE S. JOSEPH JOEY DARRAH: YES 4,097 / NO 906. Official roster name Joey Darrah (Park circuit)."
         }
       ]
     },
@@ -783,6 +2667,8 @@
   "sources": {
     "general_results": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf",
     "primary_results": "https://bighorncountywy.gov/images/Official_BHC_Primary_Election_Summary_Report_2026.pdf",
-    "checked": "2026-11-19"
+    "clerk_archive": "https://bighorncountywy.gov/departments/clerk/elections",
+    "checked": "2026-11-24",
+    "local_archive": "/workspace/wyoleg/local-results/big-horn/SOURCES.md"
   }
 }

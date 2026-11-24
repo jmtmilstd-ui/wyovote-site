@@ -2,7 +2,7 @@
   "county": "Sweetwater",
   "county_number": 4,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -14,67 +14,44 @@
       "offices": [
         {
           "office": "Senate District 11 (S11)",
-          "layout": "office-and-name",
-          "note": "Also covers Carbon.",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Larry Hicks",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1963"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Bob Davis",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, S11",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/hicks.html"
+              "person_id": "WY-HICKS-LARRY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/larry-hicks.html"
+            },
+            {
+              "name": "Bob Davis",
+              "person_id": "WY-DAVIS-BOB",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/bob-davis.html"
             }
-          ]
+          ],
+          "note": "Bob Davis is the official 2026 general winner and takes office January 2027. Official 2026 SOS statewide Senate summary Total: Bob Davis (R) 3,615, Jim Wilson (D) 1,030, Don VanMatre (C) 297. Official Sweetwater share: Davis 535, Wilson 167, VanMatre 51. Official Carbon portion: Davis 3,080, Wilson 863, VanMatre 246. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "Senate District 12 (S12)",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "John Kolb",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2066"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/kolb.html"
+              "name": "John K. Kolb",
+              "person_id": "WY-KOLB-JOHN-K",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/john-k-kolb.html"
             }
           ]
         },
@@ -84,49 +61,32 @@
           "holders": [
             {
               "name": "Stacy Jones",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2088"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, S13, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/jones.html"
+              "person_id": "WY-JONES-STACY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/stacy-jones.html"
             }
           ]
         },
         {
           "office": "Senate District 14 (S14)",
           "layout": "office-and-name",
-          "note": "Also covers Sublette, Lincoln and Uinta.",
           "holders": [
             {
-              "name": "Laura Pearson",
-              "sources": [
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                }
-              ],
-              "party": "R"
+              "name": "Laura Taliaferro (formerly Pearson)",
+              "person_id": "WY-PEARSON-LAURA",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/laura-taliaferro-formerly-pearson.html"
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary totals: Laura Taliaferro Pearson 8,025 (official ballot name). Official Sweetwater portion: 1,351. Also covers Lincoln, Sublette, and Uinta. Display name follows the site rule: Laura Taliaferro (formerly Pearson), person ID WY-PEARSON-LAURA."
         }
       ]
     },
@@ -137,114 +97,73 @@
         {
           "office": "House District 15 (H15)",
           "layout": "office-and-name",
-          "note": "Also covers Carbon.",
           "holders": [
             {
-              "name": "Pam Thayer",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2119"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H15, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "ballot_name": "Pamela Thayer",
-              "href": "officials/thayer.html"
+              "name": "Pamela Thayer",
+              "person_id": "WY-THAYER-PAMELA",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/pamela-thayer.html"
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary totals: Pamela Thayer 1,499, Cheryl Hulme 398. Official Sweetwater portion: Thayer 28, Hulme 6. Also covers Carbon County. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "House District 17 (H17)",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "J.T. Larson",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2096"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Elizabeth Bingham",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H17",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/larson.html"
+              "person_id": "WY-LARSON-JT",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/j-t-larson.html"
+            },
+            {
+              "name": "Elizabeth Bingham",
+              "person_id": "WY-BINGHAM-ELIZABETH",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/elizabeth-bingham.html"
             }
-          ]
+          ],
+          "note": "Elizabeth Bingham is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "House District 18 (H18)",
-          "layout": "office-and-name",
-          "note": "Also covers Lincoln and Uinta.",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Scott Heiner",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2074"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Kenneth D Roberts",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H18",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/heiner.html"
+              "person_id": "WY-HEINER-SCOTT",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/scott-heiner.html"
+            },
+            {
+              "name": "Kenneth D. Roberts",
+              "person_id": "WY-ROBERTS-KENNETH-D",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner. Official 2026 SOS district-wide totals: Roberts 2,691. Official Sweetwater portion: 879.",
+              "href": "candidates/local-history/c/kenneth-d-roberts.html"
             }
-          ]
+          ],
+          "note": "Kenneth D. Roberts is the official 2026 general winner and takes office January 2027. Official 2026 SOS statewide House summary totals: Roberts 2,691. Official Sweetwater portion: 879. Also covers Lincoln and Uinta. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "House District 39 (H39)",
@@ -252,149 +171,96 @@
           "holders": [
             {
               "name": "Cody Wylie",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2107"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H39, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/wylie.html"
+              "person_id": "WY-WYLIE-CODY",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/cody-wylie.html"
             }
           ]
         },
         {
           "office": "House District 47 (H47)",
-          "layout": "office-and-name",
-          "note": "Also covers Carbon.",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Bob Davis",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2110"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Eamon O'Toole",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H47",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/davis.html"
+              "person_id": "WY-DAVIS-BOB",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bob-davis.html"
+            },
+            {
+              "name": "Eamon O'Toole",
+              "person_id": "WY-OTOOLE-EAMON",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/eamon-o-toole.html"
             }
-          ]
+          ],
+          "note": "Eamon O'Toole is the official 2026 general winner and takes office January 2027. Official 2026 SOS statewide House summary Total: Eamon O'Toole (R) 2,523. Official Sweetwater share: 603. Official Carbon portion: 1,920. Official 2024 SOS statewide House summary Total: Bob Davis (R) 3,488, James A. Wilson (D) 666. Official Sweetwater share: 918\u2013205. Official Carbon portion: Davis 2,570, Wilson 461. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "House District 48 (H48)",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
-              "name": "Darin McCann",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2130"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "James Wamsley",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H48",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/mccann.html"
+              "name": "Darin M. McCann",
+              "person_id": "WY-MCCANN-DARIN-M",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/darin-m-mccann.html"
+            },
+            {
+              "name": "James Wamsley",
+              "person_id": "WY-WAMSLEY-JAMES",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/james-wamsley.html"
             }
-          ]
+          ],
+          "note": "James Wamsley is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "House District 60 (H60)",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Marlene Brady",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2143"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_04_Sweetwater_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Tony Niemiec",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H60",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/brady.html"
+              "person_id": "WY-BRADY-MARLENE",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/marlene-brady.html"
+            },
+            {
+              "name": "Tony Niemiec",
+              "person_id": "WY-NIEMIEC-TONY",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/tony-niemiec.html"
             }
-          ]
+          ],
+          "note": "Tony Niemiec is the official 2026 general winner and takes office January 2027."
         }
       ]
     },
@@ -408,283 +274,167 @@
           "holders": [
             {
               "name": "Robb Slaughter",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sweetwater.html"
-                },
-                {
-                  "label": "Green River Star, election results, Nov 5",
-                  "url": "https://www.greenriverstar.com/story/2026/11/05/county/election-decides-gr-mayor-rejects-prop-1/14416.html"
-                },
-                {
-                  "label": "SweetwaterNOW, commissioner results",
-                  "url": "https://www.sweetwaternow.com/republicans-stand-tall-in-commissioner-legislative-races/"
-                }
-              ],
-              "succeeding": {
-                "name": "Sherry Bushman",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Sweetwater County official general results, County Commissioner",
-                    "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-SLAUGHTER-ROBB",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robb-slaughter.html"
             },
             {
               "name": "Island Richards",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sweetwater.html"
-                },
-                {
-                  "label": "Green River Star, election results, Nov 5",
-                  "url": "https://www.greenriverstar.com/story/2026/11/05/county/election-decides-gr-mayor-rejects-prop-1/14416.html"
-                },
-                {
-                  "label": "SweetwaterNOW, commissioner results",
-                  "url": "https://www.sweetwaternow.com/republicans-stand-tall-in-commissioner-legislative-races/"
-                },
-                {
-                  "label": "Sweetwater County official general results, re-elected",
-                  "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-RICHARDS-ISLAND",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/island-richards.html"
             },
             {
               "name": "Keaton D. West",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sweetwater.html"
-                },
-                {
-                  "label": "Green River Star, election results, Nov 5",
-                  "url": "https://www.greenriverstar.com/story/2026/11/05/county/election-decides-gr-mayor-rejects-prop-1/14416.html"
-                },
-                {
-                  "label": "SweetwaterNOW, commissioner results",
-                  "url": "https://www.sweetwaternow.com/republicans-stand-tall-in-commissioner-legislative-races/"
-                },
-                {
-                  "label": "Sweetwater County official general results, re-elected",
-                  "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-WEST-KEATON-D",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/keaton-d-west.html"
             },
             {
               "name": "Taylor Jones",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/sweetwater.html"
-                },
-                {
-                  "label": "Green River Star, election results, Nov 5",
-                  "url": "https://www.greenriverstar.com/story/2026/11/05/county/election-decides-gr-mayor-rejects-prop-1/14416.html"
-                },
-                {
-                  "label": "SweetwaterNOW, commissioner results",
-                  "url": "https://www.sweetwaternow.com/republicans-stand-tall-in-commissioner-legislative-races/"
-                }
-              ]
+              "person_id": "WY-JONES-TAYLOR",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/taylor-jones.html"
             },
             {
               "name": "Mary E. Thoman",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/sweetwater.html"
-                },
-                {
-                  "label": "Green River Star, election results, Nov 5",
-                  "url": "https://www.greenriverstar.com/story/2026/11/05/county/election-decides-gr-mayor-rejects-prop-1/14416.html"
-                },
-                {
-                  "label": "SweetwaterNOW, commissioner results",
-                  "url": "https://www.sweetwaternow.com/republicans-stand-tall-in-commissioner-legislative-races/"
-                }
-              ]
+              "person_id": "WY-THOMAN-MARY-E",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mary-e-thoman.html"
+            },
+            {
+              "name": "Sherry Bushman",
+              "person_id": "WY-BUSHMAN-SHERRY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/sherry-bushman.html"
             }
-          ]
+          ],
+          "note": "Sherry Bushman is the official 2026 general Vote-For-3 winner (with continuing members Keaton D. West and Island Richards) and takes office January 2027."
         },
         {
           "office": "County Clerk",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Cindy Lane",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "SweetwaterNOW, Kaumo, Davis win in Sweetwater County primary (incumbent clerk)",
-                  "url": "https://www.sweetwaternow.com/kaumo-davis-win-in-sweetwater-county-primary/"
-                }
-              ],
-              "notes": "Also styled Cindy Lane-Swenson.",
-              "succeeding": {
-                "name": "Dale Davis",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Sweetwater County official general results, County Clerk",
-                    "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-LANE-CINDY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cindy-lane.html"
+            },
+            {
+              "name": "Dale Davis",
+              "person_id": "WY-DAVIS-DALE",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/dale-davis.html"
             }
-          ]
+          ],
+          "note": "Dale Davis is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "County Treasurer",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Mark Cowan",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Sweetwater County treasurer page",
-                  "url": "https://www.sweetwatercountywy.gov/departments/treasurer/index.php"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sweetwater.html"
-                },
-                {
-                  "label": "Sweetwater County official general results, re-elected",
-                  "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "ballot_name": "S. Mark Cowan"
+              "name": "S. Mark Cowan",
+              "person_id": "WY-COWAN-MARK",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/s-mark-cowan.html"
             }
           ]
         },
         {
           "office": "County Assessor",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Dave Divis",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Sweetwater County assessor page",
-                  "url": "https://www.sweetwatercountywy.gov/departments/assessor/index.php"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sweetwater.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Marianne Stacey",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Sweetwater County official general results, County Assessor",
-                    "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-DIVIS-DAVE",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dave-divis.html"
+            },
+            {
+              "name": "Marianne Stacey",
+              "person_id": "WY-STACEY-MARIANNE",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/marianne-stacey.html"
             }
-          ]
+          ],
+          "note": "Marianne Stacey is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "County Sheriff",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Rich Fischer",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "SweetwaterNOW, Rich Fischer appointed interim sheriff (June 16)",
-                  "url": "https://www.sweetwaternow.com/rich-fischer-appointed-interim-sheriff/"
-                },
-                {
-                  "label": "Green River Star, County appoints interim sheriff",
-                  "url": "https://www.greenriverstar.com/story/2026/06/18/county/county-appoints-interim-sheriff/13984.html"
-                }
-              ],
-              "notes": "Appointed after Sheriff John Grossnickle left May 31. The county sheriff page still names Grossnickle and appears stale.",
-              "succeeding": {
-                "name": "Richard F. Kaumo",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Sweetwater County official general results, County Sheriff",
-                    "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              },
-              "role": "interim"
+              "name": "Richard F. Kaumo",
+              "person_id": "WY-KAUMO-RICHARD-F",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/richard-f-kaumo.html"
             }
-          ]
+          ],
+          "note": "The official Sweetwater County staff directory retrieved 2026-11-24 lists the Sheriff office as Vacant (Rich Fischer is listed there as a Lieutenant, not as Sheriff). No official appointment of an interim sheriff was found. Richard F. Kaumo is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "County Attorney",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Dan Erramouspe",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sweetwater.html"
-                },
-                {
-                  "label": "Sweetwater County official general results, re-elected",
-                  "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name.",
-              "ballot_name": "Daniel E. Erramouspe"
+              "name": "Daniel E. Erramouspe",
+              "person_id": "WY-ERRAMOUSPE-DANIEL-E",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/daniel-e-erramouspe.html"
             }
           ]
         },
@@ -693,54 +443,1179 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Amanda Chetterbock",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Sweetwater County Clerk of District Court page",
-                  "url": "https://www.sweetwatercountywy.gov/departments/clerk_of_district_court/index.php"
-                },
-                {
-                  "label": "Sweetwater County official general results, elected",
-                  "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in the latest general, so the office does not change in January."
+              "name": "Amanda L. Chetterbock",
+              "person_id": "WY-CHETTERBOCK-AMANDA-L",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Named as the current clerk on the official county Clerk of District Court page and the official Wyoming Judicial Branch 3rd JD Sweetwater district page (retrieved 2026-11-24); official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/amanda-l-chetterbock.html"
+            }
+          ],
+          "note": "Amanda L. Chetterbock is named as the current clerk on official county and Wyoming Judicial Branch pages and is the official 2026 general winner."
+        },
+        {
+          "office": "County Coroner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dale S. Majhanovich",
+              "person_id": "WY-MAJHANOVICH-DALE-S",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dale-s-majhanovich.html"
+            },
+            {
+              "name": "Travis R. Sanders",
+              "person_id": "WY-SANDERS-TRAVIS-R",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/travis-r-sanders.html"
+            }
+          ],
+          "note": "Travis R. Sanders is the official 2026 general winner and takes office January 2027."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal Offices",
+      "offices": [
+        {
+          "office": "Green River Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Pete Rust",
+              "person_id": "WY-RUST-PETE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/pete-rust.html"
+            },
+            {
+              "name": "Stan Blake",
+              "person_id": "WY-BLAKE-STAN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/stan-blake.html"
+            }
+          ],
+          "note": "Stan Blake is the official 2026 general winner and takes office January 2027. The Green River mayor is elected on the November ballot."
+        },
+        {
+          "office": "Green River City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ronald L. Williams",
+              "person_id": "WY-WILLIAMS-RONALD-L",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/ronald-l-williams.html"
+            },
+            {
+              "name": "Sherry Bushman",
+              "person_id": "WY-BUSHMAN-SHERRY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sherry-bushman.html"
             }
           ]
         },
         {
-          "office": "County Coroner",
+          "office": "Green River City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael S. Shutran",
+              "person_id": "WY-SHUTRAN-MICHAEL-S",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michael-s-shutran.html"
+            },
+            {
+              "name": "Jessica Maser",
+              "person_id": "WY-MASER-JESSICA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jessica-maser.html"
+            },
+            {
+              "name": "Jean Joseph",
+              "person_id": "WY-JOSEPH-JEAN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jean-joseph.html"
+            }
+          ],
+          "note": "Jean Joseph is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Green River City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Gary Killpack",
+              "person_id": "WY-KILLPACK-GARY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/gary-killpack.html"
+            },
+            {
+              "name": "Robert V. Berg",
+              "person_id": "WY-BERG-ROBERT-V",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robert-v-berg.html"
+            },
+            {
+              "name": "Paul D. Stevens",
+              "person_id": "WY-STEVENS-PAUL-D",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/paul-d-stevens.html"
+            }
+          ],
+          "note": "Paul D. Stevens is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Rock Springs Mayor",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Dale Majhanovich",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Rocket Miner, Majhanovich announces retirement (not seeking re-election)",
-                  "url": "https://www.wyomingnews.com/rocketminer/majhanovich-announces-retirement/article_089fd8ee-cb20-419a-9cea-5294d03a109f.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Travis R. Sanders",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Sweetwater County official general results, County Coroner",
-                    "url": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "name": "Max Mickelson",
+              "person_id": "WY-MICKELSON-MAX",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/max-mickelson.html"
+            }
+          ]
+        },
+        {
+          "office": "Rock Springs City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jeannie Demas",
+              "person_id": "WY-DEMAS-JEANNIE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/jeannie-demas.html"
+            },
+            {
+              "name": "Rick Milonas",
+              "person_id": "WY-MILONAS-RICK",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/rick-milonas.html"
+            }
+          ]
+        },
+        {
+          "office": "Rock Springs City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Thomas Allen",
+              "person_id": "WY-ALLEN-THOMAS",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/thomas-allen.html"
+            },
+            {
+              "name": "Robert B. Zotti",
+              "person_id": "WY-ZOTTI-ROBERT-B",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robert-b-zotti.html"
+            },
+            {
+              "name": "David A. Thompson",
+              "person_id": "WY-THOMPSON-DAVID-A",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/david-a-thompson.html"
+            }
+          ],
+          "note": "David A. Thompson is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Rock Springs City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Daniel J. Pedri",
+              "person_id": "WY-PEDRI-DANIEL-J",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/daniel-j-pedri.html"
+            },
+            {
+              "name": "Larry Hickerson",
+              "person_id": "WY-HICKERSON-LARRY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/larry-hickerson.html"
+            }
+          ]
+        },
+        {
+          "office": "Rock Springs City Council Ward 4",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Randy Hanson",
+              "person_id": "WY-HANSON-RANDY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/randy-hanson.html"
+            },
+            {
+              "name": "Brent Bettolo",
+              "person_id": "WY-BETTOLO-BRENT",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brent-bettolo.html"
+            }
+          ]
+        },
+        {
+          "office": "Granger Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Styvar",
+              "person_id": "WY-STYVAR-JOHN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/john-styvar.html"
+            },
+            {
+              "name": "Anselmo \"Hippy\" Valerio",
+              "person_id": "WY-VALERIO-ANSELMO",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/anselmo-hippy-valerio.html"
+            }
+          ],
+          "note": "Anselmo \"Hippy\" Valerio is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Granger Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "George Andrews",
+              "person_id": "WY-ANDREWS-GEORGE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/george-andrews.html"
+            },
+            {
+              "name": "Robert A. Perry",
+              "person_id": "WY-PERRY-ROBERT-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robert-a-perry.html"
+            },
+            {
+              "name": "Vern Howey",
+              "person_id": "WY-HOWEY-VERN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/vern-howey.html"
+            },
+            {
+              "name": "Kimberly G. Nygaard",
+              "person_id": "WY-NYGAARD-KIMBERLY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kimberly-nygaard.html"
+            },
+            {
+              "name": "Dawn Mansir",
+              "person_id": "WY-MANSIR-DAWN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/dawn-mansir.html"
+            },
+            {
+              "name": "John Styvar",
+              "person_id": "WY-STYVAR-JOHN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/john-styvar.html"
+            }
+          ]
+        },
+        {
+          "office": "Wamsutter Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Larry \"Chip\" Roney",
+              "person_id": "WY-RONEY-LARRY-CHIP",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/larry-chip-roney.html"
+            },
+            {
+              "name": "Karlin Jerke",
+              "person_id": "WY-JERKE-KARLIN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/karlin-jerke.html"
+            }
+          ],
+          "note": "Karlin Jerke is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Wamsutter Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dustin Davis",
+              "person_id": "WY-DAVIS-DUSTIN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/dustin-davis.html"
+            },
+            {
+              "name": "Seth J. Rauch",
+              "person_id": "WY-RAUCH-SETH-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/seth-j-rauch.html"
+            },
+            {
+              "name": "David C. Wolfe",
+              "person_id": "WY-WOLFE-DAVID-C",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/david-c-wolfe.html"
+            },
+            {
+              "name": "Joanne Davey",
+              "person_id": "WY-DAVEY-JOANNE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/joanne-davey.html"
+            },
+            {
+              "name": "Marinda Waldner",
+              "person_id": "WY-WALDNER-MARINDA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/marinda-waldner.html"
+            },
+            {
+              "name": "Jennifer Goff",
+              "person_id": "WY-GOFF-JENNIFER",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general 2-year term.",
+              "href": "candidates/local-history/c/jennifer-goff.html"
+            }
+          ]
+        },
+        {
+          "office": "Superior Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Rick Niemiec",
+              "person_id": "WY-NIEMIEC-RICK",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/rick-niemiec.html"
+            }
+          ],
+          "note": "Rick Niemiec is the official 2026 general winner and takes office January 2027. No official Superior mayoral contest was found in this archive for 2014\u20132024."
+        },
+        {
+          "office": "Superior Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Thomas McCune",
+              "person_id": "WY-MCCUNE-THOMAS",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/thomas-mccune.html"
+            },
+            {
+              "name": "Sandra S. Merritt",
+              "person_id": "WY-MERRITT-SANDRA-S",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sandra-s-merritt.html"
+            },
+            {
+              "name": "Chase Frits",
+              "person_id": "WY-FRITS-CHASE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/chase-frits.html"
+            },
+            {
+              "name": "Barbara Barela",
+              "person_id": "WY-BARELA-BARBARA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general 2-year term.",
+              "href": "candidates/local-history/c/barbara-barela.html"
+            }
+          ]
+        },
+        {
+          "office": "Bairoil Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lowell Clawson",
+              "person_id": "WY-CLAWSON-LOWELL",
+              "party": "",
+              "term_end": "",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Bairoil city-government page, retrieved 2026-11-24. No term end stated on the official page.",
+              "href": "candidates/local-history/c/lowell-clawson.html"
+            }
+          ]
+        },
+        {
+          "office": "Bairoil Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Alan Thornton",
+              "person_id": "WY-THORNTON-ALAN",
+              "party": "",
+              "term_end": "",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Bairoil city-government page, retrieved 2026-11-24. No term end stated on the official page.",
+              "href": "candidates/local-history/c/alan-thornton.html"
+            },
+            {
+              "name": "Audra Thornton",
+              "person_id": "WY-THORNTON-AUDRA",
+              "party": "",
+              "term_end": "",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Bairoil city-government page, retrieved 2026-11-24. No term end stated on the official page.",
+              "href": "candidates/local-history/c/audra-thornton.html"
+            },
+            {
+              "name": "Butch McFall",
+              "person_id": "WY-MCFALL-BUTCH",
+              "party": "",
+              "term_end": "",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Bairoil city-government page, retrieved 2026-11-24. No term end stated on the official page.",
+              "href": "candidates/local-history/c/butch-mcfall.html"
+            },
+            {
+              "name": "Michelle Chavez",
+              "person_id": "WY-CHAVEZ-MICHELLE",
+              "party": "",
+              "term_end": "",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Bairoil city-government page, retrieved 2026-11-24. No term end stated on the official page.",
+              "href": "candidates/local-history/c/michelle-chavez.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School and College Boards",
+      "offices": [
+        {
+          "office": "Western Wyoming College Trustee At-Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kenneth Lorimer",
+              "person_id": "WY-LORIMER-KENNETH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kenneth-lorimer.html"
+            },
+            {
+              "name": "Lindsey Travis",
+              "person_id": "WY-TRAVIS-LINDSEY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/lindsey-travis.html"
+            }
+          ]
+        },
+        {
+          "office": "Western Wyoming College Trustee District #1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Stephen P. Allen",
+              "person_id": "WY-ALLEN-STEPHEN-P",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/stephen-p-allen.html"
+            },
+            {
+              "name": "Veronica K. Donaldson",
+              "person_id": "WY-DONALDSON-VERONICA-K",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/veronica-k-donaldson.html"
+            },
+            {
+              "name": "Tiffany Marshall",
+              "person_id": "WY-MARSHALL-TIFFANY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tiffany-marshall.html"
+            },
+            {
+              "name": "Ozzie Knezovich",
+              "person_id": "WY-KNEZOVICH-OZZIE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ozzie-knezovich.html"
+            },
+            {
+              "name": "James Jessen",
+              "person_id": "WY-JESSEN-JAMES",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 District #1 line, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/james-jessen.html"
+            },
+            {
+              "name": "Jackie L. Freeze",
+              "person_id": "WY-FREEZE-JACKIE-L",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jackie-l-freeze.html"
+            }
+          ]
+        },
+        {
+          "office": "Western Wyoming College Trustee District #2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jenissa Meredith",
+              "person_id": "WY-MEREDITH-JENISSA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jenissa-meredith.html"
+            },
+            {
+              "name": "Robbie Lee",
+              "person_id": "WY-LEE-ROBBIE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robbie-lee.html"
+            },
+            {
+              "name": "Stacey Nelson",
+              "person_id": "WY-NELSON-STACEY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/stacey-nelson.html"
+            }
+          ]
+        },
+        {
+          "office": "Western Wyoming School District #1 Trustee",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "James Jessen",
+              "person_id": "WY-JESSEN-JAMES",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 general WESTERN WYOMING SCHOOL DISTRICT #1 winner.",
+              "href": "candidates/local-history/c/james-jessen.html"
+            }
+          ]
+        },
+        {
+          "office": "SWSD #1 Trustee Rock Springs Area",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Cole Seppie",
+              "person_id": "WY-SEPPIE-COLE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cole-seppie.html"
+            },
+            {
+              "name": "Dr. Chad Franks",
+              "person_id": "WY-FRANKS-CHAD",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/chad-franks.html"
+            },
+            {
+              "name": "Cole Wright",
+              "person_id": "WY-WRIGHT-COLE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cole-wright.html"
+            },
+            {
+              "name": "Joshua P. Sorensen",
+              "person_id": "WY-SORENSEN-JOSHUA-P",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/joshua-p-sorensen.html"
+            },
+            {
+              "name": "Leo Gray",
+              "person_id": "WY-GRAY-LEO",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/leo-gray.html"
+            },
+            {
+              "name": "Danella DeVries",
+              "person_id": "WY-DEVRIES-DANELLA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/danella-devries.html"
+            },
+            {
+              "name": "Heather Hager",
+              "person_id": "WY-HAGER-HEATHER",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general 2-year term.",
+              "href": "candidates/local-history/c/heather-hager.html"
+            },
+            {
+              "name": "Kori L. Rossetti",
+              "person_id": "WY-ROSSETTI-KORI-L",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general 2-year term.",
+              "href": "candidates/local-history/c/kori-l-rossetti.html"
+            }
+          ]
+        },
+        {
+          "office": "SWSD #1 Trustee Farson Area",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matthew Gardner",
+              "person_id": "WY-GARDNER-MATTHEW",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/matthew-gardner.html"
+            }
+          ]
+        },
+        {
+          "office": "SWSD #2 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mandy Drinkle",
+              "person_id": "WY-DRINKLE-MANDY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mandy-drinkle.html"
+            },
+            {
+              "name": "Tommy Thoman",
+              "person_id": "WY-THOMAN-TOMMY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tommy-thoman.html"
+            },
+            {
+              "name": "Tate Davis",
+              "person_id": "WY-DAVIS-TATE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tate-davis.html"
+            },
+            {
+              "name": "Michelle J. Foley",
+              "person_id": "WY-FOLEY-MICHELLE-J",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michelle-j-foley.html"
+            },
+            {
+              "name": "Tom Wilson",
+              "person_id": "WY-WILSON-TOM",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/tom-wilson.html"
+            },
+            {
+              "name": "Daniel Flom",
+              "person_id": "WY-FLOM-DANIEL",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/daniel-flom.html"
+            },
+            {
+              "name": "Kenny Shoning Jr",
+              "person_id": "WY-SHONING-KENNY-JR",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/kenny-shoning-jr.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special Districts",
+      "offices": [
+        {
+          "office": "Castle Rock Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Daniel Stanton",
+              "person_id": "WY-STANTON-DANIEL",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/daniel-stanton.html"
+            },
+            {
+              "name": "Sandee Gunter",
+              "person_id": "WY-GUNTER-SANDEE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/sandee-gunter.html"
+            },
+            {
+              "name": "Robert L. \"Bob\" Gordon",
+              "person_id": "WY-GORDON-ROBERT-L",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robert-l-bob-gordon.html"
+            },
+            {
+              "name": "Reed W. Robbins",
+              "person_id": "WY-ROBBINS-REED-W",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/reed-w-robbins.html"
+            },
+            {
+              "name": "Ross M. Hargrove",
+              "person_id": "WY-HARGROVE-ROSS-M",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/ross-m-hargrove.html"
+            },
+            {
+              "name": "Jaclyn Edwards",
+              "person_id": "WY-EDWARDS-JACLYN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jaclyn-edwards.html"
+            }
+          ]
+        },
+        {
+          "office": "Sweetwater County Conservation District Supervisor At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Aaron Folks",
+              "person_id": "WY-FOLKS-AARON",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/aaron-folks.html"
+            }
+          ]
+        },
+        {
+          "office": "Sweetwater County Conservation District Supervisor Rural",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Larry B. Folks",
+              "person_id": "WY-FOLKS-LARRY-B",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/larry-b-folks.html"
+            }
+          ]
+        },
+        {
+          "office": "Sweetwater County Conservation District Supervisor Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jean M. Dickinson",
+              "person_id": "WY-DICKINSON-JEAN-M",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jean-m-dickinson.html"
+            }
+          ]
+        },
+        {
+          "office": "Sweetwater County Fire District #1 Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Keith Floyd",
+              "person_id": "WY-FLOYD-KEITH",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/keith-floyd.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial Retention",
+      "offices": [
+        {
+          "office": "District Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Suzannah G. Robinson",
+              "person_id": "WY-ROBINSON-SUZANNAH-G",
+              "party": "",
+              "term_end": "January 2033",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2020 term ends January 2027; official 2026 clerk Judge C retention (YES, unnamed on the clerk line). Identified from the official Wyoming Judicial Branch 3rd JD Sweetwater district page.",
+              "href": "candidates/local-history/c/suzannah-g-robinson.html"
+            },
+            {
+              "name": "Joseph B. Bluemel",
+              "person_id": "WY-BLUEMEL-JOSEPH-B",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 clerk Judge A retention (YES, unnamed). Identified from the official 3rd JD Lincoln County district page.",
+              "href": "candidates/local-history/c/joseph-b-bluemel.html"
+            },
+            {
+              "name": "James C. Kaste",
+              "person_id": "WY-KASTE-JAMES-C",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 clerk Judge D JAMES KASTE. Full name from the official 3rd JD Uinta County district page.",
+              "href": "candidates/local-history/c/james-c-kaste.html"
+            },
+            {
+              "name": "Clark Stith",
+              "person_id": "WY-STITH-CLARK",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch 3rd JD Sweetwater district page: appointed April 2026.",
+              "href": "candidates/local-history/c/clark-stith.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John R. Prokos",
+              "person_id": "WY-PROKOS-JOHN-R",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 term ends January 2027; official 2026 clerk JOHN R. PROKOS, YES, continuing.",
+              "href": "candidates/local-history/c/john-r-prokos.html"
+            },
+            {
+              "name": "Michael L. Greer",
+              "person_id": "WY-GREER-MICHAEL-L",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 clerk MICHAEL L. GREER FOR CIRCUIT COURT JUDGE, YES.",
+              "href": "candidates/local-history/c/michael-l-greer.html"
+            },
+            {
+              "name": "Gregory S. Corpening",
+              "person_id": "WY-CORPENING-GREGORY-S",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 clerk GREGORY S. CORPENING FOR CIRCUIT COURT JUDGE, YES.",
+              "href": "candidates/local-history/c/gregory-s-corpening.html"
+            },
+            {
+              "name": "E. Dean Stout",
+              "person_id": "WY-STOUT-E-DEAN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch 3rd JD Rock Springs circuit page: appointed May 2026.",
+              "href": "candidates/local-history/c/e-dean-stout.html"
             }
           ]
         }
@@ -2333,6 +3208,6 @@
   "sources": {
     "general_results": "https://cms7files.revize.com/sweetwaterwy24/Official%20Sweetwater%20Results.pdf",
     "primary_results": "https://cms7files.revize.com/sweetwaterwy24/2026%20Primary%20Official%20Election%20Summary.pdf",
-    "checked": "2026-11-19"
+    "checked": "2026-11-24"
   }
 }

@@ -1,0 +1,1342 @@
+{
+  "county": "Laramie",
+  "county_number": 2,
+  "snapshot_year": 2015,
+  "as_of": "2015-01-08",
+  "as_of_label": "January 2015 (as of 2015-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2015 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Mike Enzi",
+              "person_id": "WY-ENZI-MIKE",
+              "party": "R",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Did not run in 2020. Cynthia Lummis took office January 3, 2021.",
+              "href": "candidates/local-history/c/mike-enzi.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Did not run in 2016.",
+              "href": "candidates/local-history/c/cynthia-lummis.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt Mead",
+              "person_id": "WY-MEAD-MATT",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/matt-mead.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Edward F. Murray, III",
+              "person_id": "WY-MURRAY-EDWARD",
+              "party": "R",
+              "term_end": "January 2018",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned February 9, 2018 (official State Officers Roster).",
+              "href": "candidates/local-history/c/edward-f-murray-iii.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cynthia Cloud",
+              "person_id": "WY-CLOUD-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cynthia-cloud.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/gordon-mark.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jillian Balow",
+              "person_id": "WY-BALOW-JILLIAN",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/balow-jillian.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 4 (S04)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tony Ross",
+              "person_id": "WY-ROSS-TONY",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2012 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2012-general-official-fed-state-summary-report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2012 general, 7,555.",
+              "href": "candidates/local-history/c/tony-ross.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 5 (S05)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Fred Emerich",
+              "person_id": "WY-EMERICH-FRED",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 5,026.",
+              "href": "candidates/local-history/c/fred-emerich.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 6 (S06)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Wayne Johnson",
+              "person_id": "WY-JOHNSON-WAYNE",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2012 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2012-general-official-fed-state-summary-report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2012 general, 5,802 (74.87%).",
+              "href": "candidates/local-history/c/wayne-johnson.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 7 (S07)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Stephan Pappas",
+              "person_id": "WY-PAPPAS-STEPHAN",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 2,258.",
+              "href": "candidates/local-history/c/stephan-pappas.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 8 (S08)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Floyd A. Esquibel",
+              "person_id": "WY-ESQUIBEL-FLOYD",
+              "party": "D",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2012 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2012-general-official-fed-state-summary-report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2012 general, 2,963 (52.27%).",
+              "href": "candidates/local-history/c/floyd-a-esquibel.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 31 (S31)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 7 (H07)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Sue Wilson",
+              "person_id": "WY-WILSON-SUE",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 3,386.",
+              "href": "candidates/local-history/c/sue-wilson.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 8 (H08)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bob Nicholas",
+              "person_id": "WY-NICHOLAS-BOB",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 2,481.",
+              "href": "candidates/local-history/c/bob-nicholas.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 9 (H09)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "David Zwonitzer",
+              "person_id": "WY-ZWONITZER-DAVE",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 1,444.",
+              "href": "candidates/local-history/c/dave-zwonitzer.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 10 (H10)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "John Eklund",
+              "person_id": "WY-EKLUND-JOHN",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 2,144.",
+              "href": "candidates/local-history/c/john-eklund.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 11 (H11)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mary A. Throne",
+              "person_id": "WY-THRONE-MARY",
+              "party": "D",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 1,093.",
+              "href": "candidates/local-history/c/mary-a-throne.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 12 (H12)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harlan Edmonds",
+              "person_id": "WY-EDMONDS-HARLAN",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 930.",
+              "href": "candidates/local-history/c/harlan-edmonds.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 41 (H41)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ken A. Esquibel",
+              "person_id": "WY-ESQUIBEL-KEN",
+              "party": "D",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 1,479.",
+              "href": "candidates/local-history/c/ken-a-esquibel.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 42 (H42)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Theodore Blackburn",
+              "person_id": "WY-BLACKBURN-THEODORE",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 1,800. Distinct ID from Jim Blackburn.",
+              "href": "candidates/local-history/c/theodore-blackburn.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 43 (H43)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Zwonitzer",
+              "person_id": "WY-ZWONITZER-DAN",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 1,474.",
+              "href": "candidates/local-history/c/dan-zwonitzer.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 44 (H44)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "James W. Byrd",
+              "person_id": "WY-BYRD-JAMES",
+              "party": "D",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 1,113.",
+              "href": "candidates/local-history/c/james-w-byrd.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 4 (H04)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "House District 61 (H61)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "M. Lee Hasenauer",
+              "person_id": "WY-HASENAUER-M-LEE",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2012 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2012-general-official-county-city-summary-report-1.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2012 general Vote-For-1, 19,052.",
+              "href": "candidates/local-history/c/m-lee-hasenauer.html"
+            },
+            {
+              "name": "K.N. Buck Holmes",
+              "person_id": "WY-HOLMES-KN-BUCK",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2012 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2012-general-official-county-city-summary-report-1.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2012 general Vote-For-1, 17,561. Ballot K.N. \"BUCK\" HOLMES.",
+              "href": "candidates/local-history/c/k-n-buck-holmes.html"
+            },
+            {
+              "name": "Troy Thompson",
+              "person_id": "WY-THOMPSON-TROY",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-3, 17,518.",
+              "href": "candidates/local-history/c/troy-thompson.html"
+            },
+            {
+              "name": "Linda Heath",
+              "person_id": "WY-HEATH-LINDA",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-3, 16,267.",
+              "href": "candidates/local-history/c/linda-heath.html"
+            },
+            {
+              "name": "Ron Kailey Jr",
+              "person_id": "WY-KAILEY-RON-JR",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-3, 12,810.",
+              "href": "candidates/local-history/c/ron-kailey-jr.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Debbye Lathrop",
+              "person_id": "WY-LATHROP-DEBBYE",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 21,827.",
+              "href": "candidates/local-history/c/debbye-lathrop.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Trudy L. Eisele",
+              "person_id": "WY-EISELE-TRUDY",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 21,863.",
+              "href": "candidates/local-history/c/trudy-l-eisele.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kenneth Guille",
+              "person_id": "WY-GUILLE-KENNETH",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 21,088.",
+              "href": "candidates/local-history/c/kenneth-guille.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Danny Glick",
+              "person_id": "WY-GLICK-DANNY",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 17,983.",
+              "href": "candidates/local-history/c/danny-glick.html"
+            }
+          ]
+        },
+        {
+          "office": "District Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jeremiah Sandburg",
+              "person_id": "WY-SANDBURG-JEREMIAH",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 20,661.",
+              "href": "candidates/local-history/c/jeremiah-sandburg.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Diane Sanchez",
+              "person_id": "WY-SANCHEZ-DIANE",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 21,231. Ballot Diane K. Sanchez.",
+              "href": "candidates/local-history/c/diane-sanchez.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ronald J. Sargent",
+              "person_id": "WY-SARGENT-RONALD-J",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 21,274.",
+              "href": "candidates/local-history/c/ronald-j-sargent.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Cheyenne Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Richard L. Kaysen",
+              "person_id": "WY-KAYSEN-RICHARD",
+              "party": "",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Laramie County official 2012 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2012-general-official-county-city-summary-report-1.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2012 general, 13,609.",
+              "href": "candidates/local-history/c/richard-l-kaysen.html"
+            }
+          ]
+        },
+        {
+          "office": "Cheyenne City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Scott D. Roybal",
+              "person_id": "WY-ROYBAL-SCOTT",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 1,985.",
+              "href": "candidates/local-history/c/scott-d-roybal.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Cheyenne City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mark D. Rinne",
+              "person_id": "WY-RINNE-MARK",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 5,669.",
+              "href": "candidates/local-history/c/mark-rinne.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Cheyenne City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Richard Johnson",
+              "person_id": "WY-JOHNSON-RICHARD",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 2,214.",
+              "href": "candidates/local-history/c/richard-johnson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Pine Bluffs Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Pine Bluffs Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Laramie County Community College Board of Trustees",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brenda Lyttle",
+              "person_id": "WY-LYTTLE-BRENDA",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-3, 16,540.",
+              "href": "candidates/local-history/c/brenda-lyttle.html"
+            },
+            {
+              "name": "Carol A. Merrell",
+              "person_id": "WY-MERRELL-CAROL",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-3, 16,402.",
+              "href": "candidates/local-history/c/carol-merrell.html"
+            },
+            {
+              "name": "Bradley S. Barker",
+              "person_id": "WY-BARKER-BRADLEY",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-3, 14,779.",
+              "href": "candidates/local-history/c/bradley-s-barker.html"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #1 Board Trustee At-Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Marguerite Herman",
+              "person_id": "WY-HERMAN-MARGUERITE",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general LCSD #1 recount summary",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/official-results-recount-election-summary-report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general LCSD #1 recount Vote-For-4, 9,665.",
+              "href": "candidates/local-history/c/marguerite-herman.html"
+            },
+            {
+              "name": "Sandy Shanor",
+              "person_id": "WY-SHANOR-SANDY",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general LCSD #1 recount summary",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/official-results-recount-election-summary-report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general LCSD #1 recount Vote-For-4, 8,799.",
+              "href": "candidates/local-history/c/sandy-shanor.html"
+            },
+            {
+              "name": "Mark Klaassen",
+              "person_id": "WY-KLAASSEN-MARK",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general LCSD #1 recount summary",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/official-results-recount-election-summary-report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general LCSD #1 recount Vote-For-4, 8,385.",
+              "href": "candidates/local-history/c/mark-klaassen.html"
+            },
+            {
+              "name": "Jim Landen",
+              "person_id": "WY-LANDEN-JIM",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general LCSD #1 recount summary",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/official-results-recount-election-summary-report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general LCSD #1 recount Vote-For-4, 8,009 (Lee Beidleman 8,004).",
+              "href": "candidates/local-history/c/jim-landen.html"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Board Trustee At-Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jeff Kirkbride",
+              "person_id": "WY-KIRKBRIDE-JEFF",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-3, 1,337.",
+              "href": "candidates/local-history/c/jeff-kirkbride.html"
+            },
+            {
+              "name": "Russell Fornstrom",
+              "person_id": "WY-FORNSTROM-RUSSELL",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-3, 1,173.",
+              "href": "candidates/local-history/c/russell-fornstrom.html"
+            },
+            {
+              "name": "Taft C. Love",
+              "person_id": "WY-LOVE-TAFT",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-3, 988. Same person later elected to Senate District 6.",
+              "href": "candidates/local-history/c/taft-love.html"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Board Trustee Area D",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Stewart Morgan",
+              "person_id": "WY-MORGAN-STEWART",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general, 1,364.",
+              "href": "candidates/local-history/c/stewart-morgan.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Laramie County Conservation District Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lindi Kirkbride",
+              "person_id": "WY-KIRKBRIDE-LINDI",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-2, 16,972.",
+              "href": "candidates/local-history/c/lindi-kirkbride.html"
+            },
+            {
+              "name": "Jay Berry",
+              "person_id": "WY-BERRY-JAY",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Laramie County official 2014 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-county-and-city-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 general Vote-For-2, 16,750.",
+              "href": "candidates/local-history/c/jay-berry.html"
+            }
+          ]
+        }
+      ],
+      "note": "Municipal names are keyed from official Laramie November generals. Cheyenne council is filled from official midterm Vote-For-1 and presidential Vote-For-2 results (three members per ward on the current board). Pine Bluffs appears on the official 2024 and 2026 November city/county summaries; official 2024 and 2026 both include a mayoral contest, so those mayoral terms are encoded as two years (inferred). Burns and Albin do not appear on the official November city/county summaries archived for 2010–2026. The official Laramie County clerk election-results page, retrieved 2026-11-24, has no 2025 municipal canvass posted. Official burnswy.com could not be retrieved (TLS failure); a March 2025 Wayback capture is only the Apache default page. No official Town of Albin site was found. Those two towns remain Not yet collected rather than invented. School and conservation seats are keyed from official generals (LCSD #1 2014 and 2018 at-large from the official recount summaries; official 2026 school results from the official LCSD #1 and #2 PDFs). The official 2024 LCSD #2 Area D winner is Jerrid G. Wiles and the official 2026 Area D winner is Billie Wilson; the mid-term circumstances are not stated in the official generals. Jess E. Ketcham is an official 2024 LCCC trustee and the official 2026 commissioner-elect.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "Justice of the Wyoming Supreme Court",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "E. James Burke",
+              "person_id": "WY-BURKE-JAMES",
+              "party": "",
+              "term_end": "January 2018",
+              "sources": [
+                {
+                  "label": "Weston County official 2014 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Justice E. James Burke retiring October 8, 2018",
+                  "url": "https://www.wyocourts.gov/news/justice-e-james-burke-retiring-october-8-2018/"
+                },
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained on the Weston 2014 ballot (yes 1,582 / no 622). Official Judicial Branch announcement: retired October 8, 2018.",
+              "href": "candidates/local-history/c/e-james-burke.html",
+              "retention": {
+                "year": 2014,
+                "yes": 1582,
+                "no": 622,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+              }
+            },
+            {
+              "name": "Michael K. Davis",
+              "person_id": "WY-DAVIS-MICHAEL-K",
+              "party": "",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "Weston County official 2014 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Judicial Nominating Commission announces Supreme Court vacancy (Davis retirement January 16, 2022)",
+                  "url": "https://www.wyocourts.gov/app/uploads/2025/05/News-Release-Announcing-Vacancy-Wyoming-Supreme-Court.pdf"
+                },
+                {
+                  "label": "Laramie County official 2014 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2014official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained on the Weston 2014 ballot (yes 1,573 / no 613). Official JNC release: retired January 16, 2022. Distinct from WY-DAVIS-MICHAEL.",
+              "href": "candidates/local-history/c/michael-k-davis.html",
+              "retention": {
+                "year": 2014,
+                "yes": 1573,
+                "no": 613,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+              }
+            },
+            {
+              "name": "Catherine M. Fox",
+              "person_id": "WY-FOX-CATHERINE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court justices",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Laramie County official 2016 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Already serving at the start of the 2015 window (retained 2016 and 2024 on the Weston ballot). Official name Kate M. Fox. Official Judicial Branch: retired May 27, 2025.",
+              "href": "candidates/local-history/c/catherine-m-fox.html",
+              "retention": {
+                "year": 2024,
+                "yes": 2272,
+                "no": 733,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+              }
+            },
+            {
+              "name": "William U. Hill",
+              "person_id": "WY-HILL-WILLIAM",
+              "party": "",
+              "term_end": "January 2018",
+              "sources": [
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Justice William U. Hill retiring February 16, 2018",
+                  "url": "https://www.wyocourts.gov/news/justice-william-u-hill-retiring-february-16-2018/"
+                },
+                {
+                  "label": "Laramie County official 2016 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/official-summary-report-federal-and-state-races.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Already serving at the start of the 2015 window; retained 2016 (yes 2,138 / no 990). Official Judicial Branch announcement: retired February 16, 2018.",
+              "href": "candidates/local-history/c/william-u-hill.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 1st Judicial District judges who appeared by last name on a Laramie County official retention ballot; the official summaries do not print a given name, and no given name is invented. The official 2018 general lists a Circuit Court Judge retention (YES 18,725 / NO 11,081) with no judge’s name; that contest is not attached to a person. Official named 1st JD retentions are keyed beginning with the 2020 general; earlier January 1st JD seats are marked Not yet collected rather than invented. Laramie is in the 1st Judicial District; 4th, 5th, and 6th Judicial District judges are not copied here.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. Official Laramie primary PDFs are archived under /workspace/wyoleg/local-results/laramie/<year>/. The current (November 2026) precinct roster is in data/county_officials/laramie.json, from the official 2026 primary (named winners only; write-in-only precinct contests are not listed).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/laramie/terms.json",
+  "retrieved": "2026-11-24"
+}

@@ -1,0 +1,1460 @@
+{
+  "county": "Carbon",
+  "county_number": 6,
+  "snapshot_year": 2020,
+  "as_of": "2020-01-08",
+  "as_of_label": "January 2020 (as of 2020-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2020 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Mike Enzi",
+              "person_id": "WY-ENZI-MIKE",
+              "party": "R",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Did not run in 2020. Cynthia Lummis took office January 3, 2021.",
+              "href": "candidates/local-history/c/mike-enzi.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Liz Cheney",
+              "person_id": "WY-CHENEY-ELIZABETH",
+              "party": "R",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cheney-elizabeth.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Edward A. Buchanan",
+              "person_id": "WY-BUCHANAN-EDWARD",
+              "party": "R",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned September 15, 2022 (official State Officers Roster).",
+              "href": "candidates/local-history/c/edward-a-buchanan.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jillian Balow",
+              "person_id": "WY-BALOW-JILLIAN",
+              "party": "R",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned January 16, 2022.",
+              "href": "candidates/local-history/c/balow-jillian.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 11 (S11)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Larry Hicks",
+              "person_id": "WY-HICKS-LARRY",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2018 statewide Senate candidates summary (district-wide Total row)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 SOS statewide Senate summary Total: Larry Hicks (R) 3,757, Lee Ann Stephenson (D) 1,939. Official Carbon portion: Hicks 3,167, Stephenson 1,865. Also covers Sweetwater (495–55) and an Albany sliver (95–19).",
+              "href": "candidates/local-history/c/larry-hicks.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 15 (H15)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Donald Burkhart",
+              "person_id": "WY-BURKHART-DONALD",
+              "party": "REP",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2018 statewide House candidates summary (district-wide Total row)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 SOS statewide House summary Total: Donald Burkhart (R) 1,997 (Carbon 1,997; no Sweetwater votes on the official Total row).",
+              "href": "candidates/local-history/c/donald-burkhart.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 47 (H47)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jerry Paxton",
+              "person_id": "WY-PAXTON-JERRY",
+              "party": "REP",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2018 statewide House candidates summary (district-wide Total row)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 SOS statewide House summary Total: Jerry Paxton (R) 2,912. Official Carbon portion: 2,269. Also covers Sweetwater (541) and an Albany sliver (102).",
+              "href": "candidates/local-history/c/jerry-paxton.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "R. Travis Moore",
+              "person_id": "WY-MOORE-R-TRAVIS",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk, commissioner Vote-For-2: R. Travis Moore 3,494, W. John Johnson 3,002.",
+              "href": "candidates/local-history/c/r-travis-moore.html"
+            },
+            {
+              "name": "Willing \"John\" Johnson",
+              "person_id": "WY-JOHNSON-WILLING",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk ballot name W. John Johnson, 3,002.",
+              "href": "candidates/local-history/c/willing-john-johnson.html"
+            },
+            {
+              "name": "Byron R. Barkhurst",
+              "person_id": "WY-BARKHURST-BYRON-R",
+              "party": "REP",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk, commissioner 2-year: Byron R. Barkhurst 3,711, Don Cuin 1,200.",
+              "href": "candidates/local-history/c/byron-r-barkhurst.html",
+              "role": "2-year unexpired"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Gwynn G. Bartlett",
+              "person_id": "WY-BARTLETT-GWYNN",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk: Gwynn Bartlett 4,529.",
+              "href": "candidates/local-history/c/gwynn-g-bartlett.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Patty A. Bentsen",
+              "person_id": "WY-BENTSEN-PATTY-A",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk: Patty A. Bentsen 4,002.",
+              "href": "candidates/local-history/c/patty-a-bentsen.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Renee Snider",
+              "person_id": "WY-SNIDER-RENEE",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk: Renee Snider 3,112, Lindsey West 1,907.",
+              "href": "candidates/local-history/c/renee-snider.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Paul Zamora",
+              "person_id": "WY-ZAMORA-PAUL",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk: Paul Zamora 4,615.",
+              "href": "candidates/local-history/c/paul-zamora.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ashley Davis",
+              "person_id": "WY-DAVIS-ASHLEY",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk: Ashley Davis 4,367.",
+              "href": "candidates/local-history/c/ashley-davis.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Archie C. Roybal",
+              "person_id": "WY-ROYBAL-ARCHIE-C",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk: Archie C. Roybal 3,356, Walter Hagan 1,756.",
+              "href": "candidates/local-history/c/archie-c-roybal.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mara M. Sanger",
+              "person_id": "WY-SANGER-MARA-M",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2018 general election summary (header OFFICIAL RESULTS, 11/08/18 10:51:47)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Carbon clerk: Mara M. Sanger 4,515.",
+              "href": "candidates/local-history/c/mara-m-sanger.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Baggs Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Baggs Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Dixon Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Dixon Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Elk Mountain Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Elk Mountain Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Encampment Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Encampment Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hanna Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hanna Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins City Council At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Riverside Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Riverside Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Sinclair Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Sinclair Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Carbon County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Carbon County School District #2 Area 1 Trustee",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Carbon County School District #2 Area 2 Trustee",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Carbon County School District #2 Area 3 Trustee",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Carbon County School District #2 Area 4 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Little Snake River Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Little Snake River Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Little Snake River Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga-Encampment-Rawlins Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga-Encampment-Rawlins Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga-Encampment-Rawlins Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Baggs Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Reader Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Little Snake River Museum District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga-Ryan Park Museum District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Little Snake River Rural Health Care District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Rural Health Care District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Carbon County Fire Protection District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "County, municipal, school, and special-district names are keyed from official Carbon clerk general summaries (2018, 2020, 2022, 2024, and 2026) and official 2022 certified write-ins. The official 2020 DocumentCenter slug still says unofficial; the PDF header is OFFICIAL RESULTS. Official 2014 and 2016 Carbon clerk canvasses are archived but were not fully keyed here, so January 2015–2018 local rows are largely Not yet collected rather than invented. Multi-county legislative seats use official SOS district-wide Total rows, with the official Carbon share noted. Official Carbon election-results pages state that Sweetwater results must be added for School District #1 and LSR Conservation; official Sweetwater clerk general totals are included and cited. The Rawlins mayor is chosen by the city council (official Rawlins Municipal Code 2.04.030); the current mayor is from the official City of Rawlins council page, and the January 2027 mayor is not invented. Official mid-term vacancies are not invented. Official 2024 hospital-board contests are omitted because the official 2024 special hospital district formation failed.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 2nd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dawnessa A. Snyder",
+              "person_id": "WY-SNYDER-DAWNESSA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch, District Court, 2nd Judicial District page",
+                  "url": "https://www.wyocourts.gov/court/district-court-2nd-judicial-district-albany-county/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch 2nd JD page: Dawnessa A. Snyder, appointed July 2017 (day unstated; term_start 2017-07-01, medium), later retained. Official 2018 Carbon clerk has DISTRICT COURT JUDGE A, YES 3,915, without a last name on that line.",
+              "href": "candidates/local-history/c/dawnessa-a-snyder.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 2nd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 2nd Judicial District judges (Carbon and Albany). Full names are taken from official Wyoming Judicial Branch 2nd JD pages and official Carbon clerk retention lines, and those sources are cited. Judges of other districts are not copied here.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. The current (November 2026) precinct roster is in data/county_officials/carbon.json, from the official 2026 Carbon primary (named winners only; 8 precincts / 13 holders).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/carbon/terms.json",
+  "retrieved": "2026-11-24"
+}

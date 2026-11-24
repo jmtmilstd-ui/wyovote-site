@@ -2,7 +2,7 @@
   "county": "Washakie",
   "county_number": 20,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_20_Washakie_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -10,139 +10,83 @@
   "groups": [
     {
       "id": "state-senate",
-      "title": "State Senate",
+      "title": "State Senate offices",
+      "label": "Wyoming Senate",
       "offices": [
         {
           "office": "Senate District 20 (S20)",
           "layout": "office-and-name",
-          "note": "Also covers Fremont, Hot Big Horn, Springs and Park.",
           "holders": [
             {
               "name": "Ed Cooper",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2068"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_20_Washakie_113_v1.1.pdf"
-                }
-              ],
+              "person_id": "WY-COOPER-ED",
               "party": "R",
-              "href": "officials/cooper.html"
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ed-cooper.html",
+              "notes": "Official 2024 SOS statewide Senate summary, Senate District 20: Ed Cooper (R) Total 8,236. Official Washakie share 3,442 (sum of official 2024 clerk precinct rows, 5 of 5 precincts); official Big Horn 1,475; official Hot Springs 2,180; official Park 834; official Fremont 305 (1,475+2,180+834+305+3,442=8,236). S20 is off-cycle in 2026."
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary, Senate District 20: Ed Cooper (R) Total 8,236. Official Washakie share 3,442. Also covers Big Horn, Hot Springs, Fremont, and Park. Off-cycle in 2026."
         }
       ]
     },
     {
       "id": "state-house",
-      "title": "State House",
+      "title": "State House offices",
+      "label": "Wyoming House",
       "offices": [
         {
           "office": "House District 27 (H27)",
           "layout": "office-and-name",
-          "note": "Also covers Big Horn.",
           "holders": [
             {
               "name": "Martha Lawley",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2102"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_20_Washakie_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H27, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
+              "person_id": "WY-LAWLEY-MARTHA",
               "party": "R",
-              "href": "officials/lawley.html"
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/martha-lawley.html",
+              "notes": "Official 2026 SOS statewide House summary, House District 27: Martha Lawley (R) 2,700, Theresa Livingston (D) 490. Official Washakie share Lawley 2,282, Livingston 430, write-ins 18 (official 2026 clerk same Washakie figures); official Big Horn 418-60."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary, House District 27: Martha Lawley (R) Total 2,700, Theresa Livingston (D) 490. Official Washakie share Lawley 2,282, Livingston 430. Also covers Big Horn."
         }
       ]
     },
     {
       "id": "county",
       "title": "County Offices",
+      "label": "County offices",
       "offices": [
         {
-          "office": "County Commissioners",
+          "office": "County Commissioner",
           "layout": "heading-then-names",
           "holders": [
             {
-              "name": "Morgan Martinez",
+              "name": "Terrence D. Wolf",
+              "person_id": "WY-WOLF-TERRENCE-D",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County commissioners page",
-                  "url": "https://www.washakiecountywy.gov/169/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/washakie.html"
-                },
-                {
-                  "label": "Washakie County official general results, re-elected",
-                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/terrence-d-wolf.html",
+              "notes": "Official 2026 general County Commissioner Vote For 2: Terrence D. Wolf 2,024, Morgan Martinez 1,981, write-ins 112."
             },
             {
-              "name": "Terrence D. Wolf",
+              "name": "Morgan Martinez",
+              "person_id": "WY-MARTINEZ-MORGAN",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County commissioners page",
-                  "url": "https://www.washakiecountywy.gov/169/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/washakie.html"
-                },
-                {
-                  "label": "Washakie County official general results, re-elected",
-                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/morgan-martinez.html",
+              "notes": "Official 2026 general County Commissioner Vote For 2: Morgan Martinez 1,981 (with Terrence D. Wolf 2,024)."
             },
             {
               "name": "Tom Schmeltzer",
+              "person_id": "WY-SCHMELTZER-TOM",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County commissioners page",
-                  "url": "https://www.washakiecountywy.gov/169/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/washakie.html"
-                }
-              ]
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/tom-schmeltzer.html",
+              "notes": "Official 2024 general Precinct Summary, County Commissioner Vote For 1, sum of official precinct rows (5 of 5): Tom Schmeltzer (R) 3,435. Official commissioners page lists Tom Schmeltzer as a current commissioner."
             }
-          ]
+          ],
+          "note": "Three-member board. Official commissioners page lists Tom Schmeltzer, Terry Wolf, and Morgan Martinez (Chairman). Official 2026 general Vote For 2 re-elected Terrence D. Wolf and Morgan Martinez (take office January 2027). Display name Terrence D. Wolf follows the official 2026 ballot; official page alias Terry Wolf."
         },
         {
           "office": "County Clerk",
@@ -150,25 +94,11 @@
           "holders": [
             {
               "name": "Lily Rakness Parra",
+              "person_id": "WY-PARRA-LILY-RAKNESS",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County clerk page",
-                  "url": "https://www.washakiecountywy.gov/182/Departments"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/washakie.html"
-                },
-                {
-                  "label": "Washakie County official general results, re-elected",
-                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/lily-rakness-parra.html",
+              "notes": "Official 2026 general County Clerk: Lily Rakness Parra 2,537."
             }
           ]
         },
@@ -178,25 +108,11 @@
           "holders": [
             {
               "name": "Doris Kern",
+              "person_id": "WY-KERN-DORIS",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County treasurer page",
-                  "url": "https://www.washakiecountywy.gov/226/Treasurer"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/washakie.html"
-                },
-                {
-                  "label": "Washakie County official general results, re-elected",
-                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/doris-kern.html",
+              "notes": "Official 2026 general County Treasurer: Doris Kern 2,593."
             }
           ]
         },
@@ -205,31 +121,20 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Nancy Quinn",
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            },
+            {
+              "name": "Bobby Swalstad",
+              "person_id": "WY-SWALSTAD-BOBBY",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County staff directory (County Assessor)",
-                  "url": "https://www.washakiecountywy.gov/directory.aspx"
-                }
-              ],
-              "succeeding": {
-                "name": "Bobby Swalstad",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Washakie County official general results, County Assessor",
-                    "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/bobby-swalstad.html",
+              "notes": "Official 2026 general County Assessor elect: Bobby Swalstad 2,415. Official assessor page contact block does not name the current assessor; the 2023-2027 holder is not yet collected from an official source (Phase-1 Nancy Quinn is not copied without official confirmation). Takes office January 2027."
             }
-          ]
+          ],
+          "note": "Official 2026 general elect Bobby Swalstad (2,415) takes office January 2027. Official assessor page contact block does not name the current assessor; that holder is not yet collected from an official source."
         },
         {
           "office": "County Sheriff",
@@ -237,25 +142,11 @@
           "holders": [
             {
               "name": "Austin T. Brookwell",
+              "person_id": "WY-BROOKWELL-AUSTIN-T",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County sheriff page",
-                  "url": "https://www.washakiecountywy.gov/225/Sheriff"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/washakie.html"
-                },
-                {
-                  "label": "Washakie County official general results, re-elected",
-                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/austin-t-brookwell.html",
+              "notes": "Official 2026 general County Sheriff: Austin T. Brookwell 2,562."
             }
           ]
         },
@@ -264,26 +155,12 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Anthony Barton",
+              "name": "Anthony J. Barton",
+              "person_id": "WY-BARTON-ANTHONY-J",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County attorney page",
-                  "url": "https://www.washakiecountywy.gov/193/Attorney"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/washakie.html"
-                },
-                {
-                  "label": "Washakie County official general results, re-elected",
-                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/anthony-j-barton.html",
+              "notes": "Official 2026 general County Attorney: Anthony Barton 2,369."
             }
           ]
         },
@@ -293,53 +170,546 @@
           "holders": [
             {
               "name": "Mirian Hansen",
+              "person_id": "WY-HANSEN-MIRIAN",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County Clerk of District Court page",
-                  "url": "https://www.washakiecountywy.gov/204/Clerk-of-District-Court"
-                },
-                {
-                  "label": "Washakie County official general results, elected",
-                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in the latest general, so the office does not change in January."
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/mirian-hansen.html",
+              "notes": "Official 2026 general Clerk of District Court: Mirian Hansen 2,442."
             }
-          ]
+          ],
+          "note": "Official spelling Mirian Hansen (not Miriam)."
         },
         {
           "office": "County Coroner",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Jeffrey Lapp",
+              "name": "Jeffrey D. Lapp",
+              "person_id": "WY-LAPP-JEFFREY-D",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Washakie County coroner page",
-                  "url": "https://www.washakiecountywy.gov/205/Coroner"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/washakie.html"
-                },
-                {
-                  "label": "Washakie County official general results, re-elected",
-                  "url": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "ballot_name": "Jeffrey D. Lapp"
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jeffrey-d-lapp.html",
+              "notes": "Official 2026 general County Coroner: Jeffrey D. Lapp 2,592."
             }
-          ]
+          ],
+          "note": "Official 2026 ballot Jeffrey D. Lapp; official coroner page Jeff Lapp."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "label": "Municipal offices",
+      "offices": [
+        {
+          "office": "Worland Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Rebecca George",
+              "person_id": "WY-GEORGE-REBECCA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/rebecca-george.html",
+              "notes": "Official 2024 Precinct Summary MAYOR - CITY OF WORLAND, sum of official Worland precinct rows: Rebecca George 1,373, Jim Gill 764. Official city bio: Rebecca George was elected as Mayor of the City of Worland on November 5, 2024. Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium)."
+            }
+          ],
+          "note": "Official city bio: Rebecca George was elected as Mayor of the City of Worland on November 5, 2024. Official 2024 precinct-sum totals: George 1,373, Jim Gill 764."
+        },
+        {
+          "office": "Worland Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Barbara Brookwell",
+              "person_id": "WY-BROOKWELL-BARBARA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/barbara-brookwell.html",
+              "notes": "Official 2026 general Worland Council Ward 1 Vote For 2: Barbara Brookwell 371, Adam G. Martinez 329 (Kent Foulger 204, Christopher O'Neal 93). Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium)."
+            },
+            {
+              "name": "Adam G. Martinez",
+              "person_id": "WY-MARTINEZ-ADAM-G",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/adam-g-martinez.html",
+              "notes": "Official 2026 general Worland Council Ward 1 Vote For 2: Adam G. Martinez 329. Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium)."
+            },
+            {
+              "name": "Bill Glanz",
+              "person_id": "WY-GLANZ-BILL",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/bill-glanz.html",
+              "notes": "Official 2024 Precinct Summary WORLAND COUNCILMEMBER WARD 1, official precinct total: Bill Glanz 433, Jeff Pomeroy 275. Official current council lists Bill Glanz. Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium)."
+            }
+          ],
+          "note": "Official current council (Mayor and Council people API): Barbara Brookwell, Bill Glanz, Adam Martinez. Official 2026 Vote For 2 re-elected Barbara Brookwell and Adam G. Martinez."
+        },
+        {
+          "office": "Worland Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Sheryl Ley",
+              "person_id": "WY-LEY-SHERYL",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/sheryl-ley.html",
+              "notes": "Official 2026 general Worland Council Ward 2 Vote For 1: Sheryl Ley 323, Barbara Burgess 258. Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium)."
+            },
+            {
+              "name": "Wendy Fredricks",
+              "person_id": "WY-FREDRICKS-WENDY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/wendy-fredricks.html",
+              "notes": "Official 2024 Precinct Summary WORLAND COUNCILMEMBER WARD 2 4YR Vote For 2, official precinct total: Wendy Fredricks 546, Mandy Horath 297, Lawrence Meier 288, Kassie Nolting 266. Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium)."
+            },
+            {
+              "name": "Mandy Horath",
+              "person_id": "WY-HORATH-MANDY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/mandy-horath.html",
+              "notes": "Official 2024 Precinct Summary Ward 2 4YR Vote For 2: Mandy Horath 297 (official second-place named winner). Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium)."
+            }
+          ],
+          "note": "Official current council: Wendy Fredricks, Mandy Horath, Sheryl Ley. Official 2026 Vote For 1 re-elected Sheryl Ley."
+        },
+        {
+          "office": "Worland Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jacqueline Pike",
+              "person_id": "WY-PIKE-JACQUELINE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jacqueline-pike.html",
+              "notes": "Official 2026 general Worland Council Ward 3 Vote For 2: Jacqueline Pike 218, Darr Lea Walker 169. Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium)."
+            },
+            {
+              "name": "William Worley",
+              "person_id": "WY-WORLEY-WILLIAM",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/william-worley.html",
+              "notes": "Official 2024 Precinct Summary WORLAND COUNCILMEMBER WARD 3 Vote For 1, official precinct total: William Worley 237, Tony Wartman 235. Official current council lists William Worley. Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium)."
+            },
+            {
+              "name": "Mike Neufer",
+              "person_id": "WY-NEUFER-MIKE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/mike-neufer.html",
+              "notes": "Official current Ward 3 council lists Mike Neufer. Official 2026 Ward 3 Vote For 2 elected Jacqueline Pike and Darr Lea Walker; the official source does not identify which of Neufer or Worley (if either) departs, and that name is not invented. The file listed as 2022 Official General Election Results on the official Elections page (DocumentCenter View/316) has header UNOFFICIAL RESULTS, created election night November 8, 2022, 7:55 PM, Precincts Partially Reported 0 of 5, and is not used as an official canvass. Official City of Worland Election FAQs: four-year terms; municipal elections are on the November general. The official start day is not printed; January first-Monday after the election year is used (medium).",
+              "succeeding": {
+                "name": "Darr Lea Walker",
+                "person_id": "WY-WALKER-DARR-LEA",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ],
+          "note": "Official current council: Jacque Pike, Mike Neufer, William Worley. Official 2026 Vote For 2 elected Jacqueline Pike and Darr Lea Walker. The departing current member is not identified on an official source and is not invented. Darr Lea Walker takes office January 2027."
+        },
+        {
+          "office": "Ten Sleep Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ernie Beckley",
+              "person_id": "WY-BECKLEY-ERNIE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/ernie-beckley.html",
+              "notes": "Official Town of Ten Sleep council minutes, January 6, 2026 and October 6, 2026, name Mayor Ernie Beckley among those attending. Official town pages do not print a roster or term end; the end date is left at the January 2027 switch so the live roster includes the official current mayor. A later official election or appointment date was not found."
+            }
+          ],
+          "note": "Official Town of Ten Sleep January 6 and October 6, 2026 council minutes name Mayor Ernie Beckley. Official town pages do not print a roster. Ten Sleep mayor/council races do not appear on the official November county general 2016-2026."
+        },
+        {
+          "office": "Ten Sleep Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bart DeWitt",
+              "person_id": "WY-DEWITT-BART",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/bart-dewitt.html",
+              "notes": "Official January 6 and October 6, 2026 Ten Sleep minutes list Councilperson Bart DeWitt. Official term end was not found."
+            },
+            {
+              "name": "Connie Sweeney",
+              "person_id": "WY-SWEENEY-CONNIE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/connie-sweeney.html",
+              "notes": "Official January 6 and October 6, 2026 Ten Sleep minutes list Councilperson Connie Sweeney. Official term end was not found."
+            },
+            {
+              "name": "Amy Truman",
+              "person_id": "WY-TRUMAN-AMY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/amy-truman.html",
+              "notes": "Official January 6 and October 6, 2026 Ten Sleep minutes list Councilperson Amy Truman. Official term end was not found."
+            },
+            {
+              "name": "Nichole Lynema",
+              "person_id": "WY-LYNEMA-NICHOLE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/nichole-lynema.html",
+              "notes": "Official October 6, 2026 Ten Sleep minutes list Councilwoman Lynema attending via Zoom. Official January 6, 2026 minutes list Nichole Lynema under others attending, not as council. Appointment or election date is not printed; term_start is the first official minutes date that styles her Councilwoman (medium). Official term end was not found."
+            }
+          ],
+          "note": "Official January 6, 2026 minutes: councilpersons Bart DeWitt, Connie Sweeney, and Amy Truman. Official October 6, 2026 minutes also list Councilwoman Lynema (Nichole Lynema) via Zoom."
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "label": "School boards",
+      "offices": [
+        {
+          "office": "Washakie County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "David R. Tommerup",
+              "person_id": "WY-TOMMERUP-DAVID-R",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/david-r-tommerup.html",
+              "notes": "Official 2024 Precinct Summary CSD #1 Vote For 3, sum of official precinct rows (4 Worland-area precincts): David R. Tommerup 2,165, Brett Argeris 1,767, Becky Dooley 1,622 (Jonathan Hake 1,603 finished fourth and is not seated)."
+            },
+            {
+              "name": "Brett Argeris",
+              "person_id": "WY-ARGERIS-BRETT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/brett-argeris.html",
+              "notes": "Official 2024 CSD #1 Vote For 3 precinct sum: Brett Argeris 1,767."
+            },
+            {
+              "name": "Becky Dooley",
+              "person_id": "WY-DOOLEY-BECKY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/becky-dooley.html",
+              "notes": "Official 2024 CSD #1 Vote For 3 precinct sum: Becky Dooley 1,622."
+            },
+            {
+              "name": "Kathy Mercado",
+              "person_id": "WY-MERCADO-KATHY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kathy-mercado.html",
+              "notes": "Official 2026 general Washakie Co School Dist 1 Trustee Vote For 4: Kathy Mercado 1,768, Jonathan Hake 1,713, Terri Logan 1,543, Jaime Mertz 1,401. Official 2022 clerk file is unofficial; departing 2022-class members are not yet collected. Takes office January 2027."
+            },
+            {
+              "name": "Jonathan Hake",
+              "person_id": "WY-HAKE-JONATHAN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jonathan-hake.html",
+              "notes": "Official 2026 CSD #1 Vote For 4: Jonathan Hake 1,713. Takes office January 2027."
+            },
+            {
+              "name": "Terri Logan",
+              "person_id": "WY-LOGAN-TERRI",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/terri-logan.html",
+              "notes": "Official 2026 CSD #1 Vote For 4: Terri Logan 1,543. Takes office January 2027."
+            },
+            {
+              "name": "Jaime Mertz",
+              "person_id": "WY-MERTZ-JAIME",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jaime-mertz.html",
+              "notes": "Official 2026 CSD #1 Vote For 4: Jaime Mertz 1,401. Takes office January 2027."
+            }
+          ],
+          "note": "Official 2024 Vote For 3 (precinct sum): David R. Tommerup, Brett Argeris, Becky Dooley. Official 2026 Vote For 4 elects Kathy Mercado, Jonathan Hake, Terri Logan, and Jaime Mertz, taking office January 2027. Official 2022 clerk file is unofficial; 2022-class members are not yet collected."
+        },
+        {
+          "office": "Washakie County School District #2 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jared C. Lyman",
+              "person_id": "WY-LYMAN-JARED-C",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jared-c-lyman.html",
+              "notes": "Official 2024 Precinct Summary CSD #2 Vote For 3 (official Ten Sleep precinct 03-01 only): Jared Lyman 368, Erin K. Blutt 318, Shana Harstad 317."
+            },
+            {
+              "name": "Erin K. Blutt",
+              "person_id": "WY-BLUTT-ERIN-K",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/erin-k-blutt.html",
+              "notes": "Official 2024 CSD #2 Vote For 3 precinct total: Erin K. Blutt 318."
+            },
+            {
+              "name": "Shana Harstad",
+              "person_id": "WY-HARSTAD-SHANA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/shana-harstad.html",
+              "notes": "Official 2024 CSD #2 Vote For 3 precinct total: Shana Harstad 317."
+            },
+            {
+              "name": "Bill Murphy",
+              "person_id": "WY-MURPHY-BILL",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/bill-murphy.html",
+              "notes": "Official 2026 general Washakie Co School Dist 2 Trustee Vote For 2: Bill Murphy 272, Bryony A. Lester 267. Official 2022 clerk file is unofficial; departing 2022-class members are not yet collected. Takes office January 2027."
+            },
+            {
+              "name": "Bryony A. Lester",
+              "person_id": "WY-LESTER-BRYONY-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/bryony-a-lester.html",
+              "notes": "Official 2026 CSD #2 Vote For 2: Bryony A. Lester 267. Takes office January 2027."
+            }
+          ],
+          "note": "Official 2024 Vote For 3 (Ten Sleep precinct): Jared Lyman, Erin K. Blutt, Shana Harstad. Official 2026 Vote For 2 elects Bill Murphy and Bryony A. Lester, taking office January 2027."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "label": "Special districts",
+      "offices": [
+        {
+          "office": "Worland Fire Protection District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kent Lombard",
+              "person_id": "WY-LOMBARD-KENT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kent-lombard.html",
+              "notes": "Official 2024 Precinct Summary Worland Fire Protection Dist Vote For 3, sum of official precinct rows: Kent Lombard 2,342, Tad E. Debolt 2,159, Tim Surat 1,949."
+            },
+            {
+              "name": "Tad E. Debolt",
+              "person_id": "WY-DEBOLT-TAD-E",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/tad-e-debolt.html",
+              "notes": "Official 2024 fire precinct sum: Tad E. Debolt 2,159."
+            },
+            {
+              "name": "Tim Surat",
+              "person_id": "WY-SURAT-TIM",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/tim-surat.html",
+              "notes": "Official 2024 fire precinct sum: Tim Surat 1,949."
+            },
+            {
+              "name": "Lance M. Berryman",
+              "person_id": "WY-BERRYMAN-LANCE-M",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/lance-m-berryman.html",
+              "notes": "Official 2026 general Worland Fire Protection Dist 1 Director Vote For 2: Lance M. Berryman 1,830, Ray Witt 1,690. Official 2022 clerk file is unofficial; departing 2022-class members are not yet collected. Takes office January 2027."
+            },
+            {
+              "name": "Ray Witt",
+              "person_id": "WY-WITT-RAY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/ray-witt.html",
+              "notes": "Official 2026 fire Vote For 2: Ray Witt 1,690. Takes office January 2027."
+            }
+          ],
+          "note": "Official 2024 Vote For 3 (precinct sum): Kent Lombard, Tad E. Debolt, Tim Surat. Official 2026 Vote For 2 elects Lance M. Berryman and Ray Witt, taking office January 2027."
+        },
+        {
+          "office": "Washakie County Conservation District Supervisor At-Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Andrew Mills",
+              "person_id": "WY-MILLS-ANDREW",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/andrew-mills.html",
+              "notes": "Official 2024 Precinct Summary Washakie Co Conservation Dist Vote For 2, sum of official precinct rows: Andrew Mills 2,524, Susan D. Pennington 2,465. Official 2024 contest title is not split rural/urban; both official named winners are recorded as at-large."
+            },
+            {
+              "name": "Susan D. Pennington",
+              "person_id": "WY-PENNINGTON-SUSAN-D",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/susan-d-pennington.html",
+              "notes": "Official 2024 Conservation Vote For 2 precinct sum: Susan D. Pennington 2,465."
+            }
+          ],
+          "note": "Official 2024 Vote For 2 (precinct sum; contest title not split rural/urban): Andrew Mills 2,524, Susan D. Pennington 2,465."
+        },
+        {
+          "office": "Washakie County Conservation District Supervisor Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Charley Orchard",
+              "person_id": "WY-ORCHARD-CHARLEY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/charley-orchard.html",
+              "notes": "Official 2026 general Washakie Supervisor Rural Vote For 2: Charley Orchard 2,361, write-ins 85 only. The second seat is write-in-only with no named certified winner and is not filled. Takes office January 2027."
+            }
+          ],
+          "note": "Official 2026 Rural Vote For 2: Charley Orchard 2,361; the second seat is write-in-only (85 write-ins) with no named certified winner and is not filled. Official 2022 clerk file is unofficial."
+        },
+        {
+          "office": "Washakie County Conservation District Supervisor Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official 2026 Urban Vote For 1 is write-in-only (Write-In Totals 206, 100.00 percent, undervotes 2,613) with no named candidate; no winner is seated. Official 2022 clerk file is unofficial."
+        },
+        {
+          "office": "Ten Sleep Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Terril J. Mills",
+              "person_id": "WY-MILLS-TERRIL-J",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/terril-j-mills.html",
+              "notes": "Official 2026 cemetery Vote For 3: Terril J. Mills 281."
+            },
+            {
+              "name": "Janice Michael",
+              "person_id": "WY-MICHAEL-JANICE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/janice-michael.html",
+              "notes": "Official 2024 Ten Sleep Cemetery Dist Trustee 4YR Vote For 2 (official precinct 03-01): Jan Michael 378, Randall Firnekas 344."
+            },
+            {
+              "name": "Randall Firnekas",
+              "person_id": "WY-FIRNEKAS-RANDALL",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/randall-firnekas.html",
+              "notes": "Official 2024 cemetery 4YR Vote For 2: Randall Firnekas 344."
+            },
+            {
+              "name": "Lara Gertsch",
+              "person_id": "WY-GERTSCH-LARA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/lara-gertsch.html",
+              "notes": "Official 2026 general Ten Sleep Cemetery Dist Trustee 4YR Vote For 3: Lara Gertsch 291, Terril J. Mills 281, write-ins 15. The third seat is write-in-only with no named certified winner and is not filled. Takes office January 2027."
+            }
+          ],
+          "note": "Official 2026 Vote For 3: Lara Gertsch 291, Terril J. Mills 281; the third seat is write-in-only (15 write-ins) and is not filled."
+        },
+        {
+          "office": "Ten Sleep Fire Protection District Trustee",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Daniel Greet",
+              "person_id": "WY-GREET-DANIEL",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/daniel-greet.html",
+              "notes": "Official 2026 general page 8, TEN SLEEP SENIOR CENTER 3-1, Ten Sleep Fire Trustee 4YR: Daniel Greet 224, write-ins 2, contest totals 251. Treated as the whole-district result because this is the only official precinct reported for the contest (medium). Takes office January 2027."
+            }
+          ],
+          "note": "Official 2026 page 8 (Ten Sleep Senior Center 3-1): Daniel Greet 224, write-ins 2, 251 ballots. Treated as the whole-district result because only that official precinct is reported (medium). Takes office January 2027."
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention (district and circuit)",
+      "label": "Judicial",
+      "offices": [
+        {
+          "office": "District Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bill Simpson",
+              "person_id": "WY-SIMPSON-BILL",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/bill-simpson.html",
+              "notes": "Official 2024 Washakie Precinct Summary RETAIN JUDGE BILL SIMPSON, sum of official precinct rows: YES 2,817 / NO 493. Official March 2026 roster names Bill Simpson, term expiring 2030 (January 2031 used, consistent with the Park history)."
+            }
+          ],
+          "note": "Official 2024 Washakie retention, precinct sum: RETAIN JUDGE BILL SIMPSON YES 2,817 / NO 493."
+        },
+        {
+          "office": "District Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bobbi Overfield",
+              "person_id": "WY-OVERFIELD-BOBBI",
+              "party": "",
+              "term_end": "January 2033",
+              "href": "candidates/local-history/c/bobbi-overfield.html",
+              "notes": "Official 2026 Washakie general RETAIN JUDGE BOBBI OVERFIELD YES 2,038 / NO 479. Official March 2026 roster (Park history) used January 2033 for this retention cycle."
+            }
+          ],
+          "note": "Official 2026 Washakie retention: RETAIN JUDGE BOBBI OVERFIELD YES 2,038 / NO 479."
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joey Darrah",
+              "person_id": "WY-DARRAH-JOEY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/joey-darrah.html",
+              "notes": "Official 2024 Washakie Precinct Summary RETAIN JUDGE S. JOSEPH JOEY DARRAH, sum of official precinct rows: YES 2,750 / NO 507. Official March 2026 roster names Joey Darrah, term expiring 2028 (January 2029 used, consistent with the Park history)."
+            }
+          ],
+          "note": "Official 2024 Washakie retention, precinct sum: RETAIN JUDGE S. JOSEPH JOEY DARRAH YES 2,750 / NO 507."
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Luhm",
+              "person_id": "WY-LUHM-ED",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ed-luhm.html",
+              "notes": "Official 2024 Washakie Precinct Summary RETAIN JUDGE EDWARD G. LUHM, sum of official precinct rows: YES 2,911 / NO 529. Official March 2026 roster term expiring 2028 (January 2029)."
+            }
+          ],
+          "note": "Official 2024 Washakie retention, precinct sum: RETAIN JUDGE EDWARD G. LUHM YES 2,911 / NO 529."
         }
       ]
     },
@@ -720,8 +1090,10 @@
     }
   ],
   "sources": {
-    "general_results": "https://www.washakiecountywy.gov/DocumentCenter/View/633/2026-General",
-    "primary_results": "https://www.washakiecountywy.gov/DocumentCenter/View/605/2026-PRIMARY-OFFICIAL-RESULTS",
-    "checked": "2026-11-19"
+    "general_results": "https://www.washakiecountywy.gov/DocumentCenter/View/633",
+    "primary_results": "https://www.washakiecountywy.gov/DocumentCenter/View/605",
+    "clerk_archive": "https://www.washakiecountywy.gov/196/Elections",
+    "checked": "2026-11-24",
+    "local_archive": "/workspace/wyoleg/local-results/washakie/SOURCES.md"
   }
 }

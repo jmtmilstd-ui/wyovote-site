@@ -1,0 +1,1064 @@
+{
+  "county": "Platte",
+  "county_number": 8,
+  "snapshot_year": 2017,
+  "as_of": "2017-01-08",
+  "as_of_label": "January 2017 (as of 2017-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2017 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Mike Enzi",
+              "person_id": "WY-ENZI-MIKE",
+              "party": "R",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Did not run in 2020. Cynthia Lummis took office January 3, 2021.",
+              "href": "candidates/local-history/c/mike-enzi.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Liz Cheney",
+              "person_id": "WY-CHENEY-ELIZABETH",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cheney-elizabeth.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt Mead",
+              "person_id": "WY-MEAD-MATT",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/matt-mead.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Edward F. Murray, III",
+              "person_id": "WY-MURRAY-EDWARD",
+              "party": "R",
+              "term_end": "January 2018",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned February 9, 2018 (official State Officers Roster).",
+              "href": "candidates/local-history/c/edward-f-murray-iii.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cynthia Cloud",
+              "person_id": "WY-CLOUD-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cynthia-cloud.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/gordon-mark.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jillian Balow",
+              "person_id": "WY-BALOW-JILLIAN",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/balow-jillian.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 2 (S02)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brian Boner",
+              "person_id": "WY-BONER-BRIAN",
+              "party": "R",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2016 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2016/Results/General/2016_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2016 SOS statewide Senate summary, Senate District 2 (right-hand Total is Senate District 4 and is not used): Brian Boner (R) 8,187, Cullen III (D) 1,377. Official Platte share Boner 3,557, Cullen 826; official Converse share Boner 4,630, Cullen 551.",
+              "href": "candidates/local-history/c/brian-boner.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 6 (S06)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 4 (H04)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan R. Kirkbride",
+              "person_id": "WY-KIRKBRIDE-DAN-R",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2016 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2016/Results/General/2016_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2016 SOS statewide House summary, House District 4 (right column beside House District 3; the combined two-column Total is not used for HD3): Dan R. Kirkbride (R) 3,652, Joe Michaels (C) 1,185. Official Platte share Kirkbride 3,204, Michaels 1,088; official Converse share Kirkbride 448, Michaels 97.",
+              "href": "candidates/local-history/c/dan-r-kirkbride.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Wheatland Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Wheatland Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Guernsey Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Guernsey Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Chugwater Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Chugwater Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hartville Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hartville Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Glendo Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Glendo Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Platte County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Platte County School District #2 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Platte County Resource Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Platte County Resource Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Platte County Resource Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Senior Citizen Service District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hospital District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fire District 1F Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fire District 2F Glendo Zone Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fire District 2F Palmer Zone Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Fire District 2F At-Large Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Antelope Gap Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Guernsey Rural Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Chugwater Fire District Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Chugwater Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Glendo EMS District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "County, municipal, school, and special-district names are keyed from official Platte clerk general summaries (2020, 2022, 2024, and 2026; official 2026 names and totals were read from official rendered page images because the official PDF text is font-encoded), the official May 6, 2025 Hartville municipal canvass, and the official Town of Glendo government page retrieved from the Wayback Machine (captures 2024-02-21 and 2026-07-08) because the live official town site returned 500/406. Official 2014–2018 Platte clerk general canvasses were not found on the live clerk URL patterns, and a Wayback CDX search of media/Elections/* for 2014–2019 returned no captures, so January 2015–2020 county, municipal, school, and special-district rows are largely Not yet collected rather than invented. Multi-county legislative seats use official SOS district-wide Total rows, with the official Platte share noted, for every keyed year (2012 and 2016–2020 S02; 2024 and 2026 S06; 2014–2026 H04). Official SOS two-column pages were cut at the next district header. After 2022 redistricting, official SOS S02 is Converse and Natrona only; official Platte S02 is ended at January 2023 rather than inventing a holdover, so January 2023–2024 Platte senate coverage is Not yet collected. Official S06 begins after the official 2024 election. Official 2016–2020 SOS S06 Platte rows are blank (Laramie-only on the pre-2022 map) and are not copied as Platte terms. Official Goshen slivers for Platte County School District #1 and #2 are combined into the official whole-district result in 2020 (PCSD #1 only), 2022, 2024, and 2026; ranking did not change. No official 2020 Goshen sliver for PCSD #2 was found. Write-in-only official contests with no named certified winner are not seated. The official 2025 Hartville canvass has no mayor contest, so the Hartville mayor stays Not yet collected. Official July 8, 2026 Glendo page still lists 2026-ending officers and is not treated as a post-May 2026 current roster; current Glendo mayor and council stay Not yet collected. Chugwater cemetery and fire rows use official Platte totals; official Goshen slivers for those contests were not combined here.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 8th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Patrick W. Korell",
+              "person_id": "WY-KORELL-PATRICK-W",
+              "party": "",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch, District Court of the 8th Judicial District",
+                  "url": "https://www.wyocourts.gov/court/district-court-8th-judicial-district-converse-county/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official SOS Judicial Branch directory lists Eighth Judicial District Judge A Patrick W. Korell, appointed October 2015. Official current 8th JD court pages list Edward A. Buchanan, appointed September 2022, in that district; Korell's last day is taken as the first of Buchanan's official appointment month (medium). Start day is the first of the official appointment month. Official Platte clerk 2014–2018 general canvasses were not found, so a Platte retention total for Korell is not keyed here.",
+              "href": "candidates/local-history/c/patrick-w-korell.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 8th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Randal R. Arp",
+              "person_id": "WY-ARP-RANDAL-R",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2014 SOS General Election Winners Roster lists Eighth Judicial District Circuit Court Judge Randal R. Arp (same official roster used in the Converse and Goshen history). Official SOS Judicial Branch directory: appointed January 2000. January 2015 is the start of the term following that official 2014 retention. Official Platte clerk 2014 general canvass was not found.",
+              "href": "candidates/local-history/c/randal-r-arp.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Official 2026 Platte clerk retentions for Justice Bridget Hill (YES 2,330, NO 745), Justice Robert C. Jarosh (YES 2,211, NO 742), and Chancery Court Judge Ben Burningham (YES 2,329, NO 690) are those statewide retentions, not local 8th JD seats. Local rows are 8th Judicial District judges (Converse, Goshen, Niobrara, and Platte). Full names are taken from official Wyoming Judicial Branch 8th JD court pages and official Platte clerk retention lines, and those sources are cited. Official 2022 Platte clerk prints 'EIGHTH JUDICIAL DIST CIRCUIT COURT JUDGE ALL' (YES 2,920, NO 643); that official heading is truncated on the official page and is not used to invent the retained judge's name. Judges of other districts are not copied here.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. The current (November 2026) precinct roster is in data/county_officials/platte.json, from the official 2026 Platte primary (named winners only; 7 precincts; write-in-only contests without a named certified winner are not listed).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/platte/terms.json",
+  "retrieved": "2026-11-24"
+}

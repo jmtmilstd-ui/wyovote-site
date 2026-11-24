@@ -2,7 +2,7 @@
   "county": "Platte",
   "county_number": 8,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_08_Platte_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -10,150 +10,86 @@
   "groups": [
     {
       "id": "state-senate",
-      "title": "State Senate",
+      "label": "Wyoming Senate",
       "offices": [
         {
           "office": "Senate District 6 (S06)",
           "layout": "office-and-name",
-          "note": "Also covers Laramie.",
           "holders": [
             {
               "name": "Taft Love",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2145"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_08_Platte_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, S06, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                }
-              ],
+              "person_id": "WY-LOVE-TAFT",
               "party": "R",
-              "href": "officials/love.html"
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/taft-love.html",
+              "notes": "Official 2026 SOS statewide Senate summary, Senate District 6: Taft Love (R) Total 6,142. Official Platte share 2,943; official Laramie share 3,199. Official 2026 Platte clerk S06 Taft Love 2,943. Encoded as the remainder of the official 2024 four-year S06 term through January 2029, consistent with the Laramie history (medium on length)."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide Senate summary, Senate District 6: Taft Love (R) Total 6,142. Official Platte share 2,943; official Laramie share 3,199. Official 2026 Platte clerk S06 Taft Love 2,943. Encoded as the remainder of the official 2024 four-year S06 term through January 2029, consistent with the Laramie history (medium on length). Official 2024 SOS statewide Senate summary, Senate District 6: Darin Smith (R) Total 8,484. Official Platte share 3,998; official Laramie share 4,486. Official 2024 Platte clerk S06 Darin Smith 3,998. Same person and term dates as in the Laramie history. Official 2026 general names Taft Love as the S06 winner; January 2025–2026 snapshots keep Smith as the last official general-election holder. The mid-term succession date is not stated in the official generals and is not invented."
         }
       ]
     },
     {
       "id": "state-house",
-      "title": "State House",
+      "label": "Wyoming House",
       "offices": [
         {
           "office": "House District 4 (H04)",
           "layout": "office-and-name",
-          "note": "Also covers Laramie.",
           "holders": [
             {
               "name": "Jeremy Haroldson",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2071"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_08_Platte_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H04, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
+              "person_id": "WY-HAROLDSON-JEREMY",
               "party": "R",
-              "href": "officials/haroldson.html"
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jeremy-haroldson.html",
+              "notes": "Official 2026 SOS statewide House summary, House District 4: Jeremy Haroldson (R) Total 2,533. Official Platte share 2,476; official Laramie share 57."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary, House District 4: Jeremy Haroldson (R) Total 2,533. Official Platte share 2,476; official Laramie share 57. Official 2024 SOS statewide House summary, House District 4: Jeremy Haroldson (R) 3,516, Charles Randolph (D) 1,014. Official Platte share Haroldson 3,438, Randolph 1,007; official Laramie share Haroldson 78, Randolph 7."
         }
       ]
     },
     {
       "id": "county",
-      "title": "County Offices",
+      "label": "County offices",
       "offices": [
         {
-          "office": "County Commissioners",
+          "office": "County Commissioner",
           "layout": "heading-then-names",
           "holders": [
             {
               "name": "Steve Shockley",
+              "person_id": "WY-SHOCKLEY-STEVE",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Platte County commissioners page",
-                  "url": "https://www.plattecountywyoming.com/directory/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/platte.html"
-                },
-                {
-                  "label": "Platte County official general results, re-elected",
-                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/steve-shockley.html",
+              "notes": "Official 2026 Platte clerk, County Commissioner Vote-For-2: Steve Shockley 2,452, Kayla Mantle 2,227."
             },
             {
               "name": "Ian Jolovich",
+              "person_id": "WY-JOLOVICH-IAN",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Platte County commissioners page",
-                  "url": "https://www.plattecountywyoming.com/directory/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/platte.html"
-                }
-              ],
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/ian-jolovich.html",
+              "notes": "Official 2022 Platte clerk, County Commissioner Vote-For-2: Steve Shockley 3,007, Ian Jolovich 2,692.",
               "succeeding": {
                 "name": "Kayla Mantle",
+                "person_id": "WY-MANTLE-KAYLA",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Platte County official general results, County Commissioner",
-                    "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "takes_office": "January"
               }
             },
             {
               "name": "Jeb Baker",
+              "person_id": "WY-BAKER-JEB",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Platte County commissioners page",
-                  "url": "https://www.plattecountywyoming.com/directory/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/platte.html"
-                }
-              ]
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jeb-baker.html",
+              "notes": "Official 2024 Platte clerk, County Commissioner Vote-For-1: Jeb Baker 4,107."
             }
-          ]
+          ],
+          "note": "Official 2026 Platte clerk, County Commissioner Vote-For-2: Steve Shockley 2,452, Kayla Mantle 2,227. Official 2024 Platte clerk, County Commissioner Vote-For-1: Jeb Baker 4,107."
         },
         {
           "office": "County Clerk",
@@ -161,27 +97,14 @@
           "holders": [
             {
               "name": "Malcolm J. Ervin",
+              "person_id": "WY-ERVIN-MALCOLM-J",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Platte County clerk page",
-                  "url": "https://www.plattecountywyoming.com/directory"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/platte.html"
-                },
-                {
-                  "label": "Platte County official general results, re-elected",
-                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/malcolm-j-ervin.html",
+              "notes": "Official 2026 Platte clerk, County Clerk: Malcolm J. Ervin 2,839 over Dean S. L. Baker 527."
             }
-          ]
+          ],
+          "note": "Official 2026 Platte clerk, County Clerk: Malcolm J. Ervin 2,839 over Dean S. L. Baker 527. Official 2022 Platte clerk, County Clerk: Malcolm J. Ervin 3,659."
         },
         {
           "office": "County Treasurer",
@@ -189,34 +112,20 @@
           "holders": [
             {
               "name": "Kristi Rietz",
+              "person_id": "WY-RIETZ-KRISTI",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Platte County treasurer page",
-                  "url": "https://www.plattecountywyoming.com/directory/Treasurer"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/platte.html"
-                }
-              ],
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/kristi-rietz.html",
+              "notes": "Official 2022 Platte clerk, County Treasurer: Kristi Rietz 3,780.",
               "succeeding": {
                 "name": "Lisa Glover",
+                "person_id": "WY-GLOVER-LISA",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Platte County official general results, County Treasurer",
-                    "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "takes_office": "January"
               }
             }
-          ]
+          ],
+          "note": "Official 2026 Platte clerk, County Treasurer: Lisa Glover 3,127. Official 2022 Platte clerk, County Treasurer: Kristi Rietz 3,780."
         },
         {
           "office": "County Assessor",
@@ -224,82 +133,56 @@
           "holders": [
             {
               "name": "Danette Eppel",
+              "person_id": "WY-EPPEL-DANETTE",
               "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/platte.html"
-                },
-                {
-                  "label": "Platte County official general results, re-elected",
-                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/danette-eppel.html",
+              "notes": "Official 2026 Platte clerk, County Assessor: Danette Eppel 3,139."
             }
-          ]
+          ],
+          "note": "Official 2026 Platte clerk, County Assessor: Danette Eppel 3,139. Official 2022 Platte clerk, County Assessor: Danette Eppel 3,610."
         },
         {
           "office": "County Sheriff",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Tony Krotz",
+              "name": "David Russell",
+              "person_id": "WY-RUSSELL-DAVID",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Platte County Sheriff page (appointed October 17, 2025)",
-                  "url": "https://www.plattecountywyoming.com/directory/Sheriff"
-                },
-                {
-                  "label": "Platte County official general results, elected",
-                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "ballot_name": "Anthony Krotz",
-              "notes": "Elected in the latest general, so the office does not change in January."
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/david-russell.html",
+              "notes": "Official 2022 Platte clerk, County Sheriff: David Russell 3,551. Official 2026 elect Anthony Krotz takes office January 2027; the Phase-1 live roster that listed Tony Krotz as current through January 2027 yields to this official 2022 canvass.",
+              "succeeding": {
+                "name": "Anthony Krotz",
+                "person_id": "WY-KROTZ-ANTHONY",
+                "party": "R",
+                "takes_office": "January"
+              }
             }
-          ]
+          ],
+          "note": "Official 2026 Platte clerk, County Sheriff: Anthony Krotz 3,034. Official 2022 Platte clerk, County Sheriff: David Russell 3,551. Official 2026 elect Anthony Krotz takes office January 2027; the Phase-1 live roster that listed Tony Krotz as current through January 2027 yields to this official 2022 canvass."
         },
         {
           "office": "County Attorney",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Doug Weaver",
+              "name": "Douglas W. Weaver",
+              "person_id": "WY-WEAVER-DOUGLAS-W",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Platte County staff directory (County Attorney)",
-                  "url": "https://www.plattecountywyoming.com/directory"
-                }
-              ],
-              "ballot_name": "Douglas W. Weaver",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/douglas-w-weaver.html",
+              "notes": "Official 2022 Platte clerk, County Attorney: Douglas W. Weaver 3,247.",
               "succeeding": {
                 "name": "Marel E. Bunker Roth",
+                "person_id": "WY-ROTH-MAREL-E-BUNKER",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Platte County official general results, County Attorney",
-                    "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "takes_office": "January"
               }
             }
-          ]
+          ],
+          "note": "Official 2026 Platte clerk, County Attorney: Marel E. Bunker Roth 2,765. Official name read from the official rendered canvass page. Official 2022 Platte clerk, County Attorney: Douglas W. Weaver 3,247."
         },
         {
           "office": "Clerk of District Court",
@@ -307,53 +190,882 @@
           "holders": [
             {
               "name": "Mona McAuley",
+              "person_id": "WY-MCAULEY-MONA",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Platte County clerk of district court page",
-                  "url": "https://www.plattecountywyoming.com/directory/ClerkofCourt"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/platte.html"
-                },
-                {
-                  "label": "Platte County official general results, re-elected",
-                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/mona-mcauley.html",
+              "notes": "Official 2026 Platte clerk, Clerk of District Court: Mona McAuley 3,211."
             }
-          ]
+          ],
+          "note": "Official 2026 Platte clerk, Clerk of District Court: Mona McAuley 3,211. Official 2022 Platte clerk, Clerk of District Court: Mona McAuley 3,687."
         },
         {
           "office": "County Coroner",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Tiffany Dean",
+              "name": "Philip G. Martin",
+              "person_id": "WY-MARTIN-PHILIP-G",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Platte County Coroner page",
-                  "url": "https://www.plattecountywyoming.com/directory/Coroner"
-                },
-                {
-                  "label": "Platte County official general results, elected",
-                  "url": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "ballot_name": "Tiffany Gorman Dean",
-              "notes": "Elected in the latest general, so the office does not change in January."
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/philip-g-martin.html",
+              "notes": "Official 2022 Platte clerk, County Coroner: Philip G. Martin 3,631. Official 2026 elect Tiffany Gorman Dean takes office January 2027; the Phase-1 live roster that listed Tiffany Dean as current through January 2027 yields to this official 2022 canvass.",
+              "succeeding": {
+                "name": "Tiffany Gorman Dean",
+                "person_id": "WY-DEAN-TIFFANY-GORMAN",
+                "party": "R",
+                "takes_office": "January"
+              }
+            }
+          ],
+          "note": "Official 2026 Platte clerk, County Coroner: Tiffany Gorman Dean 3,215. Official 2022 Platte clerk, County Coroner: Philip G. Martin 3,631. Official 2026 elect Tiffany Gorman Dean takes office January 2027; the Phase-1 live roster that listed Tiffany Dean as current through January 2027 yields to this official 2022 canvass."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "label": "Municipal offices",
+      "offices": [
+        {
+          "office": "Wheatland Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brandon R. Graves",
+              "person_id": "WY-GRAVES-BRANDON-R",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/brandon-r-graves.html",
+              "notes": "Official 2026 Platte clerk, Wheatland Mayor: Brandon R Graves 728 over Kelly Mixson 419."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Wheatland Mayor: Brandon R Graves 728 over Kelly Mixson 419. Official 2022 Platte clerk, Wheatland Mayor: Brandon R. Graves 1,143."
+        },
+        {
+          "office": "Wheatland Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Joshua J. Kaufman",
+              "person_id": "WY-KAUFMAN-JOSHUA-J",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/joshua-j-kaufman.html",
+              "notes": "Official 2026 Platte clerk, Wheatland Council Vote-For-2: Joshua Kaufman 687, Dave Miller 492 (Shirley Lock Keil 412, Scott Perkins 394)."
+            },
+            {
+              "name": "William L. Allison",
+              "person_id": "WY-ALLISON-WILLIAM-L",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/william-l-allison.html",
+              "notes": "Official 2022 Platte clerk, Wheatland Council Vote-For-2: Joshua J. Kaufman 872, William L. Allison 851.",
+              "succeeding": {
+                "name": "Dave Miller",
+                "person_id": "WY-MILLER-DAVE",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Jason Evans",
+              "person_id": "WY-EVANS-JASON",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jason-evans.html",
+              "notes": "Official 2024 Platte clerk, Wheatland Council Vote-For-2: Jason Evans 1,051, Kelly Mixson 651."
+            },
+            {
+              "name": "Kelly Mixson",
+              "person_id": "WY-MIXSON-KELLY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kelly-mixson.html",
+              "notes": "Official 2024 Platte clerk, Wheatland Council Vote-For-2: Jason Evans 1,051, Kelly Mixson 651."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Wheatland Council Vote-For-2: Joshua Kaufman 687, Dave Miller 492 (Shirley Lock Keil 412, Scott Perkins 394). Official 2026 Platte clerk, Wheatland Council Vote-For-2: Joshua Kaufman 687, Dave Miller 492."
+        },
+        {
+          "office": "Guernsey Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Eddie Delgado",
+              "person_id": "WY-DELGADO-EDDIE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/eddie-delgado.html",
+              "notes": "Official 2022 Platte clerk, Guernsey Mayor: Eddie Delgado 267 over Rose M. Martinez 157.",
+              "succeeding": {
+                "name": "Shawna Reichert",
+                "person_id": "WY-REICHERT-SHAWNA",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Guernsey Mayor: Shawna Reichert 266 over Michael Fronapfel 166. Official 2022 Platte clerk, Guernsey Mayor: Eddie Delgado 267 over Rose M. Martinez 157."
+        },
+        {
+          "office": "Guernsey Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Penny Wells",
+              "person_id": "WY-WELLS-PENNY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/penny-wells.html",
+              "notes": "Official 2022 Platte clerk, Guernsey Council Vote-For-2: Penny Wells 253, Joe Michaels 230.",
+              "succeeding": {
+                "name": "Kellie Augustyn",
+                "person_id": "WY-AUGUSTYN-KELLIE",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Joe Michaels",
+              "person_id": "WY-MICHAELS-JOE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/joe-michaels.html",
+              "notes": "Official 2022 Platte clerk, Guernsey Council Vote-For-2: Penny Wells 253, Joe Michaels 230.",
+              "succeeding": {
+                "name": "Jeffery Thomas",
+                "person_id": "WY-THOMAS-JEFFERY",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Dale R. Harris",
+              "person_id": "WY-HARRIS-DALE-R",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/dale-r-harris.html",
+              "notes": "Official 2024 Platte clerk, Guernsey Council Vote-For-2: Dale R Harris 374, Jeremiah Fields 288."
+            },
+            {
+              "name": "Jeremiah Fields",
+              "person_id": "WY-FIELDS-JEREMIAH",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jeremiah-fields.html",
+              "notes": "Official 2024 Platte clerk, Guernsey Council Vote-For-2: Dale R Harris 374, Jeremiah Fields 288."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Guernsey Council Vote-For-2: Kellie Augustyn 297, Jeffery Thomas 256 (Penny Wells 161, Susan Fronapfel 95). Official 2026 Platte clerk, Guernsey Council Vote-For-2: Kellie Augustyn 297, Jeffery Thomas 256."
+        },
+        {
+          "office": "Chugwater Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joshua Hopkins",
+              "person_id": "WY-HOPKINS-JOSHUA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/joshua-hopkins.html",
+              "notes": "Official 2024 Platte clerk, Chugwater Mayor: Joshua Hopkins 63 over Steven Kelley 31. Official 2026 Platte clerk had no Chugwater mayor contest."
+            }
+          ],
+          "note": "Official 2024 Platte clerk, Chugwater Mayor: Joshua Hopkins 63 over Steven Kelley 31. Official 2026 Platte clerk had no Chugwater mayor contest."
+        },
+        {
+          "office": "Chugwater Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Steven L. Kelley",
+              "person_id": "WY-KELLEY-STEVEN-L",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/steven-l-kelley.html",
+              "notes": "Official 2026 Platte clerk, Chugwater Council Vote-For-2: Steven Kelley 48, John Burns 40 (Travis Jorgensen 38, Carol A. Ash 33)."
+            },
+            {
+              "name": "John Burns",
+              "person_id": "WY-BURNS-JOHN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/john-burns.html",
+              "notes": "Official 2026 Platte clerk, Chugwater Council Vote-For-2: Steven Kelley 48, John Burns 40."
+            },
+            {
+              "name": "Vicki R. Klein",
+              "person_id": "WY-KLEIN-VICKI-R",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/vicki-r-klein.html",
+              "notes": "Official 2024 Platte clerk, Chugwater Council Vote-For-2: Vicki R. Klein 56, Josh Hansen 50."
+            },
+            {
+              "name": "Josh Hansen",
+              "person_id": "WY-HANSEN-JOSH",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/josh-hansen.html",
+              "notes": "Official 2024 Platte clerk, Chugwater Council Vote-For-2: Vicki R. Klein 56, Josh Hansen 50."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Chugwater Council Vote-For-2: Steven Kelley 48, John Burns 40 (Travis Jorgensen 38, Carol A. Ash 33). Official 2026 Platte clerk, Chugwater Council Vote-For-2: Steven Kelley 48, John Burns 40."
+        },
+        {
+          "office": "Hartville Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
             }
           ]
+        },
+        {
+          "office": "Hartville Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Katheryn Troupe",
+              "person_id": "WY-TROUPE-KATHERYN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/katheryn-troupe.html",
+              "notes": "Official Town of Hartville May 6, 2025 municipal canvass, 4-year council: Katheryn Troupe 16 ACCEPTED, Kari Young 3 ACCEPTED. Start and end days are the first Tuesday in June after the official May election (medium). Official canvass has no mayor contest; the Hartville mayor is Not yet collected rather than taken from a secondary source."
+            },
+            {
+              "name": "Kari Young",
+              "person_id": "WY-YOUNG-KARI",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kari-young.html",
+              "notes": "Official Town of Hartville May 6, 2025 municipal canvass, 4-year council: Katheryn Troupe 16 ACCEPTED, Kari Young 3 ACCEPTED. Start and end days medium, as above."
+            },
+            {
+              "name": "William Scott Harmon",
+              "person_id": "WY-HARMON-WILLIAM-SCOTT",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/william-scott-harmon.html",
+              "notes": "Official Town of Hartville May 6, 2025 municipal canvass, 2-year council: William Scott Harmon 15 ACCEPTED, Vern Yenger 6 ACCEPTED. Start and end days medium, as above."
+            },
+            {
+              "name": "Vern Yenger",
+              "person_id": "WY-YENGER-VERN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/vern-yenger.html",
+              "notes": "Official Town of Hartville May 6, 2025 municipal canvass, 2-year council: William Scott Harmon 15 ACCEPTED, Vern Yenger 6 ACCEPTED. Start and end days medium, as above."
+            }
+          ],
+          "note": "Official Town of Hartville May 6, 2025 municipal canvass, 4-year council: Katheryn Troupe 16 ACCEPTED, Kari Young 3 ACCEPTED. Start and end days are the first Tuesday in June after the official May election (medium). Official canvass has no mayor contest; the Hartville mayor is Not yet collected rather than taken from a secondary source. Official Town of Hartville May 6, 2025 municipal canvass, 4-year council: Katheryn Troupe 16 ACCEPTED, Kari Young 3 ACCEPTED. Start and end days medium, as above."
+        },
+        {
+          "office": "Glendo Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official Town of Glendo government page (Wayback 2024-02-21 and 2026-07-08) lists Mayor Susan Juscka with term year 2026. Official page text: elections every two years the Tuesday after the first Monday in May; terms four years. Start is inferred as June after the official May 2022 cycle (medium). Term ends June 2026. The July 8, 2026 official capture is after the May 2026 election but still lists 2026-ending officers and was not treated as a post-election current roster. Live official minutes and an official 2026 Glendo canvass were not retrieved (live site 500/406). Current (November 2026) Glendo mayor is Not yet collected."
+        },
+        {
+          "office": "Glendo Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official Town of Glendo government page (Wayback 2026-07-08) lists Kelly Jones, council, term year 2026, in the place of the official 2024-ending Lacy Brooks seat. Official 2024 Glendo canvass was not found; start is inferred as June after the official May 2024 cycle (medium). Current Glendo council is Not yet collected. Official Town of Glendo government page (Wayback 2026-07-08) lists Jeston Cundall, council, term year 2026. Official 2024 Glendo canvass was not found; start is inferred as June after the official May 2024 cycle (medium). Secondary reports that he was sworn as mayor in June 2026 are not official town or SOS sources and are not encoded. Current Glendo mayor and council are Not yet collected."
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "label": "School boards",
+      "offices": [
+        {
+          "office": "Platte County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Shawn Anne Hoffman",
+              "person_id": "WY-HOFFMAN-SHAWN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/shawn-anne-hoffman.html",
+              "notes": "Official 2026 Platte clerk, PCSD #1 4-year Vote-For-4 (official rendered page): Shawn Anne Hoffman 1,315, Amanda Fox 1,281, Glenda L. Lay 1,212, Eric E. Jones 1,210 (Chase Irvine 1,129 fifth). Official 2026 Goshen sliver: Hoffman 4, Fox 12, Lay 10, Eric E. Jones 4, Irvine 8. Combined: Hoffman 1,319, Fox 1,293, Lay 1,222, Eric E. Jones 1,214 (Irvine 1,137 remains fifth). Ranking unchanged."
+            },
+            {
+              "name": "Amanda Fox",
+              "person_id": "WY-FOX-AMANDA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/amanda-fox.html",
+              "notes": "Combined official 2026 Platte+Goshen PCSD #1 4-year totals: Shawn Anne Hoffman 1,319, Amanda Fox 1,293, Glenda L. Lay 1,222, Eric E. Jones 1,214."
+            },
+            {
+              "name": "Glenda L. Lay",
+              "person_id": "WY-LAY-GLENDA-L",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/glenda-l-lay.html",
+              "notes": "Combined official 2026 Platte+Goshen PCSD #1 4-year totals: Shawn Anne Hoffman 1,319, Amanda Fox 1,293, Glenda L. Lay 1,222, Eric E. Jones 1,214."
+            },
+            {
+              "name": "Chase Irvine",
+              "person_id": "WY-IRVINE-CHASE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/chase-irvine.html",
+              "notes": "Combined official 2022 Platte+Goshen PCSD #1 totals: Shawn Hoffman 1,689, Amanda Fox 1,633, Glenda L. Lay 1,535, Chase Irvine 1,366.",
+              "succeeding": {
+                "name": "Eric E. Jones",
+                "person_id": "WY-JONES-ERIC-E",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Clay Becker",
+              "person_id": "WY-BECKER-CLAY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/clay-becker.html",
+              "notes": "Official 2024 Platte clerk, PCSD #1 Vote-For-3: Clay Becker 2,265, Douglas Weaver 2,095, Diane Haroldson 1,711 (Mike Haroldson 1,381 fourth). Official 2024 Goshen sliver: Mike Haroldson 16, Becker 15, Diane Haroldson 11, Weaver 10. Combined: Becker 2,280, Weaver 2,105, Diane Haroldson 1,722 (Mike Haroldson 1,397 remains fourth). Ranking unchanged."
+            },
+            {
+              "name": "Douglas W. Weaver",
+              "person_id": "WY-WEAVER-DOUGLAS-W",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/douglas-w-weaver.html",
+              "notes": "Combined official 2024 Platte+Goshen PCSD #1 totals: Clay Becker 2,280, Douglas Weaver 2,105, Diane Haroldson 1,722. Official 2024 school ballot is Douglas Weaver; same person as official 2022 County Attorney Douglas W. Weaver."
+            },
+            {
+              "name": "Diane Haroldson",
+              "person_id": "WY-HAROLDSON-DIANE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/diane-haroldson.html",
+              "notes": "Combined official 2024 Platte+Goshen PCSD #1 totals: Clay Becker 2,280, Douglas Weaver 2,105, Diane Haroldson 1,722."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, PCSD #1 4-year Vote-For-4 (official rendered page): Shawn Anne Hoffman 1,315, Amanda Fox 1,281, Glenda L. Lay 1,212, Eric E. Jones 1,210 (Chase Irvine 1,129 fifth). Official 2026 Goshen sliver: Hoffman 4, Fox 12, Lay 10, Eric E. Jones 4, Irvine 8. Combined: Hoffman 1,319, Fox 1,293, Lay 1,222, Eric E. Jones 1,214 (Irvine 1,137 remains fifth). Ranking unchanged. Combined official 2026 Platte+Goshen PCSD #1 4-year totals: Shawn Anne Hoffman 1,319, Amanda Fox 1,293, Glenda L. Lay 1,222, Eric E. Jones 1,214."
+        },
+        {
+          "office": "Platte County School District #2 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Blaine Ayers",
+              "person_id": "WY-AYERS-BLAINE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/blaine-ayers.html",
+              "notes": "Official 2026 Platte clerk, PCSD #2 4-year Vote-For-2 (official rendered page): Blaine Ayers 456, Robert Ibarra 395. Official 2026 Goshen sliver: Ibarra 5, Ayers 3. Combined: Ayers 459, Ibarra 400."
+            },
+            {
+              "name": "Shawna Reichert",
+              "person_id": "WY-REICHERT-SHAWNA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/shawna-reichert.html",
+              "notes": "Official 2022 Platte clerk, PCSD #2 4-year Vote-For-2: Shawna Reichert 396, Blaine Ayers 360 (Luke Zapf 330 third). Official 2022 Goshen sliver: Reichert 2, Ayers 2, Zapf 1. Combined: Reichert 398, Ayers 362 (Zapf 331 remains third). Ranking unchanged.",
+              "succeeding": {
+                "name": "Robert Ibarra",
+                "person_id": "WY-IBARRA-ROBERT",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Sarah A. Seyfang",
+              "person_id": "WY-SEYFANG-SARAH-A",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/sarah-a-seyfang.html",
+              "notes": "Official 2024 Platte clerk, PCSD #2 Vote-For-3: Sarah A Seyfang 398, Gary L Anderson 344, Kevin M Gross 295. Official 2024 Goshen sliver: Gross 4, Anderson 2, Seyfang 0. Combined: Seyfang 398, Anderson 346, Gross 299. Ranking unchanged."
+            },
+            {
+              "name": "Gary L. Anderson",
+              "person_id": "WY-ANDERSON-GARY-L",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/gary-l-anderson.html",
+              "notes": "Combined official 2024 Platte+Goshen PCSD #2 totals: Sarah A. Seyfang 398, Gary L. Anderson 346, Kevin M. Gross 299."
+            },
+            {
+              "name": "Kevin M. Gross",
+              "person_id": "WY-GROSS-KEVIN-M",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kevin-m-gross.html",
+              "notes": "Combined official 2024 Platte+Goshen PCSD #2 totals: Sarah A. Seyfang 398, Gary L. Anderson 346, Kevin M. Gross 299."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, PCSD #2 4-year Vote-For-2 (official rendered page): Blaine Ayers 456, Robert Ibarra 395. Official 2026 Goshen sliver: Ibarra 5, Ayers 3. Combined: Ayers 459, Ibarra 400. Combined official 2026 Platte+Goshen PCSD #2 4-year totals: Blaine Ayers 459, Robert Ibarra 400."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "label": "Special districts",
+      "offices": [
+        {
+          "office": "Platte County Resource Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Levi D. Clark",
+              "person_id": "WY-CLARK-LEVI-D",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/levi-d-clark.html",
+              "notes": "Official 2026 Platte clerk, Resource Dist. Rural Vote-For-1: Levi D Clark 2,928."
+            },
+            {
+              "name": "Jason Goertz",
+              "person_id": "WY-GOERTZ-JASON",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jason-goertz.html",
+              "notes": "Official 2024 Platte clerk, Resource Conserv Dist Rural Vote-For-2: Jason Goertz 3,401, Jennifer Reyes-Burr 2,949. Official 2024 urban position is write-in totals only (322) with no named certified winner and is not seated."
+            },
+            {
+              "name": "Jennifer Reyes-Burr",
+              "person_id": "WY-REYES-BURR-JENNIFER",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jennifer-reyes-burr.html",
+              "notes": "Official 2024 Platte clerk, Resource Conserv Dist Rural Vote-For-2: Jason Goertz 3,401, Jennifer Reyes-Burr 2,949."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Resource Dist. Rural Vote-For-1: Levi D Clark 2,928. Official 2024 Platte clerk, Resource Conserv Dist Rural Vote-For-2: Jason Goertz 3,401, Jennifer Reyes-Burr 2,949. Official 2024 urban position is write-in totals only (322) with no named certified winner and is not seated."
+        },
+        {
+          "office": "Platte County Resource Conservation District Urban Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tyler Lauck",
+              "person_id": "WY-LAUCK-TYLER",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/tyler-lauck.html",
+              "notes": "Official 2022 Platte clerk, Resource Conservation Dist Urban Vote-For-1: Tyler Lauck 3,322.",
+              "succeeding": {
+                "name": "Joshua Kaufman",
+                "person_id": "WY-KAUFMAN-JOSHUA-J",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Resource Dist. Urban Vote-For-1: Joshua Kaufman 2,833. Same person as official Wheatland council member Joshua J. Kaufman. Official 2022 Platte clerk, Resource Conservation Dist Urban Vote-For-1: Tyler Lauck 3,322."
+        },
+        {
+          "office": "Platte County Resource Conservation District At-Large Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brook Brockman",
+              "person_id": "WY-BROCKMAN-BROOK",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/brook-brockman.html",
+              "notes": "Official 2026 Platte clerk, Resource Dist. At-Large Vote-For-1: Brook Brockman 2,849."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Resource Dist. At-Large Vote-For-1: Brook Brockman 2,849. Official 2022 Platte clerk, Resource Conservation Dist At-Large Vote-For-1: Brook Brockman 3,235."
+        },
+        {
+          "office": "Senior Citizen Service District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kenneth L. Pasley",
+              "person_id": "WY-PASLEY-KENNETH-L",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kenneth-l-pasley.html",
+              "notes": "Official 2026 Platte clerk, Senior Citizen Dist Vote-For-2: Kenneth L. Pasley 2,447, Julie Gentle 2,412."
+            },
+            {
+              "name": "Jill R. Graves",
+              "person_id": "WY-GRAVES-JILL-R",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/jill-r-graves.html",
+              "notes": "Official 2022 Platte clerk, Senior Citizen Service Dist 4-year Vote-For-2: Jill R Graves 2,275, Kenneth L Pasley 1,941 (Rose Marie Martinez 1,538 third).",
+              "succeeding": {
+                "name": "Julie Gentle",
+                "person_id": "WY-GENTLE-JULIE",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Sarah Taylor",
+              "person_id": "WY-TAYLOR-SARAH",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/sarah-taylor.html",
+              "notes": "Official 2024 Platte clerk, Senior Citizens Serv Dist Trustee Vote-For-3: Sarah Taylor 2,982, Rose Marie Martinez 2,740, write-in totals 190 with no named certified third winner. The third 2024 seat is not invented."
+            },
+            {
+              "name": "Rose Marie Martinez",
+              "person_id": "WY-MARTINEZ-ROSE-MARIE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/rose-marie-martinez.html",
+              "notes": "Official 2024 Platte clerk, Senior Citizens Serv Dist Trustee Vote-For-3: Sarah Taylor 2,982, Rose Marie Martinez 2,740."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Senior Citizen Dist Vote-For-2: Kenneth L. Pasley 2,447, Julie Gentle 2,412. Official 2024 Platte clerk, Senior Citizens Serv Dist Trustee Vote-For-3: Sarah Taylor 2,982, Rose Marie Martinez 2,740, write-in totals 190 with no named certified third winner. The third 2024 seat is not invented."
+        },
+        {
+          "office": "Hospital District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Chuck Frederick",
+              "person_id": "WY-FREDERICK-CHUCK",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/chuck-frederick.html",
+              "notes": "Official 2022 Platte clerk, Hospital Dist Director Vote-For-3: Chuck Frederick 2,759, Rob Hellbaum 2,675, Debra Shanahan 2,410.",
+              "succeeding": {
+                "name": "Rod Vineyard",
+                "person_id": "WY-VINEYARD-ROD",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Rob Hellbaum",
+              "person_id": "WY-HELLBAUM-ROB",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/rob-hellbaum.html",
+              "notes": "Official 2022 Platte clerk, Hospital Dist Director Vote-For-3: Chuck Frederick 2,759, Rob Hellbaum 2,675, Debra Shanahan 2,410."
+            },
+            {
+              "name": "Debra Shanahan",
+              "person_id": "WY-SHANAHAN-DEBRA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/debra-shanahan.html",
+              "notes": "Official 2022 Platte clerk, Hospital Dist Director Vote-For-3: Chuck Frederick 2,759, Rob Hellbaum 2,675, Debra Shanahan 2,410.",
+              "succeeding": {
+                "name": "Vicki Mickelsen",
+                "person_id": "WY-MICKELSEN-VICKI",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Lisa Millikin",
+              "person_id": "WY-MILLIKIN-LISA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/lisa-millikin.html",
+              "notes": "Official 2024 Platte clerk, Hospital District Dir Vote-For-4: Lisa Millikin 1,823, Tiffany Dean 1,712, Jalea Brockman 1,671, John Watson 1,466."
+            },
+            {
+              "name": "Tiffany Dean",
+              "person_id": "WY-DEAN-TIFFANY-GORMAN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/tiffany-gorman-dean.html",
+              "notes": "Official 2024 Platte clerk, Hospital District Dir Vote-For-4: Lisa Millikin 1,823, Tiffany Dean 1,712, Jalea Brockman 1,671, John Watson 1,466. Same person as official 2026 coroner elect Tiffany Gorman Dean."
+            },
+            {
+              "name": "Jalea Brockman",
+              "person_id": "WY-BROCKMAN-JALEA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jalea-brockman.html",
+              "notes": "Official 2024 Platte clerk, Hospital District Dir Vote-For-4: Lisa Millikin 1,823, Tiffany Dean 1,712, Jalea Brockman 1,671, John Watson 1,466."
+            },
+            {
+              "name": "John Watson",
+              "person_id": "WY-WATSON-JOHN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/john-watson.html",
+              "notes": "Official 2024 Platte clerk, Hospital District Dir Vote-For-4: Lisa Millikin 1,823, Tiffany Dean 1,712, Jalea Brockman 1,671, John Watson 1,466."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Hosp. Dist. Vote-For-3: Vicki Mickelsen 2,401, Rod Vineyard 2,362, write-in totals 140 with no named certified third winner. The third 4-year 2026 seat is not invented. Official 2026 Platte clerk, Hosp. Dist. Vote-For-3: Vicki Mickelsen 2,401, Rod Vineyard 2,362."
+        },
+        {
+          "office": "Fire District 1F Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "R. Keith Ockinga",
+              "person_id": "WY-OCKINGA-R-KEITH",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/r-keith-ockinga.html",
+              "notes": "Official 2024 Platte clerk, Fire District 1F Dir Vote-For-2: R. Keith Ockinga 867, David Windmeier 818. Official 2022 1-F director is write-in totals only (102) with no named certified winner and is not seated."
+            },
+            {
+              "name": "David Windmeier",
+              "person_id": "WY-WINDMEIER-DAVID",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/david-windmeier.html",
+              "notes": "Official 2024 Platte clerk, Fire District 1F Dir Vote-For-2: R. Keith Ockinga 867, David Windmeier 818."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Fire District 1F Director Vote-For-1: Taylor Derra 429 over Curtis Walter 302. Official 2024 Platte clerk, Fire District 1F Dir Vote-For-2: R. Keith Ockinga 867, David Windmeier 818. Official 2022 1-F director is write-in totals only (102) with no named certified winner and is not seated."
+        },
+        {
+          "office": "Fire District 2F Glendo Zone Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jay B. Collins",
+              "person_id": "WY-COLLINS-JAY-B",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jay-b-collins.html",
+              "notes": "Official 2024 Platte clerk, Fire District 2F Dir Glendo Zone Vote-For-1: Jay B Collins 361."
+            }
+          ],
+          "note": "Official 2024 Platte clerk, Fire District 2F Dir Glendo Zone Vote-For-1: Jay B Collins 361."
+        },
+        {
+          "office": "Fire District 2F Palmer Zone Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official 2026 Platte clerk, 2F Palmer Vote-For-1: Ken Small 252."
+        },
+        {
+          "office": "Fire District 2F At-Large Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Paul Foy",
+              "person_id": "WY-FOY-PAUL",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/paul-foy.html",
+              "notes": "Official 2022 Platte clerk, Fire Dist 2-F Dir At Large Vote-For-1: Paul Foy 302. Official 2022 Palmer zone and official 2026 2F at-large are write-in totals only with no named certified winner and are not seated."
+            }
+          ],
+          "note": "Official 2022 Platte clerk, Fire Dist 2-F Dir At Large Vote-For-1: Paul Foy 302. Official 2022 Palmer zone and official 2026 2F at-large are write-in totals only with no named certified winner and are not seated."
+        },
+        {
+          "office": "Antelope Gap Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "David Weber",
+              "person_id": "WY-WEBER-DAVID",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/david-weber.html",
+              "notes": "Official 2024 Platte clerk, Antelope Gap Fire Dist Director Vote-For-2: David Weber 121, Anthony Laffitte 114. Official 2022 Antelope Gap is write-in totals only (27) and is not seated."
+            },
+            {
+              "name": "Anthony Laffitte",
+              "person_id": "WY-LAFFITTE-ANTHONY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/anthony-laffitte.html",
+              "notes": "Official 2024 Platte clerk, Antelope Gap Fire Dist Director Vote-For-2: David Weber 121, Anthony Laffitte 114."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Antelope Gap Vote-For-1: Lyndon J. Miller 98. Official 2024 Platte clerk, Antelope Gap Fire Dist Director Vote-For-2: David Weber 121, Anthony Laffitte 114. Official 2022 Antelope Gap is write-in totals only (27) and is not seated."
+        },
+        {
+          "office": "Guernsey Rural Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "David Warner",
+              "person_id": "WY-WARNER-DAVID",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/david-warner.html",
+              "notes": "Official 2026 Platte clerk, Guernsey Fire Vote-For-2: David Warner 128, Dennis Miller 125."
+            },
+            {
+              "name": "Dennis Miller",
+              "person_id": "WY-MILLER-DENNIS-E",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/dennis-e-miller.html",
+              "notes": "Official 2026 Platte clerk, Guernsey Fire Vote-For-2: David Warner 128, Dennis Miller 125."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Guernsey Fire Vote-For-2: David Warner 128, Dennis Miller 125. Official 2022 Platte clerk, Guernsey Rural Fire Dist Dir Vote-For-2: Dennis E Miller 118, David Warner 108. Official 2020 and official 2024 Guernsey Rural Fire contests are write-in totals only with no named certified winner and are not seated."
+        },
+        {
+          "office": "Chugwater Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Chug Fire Vote-For-1: Tim Ash 182. Official Platte totals only; official Goshen sliver for this contest was not combined here."
+        },
+        {
+          "office": "Chugwater Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dennis Baker",
+              "person_id": "WY-BAKER-DENNIS",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/dennis-baker.html",
+              "notes": "Official 2022 Platte clerk, Chugwater Cemetery Dist Dir Vote-For-3: Dennis Baker 137, Rob Hellbaum 131, write-in totals 27 with no named certified third winner. The third 2022 seat is not invented.",
+              "succeeding": {
+                "name": "Blake Vaughn",
+                "person_id": "WY-VAUGHN-BLAKE",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Rob Hellbaum",
+              "person_id": "WY-HELLBAUM-ROB",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/rob-hellbaum.html",
+              "notes": "Official 2022 Platte clerk, Chugwater Cemetery Dist Dir Vote-For-3: Dennis Baker 137, Rob Hellbaum 131.",
+              "succeeding": {
+                "name": "Kate Jackson",
+                "person_id": "WY-JACKSON-KATE",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Ruth Vaughn",
+              "person_id": "WY-VAUGHN-RUTH",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ruth-vaughn.html",
+              "notes": "Official 2024 Platte clerk, Chugwater Cemetery Dist Trustee 4-year Vote-For-3: Ruth Vaughn 145, Dean Webster 132, Holly Crowley 131. Official Platte totals only; official Goshen sliver was not combined here."
+            },
+            {
+              "name": "Dean Webster",
+              "person_id": "WY-WEBSTER-DEAN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/dean-webster.html",
+              "notes": "Official 2024 Platte clerk, Chugwater Cemetery Dist Trustee 4-year Vote-For-3: Ruth Vaughn 145, Dean Webster 132, Holly Crowley 131."
+            },
+            {
+              "name": "Holly Crowley",
+              "person_id": "WY-CROWLEY-HOLLY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/holly-crowley.html",
+              "notes": "Official 2024 Platte clerk, Chugwater Cemetery Dist Trustee 4-year Vote-For-3: Ruth Vaughn 145, Dean Webster 132, Holly Crowley 131."
+            },
+            {
+              "name": "Michael L. Kelley",
+              "person_id": "WY-KELLEY-MICHAEL-L",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/michael-l-kelley.html",
+              "notes": "Official 2024 Platte clerk, Chugwater Cemetery Dist Trustee 2-year Vote-For-1: Michael L Kelley 152.",
+              "succeeding": {
+                "name": "Darla Teter",
+                "person_id": "WY-TETER-DARLA",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Chug Cem. 4-year Vote-For-3: Blake Vaughn 91, Kate Jackson 90, Tracy Vaughn 85 (Barbara Fletcher 74 fourth). Official Platte totals only. Official 2026 Platte clerk, Chug Cem. 4-year Vote-For-3: Blake Vaughn 91, Kate Jackson 90, Tracy Vaughn 85."
+        },
+        {
+          "office": "Glendo EMS District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Glendo EMS 4-year Vote-For-3: Paul Bauder 235, Lisa Millikin 215, write-in totals 42 with no named certified third winner. The third 4-year seat is not invented. Official 2026 Platte clerk, Glendo EMS 4-year Vote-For-3: Paul Bauder 235, Lisa Millikin 215."
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "label": "Judicial",
+      "offices": [
+        {
+          "office": "District Judge, 8th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "F. Scott Peasley",
+              "person_id": "WY-PEASLEY-F-SCOTT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/f-scott-peasley.html",
+              "notes": "Official Wyoming Judicial Branch 8th JD District Court page: Hon. F. Scott Peasley, appointed August 2017, retained November 2024, term expires January 2031. Official 2024 Platte clerk RETAIN JUDGE B F. SCOTT PEASLEY: YES 3,396, NO 784. Start day is the first of the official appointment month."
+            },
+            {
+              "name": "Edward A. Buchanan",
+              "person_id": "WY-BUCHANAN-EDWARD-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/edward-a-buchanan.html",
+              "notes": "Official Wyoming Judicial Branch 8th JD District Court page: Hon. Edward A. Buchanan, appointed September 2022, retained November 2024, term expires January 2031. Official 2024 Platte clerk RETAIN JUDGE A EDWARD A. BUCHANAN: YES 3,232, NO 885. Start day is the first of the official appointment month."
+            }
+          ],
+          "note": "Official Wyoming Judicial Branch 8th JD District Court page: Hon. F. Scott Peasley, appointed August 2017, retained November 2024, term expires January 2031. Official 2024 Platte clerk RETAIN JUDGE B F. SCOTT PEASLEY: YES 3,396, NO 784. Start day is the first of the official appointment month. Official Wyoming Judicial Branch 8th JD District Court page: Hon. Edward A. Buchanan, appointed September 2022, retained November 2024, term expires January 2031. Official 2024 Platte clerk RETAIN JUDGE A EDWARD A. BUCHANAN: YES 3,232, NO 885. Start day is the first of the official appointment month."
+        },
+        {
+          "office": "Circuit Judge, 8th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Clark C. Allan",
+              "person_id": "WY-ALLAN-CLARK-C",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/clark-c-allan.html",
+              "notes": "Official 2026 Platte clerk, Circuit Judge Clark C. Allan retention: YES 2,377, NO 662."
+            },
+            {
+              "name": "Jacqueline K. Brown",
+              "person_id": "WY-BROWN-JACQUELINE-K",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jacqueline-k-brown.html",
+              "notes": "Official 2026 Platte clerk, Circuit Judge Jacqueline K. Brown retention: YES 2,374, NO 680."
+            }
+          ],
+          "note": "Official 2026 Platte clerk, Circuit Judge Clark C. Allan retention: YES 2,377, NO 662. Official Wyoming Judicial Branch 8th JD Goshen (Torrington) Circuit Court page: Hon. Jacqueline K. Brown, appointed July 2025, term expires January 2027, stands for retention November 2026. Official 2026 Platte clerk, Circuit Judge Jacqueline K. Brown retention: YES 2,374, NO 680. Official Judicial Branch robing notice lists her as Circuit Court Judge of the 8th JD (Converse, Goshen, Niobrara, and Platte Counties). Start day is the first of the official appointment month."
         }
       ]
     },
@@ -880,6 +1592,8 @@
   "sources": {
     "general_results": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20General%20Election/Official%20Results/Summary%20Report_Final%20Official.pdf",
     "primary_results": "https://www.plattecountywyoming.com/media/Elections/Election%20Results/2026/2026%20Primary%20Election/Official%20Results/Summary%20Report.pdf",
-    "checked": "2026-11-19"
+    "clerk_archive": "https://www.plattecountywyoming.com/departments/elections/ResultsofElection",
+    "checked": "2026-11-24",
+    "local_archive": "/workspace/wyoleg/local-results/platte/SOURCES.md"
   }
 }

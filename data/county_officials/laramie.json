@@ -2,7 +2,7 @@
   "county": "Laramie",
   "county_number": 2,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -18,22 +18,16 @@
           "holders": [
             {
               "name": "Tara Nethercott",
+              "person_id": "WY-NETHERCOTT-TARA",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2029"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2024 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/federal-and-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/nethercott.html"
+              "confidence": "high",
+              "term_end": "January 2029"
             }
           ]
         },
@@ -43,69 +37,51 @@
           "holders": [
             {
               "name": "Lynn Hutchings",
+              "person_id": "WY-HUTCHINGS-LYNN",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1997"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Lauren Schoenfeld",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-SCHOENFELD-LAUREN",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, S05",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Laramie County official 2026 general federal/state results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                   }
-                ]
-              },
-              "href": "officials/hutchings.html"
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
             }
           ]
         },
         {
           "office": "Senate District 6 (S06)",
           "layout": "office-and-name",
-          "note": "Also covers Platte.",
           "holders": [
             {
               "name": "Taft Love",
+              "person_id": "WY-LOVE-TAFT",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2145"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, S06, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/love.html"
+              "confidence": "medium",
+              "term_end": "January 2029",
+              "notes": "Official 2024 general winner was Darin Smith; official 2026 general names Taft Love (not labeled unexpired). Mid-term succession date is not stated in the official generals."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide Senate summary, Senate District 6: Taft Love (R) Total 6,142. Official Laramie share 3,199; official Platte share 2,943. Official 2024 SOS statewide Senate summary, Senate District 6: Darin Smith (R) Total 8,484. Official Laramie share 4,486; official Platte share 3,998. Official 2026 general names Taft Love as the S06 winner; January 2025–2026 snapshots keep Smith as the last official general-election holder, consistent with the official Platte history. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "Senate District 7 (S07)",
@@ -113,37 +89,28 @@
           "holders": [
             {
               "name": "Stephan Pappas",
+              "person_id": "WY-PAPPAS-STEPHAN",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2008"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Mark Rinne",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-RINNE-MARK",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, S07",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Laramie County official 2026 general federal/state results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                   }
-                ]
-              },
-              "href": "officials/pappas.html"
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
             }
           ]
         },
@@ -153,22 +120,16 @@
           "holders": [
             {
               "name": "Jared Olsen",
+              "person_id": "WY-OLSEN-JARED",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2035"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2024 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/federal-and-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/olsen.html"
+              "confidence": "high",
+              "term_end": "January 2029"
             }
           ]
         },
@@ -178,26 +139,17 @@
           "holders": [
             {
               "name": "Evie Brennan",
+              "person_id": "WY-BRENNAN-EVIE",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2090"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, S31, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/brennan.html"
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general winner, continuing."
             }
           ]
         }
@@ -210,32 +162,23 @@
         {
           "office": "House District 4 (H04)",
           "layout": "office-and-name",
-          "note": "Also covers Platte.",
           "holders": [
             {
               "name": "Jeremy Haroldson",
+              "person_id": "WY-HAROLDSON-JEREMY",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2071"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H04, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/haroldson.html"
+              "confidence": "high",
+              "term_end": "January 2029",
+              "notes": "Official 2026 general winner. Official SOS district-wide totals are used for this multi-county seat."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary totals: Jeremy Haroldson 2,533. Official Laramie County portion: 57. Also covers Platte County. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "House District 7 (H07)",
@@ -243,26 +186,16 @@
           "holders": [
             {
               "name": "Bob Nicholas",
+              "person_id": "WY-NICHOLAS-BOB",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/1980"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H07, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/nicholas.html"
+              "confidence": "high",
+              "term_end": "January 2029"
             }
           ]
         },
@@ -272,37 +205,28 @@
           "holders": [
             {
               "name": "Steve Johnson",
+              "person_id": "WY-JOHNSON-STEVE",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2118"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Luke Reiner",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-REINER-LUKE",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, H08",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Laramie County official 2026 general federal/state results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                   }
-                ]
-              },
-              "href": "officials/johnson.html"
+                ],
+                "takes_office": "January",
+                "term_end": "January 2029"
+              }
             }
           ]
         },
@@ -311,38 +235,29 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Landon Brown",
+              "name": "Landon J. Brown",
+              "person_id": "WY-BROWN-LANDON",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2034"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Boyd O. Wiggam",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-WIGGAM-BOYD",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, H09",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Laramie County official 2026 general federal/state results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                   }
-                ]
-              },
-              "href": "officials/brown-landon.html"
+                ],
+                "takes_office": "January",
+                "term_end": "January 2029"
+              }
             }
           ]
         },
@@ -351,27 +266,29 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Justin Fornstrom",
+              "name": "John Eklund",
+              "person_id": "WY-EKLUND-JOHN",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2146"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H10, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/fornstrom.html"
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Justin Fornstrom",
+                "person_id": "WY-FORNSTROM-JUSTIN",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general federal/state results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2029"
+              }
             }
           ]
         },
@@ -381,37 +298,29 @@
           "holders": [
             {
               "name": "Jacob Wasserburger",
+              "person_id": "WY-WASSERBURGER-JACOB",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2139"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Britney Tennant",
-                "party": "D",
-                "takes_office": "January",
+                "person_id": "WY-TENNANT-BRITNEY",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, H11",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Laramie County official 2026 general federal/state results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                   }
-                ]
-              },
-              "href": "officials/wasserburger.html"
+                ],
+                "takes_office": "January",
+                "term_end": "January 2029",
+                "party": "D"
+              }
             }
           ]
         },
@@ -421,26 +330,16 @@
           "holders": [
             {
               "name": "Clarence Styvar",
+              "person_id": "WY-STYVAR-CLARENCE",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2051"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H12, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/styvar.html"
+              "confidence": "high",
+              "term_end": "January 2029"
             }
           ]
         },
@@ -450,37 +349,28 @@
           "holders": [
             {
               "name": "Gary Brown",
+              "person_id": "WY-BROWN-GARY",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2140"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Erin Edwards",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-EDWARDS-ERIN",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, H41",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Laramie County official 2026 general federal/state results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                   }
-                ]
-              },
-              "href": "officials/brown-gary.html"
+                ],
+                "takes_office": "January",
+                "term_end": "January 2029"
+              }
             }
           ]
         },
@@ -490,26 +380,16 @@
           "holders": [
             {
               "name": "Rob Geringer",
+              "person_id": "WY-GERINGER-ROB",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2142"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H42, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/geringer.html"
+              "confidence": "high",
+              "term_end": "January 2029"
             }
           ]
         },
@@ -519,37 +399,28 @@
           "holders": [
             {
               "name": "Ann Lucas",
+              "person_id": "WY-LUCAS-ANN",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2128"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Jessica Crowder",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-CROWDER-JESSICA",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, H43",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Laramie County official 2026 general federal/state results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                   }
-                ]
-              },
-              "href": "officials/lucas.html"
+                ],
+                "takes_office": "January",
+                "term_end": "January 2029"
+              }
             }
           ]
         },
@@ -559,26 +430,16 @@
           "holders": [
             {
               "name": "Lee Filer",
+              "person_id": "WY-FILER-LEE",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/1990"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H44, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
-              "href": "officials/filer.html"
+              "confidence": "high",
+              "term_end": "January 2029"
             }
           ]
         },
@@ -587,38 +448,29 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Daniel Singh",
+              "name": "Daniel J. Singh",
+              "person_id": "WY-SINGH-DANIEL",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2116"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_02_Laramie_113_v1.1.pdf"
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Andrew Server",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-SERVER-ANDREW",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, H61",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Laramie County official 2026 general federal/state results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
                   }
-                ]
-              },
-              "href": "officials/singh.html"
+                ],
+                "takes_office": "January",
+                "term_end": "January 2029"
+              }
             }
           ]
         }
@@ -634,104 +486,82 @@
           "holders": [
             {
               "name": "Gunnar Malm",
+              "person_id": "WY-MALM-GUNNAR",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County commissioners page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/laramie.html"
-                },
-                {
-                  "label": "Laramie County official general results, re-elected",
+                  "label": "Laramie County official 2026 general city/county results",
                   "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general Vote-For-3 winner, continuing."
             },
             {
               "name": "Troy Thompson",
+              "person_id": "WY-THOMPSON-TROY",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County commissioners page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/laramie.html"
-                },
-                {
-                  "label": "Laramie County official general results, re-elected",
+                  "label": "Laramie County official 2026 general city/county results",
                   "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general Vote-For-3 winner, continuing."
             },
             {
               "name": "Linda Heath",
+              "person_id": "WY-HEATH-LINDA",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County commissioners page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/laramie.html"
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
                 }
               ],
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Jess E. Ketcham",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-KETCHAM-JESS-E",
                 "sources": [
                   {
-                    "label": "Laramie County official general results, County Commissioner",
+                    "label": "Laramie County official 2026 general city/county results",
                     "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
                   }
-                ]
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
               }
             },
             {
               "name": "Don Hollingshead",
+              "person_id": "WY-HOLLINGSHEAD-DON",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County commissioners page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/laramie.html"
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
             },
             {
               "name": "Ty Zwonitzer",
+              "person_id": "WY-ZWONITZER-TY",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County commissioners page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/laramie.html"
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
             }
           ]
         },
@@ -741,31 +571,27 @@
           "holders": [
             {
               "name": "Debra Lee",
+              "person_id": "WY-LEE-DEBRA",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County clerk page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/laramie.html"
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
                 }
               ],
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Misty Tinney",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-TINNEY-MISTY",
                 "sources": [
                   {
-                    "label": "Laramie County official general results, County Clerk",
+                    "label": "Laramie County official 2026 general city/county results",
                     "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
                   }
-                ]
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
               }
             }
           ]
@@ -776,31 +602,27 @@
           "holders": [
             {
               "name": "Tammy Deisch",
+              "person_id": "WY-DEISCH-TAMMY",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County treasurer page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/laramie.html"
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
                 }
               ],
+              "confidence": "high",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Trista Wood",
-                "party": "R",
-                "takes_office": "January",
+                "person_id": "WY-WOOD-TRISTA",
                 "sources": [
                   {
-                    "label": "Laramie County official general results, County Treasurer",
+                    "label": "Laramie County official 2026 general city/county results",
                     "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
                   }
-                ]
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
               }
             }
           ]
@@ -811,25 +633,17 @@
           "holders": [
             {
               "name": "Todd A. Ernst",
+              "person_id": "WY-ERNST-TODD-A",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County assessor page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/laramie.html"
-                },
-                {
-                  "label": "Laramie County official general results, re-elected",
+                  "label": "Laramie County official 2026 general city/county results",
                   "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2024 general winner (mid-term relative to official 2022 winner Kenneth Guille) and official 2026 general winner. Mid-term succession date is not stated in the official generals."
             }
           ]
         },
@@ -839,25 +653,17 @@
           "holders": [
             {
               "name": "Brian Kozak",
+              "person_id": "WY-KOZAK-BRIAN",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County sheriff page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/laramie.html"
-                },
-                {
-                  "label": "Laramie County official general results, re-elected",
+                  "label": "Laramie County official 2026 general city/county results",
                   "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general winner, continuing."
             }
           ]
         },
@@ -867,22 +673,17 @@
           "holders": [
             {
               "name": "Sylvia Miller Hackl",
+              "person_id": "WY-HACKL-SYLVIA",
               "party": "R",
               "sources": [
                 {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/laramie.html"
-                },
-                {
-                  "label": "Laramie County official general results, re-elected",
+                  "label": "Laramie County official 2026 general city/county results",
                   "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
               ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name.",
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 ballot Sylvia Miller Hackl; official 2026 ballot Sylvia Lee Hackl. Official 2022 term ends January 2027; official 2026 general winner, continuing.",
               "ballot_name": "Sylvia Lee Hackl"
             }
           ]
@@ -893,25 +694,17 @@
           "holders": [
             {
               "name": "Diane Sanchez",
+              "person_id": "WY-SANCHEZ-DIANE",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County clerk of district court page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/laramie.html"
-                },
-                {
-                  "label": "Laramie County official general results, re-elected",
+                  "label": "Laramie County official 2026 general city/county results",
                   "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general winner, continuing."
             }
           ]
         },
@@ -921,25 +714,1051 @@
           "holders": [
             {
               "name": "Rebecca Reid",
+              "person_id": "WY-REID-REBECCA",
               "party": "R",
               "sources": [
                 {
-                  "label": "Laramie County coroner page",
-                  "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/laramie.html"
-                },
-                {
-                  "label": "Laramie County official general results, re-elected",
+                  "label": "Laramie County official 2026 general city/county results",
                   "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general winner, continuing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal Offices",
+      "offices": [
+        {
+          "office": "Cheyenne Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Patrick Collins",
+              "person_id": "WY-COLLINS-PATRICK",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            }
+          ]
+        },
+        {
+          "office": "Cheyenne City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jeff White",
+              "person_id": "WY-WHITE-JEFF",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Pete Laybourn",
+              "person_id": "WY-LAYBOURN-PETE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Scott D. Roybal",
+              "person_id": "WY-ROYBAL-SCOTT",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Maren Kallas",
+                "person_id": "WY-KALLAS-MAREN",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general city/county results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Cheyenne City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kathy Emmons",
+              "person_id": "WY-EMMONS-KATHY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Tom Segrave",
+              "person_id": "WY-SEGRAVE-TOM",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Mark Rinne",
+              "person_id": "WY-RINNE-MARK",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Janelle Rose",
+                "person_id": "WY-ROSE-JANELLE",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general city/county results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Cheyenne City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michelle Aldrich",
+              "person_id": "WY-ALDRICH-MICHELLE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Mark A. Moody",
+              "person_id": "WY-MOODY-MARK-A",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Ken A. Esquibel",
+              "person_id": "WY-ESQUIBEL-KEN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general winner, continuing."
+            }
+          ]
+        },
+        {
+          "office": "Pine Bluffs Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Justin Fornstrom",
+              "person_id": "WY-FORNSTROM-JUSTIN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "term_end": "January 2027",
+              "notes": "Official 2024 and 2026 November summaries both include a Pine Bluffs mayoral contest; the 2024 term is encoded as two years (inferred).",
+              "succeeding": {
+                "name": "Dennis Michaud",
+                "person_id": "WY-MICHAUD-DENNIS",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general city/county results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2029"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Pine Bluffs Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Allie Leitza",
+              "person_id": "WY-LEITZA-ALLIE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Janna Kestner",
+              "person_id": "WY-KESTNER-JANNA",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Amy Currie",
+              "person_id": "WY-CURRIE-AMY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2026 general Vote-For-2 winner; takes office January 2027."
+            },
+            {
+              "name": "David Crouse",
+              "person_id": "WY-CROUSE-DAVID",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2026 general Vote-For-2 winner; takes office January 2027."
+            }
+          ]
+        },
+        {
+          "office": "Town of Burns",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "notes": "Burns does not appear on the official November 2010–2026 city/county summaries. The official Laramie County clerk election-results page, retrieved 2026-11-24, has no 2025 municipal canvass posted. Official burnswy.com could not be retrieved (TLS failure); a March 2025 Wayback capture is only the Apache default page. Left Not yet collected rather than invented."
+            }
+          ]
+        },
+        {
+          "office": "Town of Albin",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "notes": "Albin does not appear on the official November 2010–2026 city/county summaries. The official Laramie County clerk election-results page, retrieved 2026-11-24, has no 2025 municipal canvass posted. No official Town of Albin site was found. Left Not yet collected rather than invented."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School and College Boards",
+      "offices": [
+        {
+          "office": "Laramie County Community College Board of Trustees",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jess E. Ketcham",
+              "person_id": "WY-KETCHAM-JESS-E",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029",
+              "notes": "Official 2024 general Vote-For-4 winner. Also the official 2026 county commissioner-elect (takes office January 2027)."
+            },
+            {
+              "name": "Wendy J. Soto",
+              "person_id": "WY-SOTO-WENDY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Don Erickson",
+              "person_id": "WY-ERICKSON-DON",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Bob Salazar",
+              "person_id": "WY-SALAZAR-BOB",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Kathy Emmons",
+              "person_id": "WY-EMMONS-KATHY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general Vote-For-3 winner, continuing."
+            },
+            {
+              "name": "Janine Thompson",
+              "person_id": "WY-THOMPSON-JANINE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Joe Kelly",
+                "person_id": "WY-KELLY-JOE",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general city/county results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            },
+            {
+              "name": "Carol Merrell",
+              "person_id": "WY-MERRELL-CAROL",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Kenneth Guille",
+                "person_id": "WY-GUILLE-KENNETH",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general city/county results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            }
+          ]
+        },
+        {
+          "office": "LCSD #1 Board Trustee At-Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Barbara Cook",
+              "person_id": "WY-COOK-BARBARA",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Brittany Ashby",
+              "person_id": "WY-ASHBY-BRITTANY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Alicia Smith",
+              "person_id": "WY-SMITH-ALICIA",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Rene R. Hinkle",
+              "person_id": "WY-HINKLE-RENE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general LCSD #1 results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd1.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general LCSD #1 winner, continuing."
+            }
+          ]
+        },
+        {
+          "office": "LCSD #1 Board Trustee Area 1",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Susan Edgerton",
+              "person_id": "WY-EDGERTON-SUSAN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general LCSD #1 results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd1.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Marilyn Burden",
+                "person_id": "WY-BURDEN-MARILYN",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general LCSD #1 results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd1.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            }
+          ]
+        },
+        {
+          "office": "LCSD #1 Board Trustee Area 2",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brooke Humphrey",
+              "person_id": "WY-HUMPHREY-BROOKE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general LCSD #1 results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd1.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general LCSD #1 winner, continuing."
+            }
+          ]
+        },
+        {
+          "office": "LCSD #1 Board Trustee Area 3",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Christy Klaassen",
+              "person_id": "WY-KLAASSEN-CHRISTY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general LCSD #1 results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd1.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Henry \"Hank\" Bailey",
+                "person_id": "WY-BAILEY-HENRY-HANK",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general LCSD #1 results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd1.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Board Trustee At-Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Cody Nusbaum",
+              "person_id": "WY-NUSBAUM-CODY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general LCSD #2 results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd2.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Ashley Jessen",
+                "person_id": "WY-JESSEN-ASHLEY",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general LCSD #2 results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd2.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            },
+            {
+              "name": "Michael Lerwick",
+              "person_id": "WY-LERWICK-MICHAEL",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general LCSD #2 results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd2.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general LCSD #2 Vote-For-3 winner, continuing."
+            },
+            {
+              "name": "Kendra Roeder",
+              "person_id": "WY-ROEDER-KENDRA",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general LCSD #2 results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd2.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general LCSD #2 Vote-For-3 winner, continuing."
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Board Trustee Area C",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Heidi Romsa",
+              "person_id": "WY-ROMSA-HEIDI",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Board Trustee Area D",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jerrid G. Wiles",
+              "person_id": "WY-WILES-JERRID",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general LCSD #2 results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd2.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "term_end": "January 2027",
+              "notes": "Official 2024 general Area D winner. Official 2026 general Area D winner is Billie Wilson. Mid-term circumstances are not stated in the official generals.",
+              "succeeding": {
+                "name": "Billie Wilson",
+                "person_id": "WY-WILSON-BILLIE",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general LCSD #2 results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd2.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Board Trustee Area E",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Matt Haas",
+              "person_id": "WY-HAAS-MATT",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Julianne Randall",
+              "person_id": "WY-RANDALL-JULIANNE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Board Trustee Area F",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mike Olson",
+              "person_id": "WY-OLSON-MIKE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general LCSD #2 results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd2.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Kelly Groeneweg",
+                "person_id": "WY-GROENEWEG-KELLY",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general LCSD #2 results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd2.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special Districts",
+      "offices": [
+        {
+          "office": "Laramie County Conservation District Supervisor At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Casey F. Epler",
+              "person_id": "WY-EPLER-CASEY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            }
+          ]
+        },
+        {
+          "office": "Laramie County Conservation District Supervisor Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott J. Cherek",
+              "person_id": "WY-CHEREK-SCOTT",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            }
+          ]
+        },
+        {
+          "office": "Laramie County Conservation District Supervisor Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kevin Wells",
+              "person_id": "WY-WELLS-KEVIN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/city-and-county-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Jay Berry",
+              "person_id": "WY-BERRY-JAY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Melissa Harding",
+                "person_id": "WY-HARDING-MELISSA",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general city/county results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            },
+            {
+              "name": "Ann Sanchez",
+              "person_id": "WY-SANCHEZ-ANN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Jason Crowder",
+                "person_id": "WY-CROWDER-JASON",
+                "sources": [
+                  {
+                    "label": "Laramie County official 2026 general city/county results",
+                    "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                  }
+                ],
+                "takes_office": "January",
+                "term_end": "January 2031"
+              }
+            },
+            {
+              "name": "Ford Rundell",
+              "person_id": "WY-RUNDELL-FORD",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "term_end": "January 2029",
+              "notes": "Official 2026 general unexpired rural winner; takes office January 2027. Term end January 2029 is inferred from the rural cycle."
+            }
+          ]
+        },
+        {
+          "office": "Chugwater Fire District Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tim Ash",
+              "person_id": "WY-ASH-TIM",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2026 general, 29 (Laramie County portion). Takes office January 2027."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial Retention",
+      "note": "1st Judicial District judges named on official Laramie retention ballots (official last name only). Supreme Court and Chancery Court are in the shared statewide file.",
+      "offices": [
+        {
+          "office": "District Judge, 1st Judicial District (Campbell)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Campbell",
+              "person_id": "WY-CAMPBELL-JD1",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2022 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/general-election-results-federal-state-summary-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029",
+              "notes": "Official 2022 general retention, last name only as printed on the official summary."
+            }
+          ]
+        },
+        {
+          "office": "District Judge, 1st Judicial District (Rogers)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Rogers",
+              "person_id": "WY-ROGERS-JD1",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2022 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/general-election-results-federal-state-summary-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029",
+              "notes": "Official 2022 general retention, last name only as printed on the official summary."
+            }
+          ]
+        },
+        {
+          "office": "District Judge, 1st Judicial District (Cooley)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cooley",
+              "person_id": "WY-COOLEY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2033",
+              "notes": "Official 2026 general retention, last name only. Takes office under the January 2027 term start used for retentions."
+            }
+          ]
+        },
+        {
+          "office": "District Judge, 1st Judicial District (Hibben)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Hibben",
+              "person_id": "WY-HIBBEN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2033",
+              "notes": "Official 2026 general retention, last name only."
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 1st Judicial District (Chambers)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chambers",
+              "person_id": "WY-CHAMBERS-JD1",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2022 term ends January 2027; official 2026 general retention (last name only), continuing."
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 1st Judicial District (Williams)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Williams",
+              "person_id": "WY-WILLIAMS-JD1",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2024 general federal/state results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2024-general/official/federal-and-state-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2029",
+              "notes": "Official 2024 general retention, last name only."
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 1st Judicial District (Forwood)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Forwood",
+              "person_id": "WY-FORWOOD",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Laramie County official 2026 general city/county results",
+                  "url": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "term_end": "January 2031",
+              "notes": "Official 2026 general retention, last name only."
             }
           ]
         }
@@ -3540,6 +4359,11 @@
   "sources": {
     "general_results": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/county-city-election-summary.pdf",
     "primary_results": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-primary/county-and-city-election-summary.pdf",
-    "checked": "2026-11-19"
+    "general_fed_state": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/fed-state-election-summary.pdf",
+    "lcsd1": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd1.pdf",
+    "lcsd2": "https://www.laramiecountywy.gov/files/assets/public/v/1/clerk/documents/election-results/2026-general/lcsd2.pdf",
+    "clerk_archive": "https://www.laramiecountywy.gov/County-Government/Elected-Officials/County-Clerk/Elections/Election-Results",
+    "checked": "2026-11-24",
+    "local_archive": "/workspace/wyoleg/local-results/laramie/SOURCES.md"
   }
 }

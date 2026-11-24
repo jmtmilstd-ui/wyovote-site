@@ -2,7 +2,7 @@
   "county": "Sublette",
   "county_number": 23,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_23_Sublette_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -10,190 +10,114 @@
   "groups": [
     {
       "id": "state-senate",
-      "title": "State Senate",
+      "label": "Wyoming Senate",
       "offices": [
         {
           "office": "Senate District 14 (S14)",
           "layout": "office-and-name",
-          "note": "Also covers Sweetwater, Lincoln and Uinta.",
           "holders": [
             {
-              "name": "Laura Pearson",
-              "sources": [
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_23_Sublette_113_v1.1.pdf"
-                }
-              ],
-              "party": "R"
+              "name": "Laura Taliaferro (formerly Pearson)",
+              "person_id": "WY-PEARSON-LAURA",
+              "party": "R",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/laura-taliaferro.html",
+              "notes": "Official 2024 SOS statewide Senate summary, Senate District 14: official ballot name Laura Taliaferro Pearson (R) Total 8,025. Official Sublette share 3,965 (official 2024 Sublette clerk 3,965); official Lincoln 2,116; official Sweetwater 1,351; official Uinta 593 (sums to 8,025). Display name follows the site rule: Laura Taliaferro (formerly Pearson), person ID WY-PEARSON-LAURA."
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary totals: Laura Taliaferro Pearson 8,025 (official ballot name). Official Sublette portion: 3,965. Also covers Lincoln, Sweetwater, and Uinta. Display name follows the site rule: Laura Taliaferro (formerly Pearson), person ID WY-PEARSON-LAURA."
         }
       ]
     },
     {
       "id": "state-house",
-      "title": "State House",
+      "label": "Wyoming House",
       "offices": [
         {
           "office": "House District 20 (H20)",
           "layout": "office-and-name",
-          "note": "Also covers Lincoln.",
           "holders": [
             {
               "name": "Mike Schmid",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2121"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_23_Sublette_113_v1.1.pdf"
-                }
-              ],
+              "person_id": "WY-SCHMID-MIKE",
               "party": "R",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/mike-schmid.html",
+              "notes": "Official 2024 SOS statewide House summary, House District 20: Mike Schmid Total 4,354. Official Sublette share 4,075; official Lincoln share 279. Official 2024 Sublette clerk H20 Mike Schmid 4,075.",
               "succeeding": {
                 "name": "Albert Sommers",
+                "person_id": "WY-SOMMERS-ALBERT",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H20",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/schmid.html"
+                "takes_office": "January"
+              }
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide House summary totals: Mike Schmid 4,354 (official Sublette share 4,075; official Lincoln share 279). Official 2026 SOS district-wide Total: Albert Sommers 3,349 (official Sublette share 3,195; official Lincoln share 154)."
         }
       ]
     },
     {
       "id": "county",
-      "title": "County Offices",
+      "label": "County offices",
       "offices": [
         {
-          "office": "County Commissioners",
+          "office": "County Commissioner",
           "layout": "heading-then-names",
           "holders": [
             {
-              "name": "Lynn Bernard",
+              "name": "Mack Bradley",
+              "person_id": "WY-BRADLEY-MACK",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County commissioners page",
-                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/sublette.html"
-                }
-              ],
-              "role": "Chairman"
-            },
-            {
-              "name": "Dave Stephens",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County commissioners page",
-                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/sublette.html"
-                }
-              ],
-              "role": "Vice Chairman"
-            },
-            {
-              "name": "Sam White",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County commissioners page",
-                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/sublette.html"
-                }
-              ]
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/mack-bradley.html",
+              "notes": "Official 2022 Sublette clerk, County Commissioners Vote-For-2: Mack Bradley 2,585, Douglas J. Vickrey 2,493, Troy Bredthauer (IND) 849. Official Commissioner Profiles page: Mack Bradley, term expires 1/2/2027.",
+              "succeeding": {
+                "name": "Robin Schamber",
+                "person_id": "WY-SCHAMBER-ROBIN",
+                "party": "R",
+                "takes_office": "January"
+              }
             },
             {
               "name": "Doug Vickrey",
+              "person_id": "WY-VICKREY-DOUG",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County commissioners page",
-                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sublette.html"
-                }
-              ],
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/doug-vickrey.html",
+              "notes": "Official 2022 Sublette clerk, County Commissioners Vote-For-2: Mack Bradley 2,585, Douglas J. Vickrey 2,493. Official Commissioner Profiles page lists Doug Vickrey, term expires 1/2/2027.",
               "succeeding": {
                 "name": "Andy Nelson",
+                "person_id": "WY-NELSON-ANDY",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Sublette County official general results, County Commissioner",
-                    "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "takes_office": "January"
               }
             },
             {
-              "name": "Mack Bradley",
+              "name": "Dave Stephens",
+              "person_id": "WY-STEPHENS-DAVE",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County commissioners page",
-                  "url": "https://www.sublettecountywy.gov/231/Commissioner-Profiles"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sublette.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Robin Schamber",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Sublette County official general results, County Commissioner",
-                    "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/dave-stephens.html",
+              "notes": "Official 2024 Sublette clerk, County Commissioner Vote-For-3: Dave Stephens 3,255, Sam White 3,216, Lynn E. Bernard 3,094. Official Commissioner Profiles page: Dave Stephens, Vice Chairman, term expires 1/1/2029."
+            },
+            {
+              "name": "Sam White",
+              "person_id": "WY-WHITE-SAM",
+              "party": "R",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/sam-white.html",
+              "notes": "Official 2024 Sublette clerk, County Commissioner Vote-For-3: Dave Stephens 3,255, Sam White 3,216, Lynn E. Bernard 3,094. Official Commissioner Profiles page: Sam White, term expires 1/1/2029."
+            },
+            {
+              "name": "Lynn E. Bernard",
+              "person_id": "WY-BERNARD-LYNN-E",
+              "party": "R",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/lynn-e-bernard.html",
+              "notes": "Official 2024 Sublette clerk, County Commissioner Vote-For-3: Dave Stephens 3,255, Sam White 3,216, Lynn E. Bernard 3,094. Official Commissioner Profiles page: Lynn Bernard, Chairman, term expires 1/1/2029."
             }
           ],
-          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+          "note": "Five-member board. Official 2026 ballot question to reduce the board from five to three failed (AGAINST 2,659, 72.49%). Official Commissioner Profiles page lists current terms. Layout is heading-then-names."
         },
         {
           "office": "County Clerk",
@@ -201,51 +125,26 @@
           "holders": [
             {
               "name": "Jessica Rice",
+              "person_id": "WY-RICE-JESSICA",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County Board of Commissioners page (County Clerk)",
-                  "url": "https://www.sublettecountywy.gov/86/Board-of-County-Commissioners"
-                },
-                {
-                  "label": "Sublette County official general results, elected",
-                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in the latest general, so the office does not change in January."
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jessica-rice.html",
+              "notes": "Official 2026 Sublette clerk, County Clerk: Jessica Rice 3,356."
             }
-          ]
+          ],
+          "note": "Official County Clerk page, retrieved 2026-11-24: Jessica Rice, County Clerk. Official 2022 winner was Carrie S. Long; official mid-term appointment date was not found."
         },
         {
           "office": "County Treasurer",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Emily Paravicini",
+              "name": "Emily D. Paravicini",
+              "person_id": "WY-PARAVICINI-EMILY-D",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County treasurer page",
-                  "url": "https://www.sublettecountywy.gov/140/Treasurer"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sublette.html"
-                },
-                {
-                  "label": "Sublette County official general results, re-elected",
-                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "ballot_name": "Emily D. Paravicini"
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/emily-d-paravicini.html",
+              "notes": "Official 2026 Sublette clerk, County Treasurer: Emily D. Paravicini 3,319."
             }
           ]
         },
@@ -255,25 +154,11 @@
           "holders": [
             {
               "name": "Laila Illoway",
+              "person_id": "WY-ILLOWAY-LAILA",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County assessor page",
-                  "url": "https://www.sublettecountywy.gov/64/Assessor"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sublette.html"
-                },
-                {
-                  "label": "Sublette County official general results, re-elected",
-                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/laila-illoway.html",
+              "notes": "Official 2026 Sublette clerk, County Assessor: Laila Illoway 3,315."
             }
           ]
         },
@@ -282,35 +167,21 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "KC Lehr",
+              "name": "K.C. Lehr",
+              "person_id": "WY-LEHR-KC",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County sheriff page",
-                  "url": "https://www.sublettecountywy.gov/139/sublette-county-sheriffs-office"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sublette.html"
-                }
-              ],
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/k-c-lehr.html",
+              "notes": "Official 2022 Sublette clerk, County Sheriff: KC Lehr 3,206. Official Sheriff page, retrieved 2026-11-24: Sheriff K.C. Lehr.",
               "succeeding": {
                 "name": "Tom Hatch",
+                "person_id": "WY-HATCH-TOM",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Sublette County official general results, County Sheriff",
-                    "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "takes_office": "January"
               }
             }
-          ]
+          ],
+          "note": "Official Sheriff page, retrieved 2026-11-24: Sheriff K.C. Lehr. Official 2026 elect is Tom Hatch, taking office January 2027."
         },
         {
           "office": "County Attorney",
@@ -318,25 +189,11 @@
           "holders": [
             {
               "name": "Clayton M. Melinkovich",
+              "person_id": "WY-MELINKOVICH-CLAYTON-M",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County attorney page",
-                  "url": "https://www.sublettecountywy.gov/87/Attorney"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sublette.html"
-                },
-                {
-                  "label": "Sublette County official general results, re-elected",
-                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/clayton-m-melinkovich.html",
+              "notes": "Official 2026 Sublette clerk, County Attorney: Clayton M. Melinkovich 2,997."
             }
           ]
         },
@@ -346,25 +203,11 @@
           "holders": [
             {
               "name": "Janet K. Montgomery",
+              "person_id": "WY-MONTGOMERY-JANET-K",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County clerk of district court page",
-                  "url": "https://www.sublettecountywy.gov/165/Clerk-of-District-Court"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sublette.html"
-                },
-                {
-                  "label": "Sublette County official general results, re-elected",
-                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/janet-k-montgomery.html",
+              "notes": "Official 2026 Sublette clerk, Clerk of District Court: Janet K Montgomery 3,331."
             }
           ]
         },
@@ -374,27 +217,635 @@
           "holders": [
             {
               "name": "Curt Covill",
+              "person_id": "WY-COVILL-CURT",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Sublette County coroner page",
-                  "url": "https://www.sublettecountywy.gov/94/Coroner"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/sublette.html"
-                },
-                {
-                  "label": "Sublette County official general results, re-elected",
-                  "url": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/curt-covill.html",
+              "notes": "Official 2026 Sublette clerk, County Coroner: Curt Covill 3,371."
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "label": "Municipal offices",
+      "offices": [
+        {
+          "office": "Pinedale Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt Murdock",
+              "person_id": "WY-MURDOCK-MATT",
+              "party": "",
+              "term_end": "May 2030",
+              "href": "candidates/local-history/c/matt-murdock.html",
+              "notes": "Official Town of Pinedale council page: Mayor Matt Murdock, term expires May 31, 2030. Official 2026 municipal election results page: Mayor Matt Murdock 49 (write-in Chad Mitchell variants combined 20, not certified over Murdock). A prior official municipal canvass was not found, so a 2022–2026 term is not invented; January 2015–2026 snapshots therefore do not list this June 2026 term."
+            }
+          ],
+          "note": "Official Town of Pinedale council page: Mayor Matt Murdock, term expires May 31, 2030. Official 2026 municipal results: Matt Murdock 49."
+        },
+        {
+          "office": "Pinedale Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tyler Swafford",
+              "person_id": "WY-SWAFFORD-TYLER",
+              "party": "",
+              "term_end": "May 2028",
+              "href": "candidates/local-history/c/tyler-swafford.html",
+              "notes": "Official Town of Pinedale council page: Tyler Swafford, term expires May 31, 2028. Official 2024 municipal canvass was not archived; term_start is inferred from the official four-year May term ending May 31, 2028 (medium)."
+            },
+            {
+              "name": "Judi Boyce",
+              "person_id": "WY-BOYCE-JUDI",
+              "party": "",
+              "term_end": "May 2028",
+              "href": "candidates/local-history/c/judi-boyce.html",
+              "notes": "Official Town of Pinedale council page: Judi Boyce, term expires May 31, 2028. Official 2024 municipal canvass was not archived; term_start is inferred from the official four-year May term (medium)."
+            },
+            {
+              "name": "Dean Loftus",
+              "person_id": "WY-LOFTUS-DEAN",
+              "party": "",
+              "term_end": "May 2030",
+              "href": "candidates/local-history/c/dean-loftus.html",
+              "notes": "Official Town of Pinedale council page: Dean Loftus, term expires May 31, 2030. Official 2026 municipal election results page: council Dean Loftus 65, Scott Kosiba 51."
+            },
+            {
+              "name": "Scott Kosiba",
+              "person_id": "WY-KOSIBA-SCOTT",
+              "party": "",
+              "term_end": "May 2030",
+              "href": "candidates/local-history/c/scott-kosiba.html",
+              "notes": "Official Town of Pinedale 2026 municipal election results page: council Dean Loftus 65, Scott Kosiba 51. Term end May 31, 2030 follows the official four-year council term used on the official council page for the same 2026 election (medium on the end date; the live official council HTML did not print the name Kosiba)."
+            }
+          ],
+          "note": "Official Town of Pinedale council page and official 2026 municipal results (Dean Loftus 65, Scott Kosiba 51)."
+        },
+        {
+          "office": "Marbleton Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jim Robinson",
+              "person_id": "WY-ROBINSON-JIM",
+              "party": "",
+              "term_end": "May 2029",
+              "href": "candidates/local-history/c/jim-robinson.html",
+              "notes": "Official Town of Marbleton council page: Jim Robinson, Mayor, term expires 2029. Official page does not state the month or day; May 31 and a June 1 start are used for consistency with official Pinedale four-year May terms (medium)."
+            }
+          ],
+          "note": "Official Town of Marbleton council page: Mayor Jim Robinson, term expires 2029. Official page states the year only (medium on May 31)."
+        },
+        {
+          "office": "Marbleton Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jeff McCormick",
+              "person_id": "WY-MCCORMICK-JEFF",
+              "party": "",
+              "term_end": "May 2027",
+              "href": "candidates/local-history/c/jeff-mccormick.html",
+              "notes": "Official Town of Marbleton council page: Jeff McCormick, Council Member, term expires 2027. Month/day not stated on the official page (medium)."
+            },
+            {
+              "name": "Roger McMannis",
+              "person_id": "WY-MCMANNIS-ROGER",
+              "party": "",
+              "term_end": "May 2027",
+              "href": "candidates/local-history/c/roger-mcmannis.html",
+              "notes": "Official Town of Marbleton council page: Roger McMannis, Council Member, term expires 2027. Month/day not stated on the official page (medium)."
+            },
+            {
+              "name": "BJ Meador",
+              "person_id": "WY-MEADOR-BJ",
+              "party": "",
+              "term_end": "May 2029",
+              "href": "candidates/local-history/c/bj-meador.html",
+              "notes": "Official Town of Marbleton council page: BJ Meador, Council Member, term expires 2029. Month/day not stated on the official page (medium)."
+            },
+            {
+              "name": "Karen Wenz",
+              "person_id": "WY-WENZ-KAREN",
+              "party": "",
+              "term_end": "May 2029",
+              "href": "candidates/local-history/c/karen-wenz.html",
+              "notes": "Official Town of Marbleton council page: Karen Wenz, Council Member, term expires 2029. Month/day not stated on the official page (medium)."
+            }
+          ],
+          "note": "Official Town of Marbleton council page: Jeff McCormick and Roger McMannis, terms expire 2027; BJ Meador and Karen Wenz, terms expire 2029. Official page states the year only (medium on May 31)."
+        },
+        {
+          "office": "Big Piney Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ]
+        },
+        {
+          "office": "Big Piney Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "label": "School boards",
+      "offices": [
+        {
+          "office": "Sublette County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Chris Nelson",
+              "person_id": "WY-NELSON-CHRIS",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/chris-nelson.html",
+              "notes": "Official 2026 Sublette clerk, School Distr. #1 At Large Vote-For-4: Chris Nelson 929 (reelected)."
+            },
+            {
+              "name": "Jessie McGinnis",
+              "person_id": "WY-MCGINNIS-JESSIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jessie-mcginnis.html",
+              "notes": "Official 2026 Sublette clerk, School Distr. #1 At Large Vote-For-4: Jessie McGinnis 784 (reelected)."
+            },
+            {
+              "name": "Jamison Ziegler",
+              "person_id": "WY-ZIEGLER-JAMISON",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/jamison-ziegler.html",
+              "notes": "Official 2022 Sublette clerk, School District #1 Trustees Vote-For-4: Jamison Ziegler 1,473.",
+              "succeeding": {
+                "name": "Tara Bolgiano",
+                "person_id": "WY-BOLGIANO-TARA",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Charles E. Prior",
+              "person_id": "WY-PRIOR-CHARLES-E",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/charles-e-prior.html",
+              "notes": "Official 2022 Sublette clerk, School District #1 Trustees Vote-For-4: Charles E. Prior 1,320.",
+              "succeeding": {
+                "name": "Micki Sluyter",
+                "person_id": "WY-SLUYTER-MICKI",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Angie Murphy",
+              "person_id": "WY-MURPHY-ANGIE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/angie-murphy.html",
+              "notes": "Official 2024 Sublette clerk, School District #1 Trustees At Large Vote-For-3: Angie Murphy 2,222, Clayton Olson 2,168, Chauncey Goodrich 1,924."
+            },
+            {
+              "name": "Clayton Olson",
+              "person_id": "WY-OLSON-CLAYTON",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/clayton-olson.html",
+              "notes": "Official 2024 Sublette clerk, School District #1 Trustees At Large Vote-For-3: Angie Murphy 2,222, Clayton Olson 2,168, Chauncey Goodrich 1,924."
+            },
+            {
+              "name": "Chauncey Goodrich",
+              "person_id": "WY-GOODRICH-CHAUNCEY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/chauncey-goodrich.html",
+              "notes": "Official 2024 Sublette clerk, School District #1 Trustees At Large Vote-For-3: Angie Murphy 2,222, Clayton Olson 2,168, Chauncey Goodrich 1,924."
+            }
+          ],
+          "note": "Official 2024 Sublette clerk Vote-For-3 and official 2026 Vote-For-4 (7-member board)."
+        },
+        {
+          "office": "Sublette County School District #9 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Alan Vickrey",
+              "person_id": "WY-VICKREY-ALAN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/alan-vickrey.html",
+              "notes": "Official 2026 Sublette clerk, School Distr. #9 At Large Vote-For-2: Alan Vickrey 463, Jessica Josette Polk 390, John Chekan 319. Official 2026 Lincoln clerk sliver: Vickrey 181, Polk 99 (no official Lincoln Chekan line). Combined: Vickrey 644, Polk 489, Chekan 319. Official Lincoln sliver is combined into the official whole-district result; ranking is unchanged."
+            },
+            {
+              "name": "John Chekan",
+              "person_id": "WY-CHEKAN-JOHN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/john-chekan.html",
+              "notes": "Official 2022 Sublette clerk, School District #9 Trustees Vote-For-2: Alan Vickrey 667, John Chekan 501. Combined with official Lincoln sliver: Vickrey 886, Chekan 589. Official Lincoln sliver is combined into the official whole-district result; ranking is unchanged.",
+              "succeeding": {
+                "name": "Jessica Josette Polk",
+                "person_id": "WY-POLK-JESSICA-JOSETTE",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Cody W. Raza",
+              "person_id": "WY-RAZA-CODY-W",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/cody-w-raza.html",
+              "notes": "Official 2024 Sublette clerk, School District #9 Trustees At Large Vote-For-3: Cody W Raza 831, Hayden Ott 625, Jeremy Banks 496. Official 2024 Lincoln clerk sliver: Raza 202, Banks 162, Ott 120. Combined whole-district: Raza 1,033, Ott 745, Banks 658. Official Lincoln sliver is combined into the official whole-district result; ranking is unchanged."
+            },
+            {
+              "name": "Hayden Ott",
+              "person_id": "WY-OTT-HAYDEN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/hayden-ott.html",
+              "notes": "Official 2024 combined Sublette+Lincoln CSD #9: Cody W. Raza 1,033, Hayden Ott 745, Jeremy Banks 658. Official Lincoln sliver is combined into the official whole-district result; ranking is unchanged."
+            },
+            {
+              "name": "Jeremy Banks",
+              "person_id": "WY-BANKS-JEREMY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jeremy-banks.html",
+              "notes": "Official 2024 combined Sublette+Lincoln CSD #9: Cody W. Raza 1,033, Hayden Ott 745, Jeremy Banks 658. Official Lincoln sliver is combined into the official whole-district result; ranking is unchanged."
+            }
+          ],
+          "note": "Official Sublette totals are combined with official Lincoln slivers into official whole-district results. Official 2024 combined: Cody W. Raza 1,033, Hayden Ott 745, Jeremy Banks 658. Official 2026 4-year combined: Alan Vickrey 644, Jessica Josette Polk 489 (ranking unchanged)."
+        },
+        {
+          "office": "Sublette County School District #9 Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brock Forrest McLain",
+              "person_id": "WY-MCLAIN-BROCK-FORREST",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/brock-forrest-mclain.html",
+              "notes": "Official 2026 Sublette clerk, School Distr. #9 At Large 2YR: Brock Forrest McLain 455, Taylor Moceika 191. Official 2026 Lincoln clerk sliver: Moceika 128, McLain 92 (Lincoln portion alone had Moceika ahead). Combined whole-district: McLain 547, Moceika 319, ranking unchanged. The official 2-year seat is not tied to a named departing 2024 trustee. Takes office January 2027."
+            }
+          ],
+          "note": "Official 2026 2-year combined official Sublette and official Lincoln totals: Brock Forrest McLain 547, Taylor Moceika 319. The official Lincoln portion alone had Moceika ahead (128–92); the whole-district ranking is unchanged."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "label": "Special districts",
+      "offices": [
+        {
+          "office": "Upper Green River Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Holly S. Thayne",
+              "person_id": "WY-THAYNE-HOLLY-S",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/holly-s-thayne.html",
+              "notes": "Official 2026 Sublette clerk, Trustee, Upper Green River Cemetery District Vote-For-3: Holly S Thayne 1,586, Zachary M Noble 1,556, Sally Penton 1,530 (Carmen Hittle 1,196 fourth)."
+            },
+            {
+              "name": "Carmen Hittle",
+              "person_id": "WY-HITTLE-CARMEN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/carmen-hittle.html",
+              "notes": "Official 2022 Sublette clerk, Upper Green River Cemetery District Trustees Vote-For-3: Holly S. Thayne 1,983, Carmen Hittle 1,834, Mary Ellen Schooley 1,745.",
+              "succeeding": {
+                "name": "Sally Penton",
+                "person_id": "WY-PENTON-SALLY",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Mary Ellen Schooley",
+              "person_id": "WY-SCHOOLEY-MARY-ELLEN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/mary-ellen-schooley.html",
+              "notes": "Official 2022 Sublette clerk, Upper Green River Cemetery District Trustees Vote-For-3: Holly S. Thayne 1,983, Carmen Hittle 1,834, Mary Ellen Schooley 1,745.",
+              "succeeding": {
+                "name": "Zachary M. Noble",
+                "person_id": "WY-NOBLE-ZACHARY-M",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Sharron Ziegler",
+              "person_id": "WY-ZIEGLER-SHARRON",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/sharron-ziegler.html",
+              "notes": "Official 2024 Sublette clerk, Upper Green River Cemetery District Trustees Vote-For-3: Sharron Ziegler 2,404, Dwight Dibben 2,327, Janet K Goulette 2,290."
+            },
+            {
+              "name": "Dwight Dibben",
+              "person_id": "WY-DIBBEN-DWIGHT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/dwight-dibben.html",
+              "notes": "Official 2024 Sublette clerk, Upper Green River Cemetery District Trustees Vote-For-3: Sharron Ziegler 2,404, Dwight Dibben 2,327, Janet K Goulette 2,290."
+            },
+            {
+              "name": "Janet K. Goulette",
+              "person_id": "WY-GOULETTE-JANET-K",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/janet-k-goulette.html",
+              "notes": "Official 2024 Sublette clerk, Upper Green River Cemetery District Trustees Vote-For-3: Sharron Ziegler 2,404, Dwight Dibben 2,327, Janet K Goulette 2,290."
+            }
+          ]
+        },
+        {
+          "office": "Upper Green River Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cindy Van",
+              "person_id": "WY-VAN-CINDY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/cindy-van.html",
+              "notes": "Official 2024 Sublette clerk, Upper Green River Cemetery District Trustees Vote-For-1 (2-year): Cindy Van 2,860. No official 2026 2-year contest was on the official November general."
+            }
+          ]
+        },
+        {
+          "office": "Big Piney Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Margaret Kozeal",
+              "person_id": "WY-KOZEAL-MARGARET",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/margaret-kozeal.html",
+              "notes": "Official 2026 Sublette clerk, Big Piney Cemetery Vote-For-3: Jeannie Lockwood 604, Terrie A Springman 594, Margaret Kozeal 567 (reelected)."
+            },
+            {
+              "name": "Spencer Nichols",
+              "person_id": "WY-NICHOLS-SPENCER",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/spencer-nichols.html",
+              "notes": "Official 2022 Sublette clerk, Big Piney Cemetery District Trustees Vote-For-3: Margaret Kozeal 653, Spencer Nichols 646, Frank Morrison 579.",
+              "succeeding": {
+                "name": "Terrie A. Springman",
+                "person_id": "WY-SPRINGMAN-TERRIE-A",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Frank Morrison",
+              "person_id": "WY-MORRISON-FRANK",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/frank-morrison.html",
+              "notes": "Official 2022 Sublette clerk, Big Piney Cemetery District Trustees Vote-For-3: Margaret Kozeal 653, Spencer Nichols 646, Frank Morrison 579.",
+              "succeeding": {
+                "name": "Jeannie Lockwood",
+                "person_id": "WY-LOCKWOOD-JEANNIE",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Bob Wilson",
+              "person_id": "WY-WILSON-BOB",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/bob-wilson.html",
+              "notes": "Official 2024 Sublette clerk, Big Piney Cemetery District Trustees Vote-For-3: Bob Wilson 809, Valerie W. Williams 776, Linda Leonard 733."
+            },
+            {
+              "name": "Valerie W. Williams",
+              "person_id": "WY-WILLIAMS-VALERIE-W",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/valerie-w-williams.html",
+              "notes": "Official 2024 Sublette clerk, Big Piney Cemetery District Trustees Vote-For-3: Bob Wilson 809, Valerie W. Williams 776, Linda Leonard 733."
+            },
+            {
+              "name": "Linda Leonard",
+              "person_id": "WY-LEONARD-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/linda-leonard.html",
+              "notes": "Official 2024 Sublette clerk, Big Piney Cemetery District Trustees Vote-For-3: Bob Wilson 809, Valerie W. Williams 776, Linda Leonard 733."
+            }
+          ]
+        },
+        {
+          "office": "Sublette County Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kenda Tanner",
+              "person_id": "WY-TANNER-KENDA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kenda-tanner.html",
+              "notes": "Official 2026 Sublette clerk, Trustee, Sublette County Hospital District Vote-For-3: Kenda Tanner 2,438, Tom Noble 2,362, Kelly Telfer 2,000."
+            },
+            {
+              "name": "David J. Bell",
+              "person_id": "WY-BELL-DAVID-J",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/david-j-bell.html",
+              "notes": "Official 2022 Sublette clerk, Hospital District Trustees Vote-For-3: Kenda Tanner 2,537, David J. Bell 2,455, Ashli Tatro 2,295.",
+              "succeeding": {
+                "name": "Tom Noble",
+                "person_id": "WY-NOBLE-TOM",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Ashli Tatro",
+              "person_id": "WY-TATRO-ASHLI",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/ashli-tatro.html",
+              "notes": "Official 2022 Sublette clerk, Hospital District Trustees Vote-For-3: Kenda Tanner 2,537, David J. Bell 2,455, Ashli Tatro 2,295.",
+              "succeeding": {
+                "name": "Kelly Telfer",
+                "person_id": "WY-TELFER-KELLY",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Tonia Hoffman",
+              "person_id": "WY-HOFFMAN-TONIA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/tonia-hoffman.html",
+              "notes": "Official 2024 Sublette clerk, Sublette County Hospital District Trustees Vote-For-2: Tonia Hoffman 3,218, Jamison Ziegler 2,912."
+            },
+            {
+              "name": "Jamison Ziegler",
+              "person_id": "WY-ZIEGLER-JAMISON",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jamison-ziegler.html",
+              "notes": "Official 2024 Sublette clerk, Hospital District Trustees Vote-For-2: Tonia Hoffman 3,218, Jamison Ziegler 2,912."
+            }
+          ]
+        },
+        {
+          "office": "Conservation District Supervisor At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "David Pape",
+              "person_id": "WY-PAPE-DAVID",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/david-pape.html",
+              "notes": "Official 2024 Sublette clerk, Conservation District Supervisor At Large Vote-For-1: David Pape 4,053."
+            }
+          ]
+        },
+        {
+          "office": "Conservation District Supervisor Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Meghann Smith",
+              "person_id": "WY-SMITH-MEGHANN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/meghann-smith.html",
+              "notes": "Official 2024 Sublette clerk, Conservation District Supervisors Rural Vote-For-2: Meghann Smith 3,253, Milford Lockwood 3,176."
+            },
+            {
+              "name": "Milford Lockwood",
+              "person_id": "WY-LOCKWOOD-MILFORD",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/milford-lockwood.html",
+              "notes": "Official 2024 Sublette clerk, Conservation District Supervisors Rural Vote-For-2: Meghann Smith 3,253, Milford Lockwood 3,176."
+            }
+          ]
+        },
+        {
+          "office": "Conservation District Supervisor Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jean Stetson",
+              "person_id": "WY-STETSON-JEAN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jean-stetson.html",
+              "notes": "Official 2026 Sublette clerk, Supervisor, Soil Conservation Dist. Urban Vote-For-1: Jean Stetson 2,843. No official named Urban supervisor is encoded as current through January 2027 because official 2022 headings were unlabeled. Takes office January 2027."
+            }
+          ],
+          "note": "Official 2026 elect Jean Stetson takes office January 2027. Official 2022 soil-conservation headings were unlabeled, so no official named Urban supervisor is encoded as current through January 2027."
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "label": "Judicial",
+      "offices": [
+        {
+          "office": "District Judge, 9th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jason M. Conder",
+              "person_id": "WY-CONDER-JASON-M",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jason-m-conder.html",
+              "notes": "Official 2026 Sublette clerk: JUDGE JASON M. CONDER YES 2,318, NO 638. Official Fremont 9th JD district page: Jason M. Conder, retained, continuing January 2027–2031."
+            },
+            {
+              "name": "Melissa M. Owens",
+              "person_id": "WY-OWENS-MELISSA-M",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/melissa-m-owens.html",
+              "notes": "Official Wyoming Judicial Branch Teton 9th JD district page: appointed January 2022 (day unstated; term_start 2022-01-01, medium on the day), retained November 2024. Official 2024 Sublette clerk: DISTRICT COURT JUDGE NINTH JUDICIAL DISTRICT MELISSA M. OWENS YES 3,300, NO 755."
+            },
+            {
+              "name": "Katharine G. McKay",
+              "person_id": "WY-MCKAY-KATHARINE-G",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/katharine-g-mckay.html",
+              "notes": "Official Wyoming Judicial Branch Sublette 9th JD district page: Honorable Kate G. McKay, appointed January 2023 (day unstated; term_start 2023-01-01, medium on the day), retained November 2024. Official 2024 Sublette clerk prints KATHERINE G. MCKAY YES 3,315, NO 709; display name follows the official court/SOS spelling Katharine G. McKay already used in the Teton history (person ID WY-MCKAY-KATHARINE-G)."
+            }
+          ],
+          "note": "Official Wyoming Judicial Branch 9th JD district pages; official 2010 SOS retention of Norman E. Young (same term dates as the Teton history)."
+        },
+        {
+          "office": "Circuit Judge, 9th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Erin E. Weisman",
+              "person_id": "WY-WEISMAN-ERIN-E",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/erin-e-weisman.html",
+              "notes": "Official 2026 Sublette clerk: CIRCUIT COURT JUDGE WEISMAN YES 2,275, NO 648. Full name Erin E. Weisman is from the official court page and official Teton clerk."
+            },
+            {
+              "name": "Jefferson Boone Coombs",
+              "person_id": "WY-COOMBS-JEFFERSON-BOONE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jefferson-boone-coombs.html",
+              "notes": "Official 2026 Sublette clerk: CIRCUIT COURT JUDGE COOMBS YES 2,268, NO 612. Full name Jefferson Boone Coombs is from the official court page and official Teton clerk."
+            },
+            {
+              "name": "Daniel M. Stebner",
+              "person_id": "WY-STEBNER-DANIEL-M",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/daniel-m-stebner.html",
+              "notes": "Official Wyoming Judicial Branch Riverton circuit page: appointed February 2023 (day unstated; term_start 2023-02-01, medium on the day). Official 2024 Sublette clerk: CIRCUIT COURT JUDGE NINTH JUDICIAL DISTRICT DANIEL M. STEBNER YES 3,348, NO 617."
+            },
+            {
+              "name": "John LaBuda",
+              "person_id": "WY-LABUDA-JOHN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/john-labuda.html",
+              "notes": "Official Wyoming Judicial Branch Pinedale circuit page: appointed January 2023 (day unstated; term_start 2023-01-01, medium on the day). Official 2024 Sublette clerk: CIRCUIT COURT JUDGE NINTH JUDICIAL DISTRICT JOHN LABUDA YES 3,489, NO 724. Display name John LaBuda follows the official court page already used in the Teton history (person ID WY-LABUDA-JOHN)."
+            }
+          ],
+          "note": "Official 2022 SOS names Wesley A. Roberts among 9th JD circuit retentions. Official 2022 Sublette clerk prints two unnamed “FOR JUDGE OF THE CIRCUIT COURT OF THE NINTH JUDICIAL DISTRICT FOR A REGULAR FOUR (4) YEAR TERM” contests (YES 2,590 / NO 490 and YES 2,483 / NO 527) and does not print the judges’ names; those official Sublette totals are not assigned to a named judge. Official Wyoming Judicial Branch Jackson circuit page: term ended August 2024 (day unstated; term_end 2024-08-01, medium on the day)."
         }
       ]
     },
@@ -1017,6 +1468,8 @@
   "sources": {
     "general_results": "https://www.sublettecountywy.gov/DocumentCenter/View/8211/Official-2026-General-Election-Results",
     "primary_results": "https://www.sublettecountywy.gov/DocumentCenter/View/8060/Official-Results-2026-Primary-Election",
-    "checked": "2026-11-19"
+    "clerk_archive": "https://www.sublettecountywy.gov/110/Election-Information",
+    "checked": "2026-11-24",
+    "local_archive": "/workspace/wyoleg/local-results/sublette/SOURCES.md"
   }
 }

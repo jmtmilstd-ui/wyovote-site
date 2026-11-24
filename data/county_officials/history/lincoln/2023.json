@@ -1,0 +1,1902 @@
+{
+  "county": "Lincoln",
+  "county_number": 12,
+  "snapshot_year": 2023,
+  "as_of": "2023-01-08",
+  "as_of_label": "January 2023 (as of 2023-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2023 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 14 (S14)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Fred A. Baldwin",
+              "person_id": "WY-BALDWIN-FRED-A",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2020 statewide Senate candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_Senate_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2020 Lincoln general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_Lincoln_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide Senate summary totals: Fred A. Baldwin 7,779. Official 2020 Lincoln portion: Baldwin 1,709.",
+              "href": "candidates/local-history/c/fred-a-baldwin.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 16 (S16)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Dockstader",
+              "person_id": "WY-DOCKSTADER-DAN",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2020 statewide Senate candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_Senate_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2020 Lincoln general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_Lincoln_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide Senate summary totals: Dan Dockstader 9,231. Official 2020 Lincoln portion: Dockstader 7,565.",
+              "href": "candidates/local-history/c/dan-dockstader.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 18 (H18)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott Heiner",
+              "person_id": "WY-HEINER-SCOTT",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary totals: Scott Heiner 2,689, Dennis B. Laughlin 590. Official 2022 Lincoln clerk portion: Heiner 1,405, Laughlin 208.",
+              "href": "candidates/local-history/c/scott-heiner.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 20 (H20)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Albert Sommers",
+              "person_id": "WY-SOMMERS-ALBERT",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary totals: Albert Sommers 3,273. Official 2022 Lincoln clerk portion: Sommers 139 (Sublette 3,134). Official 2014–2020 statewide House summaries show a dash for Lincoln in H20; this seat appears on official Lincoln ballots beginning in 2022.",
+              "href": "candidates/local-history/c/albert-sommers.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 21 (H21)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lane Allred",
+              "person_id": "WY-ALLRED-LANE",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House / official 2022 Lincoln clerk: Lane Allred 3,066.",
+              "href": "candidates/local-history/c/lane-allred.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 22 (H22)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Andrew Byron",
+              "person_id": "WY-BYRON-ANDREW",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2022 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary totals: Andrew Byron 2,235, Bob Strobel 1,681. Official 2022 Lincoln clerk portion: Byron 1,362, Strobel 743.",
+              "href": "candidates/local-history/c/andrew-byron.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kent Connelly",
+              "person_id": "WY-CONNELLY-KENT",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kent-connelly.html"
+            },
+            {
+              "name": "Teri Bowers",
+              "person_id": "WY-BOWERS-TERI",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Kent Connelly 5,041, Teri Bowers 5,039. The 2020 Vote-For-1 class was not found in official sources in this archive, so January 2023–2024 is short one of three commissioner seats.",
+              "href": "candidates/local-history/c/teri-bowers.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "April Brunski",
+              "person_id": "WY-BRUNSKI-APRIL",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/april-brunski.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jerry L. Greenfield",
+              "person_id": "WY-GREENFIELD-JERRY-L",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jerry-l-greenfield.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Debbie Larson",
+              "person_id": "WY-LARSON-DEBBIE",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/debbie-larson.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shane Johnson",
+              "person_id": "WY-JOHNSON-M-SHANE",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/m-shane-johnson.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Spencer Allred",
+              "person_id": "WY-ALLRED-SPENCER-L",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/spencer-l-allred.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kenneth D. Roberts",
+              "person_id": "WY-ROBERTS-KENNETH-D",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kenneth-d-roberts.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dain Schwab",
+              "person_id": "WY-SCHWAB-DAIN",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dain-schwab.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Diamondville Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Clint M. Bowen",
+              "person_id": "WY-BOWEN-CLINT-M",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Clint M. Bowen 135, Charles \"Mark\" Langley 86.",
+              "href": "candidates/local-history/c/clint-m-bowen.html"
+            }
+          ]
+        },
+        {
+          "office": "Opal Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Anthony J. Ritzdorf",
+              "person_id": "WY-RITZDORF-ANTHONY-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Anthony J. Ritzdorf 20, Donald Clayton 16.",
+              "href": "candidates/local-history/c/anthony-j-ritzdorf.html"
+            }
+          ]
+        },
+        {
+          "office": "LaBarge Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Larry Stepp",
+              "person_id": "WY-STEPP-LARRY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Larry Stepp 110.",
+              "href": "candidates/local-history/c/larry-stepp.html"
+            }
+          ]
+        },
+        {
+          "office": "Afton Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jeffrey Jensen",
+              "person_id": "WY-JENSEN-JEFFREY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Jeffrey Jensen 621.",
+              "href": "candidates/local-history/c/jeffrey-jensen.html"
+            }
+          ]
+        },
+        {
+          "office": "Alpine Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Eric Green",
+              "person_id": "WY-GREEN-ERIC",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Eric Green 230, W. Kennis Lutz 162.",
+              "href": "candidates/local-history/c/eric-green.html"
+            }
+          ]
+        },
+        {
+          "office": "Thayne Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Devin Simpson",
+              "person_id": "WY-SIMPSON-DEVIN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Devin Simpson 78.",
+              "href": "candidates/local-history/c/devin-simpson.html"
+            }
+          ]
+        },
+        {
+          "office": "Cokeville Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Stanley Thompson Jr.",
+              "person_id": "WY-THOMPSON-STANLEY-JR",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Stanley Thompson Jr. 113, Alek Gilmore 97. Official 2022, 2024, and 2026 clerks all have a Cokeville mayor contest, so these terms are encoded as two-year terms.",
+              "href": "candidates/local-history/c/stanley-thompson-jr.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Ranch Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kathleen Buyers",
+              "person_id": "WY-BUYERS-KATHLEEN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Kathleen Buyers 404, Don Baillie 387.",
+              "href": "candidates/local-history/c/kathleen-buyers.html"
+            }
+          ]
+        },
+        {
+          "office": "Kemmerer Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Marlin Batista",
+              "person_id": "WY-BATISTA-MARLIN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-3: Marlin Batista 710, Robert Bowen 594, Mark Quinn 553.",
+              "href": "candidates/local-history/c/marlin-batista.html"
+            },
+            {
+              "name": "Robert Bowen",
+              "person_id": "WY-BOWEN-ROBERT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk. Robert Bowen later is the official 2024 Kemmerer mayor.",
+              "href": "candidates/local-history/c/robert-bowen.html"
+            },
+            {
+              "name": "Mark Quinn",
+              "person_id": "WY-QUINN-MARK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mark-quinn.html"
+            }
+          ]
+        },
+        {
+          "office": "Diamondville Council (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Eric Backman",
+              "person_id": "WY-BACKMAN-ERIC",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Eric Backman 156, Sherrol Sloan 141.",
+              "href": "candidates/local-history/c/eric-backman.html"
+            },
+            {
+              "name": "Sherrol Sloan",
+              "person_id": "WY-SLOAN-SHERROL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sherrol-sloan.html"
+            }
+          ]
+        },
+        {
+          "office": "Opal Council (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michale Beehler",
+              "person_id": "WY-BEEHLER-MICHALE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Maxine R. Ritzdorf 19, Michale Beehler 18. Official spelling Michale.",
+              "href": "candidates/local-history/c/michale-beehler.html"
+            },
+            {
+              "name": "Maxine R. Ritzdorf",
+              "person_id": "WY-RITZDORF-MAXINE-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/maxine-r-ritzdorf.html"
+            }
+          ]
+        },
+        {
+          "office": "Opal Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mary O. Hall",
+              "person_id": "WY-HALL-MARY-O",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Mary O. Hall 22, Stephen Palano 14.",
+              "href": "candidates/local-history/c/mary-o-hall.html"
+            }
+          ]
+        },
+        {
+          "office": "LaBarge Council (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ralph Hinson",
+              "person_id": "WY-HINSON-RALPH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Ralph Hinson 79, Scott Howard 68.",
+              "href": "candidates/local-history/c/ralph-hinson.html"
+            },
+            {
+              "name": "Scott Howard",
+              "person_id": "WY-HOWARD-SCOTT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/scott-howard.html"
+            }
+          ]
+        },
+        {
+          "office": "Afton Council (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dirk Hillyard",
+              "person_id": "WY-HILLYARD-DIRK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Dirk Hillyard 519, William Wilkes 280.",
+              "href": "candidates/local-history/c/dirk-hillyard.html"
+            },
+            {
+              "name": "William Wilkes",
+              "person_id": "WY-WILKES-WILLIAM",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/william-wilkes.html"
+            }
+          ]
+        },
+        {
+          "office": "Afton Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Michael F. Butler",
+              "person_id": "WY-BUTLER-MICHAEL-F",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Michael F. Butler 360, Lynn Hunt 249.",
+              "href": "candidates/local-history/c/michael-f-butler.html"
+            }
+          ]
+        },
+        {
+          "office": "Alpine Council (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Emily Castillo",
+              "person_id": "WY-CASTILLO-EMILY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Emily Castillo 242, Jeremy Larsen 207.",
+              "href": "candidates/local-history/c/emily-castillo.html"
+            },
+            {
+              "name": "Jeremy Larsen",
+              "person_id": "WY-LARSEN-JEREMY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jeremy-larsen.html"
+            }
+          ]
+        },
+        {
+          "office": "Thayne Council (4-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joe Heward",
+              "person_id": "WY-HEWARD-JOE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2 lists Joe Heward 86 as the only named candidate. The second seat is not filled from a named or certified winner on that official general.",
+              "href": "candidates/local-history/c/joe-heward.html"
+            }
+          ]
+        },
+        {
+          "office": "Cokeville Council (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Theresa Lewis",
+              "person_id": "WY-LEWIS-THERESA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Theresa Lewis 103, Wayne Harmon 95.",
+              "href": "candidates/local-history/c/theresa-lewis.html"
+            },
+            {
+              "name": "Wayne Harmon",
+              "person_id": "WY-HARMON-WAYNE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/wayne-harmon.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Ranch Council (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kirsten Merrill",
+              "person_id": "WY-MERRILL-KIRSTEN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Kirsten Merrill 494, Ruzena Rok 468.",
+              "href": "candidates/local-history/c/kirsten-merrill.html"
+            },
+            {
+              "name": "Ruzena Rok",
+              "person_id": "WY-ROK-RUZENA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ruzena-rok.html"
+            }
+          ]
+        },
+        {
+          "office": "Kemmerer Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "LCSD #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Robert J. Peternal",
+              "person_id": "WY-PETERNAL-ROBERT-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robert-j-peternal.html"
+            },
+            {
+              "name": "Aarika Walker",
+              "person_id": "WY-WALKER-AARIKA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Robert J. Peternal 709, Aarika Walker 610.",
+              "href": "candidates/local-history/c/aarika-walker.html"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Trustee At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Connie W. Day",
+              "person_id": "WY-DAY-CONNIE-W",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Connie W. Day 2,163.",
+              "href": "candidates/local-history/c/connie-w-day.html"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Trustee Area 2",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lynn Call",
+              "person_id": "WY-CALL-LYNN-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Lynn Call 2,674, Brenda Robinson 2,042.",
+              "href": "candidates/local-history/c/lynn-a-call.html"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Trustee Area 5",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "David Jenkins",
+              "person_id": "WY-JENKINS-DAVID",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: David Jenkins 4,609.",
+              "href": "candidates/local-history/c/david-jenkins.html"
+            }
+          ]
+        },
+        {
+          "office": "Sublette CSD #9 Trustee (Lincoln portion)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Alan Vickrey",
+              "person_id": "WY-VICKREY-ALAN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Alan Vickrey 219, John Chekan 88. Official Lincoln clerk totals are the Lincoln County portion of Sublette County School District #9. District-wide school totals were not used.",
+              "href": "candidates/local-history/c/alan-vickrey.html"
+            },
+            {
+              "name": "John Chekan",
+              "person_id": "WY-CHEKAN-JOHN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Lincoln clerk totals are the Lincoln County portion of Sublette County School District #9. District-wide school totals were not used.",
+              "href": "candidates/local-history/c/john-chekan.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "South Lincoln Hospital Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "William W. Ball",
+              "person_id": "WY-BALL-WILLIAM-W",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-3: William W. Ball 1,202, Chuck Young 1,044, Michael E. Nelson 1,012.",
+              "href": "candidates/local-history/c/william-w-ball.html"
+            },
+            {
+              "name": "Chuck Young",
+              "person_id": "WY-YOUNG-CHUCK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/chuck-young.html"
+            },
+            {
+              "name": "Michael E. Nelson",
+              "person_id": "WY-NELSON-MICHAEL-E",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michael-e-nelson.html"
+            }
+          ]
+        },
+        {
+          "office": "North Lincoln Hospital Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Marlowe A. Scherbel",
+              "person_id": "WY-SCHERBEL-MARLOWE-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-4: Marlowe A. Scherbel 3,190, Mindy Lyman 3,178, Cole Helm 3,004. The official general lists 543 write-in votes with no certified named fourth winner, so the fourth seat is not filled here.",
+              "href": "candidates/local-history/c/marlowe-a-scherbel.html"
+            },
+            {
+              "name": "Mindy Lyman",
+              "person_id": "WY-LYMAN-MINDY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mindy-lyman.html"
+            },
+            {
+              "name": "Cole Helm",
+              "person_id": "WY-HELM-COLE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cole-helm.html"
+            }
+          ]
+        },
+        {
+          "office": "Cokeville Hospital Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kenneth Petersen",
+              "person_id": "WY-PETERSEN-KENNETH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Kenny Petersen 286, Zane Groll 279.",
+              "href": "candidates/local-history/c/kenneth-petersen.html"
+            },
+            {
+              "name": "Zane T. Groll",
+              "person_id": "WY-GROLL-ZANE-T",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/zane-t-groll.html"
+            }
+          ]
+        },
+        {
+          "office": "Lincoln Conservation District Rural Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Erick Esterholdt",
+              "person_id": "WY-ESTERHOLDT-ERICK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Erick Esterholdt 1,550.",
+              "href": "candidates/local-history/c/erick-esterholdt.html"
+            }
+          ]
+        },
+        {
+          "office": "Lincoln Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Paula Bowling",
+              "person_id": "WY-BOWLING-PAULA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Paula Bowling 1,598.",
+              "href": "candidates/local-history/c/paula-bowling.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shane R. Crook",
+              "person_id": "WY-CROOK-SHANE-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Shane R. Crook 4,407.",
+              "href": "candidates/local-history/c/shane-ronald-crook.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Conservation District Rural Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cole Helm",
+              "person_id": "WY-HELM-COLE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Cole Helm 4,344.",
+              "href": "candidates/local-history/c/cole-helm.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jeff L. Johnson",
+              "person_id": "WY-JOHNSON-JEFF-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Jeff L. Johnson 4,249.",
+              "href": "candidates/local-history/c/jeff-l-johnson.html"
+            }
+          ]
+        },
+        {
+          "office": "South Lincoln Cemetery Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Julie Failoni Welsh",
+              "person_id": "WY-WELSH-JULIE-FAILONI",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Julie Failoni Welsh 1,357.",
+              "href": "candidates/local-history/c/julie-failoni-welsh.html"
+            }
+          ]
+        },
+        {
+          "office": "South Lincoln Cemetery Director (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Allan Harwood",
+              "person_id": "WY-HARWOOD-ALLAN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Allan Harwood 1,192, Bill Thek 1,091.",
+              "href": "candidates/local-history/c/allan-harwood.html"
+            },
+            {
+              "name": "Bill Thek",
+              "person_id": "WY-THEK-BILL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bill-thek.html"
+            }
+          ]
+        },
+        {
+          "office": "Cokeville Cemetery Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kalbie Harmon",
+              "person_id": "WY-HARMON-KALBIE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Kalbie Harmon 302.",
+              "href": "candidates/local-history/c/kalbie-harmon.html"
+            }
+          ]
+        },
+        {
+          "office": "Cokeville Cemetery Director (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael Thompson",
+              "person_id": "WY-THOMPSON-MICHAEL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-3: Michael Thompson 283, Janet Dayton 278. No certified named third winner on the official general.",
+              "href": "candidates/local-history/c/michael-thompson.html"
+            },
+            {
+              "name": "Janet Dayton",
+              "person_id": "WY-DAYTON-JANET",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/janet-dayton.html"
+            }
+          ]
+        },
+        {
+          "office": "Upper Valley Fire Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ryan J. Erickson",
+              "person_id": "WY-ERICKSON-RYAN-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Lynn Veigel 1,099, Ryan J. Erickson 1,079.",
+              "href": "candidates/local-history/c/ryan-j-erickson.html"
+            },
+            {
+              "name": "Lynn Veigel",
+              "person_id": "WY-VEIGEL-LYNN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/lynn-veigel.html"
+            }
+          ]
+        },
+        {
+          "office": "Mid-Valley Fire Director (4-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lance Skinner",
+              "person_id": "WY-SKINNER-LANCE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Lance Skinner 940, Marti Halverson 776.",
+              "href": "candidates/local-history/c/lance-skinner.html"
+            },
+            {
+              "name": "Marti Halverson",
+              "person_id": "WY-HALVERSON-MARTI",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/marti-halverson.html"
+            }
+          ]
+        },
+        {
+          "office": "Mid-Valley Fire Director",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kevin Voyles",
+              "person_id": "WY-VOYLES-KEVIN",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk: Kevin Voyles 992.",
+              "href": "candidates/local-history/c/kevin-voyles.html"
+            }
+          ]
+        },
+        {
+          "office": "Bear River Fire Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kevin D. Walker",
+              "person_id": "WY-WALKER-KEVIN-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-2: Kevin D. Walker 274, Douglas A. Prows 270.",
+              "href": "candidates/local-history/c/kevin-d-walker.html"
+            },
+            {
+              "name": "Douglas A. Prows",
+              "person_id": "WY-PROWS-DOUGLAS-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/douglas-a-prows.html"
+            }
+          ]
+        },
+        {
+          "office": "Kemmerer Senior Citizens District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Christy Killian",
+              "person_id": "WY-KILLIAN-CHRISTY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk Vote-For-3: Christy Killian 1,079, Denise Sargent 1,033. No certified named third winner on the official general.",
+              "href": "candidates/local-history/c/christy-killian.html"
+            },
+            {
+              "name": "Denise Sargent",
+              "person_id": "WY-SARGENT-DENISE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/denise-sargent.html"
+            }
+          ]
+        }
+      ],
+      "note": "Municipal, school, and special-district names for 2022–2026 are keyed from official Lincoln clerk November general results in this archive (official 2024 general is an official scan; names and totals were read from that official PDF). Official 2010–2020 Lincoln clerk general summaries are not posted on the current official clerk election-results page, and official SOS Lincoln precinct-by-precinct summaries for those years do not include county, municipal, or school offices, so those earlier January local rows are Not yet collected rather than invented. Mayors of Afton, Alpine, Thayne, Star Valley Ranch, Diamondville, Opal, LaBarge, Cokeville, and Kemmerer appear on official November clerk ballots and are not council-selected. Kemmerer mayor is on the official 2024 clerk (four-year presidential cycle). Cokeville mayor appears on official 2022, 2024, and 2026 clerks and is encoded as two-year terms. Official 2026 certified write-ins (Lincoln County Canvassing Board, November 5, 2026) name additional local winners and are archived. House District 20 appears on official Lincoln ballots beginning in 2022. Official mid-term vacancies are not invented.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "James C. Kaste",
+              "person_id": "WY-KASTE-JAMES-C",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 3rd Judicial District, Uinta County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-3rd-judicial-district-uinta-county/"
+                },
+                {
+                  "label": "Lincoln County official 2024 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2024/2024%20GENERAL%20ELECTION/summary%202024%20general.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2024 Lincoln general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/General/2024_Lincoln_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch Uinta 3rd JD district page: Honorable James C. Kaste, appointed October 2022 (day unstated; term_start 2022-10-01, medium), retained November 2024, term expires January 2031. Official 2024 Lincoln clerk last-name DIST CT - KASTE filled from that court page and official SOS.",
+              "href": "candidates/local-history/c/james-c-kaste.html"
+            },
+            {
+              "name": "Suzannah G. Robinson",
+              "person_id": "WY-ROBINSON-SUZANNAH-G",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 3rd Judicial District, Sweetwater County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-3rd-judicial-district-sweetwater-county/"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2020 Lincoln general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_Lincoln_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch Sweetwater 3rd JD district page: Honorable Suzannah G. Robinson, appointed October 2019 (day unstated; term_start 2019-10-01, medium), retained November 2020, term expires January 2027, stands November 2026.",
+              "href": "candidates/local-history/c/suzannah-g-robinson.html"
+            },
+            {
+              "name": "Joseph B. Bluemel",
+              "person_id": "WY-BLUEMEL-JOSEPH-B",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 3rd Judicial District, Lincoln County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-3rd-judicial-district-lincoln-county/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk DIST CT - BLUEMEL, YES, filled as Joseph B. Bluemel from the official Lincoln 3rd JD district page and official SOS. Term expires January 2029.",
+              "href": "candidates/local-history/c/joseph-b-bluemel.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Craig L. Jones",
+              "person_id": "WY-JONES-CRAIG-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2022 Lincoln general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_Lincoln_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk CIRCUIT CT - JONES, YES, filled as Craig L. Jones from official 2014/2018 SOS and later official clerk lines.",
+              "href": "candidates/local-history/c/craig-l-jones.html"
+            },
+            {
+              "name": "John R. Prokos",
+              "person_id": "WY-PROKOS-JOHN-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Lincoln County official 2022 general election summary",
+                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/PREVIOUS%20ELECTION%20OFFICIAL%20RESULTS/2022%20OFFICIAL%20GENERAL%20ELECTION%20SUMMARY.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk CIRCUIT CT - PROKOS, YES.",
+              "href": "candidates/local-history/c/john-r-prokos.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 3rd Judicial District judges (Lincoln, Sweetwater, and Uinta). Where an official Lincoln clerk summary prints only a last name (official 2022 DIST CT - BLUEMEL / CIRCUIT CT - JONES / PROKOS; official 2024 DIST CT - KASTE / CIRCUIT CT - GREER / CORPENING; official 2026 JUDGE C DIST CT JUDGE ROBINSON / JUDGE PROKOS), the full name is taken from an official SOS line or official Wyoming Judicial Branch 3rd JD page, and that source is cited. Judges of other districts are not copied here.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. Official Lincoln primary PDFs are archived under /workspace/wyoleg/local-results/lincoln/<year>/. The current (November 2026) precinct roster is in data/county_officials/lincoln.json, from the official 2026 primary (named winners only; 13 precincts / 51 holders).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/lincoln/terms.json",
+  "retrieved": "2026-11-24"
+}

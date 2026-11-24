@@ -1,0 +1,1258 @@
+{
+  "county": "Johnson",
+  "county_number": 16,
+  "snapshot_year": 2023,
+  "as_of": "2023-01-08",
+  "as_of_label": "January 2023 (as of 2023-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2023 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 22 (S22)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dave Kinskey",
+              "person_id": "WY-KINSKEY-DAVE",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2020 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide Senate summary, Senate District 22 (left column beside Senate District 24; that district's Total is not used): Dave Kinskey (R) Total 8,516. Official Johnson share 4,226; official Sheridan 4,290.",
+              "href": "candidates/local-history/c/dave-kinskey.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 40 (H40)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Barry Crago",
+              "person_id": "WY-CRAGO-BARRY",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 40: Barry Crago (R) Total 4,007. Official Johnson share 3,416; official Sheridan 591.",
+              "href": "candidates/local-history/c/barry-crago.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bill Novotny III",
+              "person_id": "WY-NOVOTNY-BILL-III",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, County Commissioners (vote for 2): Bill Novotny 2,550, Jeff Shelley 3,024.",
+              "href": "candidates/local-history/c/bill-novotny-iii.html"
+            },
+            {
+              "name": "Jeff Shelley",
+              "person_id": "WY-SHELLEY-JEFF",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, County Commissioners (vote for 2): Jeff Shelley 3,024, Bill Novotny 2,550. Official commissioners page, retrieved 2026-11-24, lists Jeff Shelley as Vice Chair.",
+              "href": "candidates/local-history/c/jeff-shelley.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kate Harriet",
+              "person_id": "WY-HARRIET-KATE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, County Clerk: Kate Harriet 3,494. Official 2024 general then names Jackie Camino as clerk; the official 2024 summary does not label that race as an unexpired term.",
+              "href": "candidates/local-history/c/kate-harriet.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Carla Bishop",
+              "person_id": "WY-BISHOP-CARLA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, County Treasurer: Carla Bishop 3,451. Official treasurer page, retrieved 2026-11-24, still names Carla Bishop.",
+              "href": "candidates/local-history/c/carla-bishop.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Steve Esponda",
+              "person_id": "WY-ESPONDA-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, County Assessor: Stephen Esponda 3,456. Official assessor page, retrieved 2026-11-24, names Steve Esponda.",
+              "href": "candidates/local-history/c/steve-esponda.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Rod Odenbach",
+              "person_id": "WY-ODENBACH-ROD",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, County Sheriff: Rod Odenbach 3,309. Official sheriff page, retrieved 2026-11-24, still names Sheriff Rod Odenbach.",
+              "href": "candidates/local-history/c/rod-odenbach.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tucker Ruby",
+              "person_id": "WY-RUBY-TUCKER",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, County Attorney: Tucker J Ruby 3,432. Official attorney page, retrieved 2026-11-24, names Tucker Ruby.",
+              "href": "candidates/local-history/c/tucker-ruby.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Paige Rhoads",
+              "person_id": "WY-RHOADS-PAIGE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Clerk of District Court: Paige Rhoads 3,594. Official CDC page, retrieved 2026-11-24, names Paige Rhoads.",
+              "href": "candidates/local-history/c/paige-rhoads.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shawn Sullivan",
+              "person_id": "WY-SULLIVAN-SHAWN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, County Coroner: Shawn M Sullivan 3,479. Official coroner page, retrieved 2026-11-24, names Shawn Sullivan.",
+              "href": "candidates/local-history/c/shawn-sullivan.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "City of Buffalo Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shane J. Schrader",
+              "person_id": "WY-SCHRADER-SHANE-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Mayor: Shane J Schrader 1,097. Official city Mayor's Office page, retrieved 2026-11-24, names Shane J. Schrader.",
+              "href": "candidates/local-history/c/shane-j-schrader.html"
+            }
+          ]
+        },
+        {
+          "office": "City of Buffalo Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Myra Camino",
+              "person_id": "WY-CAMINO-MYRA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, City Council Member (vote for 2): Myra Camino 1,135, Mike Madden 769.",
+              "href": "candidates/local-history/c/myra-camino.html"
+            },
+            {
+              "name": "Mike Madden",
+              "person_id": "WY-MADDEN-MIKE-COUNCIL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, City Council Member (vote for 2): Mike Madden 769, Myra Camino 1,135. Distinct from historical House District 40 member Michael Madden unless an official source identifies them as the same person.",
+              "href": "candidates/local-history/c/mike-madden-buffalo-council.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Town of Kaycee Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Town of Kaycee Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Johnson County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Marcia Goddard",
+              "person_id": "WY-GODDARD-MARCIA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, School Board Trustee at Large (vote for 4): Marcia Goddard 2,100. Distinct from any similarly named person unless an official source identifies them as the same.",
+              "href": "candidates/local-history/c/marcia-goddard.html"
+            },
+            {
+              "name": "Dave Belus",
+              "person_id": "WY-BELUS-DAVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, School Board Trustee at Large (vote for 4): Dave Belus 2,010. Distinct from any similarly named person unless an official source identifies them as the same.",
+              "href": "candidates/local-history/c/dave-belus.html"
+            },
+            {
+              "name": "Casey Rodriguez",
+              "person_id": "WY-RODRIGUEZ-CASEY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, School Board Trustee at Large (vote for 4): Casey Rodriguez 1,890. Distinct from any similarly named person unless an official source identifies them as the same.",
+              "href": "candidates/local-history/c/casey-rodriguez.html"
+            },
+            {
+              "name": "Travis D. Pearson",
+              "person_id": "WY-PEARSON-TRAVIS-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, School Board Trustee at Large (vote for 4): Travis D. Pearson 1,788. Distinct from any similarly named person unless an official source identifies them as the same.",
+              "href": "candidates/local-history/c/travis-d-pearson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Sheila Camino",
+              "person_id": "WY-CAMINO-SHEILA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Cemetery District Trustee (vote for 3): official ballot Elizabeth Graves 2,323 / Sheila Camino 2,505 / Luke Goddard 2,412. Display Liz Graves follows the official 2026 ballot for the same seat class.",
+              "href": "candidates/local-history/c/sheila-camino.html"
+            },
+            {
+              "name": "Luke Goddard",
+              "person_id": "WY-GODDARD-LUKE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Cemetery District Trustee (vote for 3): official ballot Elizabeth Graves 2,323 / Sheila Camino 2,505 / Luke Goddard 2,412. Display Liz Graves follows the official 2026 ballot for the same seat class.",
+              "href": "candidates/local-history/c/luke-goddard.html"
+            },
+            {
+              "name": "Liz Graves",
+              "person_id": "WY-GRAVES-ELIZABETH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Cemetery District Trustee (vote for 3): official ballot Elizabeth Graves 2,323 / Sheila Camino 2,505 / Luke Goddard 2,412. Display Liz Graves follows the official 2026 ballot for the same seat class.",
+              "href": "candidates/local-history/c/liz-graves.html"
+            },
+            {
+              "name": "Barbara Mueller",
+              "person_id": "WY-MUELLER-BARBARA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Cemetery District Trustee Unexpired: Barbara Mueller 3,123.",
+              "href": "candidates/local-history/c/barbara-mueller.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Clear Creek Conservation District Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ryan Fieldgrove",
+              "person_id": "WY-FIELDGROVE-RYAN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Clear Creek Conservation Dist Rural (vote for 2): Ryan Fieldgrove 2,739, Virginia Watt 2,433.",
+              "href": "candidates/local-history/c/ryan-fieldgrove.html"
+            },
+            {
+              "name": "Virginia Watt",
+              "person_id": "WY-WATT-VIRGINIA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Clear Creek Conservation Dist Rural (vote for 2): Virginia Watt 2,433, Ryan Fieldgrove 2,739.",
+              "href": "candidates/local-history/c/virginia-watt.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Clear Creek Conservation District At Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jay Foss",
+              "person_id": "WY-FOSS-JAY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Clear Creek Conservation Dist At Large: Jay Foss 2,822.",
+              "href": "candidates/local-history/c/jay-foss.html"
+            }
+          ]
+        },
+        {
+          "office": "Powder River Conservation District Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Thomas Harlan",
+              "person_id": "WY-HARLAN-THOMAS",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Powder River Conservation Dist Rural: Thomas H Harlan 375.",
+              "href": "candidates/local-history/c/thomas-harlan.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Powder River Conservation District At Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kevin Lund",
+              "person_id": "WY-LUND-KEVIN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Powder River Conservation Dist At Large: Kevin Lund 375.",
+              "href": "candidates/local-history/c/kevin-lund.html"
+            }
+          ]
+        },
+        {
+          "office": "Johnson County Fire District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Paul Kozisek",
+              "person_id": "WY-KOZISEK-PAUL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Johnson County Fire Dist 1 Trustee (vote for 2): Paul Kozisek 1,353, Amanda Hulet 1,154.",
+              "href": "candidates/local-history/c/paul-kozisek.html"
+            },
+            {
+              "name": "Amanda Hulet",
+              "person_id": "WY-HULET-AMANDA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Johnson County Fire Dist 1 Trustee (vote for 2): Amanda Hulet 1,154, Paul Kozisek 1,353.",
+              "href": "candidates/local-history/c/amanda-hulet.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Powder River Fire District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Matt Carr",
+              "person_id": "WY-CARR-MATT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Powder River Fire Dist Trustee (vote for 2): Matt Carr 335, Steve Haines 321.",
+              "href": "candidates/local-history/c/matt-carr.html"
+            },
+            {
+              "name": "Steve Haines",
+              "person_id": "WY-HAINES-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Powder River Fire Dist Trustee (vote for 2): Steve Haines 321, Matt Carr 335.",
+              "href": "candidates/local-history/c/steve-haines.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Alecia Kozisek",
+              "person_id": "WY-KOZISEK-ALECIA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Hospital Dist Trustee (vote for 3): official ballot Thomas A Holt 2,699 / Alecia Kozisek 2,907 / Rich Griffith 2,616.",
+              "href": "candidates/local-history/c/alecia-kozisek.html"
+            },
+            {
+              "name": "Thomas Holt",
+              "person_id": "WY-HOLT-THOMAS",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Hospital Dist Trustee (vote for 3): official ballot Thomas A Holt 2,699 / Alecia Kozisek 2,907 / Rich Griffith 2,616.",
+              "href": "candidates/local-history/c/thomas-holt.html"
+            },
+            {
+              "name": "Rich Griffith",
+              "person_id": "WY-GRIFFITH-RICH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Hospital Dist Trustee (vote for 3): official ballot Thomas A Holt 2,699 / Alecia Kozisek 2,907 / Rich Griffith 2,616.",
+              "href": "candidates/local-history/c/rich-griffith.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rural Health Care District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Britni Camino",
+              "person_id": "WY-CAMINO-BRITNI",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Rural Health Care Dist Trustee (vote for 3): Britni Camino 1,895.",
+              "href": "candidates/local-history/c/britni-camino.html"
+            },
+            {
+              "name": "Mark Schueler",
+              "person_id": "WY-SCHUELER-MARK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Rural Health Care Dist Trustee (vote for 3): Mark Schueler 1,892.",
+              "href": "candidates/local-history/c/mark-schueler.html"
+            },
+            {
+              "name": "Adam Michelena",
+              "person_id": "WY-MICHELENA-ADAM",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Rural Health Care Dist Trustee (vote for 3): Adam Michelena 1,856.",
+              "href": "candidates/local-history/c/adam-michelena.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Senior Citizen Service District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dan Gay",
+              "person_id": "WY-GAY-DAN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Senior Citizen Service Dist Trustee (vote for 3): Dan Gay 3,078, Margaret R Fraley 2,838, Mark Alan Wilson 2,557.",
+              "href": "candidates/local-history/c/dan-gay.html"
+            },
+            {
+              "name": "Margaret R. Fraley",
+              "person_id": "WY-FRALEY-MARGARET-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Senior Citizen Service Dist Trustee (vote for 3): Margaret R Fraley 2,838.",
+              "href": "candidates/local-history/c/margaret-r-fraley.html"
+            },
+            {
+              "name": "Mark A. Wilson",
+              "person_id": "WY-WILSON-MARK-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 general, Senior Citizen Service Dist Trustee (vote for 3): Mark Alan Wilson 2,557.",
+              "href": "candidates/local-history/c/mark-a-wilson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Clear Creek Conservation District Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Powder River Conservation District Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 4th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Edelman",
+              "person_id": "WY-EDELMAN",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official 4th Judicial District names and retention dating already used in the Sheridan history, plus official Johnson clerk named-retention totals where an official certified Johnson canvass is now in hand.",
+                  "url": ""
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official 2020 Sheridan general names this 4th JD retention as DIST CT - EDELMAN without a first name. Official Johnson 2020 YES/NO were not found in this preview.",
+              "href": "candidates/local-history/c/edelman.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 4th Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shelley A. Cundiff",
+              "person_id": "WY-CUNDIFF-SHELLEY-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Johnson County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS; footer Election Summary - 11/10/2022 11:46 AM; Precincts Complete 16 of 16). Official Election Archives file 2022-General-Election-Results.pdf.",
+                  "url": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Johnson general, FOURTH JUDICIAL DIST CIRCUIT COURT JUDGE CUNDIFF, YES 2,399 / NO 976. The official 2022 summary does not print a first name; Shelley A. Cundiff is the official name already used in the Sheridan history for this 2022 retention.",
+              "href": "candidates/local-history/c/shelley-a-cundiff.html",
+              "retention": {
+                "year": 2022,
+                "yes": 2399,
+                "no": 976,
+                "yes_pct": "71.08%",
+                "no_pct": "28.92%",
+                "result": "retained",
+                "source": "https://drive.google.com/file/d/1nRAtKeLfiHTfB-v0V6G2Rp2ffV61hE-p/view"
+              }
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 4th Judicial District judges (serving Johnson with Sheridan and other 4th JD counties). Full names follow official sources already used in the Sheridan history. Official Johnson named-retention YES/NO totals were not confirmed from a certified official Johnson clerk canvass in this preview.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/johnson/terms.json",
+  "retrieved": "2026-11-24"
+}

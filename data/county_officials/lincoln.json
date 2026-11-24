@@ -2,7 +2,7 @@
   "county": "Lincoln",
   "county_number": 12,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -15,49 +15,36 @@
         {
           "office": "Senate District 14 (S14)",
           "layout": "office-and-name",
-          "note": "Also covers Sweetwater, Sublette and Uinta.",
           "holders": [
             {
-              "name": "Laura Pearson",
-              "sources": [
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
-                }
-              ],
-              "party": "R"
+              "name": "Laura Taliaferro (formerly Pearson)",
+              "person_id": "WY-PEARSON-LAURA",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner. Also covers Sublette, Sweetwater, and Uinta. Official SOS district-wide totals are used for this multi-county seat.",
+              "href": "candidates/local-history/c/laura-taliaferro-formerly-pearson.html"
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary totals: Laura Taliaferro Pearson 8,025 (official ballot name). Official 2024 Lincoln clerk portion: 2,116. Also covers Sublette, Sweetwater, and Uinta. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "Senate District 16 (S16)",
           "layout": "office-and-name",
-          "note": "Also covers Teton.",
           "holders": [
             {
               "name": "Dan Dockstader",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1048"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/dockstader.html"
+              "person_id": "WY-DOCKSTADER-DAN",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner; not on the 2026 ballot. Also covers Teton County. Official SOS district-wide totals are used for this multi-county seat.",
+              "href": "candidates/local-history/c/dan-dockstader.html"
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary totals: Dan Dockstader 8,830. Official 2024 Lincoln clerk portion: Dockstader 7,355. Official 2024 Teton clerk portion: Dockstader 1,475. Also covers Teton County. Official SOS district-wide totals are used for this multi-county seat. Off-cycle in 2026."
         }
       ]
     },
@@ -67,145 +54,90 @@
       "offices": [
         {
           "office": "House District 18 (H18)",
-          "layout": "office-and-name",
-          "note": "Also covers Sweetwater and Uinta.",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Scott Heiner",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2074"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Kenneth D Roberts",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H18",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/heiner.html"
+              "person_id": "WY-HEINER-SCOTT",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/scott-heiner.html"
+            },
+            {
+              "name": "Kenneth D. Roberts",
+              "person_id": "WY-ROBERTS-KENNETH-D",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner. Official SOS district-wide totals: Roberts 2,691. Official 2026 Lincoln clerk portion: 1,412. Also covers Sweetwater and Uinta.",
+              "href": "candidates/local-history/c/kenneth-d-roberts.html"
             }
-          ]
+          ],
+          "note": "Kenneth D. Roberts is the official 2026 general winner and takes office January 2027. Official 2026 SOS statewide House summary totals: Kenneth D. Roberts 2,691. Official 2026 Lincoln clerk portion: Roberts 1,412. Official Sweetwater portion: 879. Official Uinta portion: 400. Also covers Sweetwater and Uinta. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "House District 20 (H20)",
-          "layout": "office-and-name",
-          "note": "Also covers Sublette.",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Mike Schmid",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2121"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Albert Sommers",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H20",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/schmid.html"
+              "person_id": "WY-SCHMID-MIKE",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mike-schmid.html"
+            },
+            {
+              "name": "Albert Sommers",
+              "person_id": "WY-SOMMERS-ALBERT",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner. Official SOS district-wide totals: Sommers 3,349. Official 2026 Lincoln clerk portion: 154. Also covers Sublette.",
+              "href": "candidates/local-history/c/albert-sommers.html"
             }
-          ]
+          ],
+          "note": "Albert Sommers is the official 2026 general winner and takes office January 2027. Official 2026 SOS statewide House summary totals: Albert Sommers 3,349 (official Lincoln clerk portion 154; official Sublette share 3,195). Official 2024 SOS statewide House summary totals: Mike Schmid 4,354 (official Lincoln clerk portion 279; official Sublette share 4,075). Also covers Sublette. Official SOS district-wide totals are used for this multi-county seat."
         },
         {
           "office": "House District 21 (H21)",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "McKay Erickson",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2122"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H21, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "ballot_name": "McKay L. Erickson",
-              "href": "officials/erickson.html"
+              "name": "McKay L. Erickson",
+              "person_id": "WY-ERICKSON-MCKAY-L",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/mckay-l-erickson.html"
             }
           ]
         },
         {
           "office": "House District 22 (H22)",
           "layout": "office-and-name",
-          "note": "Also covers Teton.",
           "holders": [
             {
               "name": "Andrew Byron",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2099"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_12_Lincoln_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H22, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/byron.html"
+              "person_id": "WY-BYRON-ANDREW",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027. Also covers Teton County. Official SOS district-wide totals are used for this multi-county seat.",
+              "href": "candidates/local-history/c/andrew-byron.html"
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary totals: Andrew Byron 3,055. Official 2026 Lincoln clerk portion: Byron 1,656. Official 2024 SOS statewide House summary totals: Andrew Byron 4,189. Official 2024 Lincoln clerk portion: Andrew P. Byron 2,435. Also covers Teton County. Official SOS district-wide totals are used for this multi-county seat."
         }
       ]
     },
@@ -214,83 +146,61 @@
       "title": "County Offices",
       "offices": [
         {
-          "office": "County Commissioners",
+          "office": "County Commissioner",
           "layout": "heading-then-names",
           "holders": [
             {
               "name": "Teri Bowers",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County commissioners page",
-                  "url": "https://www.lincolncountywy.gov/government/county_commissioners/index.php"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/lincoln.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Jake Long",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Lincoln County official general results, County Commissioner",
-                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-BOWERS-TERI",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/teri-bowers.html"
             },
             {
               "name": "Kent Connelly",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County commissioners page",
-                  "url": "https://www.lincolncountywy.gov/government/county_commissioners/index.php"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/lincoln.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Jesica Lozier",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Lincoln County official general results, County Commissioner",
-                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-CONNELLY-KENT",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kent-connelly.html"
             },
             {
               "name": "Mel Shumway",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County commissioners page",
-                  "url": "https://www.lincolncountywy.gov/government/county_commissioners/index.php"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/lincoln.html"
-                }
-              ]
+              "person_id": "WY-SHUMWAY-MEL",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mel-shumway.html"
+            },
+            {
+              "name": "Jake Long",
+              "person_id": "WY-LONG-JAKE",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jake-long.html"
+            },
+            {
+              "name": "Jesica Lozier",
+              "person_id": "WY-LOZIER-JESICA",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jesica-lozier.html"
             }
           ],
-          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+          "note": "Jake Long and Jesica Lozier are official 2026 general winners and take office January 2027. Teri Bowers and Kent Connelly's official 2022 terms end January 2027. Mel Shumway continues."
         },
         {
           "office": "County Clerk",
@@ -298,93 +208,69 @@
           "holders": [
             {
               "name": "April Brunski",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County clerk page",
-                  "url": "https://www.lincolncountywy.gov/government/clerk/index.php"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/lincoln.html"
-                },
-                {
-                  "label": "Lincoln County official general results, re-elected",
-                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-BRUNSKI-APRIL",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/april-brunski.html"
             }
           ]
         },
         {
           "office": "County Treasurer",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
-              "name": "Jerry Greenfield",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County Treasurer page",
-                  "url": "https://www.lincolncountywy.gov/government/treasurer/index.php"
-                }
-              ],
-              "succeeding": {
-                "name": "Joey K. Antilla",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Lincoln County official general results, County Treasurer",
-                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "name": "Jerry L. Greenfield",
+              "person_id": "WY-GREENFIELD-JERRY-L",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jerry-l-greenfield.html"
+            },
+            {
+              "name": "Joey K. Antilla",
+              "person_id": "WY-ANTILLA-JOEY-K",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/joey-k-antilla.html"
             }
-          ]
+          ],
+          "note": "Joey K. Antilla is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "County Assessor",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Debbie Larson",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County assessor page",
-                  "url": "https://www.lincolncountywy.gov/government/assessor/index.php"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/lincoln.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Jason Rosas",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Lincoln County official general results, County Assessor",
-                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-LARSON-DEBBIE",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/debbie-larson.html"
+            },
+            {
+              "name": "Jason Rosas",
+              "person_id": "WY-ROSAS-JASON",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jason-rosas.html"
             }
-          ]
+          ],
+          "note": "Jason Rosas is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "County Sheriff",
@@ -392,22 +278,13 @@
           "holders": [
             {
               "name": "M. Shane Johnson",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County Sheriff page",
-                  "url": "https://www.lincolncountywy.gov/government/sheriff/index.php"
-                },
-                {
-                  "label": "Lincoln County official general results, elected",
-                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in the latest general, so the office does not change in January."
+              "person_id": "WY-JOHNSON-M-SHANE",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/m-shane-johnson.html"
             }
           ]
         },
@@ -416,64 +293,43 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Spencer Allred",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County attorney page",
-                  "url": "https://www.lincolncountywy.gov/government/attorney/index.php"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/lincoln.html"
-                },
-                {
-                  "label": "Lincoln County official general results, re-elected",
-                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "ballot_name": "Spencer L. Allred"
+              "name": "Spencer L. Allred",
+              "person_id": "WY-ALLRED-SPENCER-L",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/spencer-l-allred.html"
             }
           ]
         },
         {
           "office": "Clerk of District Court",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Kenneth D. Roberts",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County clerk of district court page",
-                  "url": "https://www.lincolncountywy.gov/government/district_court/index.php"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/lincoln.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Jenny Clarke",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Lincoln County official general results, Clerk of District Court",
-                    "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-ROBERTS-KENNETH-D",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kenneth-d-roberts.html"
+            },
+            {
+              "name": "Jenny Clarke",
+              "person_id": "WY-CLARKE-JENNY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 Lincoln clerk prints JENNY CLARKE.",
+              "href": "candidates/local-history/c/jenny-clarke.html"
             }
-          ]
+          ],
+          "note": "Jenny Clarke is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "County Coroner",
@@ -481,25 +337,2000 @@
           "holders": [
             {
               "name": "Dain Schwab",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Lincoln County coroner page",
-                  "url": "https://www.lincolncountywy.gov/government/coroner.php"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/lincoln.html"
-                },
-                {
-                  "label": "Lincoln County official general results, re-elected",
-                  "url": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-SCHWAB-DAIN",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/dain-schwab.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal Offices",
+      "offices": [
+        {
+          "office": "Kemmerer Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Robert Bowen",
+              "person_id": "WY-BOWEN-ROBERT",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 general winner. The Kemmerer mayor is elected on the official November ballot, not selected by the council.",
+              "href": "candidates/local-history/c/robert-bowen.html"
+            }
+          ]
+        },
+        {
+          "office": "Afton Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jeffrey Jensen",
+              "person_id": "WY-JENSEN-JEFFREY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/jeffrey-jensen.html"
+            }
+          ]
+        },
+        {
+          "office": "Alpine Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Eric Green",
+              "person_id": "WY-GREEN-ERIC",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/eric-green.html"
+            },
+            {
+              "name": "Jeremy Larsen",
+              "person_id": "WY-LARSEN-JEREMY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jeremy-larsen.html"
+            }
+          ],
+          "note": "Jeremy Larsen is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Thayne Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Devin Simpson",
+              "person_id": "WY-SIMPSON-DEVIN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/devin-simpson.html"
+            }
+          ]
+        },
+        {
+          "office": "Cokeville Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Colby Martin Peck",
+              "person_id": "WY-PECK-COLBY-MARTIN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027. Official 2022\u20132026 clerks all have a Cokeville mayor contest (two-year terms).",
+              "href": "candidates/local-history/c/colby-martin-peck.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Ranch Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kathleen Buyers",
+              "person_id": "WY-BUYERS-KATHLEEN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kathleen-buyers.html"
+            },
+            {
+              "name": "Ruzena Rok",
+              "person_id": "WY-ROK-RUZENA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/ruzena-rok.html"
+            }
+          ],
+          "note": "Ruzena Rok is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Diamondville Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Clint M. Bowen",
+              "person_id": "WY-BOWEN-CLINT-M",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/clint-m-bowen.html"
+            },
+            {
+              "name": "Eric Backman",
+              "person_id": "WY-BACKMAN-ERIC",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/eric-backman.html"
+            }
+          ],
+          "note": "Eric Backman is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Opal Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Anthony J. Ritzdorf",
+              "person_id": "WY-RITZDORF-ANTHONY-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/anthony-j-ritzdorf.html"
+            },
+            {
+              "name": "Mary O. Hall",
+              "person_id": "WY-HALL-MARY-O",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/mary-o-hall.html"
+            }
+          ],
+          "note": "Mary O. Hall is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "LaBarge Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Larry Stepp",
+              "person_id": "WY-STEPP-LARRY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/larry-stepp.html"
+            },
+            {
+              "name": "Ralph Hinson",
+              "person_id": "WY-HINSON-RALPH",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/ralph-hinson.html"
+            }
+          ],
+          "note": "Ralph Hinson is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Kemmerer Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Marlin Batista",
+              "person_id": "WY-BATISTA-MARLIN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/marlin-batista.html"
+            },
+            {
+              "name": "Robert Bowen",
+              "person_id": "WY-BOWEN-ROBERT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 council term ends January 2027. Also the official 2024 Kemmerer mayor.",
+              "href": "candidates/local-history/c/robert-bowen.html"
+            },
+            {
+              "name": "Mark Quinn",
+              "person_id": "WY-QUINN-MARK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mark-quinn.html"
+            },
+            {
+              "name": "Bill Price",
+              "person_id": "WY-PRICE-BILL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bill-price.html"
+            },
+            {
+              "name": "David McConkie",
+              "person_id": "WY-MCCONKIE-DAVID",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/david-mcconkie.html"
+            },
+            {
+              "name": "Brantley Popp",
+              "person_id": "WY-POPP-BRANTLEY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brantley-popp.html"
+            },
+            {
+              "name": "Barbara Peavler",
+              "person_id": "WY-PEAVLER-BARBARA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/barbara-peavler.html"
+            },
+            {
+              "name": "Ken Spears",
+              "person_id": "WY-SPEARS-KEN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/ken-spears.html"
+            },
+            {
+              "name": "Michael L. Archibald",
+              "person_id": "WY-ARCHIBALD-MICHAEL-L",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/michael-l-archibald.html"
+            }
+          ],
+          "note": "Barbara Peavler, Ken Spears, and Michael L. Archibald are official 2026 general winners and take office January 2027."
+        },
+        {
+          "office": "Diamondville Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Eric Backman",
+              "person_id": "WY-BACKMAN-ERIC",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/eric-backman.html"
+            },
+            {
+              "name": "Sherrol Sloan",
+              "person_id": "WY-SLOAN-SHERROL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sherrol-sloan.html"
+            },
+            {
+              "name": "Robert Sawaya",
+              "person_id": "WY-SAWAYA-ROBERT",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robert-sawaya.html"
+            },
+            {
+              "name": "Nicole Petersen",
+              "person_id": "WY-PETERSEN-NICOLE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/nicole-petersen.html"
+            },
+            {
+              "name": "Casey Clark",
+              "person_id": "WY-CLARK-CASEY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/casey-clark.html"
+            },
+            {
+              "name": "Robert Sawaya",
+              "person_id": "WY-SAWAYA-ROBERT",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 certified write-in (Lincoln County Canvassing Board, November 5, 2026).",
+              "href": "candidates/local-history/c/robert-sawaya.html"
+            },
+            {
+              "name": "Diane Housley",
+              "person_id": "WY-HOUSLEY-DIANE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner, two-year term.",
+              "href": "candidates/local-history/c/diane-housley.html"
+            }
+          ],
+          "note": "Casey Clark, official certified write-in Robert Sawaya, and Diane Housley take office January 2027."
+        },
+        {
+          "office": "Opal Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michale Beehler",
+              "person_id": "WY-BEEHLER-MICHALE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 term, continuing; official 2026 general winner, term begins January 2027. Official spelling Michale.",
+              "href": "candidates/local-history/c/michale-beehler.html"
+            },
+            {
+              "name": "Maxine R. Ritzdorf",
+              "person_id": "WY-RITZDORF-MAXINE-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/maxine-r-ritzdorf.html"
+            },
+            {
+              "name": "Stephen Palano",
+              "person_id": "WY-PALANO-STEPHEN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/stephen-palano.html"
+            },
+            {
+              "name": "Daniel Whiteford Sr.",
+              "person_id": "WY-WHITEFORD-DANIEL-SR",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/daniel-whiteford-sr.html"
+            },
+            {
+              "name": "Ellie Bienz",
+              "person_id": "WY-BIENZ-ELLIE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/ellie-bienz.html"
+            }
+          ]
+        },
+        {
+          "office": "LaBarge Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ralph Hinson",
+              "person_id": "WY-HINSON-RALPH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ralph-hinson.html"
+            },
+            {
+              "name": "Scott Howard",
+              "person_id": "WY-HOWARD-SCOTT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/scott-howard.html"
+            },
+            {
+              "name": "Rowdy L. Headrick",
+              "person_id": "WY-HEADRICK-ROWDY-L",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/rowdy-l-headrick.html"
+            },
+            {
+              "name": "Jake J. Vilos",
+              "person_id": "WY-VILOS-JAKE-J",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jake-j-vilos.html"
+            },
+            {
+              "name": "Jennifer Brandt",
+              "person_id": "WY-BRANDT-JENNIFER",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jennifer-brandt.html"
+            },
+            {
+              "name": "Rick Marquardt",
+              "person_id": "WY-MARQUARDT-RICK",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/rick-marquardt.html"
+            }
+          ]
+        },
+        {
+          "office": "Afton Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dirk Hillyard",
+              "person_id": "WY-HILLYARD-DIRK",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 four-year term ends January 2027; official 2026 two-year winner, term begins January 2027.",
+              "href": "candidates/local-history/c/dirk-hillyard.html"
+            },
+            {
+              "name": "William Wilkes",
+              "person_id": "WY-WILKES-WILLIAM",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/william-wilkes.html"
+            },
+            {
+              "name": "Michael F. Butler",
+              "person_id": "WY-BUTLER-MICHAEL-F",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michael-f-butler.html"
+            },
+            {
+              "name": "Scott E. Griffith",
+              "person_id": "WY-GRIFFITH-SCOTT-E",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/scott-e-griffith.html"
+            },
+            {
+              "name": "Brock Brown",
+              "person_id": "WY-BROWN-BROCK",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/brock-brown.html"
+            }
+          ]
+        },
+        {
+          "office": "Alpine Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Emily Castillo",
+              "person_id": "WY-CASTILLO-EMILY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/emily-castillo.html"
+            },
+            {
+              "name": "Jeremy Larsen",
+              "person_id": "WY-LARSEN-JEREMY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jeremy-larsen.html"
+            },
+            {
+              "name": "Shay Scaffide",
+              "person_id": "WY-SCAFFIDE-SHAY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/shay-scaffide.html"
+            },
+            {
+              "name": "Andrea Burchard",
+              "person_id": "WY-BURCHARD-ANDREA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/andrea-burchard.html"
+            },
+            {
+              "name": "Amy Wierda",
+              "person_id": "WY-WIERDA-AMY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/amy-wierda.html"
+            },
+            {
+              "name": "Ken Harris",
+              "person_id": "WY-HARRIS-KEN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/ken-harris.html"
+            }
+          ]
+        },
+        {
+          "office": "Thayne Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Joe Heward",
+              "person_id": "WY-HEWARD-JOE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/joe-heward.html"
+            },
+            {
+              "name": "Nikole Passey",
+              "person_id": "WY-PASSEY-NIKOLE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/nikole-passey.html"
+            },
+            {
+              "name": "Michael Allred",
+              "person_id": "WY-ALLRED-MICHAEL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michael-allred.html"
+            },
+            {
+              "name": "Tanner Passey",
+              "person_id": "WY-PASSEY-TANNER",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/tanner-passey.html"
+            },
+            {
+              "name": "Justin C. Visser",
+              "person_id": "WY-VISSER-JUSTIN-C",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/justin-c-visser.html"
+            },
+            {
+              "name": "Spencer Veigel",
+              "person_id": "WY-VEIGEL-SPENCER",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner, two-year term.",
+              "href": "candidates/local-history/c/spencer-veigel.html"
+            },
+            {
+              "name": "Malinda Jan DeNiz",
+              "person_id": "WY-DENIZ-MALINDA-JAN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 certified write-in, two-year unexpired (Lincoln County Canvassing Board, November 5, 2026).",
+              "href": "candidates/local-history/c/malinda-jan-deniz.html"
+            }
+          ]
+        },
+        {
+          "office": "Cokeville Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Theresa Lewis",
+              "person_id": "WY-LEWIS-THERESA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/theresa-lewis.html"
+            },
+            {
+              "name": "Wayne Harmon",
+              "person_id": "WY-HARMON-WAYNE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/wayne-harmon.html"
+            },
+            {
+              "name": "Brad Shane Nate",
+              "person_id": "WY-NATE-BRAD-SHANE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brad-shane-nate.html"
+            },
+            {
+              "name": "Charles Dayton",
+              "person_id": "WY-DAYTON-CHARLES",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/charles-dayton.html"
+            },
+            {
+              "name": "Susan Fiscus",
+              "person_id": "WY-FISCUS-SUSAN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/susan-fiscus.html"
+            },
+            {
+              "name": "Cameron John Bird",
+              "person_id": "WY-BIRD-CAMERON-JOHN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/cameron-john-bird.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Ranch Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kirsten Merrill",
+              "person_id": "WY-MERRILL-KIRSTEN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kirsten-merrill.html"
+            },
+            {
+              "name": "Ruzena Rok",
+              "person_id": "WY-ROK-RUZENA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ruzena-rok.html"
+            },
+            {
+              "name": "Katie Toolson",
+              "person_id": "WY-TOOLSON-KATIE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/katie-toolson.html"
+            },
+            {
+              "name": "Taylor Ellis",
+              "person_id": "WY-ELLIS-TAYLOR",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/taylor-ellis.html"
+            },
+            {
+              "name": "Dave Roberts",
+              "person_id": "WY-ROBERTS-DAVE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/dave-roberts.html"
+            },
+            {
+              "name": "Gordon T. Howe",
+              "person_id": "WY-HOWE-GORDON-T",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/gordon-t-howe.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School and College Boards",
+      "offices": [
+        {
+          "office": "LCSD #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Robert J. Peternal",
+              "person_id": "WY-PETERNAL-ROBERT-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robert-j-peternal.html"
+            },
+            {
+              "name": "Aarika Walker",
+              "person_id": "WY-WALKER-AARIKA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/aarika-walker.html"
+            },
+            {
+              "name": "Kristi Dearden",
+              "person_id": "WY-DEARDEN-KRISTI",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kristi-dearden.html"
+            },
+            {
+              "name": "Brad Grandy",
+              "person_id": "WY-GRANDY-BRAD",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brad-grandy.html"
+            },
+            {
+              "name": "Don Lamborn",
+              "person_id": "WY-LAMBORN-DON",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/don-lamborn.html"
+            },
+            {
+              "name": "Kimberly Guinta",
+              "person_id": "WY-GUINTA-KIMBERLY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/kimberly-guinta.html"
+            }
+          ],
+          "note": "Kimberly Guinta is an official 2026 general winner and takes office January 2027. Aarika Walker continues."
+        },
+        {
+          "office": "LCSD #2 Trustee At-Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Connie W. Day",
+              "person_id": "WY-DAY-CONNIE-W",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/connie-w-day.html"
+            },
+            {
+              "name": "Jake Long",
+              "person_id": "WY-LONG-JAKE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jake-long.html"
+            },
+            {
+              "name": "Lanny D. Draney",
+              "person_id": "WY-DRANEY-LANNY-D",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/lanny-d-draney.html"
+            }
+          ],
+          "note": "Lanny D. Draney is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "LCSD #2 Trustee Area 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kade W. Wilkes",
+              "person_id": "WY-WILKES-KADE-W",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kade-w-wilkes.html"
+            },
+            {
+              "name": "Spencer England",
+              "person_id": "WY-ENGLAND-SPENCER",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/spencer-england.html"
+            }
+          ],
+          "note": "Spencer England is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "LCSD #2 Trustee Area 2",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lynn A. Call",
+              "person_id": "WY-CALL-LYNN-A",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/lynn-a-call.html"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Trustee Area 3",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jed Johnson",
+              "person_id": "WY-JOHNSON-JED",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 Lincoln clerk (official scan): Jed Johnson 3,180.",
+              "href": "candidates/local-history/c/jed-johnson.html"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Trustee Area 4",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Darnell Simpson",
+              "person_id": "WY-SIMPSON-DARNELL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/darnell-simpson.html"
+            }
+          ]
+        },
+        {
+          "office": "LCSD #2 Trustee Area 5",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "David Jenkins",
+              "person_id": "WY-JENKINS-DAVID",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/david-jenkins.html"
+            },
+            {
+              "name": "Paige W. Adams",
+              "person_id": "WY-ADAMS-PAIGE-W",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/paige-w-adams.html"
+            }
+          ],
+          "note": "Paige W. Adams is the official 2026 general winner and takes office January 2027."
+        },
+        {
+          "office": "Sublette CSD #9 Trustee (Lincoln portion)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Alan Vickrey",
+              "person_id": "WY-VICKREY-ALAN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln-portion winner, continuing; official 2026 Lincoln-portion winner, term begins January 2027.",
+              "href": "candidates/local-history/c/alan-vickrey.html"
+            },
+            {
+              "name": "John Chekan",
+              "person_id": "WY-CHEKAN-JOHN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/john-chekan.html"
+            },
+            {
+              "name": "Cody W. Raza",
+              "person_id": "WY-RAZA-CODY-W",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cody-w-raza.html"
+            },
+            {
+              "name": "Jeremy Banks",
+              "person_id": "WY-BANKS-JEREMY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jeremy-banks.html"
+            },
+            {
+              "name": "Hayden Ott",
+              "person_id": "WY-OTT-HAYDEN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/hayden-ott.html"
+            },
+            {
+              "name": "Jessica Josette Polk",
+              "person_id": "WY-POLK-JESSICA-JOSETTE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 Lincoln clerk winner.",
+              "href": "candidates/local-history/c/jessica-josette-polk.html"
+            },
+            {
+              "name": "Taylor Moceika",
+              "person_id": "WY-MOCEIKA-TAYLOR",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 Lincoln clerk two-year winner.",
+              "href": "candidates/local-history/c/taylor-moceika.html"
+            }
+          ],
+          "note": "These totals are the official Lincoln County portion of Sublette County School District #9. District-wide school totals were not used."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special Districts",
+      "offices": [
+        {
+          "office": "South Lincoln Hospital Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "William W. Ball",
+              "person_id": "WY-BALL-WILLIAM-W",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/william-w-ball.html"
+            },
+            {
+              "name": "Chuck Young",
+              "person_id": "WY-YOUNG-CHUCK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/chuck-young.html"
+            },
+            {
+              "name": "Michael E. Nelson",
+              "person_id": "WY-NELSON-MICHAEL-E",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michael-e-nelson.html"
+            },
+            {
+              "name": "Michelle Pollard",
+              "person_id": "WY-POLLARD-MICHELLE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michelle-pollard.html"
+            },
+            {
+              "name": "Paula Bowling",
+              "person_id": "WY-BOWLING-PAULA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/paula-bowling.html"
+            },
+            {
+              "name": "Riley Jo Chambers",
+              "person_id": "WY-CHAMBERS-RILEY-JO",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/riley-jo-chambers.html"
+            },
+            {
+              "name": "Josh Wilbert",
+              "person_id": "WY-WILBERT-JOSH",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/josh-wilbert.html"
+            }
+          ]
+        },
+        {
+          "office": "North Lincoln Hospital Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Marlowe A. Scherbel",
+              "person_id": "WY-SCHERBEL-MARLOWE-A",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/marlowe-a-scherbel.html"
+            },
+            {
+              "name": "Mindy Lyman",
+              "person_id": "WY-LYMAN-MINDY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mindy-lyman.html"
+            },
+            {
+              "name": "Cole Helm",
+              "person_id": "WY-HELM-COLE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/cole-helm.html"
+            },
+            {
+              "name": "Clint Erickson",
+              "person_id": "WY-ERICKSON-CLINT",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/clint-erickson.html"
+            },
+            {
+              "name": "Jeff England",
+              "person_id": "WY-ENGLAND-JEFF",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jeff-england.html"
+            },
+            {
+              "name": "Shawn Merritt",
+              "person_id": "WY-MERRITT-SHAWN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/shawn-merritt.html"
+            },
+            {
+              "name": "Tim Hale",
+              "person_id": "WY-HALE-TIM",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/tim-hale.html"
+            },
+            {
+              "name": "Heath Hirschi",
+              "person_id": "WY-HIRSCHI-HEATH",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/heath-hirschi.html"
+            }
+          ]
+        },
+        {
+          "office": "Cokeville Hospital Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kenneth Petersen",
+              "person_id": "WY-PETERSEN-KENNETH",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/kenneth-petersen.html"
+            },
+            {
+              "name": "Zane T. Groll",
+              "person_id": "WY-GROLL-ZANE-T",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/zane-t-groll.html"
+            },
+            {
+              "name": "Lou Ann Carmichael",
+              "person_id": "WY-CARMICHAEL-LOU-ANN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/lou-ann-carmichael.html"
+            },
+            {
+              "name": "Julia Thomas",
+              "person_id": "WY-THOMAS-JULIA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/julia-thomas.html"
+            },
+            {
+              "name": "Randy S. Hunter",
+              "person_id": "WY-HUNTER-RANDY-S",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/randy-s-hunter.html"
+            }
+          ]
+        },
+        {
+          "office": "Lincoln Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Erick Esterholdt",
+              "person_id": "WY-ESTERHOLDT-ERICK",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/erick-esterholdt.html"
+            },
+            {
+              "name": "Robert J. Peternal",
+              "person_id": "WY-PETERNAL-ROBERT-J",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robert-j-peternal.html"
+            },
+            {
+              "name": "Stewart Landon Petersen",
+              "person_id": "WY-PETERSEN-STEWART-LANDON",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/stewart-landon-petersen.html"
+            }
+          ]
+        },
+        {
+          "office": "Lincoln Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Paula Bowling",
+              "person_id": "WY-BOWLING-PAULA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/paula-bowling.html"
+            }
+          ]
+        },
+        {
+          "office": "Lincoln Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Paul Clark",
+              "person_id": "WY-CLARK-PAUL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/paul-clark.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shane Ronald Crook",
+              "person_id": "WY-CROOK-SHANE-R",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/shane-ronald-crook.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Cole Helm",
+              "person_id": "WY-HELM-COLE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/cole-helm.html"
+            },
+            {
+              "name": "Rollin Gardner",
+              "person_id": "WY-GARDNER-ROLLIN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/rollin-gardner.html"
+            },
+            {
+              "name": "Daniel C. Erickson",
+              "person_id": "WY-ERICKSON-DANIEL-C",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/daniel-c-erickson.html"
+            }
+          ]
+        },
+        {
+          "office": "Star Valley Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jeff L. Johnson",
+              "person_id": "WY-JOHNSON-JEFF-L",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/jeff-l-johnson.html"
+            }
+          ]
+        },
+        {
+          "office": "South Lincoln Cemetery Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Allan Harwood",
+              "person_id": "WY-HARWOOD-ALLAN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/allan-harwood.html"
+            },
+            {
+              "name": "Bill Thek",
+              "person_id": "WY-THEK-BILL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bill-thek.html"
+            },
+            {
+              "name": "Wanda Newman",
+              "person_id": "WY-NEWMAN-WANDA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/wanda-newman.html"
+            },
+            {
+              "name": "Julie Failoni Welsh",
+              "person_id": "WY-WELSH-JULIE-FAILONI",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/julie-failoni-welsh.html"
+            },
+            {
+              "name": "Michelle Muir",
+              "person_id": "WY-MUIR-MICHELLE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michelle-muir.html"
+            }
+          ]
+        },
+        {
+          "office": "Cokeville Cemetery Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael Thompson",
+              "person_id": "WY-THOMPSON-MICHAEL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michael-thompson.html"
+            },
+            {
+              "name": "Janet Dayton",
+              "person_id": "WY-DAYTON-JANET",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/janet-dayton.html"
+            },
+            {
+              "name": "John Reed",
+              "person_id": "WY-REED-JOHN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/john-reed.html"
+            },
+            {
+              "name": "John Metcalfe",
+              "person_id": "WY-METCALFE-JOHN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/john-metcalfe.html"
+            },
+            {
+              "name": "Betty Thomspon",
+              "person_id": "WY-THOMSPON-BETTY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 certified write-in; official abstract spelling Thomspon.",
+              "href": "candidates/local-history/c/betty-thomspon.html"
+            },
+            {
+              "name": "Brian Toomer",
+              "person_id": "WY-TOOMER-BRIAN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/brian-toomer.html"
+            },
+            {
+              "name": "Scott Thomas",
+              "person_id": "WY-THOMAS-SCOTT",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 certified write-in.",
+              "href": "candidates/local-history/c/scott-thomas.html"
+            }
+          ]
+        },
+        {
+          "office": "South Lincoln Fire Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dennis J. Halpain",
+              "person_id": "WY-HALPAIN-DENNIS-J",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dennis-j-halpain.html"
+            },
+            {
+              "name": "Richard Hartman",
+              "person_id": "WY-HARTMAN-RICHARD",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/richard-hartman.html"
+            },
+            {
+              "name": "Virginia Hartman",
+              "person_id": "WY-HARTMAN-VIRGINIA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/virginia-hartman.html"
+            },
+            {
+              "name": "Corey Ashliman",
+              "person_id": "WY-ASHLIMAN-COREY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/corey-ashliman.html"
+            },
+            {
+              "name": "Jason L. Smith",
+              "person_id": "WY-SMITH-JASON-L",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jason-l-smith.html"
+            },
+            {
+              "name": "Fred Baldwin",
+              "person_id": "WY-BALDWIN-FRED",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 certified write-in.",
+              "href": "candidates/local-history/c/fred-baldwin.html"
+            }
+          ],
+          "note": "The official 2022 South Lincoln Fire Vote-For-2 contest was write-in only with no certified named winner on the official general, so that class is not filled."
+        },
+        {
+          "office": "Upper Valley Fire Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ryan J. Erickson",
+              "person_id": "WY-ERICKSON-RYAN-J",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/ryan-j-erickson.html"
+            },
+            {
+              "name": "Lynn Veigel",
+              "person_id": "WY-VEIGEL-LYNN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/lynn-veigel.html"
+            },
+            {
+              "name": "Dennis McDonald",
+              "person_id": "WY-MCDONALD-DENNIS",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dennis-mcdonald.html"
+            }
+          ]
+        },
+        {
+          "office": "Mid-Valley Fire Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lance Skinner",
+              "person_id": "WY-SKINNER-LANCE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/lance-skinner.html"
+            },
+            {
+              "name": "Marti Halverson",
+              "person_id": "WY-HALVERSON-MARTI",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/marti-halverson.html"
+            },
+            {
+              "name": "Kevin Voyles",
+              "person_id": "WY-VOYLES-KEVIN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kevin-voyles.html"
+            }
+          ]
+        },
+        {
+          "office": "Alpine Fire Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mark D. Cameron",
+              "person_id": "WY-CAMERON-MARK-D",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner, two-year term.",
+              "href": "candidates/local-history/c/mark-d-cameron.html"
+            },
+            {
+              "name": "John Jorgensen",
+              "person_id": "WY-JORGENSEN-JOHN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/john-jorgensen.html"
+            },
+            {
+              "name": "Bobbi Clauson",
+              "person_id": "WY-CLAUSON-BOBBI",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/bobbi-clauson.html"
+            }
+          ]
+        },
+        {
+          "office": "Bear River Fire Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kevin D. Walker",
+              "person_id": "WY-WALKER-KEVIN-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kevin-d-walker.html"
+            },
+            {
+              "name": "Douglas A. Prows",
+              "person_id": "WY-PROWS-DOUGLAS-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/douglas-a-prows.html"
+            },
+            {
+              "name": "Lyle Forrest",
+              "person_id": "WY-FORREST-LYLE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/lyle-forrest.html"
+            },
+            {
+              "name": "Kaydell Luthi",
+              "person_id": "WY-LUTHI-KAYDELL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 certified write-in, two-year unexpired.",
+              "href": "candidates/local-history/c/kaydell-luthi.html"
+            },
+            {
+              "name": "Craig Chadwick",
+              "person_id": "WY-CHADWICK-CRAIG",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/craig-chadwick.html"
+            },
+            {
+              "name": "Michael L. Duran",
+              "person_id": "WY-DURAN-MICHAEL-L",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/michael-l-duran.html"
+            }
+          ]
+        },
+        {
+          "office": "Kemmerer Senior Citizens District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Christy Killian",
+              "person_id": "WY-KILLIAN-CHRISTY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/christy-killian.html"
+            },
+            {
+              "name": "Denise Sargent",
+              "person_id": "WY-SARGENT-DENISE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/denise-sargent.html"
+            },
+            {
+              "name": "Terri Cartwright",
+              "person_id": "WY-CARTWRIGHT-TERRI",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/terri-cartwright.html"
+            },
+            {
+              "name": "Cindy H. Miller",
+              "person_id": "WY-MILLER-CINDY-H",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cindy-h-miller.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial Retention",
+      "offices": [
+        {
+          "office": "District Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Joseph B. Bluemel",
+              "person_id": "WY-BLUEMEL-JOSEPH-B",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch Lincoln 3rd JD district page: appointed January 2015, retained November 2022, term expires January 2029.",
+              "href": "candidates/local-history/c/joseph-b-bluemel.html"
+            },
+            {
+              "name": "James C. Kaste",
+              "person_id": "WY-KASTE-JAMES-C",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch Uinta 3rd JD district page: appointed October 2022, retained November 2024, term expires January 2031. Official 2024 clerk DIST CT - KASTE.",
+              "href": "candidates/local-history/c/james-c-kaste.html"
+            },
+            {
+              "name": "Suzannah G. Robinson",
+              "person_id": "WY-ROBINSON-SUZANNAH-G",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch Sweetwater 3rd JD district page: appointed October 2019; official 2026 Lincoln clerk JUDGE C DIST CT JUDGE ROBINSON, YES, continuing January 2027\u20132031.",
+              "href": "candidates/local-history/c/suzannah-g-robinson.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Craig L. Jones",
+              "person_id": "WY-JONES-CRAIG-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 Lincoln clerk CIRCUIT CT - JONES, YES, filled as Craig L. Jones from official SOS.",
+              "href": "candidates/local-history/c/craig-l-jones.html"
+            },
+            {
+              "name": "John R. Prokos",
+              "person_id": "WY-PROKOS-JOHN-R",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 term; official 2026 Lincoln clerk RETAIN CIRCUIT COURT JUDGE PROKOS, YES, continuing January 2027\u20132031.",
+              "href": "candidates/local-history/c/john-r-prokos.html"
+            },
+            {
+              "name": "Michael L. Greer",
+              "person_id": "WY-GREER-MICHAEL-L",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 Lincoln clerk CIRCUIT CT - GREER, YES, filled as Michael L. Greer.",
+              "href": "candidates/local-history/c/michael-l-greer.html"
+            },
+            {
+              "name": "Gregory S. Corpening",
+              "person_id": "WY-CORPENING-GREGORY-S",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 Lincoln clerk CIRCUIT CT - CORPENING, YES, filled as Gregory S. Corpening.",
+              "href": "candidates/local-history/c/gregory-s-corpening.html"
             }
           ]
         }
@@ -1446,6 +3277,6 @@
   "sources": {
     "general_results": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/OFFICIAL%20SUMMARY%202026%20GEN.pdf",
     "primary_results": "https://www.lincolncountywy.gov/Documents/Government/Clerk/Election%20And%20Voting%20Information/Election%20Results%20And%20Upcoming%20Elections/2026/Primary/OFFICIAL%20SUMMARY%202026%20PRIMARY.pdf",
-    "checked": "2026-11-19"
+    "checked": "2026-11-24"
   }
 }

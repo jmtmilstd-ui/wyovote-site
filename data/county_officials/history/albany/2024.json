@@ -1,0 +1,1266 @@
+{
+  "county": "Albany",
+  "county_number": 5,
+  "snapshot_year": 2024,
+  "as_of": "2024-01-08",
+  "as_of_label": "January 2024 (as of 2024-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2024 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 9 (S09)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chris Rothfuss",
+              "person_id": "WY-ROTHFUSS-CHRIS",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/chris-rothfuss.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 10 (S10)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Furphy",
+              "person_id": "WY-FURPHY-DAN",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 general ballot: Daniel Furphy.",
+              "href": "candidates/local-history/c/dan-furphy.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 13 (H13)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ken Chestek",
+              "person_id": "WY-CHESTEK-KEN",
+              "party": "DEM",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ken-chestek.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 14 (H14)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Trey Sherwood",
+              "person_id": "WY-SHERWOOD-TREY",
+              "party": "DEM",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/trey-sherwood.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 45 (H45)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Karlee Provenza",
+              "person_id": "WY-PROVENZA-KARLEE",
+              "party": "DEM",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/karlee-provenza.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 46 (H46)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ocean Andrew",
+              "person_id": "WY-ANDREW-OCEAN",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ocean-andrew.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Sue Ibarra",
+              "person_id": "WY-IBARRA-SUE",
+              "party": "DEM",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sue-ibarra.html"
+            },
+            {
+              "name": "Pete Gosar",
+              "person_id": "WY-GOSAR-PETE",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/pete-gosar.html"
+            },
+            {
+              "name": "Terri Jones",
+              "person_id": "WY-JONES-TERRI",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/terri-jones.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kayla White",
+              "person_id": "WY-WHITE-KAYLA",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kayla-white.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tracy Fletcher",
+              "person_id": "WY-FLETCHER-TRACY",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tracy-fletcher.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chelsie Mathews",
+              "person_id": "WY-MATHEWS-CHELSIE",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/chelsie-mathews.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Aaron Appelhans",
+              "person_id": "WY-APPELHANS-AARON",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/aaron-appelhans.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Edward Kurt Britzius",
+              "person_id": "WY-BRITZIUS-EDWARD",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/edward-kurt-britzius.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Stacy Lam",
+              "person_id": "WY-LAM-STACY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/stacy-lam.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Sally King",
+              "person_id": "WY-KING-SALLY",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sally-king.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Laramie Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brian Harrington",
+              "person_id": "WY-HARRINGTON-BRIAN",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "City of Laramie official January 3, 2023 regular council meeting minutes",
+                  "url": "https://cityoflaramie.org/AgendaCenter/ViewFile/ArchivedMinutes/_01032023-4973"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Selected by the Laramie City Council from its members. Official January 3, 2023 minutes and Resolution 2023-01: Council Member Brian Harrington, Mayor for 2023-2024.",
+              "href": "candidates/local-history/c/brian-harrington.html"
+            }
+          ]
+        },
+        {
+          "office": "Laramie City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brian Harrington",
+              "person_id": "WY-HARRINGTON-BRIAN",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brian-harrington.html"
+            },
+            {
+              "name": "Andrea \"Andi\" Summerville",
+              "person_id": "WY-SUMMERVILLE-ANDREA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/andrea-summerville.html"
+            },
+            {
+              "name": "Micah Richardson",
+              "person_id": "WY-RICHARDSON-MICAH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/micah-richardson.html"
+            }
+          ]
+        },
+        {
+          "office": "Laramie City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jayne Pearce",
+              "person_id": "WY-PEARCE-JAYNE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jayne-pearce.html"
+            },
+            {
+              "name": "Sharon Cumbie",
+              "person_id": "WY-CUMBIE-SHARON",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sharon-cumbie.html"
+            },
+            {
+              "name": "Brandon Newman",
+              "person_id": "WY-NEWMAN-BRANDON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brandon-newman.html"
+            }
+          ]
+        },
+        {
+          "office": "Laramie City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Pat Gabriel",
+              "person_id": "WY-GABRIEL-PAT",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/pat-gabriel.html"
+            },
+            {
+              "name": "Erin O'Doherty",
+              "person_id": "WY-ODOHERTY-ERIN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/erin-o-doherty.html"
+            },
+            {
+              "name": "Joe Shumway",
+              "person_id": "WY-SHUMWAY-JOE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/joe-shumway.html"
+            }
+          ]
+        },
+        {
+          "office": "Rock River Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rock River Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "ACSD #1 Trustee Area A",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mark Bittner",
+              "person_id": "WY-BITTNER-MARK",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mark-bittner.html"
+            },
+            {
+              "name": "Jamin Johnson",
+              "person_id": "WY-JOHNSON-JAMIN",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jamin-johnson.html"
+            },
+            {
+              "name": "Emily Siegel Stanton",
+              "person_id": "WY-STANTON-EMILY-SIEGEL",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/emily-siegel-stanton.html"
+            },
+            {
+              "name": "Mary Alice Bruce",
+              "person_id": "WY-BRUCE-MARY-ALICE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mary-alice-bruce.html"
+            },
+            {
+              "name": "Alex Moon Krassin",
+              "person_id": "WY-KRASSIN-ALEX-MOON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/alex-moon-krassin.html"
+            },
+            {
+              "name": "Steve Gosar",
+              "person_id": "WY-GOSAR-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/steve-gosar.html"
+            },
+            {
+              "name": "Beth Bear",
+              "person_id": "WY-BEAR-BETH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/beth-bear.html"
+            },
+            {
+              "name": "Carrie Murthy",
+              "person_id": "WY-MURTHY-CARRIE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/carrie-murthy.html"
+            }
+          ]
+        },
+        {
+          "office": "ACSD #1 Trustee At-Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kim Sorenson",
+              "person_id": "WY-SORENSON-KIM",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kim-sorenson.html"
+            },
+            {
+              "name": "Nate Martin",
+              "person_id": "WY-MARTIN-NATE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/nate-martin.html"
+            }
+          ]
+        },
+        {
+          "office": "ACSD #1 Trustee Area B",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Janice Marshall",
+              "person_id": "WY-MARSHALL-JANICE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/janice-marshall.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Fire District No. 1 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Luke Hawkins",
+              "person_id": "WY-HAWKINS-LUKE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/luke-hawkins.html"
+            },
+            {
+              "name": "Brett Wadsworth",
+              "person_id": "WY-WADSWORTH-BRETT",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brett-wadsworth.html"
+            },
+            {
+              "name": "Matthew Burkhart",
+              "person_id": "WY-BURKHART-MATTHEW",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/matthew-burkhart.html"
+            }
+          ]
+        },
+        {
+          "office": "Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jenna M. Scozzafava",
+              "person_id": "WY-SCOZZAFAVA-JENNA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jenna-scozzafava.html"
+            },
+            {
+              "name": "Rick Melone",
+              "person_id": "WY-MELONE-RICK",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/rick-melone.html"
+            },
+            {
+              "name": "Rex E. Gantenbein",
+              "person_id": "WY-GANTENBEIN-REX",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/rex-e-gantenbein.html"
+            },
+            {
+              "name": "Terry P. Roark",
+              "person_id": "WY-ROARK-TERRY-P",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/terry-p-roark.html"
+            },
+            {
+              "name": "Stephen C. Maguire",
+              "person_id": "WY-MAGUIRE-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/steve-maguire.html"
+            }
+          ]
+        },
+        {
+          "office": "Laramie Rivers Conservation District Supervisor Urban",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Larry C. Munn",
+              "person_id": "WY-MUNN-LARRY-C",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/larry-c-munn.html"
+            },
+            {
+              "name": "Carol Price",
+              "person_id": "WY-HERMAN-PRICE-CAROL",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/carol-price.html"
+            }
+          ]
+        },
+        {
+          "office": "Laramie Rivers Conservation District Supervisor Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ruth Shepherd",
+              "person_id": "WY-SHEPHERD-RUTH",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ruth-shepherd.html"
+            },
+            {
+              "name": "Zachary M. Iddings",
+              "person_id": "WY-IDDINGS-ZACHARY-M",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/zachary-m-iddings.html"
+            }
+          ]
+        },
+        {
+          "office": "Laramie Rivers Conservation District Supervisor At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mandy Marney",
+              "person_id": "WY-MARNEY-MANDY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mandy-marney.html"
+            }
+          ]
+        }
+      ],
+      "note": "Municipal, school, and special-district names are keyed from official Albany November general summaries in this archive (2010, 2012, and 2016–2026). The City of Laramie mayor is selected by the City Council from its members at the first January meeting after a general election (Laramie Municipal Code 2.04.016) and is not on the November ballot; official City of Laramie resolutions and January council minutes name the 2015–2026 mayors used here. The Town of Rock River does not appear as a municipal contest on those official November clerk generals and is marked Not yet collected rather than invented. Official 2014 clerk local results are not in the clerk archive, so January 2015–2018 county row offices, the 2014 commissioner class, and January 2015–2016 House Districts 45 and 46 (contested on the official 2014 SOS PbP without a clerk summary in this archive) are Not yet collected. The official 2026 commissioner Vote-For-2 result is the November 9–10, 2026 second recount (clerk memorandum November 11, 2026). The official 2024 Fire District No. 1 Director contest reports only write-in totals and is not filled.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 2nd Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Misha Westby",
+              "person_id": "WY-WESTBY-MISHA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 2nd Judicial District, Albany County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-2nd-judicial-district-albany-county/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch 2nd JD Albany district page: appointed August 2022 (day unstated; term_start 2022-08-01, medium), retained November 2024, term expires January 2031.",
+              "href": "candidates/local-history/c/misha-westby.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 2nd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Susan K. Stipe",
+              "person_id": "WY-STIPE-SUSAN-K",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Albany County official 2020 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/3781/2020-General-Election-Results---Official"
+                },
+                {
+                  "label": "Albany County official 2024 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/7037/2024-General-Election---Official-Results---Summary"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 clerk line CIR CT - STIPE, YES. Full name from the official 2024 clerk general, which prints Circuit Court Judge Susan K. Stipe of the 2nd JD.",
+              "href": "candidates/local-history/c/susan-k-stipe.html"
+            },
+            {
+              "name": "Robert J. Sanford",
+              "person_id": "WY-SANFORD-ROBERT-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Albany County official 2022 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/5242/2022-General-Election-Official-Results"
+                },
+                {
+                  "label": "Wyoming Judicial Branch official Circuit Court of the 2nd Judicial District (Laramie) page",
+                  "url": "https://www.wyocourts.gov/court/circuit-court-of-the-2nd-judicial-district-albany-county-state-of-wyoming-laramie/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 clerk circuit retention YES, no name on the clerk line. Identified as Robert J. Sanford from the official Wyoming Judicial Branch 2nd JD Albany circuit page (appointed July 2020; stands for retention November 2026; term expires January 2027).",
+              "href": "candidates/local-history/c/robert-j-sanford.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 2nd Judicial District judges. Where an official Albany clerk summary prints only a last name, or omits the name (official 2022 and 2026 circuit retentions), the full name is taken from the official Wyoming Judicial Branch 2nd JD Albany circuit or district page, or from an official later clerk ballot or official SOS Albany general precinct-by-precinct summary, and that source is cited. Albany is in the 2nd Judicial District; judges of other districts are not copied here. Official 2018 clerk judicial lines are unnamed YES/NO and are not filled from that clerk summary. Official 2010 clerk circuit lines CASTOR and EAKIN are filled as Robert A. Castor and Jane Eakin from the official 2014 SOS Albany general PbP.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. Official Albany primary PDFs are archived under /workspace/wyoleg/local-results/albany/<year>/. The current (November 2026) precinct roster is in data/county_officials/albany.json, from the official 2026 primary (named winners only).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/albany/terms.json",
+  "retrieved": "2026-11-24"
+}

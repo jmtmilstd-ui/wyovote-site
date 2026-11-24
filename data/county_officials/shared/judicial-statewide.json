@@ -1,0 +1,119 @@
+{
+  "title": "Statewide judicial officers",
+  "as_of": "2026-11-23",
+  "intro": "These judicial officers serve every county. Retention figures shown with each name are the official Weston County 2026 general totals.",
+  "groups": [
+    {
+      "id": "supreme-court",
+      "title": "Wyoming Supreme Court",
+      "sort_key": "J1",
+      "offices": [
+        {
+          "office": "Justice of the Wyoming Supreme Court",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bridget Hill",
+              "person_id": "WY-HILL-BRIDGET",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Justice Bridget Hill",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Weston County official 2026 general results, retained",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                }
+              ],
+              "href": "officials/judges/bridget-hill.html",
+              "ballot_name": "BRIDGET HILL",
+              "notes": "Appointed May 2025 (Wyoming Judicial Branch). Stood for retention in November 2026.",
+              "sort_key": "J01",
+              "retention": {
+                "year": 2026,
+                "yes": 1465,
+                "no": 697,
+                "yes_pct": "67.76%",
+                "no_pct": "32.24%",
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf",
+                "county": "Weston"
+              }
+            },
+            {
+              "name": "Robert C. Jarosh",
+              "person_id": "WY-JAROSH-ROBERT",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Justice Robert C. Jarosh",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Weston County official 2026 general results, retained",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                }
+              ],
+              "href": "officials/judges/robert-c-jarosh.html",
+              "ballot_name": "ROBERT C. JAROSH",
+              "notes": "Appointed March 2024 and sworn in March 27, 2024 (Wyoming Judicial Branch). Stood for retention in November 2026.",
+              "sort_key": "J02",
+              "retention": {
+                "year": 2026,
+                "yes": 1426,
+                "no": 700,
+                "yes_pct": "67.07%",
+                "no_pct": "32.93%",
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf",
+                "county": "Weston"
+              }
+            }
+          ],
+          "sort_key": "J1"
+        }
+      ]
+    },
+    {
+      "id": "chancery-court",
+      "title": "Chancery Court",
+      "sort_key": "J2",
+      "offices": [
+        {
+          "office": "Chancery Court Judge",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Benjamin M. Burningham",
+              "person_id": "WY-BURNINGHAM-BEN",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch, Chancery Court, Honorable Benjamin M. Burningham",
+                  "url": "https://www.wyocourts.gov/court/chancery-court/"
+                },
+                {
+                  "label": "Weston County official 2026 general results, retained as BEN BURNINGHAM",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                }
+              ],
+              "href": "officials/judges/benjamin-m-burningham.html",
+              "ballot_name": "BEN BURNINGHAM",
+              "notes": "Appointed January 2025 (Wyoming Judicial Branch). The 2026 Weston ballot used Ben Burningham.",
+              "sort_key": "J04",
+              "retention": {
+                "year": 2026,
+                "yes": 1471,
+                "no": 624,
+                "yes_pct": "70.21%",
+                "no_pct": "29.79%",
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf",
+                "county": "Weston"
+              }
+            }
+          ],
+          "sort_key": "J2"
+        }
+      ]
+    }
+  ]
+}

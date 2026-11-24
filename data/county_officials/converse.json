@@ -2,7 +2,7 @@
   "county": "Converse",
   "county_number": 13,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_13_Converse_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -10,39 +10,28 @@
   "groups": [
     {
       "id": "state-senate",
-      "title": "State Senate",
+      "label": "Wyoming Senate",
       "offices": [
         {
           "office": "Senate District 2 (S02)",
           "layout": "office-and-name",
-          "note": "Also covers Natrona.",
           "holders": [
             {
               "name": "Brian Boner",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2021"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_13_Converse_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/boner.html"
+              "person_id": "WY-BONER-BRIAN",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/brian-boner.html",
+              "notes": "Official 2024 SOS statewide Senate summary Total: Brian Boner (R) 7,712. Official Converse portion: 5,912 (matches official Converse clerk). Official Natrona share: 1,800. After 2022 redistricting the official SOS county rows are Converse and Natrona (Platte is no longer in S02)."
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary Total: Brian Boner (R) 7,712. Official Converse portion: 5,912 (matches official Converse clerk). Official Natrona share: 1,800. After 2022 redistricting the official SOS county rows are Converse and Natrona (Platte is no longer in S02)."
         }
       ]
     },
     {
       "id": "state-house",
-      "title": "State House",
+      "label": "Wyoming House",
       "offices": [
         {
           "office": "House District 6 (H06)",
@@ -50,182 +39,98 @@
           "holders": [
             {
               "name": "Tomi Strock",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2094"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_13_Converse_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H06, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/strock.html"
+              "person_id": "WY-STROCK-TOMI",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/tomi-strock.html",
+              "notes": "Official 2026 SOS statewide House summary Total: Tomi Strock (R) 2,175, all in Converse (official SOS Total equals the official Converse clerk)."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary Total: Tomi Strock (R) 2,175, all in Converse (official SOS Total equals the official Converse clerk). Official 2024 SOS statewide House summary Total: Tomi Strock (R) 3,742, all in Converse (official SOS Total equals the official Converse clerk)."
         },
         {
           "office": "House District 62 (H62)",
           "layout": "office-and-name",
-          "note": "Also covers Natrona.",
           "holders": [
             {
-              "name": "Kevin Campbell",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2136"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_13_Converse_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H62, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "ballot_name": "Kevin J. Campbell",
-              "href": "officials/campbell-kevin.html"
+              "name": "Kevin J. Campbell",
+              "person_id": "WY-CAMPBELL-KEVIN",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kevin-j-campbell.html",
+              "notes": "Official 2026 SOS statewide House summary Total: Kevin J. Campbell (R) 2,297. Official Converse portion: 1,175 (matches official Converse clerk). Official Natrona share: 1,122."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary Total: Kevin J. Campbell (R) 2,297. Official Converse portion: 1,175 (matches official Converse clerk). Official Natrona share: 1,122. Official 2024 SOS statewide House summary Total: Kevin Campbell (R) 3,496. Official Converse portion: 1,732 (matches official Converse clerk). Official Natrona share: 1,764."
         }
       ]
     },
     {
       "id": "county",
-      "title": "County Offices",
+      "label": "County offices",
       "offices": [
         {
-          "office": "County Commissioners",
-          "layout": "heading-then-names",
+          "office": "County Commissioner",
+          "layout": "office-and-name",
           "holders": [
             {
-              "name": "Jim Willox",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Converse County commissioners page",
-                  "url": "https://conversecountywy.gov/148/County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/converse.html"
-                }
-              ],
-              "role": "Chairman",
-              "succeeding": {
-                "name": "Cody Torgerson",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Converse County official general results, County Commissioner",
-                    "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
-            },
-            {
-              "name": "Rick Grant",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Converse County commissioners page",
-                  "url": "https://conversecountywy.gov/148/County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/converse.html"
-                }
-              ],
-              "role": "Vice-Chairman"
-            },
-            {
               "name": "Trent Kaufman",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Converse County commissioners page",
-                  "url": "https://conversecountywy.gov/148/County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/converse.html"
-                },
-                {
-                  "label": "Converse County official general results, re-elected",
-                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-KAUFMAN-TRENT",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/trent-kaufman.html",
+              "notes": "Official 2026 Converse clerk, commissioner Vote-For-3: Cody Torgerson 3,098, Trent Kaufman 2,867, Macey Moore 2,792."
+            },
+            {
+              "name": "Robert G. Short",
+              "person_id": "WY-SHORT-ROBERT-G",
+              "party": "REP",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/robert-g-short.html",
+              "notes": "Official 2022 Converse clerk ballot line ROBERT GSHORT, 3,199; display name Robert G. Short."
+            },
+            {
+              "name": "Jim Willox",
+              "person_id": "WY-WILLOX-JIM",
+              "party": "REP",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/jim-willox.html",
+              "notes": "Official 2022 Converse clerk: Jim Willox 2,794. Official April 10, 2026 commission minutes are signed James H. Willox, Chairman."
             },
             {
               "name": "Donald J. Blackburn",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Converse County commissioners page",
-                  "url": "https://conversecountywy.gov/148/County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/converse.html"
-                }
-              ]
+              "person_id": "WY-BLACKBURN-DONALD-J",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/donald-j-blackburn.html",
+              "notes": "Official 2024 Converse clerk, commissioner Vote-For-2: Donald J Blackburn 5,025, Rick Grant 3,880."
             },
             {
-              "name": "Robert Short",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Converse County commissioners page",
-                  "url": "https://conversecountywy.gov/148/County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/converse.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Macey Moore",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Converse County official general results, County Commissioner",
-                    "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "name": "Rick Grant",
+              "person_id": "WY-GRANT-RICK",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/rick-grant.html",
+              "notes": "Official 2024 Converse clerk, commissioner Vote-For-2: Donald J Blackburn 5,025, Rick Grant 3,880."
+            },
+            {
+              "name": "Cody Torgerson",
+              "person_id": "WY-TORGERSON-CODY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/cody-torgerson.html",
+              "notes": "Official 2026 Converse clerk, commissioner Vote-For-3: Cody Torgerson 3,098, Trent Kaufman 2,867, Macey Moore 2,792."
+            },
+            {
+              "name": "Macey Moore",
+              "person_id": "WY-MOORE-MACEY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/macey-moore.html",
+              "notes": "Official 2026 Converse clerk, commissioner Vote-For-3: Cody Torgerson 3,098, Trent Kaufman 2,867, Macey Moore 2,792."
             }
           ],
-          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+          "note": "Official 2026 Converse clerk, commissioner Vote-For-3: Cody Torgerson 3,098, Trent Kaufman 2,867, Macey Moore 2,792. Official 2024 Converse clerk, commissioner Vote-For-2: Donald J Blackburn 5,025, Rick Grant 3,880."
         },
         {
           "office": "County Clerk",
@@ -233,27 +138,14 @@
           "holders": [
             {
               "name": "Karen Rimmer",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Converse County clerk page",
-                  "url": "https://conversecountywy.gov/186/County-Clerk"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/converse.html"
-                },
-                {
-                  "label": "Converse County official general results, re-elected",
-                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-RIMMER-KAREN",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/karen-rimmer.html",
+              "notes": "Official 2026 Converse clerk: Karen Rimmer 3,946."
             }
-          ]
+          ],
+          "note": "Official 2026 Converse clerk: Karen Rimmer 3,946. Official 2022 Converse clerk: Karen Rimmer 4,555."
         },
         {
           "office": "County Treasurer",
@@ -261,24 +153,14 @@
           "holders": [
             {
               "name": "Joel Schell",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/converse.html"
-                },
-                {
-                  "label": "Converse County official general results, re-elected",
-                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+              "person_id": "WY-SCHELL-JOEL",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/joel-schell.html",
+              "notes": "Official 2026 Converse clerk: Joel Schell 3,945."
             }
-          ]
+          ],
+          "note": "Official 2026 Converse clerk: Joel Schell 3,945. Official 2022 Converse clerk: Joel Schell 4,458."
         },
         {
           "office": "County Assessor",
@@ -286,53 +168,29 @@
           "holders": [
             {
               "name": "Dixie J. Huxtable",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Converse County assessor page",
-                  "url": "https://conversecountywy.gov/177/County-Assessor"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/converse.html"
-                },
-                {
-                  "label": "Converse County official general results, re-elected",
-                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-HUXTABLE-DIXIE-J",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/dixie-j-huxtable.html",
+              "notes": "Official 2026 Converse clerk: Dixie J. Huxtable 3,857."
             }
-          ]
+          ],
+          "note": "Official 2026 Converse clerk: Dixie J. Huxtable 3,857. Official 2022 Converse clerk: Dixie J Huxtable 4,500."
         },
         {
           "office": "County Sheriff",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Clint Becker",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/converse.html"
-                },
-                {
-                  "label": "Converse County official general results, re-elected",
-                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name.",
-              "ballot_name": "Clinton Becker"
+              "name": "Clinton Becker",
+              "person_id": "WY-BECKER-CLINTON",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/clinton-becker.html",
+              "notes": "Official 2026 Converse clerk: Clinton Becker 3,729."
             }
-          ]
+          ],
+          "note": "Official 2026 Converse clerk: Clinton Becker 3,729. Official 2022 Converse clerk ballot name CLINT BECKER, 4,261. Official 2026 ballot name is Clinton Becker; same person."
         },
         {
           "office": "County Attorney",
@@ -340,27 +198,14 @@
           "holders": [
             {
               "name": "Quentin Richardson",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Converse County attorney page",
-                  "url": "https://conversecountywy.gov/185/County-Attorney"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/converse.html"
-                },
-                {
-                  "label": "Converse County official general results, re-elected",
-                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-RICHARDSON-QUENTIN",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/quentin-richardson.html",
+              "notes": "Official 2026 Converse clerk: Quentin Richardson 3,715."
             }
-          ]
+          ],
+          "note": "Official 2026 Converse clerk: Quentin Richardson 3,715. Official 2022 Converse clerk: Quentin Richardson 4,365."
         },
         {
           "office": "Clerk of District Court",
@@ -368,58 +213,712 @@
           "holders": [
             {
               "name": "Barbara Harris",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Converse County commissioners, special meeting minutes, April 10 (appointment)",
-                  "url": "https://conversecountywy.gov/AgendaCenter/ViewFile/Minutes/_04102026-925"
-                },
-                {
-                  "label": "Wyoming Judicial Branch, Converse County District Court (Clerk: Barbara Harris)",
-                  "url": "https://www.wyocourts.gov/court/district-court-8th-judicial-district-converse-county/"
-                },
-                {
-                  "label": "Douglas Budget, Commissioners tap Harris",
-                  "url": "https://www.douglas-budget.com/article/862,commissioners-tap-harris-as-clerk-of-district-court-slot"
-                },
-                {
-                  "label": "Converse County official general results, elected",
-                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Appointed April 10 after Pam McCullough retired. Elected in the latest general."
+              "person_id": "WY-HARRIS-BARBARA",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/barbara-harris.html",
+              "notes": "Official 2026 Converse clerk: Barbara Harris 3,882."
             }
-          ]
+          ],
+          "note": "Official April 10, 2026 commission minutes: the board appointed Barbara Harris to the vacated Clerk of District Court office for a term from April 10, 2026, through January 4, 2027, and she was sworn in that day. Official 8th JD Converse District Court page lists Barbara Harris as clerk. Official 2026 Converse clerk: Barbara Harris 3,882."
         },
         {
           "office": "County Coroner",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Roscoe J. \"Ross\" Gorman",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/converse.html"
-                },
-                {
-                  "label": "Converse County official general results, re-elected",
-                  "url": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name.",
-              "ballot_name": "Roscoe J. (Ross) Gorman"
+              "name": "Roscoe J. (Ross) Gorman",
+              "person_id": "WY-GORMAN-ROSCOE-J",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/roscoe-j-ross-gorman.html",
+              "notes": "Official 2026 Converse clerk: Roscoe J. (Ross) Gorman 3,963."
             }
-          ]
+          ],
+          "note": "Official 2026 Converse clerk: Roscoe J. (Ross) Gorman 3,963. Official 2022 Converse clerk: Roscoe J. (Ross) Gorman 4,614."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "label": "Municipal offices",
+      "offices": [
+        {
+          "office": "Douglas Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kim Pexton",
+              "person_id": "WY-PEXTON-KIM",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/kim-pexton.html",
+              "notes": "Official 2024 Converse clerk, Mayor Douglas: Kim Pexton 1,304, Tony Reynolds 1,249."
+            },
+            {
+              "name": "Brad Jenkins",
+              "person_id": "WY-JENKINS-BRAD",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/brad-jenkins.html",
+              "notes": "Official 2026 Converse clerk, Mayor City of Douglas: Brad Jenkins 831, Kim Pexton 817."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Mayor City of Douglas: Brad Jenkins 831, Kim Pexton 817. Official 2024 Converse clerk, Mayor Douglas: Kim Pexton 1,304, Tony Reynolds 1,249."
+        },
+        {
+          "office": "Douglas Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kim Pexton",
+              "person_id": "WY-PEXTON-KIM",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/kim-pexton.html",
+              "notes": "Official 2022 Converse clerk, Councilperson Douglas 4-year Vote-For-2: Kim Pexton 1,385, Perry Hershberger 1,339."
+            },
+            {
+              "name": "Perry Hershberger",
+              "person_id": "WY-HERSHBERGER-PERRY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/perry-hershberger.html",
+              "notes": "Official 2022 Converse clerk, Councilperson Douglas 4-year Vote-For-2: Kim Pexton 1,385, Perry Hershberger 1,339."
+            },
+            {
+              "name": "Matt Schmidt",
+              "person_id": "WY-SCHMIDT-MATT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/matt-schmidt.html",
+              "notes": "Official 2024 Converse clerk, Councilperson Douglas Vote-For-2: Matt Schmidt 1,330, Ron McNare 1,289, Jacey Bauman 1,209. Official 2024 clerk did not print 2-year/4-year on this contest; 4-year term follows the official 2022 4-year pattern."
+            },
+            {
+              "name": "Ron McNare",
+              "person_id": "WY-MCNARE-RON",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ron-mcnare.html",
+              "notes": "Official 2024 Converse clerk, Councilperson Douglas Vote-For-2: Matt Schmidt 1,330, Ron McNare 1,289, Jacey Bauman 1,209. Official 2024 clerk did not print 2-year/4-year on this contest; 4-year term follows the official 2022 4-year pattern."
+            },
+            {
+              "name": "Joel R. Weeks",
+              "person_id": "WY-WEEKS-JOEL-R",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/joel-r-weeks.html",
+              "notes": "Official 2024 Converse clerk, Councilperson Douglas Vote-For-1: Joel R. Weeks 1,414, Josh Valk 882. Official 2024 clerk did not print 2-year/4-year; 2-year term follows the official 2022 2-year Douglas council pattern."
+            },
+            {
+              "name": "Breck Wagstaff",
+              "person_id": "WY-WAGSTAFF-BRECK",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/breck-wagstaff.html",
+              "notes": "Official 2026 Converse clerk, Council City of Douglas Vote-For-2: Breck Wagstaff 1,011, Shea Burke 737, Mike Hagemann 612, Noah Milmont 568. Official 2026 clerk did not print 2-year/4-year; 4-year term follows the official 2022 4-year pattern."
+            },
+            {
+              "name": "Shea Burke",
+              "person_id": "WY-BURKE-SHEA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/shea-burke.html",
+              "notes": "Official 2026 Converse clerk, Council City of Douglas Vote-For-2: Breck Wagstaff 1,011, Shea Burke 737."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Council City of Douglas Vote-For-2: Breck Wagstaff 1,011, Shea Burke 737, Mike Hagemann 612, Noah Milmont 568. Official 2026 clerk did not print 2-year/4-year; 4-year term follows the official 2022 4-year pattern. Official 2026 Converse clerk, Council City of Douglas Vote-For-2: Breck Wagstaff 1,011, Shea Burke 737."
+        },
+        {
+          "office": "Glenrock Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bruce Roumell",
+              "person_id": "WY-ROUMELL-BRUCE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/bruce-roumell.html",
+              "notes": "Official 2022 Converse clerk, Mayor Glenrock: Bruce Roumell 424, Margaret Nunn 378."
+            },
+            {
+              "name": "Judi Colling",
+              "person_id": "WY-COLLING-JUDI",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/judi-colling.html",
+              "notes": "Official 2026 Converse clerk, Mayor Town of Glenrock: Judi Colling 414, Bruce Roumell 300."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Mayor Town of Glenrock: Judi Colling 414, Bruce Roumell 300. Official 2022 Converse clerk, Mayor Glenrock: Bruce Roumell 424, Margaret Nunn 378."
+        },
+        {
+          "office": "Glenrock Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Roy Kincaid",
+              "person_id": "WY-KINCAID-ROY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/roy-kincaid.html",
+              "notes": "Official 2026 Converse clerk, Council Town of Glenrock Vote-For-2: Tracie Bopp 414, Roy Kincaid 396."
+            },
+            {
+              "name": "Judi Colling",
+              "person_id": "WY-COLLING-JUDI",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/judi-colling.html",
+              "notes": "Official 2022 Converse clerk, Councilperson Glenrock 4-year Vote-For-2: Judi Colling 430, Roy Kincaid 430, Tim Morgan 351, Taylor Mae Flores 171."
+            },
+            {
+              "name": "Margaret Nunn",
+              "person_id": "WY-NUNN-MARGARET",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/margaret-nunn.html",
+              "notes": "Official 2024 Converse clerk, Councilperson Glenrock Vote-For-2: Margaret Nunn 766, Russ Dalgarn 710. Official 2024 clerk did not print 2-year/4-year; 4-year term follows the official 2022 4-year pattern."
+            },
+            {
+              "name": "Russ Dalgarn",
+              "person_id": "WY-DALGARN-RUSS",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/russ-dalgarn.html",
+              "notes": "Official 2024 Converse clerk, Councilperson Glenrock Vote-For-2: Margaret Nunn 766, Russ Dalgarn 710."
+            },
+            {
+              "name": "Tracie Bopp",
+              "person_id": "WY-BOPP-TRACIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/tracie-bopp.html",
+              "notes": "Official 2026 Converse clerk, Council Town of Glenrock Vote-For-2: Tracie Bopp 414, Roy Kincaid 396, Lonnie Sorenson 379. Official 2026 clerk did not print 2-year/4-year; 4-year term follows the official 2022 4-year pattern."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Council Town of Glenrock Vote-For-2: Tracie Bopp 414, Roy Kincaid 396, Lonnie Sorenson 379. Official 2026 clerk did not print 2-year/4-year; 4-year term follows the official 2022 4-year pattern. Official 2026 Converse clerk, Council Town of Glenrock Vote-For-2: Tracie Bopp 414, Roy Kincaid 396."
+        },
+        {
+          "office": "Rolling Hills Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jon O. Maines",
+              "person_id": "WY-MAINES-JON-O",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jon-o-maines.html",
+              "notes": "Official 2026 Converse clerk, Mayor Town of Rolling Hills: Jon O. Maines 121."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Mayor Town of Rolling Hills: Jon O. Maines 121. Official 2022 Converse clerk, Mayor Rolling Hills: Jon O. Maines 139."
+        },
+        {
+          "office": "Rolling Hills Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kenneth Montgomery",
+              "person_id": "WY-MONTGOMERY-KENNETH",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kenneth-montgomery.html",
+              "notes": "Official 2026 Converse clerk, Council Town of Rolling Hills Vote-For-2: Anthony Rivera 70, Kenneth Montgomery 69."
+            },
+            {
+              "name": "Lori Cielinski",
+              "person_id": "WY-CIELINSKI-LORI",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/lori-cielinski.html",
+              "notes": "Official 2022 Converse clerk, Councilperson Rolling Hills 4-year Vote-For-2: Kenneth Montgomery 90, Lori Cielinski 66."
+            },
+            {
+              "name": "Jody Ettles",
+              "person_id": "WY-ETTLES-JODY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jody-ettles.html",
+              "notes": "Official 2024 Converse clerk, Councilperson Rolling Hills Vote-For-2: Jody Ettles 115, Donna Weaver 114, Emily Mayne 83. Official 2024 clerk did not print 2-year/4-year; 4-year term follows the official 2022 4-year pattern."
+            },
+            {
+              "name": "Donna Weaver",
+              "person_id": "WY-WEAVER-DONNA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/donna-weaver.html",
+              "notes": "Official 2024 Converse clerk, Councilperson Rolling Hills Vote-For-2: Jody Ettles 115, Donna Weaver 114."
+            },
+            {
+              "name": "Anthony Rivera",
+              "person_id": "WY-RIVERA-ANTHONY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/anthony-rivera.html",
+              "notes": "Official 2026 Converse clerk, Council Town of Rolling Hills Vote-For-2: Anthony Rivera 70, Kenneth Montgomery 69, Deanna Brow 50, Kim Martin 42. Official 2026 clerk did not print 2-year/4-year; 4-year term follows the official 2022 4-year pattern."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Council Town of Rolling Hills Vote-For-2: Anthony Rivera 70, Kenneth Montgomery 69, Deanna Brow 50, Kim Martin 42. Official 2026 clerk did not print 2-year/4-year; 4-year term follows the official 2022 4-year pattern. Official 2026 Converse clerk, Council Town of Rolling Hills Vote-For-2: Anthony Rivera 70, Kenneth Montgomery 69."
+        },
+        {
+          "office": "Lost Springs Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Arthur Stringham",
+              "person_id": "WY-STRINGHAM-ARTHUR",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/arthur-stringham.html",
+              "notes": "Official 2026 Converse clerk, Mayor Town of Lost Springs: Arthur Stringham 3. Official 2022 Lost Springs mayor was write-in totals 3 with no official named certified winner and is left unfilled."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Mayor Town of Lost Springs: Arthur Stringham 3. Official 2022 Lost Springs mayor was write-in totals 3 with no official named certified winner and is left unfilled."
+        },
+        {
+          "office": "Lost Springs Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Clifton Bowdish",
+              "person_id": "WY-BOWDISH-CLIFTON",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/clifton-bowdish.html",
+              "notes": "Official 2026 Converse clerk, Council Town of Lost Springs Vote-For-2: Clifton Bowdish 3, Nellie Bowdish 3. Official 2026 Lost Springs 2-year council was write-in totals 0 and is left unfilled. Official 2022 and 2024 Lost Springs council contests were write-in-only without a named certified winner and are left unfilled."
+            },
+            {
+              "name": "Nellie Bowdish",
+              "person_id": "WY-BOWDISH-NELLIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/nellie-bowdish.html",
+              "notes": "Official 2026 Converse clerk, Council Town of Lost Springs Vote-For-2: Clifton Bowdish 3, Nellie Bowdish 3."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Council Town of Lost Springs Vote-For-2: Clifton Bowdish 3, Nellie Bowdish 3. Official 2026 Lost Springs 2-year council was write-in totals 0 and is left unfilled. Official 2022 and 2024 Lost Springs council contests were write-in-only without a named certified winner and are left unfilled. Official 2026 Converse clerk, Council Town of Lost Springs Vote-For-2: Clifton Bowdish 3, Nellie Bowdish 3."
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "label": "School boards",
+      "offices": [
+        {
+          "office": "Converse County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Trent Boner",
+              "person_id": "WY-BONER-TRENT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/trent-boner.html",
+              "notes": "Official 2026 Converse clerk, CCSD #1 Vote-For-4: Trent Boner 2,167, Josh Moore 2,023, Dax McCarty 1,897, and official itemized write-in Adam Camino 320 of 571 write-in totals (Not Assigned 0). This row: Trent Boner 2,167."
+            },
+            {
+              "name": "Josh Moore",
+              "person_id": "WY-MOORE-JOSH",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/josh-moore.html",
+              "notes": "Official 2026 Converse clerk, CCSD #1 Vote-For-4: Trent Boner 2,167, Josh Moore 2,023, Dax McCarty 1,897, and official itemized write-in Adam Camino 320 of 571 write-in totals (Not Assigned 0). This row: Josh Moore 2,023."
+            },
+            {
+              "name": "Shane Stinson",
+              "person_id": "WY-STINSON-SHANE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/shane-stinson.html",
+              "notes": "Official 2022 Converse clerk, CCSD #1 4-year Vote-For-4: Trent Boner 1,732, Josh Moore 1,687, Shane Stinson 1,550, Jared Vollman 1,522 (Dax McCarty 1,086 was fifth). This row: Shane Stinson 1,550."
+            },
+            {
+              "name": "Jared Vollman",
+              "person_id": "WY-VOLLMAN-JARED",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/jared-vollman.html",
+              "notes": "Official 2022 Converse clerk, CCSD #1 4-year Vote-For-4: Trent Boner 1,732, Josh Moore 1,687, Shane Stinson 1,550, Jared Vollman 1,522 (Dax McCarty 1,086 was fifth). This row: Jared Vollman 1,522."
+            },
+            {
+              "name": "Ty Tillard",
+              "person_id": "WY-TILLARD-TY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ty-tillard.html",
+              "notes": "Official 2024 Converse clerk, CCSD #1 Vote-For-5: Ty Tillard 2,846, Brad Reese 2,433, Jeremiah Darr 2,398, John \"J.C.\" Forgey 2,317, Staci Hill 2,021 (James A. Bolinger 1,762 was sixth). This row: Ty Tillard 2,846."
+            },
+            {
+              "name": "Brad Reese",
+              "person_id": "WY-REESE-BRAD",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/brad-reese.html",
+              "notes": "Official 2024 Converse clerk, CCSD #1 Vote-For-5: Ty Tillard 2,846, Brad Reese 2,433, Jeremiah Darr 2,398, John \"J.C.\" Forgey 2,317, Staci Hill 2,021 (James A. Bolinger 1,762 was sixth). This row: Brad Reese 2,433."
+            },
+            {
+              "name": "Jeremiah Darr",
+              "person_id": "WY-DARR-JEREMIAH",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jeremiah-darr.html",
+              "notes": "Official 2024 Converse clerk, CCSD #1 Vote-For-5: Ty Tillard 2,846, Brad Reese 2,433, Jeremiah Darr 2,398, John \"J.C.\" Forgey 2,317, Staci Hill 2,021 (James A. Bolinger 1,762 was sixth). This row: Jeremiah Darr 2,398."
+            },
+            {
+              "name": "John \"J.C.\" Forgey",
+              "person_id": "WY-FORGEY-JOHN-JC",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/john-j-c-forgey.html",
+              "notes": "Official 2024 Converse clerk, CCSD #1 Vote-For-5: Ty Tillard 2,846, Brad Reese 2,433, Jeremiah Darr 2,398, John \"J.C.\" Forgey 2,317, Staci Hill 2,021 (James A. Bolinger 1,762 was sixth). This row: John \"J.C.\" Forgey 2,317."
+            },
+            {
+              "name": "Staci Hill",
+              "person_id": "WY-HILL-STACI",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/staci-hill.html",
+              "notes": "Official 2024 Converse clerk, CCSD #1 Vote-For-5: Ty Tillard 2,846, Brad Reese 2,433, Jeremiah Darr 2,398, John \"J.C.\" Forgey 2,317, Staci Hill 2,021 (James A. Bolinger 1,762 was sixth). This row: Staci Hill 2,021."
+            },
+            {
+              "name": "Dax McCarty",
+              "person_id": "WY-MCCARTY-DAX",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/dax-mccarty.html",
+              "notes": "Official 2026 Converse clerk, CCSD #1 Vote-For-4: Trent Boner 2,167, Josh Moore 2,023, Dax McCarty 1,897, and official itemized write-in Adam Camino 320 of 571 write-in totals (Not Assigned 0). This row: Dax McCarty 1,897."
+            },
+            {
+              "name": "Adam Camino",
+              "person_id": "WY-CAMINO-ADAM",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/adam-camino.html",
+              "notes": "Official 2026 Converse clerk, CCSD #1 Vote-For-4, official itemized write-in: Adam Camino 320 of 571 write-in totals, Not Assigned 0. He is the official fourth-place finisher behind the three named candidates. No separate certified-write-in certificate was posted; seating is from the official canvass itemization."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, CCSD #1 Vote-For-4: Trent Boner 2,167, Josh Moore 2,023, Dax McCarty 1,897, and official itemized write-in Adam Camino 320 of 571 write-in totals (Not Assigned 0). This row: Trent Boner 2,167. Official 2026 Converse clerk, CCSD #1 Vote-For-4: Trent Boner 2,167, Josh Moore 2,023, Dax McCarty 1,897, and official itemized write-in Adam Camino 320 of 571 write-in totals (Not Assigned 0). This row: Josh Moore 2,023."
+        },
+        {
+          "office": "Converse County School District #2 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ross Allen",
+              "person_id": "WY-ALLEN-ROSS",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ross-allen.html",
+              "notes": "Official 2024 Converse clerk, CCSD #2 Vote-For-3: Ross Allen 864, Jared Williams 814, Brendon Grant 735 (Cathy Holman 624 was fourth). This row: Ross Allen 864."
+            },
+            {
+              "name": "Jared Williams",
+              "person_id": "WY-WILLIAMS-JARED",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jared-williams.html",
+              "notes": "Official 2024 Converse clerk, CCSD #2 Vote-For-3: Ross Allen 864, Jared Williams 814, Brendon Grant 735 (Cathy Holman 624 was fourth). This row: Jared Williams 814."
+            },
+            {
+              "name": "Brendon Grant",
+              "person_id": "WY-GRANT-BRENDON",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/brendon-grant.html",
+              "notes": "Official 2024 Converse clerk, CCSD #2 Vote-For-3: Ross Allen 864, Jared Williams 814, Brendon Grant 735 (Cathy Holman 624 was fourth). This row: Brendon Grant 735."
+            },
+            {
+              "name": "Casey Tillard",
+              "person_id": "WY-TILLARD-CASEY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/casey-tillard.html",
+              "notes": "Official 2026 Converse clerk, CCSD #2 Vote-For-2: Casey Tillard 1,009, Viki Kincaid 856. This row: Casey Tillard 1,009."
+            },
+            {
+              "name": "Viki Kincaid",
+              "person_id": "WY-KINCAID-VIKI",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/viki-kincaid.html",
+              "notes": "Official 2026 Converse clerk, CCSD #2 Vote-For-2: Casey Tillard 1,009, Viki Kincaid 856. This row: Viki Kincaid 856."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, CCSD #2 Vote-For-2: Casey Tillard 1,009, Viki Kincaid 856. This row: Casey Tillard 1,009. Official 2026 Converse clerk, CCSD #2 Vote-For-2: Casey Tillard 1,009, Viki Kincaid 856. This row: Viki Kincaid 856."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "label": "Special districts",
+      "offices": [
+        {
+          "office": "Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Moriah Moore",
+              "person_id": "WY-MOORE-MORIAH",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/moriah-moore.html",
+              "notes": "Official 2026 Converse clerk, Conservation Dist At-Large Supervisor: Moriah Moore 1,810, Kent Hill 1,176, Stan Mitchem 513."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Conservation Dist At-Large Supervisor: Moriah Moore 1,810, Kent Hill 1,176, Stan Mitchem 513."
+        },
+        {
+          "office": "Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Susan Downs",
+              "person_id": "WY-DOWNS-SUSAN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/susan-downs.html",
+              "notes": "Official 2024 Converse clerk, Urban Supervisor: Susan Downs 5,287."
+            }
+          ],
+          "note": "Official 2024 Converse clerk, Urban Supervisor: Susan Downs 5,287."
+        },
+        {
+          "office": "Conservation District Urban Supervisor, 2-year",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Anthony Rivera",
+              "person_id": "WY-RIVERA-ANTHONY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/anthony-rivera.html",
+              "notes": "Official 2026 Converse clerk, Conservation Dist Urban Supervisor 2-year: Anthony Rivera 3,255."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Conservation Dist Urban Supervisor 2-year: Anthony Rivera 3,255."
+        },
+        {
+          "office": "Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Shelly Falkenburg",
+              "person_id": "WY-FALKENBURG-SHELLY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/shelly-falkenburg.html",
+              "notes": "Official 2024 Converse clerk, Rural Supervisor: Shelly Falkenburg 4,241, J.B. Wollen 1,489."
+            },
+            {
+              "name": "Wayne Smith",
+              "person_id": "WY-SMITH-WAYNE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/wayne-smith.html",
+              "notes": "Official 2026 Converse clerk, Conservation Dist Rural Supervisor Vote-For-2: Wayne Smith 2,661, Kenny Wolfley 2,560."
+            },
+            {
+              "name": "Kenny Wolfley",
+              "person_id": "WY-WOLFLEY-KENNY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kenny-wolfley.html",
+              "notes": "Official 2026 Converse clerk, Conservation Dist Rural Supervisor Vote-For-2: Wayne Smith 2,661, Kenny Wolfley 2,560."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Conservation Dist Rural Supervisor Vote-For-2: Wayne Smith 2,661, Kenny Wolfley 2,560. Official 2024 Converse clerk, Rural Supervisor: Shelly Falkenburg 4,241, J.B. Wollen 1,489."
+        },
+        {
+          "office": "Senior Citizens Service District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Cindy Sheridan",
+              "person_id": "WY-SHERIDAN-CINDY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/cindy-sheridan.html",
+              "notes": "Official 2024 Converse clerk, Senior Citizen Trustee Vote-For-3: Cindy Sheridan 4,370, Carolyn Lehner 3,806, J.B. Wollen 3,194."
+            },
+            {
+              "name": "Carolyn Lehner",
+              "person_id": "WY-LEHNER-CAROLYN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/carolyn-lehner.html",
+              "notes": "Official 2024 Converse clerk, Senior Citizen Trustee Vote-For-3: Cindy Sheridan 4,370, Carolyn Lehner 3,806, J.B. Wollen 3,194."
+            },
+            {
+              "name": "J.B. Wollen",
+              "person_id": "WY-WOLLEN-JB",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/j-b-wollen.html",
+              "notes": "Official 2024 Converse clerk, Senior Citizen Trustee Vote-For-3: Cindy Sheridan 4,370, Carolyn Lehner 3,806, J.B. Wollen 3,194."
+            },
+            {
+              "name": "Jaci Benge",
+              "person_id": "WY-BENGE-JACI",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jaci-benge.html",
+              "notes": "Official 2026 Converse clerk, Senior Citizens Service Dist Trustee Vote-For-2: Jaci Benge 2,185, Tim Ricker 2,175, Don Luhrsen 1,334."
+            },
+            {
+              "name": "Tim Ricker",
+              "person_id": "WY-RICKER-TIM",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/tim-ricker.html",
+              "notes": "Official 2026 Converse clerk, Senior Citizens Service Dist Trustee Vote-For-2: Jaci Benge 2,185, Tim Ricker 2,175."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Senior Citizens Service Dist Trustee Vote-For-2: Jaci Benge 2,185, Tim Ricker 2,175, Don Luhrsen 1,334. Official 2026 Converse clerk, Senior Citizens Service Dist Trustee Vote-For-2: Jaci Benge 2,185, Tim Ricker 2,175."
+        },
+        {
+          "office": "Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lynn Dampman",
+              "person_id": "WY-DAMPMAN-LYNN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/lynn-dampman.html",
+              "notes": "Official 2024 Converse clerk, Cemetery District Trustee Vote-For-3: Robert Nunn 1,222, Victor N. Ohman 1,188, Lynn Dampman 1,172."
+            },
+            {
+              "name": "Robert Nunn",
+              "person_id": "WY-NUNN-ROBERT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/robert-nunn.html",
+              "notes": "Official 2024 Converse clerk, Cemetery District Trustee Vote-For-3: Robert Nunn 1,222, Victor N. Ohman 1,188, Lynn Dampman 1,172."
+            },
+            {
+              "name": "Victor N. Ohman",
+              "person_id": "WY-OHMAN-VICTOR-N",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/victor-n-ohman.html",
+              "notes": "Official 2024 Converse clerk, Cemetery District Trustee Vote-For-3: Robert Nunn 1,222, Victor N. Ohman 1,188, Lynn Dampman 1,172."
+            },
+            {
+              "name": "Sally J. Downs",
+              "person_id": "WY-DOWNS-SALLY-J",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/sally-j-downs.html",
+              "notes": "Official 2026 Converse clerk, Cemetery District Trustee Vote-For-1: Sally J. Downs 563, Michael Colling 336, John H. Dehler 220. Official 2026 Cemetery District Trustee 2-year was write-in-only (173 votes, many split spellings) and is left unfilled."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Cemetery District Trustee Vote-For-1: Sally J. Downs 563, Michael Colling 336, John H. Dehler 220. Official 2026 Cemetery District Trustee 2-year was write-in-only (173 votes, many split spellings) and is left unfilled. Official 2024 Converse clerk, Cemetery District Trustee Vote-For-3: Robert Nunn 1,222, Victor N. Ohman 1,188, Lynn Dampman 1,172."
+        },
+        {
+          "office": "Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Sean Gowing",
+              "person_id": "WY-GOWING-SEAN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/sean-gowing.html",
+              "notes": "Official 2026 Converse clerk, Hospital District Trustee Vote-For-3: Sean Gowing 915, write-in totals 91 (top itemized write-in Roy Kincaid 18). Only the named candidate is seated; the other two Vote-For-3 seats are left unfilled. Official 2024 hospital Vote-For-2 was write-in totals 194 with no official named certified winner and is left unfilled."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Hospital District Trustee Vote-For-3: Sean Gowing 915, write-in totals 91 (top itemized write-in Roy Kincaid 18). Only the named candidate is seated; the other two Vote-For-3 seats are left unfilled. Official 2024 hospital Vote-For-2 was write-in totals 194 with no official named certified winner and is left unfilled."
+        },
+        {
+          "office": "Hospital District Trustee, 2-year",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Karie Moulton",
+              "person_id": "WY-MOULTON-KARIE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/karie-moulton.html",
+              "notes": "Official 2026 Converse clerk, Hospital District Trustee 2-year Vote-For-1: Karie Moulton 1,020."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Hospital District Trustee 2-year Vote-For-1: Karie Moulton 1,020."
+        },
+        {
+          "office": "Sundance Meadows Special Improvement District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "James C. Cobb",
+              "person_id": "WY-COBB-JAMES-C",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/james-c-cobb.html",
+              "notes": "Official 2026 Converse clerk, Sundance Meadows Special Improv Dist Vote-For-2: James C Cobb 213, Leslie C Collins 212. Official 2026 2-year contest was write-in totals 23, Not Assigned 23, and is left unfilled."
+            },
+            {
+              "name": "Leslie C. Collins",
+              "person_id": "WY-COLLINS-LESLIE-C",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/leslie-c-collins.html",
+              "notes": "Official 2026 Converse clerk, Sundance Meadows Special Improv Dist Vote-For-2: James C Cobb 213, Leslie C Collins 212."
+            }
+          ],
+          "note": "Official 2026 Converse clerk, Sundance Meadows Special Improv Dist Vote-For-2: James C Cobb 213, Leslie C Collins 212. Official 2026 2-year contest was write-in totals 23, Not Assigned 23, and is left unfilled. Official 2026 Converse clerk, Sundance Meadows Special Improv Dist Vote-For-2: James C Cobb 213, Leslie C Collins 212."
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "label": "Judicial",
+      "offices": [
+        {
+          "office": "District Judge, 8th Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "F. Scott Peasley",
+              "person_id": "WY-PEASLEY-F-SCOTT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/f-scott-peasley.html",
+              "notes": "Official Wyoming Judicial Branch 8th JD Converse District Court page: Hon. F. Scott Peasley, appointed August 2017, retained November 2024, term expires January 2031. Official 2024 Converse clerk DISTRICT COURT - PEASLEY: YES 5,205, NO 925. Start day is the first of the official appointment month (the official court page gives the month only)."
+            },
+            {
+              "name": "Edward A. Buchanan",
+              "person_id": "WY-BUCHANAN-EDWARD-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/edward-a-buchanan.html",
+              "notes": "Official Wyoming Judicial Branch 8th JD Converse District Court page: Hon. Edward A. Buchanan, appointed September 2022, retained November 2024, term expires January 2031. Official 2024 Converse clerk DISTRICT COURT - BUCHANAN: YES 4,784, NO 978. Start day is the first of the official appointment month."
+            }
+          ],
+          "note": "Official Wyoming Judicial Branch 8th JD Converse District Court page: Hon. F. Scott Peasley, appointed August 2017, retained November 2024, term expires January 2031. Official 2024 Converse clerk DISTRICT COURT - PEASLEY: YES 5,205, NO 925. Start day is the first of the official appointment month (the official court page gives the month only). Official Wyoming Judicial Branch 8th JD Converse District Court page: Hon. Edward A. Buchanan, appointed September 2022, retained November 2024, term expires January 2031. Official 2024 Converse clerk DISTRICT COURT - BUCHANAN: YES 4,784, NO 978. Start day is the first of the official appointment month."
+        },
+        {
+          "office": "Circuit Judge, 8th Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Clark C. Allan",
+              "person_id": "WY-ALLAN-CLARK-C",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/clark-c-allan.html",
+              "notes": "Official 2026 Converse clerk RETAIN JUDGE CLARK C. ALLAN: YES 2,932, NO 822."
+            },
+            {
+              "name": "Jacqueline K. Brown",
+              "person_id": "WY-BROWN-JACQUELINE-K",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jacqueline-k-brown.html",
+              "notes": "Official 2026 Converse clerk RETAIN JUDGE JACQUELINE K. BROWN: YES 2,893, NO 799. Official 2026 Converse clerk also has RETAIN JUDGE BEN BURNINGHAM (YES 2,823, NO 841); that is the statewide Chancery Court retention copied from the shared judicial terms, not a local 8th JD seat."
+            }
+          ],
+          "note": "Official 2026 Converse clerk RETAIN JUDGE CLARK C. ALLAN: YES 2,932, NO 822. Official Wyoming Judicial Branch 8th JD Goshen (Torrington) Circuit Court page: Hon. Jacqueline K. Brown, appointed July 2025, term expires January 2027, stands for retention November 2026. Official Judicial Branch robing notice lists her as Circuit Court Judge of the 8th JD (Converse, Goshen, Niobrara, and Platte Counties). Start day is the first of the official appointment month."
         }
       ]
     },
@@ -1332,8 +1831,10 @@
     }
   ],
   "sources": {
-    "general_results": "https://www.conversecountywy.gov/DocumentCenter/View/6589/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT",
-    "primary_results": "https://conversecountywy.gov/DocumentCenter/View/6486/2026-OFFICIAL-RESULTS-ELECTION-SUMMARY-REPORT",
-    "checked": "2026-11-19"
+    "general_results": "https://conversecountywy.gov/DocumentCenter/View/6589",
+    "primary_results": "https://conversecountywy.gov/DocumentCenter/View/6486",
+    "clerk_archive": "https://www.conversecountywy.gov/187/Elections",
+    "checked": "2026-11-24",
+    "local_archive": "/workspace/wyoleg/local-results/converse/SOURCES.md"
   }
 }

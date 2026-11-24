@@ -2,7 +2,7 @@
   "county": "Campbell",
   "county_number": 17,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_17_Campbell_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -11,99 +11,96 @@
     {
       "id": "state-senate",
       "title": "State Senate",
+      "sort_key": "C",
       "offices": [
         {
           "office": "Senate District 1 (S01)",
           "layout": "office-and-name",
-          "note": "Also covers Crook and Weston.",
+          "sort_key": "C01",
+          "note": "Official 2026 SOS statewide Senate summary, Senate District 1: Ogden Driskill (R) Total 5,107. Official Campbell share 1,858; official Crook share 2,313; official Weston share 936. Official 2022 SOS: Ogden Driskill (R) Total 4,785. Official Campbell share 1,937; official Crook share 2,029; official Weston share 819. Also covers Crook and Weston. Official SOS district-wide totals are used for this multi-county seat. Re-elected 2026; new term begins January 2027.",
           "holders": [
             {
               "name": "Ogden Driskill",
+              "person_id": "WY-DRISKILL-OGDEN",
+              "party": "R",
               "sources": [
                 {
                   "label": "Wyoming Legislature member page",
                   "url": "https://www.wyoleg.gov/Legislators/2026/S/1972"
                 },
                 {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_17_Campbell_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, S01, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
                 }
               ],
-              "party": "R",
-              "href": "officials/driskill.html"
+              "confidence": "high",
+              "href": "candidates/local-history/c/ogden-driskill.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official SOS Total 5,107; official Campbell share 1,858. New term begins January 2027."
             }
           ]
         },
         {
           "office": "Senate District 23 (S23)",
           "layout": "office-and-name",
+          "sort_key": "C02",
           "holders": [
             {
               "name": "Eric Barlow",
+              "person_id": "WY-BARLOW-ERIC",
+              "party": "R",
               "sources": [
                 {
                   "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1995"
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2030"
                 },
                 {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_17_Campbell_113_v1.1.pdf"
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "href": "candidates/local-history/c/eric-barlow.html",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Abby Angelos",
-                "party": "R",
+                "person_id": "WY-ANGELOS-ABBY",
+                "party": "",
                 "takes_office": "January",
+                "term_end": "January 2031",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, S23",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
                   }
-                ]
-              },
-              "href": "officials/barlow.html"
+                ],
+                "href": "candidates/local-history/c/abby-angelos.html"
+              }
             }
           ]
         },
         {
           "office": "Senate District 24 (S24)",
           "layout": "office-and-name",
+          "sort_key": "C03",
           "holders": [
             {
-              "name": "Troy McKeown",
+              "name": "Troy D. McKeown",
+              "person_id": "WY-MCKEOWN-TROY",
+              "party": "R",
               "sources": [
                 {
                   "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2069"
+                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2076"
                 },
                 {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_17_Campbell_113_v1.1.pdf"
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
                 }
               ],
-              "party": "R",
-              "href": "officials/mckeown.html"
+              "confidence": "high",
+              "href": "candidates/local-history/c/troy-d-mckeown.html",
+              "term_end": "January 2029"
             }
           ]
         }
@@ -112,183 +109,154 @@
     {
       "id": "state-house",
       "title": "State House",
+      "sort_key": "D",
       "offices": [
         {
           "office": "House District 3 (H03)",
           "layout": "office-and-name",
+          "sort_key": "D01",
           "holders": [
             {
               "name": "Abby Angelos",
+              "person_id": "WY-ANGELOS-ABBY",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2091"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_17_Campbell_113_v1.1.pdf"
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "href": "candidates/local-history/c/abby-angelos.html",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Earl Collier",
-                "party": "R",
+                "person_id": "WY-COLLIER-EARL",
+                "party": "",
                 "takes_office": "January",
+                "term_end": "January 2029",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, H03",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
                   }
-                ]
-              },
-              "href": "officials/angelos.html"
+                ],
+                "href": "candidates/local-history/c/earl-collier.html"
+              }
             }
           ]
         },
         {
           "office": "House District 31 (H31)",
           "layout": "office-and-name",
+          "sort_key": "D02",
           "holders": [
             {
               "name": "John Bear",
+              "person_id": "WY-BEAR-JOHN",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2075"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_17_Campbell_113_v1.1.pdf"
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "href": "candidates/local-history/c/john-bear.html",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Douglas Moore",
-                "party": "R",
+                "person_id": "WY-MOORE-DOUGLAS",
+                "party": "",
                 "takes_office": "January",
+                "term_end": "January 2029",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, H31",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
                   }
-                ]
-              },
-              "href": "officials/bear.html"
+                ],
+                "href": "candidates/local-history/c/douglas-moore.html"
+              }
             }
           ]
         },
         {
           "office": "House District 32 (H32)",
           "layout": "office-and-name",
+          "sort_key": "D03",
           "holders": [
             {
               "name": "Ken Clouston",
+              "person_id": "WY-CLOUSTON-KEN",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2104"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_17_Campbell_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H32, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
                 }
               ],
-              "party": "R",
-              "href": "officials/clouston.html"
+              "confidence": "high",
+              "href": "candidates/local-history/c/ken-clouston.html",
+              "term_end": "January 2029",
+              "notes": "Re-elected 2026; official Campbell 2026 general, TOTAL 2,124."
             }
           ]
         },
         {
           "office": "House District 52 (H52)",
           "layout": "office-and-name",
+          "sort_key": "D04",
           "holders": [
             {
               "name": "Reuben Tarver",
+              "person_id": "WY-TARVER-REUBEN",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2112"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_17_Campbell_113_v1.1.pdf"
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
                 }
               ],
-              "party": "R",
+              "confidence": "high",
+              "href": "candidates/local-history/c/reuben-tarver.html",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Ronda Boller",
-                "party": "R",
+                "person_id": "WY-BOLLER-RONDA",
+                "party": "",
                 "takes_office": "January",
+                "term_end": "January 2029",
                 "sources": [
                   {
-                    "label": "Wyoming SOS official general results, H52",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
                   }
-                ]
-              },
-              "href": "officials/tarver.html"
+                ],
+                "href": "candidates/local-history/c/ronda-boller.html"
+              }
             }
           ]
         },
         {
           "office": "House District 53 (H53)",
           "layout": "office-and-name",
+          "sort_key": "D05",
           "holders": [
             {
               "name": "Christopher Knapp",
+              "person_id": "WY-KNAPP-CHRISTOPHER",
+              "party": "R",
               "sources": [
                 {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2086"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_17_Campbell_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H53, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
                 }
               ],
-              "party": "R",
-              "ballot_name": "Christopher R Knapp",
-              "href": "officials/knapp.html"
+              "confidence": "high",
+              "href": "candidates/local-history/c/christopher-knapp.html",
+              "term_end": "January 2029",
+              "notes": "Re-elected 2026; official Campbell 2026 general, TOTAL 1,407."
             }
           ]
         }
@@ -297,13 +265,16 @@
     {
       "id": "county",
       "title": "County Offices",
+      "sort_key": "E",
       "offices": [
         {
           "office": "County Commissioners",
           "layout": "heading-then-names",
+          "sort_key": "E01",
           "holders": [
             {
               "name": "Bob Jordan",
+              "person_id": "WY-JORDAN-BOB",
               "party": "R",
               "sources": [
                 {
@@ -311,13 +282,17 @@
                   "url": "https://www.campbellcountywy.gov/165/County-Commissioners"
                 },
                 {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/campbell.html"
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/bob-jordan.html",
+              "term_end": "January 2029"
             },
             {
-              "name": "Jerry Means",
+              "name": "Jerry R. Means",
+              "person_id": "WY-MEANS-JERRY",
               "party": "R",
               "sources": [
                 {
@@ -325,13 +300,17 @@
                   "url": "https://www.campbellcountywy.gov/165/County-Commissioners"
                 },
                 {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/campbell.html"
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/jerry-r-means.html",
+              "term_end": "January 2029"
             },
             {
               "name": "Jim Ford",
+              "person_id": "WY-FORD-JIM",
               "party": "R",
               "sources": [
                 {
@@ -339,21 +318,22 @@
                   "url": "https://www.campbellcountywy.gov/165/County-Commissioners"
                 },
                 {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/campbell.html"
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
                 },
                 {
-                  "label": "Campbell County official general results, re-elected",
+                  "label": "Campbell County official 2026 general results",
                   "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/jim-ford.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 7,754."
             },
             {
               "name": "Kelley McCreery",
+              "person_id": "WY-MCCREERY-KELLEY",
               "party": "R",
               "sources": [
                 {
@@ -361,28 +341,31 @@
                   "url": "https://www.campbellcountywy.gov/165/County-Commissioners"
                 },
                 {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/campbell.html"
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
                 }
               ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/kelley-mccreery.html",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Sarah Farmer Edwards",
-                "party": "R",
+                "person_id": "WY-EDWARDS-SARAH-CAMPBELL",
+                "party": "",
                 "takes_office": "January",
+                "term_end": "January 2031",
                 "sources": [
                   {
-                    "label": "Campbell County official general results, County Commissioner",
+                    "label": "Campbell County official 2026 general results",
                     "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
                   }
-                ]
+                ],
+                "href": "candidates/local-history/c/sarah-farmer-edwards.html"
               }
             },
             {
               "name": "Scott Clem",
+              "person_id": "WY-CLEM-SCOTT",
               "party": "R",
               "sources": [
                 {
@@ -390,77 +373,78 @@
                   "url": "https://www.campbellcountywy.gov/165/County-Commissioners"
                 },
                 {
-                  "label": "Campbell County official general results, re-elected",
-                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                  "label": "County 17, August 22, 2024: Scott Clem selected to finish Roy \u201cButch\u201d Knutson\u2019s commissioner term after Knutson\u2019s August 1 resignation; sworn August 23, 2024",
+                  "url": "https://county17.com/2024/08/22/scott-clem-tapped-for-vacant-county-commissioner-seat/"
                 },
                 {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
+                  "label": "Gillette News Record, August 22, 2024: Scott Clem chosen to fill vacant commissioner seat",
+                  "url": "https://www.gillettenewsrecord.com/news/local/article_3cdae7d7-4194-5b28-b120-d4879430f352.html"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
                 }
               ],
-              "notes": "Listed on the county commissioners page with a term ending this cycle (seat formerly held by Butch Knutson). Elected to a full term in the latest general."
+              "confidence": "high",
+              "href": "candidates/local-history/c/scott-clem.html",
+              "term_end": "January 2031",
+              "notes": "Appointed August 23, 2024 to finish Roy \u201cButch\u201d Knutson, Jr.\u2019s term after the August 1 resignation; elected November 2026 to a new term beginning January 2027."
             }
           ]
         },
         {
           "office": "County Clerk",
           "layout": "office-and-name",
+          "sort_key": "E02",
           "holders": [
             {
               "name": "Cindy J. Lovelace",
+              "person_id": "WY-LOVELACE-CINDY",
               "party": "R",
               "sources": [
                 {
-                  "label": "Campbell County clerk page",
-                  "url": "https://www.campbellcountywy.gov/163/County-Clerk"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/campbell.html"
-                },
-                {
-                  "label": "Campbell County official general results, re-elected",
+                  "label": "Campbell County official 2026 general results",
                   "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/cindy-j-lovelace.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 9,743."
             }
           ]
         },
         {
           "office": "County Treasurer",
           "layout": "office-and-name",
+          "sort_key": "E03",
           "holders": [
             {
               "name": "Rachael Knust",
+              "person_id": "WY-KNUST-RACHAEL",
               "party": "R",
               "sources": [
                 {
-                  "label": "Campbell County treasurer page",
-                  "url": "https://www.campbellcountywy.gov/309/Treasurer"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/campbell.html"
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
                 }
               ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/rachael-knust.html",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Crystal Conley",
-                "party": "R",
+                "person_id": "WY-CONLEY-CRYSTAL",
+                "party": "",
                 "takes_office": "January",
+                "term_end": "January 2031",
                 "sources": [
                   {
-                    "label": "Campbell County official general results, County Treasurer",
+                    "label": "Campbell County official 2026 general results",
                     "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
                   }
-                ]
+                ],
+                "href": "candidates/local-history/c/crystal-conley.html"
               }
             }
           ]
@@ -468,34 +452,34 @@
         {
           "office": "County Assessor",
           "layout": "office-and-name",
+          "sort_key": "E04",
           "holders": [
             {
               "name": "Troy D. Clements",
+              "person_id": "WY-CLEMENTS-TROY",
               "party": "R",
               "sources": [
                 {
-                  "label": "Campbell County assessor page",
-                  "url": "https://www.campbellcountywy.gov/420/Assessor"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/campbell.html"
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
                 }
               ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/troy-d-clements.html",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Erin Slattery",
-                "party": "R",
+                "person_id": "WY-SLATTERY-ERIN",
+                "party": "",
                 "takes_office": "January",
+                "term_end": "January 2031",
                 "sources": [
                   {
-                    "label": "Campbell County official general results, County Assessor",
+                    "label": "Campbell County official 2026 general results",
                     "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
                   }
-                ]
+                ],
+                "href": "candidates/local-history/c/erin-slattery.html"
               }
             }
           ]
@@ -503,34 +487,34 @@
         {
           "office": "County Sheriff",
           "layout": "office-and-name",
+          "sort_key": "E05",
           "holders": [
             {
               "name": "Scott D. Matheny",
+              "person_id": "WY-MATHENY-SCOTT",
               "party": "R",
               "sources": [
                 {
-                  "label": "Campbell County sheriff page",
-                  "url": "https://www.campbellcountywy.gov/186/Sheriffs-Office"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/campbell.html"
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
                 }
               ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/scott-d-matheny.html",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Dan Maul",
-                "party": "R",
+                "person_id": "WY-MAUL-DAN",
+                "party": "",
                 "takes_office": "January",
+                "term_end": "January 2031",
                 "sources": [
                   {
-                    "label": "Campbell County official general results, County Sheriff",
+                    "label": "Campbell County official 2026 general results",
                     "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
                   }
-                ]
+                ],
+                "href": "candidates/local-history/c/dan-maul.html"
               }
             }
           ]
@@ -538,34 +522,34 @@
         {
           "office": "County Attorney",
           "layout": "office-and-name",
+          "sort_key": "E06",
           "holders": [
             {
               "name": "Nathan Henkes",
+              "person_id": "WY-HENKES-NATHAN",
               "party": "R",
               "sources": [
                 {
-                  "label": "Campbell County attorney page",
-                  "url": "https://www.campbellcountywy.gov/135/County-Attorney"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/campbell.html"
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
                 }
               ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/nathan-henkes.html",
+              "term_end": "January 2027",
               "succeeding": {
                 "name": "Kyle Ferris",
-                "party": "R",
+                "person_id": "WY-FERRIS-KYLE",
+                "party": "",
                 "takes_office": "January",
+                "term_end": "January 2031",
                 "sources": [
                   {
-                    "label": "Campbell County official general results, County Attorney",
+                    "label": "Campbell County official 2026 general results",
                     "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
                   }
-                ]
+                ],
+                "href": "candidates/local-history/c/kyle-ferris.html"
               }
             }
           ]
@@ -573,56 +557,44 @@
         {
           "office": "Clerk of District Court",
           "layout": "office-and-name",
+          "sort_key": "E07",
           "holders": [
             {
               "name": "Pamela Merchen",
+              "person_id": "WY-MERCHEN-PAMELA",
               "party": "R",
               "sources": [
                 {
-                  "label": "Campbell County clerk of district court page",
-                  "url": "https://www.campbellcountywy.gov/166/Clerk-of-District-Court"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/campbell.html"
-                },
-                {
-                  "label": "Campbell County official general results, re-elected",
+                  "label": "Campbell County official 2026 general results",
                   "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/pamela-merchen.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 9,671."
             }
           ]
         },
         {
           "office": "County Coroner",
           "layout": "office-and-name",
+          "sort_key": "E08",
           "holders": [
             {
               "name": "Paul Wallem",
+              "person_id": "WY-WALLEM-PAUL",
               "party": "R",
               "sources": [
                 {
-                  "label": "Campbell County coroner page",
-                  "url": "https://www.campbellcountywy.gov/421/Coroner"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/campbell.html"
-                },
-                {
-                  "label": "Campbell County official general results, re-elected",
+                  "label": "Campbell County official 2026 general results",
                   "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
                 }
-              ]
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/paul-wallem.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 10,165."
             }
           ]
         }
@@ -2914,11 +2886,950 @@
           ]
         }
       ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "sort_key": "F",
+      "note": "The City of Gillette and the Town of Wright appear on the official Campbell County November general ballot. No Gillette Ward 2 contest appears on the official 2024 general, so the second Ward 2 seat whose ordinary term ended January 2025 is not named. Doug Schrader holds a 2024 Wright council term but takes office as mayor in January 2027; a replacement for the remainder of that council term is not named on the official 2026 general.",
+      "offices": [
+        {
+          "office": "Gillette Mayor",
+          "layout": "office-and-name",
+          "sort_key": "F01",
+          "holders": [
+            {
+              "name": "Shay Lundvall",
+              "person_id": "WY-LUNDVALL-SHAY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/shay-lundvall.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 3,585."
+            }
+          ]
+        },
+        {
+          "office": "Gillette Council Ward 1",
+          "layout": "heading-then-names",
+          "sort_key": "F02",
+          "holders": [
+            {
+              "name": "Jim West",
+              "person_id": "WY-WEST-JIM-GILLETTE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/jim-west.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 1,189."
+            },
+            {
+              "name": "Chris Smith",
+              "person_id": "WY-SMITH-CHRIS-GILLETTE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/chris-smith.html",
+              "term_end": "January 2029"
+            }
+          ]
+        },
+        {
+          "office": "Gillette Council Ward 2",
+          "layout": "heading-then-names",
+          "sort_key": "F03",
+          "holders": [
+            {
+              "name": "Tim Carsrud",
+              "person_id": "WY-CARSRUD-TIM",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/tim-carsrud.html",
+              "term_end": "January 2027",
+              "notes": "No second Ward 2 contest appears on the official 2024 general.",
+              "succeeding": {
+                "name": "Eric Scott",
+                "person_id": "WY-SCOTT-ERIC-GILLETTE",
+                "party": "",
+                "takes_office": "January",
+                "term_end": "January 2031",
+                "sources": [
+                  {
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                  }
+                ],
+                "href": "candidates/local-history/c/eric-scott.html"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Gillette Council Ward 3",
+          "layout": "heading-then-names",
+          "sort_key": "F04",
+          "holders": [
+            {
+              "name": "Heidi Gross",
+              "person_id": "WY-GROSS-HEIDI",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/heidi-gross.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 1,398."
+            },
+            {
+              "name": "Nathan McLeland",
+              "person_id": "WY-MCLELAND-NATHAN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/nathan-mcleland.html",
+              "term_end": "January 2029"
+            }
+          ]
+        },
+        {
+          "office": "Wright Mayor",
+          "layout": "office-and-name",
+          "sort_key": "F05",
+          "holders": [
+            {
+              "name": "Ralph Kingan",
+              "person_id": "WY-KINGAN-RALPH",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/ralph-kingan.html",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Doug Schrader",
+                "person_id": "WY-SCHRADER-DOUG",
+                "party": "",
+                "takes_office": "January",
+                "term_end": "January 2031",
+                "sources": [
+                  {
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                  }
+                ],
+                "href": "candidates/local-history/c/doug-schrader.html"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Wright Town Council",
+          "layout": "heading-then-names",
+          "sort_key": "F06",
+          "holders": [
+            {
+              "name": "Michael Phipps",
+              "person_id": "WY-PHIPPS-MICHAEL",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/michael-phipps.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 189."
+            },
+            {
+              "name": "Justin Robb",
+              "person_id": "WY-ROBB-JUSTIN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/justin-robb.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 223."
+            },
+            {
+              "name": "Jason Lembke",
+              "person_id": "WY-LEMBKE-JASON",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/jason-lembke.html",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Doug Schrader",
+              "person_id": "WY-SCHRADER-DOUG",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/doug-schrader.html",
+              "term_end": "January 2027",
+              "notes": "Elected to council in 2024 (term would otherwise run to January 2029) and elected mayor in 2026; a replacement for the remainder of this council term is not named on the official 2026 general."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "sort_key": "G",
+      "note": "Campbell County School District. Three trustees were elected in 2022 (terms end January 2027) and three in 2026. Four trustees were elected in 2020 to terms that ended January 2025; no school-board contest appears on the official 2024 general summary, so later holders of those seats are not named.",
+      "offices": [
+        {
+          "office": "Campbell County School District",
+          "layout": "heading-then-names",
+          "sort_key": "G01",
+          "holders": [
+            {
+              "name": "Rollo Williams",
+              "person_id": "WY-WILLIAMS-ROLLO",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/rollo-williams.html",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Darcy Gillaspy",
+                "person_id": "WY-GILLASPY-DARCY",
+                "party": "",
+                "takes_office": "January",
+                "term_end": "January 2031",
+                "sources": [
+                  {
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                  }
+                ],
+                "href": "candidates/local-history/c/darcy-gillaspy.html"
+              }
+            },
+            {
+              "name": "Tim Hallinan",
+              "person_id": "WY-HALLINAN-TIM",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/tim-hallinan.html",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Tim Albin",
+                "person_id": "WY-ALBIN-TIM",
+                "party": "",
+                "takes_office": "January",
+                "term_end": "January 2031",
+                "sources": [
+                  {
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                  }
+                ],
+                "href": "candidates/local-history/c/tim-albin.html"
+              }
+            },
+            {
+              "name": "Joe Lawrence",
+              "person_id": "WY-LAWRENCE-JOE",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/joe-lawrence.html",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Billie Fitch Wilkerson",
+                "person_id": "WY-WILKERSON-BILLIE-FITCH",
+                "party": "",
+                "takes_office": "January",
+                "term_end": "January 2031",
+                "sources": [
+                  {
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                  }
+                ],
+                "href": "candidates/local-history/c/billie-fitch-wilkerson.html"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "sort_key": "H",
+      "note": "The official 2026 Conservation District rural and at-large contests were write-in only and the official write-in canvass does not certify a named winner (the leading line on both is \u201cNO NAME PROVIDED\u201d). Those two seats, currently held by John Daly (rural) and Kim Kretschman (at-large) through January 2027, are therefore shown without a named successor. The official 2024 Conservation District vote-for-2 contest is not labeled rural, urban, or at-large. The official 2022 Cemetery District vote-for-1 contest (J.D. Jones) does not say unexpired; that term length is uncertain.",
+      "offices": [
+        {
+          "office": "Gillette Community College District",
+          "layout": "heading-then-names",
+          "sort_key": "H01",
+          "holders": [
+            {
+              "name": "Tracy Wasserburger",
+              "person_id": "WY-WASSERBURGER-TRACY",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/tracy-wasserburger.html",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Josh McGrath",
+              "person_id": "WY-MCGRATH-JOSH",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/josh-mcgrath.html",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Nello Williams",
+              "person_id": "WY-WILLIAMS-NELLO",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/nello-williams.html",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Robert Palmer",
+              "person_id": "WY-PALMER-ROBERT-GCC",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/robert-palmer.html",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Teri Anderson",
+              "person_id": "WY-ANDERSON-TERI",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/teri-anderson.html",
+              "term_end": "January 2031",
+              "notes": "Also elected in the 2024 vote-for-7; official 2026 general, TOTAL 6,749 (vote for 3)."
+            },
+            {
+              "name": "Larry Smith",
+              "person_id": "WY-SMITH-LARRY-GCC",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/larry-smith.html",
+              "term_end": "January 2031",
+              "notes": "Also elected in the 2024 vote-for-7; official 2026 general, TOTAL 6,611 (vote for 3)."
+            },
+            {
+              "name": "Ellis Day",
+              "person_id": "WY-DAY-ELLIS",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/ellis-day.html",
+              "term_end": "January 2031",
+              "notes": "Also elected in the 2024 vote-for-7; official 2026 general, TOTAL 6,247 (vote for 3)."
+            }
+          ]
+        },
+        {
+          "office": "Campbell County Cemetery District",
+          "layout": "heading-then-names",
+          "sort_key": "H02",
+          "holders": [
+            {
+              "name": "Erik Bergquist",
+              "person_id": "WY-BERGQUIST-ERIK",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/erik-bergquist.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 4,797."
+            },
+            {
+              "name": "Jim Hastings",
+              "person_id": "WY-HASTINGS-JIM",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/jim-hastings.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 4,221."
+            },
+            {
+              "name": "Steven Urman",
+              "person_id": "WY-URMAN-STEVEN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/steven-urman.html",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Roy \u201cButch\u201d Knutson, Jr.",
+                "person_id": "WY-KNUTSON-ROY",
+                "party": "",
+                "takes_office": "January",
+                "term_end": "January 2031",
+                "sources": [
+                  {
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                  }
+                ],
+                "href": "candidates/local-history/c/roy-butch-knutson-jr.html"
+              }
+            },
+            {
+              "name": "J.D. Jones",
+              "person_id": "WY-JONES-JD-CEM",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "medium",
+              "href": "candidates/local-history/c/j-d-jones.html",
+              "term_end": "January 2027",
+              "notes": "Official 2022 general, TOTAL 5,178 (vote for 1). The official title does not say unexpired; term length is uncertain.",
+              "flags": [
+                "term_length_uncertain"
+              ]
+            },
+            {
+              "name": "Dean L. Meyers",
+              "person_id": "WY-MEYERS-DEAN-L",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/dean-l-meyers.html",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Maureen E. Hurley",
+              "person_id": "WY-HURLEY-MAUREEN-E",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/maureen-e-hurley.html",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Dean Vomhof",
+              "person_id": "WY-VOMHOF-DEAN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/dean-vomhof.html",
+              "term_end": "January 2029"
+            }
+          ]
+        },
+        {
+          "office": "Campbell County Conservation District Rural",
+          "layout": "office-and-name",
+          "sort_key": "H03",
+          "holders": [
+            {
+              "name": "John Daly",
+              "person_id": "WY-DALY-JOHN-CCCD",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/john-daly.html",
+              "term_end": "January 2027",
+              "notes": "The official 2026 rural contest was write-in only and the official write-in canvass does not certify a named winner.",
+              "flags": [
+                "write_in_winner_not_named"
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Campbell County Conservation District Urban",
+          "layout": "office-and-name",
+          "sort_key": "H04",
+          "holders": [
+            {
+              "name": "Brandon T. Price",
+              "person_id": "WY-PRICE-BRANDON-T",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/brandon-t-price.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 7,785."
+            }
+          ]
+        },
+        {
+          "office": "Campbell County Conservation District At-large",
+          "layout": "office-and-name",
+          "sort_key": "H05",
+          "holders": [
+            {
+              "name": "Kim Kretschman",
+              "person_id": "WY-KRETSCHMAN-KIM",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/kim-kretschman.html",
+              "term_end": "January 2027",
+              "notes": "The official 2026 at-large contest was write-in only and the official write-in canvass does not certify a named winner.",
+              "flags": [
+                "write_in_winner_not_named"
+              ]
+            }
+          ]
+        },
+        {
+          "office": "Campbell County Conservation District (unlabeled 2024 seats)",
+          "layout": "heading-then-names",
+          "sort_key": "H06",
+          "holders": [
+            {
+              "name": "B.J. Clark",
+              "person_id": "WY-CLARK-BJ",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/b-j-clark.html",
+              "term_end": "January 2029",
+              "notes": "Official 2024 general, 9,767 (vote for 2). The official summary does not label this seat rural, urban, or at-large."
+            },
+            {
+              "name": "Jennifer Sams",
+              "person_id": "WY-SAMS-JENNIFER",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/jennifer-sams.html",
+              "term_end": "January 2029",
+              "notes": "Official 2024 general, 9,689 (vote for 2). The official summary does not label this seat rural, urban, or at-large."
+            }
+          ]
+        },
+        {
+          "office": "Campbell County Hospital District",
+          "layout": "heading-then-names",
+          "sort_key": "H07",
+          "holders": [
+            {
+              "name": "Sara Hartsaw",
+              "person_id": "WY-HARTSAW-SARA",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/sara-hartsaw.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 7,167."
+            },
+            {
+              "name": "Mark S. Hoskinson",
+              "person_id": "WY-HOSKINSON-MARK-S",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/mark-s-hoskinson.html",
+              "term_end": "January 2027",
+              "succeeding": {
+                "name": "Angela Biggs",
+                "person_id": "WY-BIGGS-ANGELA",
+                "party": "",
+                "takes_office": "January",
+                "term_end": "January 2031",
+                "sources": [
+                  {
+                    "label": "Campbell County official 2026 general results",
+                    "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                  }
+                ],
+                "href": "candidates/local-history/c/angela-biggs.html"
+              }
+            },
+            {
+              "name": "Bill Rice",
+              "person_id": "WY-RICE-BILL-HOSP",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/bill-rice.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 5,412."
+            },
+            {
+              "name": "Alan E. Stuber",
+              "person_id": "WY-STUBER-ALAN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2022 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/22574/2022-General-Election"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/alan-e-stuber.html",
+              "term_end": "January 2031",
+              "notes": "Re-elected 2026; official 2026 general, TOTAL 5,465."
+            },
+            {
+              "name": "Tom Murphy",
+              "person_id": "WY-MURPHY-TOM-HOSP",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/tom-murphy.html",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "John Mansell",
+              "person_id": "WY-MANSELL-JOHN",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/john-mansell.html",
+              "term_end": "January 2029"
+            },
+            {
+              "name": "Randal Hite",
+              "person_id": "WY-HITE-RANDAL",
+              "party": "",
+              "sources": [
+                {
+                  "label": "Campbell County official 2024 general results (clerk Official Results listing; file header still reads unofficial)",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/24022/2024-General-Election-"
+                }
+              ],
+              "confidence": "high",
+              "href": "candidates/local-history/c/randal-hite.html",
+              "term_end": "January 2029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention (district and circuit)",
+      "sort_key": "J3",
+      "note": "These judges appeared by name on the Campbell County 2026 general ballot. Retention figures are the official Campbell TOTAL column. Supreme Court justices and the Chancery Court judge are in the shared statewide judicial file. The same 6th Judicial District judges also serve Crook and Weston.",
+      "offices": [
+        {
+          "office": "District Judge, 6th Judicial District",
+          "layout": "office-and-name",
+          "sort_key": "J03",
+          "holders": [
+            {
+              "name": "Michael J. McGrady",
+              "person_id": "WY-MCGRADY-MICHAEL",
+              "href": "officials/judges/michael-j-mcgrady.html",
+              "ballot_name": "MICHAEL J. MCGRADY",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch, District Court, 6th Judicial District",
+                  "url": "https://www.wyocourts.gov/court/district-court-6th-judicial-district-weston-county/"
+                },
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "notes": "Appointed July 2024 (Wyoming Judicial Branch). The same judge is listed for Campbell, Crook, and Weston in the 6th Judicial District.",
+              "retention": {
+                "year": 2026,
+                "yes": 7423,
+                "no": 2114,
+                "yes_pct": "77.83%",
+                "no_pct": "22.17%",
+                "result": "retained",
+                "source": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 6th Judicial District",
+          "layout": "office-and-name",
+          "sort_key": "J04",
+          "holders": [
+            {
+              "name": "Greg Steward",
+              "person_id": "WY-STEWARD-GREG",
+              "href": "officials/judges/greg-r-steward.html",
+              "ballot_name": "GREG STEWARD",
+              "sources": [
+                {
+                  "label": "Campbell County official 2026 general results",
+                  "url": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+                }
+              ],
+              "notes": "The person_id is WY-STEWARD-GREG (already used in the Weston 114 file). Other Steward IDs in the name index are different people.",
+              "retention": {
+                "year": 2026,
+                "yes": 7468,
+                "no": 1874,
+                "yes_pct": "79.94%",
+                "no_pct": "20.06%",
+                "result": "retained",
+                "source": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "sources": {
     "general_results": "https://www.campbellcountywy.gov/DocumentCenter/View/28245/2026-General---Official-Election-Summary-Results",
     "primary_results": "https://www.campbellcountywy.gov/DocumentCenter/View/28020/2026-Primary-Summary-Results-Report",
-    "checked": "2026-11-19"
+    "checked": "2026-11-24",
+    "clerk_archive": "https://www.campbellcountywy.gov/2077/Election-Results",
+    "local_archive": "/workspace/wyoleg/local-results/campbell/SOURCES.md",
+    "notes": "The 2024 general file is listed under Official Results on the clerk page and its county-office totals match the previously tied official extract; the PDF header still reads unofficial. Official 2026 conservation-district rural and at-large write-in winners are not named."
   }
 }

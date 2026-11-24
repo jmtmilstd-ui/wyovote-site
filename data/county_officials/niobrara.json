@@ -2,7 +2,7 @@
   "county": "Niobrara",
   "county_number": 14,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_14_Niobrara_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -10,159 +10,95 @@
   "groups": [
     {
       "id": "state-senate",
-      "title": "State Senate",
+      "title": "State Senate offices",
+      "label": "Wyoming Senate",
       "offices": [
         {
           "office": "Senate District 3 (S03)",
           "layout": "office-and-name",
-          "note": "Also covers Goshen and Weston.",
           "holders": [
             {
-              "name": "Cheri Steinmetz",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2011"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_14_Niobrara_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, S03, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                }
-              ],
+              "name": "Cheri E. Steinmetz",
+              "person_id": "WY-STEINMETZ-CHERI",
               "party": "R",
-              "ballot_name": "Cheri E Steinmetz",
-              "href": "officials/steinmetz.html"
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/cheri-e-steinmetz.html",
+              "notes": "Official 2026 SOS statewide Senate summary, Senate District 3: Cheri E. Steinmetz (R) Total 5,792. Official Niobrara share 808 (official 2026 clerk 808); official Goshen 3,777; official Weston 1,207 (808+3,777+1,207=5,792)."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide Senate summary, Senate District 3: Cheri E. Steinmetz (R) Total 5,792. Official Niobrara share 808. Also covers Goshen and Weston."
         }
       ]
     },
     {
       "id": "state-house",
-      "title": "State House",
+      "title": "State House offices",
+      "label": "Wyoming House",
       "offices": [
         {
           "office": "House District 2 (H02)",
           "layout": "office-and-name",
-          "note": "Also covers Goshen and Weston.",
           "holders": [
             {
               "name": "JD Williams",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2087"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_14_Niobrara_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H02, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
+              "person_id": "WY-WILLIAMS-JD",
               "party": "R",
-              "href": "officials/williams.html"
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jd-williams.html",
+              "notes": "Official 2026 SOS statewide House summary, House District 2: JD Williams (R) Total 2,850. Official Niobrara share 803 (official 2026 clerk 803); official Goshen 839; official Weston 1,208."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary, House District 2: JD Williams (R) Total 2,850. Official Niobrara share 803; official Goshen 839; official Weston 1,208. Official 2022 House District 2 was Allen Slagle (district-wide Total 2,927), not JD Williams."
         }
       ]
     },
     {
       "id": "county",
       "title": "County Offices",
+      "label": "County offices",
       "offices": [
         {
-          "office": "County Commissioners",
+          "office": "County Commissioner",
           "layout": "heading-then-names",
           "holders": [
             {
-              "name": "Elaine Griffith",
+              "name": "Elaine B. Griffith",
+              "person_id": "WY-GRIFFITH-ELAINE-B",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Niobrara County commissioners page",
-                  "url": "https://www.niobraracounty.org/_departments/_commissioners/index.asp"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/niobrara.html"
-                }
-              ],
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/elaine-b-griffith.html",
+              "notes": "Official 2022 general County Commissioner Vote For 2: Patrick Wade (R) 930, Elaine Griffith (R) 875. Official 2026 Vote For 2 elects successors taking office January 2027.",
               "succeeding": {
                 "name": "Kevin H. Baars",
+                "person_id": "WY-BAARS-KEVIN-H",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Niobrara County official general results, County Commissioner",
-                    "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "takes_office": "January"
               }
             },
             {
-              "name": "Patrick Wade",
+              "name": "Patrick H. Wade",
+              "person_id": "WY-WADE-PATRICK-H",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Niobrara County commissioners page",
-                  "url": "https://www.niobraracounty.org/"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/niobrara.html"
-                }
-              ],
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/patrick-h-wade.html",
+              "notes": "Official 2022 general County Commissioner Vote For 2: Patrick Wade (R) 930.",
               "succeeding": {
                 "name": "Tiffany Thurston",
+                "person_id": "WY-THURSTON-TIFFANY",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Niobrara County official general results, County Commissioner",
-                    "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "takes_office": "January"
               }
             },
             {
               "name": "Jeb Hanson",
+              "person_id": "WY-HANSON-JEB",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Niobrara County commissioners page",
-                  "url": "https://www.niobraracounty.org/_departments/_commissioners/index.asp"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/niobrara.html"
-                }
-              ]
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jeb-hanson.html",
+              "notes": "Official 2024 general County Commissioner Vote For 1: Jeb Hanson (R) 1,115. Official commissioners page lists Jeb Hanson as a current commissioner."
             }
           ],
-          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+          "note": "Three-member board. Official commissioners page lists Patrick H. Wade, Chairman; Elaine B. Griffith, Vice Chairman; and Jeb Hanson. Official 2026 Vote For 2 elects Tiffany Thurston (787) and Kevin H. Baars (685), who take office January 2027. Official 2024 Vote For 1 Jeb Hanson (1,115) continues through January 2029."
         },
         {
           "office": "County Clerk",
@@ -170,27 +106,14 @@
           "holders": [
             {
               "name": "Becky L. Freeman",
+              "person_id": "WY-FREEMAN-BECKY-L",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Niobrara County clerk page",
-                  "url": "https://www.niobraracounty.org/"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/niobrara.html"
-                },
-                {
-                  "label": "Niobrara County official general results, re-elected",
-                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/becky-l-freeman.html",
+              "notes": "Official 2026 general County Clerk: Becky L. Freeman 886."
             }
-          ]
+          ],
+          "note": "Official clerk page names Becky Freeman; official 2018/2022/2026 ballots Becky L. Freeman."
         },
         {
           "office": "County Treasurer",
@@ -198,27 +121,14 @@
           "holders": [
             {
               "name": "Keri Thompson",
+              "person_id": "WY-THOMPSON-KERI",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Niobrara County treasurer page",
-                  "url": "https://www.niobraracounty.org/_departments/_treasurer/index.asp"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/niobrara.html"
-                },
-                {
-                  "label": "Niobrara County official general results, re-elected",
-                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/keri-thompson.html",
+              "notes": "Official 2026 general County Treasurer: Keri Thompson 886."
             }
-          ]
+          ],
+          "note": "Official treasurer page names Keri Thompson."
         },
         {
           "office": "County Assessor",
@@ -226,34 +136,20 @@
           "holders": [
             {
               "name": "Teri Stephens",
+              "person_id": "WY-STEPHENS-TERI",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Niobrara County assessor page",
-                  "url": "https://www.niobraracounty.org/_departments/_assessor/index.asp"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/niobrara.html"
-                }
-              ],
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/teri-stephens.html",
+              "notes": "Official 2022 general County Assessor: Teri Stephens (R) 1,009. Official assessor page names TERI STEPHENS. Official 2026 elect Lori A. Himes takes office January 2027.",
               "succeeding": {
                 "name": "Lori A. Himes",
+                "person_id": "WY-HIMES-LORI-A",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Niobrara County official general results, County Assessor",
-                    "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "takes_office": "January"
               }
             }
-          ]
+          ],
+          "note": "Official assessor page names TERI STEPHENS (deputy Lori Himes). Official 2026 general elect Lori A. Himes (819) takes office January 2027."
         },
         {
           "office": "County Sheriff",
@@ -261,24 +157,14 @@
           "holders": [
             {
               "name": "Randy Starkey",
+              "person_id": "WY-STARKEY-RANDY",
               "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/niobrara.html"
-                },
-                {
-                  "label": "Niobrara County official general results, re-elected",
-                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/randy-starkey.html",
+              "notes": "Official 2026 general County Sheriff: Randy Starkey 886."
             }
-          ]
+          ],
+          "note": "Official sheriff page names Sheriff Randy Starkey. Official 2018 sheriff was Cary Gill."
         },
         {
           "office": "County Attorney",
@@ -286,27 +172,14 @@
           "holders": [
             {
               "name": "Anne K. Wasserburger",
+              "person_id": "WY-WASSERBURGER-ANNE-K",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Niobrara County attorney page",
-                  "url": "https://www.niobraracounty.org/_departments/_county_attorney/index.asp"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/niobrara.html"
-                },
-                {
-                  "label": "Niobrara County official general results, re-elected",
-                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/anne-k-wasserburger.html",
+              "notes": "Official 2026 general County Attorney: Anne K. Wasserburger 758."
             }
-          ]
+          ],
+          "note": "Official attorney page names Anne Wasserburger; official ballots Anne K. Wasserburger."
         },
         {
           "office": "Clerk of District Court",
@@ -314,34 +187,20 @@
           "holders": [
             {
               "name": "Chrisanna Lund",
+              "person_id": "WY-LUND-CHRISANNA-K",
               "party": "R",
-              "sources": [
-                {
-                  "label": "Niobrara County clerk of district court page",
-                  "url": "https://www.niobraracounty.org/_departments/_clerk_of_the_district_court/index.asp"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/niobrara.html"
-                }
-              ],
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/chrisanna-lund.html",
+              "notes": "Official 2022 general Clerk of Court: Chrisanna Lund (R) 1,032. Official CDC page names Chrisanna Lund. Official 2026 elect Amber Smith takes office January 2027.",
               "succeeding": {
                 "name": "Amber Smith",
+                "person_id": "WY-SMITH-AMBER",
                 "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Niobrara County official general results, Clerk of District Court",
-                    "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
+                "takes_office": "January"
               }
             }
-          ]
+          ],
+          "note": "Official CDC page names Chrisanna Lund. Official 2026 general elect Amber Smith (881) takes office January 2027."
         },
         {
           "office": "County Coroner",
@@ -349,24 +208,477 @@
           "holders": [
             {
               "name": "Peter W. Pier",
+              "person_id": "WY-PIER-PETER-W",
               "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/niobrara.html"
-                },
-                {
-                  "label": "Niobrara County official general results, re-elected",
-                  "url": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/peter-w-pier.html",
+              "notes": "Official 2026 general County Coroner: Peter W. Pier 897."
             }
-          ]
+          ],
+          "note": "Official coroner page lists Pete Pier; official ballots Peter W. Pier."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "label": "Municipal offices",
+      "offices": [
+        {
+          "office": "Town of Lusk Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Douglas E. Lytle",
+              "person_id": "WY-LYTLE-DOUGLAS-E",
+              "party": "",
+              "term_end": "June 2030",
+              "href": "candidates/local-history/c/douglas-e-lytle.html",
+              "notes": "Official Town of Lusk mayor page, retrieved 2026-11-24, names Mayor Douglas E. Lytle (mayor@townofluskwy.gov) and still prints 'Elected: May, 2022' and 'Term: 4 years'. Official June 2, 2026 council minutes: 'The new council members (Ty Thompson, Chantry Filener, and Thomas Dooper) and the mayor (Douglas E. Lytle) were sworn in.' Official July 7, 2026 minutes still list Mayor Douglas Lytle, who called the meeting to order. Official August 4, September 1, October 6, and November 3, 2026 minutes were called to order and signed by Mayor Pro-Tempore Thomas Dooper, with Lytle not recorded present; no official resignation was found in those official minutes. Official term-end day after the June 2, 2026 swearing is not printed; a four-year mayoral term from that official swearing is taken through June 2030 (medium)."
+            }
+          ],
+          "note": "Official Town of Lusk site is townofluskwy.gov (the older official townoflusk.org site is down). Official mayor page, retrieved 2026-11-24, names Mayor Douglas E. Lytle. Official June 2, 2026 minutes swear him in as mayor. Official July 7, 2026 minutes still list Mayor Douglas Lytle. Official August–November 2026 regular minutes were chaired and signed by Mayor Pro-Tempore Thomas Dooper, with Lytle not recorded present; no official resignation was found in those official minutes."
+        },
+        {
+          "office": "Town of Lusk Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Thomas Dooper",
+              "person_id": "WY-DOOPER-THOMAS",
+              "party": "",
+              "term_end": "June 2030",
+              "href": "candidates/local-history/c/thomas-dooper.html",
+              "notes": "Official June 2, 2026 minutes swear in Thomas Dooper as a new council member. Official council page, retrieved 2026-11-24, lists Councilman Thomas Dooper, Mayor Pro Tempore (the page still also prints Elected May, 2024, Term 2 years, which is the prior official term). Official November 3, 2026 minutes: Mayor Pro-Tempore Thomas Dooper called the meeting to order. Official term-end day after the June 2, 2026 swearing is not printed (medium)."
+            },
+            {
+              "name": "Chantry Filener",
+              "person_id": "WY-FILENER-CHANTRY",
+              "party": "",
+              "term_end": "June 2030",
+              "href": "candidates/local-history/c/chantry-filener.html",
+              "notes": "Official June 2, 2026 minutes swear in Chantry Filener as a new council member. Official council page, retrieved 2026-11-24, lists Councilman Chantry Filener (the page still also prints Elected May, 2022, Term 4 years). Official November 3, 2026 minutes list Council Member Chantry Filener. Official term-end day after the June 2, 2026 swearing is not printed (medium)."
+            },
+            {
+              "name": "Ty Thompson",
+              "person_id": "WY-THOMPSON-TY",
+              "party": "",
+              "term_end": "June 2030",
+              "href": "candidates/local-history/c/ty-thompson.html",
+              "notes": "Official June 2, 2026 minutes swear in Ty Thompson as a new council member. Official council page, retrieved 2026-11-24, has the heading Councilperson: Ty Thompson; the same block also still contains leftover 'Councilperson Vacant (Info Coming Soon)' text, which is not used to drop the official heading or the official June 2 swearing. Official November 3, 2026 minutes list Council Member Ty Thompson. Official term-end day after the June 2, 2026 swearing is not printed (medium)."
+            },
+            {
+              "name": "Neil Holmes",
+              "person_id": "WY-HOLMES-NEIL",
+              "party": "",
+              "term_end": "June 2030",
+              "href": "candidates/local-history/c/neil-holmes.html",
+              "notes": "Official October 6, 2026 minutes: the council appointed 'Niel Holmes' (motion spelling) as a council member in the vacant position; 'Neil Holmes took the oath of office and took his seat with the Council.' Official November 3, 2026 minutes use Neil Holmes. The official council page retrieved 2026-11-24 does not yet list him. Official remainder term-end for that vacant seat was not stated (medium)."
+            }
+          ],
+          "note": "Four-member council (official town code 2-5-100, printed on the official 2024 Town Election page: mayor plus four council persons). Official June 2, 2026 minutes swear in Thomas Dooper, Chantry Filener, and Ty Thompson. Official October 6, 2026 minutes appoint Neil Holmes (motion spelling Niel Holmes; oath and later official minutes use Neil) to a vacant council seat; he took the oath the same day. Official November 3, 2026 minutes: Mayor Pro-Tempore Thomas Dooper and council members Ty Thompson, Chantry Filener, and Neil Holmes. Official council page retrieved 2026-11-24 lists Dooper (Mayor Pro Tempore), Filener, and a Ty Thompson heading, and does not yet list Holmes."
+        },
+        {
+          "office": "Town of Manville Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Richard Ladwig",
+              "person_id": "WY-LADWIG-RICHARD",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/richard-ladwig.html",
+              "notes": "Official Town of Manville About / Meet the Board page, retrieved 2026-11-24: Mayor Richard Ladwig; Vice Mayor Darlene Adams; Board Members Walt (Fred) Krieger, Chuck Sides, and Sean Sides. Clerk/Treasurer Rose Fadness is staff, not seated as an elected holder. Official November county general summaries 2016-2026 do not list municipal mayor or council contests. Official term dates were not found."
+            }
+          ],
+          "note": "Official Town of Manville About / Meet the Board page, retrieved 2026-11-24, names Mayor Richard Ladwig. Official November county generals 2016-2026 do not list Manville mayor or council contests. Official term dates were not found."
+        },
+        {
+          "office": "Town of Manville Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Darlene Adams",
+              "person_id": "WY-ADAMS-DARLENE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/darlene-adams.html",
+              "notes": "Official Town of Manville About / Meet the Board page, retrieved 2026-11-24: Mayor Richard Ladwig; Vice Mayor Darlene Adams; Board Members Walt (Fred) Krieger, Chuck Sides, and Sean Sides. Clerk/Treasurer Rose Fadness is staff, not seated as an elected holder. Official November county general summaries 2016-2026 do not list municipal mayor or council contests. Official term dates were not found. Official page lists Darlene Adams as Vice Mayor."
+            },
+            {
+              "name": "Walt (Fred) Krieger",
+              "person_id": "WY-KRIEGER-WALT-FRED",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/walt-fred-krieger.html",
+              "notes": "Official Town of Manville About / Meet the Board page, retrieved 2026-11-24: Mayor Richard Ladwig; Vice Mayor Darlene Adams; Board Members Walt (Fred) Krieger, Chuck Sides, and Sean Sides. Clerk/Treasurer Rose Fadness is staff, not seated as an elected holder. Official November county general summaries 2016-2026 do not list municipal mayor or council contests. Official term dates were not found."
+            },
+            {
+              "name": "Chuck Sides",
+              "person_id": "WY-SIDES-CHUCK",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/chuck-sides.html",
+              "notes": "Official Town of Manville About / Meet the Board page, retrieved 2026-11-24: Mayor Richard Ladwig; Vice Mayor Darlene Adams; Board Members Walt (Fred) Krieger, Chuck Sides, and Sean Sides. Clerk/Treasurer Rose Fadness is staff, not seated as an elected holder. Official November county general summaries 2016-2026 do not list municipal mayor or council contests. Official term dates were not found."
+            },
+            {
+              "name": "Sean Sides",
+              "person_id": "WY-SIDES-SEAN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/sean-sides.html",
+              "notes": "Official Town of Manville About / Meet the Board page, retrieved 2026-11-24: Mayor Richard Ladwig; Vice Mayor Darlene Adams; Board Members Walt (Fred) Krieger, Chuck Sides, and Sean Sides. Clerk/Treasurer Rose Fadness is staff, not seated as an elected holder. Official November county general summaries 2016-2026 do not list municipal mayor or council contests. Official term dates were not found."
+            }
+          ],
+          "note": "Official Town of Manville About / Meet the Board page, retrieved 2026-11-24: Vice Mayor Darlene Adams; Board Members Walt (Fred) Krieger, Chuck Sides, and Sean Sides. Clerk/Treasurer Rose Fadness is staff and is not seated as an elected holder."
+        },
+        {
+          "office": "Town of Van Tassell Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "Official vantassell.org live response is a park/lander page, not a government roster. Official November county generals 2016-2026 do not list Van Tassell mayor or council contests. Current mayor is not yet collected from an official source."
+        },
+        {
+          "office": "Town of Van Tassell Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "party": "",
+              "term_end": ""
+            }
+          ],
+          "note": "No official Van Tassell council roster was found. Not yet collected."
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "label": "School boards",
+      "offices": [
+        {
+          "office": "Niobrara County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lexie Ashurst",
+              "person_id": "WY-ASHURST-LEXIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/lexie-ashurst.html",
+              "notes": "Official 2026 clerk NCSD 1 TTEE AT-LARGE Vote For 3: Sara Sampers 731, Lexie Ashurst 646, Write-In Totals 289 (the official summary lists write-in Amy Filener 202 plus spelling variants). Spelling variants are not combined here. No official named certified write-in winner was seated for the third seat; that seat stays Not yet collected. An official 2026 Goshen sliver was not found."
+            },
+            {
+              "name": "Amber Smith",
+              "person_id": "WY-SMITH-AMBER-SCHOOL",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/amber-smith-ncsd.html",
+              "notes": "Official 2022 clerk NCSD 1 4 TTEES Vote For 4 (official Niobrara totals): Amber Smith 524, Lexie Ashurst 523, Joyce Hammer 499, Rachel Manning 454. Katie Krein 437 was fifth. An official Goshen sliver or combined 2022 spreadsheet was not found; these are official Niobrara totals, not a confirmed whole-district combined rank.",
+              "succeeding": {
+                "name": "Sara Sampers",
+                "person_id": "WY-SAMPERS-SARA",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Joyce Hammer",
+              "person_id": "WY-HAMMER-JOYCE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/joyce-hammer.html",
+              "notes": "Official 2022 clerk NCSD 1 4 TTEES Vote For 4 (official Niobrara totals): Amber Smith 524, Lexie Ashurst 523, Joyce Hammer 499, Rachel Manning 454. Katie Krein 437 was fifth. An official Goshen sliver or combined 2022 spreadsheet was not found; these are official Niobrara totals, not a confirmed whole-district combined rank."
+            },
+            {
+              "name": "Rachel Manning",
+              "person_id": "WY-MANNING-RACHEL",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/rachel-manning.html",
+              "notes": "Official 2022 clerk NCSD 1 4 TTEES Vote For 4 (official Niobrara totals): Amber Smith 524, Lexie Ashurst 523, Joyce Hammer 499, Rachel Manning 454. Katie Krein 437 was fifth. An official Goshen sliver or combined 2022 spreadsheet was not found; these are official Niobrara totals, not a confirmed whole-district combined rank."
+            },
+            {
+              "name": "Lisa Pischel",
+              "person_id": "WY-PISCHEL-LISA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/lisa-pischel.html",
+              "notes": "Official 2024 NCSD #1 trustees spreadsheet combining official Niobrara and official Goshen results, Vote For 5 four-year term: Lisa Pischel 753 (Niobrara 744, Goshen 9), Taylor Barnette 742 (726+16), Jeremy Nelson 628 (613+15), Cheryl Lund 601 (591+10), Wesley Vetter 586 (570+16). Katie Kruse 583 (576+7) was sixth. Official 2024 clerk summary prints the Niobrara share only and instructs that Goshen County results must be combined (see official spreadsheet)."
+            },
+            {
+              "name": "Taylor Barnette",
+              "person_id": "WY-BARNETTE-TAYLOR",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/taylor-barnette.html",
+              "notes": "Official 2024 NCSD #1 trustees spreadsheet combining official Niobrara and official Goshen results, Vote For 5 four-year term: Lisa Pischel 753 (Niobrara 744, Goshen 9), Taylor Barnette 742 (726+16), Jeremy Nelson 628 (613+15), Cheryl Lund 601 (591+10), Wesley Vetter 586 (570+16). Katie Kruse 583 (576+7) was sixth. Official 2024 clerk summary prints the Niobrara share only and instructs that Goshen County results must be combined (see official spreadsheet)."
+            },
+            {
+              "name": "Jeremy Nelson",
+              "person_id": "WY-NELSON-JEREMY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jeremy-nelson.html",
+              "notes": "Official 2024 NCSD #1 trustees spreadsheet combining official Niobrara and official Goshen results, Vote For 5 four-year term: Lisa Pischel 753 (Niobrara 744, Goshen 9), Taylor Barnette 742 (726+16), Jeremy Nelson 628 (613+15), Cheryl Lund 601 (591+10), Wesley Vetter 586 (570+16). Katie Kruse 583 (576+7) was sixth. Official 2024 clerk summary prints the Niobrara share only and instructs that Goshen County results must be combined (see official spreadsheet)."
+            },
+            {
+              "name": "Cheryl Lund",
+              "person_id": "WY-LUND-CHERYL",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/cheryl-lund.html",
+              "notes": "Official 2024 NCSD #1 trustees spreadsheet combining official Niobrara and official Goshen results, Vote For 5 four-year term: Lisa Pischel 753 (Niobrara 744, Goshen 9), Taylor Barnette 742 (726+16), Jeremy Nelson 628 (613+15), Cheryl Lund 601 (591+10), Wesley Vetter 586 (570+16). Katie Kruse 583 (576+7) was sixth. Official 2024 clerk summary prints the Niobrara share only and instructs that Goshen County results must be combined (see official spreadsheet)."
+            },
+            {
+              "name": "Wesley Vetter",
+              "person_id": "WY-VETTER-WESLEY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/wesley-vetter.html",
+              "notes": "Official 2024 NCSD #1 trustees spreadsheet combining official Niobrara and official Goshen results, Vote For 5 four-year term: Lisa Pischel 753 (Niobrara 744, Goshen 9), Taylor Barnette 742 (726+16), Jeremy Nelson 628 (613+15), Cheryl Lund 601 (591+10), Wesley Vetter 586 (570+16). Katie Kruse 583 (576+7) was sixth. Official 2024 clerk summary prints the Niobrara share only and instructs that Goshen County results must be combined (see official spreadsheet)."
+            }
+          ],
+          "note": "Official 2024 combined Niobrara-plus-Goshen spreadsheet Vote For 5: Lisa Pischel 753, Taylor Barnette 742, Jeremy Nelson 628, Cheryl Lund 601, Wesley Vetter 586. Official 2022 clerk Vote For 4 (Niobrara totals; official Goshen sliver not found): Amber Smith, Lexie Ashurst, Joyce Hammer, Rachel Manning, through January 2027. Official 2026 Vote For 3 elects Sara Sampers and Lexie Ashurst, taking office January 2027; the third 2026 seat is write-in-only with no official named certified winner and is not filled."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "label": "Special districts",
+      "offices": [
+        {
+          "office": "Niobrara County Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Connie Volk",
+              "person_id": "WY-VOLK-CONNIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/connie-volk.html",
+              "notes": "Official 2026 clerk NCHD-TRUSTEE Vote For 3: Hillary Brown 505, Desirae Matthews-Leleux 455, Connie Volk 324, Randi Ross 264, Write-In Totals 679. The official summary lists named write-ins Kodi Lynn Smith 294 and Johnnie Dean Lashmett 246 plus spelling variants; variants are not combined, and no single official write-in line exceeds Volk 324. The three highest named printed candidates are seated."
+            },
+            {
+              "name": "John V. Boldon",
+              "person_id": "WY-BOLDON-JOHN-V",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/john-v-boldon.html",
+              "notes": "Official 2022 clerk NCHD Vote For 3: John V. Boldon 798, Randi Ross 735, Barbara Finley 656.",
+              "succeeding": {
+                "name": "Hillary Brown",
+                "person_id": "WY-BROWN-HILLARY",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Randi Ross",
+              "person_id": "WY-ROSS-RANDI",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/randi-ross.html",
+              "notes": "Official 2022 clerk NCHD Vote For 3: John V. Boldon 798, Randi Ross 735, Barbara Finley 656."
+            },
+            {
+              "name": "Barbara Finley",
+              "person_id": "WY-FINLEY-BARBARA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/barbara-finley.html",
+              "notes": "Official 2022 clerk NCHD Vote For 3: John V. Boldon 798, Randi Ross 735, Barbara Finley 656.",
+              "succeeding": {
+                "name": "Desirae Matthews-Leleux",
+                "person_id": "WY-MATTHEWS-LELEUX-DESIRAE",
+                "party": "",
+                "takes_office": "January"
+              }
+            },
+            {
+              "name": "Dan H. Hanson",
+              "person_id": "WY-HANSON-DAN-H",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/dan-h-hanson.html",
+              "notes": "Official 2024 clerk Hospital Vote For 2: Dan H. Hanson 1,024, Travis Krein 836."
+            },
+            {
+              "name": "Travis Krein",
+              "person_id": "WY-KREIN-TRAVIS",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/travis-krein.html",
+              "notes": "Official 2024 clerk Hospital Vote For 2: Dan H. Hanson 1,024, Travis Krein 836."
+            }
+          ],
+          "note": "Official 2024 Vote For 2: Dan H. Hanson and Travis Krein (four-year); official 2024 unexpired 2-year Connie Volk. Official 2022 Vote For 3: John V. Boldon, Randi Ross, and Barbara Finley, through January 2027. Official 2026 Vote For 3 elects Hillary Brown, Desirae Matthews-Leleux, and Connie Volk (write-in totals 679 were not combined across spelling variants; no single official write-in line exceeded Volk)."
+        },
+        {
+          "office": "Niobrara County Conservation District Supervisor At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Odessa Mathias",
+              "person_id": "WY-MATHIAS-ODESSA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/odessa-mathias.html",
+              "notes": "Official 2022 clerk Conservation Dist- At-Large Vote For 1: Odessa Mathias 991."
+            }
+          ],
+          "note": "Official 2022 clerk At-Large Vote For 1: Odessa Mathias 991, through January 2027. Official 2026 general did not list a named at-large conservation contest in the extracted official summary."
+        },
+        {
+          "office": "Niobrara County Conservation District Supervisor Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bruce Kilmer",
+              "person_id": "WY-KILMER-BRUCE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/bruce-kilmer.html",
+              "notes": "Official 2024 clerk Conservation Rural Vote For 2: Bruce Kilmer 987, Leonard O. Pullis 705."
+            },
+            {
+              "name": "Leonard O. Pullis",
+              "person_id": "WY-PULLIS-LEONARD-O",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/leonard-o-pullis.html",
+              "notes": "Official 2024 clerk Conservation Rural Vote For 2: Bruce Kilmer 987, Leonard O. Pullis 705."
+            }
+          ],
+          "note": "Official 2024 clerk Conservation Rural Vote For 2: Bruce Kilmer 987, Leonard O. Pullis 705."
+        },
+        {
+          "office": "Niobrara County Conservation District Supervisor Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Terry Allbright",
+              "person_id": "WY-ALLBRIGHT-TERRY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/terry-allbright.html",
+              "notes": "Official 2022 clerk Conservation Urban Vote For 1: Terry Allbright 1,029."
+            }
+          ],
+          "note": "Official 2022 clerk Urban Vote For 1: Terry Allbright 1,029, through January 2027."
+        },
+        {
+          "office": "Niobrara County Rural Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Justin Kremers",
+              "person_id": "WY-KREMERS-JUSTIN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/justin-kremers.html",
+              "notes": "Official 2026 clerk Rural Fire Dist. Director Vote For 2: Bradyn J. Bruegger 325, Justin Kremers 250 (Clayton Williams 191 was third)."
+            },
+            {
+              "name": "Monty Finley",
+              "person_id": "WY-FINLEY-MONTY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/monty-finley.html",
+              "notes": "Official 2022 clerk Rural Fire 4 YR Vote For 2: Justin Kremers 270, Monty Finley 201.",
+              "succeeding": {
+                "name": "Bradyn J. Bruegger",
+                "person_id": "WY-BRUEGGER-BRADYN-J",
+                "party": "",
+                "takes_office": "January"
+              }
+            }
+          ],
+          "note": "Official 2022 clerk Rural Fire 4 YR Vote For 2: Justin Kremers 270, Monty Finley 201, through January 2027. Official 2026 Vote For 2 elects Bradyn J. Bruegger 325 and Justin Kremers 250, taking office January 2027. Additional current seats from official 2024 fire, if any, were not fully copied into this preview and are not invented."
+        },
+        {
+          "office": "Niobrara County Senior Citizens Service District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Marylou Larson",
+              "person_id": "WY-LARSON-MARYLOU",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/marylou-larson.html",
+              "notes": "Official 2026 clerk Sr. Citizen Sevice Dist. Ttee Vote For 2: Marylou Larson 733, Louis Hammer 691. Takes office January 2027."
+            },
+            {
+              "name": "Louis Hammer",
+              "person_id": "WY-HAMMER-LOUIS",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/louis-hammer.html",
+              "notes": "Official 2026 clerk Sr. Citizen Sevice Dist. Ttee Vote For 2: Marylou Larson 733, Louis Hammer 691. Takes office January 2027."
+            }
+          ],
+          "note": "Official 2020 general Vote For 3: Connie Baker, Jim Kremers, and Phyllis Hahn (terms through January 2025 unless later officially re-elected; a complete official 2024 senior named-winner block was not seated here because that official contest was largely write-in / high undervote and is not invented). Official 2026 Vote For 2 elects Marylou Larson 733 and Louis Hammer 691, taking office January 2027."
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention (district and circuit)",
+      "label": "Judicial",
+      "offices": [
+        {
+          "office": "District Judge, 8th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "F. Scott Peasley",
+              "person_id": "WY-PEASLEY-F-SCOTT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/f-scott-peasley.html",
+              "notes": "Official 8th JD District Court page: Hon. F. Scott Peasley, appointed August 2017, retained November 2024, term expires January 2031. Official 2018 Niobrara clerk RETAIN JUDGE F. SCOTT PEASLEY YES 816 / NO 176. Official 2024 Niobrara clerk RETAIN DIST. JUDGE BF. SCOTT PEASLEY YES 838 / NO 222. Start day is the first of the official appointment month."
+            },
+            {
+              "name": "Edward A. Buchanan",
+              "person_id": "WY-BUCHANAN-EDWARD-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/edward-a-buchanan.html",
+              "notes": "Official 8th JD District Court page: Hon. Edward A. Buchanan, appointed September 2022, retained November 2024, term expires January 2031. Official 2024 Niobrara clerk RETAIN DIST JUDGE A EDWARD A BUCHANAN YES 856 / NO 237. Start day is the first of the official appointment month."
+            }
+          ],
+          "note": "Official 8th JD District Court page: Hon. Edward A. Buchanan (appointed September 2022) and Hon. F. Scott Peasley (appointed August 2017), both retained November 2024, terms expire January 2031. Official 2024 Niobrara clerk: Buchanan YES 856 / NO 237; Peasley YES 838 / NO 222."
+        },
+        {
+          "office": "Circuit Judge, 8th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Clark C. Allan",
+              "person_id": "WY-ALLAN-CLARK-C",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/clark-c-allan.html",
+              "notes": "Official 2026 Niobrara clerk RETAIN CIRCUIT COURT JUDGE ALLAN YES 648 / NO 140."
+            },
+            {
+              "name": "Jacqueline K. Brown",
+              "person_id": "WY-BROWN-JACQUELINE-K",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jacqueline-k-brown.html",
+              "notes": "Official 2026 Niobrara clerk RETAIN CIRCUIT COURT JUDGE BROWN YES 609 / NO 146."
+            }
+          ],
+          "note": "Official court pages already used in the Goshen history: Hon. Clark C. Allan (appointed January 2021) and Hon. Jacqueline K. Brown (appointed July 2025). Official 2026 Niobrara clerk: RETAIN CIRCUIT COURT JUDGE ALLAN YES 648 / NO 140; BROWN YES 609 / NO 146."
         }
       ]
     },
@@ -645,6 +957,8 @@
   "sources": {
     "general_results": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/County-General%20Election%20Summary%20.pdf",
     "primary_results": "https://www.niobraracounty.org/_departments/_county_clerk/_pdfs/2026/OFFICIAL%20PRIMARY%20ELECTION%20SUMMARY.pdf",
-    "checked": "2026-11-19"
+    "clerk_archive": "https://www.niobraracounty.org/_departments/_county_clerk/ElectionResults.asp",
+    "checked": "2026-11-24",
+    "local_archive": "/workspace/wyoleg/local-results/niobrara/SOURCES.md"
   }
 }

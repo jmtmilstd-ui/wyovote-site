@@ -1,0 +1,1196 @@
+{
+  "county": "Hot Springs",
+  "county_number": 15,
+  "snapshot_year": 2023,
+  "as_of": "2023-01-08",
+  "as_of_label": "January 2023 (as of 2023-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2023 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 20 (S20)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Cooper",
+              "person_id": "WY-COOPER-ED",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2020 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide Senate summary, Senate District 20 (right column of the official two-column page with District 18): Ed Cooper (R) Total 7,497, Theresa Livingston (D) 1,293. Official Hot Springs share Cooper 2,031, Livingston 472.",
+              "href": "candidates/local-history/c/ed-cooper.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 28 (H28)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "John R. Winter",
+              "person_id": "WY-WINTER-JOHN-R",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 28: John R. Winter (R) Total 3,139, Kimberly M. Bartlett (D) 855. Official Hot Springs share Winter 1,582, Bartlett 590.",
+              "href": "candidates/local-history/c/john-r-winter.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Paul M. Galovich",
+              "person_id": "WY-GALOVICH-PAUL-M",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County Commissioners page, retrieved 2026-11-24: Chairman Bob Aguiar; Commissioners Paul Galovich and Tom Ryan",
+                  "url": "https://hscounty.com/government/commissioners"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Paul Galovich. Official 2022 canvass, County Commissioner (vote for 2): REP PAUL M. GALOVICH 1,517, REP THOMAS J. RYAN 1,407, contest totals 4,426.",
+              "href": "candidates/local-history/c/paul-m-galovich.html"
+            },
+            {
+              "name": "Thomas J. Ryan",
+              "person_id": "WY-RYAN-THOMAS-J",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County Commissioners page, retrieved 2026-11-24: Chairman Bob Aguiar; Commissioners Paul Galovich and Tom Ryan",
+                  "url": "https://hscounty.com/government/commissioners"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Tom Ryan. Official 2022 canvass, County Commissioner (vote for 2): REP THOMAS J. RYAN 1,407, REP PAUL M. GALOVICH 1,517.",
+              "href": "candidates/local-history/c/thomas-j-ryan.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Becky Kersten",
+              "person_id": "WY-KERSTEN-BECKY",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County Clerk page, retrieved 2026-11-24: Becky Kersten (official photo alt). Official post-election audit notice dated November 9, 2026, also names Becky Kersten, Hot Springs County Clerk.",
+                  "url": "https://hscounty.com/departments/clerk"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official clerk page, retrieved 2026-11-24: Becky Kersten. Official 2022 canvass: REP BECKY KERSTEN 2,008. Official 2026 canvass: REP BECKY KERSTEN 1,916.",
+              "href": "candidates/local-history/c/becky-kersten.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Julie Mortimore",
+              "person_id": "WY-MORTIMORE-JULIE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County Treasurer page, retrieved 2026-11-24: Julie Mortimore",
+                  "url": "https://hscounty.com/departments/treasurer"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official treasurer page, retrieved 2026-11-24: Julie Mortimore. Official 2022 canvass: REP JULIE MORTIMORE 2,019. Official 2026 general elects Stacia Noorda.",
+              "href": "candidates/local-history/c/julie-mortimore.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Daniel Webber",
+              "person_id": "WY-WEBBER-DANIEL",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County Assessor page, retrieved 2026-11-24: Daniel Webber",
+                  "url": "https://hscounty.com/departments/assessor"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official assessor page, retrieved 2026-11-24: Daniel Webber. Official 2022 canvass: REP DANIEL WEBBER 1,944. Official 2026 canvass: REP DANIEL WEBBER 1,832.",
+              "href": "candidates/local-history/c/daniel-webber.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jerimie Kraushaar",
+              "person_id": "WY-KRAUSHAAR-JERIMIE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County Sheriff page, retrieved 2026-11-24: Jerimie Kraushaar, Sheriff",
+                  "url": "https://hscounty.com/departments/sheriff"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official sheriff page, retrieved 2026-11-24: Sheriff Jerimie Kraushaar. Official 2022 canvass: REP JERIMIE KRAUSHAAR 1,920. Official 2026 canvass: REP JERIMIE KRAUSHAAR 1,276, IND MATT WHEELER 793.",
+              "href": "candidates/local-history/c/jerimie-kraushaar.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jill Logan",
+              "person_id": "WY-LOGAN-JILL",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County Attorney page, retrieved 2026-11-24: Jill Logan",
+                  "url": "https://hscounty.com/departments/attorney"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official attorney page, retrieved 2026-11-24: Jill Logan. Official 2022 canvass: REP JILL LOGAN 1,854. Official 2026 canvass: REP JILL LOGAN 1,723.",
+              "href": "candidates/local-history/c/jill-logan.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Terri Cornella",
+              "person_id": "WY-CORNELLA-TERRI",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Clerk of District Court: REP TERRI CORNELLA 1,952. Official 2024 canvass elected Kris McNeff (the official clerk-of-court page names Kris McNeff as the current holder).",
+              "href": "candidates/local-history/c/terri-cornella.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Mortimore",
+              "person_id": "WY-MORTIMORE-MARK",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass: REP MARK MORTIMORE 1,929. Official 2026 canvass: REP MARK MORTIMORE 1,850. Official 2026 candidate roster also names Mark Mortimore, County Coroner (the official coroner department path returns 404).",
+              "href": "candidates/local-history/c/mark-mortimore.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Thermopolis Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Adam R. Estenson",
+              "person_id": "WY-ESTENSON-ADAM-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Thermopolis Mayor and Town Council page, retrieved 2026-11-24: Mayor Adam R. Estenson; Council Members Rachel Hughes, Tony Larson, Dusty Lewis, and John Dorman Sr.",
+                  "url": "https://thermopoliswy.gov/about/mayor-and-town-council/"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Town of Thermopolis Mayor and Town Council page, retrieved 2026-11-24: Mayor Adam R. Estenson. Official 2022 canvass, Mayor Thermopolis: ADAM RYAN ESTENSON 650, MIKE CHIMENTI 552.",
+              "href": "candidates/local-history/c/adam-r-estenson.html"
+            }
+          ]
+        },
+        {
+          "office": "Thermopolis Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Dorman Sr.",
+              "person_id": "WY-DORMAN-JOHN-SR",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Thermopolis Mayor and Town Council page, retrieved 2026-11-24: Mayor Adam R. Estenson; Council Members Rachel Hughes, Tony Larson, Dusty Lewis, and John Dorman Sr.",
+                  "url": "https://thermopoliswy.gov/about/mayor-and-town-council/"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official town page: Council Member John Dorman Sr. Official 2022 canvass, Councilperson Thermopolis (vote for 2): JOHN DORMAN SR. 748, RACHEL HUGHES 612, TONY LARSON 598, BRADYN HARVEY 145.",
+              "href": "candidates/local-history/c/john-dorman-sr.html"
+            },
+            {
+              "name": "Rachel Hughes",
+              "person_id": "WY-HUGHES-RACHEL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Town of Thermopolis Mayor and Town Council page, retrieved 2026-11-24: Mayor Adam R. Estenson; Council Members Rachel Hughes, Tony Larson, Dusty Lewis, and John Dorman Sr.",
+                  "url": "https://thermopoliswy.gov/about/mayor-and-town-council/"
+                },
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official town page: Council Member Rachel Hughes. Official 2022 canvass: RACHEL HUGHES 612. Official 2026 canvass: she ran for mayor and finished second.",
+              "href": "candidates/local-history/c/rachel-hughes.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "East Thermopolis Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Gary J. Holbert",
+              "person_id": "WY-HOLBERT-GARY-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Mayor East Thermopolis: certified write-in Gary Holbert 40, JACK KUIPER 27, JEREMIAH RAMSEY 26. The official canvass names the write-in winner.",
+              "href": "candidates/local-history/c/gary-j-holbert.html"
+            }
+          ]
+        },
+        {
+          "office": "East Thermopolis Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dolores Bush",
+              "person_id": "WY-BUSH-DOLORES",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Councilperson East Thermopolis (vote for 2): DOLORES BUSH 64, DEBRA K. LACKEY 55, JULIE DODDS MUSIC 39.",
+              "href": "candidates/local-history/c/dolores-bush.html"
+            },
+            {
+              "name": "Debra K. Lackey",
+              "person_id": "WY-LACKEY-DEBRA-K",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Councilperson East Thermopolis (vote for 2): DEBRA K. LACKEY 55, DOLORES BUSH 64.",
+              "href": "candidates/local-history/c/debra-k-lackey.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Kirby Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jessica Slagle",
+              "person_id": "WY-SLAGLE-JESSICA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Mayor Kirby: JESSICA SLAGLE 21, write-ins 2, contest totals 31.",
+              "href": "candidates/local-history/c/jessica-slagle.html"
+            }
+          ]
+        },
+        {
+          "office": "Kirby Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Nathaniel Rodriguez",
+              "person_id": "WY-RODRIGUEZ-NATHANIEL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Councilperson Kirby (vote for 2): NATHANIEL RODRIGUEZ 21, KIMBERLY GRAHAM 19, BARRIE LYNN BRYANT JR. 12.",
+              "href": "candidates/local-history/c/nathaniel-rodriguez.html"
+            },
+            {
+              "name": "Kimberly Graham",
+              "person_id": "WY-GRAHAM-KIMBERLY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Councilperson Kirby (vote for 2): KIMBERLY GRAHAM 19, NATHANIEL RODRIGUEZ 21.",
+              "href": "candidates/local-history/c/kimberly-graham.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Kirby Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Hot Springs County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Sherman Skelton",
+              "person_id": "WY-SKELTON-SHERMAN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                },
+                {
+                  "label": "Official Hot Springs County School District #1 Board of Trustees page, retrieved 2026-11-24. A seven-member board: Jennifer Axtell (Chair, term expires 12/2026), Chauncy Johnson (Treasurer, 12/2026), Marshall Keller (Vice-Chairman, 12/2028), Jean Skelton (12/2028), Sherman Skelton (12/2026), Bethany Webber (12/2026), Nichole Weyer (Board Clerk, 12/2028). Official December expirations are mapped to January for pairing, with the official December date noted.",
+                  "url": "https://www.hotsprings1.org/apps/pages/index.jsp?uREC_ID=3692288&type=d"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official HSCSD #1 Board of Trustees page, retrieved 2026-11-24: Sherman Skelton, term expires 12/2026. Official 2022 canvass, HSCSD #1 Trustees (vote for 3): SHERMAN SKELTON 1,054, JENNIFER AXTELL 1,031, BETHANY ROSE WEBBER 921.",
+              "href": "candidates/local-history/c/sherman-skelton.html"
+            },
+            {
+              "name": "Jennifer Axtell",
+              "person_id": "WY-AXTELL-JENNIFER",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                },
+                {
+                  "label": "Official Hot Springs County School District #1 Board of Trustees page, retrieved 2026-11-24. A seven-member board: Jennifer Axtell (Chair, term expires 12/2026), Chauncy Johnson (Treasurer, 12/2026), Marshall Keller (Vice-Chairman, 12/2028), Jean Skelton (12/2028), Sherman Skelton (12/2026), Bethany Webber (12/2026), Nichole Weyer (Board Clerk, 12/2028). Official December expirations are mapped to January for pairing, with the official December date noted.",
+                  "url": "https://www.hotsprings1.org/apps/pages/index.jsp?uREC_ID=3692288&type=d"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official board page: Jennifer Axtell, Board Chairman, term expires 12/2026. Official 2022 canvass: JENNIFER AXTELL 1,031. Official 2026 canvass elects Jennifer Axtell to the official 2-year unexpired trustee seat.",
+              "href": "candidates/local-history/c/jennifer-axtell.html"
+            },
+            {
+              "name": "Bethany Webber",
+              "person_id": "WY-WEBBER-BETHANY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                },
+                {
+                  "label": "Official Hot Springs County School District #1 Board of Trustees page, retrieved 2026-11-24. A seven-member board: Jennifer Axtell (Chair, term expires 12/2026), Chauncy Johnson (Treasurer, 12/2026), Marshall Keller (Vice-Chairman, 12/2028), Jean Skelton (12/2028), Sherman Skelton (12/2026), Bethany Webber (12/2026), Nichole Weyer (Board Clerk, 12/2028). Official December expirations are mapped to January for pairing, with the official December date noted.",
+                  "url": "https://www.hotsprings1.org/apps/pages/index.jsp?uREC_ID=3692288&type=d"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official board page: Bethany Webber, term expires 12/2026. Official 2022 canvass: BETHANY ROSE WEBBER 921.",
+              "href": "candidates/local-history/c/bethany-webber.html"
+            },
+            {
+              "name": "Chauncy Johnson",
+              "person_id": "WY-JOHNSON-CHAUNCY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County School District #1 Board of Trustees page, retrieved 2026-11-24. A seven-member board: Jennifer Axtell (Chair, term expires 12/2026), Chauncy Johnson (Treasurer, 12/2026), Marshall Keller (Vice-Chairman, 12/2028), Jean Skelton (12/2028), Sherman Skelton (12/2026), Bethany Webber (12/2026), Nichole Weyer (Board Clerk, 12/2028). Official December expirations are mapped to January for pairing, with the official December date noted.",
+                  "url": "https://www.hotsprings1.org/apps/pages/index.jsp?uREC_ID=3692288&type=d"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official HSCSD #1 Board of Trustees page, retrieved 2026-11-24: Chauncy Johnson, Board Treasurer, term expires 12/2026. The official December expiration is mapped to January 2027. He was not a named top-three winner on the official 2022 at-large canvass; the official current board page is used for the current holder.",
+              "href": "candidates/local-history/c/chauncy-johnson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hot Springs County School District #1 Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Hot Springs Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jim Wilson",
+              "person_id": "WY-WILSON-JIM",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Conservation Dist Rural Supervisor (vote for 2): JIM WILSON 1,828. The official canvass also certifies write-in Chip Axtell as elected to this rural board.",
+              "href": "candidates/local-history/c/jim-wilson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hot Springs Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Paul Ward",
+              "person_id": "WY-WARD-PAUL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass certified write-in: Paul Ward has been elected Hot Springs Conservation Dist At-Large Supervisor.",
+              "href": "candidates/local-history/c/paul-ward.html"
+            }
+          ]
+        },
+        {
+          "office": "Hot Springs County Cemetery District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Basil Sorensen",
+              "person_id": "WY-SORENSEN-BASIL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Cemetery Dist Director (vote for 3): BASIL SORENSEN 1,604, MERRILL J. READY 1,396, STAN KRAUSHAAR 1,393.",
+              "href": "candidates/local-history/c/basil-sorensen.html"
+            },
+            {
+              "name": "Merrill J. Ready",
+              "person_id": "WY-READY-MERRILL-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass: MERRILL J. READY 1,396. Official 2026 canvass certifies Merrill Ready as a write-in winner of a new term.",
+              "href": "candidates/local-history/c/merrill-j-ready.html"
+            },
+            {
+              "name": "Stan Kraushaar",
+              "person_id": "WY-KRAUSHAAR-STAN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass: STAN KRAUSHAAR 1,393.",
+              "href": "candidates/local-history/c/stan-kraushaar.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hot Springs Rural Fire Protection District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Keith O'Brien",
+              "person_id": "WY-OBRIEN-KEITH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Rural Fire Prot Dist Director (vote for 2): KEITH O'BRIEN 593, JAMES BYRD 584, contest totals 1,696.",
+              "href": "candidates/local-history/c/keith-o-brien.html"
+            },
+            {
+              "name": "James Byrd",
+              "person_id": "WY-BYRD-JAMES",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass: JAMES BYRD 584. Official 2026 winner Michael Byrd is not combined with this official 2022 name.",
+              "href": "candidates/local-history/c/james-byrd.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hot Springs Hospital District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Melissa McCumber Johnson",
+              "person_id": "WY-JOHNSON-MELISSA-MCCUMBER",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Hospital Dist Director 4-year (vote for 3): MELISSA MCCUMBER JOHNSON 1,589, AIMEE KAY 1,564, JESSICA BENEFIEL 1,418.",
+              "href": "candidates/local-history/c/melissa-mccumber-johnson.html"
+            },
+            {
+              "name": "Aimee Kay",
+              "person_id": "WY-KAY-AIMEE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass: AIMEE KAY 1,564. Official 2026 canvass re-elects Aimee Kay.",
+              "href": "candidates/local-history/c/aimee-kay.html"
+            },
+            {
+              "name": "Jessica Benefiel",
+              "person_id": "WY-BENEFIEL-JESSICA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Hot Springs County General Election Summary, November 8, 2022 (header OFFICIAL RESULTS, GENERAL ELECTION; Precincts Complete 5 of 5; Ballots Cast - Total 2,213; footer County - General Election Summary - 11/14/2022 9:00 AM). Born-digital official canvass, 13 pages.",
+                  "url": "https://hscounty.com/component/edocman/2022-county-general-official-results/download?Itemid=100"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass: JESSICA BENEFIEL 1,418.",
+              "href": "candidates/local-history/c/jessica-benefiel.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hot Springs Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hot Springs County Cemetery District Director (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hot Springs Senior Citizen District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bobbi Overfield",
+              "person_id": "WY-OVERFIELD-BOBBI",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch March 2026 roster titles already used in the official Park, Washakie, and Big Horn histories: Fifth Judicial District Judge Bobbi Overfield (Big Horn/Hot Springs/Washakie); Fifth Judicial Circuit Judge Ed Luhm (Edward G. Luhm) (Big Horn/Hot Springs/Washakie); Fifth Judicial District Judge Bill Simpson (Park); Circuit Judge Joey Darrah (Park).",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official March 2026 judicial roster title already used in the official Park, Washakie, and Big Horn histories.",
+              "href": "candidates/local-history/c/bobbi-overfield.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "District Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are Fifth Judicial District and Circuit judges serving Hot Springs with Big Horn and Washakie (Bobbi Overfield, Ed Luhm / Edward G. Luhm) and the Park-seat judges (Bill Simpson, Joey Darrah), from official court roster titles already used in the official Park, Washakie, and Big Horn histories. Official 2026 Hot Springs canvass retention for Judge Bobbi Overfield is YES 1,654 / NO 261. Official 2026 CHC BURNINGHAM is the statewide Chancery Court retention already in the shared terms, not a Fifth Judicial District circuit office.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/hot-springs/terms.json",
+  "retrieved": "2026-11-24"
+}

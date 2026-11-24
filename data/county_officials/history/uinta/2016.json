@@ -1,0 +1,984 @@
+{
+  "county": "Uinta",
+  "county_number": 19,
+  "snapshot_year": 2016,
+  "as_of": "2016-01-08",
+  "as_of_label": "January 2016 (as of 2016-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2016 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Mike Enzi",
+              "person_id": "WY-ENZI-MIKE",
+              "party": "R",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Did not run in 2020. Cynthia Lummis took office January 3, 2021.",
+              "href": "candidates/local-history/c/mike-enzi.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Did not run in 2016.",
+              "href": "candidates/local-history/c/cynthia-lummis.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt Mead",
+              "person_id": "WY-MEAD-MATT",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/matt-mead.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Edward F. Murray, III",
+              "person_id": "WY-MURRAY-EDWARD",
+              "party": "R",
+              "term_end": "January 2018",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned February 9, 2018 (official State Officers Roster).",
+              "href": "candidates/local-history/c/edward-f-murray-iii.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cynthia Cloud",
+              "person_id": "WY-CLOUD-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cynthia-cloud.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/gordon-mark.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jillian Balow",
+              "person_id": "WY-BALOW-JILLIAN",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/balow-jillian.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 14 (S14)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Stan Cooper",
+              "person_id": "WY-COOPER-STAN",
+              "party": "REP",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2012 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2012/Results/General/2012_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official 2012 statewide Senate summary was not posted (HTTP 404). Official 2012 SOS Uinta general PbP totals (Uinta portion): Stan Cooper 620, John Vincent Love 108. Encoded at medium confidence from official county SOS reports; official district-wide 2012 totals were not available in a statewide Senate PDF.",
+              "href": "candidates/local-history/c/stan-cooper.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 15 (S15)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Paul R. Barnard",
+              "person_id": "WY-BARNARD-PAUL-R",
+              "party": "REP",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 statewide Senate candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Statewide_Senate_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2014 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS statewide Senate summary totals: Paul R. Barnard 3,329, Bret McCoy 1,702 (Uinta-only district).",
+              "href": "candidates/local-history/c/paul-r-barnard.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 18 (H18)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Fred A. Baldwin",
+              "person_id": "WY-BALDWIN-FRED-A",
+              "party": "REP",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Statewide_House_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2014 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS statewide House summary totals: Fred A. Baldwin 2,297, Michele Irwin 719. Official Uinta portion: Baldwin 383, Irwin 105.",
+              "href": "candidates/local-history/c/fred-a-baldwin.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 19 (H19)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Allen Jaggi",
+              "person_id": "WY-JAGGI-ALLEN-M",
+              "party": "REP",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Statewide_House_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2014 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS statewide House summary totals: Allen Jaggi 1,897, Pete Roitz 806 (Uinta-only district).",
+              "href": "candidates/local-history/c/allen-m-jaggi.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 49 (H49)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Garry C. Piiparinen",
+              "person_id": "WY-PIIPARINEN-GARRY-C",
+              "party": "REP",
+              "term_end": "January 2017",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Statewide_House_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2014 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS statewide House summary totals: Garry C. Piiparinen 1,333, Clarence Vranish 724, Larissa Sneider 417 (Uinta-only district).",
+              "href": "candidates/local-history/c/garry-c-piiparinen.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Evanston Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Evanston City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Evanston City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Evanston City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Lyman Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Lyman Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Mountain View Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Mountain View Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Bear River Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Bear River Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "UCSD #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "UCSD #4 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "UCSD #6 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Uinta Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Uinta Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Uinta Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Uinta County Rural Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "Municipal, school, special-district, and county names for terms beginning January 2027 are keyed from the official Uinta clerk 2026 general summary (DocumentCenter slug still says Unofficial; the official Elections page and the PDF header label Official Results, dated 11/05/2026 12:58PM). Official 2022 and 2024 Uinta clerk general summaries were not posted on the current official elections page (https://uintacountywy.gov/26/Elections), and official SOS Uinta precinct-by-precinct summaries omit county, municipal, and school offices, so earlier January local rows are Not yet collected rather than invented. Evanston and Lyman mayors appear on the official 2026 November ballot and are not council-selected. Mountain View and Bear River mayors were not on the official 2026 general. Official mid-term vacancies are not invented.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Nena James",
+              "person_id": "WY-JAMES-NENA",
+              "party": "",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS Uinta general PbP retention, 3rd Judicial District. Full name from official SOS.",
+              "href": "candidates/local-history/c/nena-james.html"
+            },
+            {
+              "name": "Richard L. Lavery",
+              "person_id": "WY-LAVERY-RICHARD-L",
+              "party": "",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS Uinta general PbP retention.",
+              "href": "candidates/local-history/c/richard-l-lavery.html"
+            },
+            {
+              "name": "Joseph B. Bluemel",
+              "person_id": "WY-BLUEMEL-JOSEPH-B",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 3rd Judicial District, Lincoln County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-3rd-judicial-district-lincoln-county/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch Lincoln 3rd JD district page: appointed January 2015 (day unstated; term_start 2015-01-01, medium), retained November 2022, term expires January 2029.",
+              "href": "candidates/local-history/c/joseph-b-bluemel.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 3rd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Craig L. Jones",
+              "person_id": "WY-JONES-CRAIG-L",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS Uinta general PbP: retained Craig L. Jones.",
+              "href": "candidates/local-history/c/craig-l-jones.html"
+            },
+            {
+              "name": "John R. Prokos",
+              "person_id": "WY-PROKOS-JOHN-R",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Uinta_County_General_PbP.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch official Circuit Court of the 3rd Judicial District (Rock Springs) page",
+                  "url": "https://www.wyocourts.gov/court/circuit-court-of-the-3rd-judicial-district-sweetwater-county-state-of-wyoming-rock-springs/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS Uinta general PbP: retained John R. Prokos.",
+              "href": "candidates/local-history/c/john-r-prokos.html"
+            },
+            {
+              "name": "Frank J. Zebre",
+              "person_id": "WY-ZEBRE-FRANK-J",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 Uinta general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Uinta_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS Uinta general PbP: retained Frank J. Zebre.",
+              "href": "candidates/local-history/c/frank-j-zebre.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 3rd Judicial District judges (Lincoln, Sweetwater, and Uinta). Full names are taken from official SOS lines or official Wyoming Judicial Branch 3rd JD pages, and those sources are cited. Judges of other districts are not copied here.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. The current (November 2026) precinct roster is in data/county_officials/uinta.json, from the official 2026 primary (named winners only; 9 precincts / 53 holders).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/uinta/terms.json",
+  "retrieved": "2026-11-24"
+}

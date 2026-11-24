@@ -24,7 +24,11 @@
                   "label": "Not on the latest general-election ballot; term continues"
                 }
               ],
-              "party": "R"
+              "party": "R",
+              "person_id": "WY-BARRASSO-JOHN",
+              "href": "candidates/2024-primary/c/john-barrasso.html",
+              "term_end": "January 2031",
+              "sort_key": "A01"
             },
             {
               "name": "Cynthia Lummis",
@@ -52,9 +56,16 @@
                     "label": "WyoVote certified general extract",
                     "url": "data/candidate-research/2026-primary/general.json"
                   }
-                ]
+                ],
+                "person_id": "WY-HAGEMAN-HARRIET",
+                "href": "candidates/2026-primary/c/harriet-hageman.html",
+                "term_end": "January 2033",
+                "sort_key": "A02E"
               },
-              "href": "officials/statewide/lummis.html"
+              "href": "officials/statewide/lummis.html",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "term_end": "January 2027",
+              "sort_key": "A02"
             }
           ]
         },
@@ -88,12 +99,21 @@
                     "label": "WyoVote certified general extract",
                     "url": "data/candidate-research/2026-primary/general.json"
                   }
-                ]
-              }
+                ],
+                "person_id": "WY-GRAY-CHUCK",
+                "href": "officials/statewide/gray.html",
+                "term_end": "January 2029",
+                "sort_key": "A04E"
+              },
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "href": "candidates/2026-primary/c/harriet-hageman.html",
+              "term_end": "January 2027",
+              "sort_key": "A03"
             }
           ]
         }
-      ]
+      ],
+      "sort_key": "A"
     },
     {
       "id": "statewide",
@@ -137,8 +157,16 @@
                     "label": "WyoVote certified general extract",
                     "url": "data/candidate-research/2026-primary/general.json"
                   }
-                ]
-              }
+                ],
+                "person_id": "WY-BARLOW-ERIC",
+                "href": "officials/statewide/barlow.html",
+                "term_end": "January 2031",
+                "sort_key": "B01E"
+              },
+              "person_id": "WY-GORDON-MARK",
+              "href": "officials/statewide/gordon.html",
+              "term_end": "January 2027",
+              "sort_key": "B01"
             }
           ]
         },
@@ -180,8 +208,16 @@
                     "label": "WyoVote certified general extract",
                     "url": "data/candidate-research/2026-primary/general.json"
                   }
-                ]
-              }
+                ],
+                "person_id": "WY-SHORT-ROBERT",
+                "href": "officials/statewide/short.html",
+                "term_end": "January 2031",
+                "sort_key": "B02E"
+              },
+              "person_id": "WY-GRAY-CHUCK",
+              "href": "officials/statewide/gray.html",
+              "term_end": "January 2027",
+              "sort_key": "A04"
             }
           ]
         },
@@ -209,7 +245,11 @@
                   "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
                 }
               ],
-              "party": "R"
+              "party": "R",
+              "person_id": "WY-RACINES-KRISTI",
+              "href": "officials/statewide/racines.html",
+              "term_end": "January 2031",
+              "sort_key": "B03"
             }
           ]
         },
@@ -237,7 +277,11 @@
                   "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf"
                 }
               ],
-              "party": "R"
+              "party": "R",
+              "person_id": "WY-MEIER-CURTIS",
+              "href": "officials/statewide/meier.html",
+              "term_end": "January 2031",
+              "sort_key": "B04"
             }
           ]
         },
@@ -279,12 +323,21 @@
                     "label": "WyoVote certified general extract",
                     "url": "data/candidate-research/2026-primary/general.json"
                   }
-                ]
-              }
+                ],
+                "person_id": "WY-HARSHMAN-STEVE",
+                "href": "officials/statewide/harshman.html",
+                "term_end": "January 2031",
+                "sort_key": "B05E"
+              },
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "href": "officials/statewide/degenfelder.html",
+              "term_end": "January 2027",
+              "sort_key": "B05"
             }
           ]
         }
-      ]
+      ],
+      "sort_key": "B"
     }
   ]
 }

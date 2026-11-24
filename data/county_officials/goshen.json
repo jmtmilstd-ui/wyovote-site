@@ -2,7 +2,7 @@
   "county": "Goshen",
   "county_number": 7,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_07_Goshen_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -10,74 +10,43 @@
   "groups": [
     {
       "id": "state-senate",
-      "title": "State Senate",
+      "label": "Wyoming Senate",
       "offices": [
         {
           "office": "Senate District 3 (S03)",
           "layout": "office-and-name",
-          "note": "Also covers Niobrara and Weston.",
           "holders": [
             {
-              "name": "Cheri Steinmetz",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2011"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_07_Goshen_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, S03, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "ballot_name": "Cheri E Steinmetz",
-              "href": "officials/steinmetz.html"
+              "name": "Cheri E. Steinmetz",
+              "person_id": "WY-STEINMETZ-CHERI",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/cheri-e-steinmetz.html",
+              "notes": "Official 2026 SOS statewide Senate summary Total: Cheri E. Steinmetz (R) 5,792. Official Goshen portion: 3,777 (matches official Goshen clerk). Official Niobrara share: 808. Official Weston share: 1,207."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide Senate summary Total: Cheri E. Steinmetz (R) 5,792. Official Goshen portion: 3,777 (matches official Goshen clerk). Official Niobrara share: 808. Official Weston share: 1,207. Official 2022 SOS statewide Senate summary Total: Cheri Steinmetz (R) 6,352. Official Goshen portion: 4,017 (matches official Goshen clerk). Official Niobrara share: 973. Official Weston share: 1,362."
         }
       ]
     },
     {
       "id": "state-house",
-      "title": "State House",
+      "label": "Wyoming House",
       "offices": [
         {
           "office": "House District 2 (H02)",
           "layout": "office-and-name",
-          "note": "Also covers Niobrara and Weston.",
           "holders": [
             {
               "name": "JD Williams",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2087"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_07_Goshen_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H02, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/williams.html"
+              "person_id": "WY-WILLIAMS-JD",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jd-williams.html",
+              "notes": "Official 2026 SOS statewide House summary Total: JD Williams (R) 2,850. Official Goshen portion: 839 (matches official Goshen clerk). Official Niobrara share: 803. Official Weston share: 1,208."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary Total: JD Williams (R) 2,850. Official Goshen portion: 839 (matches official Goshen clerk). Official Niobrara share: 803. Official Weston share: 1,208. Official 2024 SOS statewide House summary Total: JD Williams (R) 3,834. Official Goshen portion: 1,125 (matches official Goshen clerk). Official Niobrara share: 1,047. Official Weston share: 1,662."
         },
         {
           "office": "House District 5 (H05)",
@@ -85,115 +54,67 @@
           "holders": [
             {
               "name": "Scott Smith",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2093"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_07_Goshen_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Joe Speckner",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H05",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/smith.html"
+              "person_id": "WY-SMITH-SCOTT",
+              "party": "REP",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/scott-smith.html",
+              "notes": "Official 2024 SOS statewide House summary Total: Scott Smith (R) 3,893, all in Goshen (official SOS Total equals the official Goshen clerk)."
+            },
+            {
+              "name": "Joe Speckner",
+              "person_id": "WY-SPECKNER-JOE",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/joe-speckner.html",
+              "notes": "Official 2026 SOS statewide House summary Total: Joe Speckner (R) 3,226, all in Goshen (official SOS Total equals the official Goshen clerk)."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary Total: Joe Speckner (R) 3,226, all in Goshen (official SOS Total equals the official Goshen clerk). Official 2024 SOS statewide House summary Total: Scott Smith (R) 3,893, all in Goshen (official SOS Total equals the official Goshen clerk)."
         }
       ]
     },
     {
       "id": "county",
-      "title": "County Offices",
+      "label": "County offices",
       "offices": [
         {
-          "office": "County Commissioners",
-          "layout": "heading-then-names",
+          "office": "County Commissioner",
+          "layout": "office-and-name",
           "holders": [
             {
-              "name": "Michael McNamee",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County commissioners page",
-                  "url": "https://www.goshencountywy.gov/262/County-Commissioners"
-                }
-              ],
-              "role": "Chairman",
-              "succeeding": {
-                "name": "Brent L. Anderson",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Goshen County official general results, County Commissioner",
-                    "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ],
-                "ballot_name": "Brent L. Anderson"
-              }
-            },
-            {
-              "name": "Justin Burkart",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County commissioners page",
-                  "url": "https://www.goshencountywy.gov/262/County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/goshen.html"
-                }
-              ],
-              "role": "Vice Chairman"
-            },
-            {
               "name": "Aaron P. Walsh",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County commissioners page",
-                  "url": "https://www.goshencountywy.gov/262/County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/goshen.html"
-                },
-                {
-                  "label": "Goshen County official general results, re-elected",
-                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-WALSH-AARON-P",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/aaron-p-walsh.html",
+              "notes": "Official 2026 Goshen clerk, Commissioner Vote-For-2: Aaron P Walsh 3,420, Brent L Anderson 3,071."
+            },
+            {
+              "name": "Michael McNamee",
+              "person_id": "WY-MCNAMEE-MICHAEL",
+              "party": "REP",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/michael-mcnamee.html",
+              "notes": "Official 2022 Goshen clerk, Commissioner Vote-For-2: Michael Mc Namee 4,027, Aaron P. Walsh 3,480. Official commissioners page lists Michael McNamee as Chairman."
+            },
+            {
+              "name": "Justin L. Burkart",
+              "person_id": "WY-BURKART-JUSTIN-L",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/justin-l-burkart.html",
+              "notes": "Official 2024 Goshen clerk, Commissioner Vote-For-1: Justin L Burkart 5,282. Official commissioners page lists Justin Burkart as Vice Chairman."
+            },
+            {
+              "name": "Brent L. Anderson",
+              "person_id": "WY-ANDERSON-BRENT-L",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/brent-l-anderson.html",
+              "notes": "Official 2026 Goshen clerk, Commissioner Vote-For-2: Aaron P Walsh 3,420, Brent L Anderson 3,071."
             }
-          ]
+          ],
+          "note": "Official 2026 Goshen clerk, Commissioner Vote-For-2: Aaron P Walsh 3,420, Brent L Anderson 3,071. Official 2024 Goshen clerk, Commissioner Vote-For-1: Justin L Burkart 5,282. Official commissioners page lists Justin Burkart as Vice Chairman."
         },
         {
           "office": "County Clerk",
@@ -201,27 +122,14 @@
           "holders": [
             {
               "name": "Mary B. Feagler",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County clerk page",
-                  "url": "https://www.goshencountywy.gov/CivicAlerts.aspx?AID=37"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/goshen.html"
-                },
-                {
-                  "label": "Goshen County official general results, re-elected",
-                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-FEAGLER-MARY-B",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/mary-b-feagler.html",
+              "notes": "Official 2026 Goshen clerk: Mary B Feagler 3,961."
             }
-          ]
+          ],
+          "note": "Official 2026 Goshen clerk: Mary B Feagler 3,961. Official 2022 Goshen clerk: Mary B. Feagler 4,560."
         },
         {
           "office": "County Treasurer",
@@ -229,59 +137,37 @@
           "holders": [
             {
               "name": "Leticia Dominguez",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County treasurer page",
-                  "url": "https://www.goshencountywy.gov/231/Treasurer"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/goshen.html"
-                },
-                {
-                  "label": "Goshen County official general results, re-elected",
-                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-DOMINGUEZ-LETICIA",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/leticia-dominguez.html",
+              "notes": "Official 2026 Goshen clerk: Leticia Dominguez 4,127."
             }
-          ]
+          ],
+          "note": "Official 2026 Goshen clerk: Leticia Dominguez 4,127. Official 2022 Goshen clerk: Leticia Dominguez 4,538."
         },
         {
           "office": "County Assessor",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Debbi Surratt",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County Assessor page",
-                  "url": "https://www.goshencountywy.gov/158/Assessor"
-                }
-              ],
-              "ballot_name": "Debra A. Surratt",
-              "succeeding": {
-                "name": "Jeremy Wardell",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Goshen County official general results, County Assessor",
-                    "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "name": "Debra A. Surratt",
+              "person_id": "WY-SURRATT-DEBRA-A",
+              "party": "REP",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/debra-a-surratt.html",
+              "notes": "Official 2022 Goshen clerk: Debra A. Surratt 4,483. Phase-1 display Debbi Surratt is treated as the same person (alias)."
+            },
+            {
+              "name": "Jeremy Wardell",
+              "person_id": "WY-WARDELL-JEREMY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jeremy-wardell.html",
+              "notes": "Official 2026 Goshen clerk: Jeremy Wardell 4,022."
             }
-          ]
+          ],
+          "note": "Official 2026 Goshen clerk: Jeremy Wardell 4,022. Official 2022 Goshen clerk: Debra A. Surratt 4,483. Phase-1 display Debbi Surratt is treated as the same person (alias)."
         },
         {
           "office": "County Sheriff",
@@ -289,30 +175,22 @@
           "holders": [
             {
               "name": "Kory Fleenor",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County staff directory, Sheriff",
-                  "url": "https://www.goshencountywy.gov/directory.aspx?DID=22"
-                }
-              ],
-              "succeeding": {
-                "name": "Herb Irons",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Goshen County official general results, County Sheriff",
-                    "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-FLEENOR-KORY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/kory-fleenor.html",
+              "notes": "Official 2022 Goshen clerk: Kory Fleenor 4,383."
+            },
+            {
+              "name": "Herb Irons",
+              "person_id": "WY-IRONS-HERB",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/herb-irons.html",
+              "notes": "Official 2026 Goshen clerk: Herb Irons 3,871, Diane Servantez 512."
             }
-          ]
+          ],
+          "note": "Official 2026 Goshen clerk: Herb Irons 3,871, Diane Servantez 512. Official 2022 Goshen clerk: Kory Fleenor 4,383."
         },
         {
           "office": "County Attorney",
@@ -320,27 +198,14 @@
           "holders": [
             {
               "name": "Eric R. Boyer",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County attorney page",
-                  "url": "https://www.goshencountywy.gov/180/Attorney"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/goshen.html"
-                },
-                {
-                  "label": "Goshen County official general results, re-elected",
-                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-BOYER-ERIC-R",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/eric-r-boyer.html",
+              "notes": "Official 2026 Goshen clerk: Eric R Boyer 3,902."
             }
-          ]
+          ],
+          "note": "Official 2026 Goshen clerk: Eric R Boyer 3,902. Official 2022 Goshen clerk: Eric R. Boyer 4,391."
         },
         {
           "office": "Clerk of District Court",
@@ -348,27 +213,14 @@
           "holders": [
             {
               "name": "Brandi Correa",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County clerk of district court page",
-                  "url": "https://www.goshencountywy.gov/188/Clerk-of-District-Court"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/goshen.html"
-                },
-                {
-                  "label": "Goshen County official general results, re-elected",
-                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-CORREA-BRANDI",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/brandi-correa.html",
+              "notes": "Official 2026 Goshen clerk: Brandi Correa 4,148."
             }
-          ]
+          ],
+          "note": "Official 2026 Goshen clerk: Brandi Correa 4,148. Official 2022 Goshen clerk: Brandi Correa 4,551."
         },
         {
           "office": "County Coroner",
@@ -376,27 +228,798 @@
           "holders": [
             {
               "name": "Darin R. Yates",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Goshen County coroner page",
-                  "url": "https://www.goshencountywy.gov/184/Coroner"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/goshen.html"
-                },
-                {
-                  "label": "Goshen County official general results, re-elected",
-                  "url": "https://www.goshencountywy.gov/Archive.aspx?ADID=162"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-YATES-DARIN-R",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/darin-r-yates.html",
+              "notes": "Official 2026 Goshen clerk: Darin R Yates 4,161."
             }
-          ]
+          ],
+          "note": "Official 2026 Goshen clerk: Darin R Yates 4,161. Official 2022 Goshen clerk: Darin R. Yates 4,600."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "label": "Municipal offices",
+      "offices": [
+        {
+          "office": "Torrington Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Herb Doby",
+              "person_id": "WY-DOBY-HERB",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/herb-doby.html",
+              "notes": "Official 2026 Goshen clerk, Mayor City of Torrington: Herb Doby 1,205, Bob Peterson 470. Official City of Torrington Election Information page lists the 2026 mayoral seat as a four-year elected office."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, Mayor City of Torrington: Herb Doby 1,205, Bob Peterson 470. Official City of Torrington Election Information page lists the 2026 mayoral seat as a four-year elected office. Official 2022 Goshen clerk, Mayor City of Torrington: Herb Doby 1,136, Dennis A. Kelly 641. Official City of Torrington council page lists Herb Doby as Mayor."
+        },
+        {
+          "office": "Torrington Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Shane Viktorin",
+              "person_id": "WY-VIKTORIN-SHANE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/shane-viktorin.html",
+              "notes": "Official 2026 Goshen clerk, City Council City of Torrington Vote-For-2: Shane Viktorin 1,027, Wayne G Deahl 991, Jason Senteney 549, David Marquiss 297."
+            },
+            {
+              "name": "Wayne G. Deahl",
+              "person_id": "WY-DEAHL-WAYNE-G",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/wayne-g-deahl.html",
+              "notes": "Official 2026 Goshen clerk, City Council City of Torrington Vote-For-2: Shane Viktorin 1,027, Wayne G Deahl 991."
+            },
+            {
+              "name": "Dennis Kelly",
+              "person_id": "WY-KELLY-DENNIS",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/dennis-kelly.html",
+              "notes": "Official 2024 Goshen clerk, City Council City of Torrington Vote-For-2: Dennis Kelly 1,796, Richard Warren 1,460."
+            },
+            {
+              "name": "Richard Warren",
+              "person_id": "WY-WARREN-RICHARD",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/richard-warren.html",
+              "notes": "Official 2024 Goshen clerk, City Council City of Torrington Vote-For-2: Dennis Kelly 1,796, Richard Warren 1,460. Official City of Torrington council page lists Rick Warren."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, City Council City of Torrington Vote-For-2: Shane Viktorin 1,027, Wayne G Deahl 991, Jason Senteney 549, David Marquiss 297. Official 2026 Goshen clerk, City Council City of Torrington Vote-For-2: Shane Viktorin 1,027, Wayne G Deahl 991."
+        },
+        {
+          "office": "Lingle Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "George Siglin",
+              "person_id": "WY-SIGLIN-GEORGE",
+              "party": "",
+              "term_end": "January 2030",
+              "href": "candidates/local-history/c/george-siglin.html",
+              "notes": "Official Town of Lingle official 2026 municipal results (canvassed May 6): Mayor George Siglin 41, Shelly Duncan 35, write-ins Brian Trout 2, Allen Unverzagt 1, Del Watson 1, Jenna Meeks 1. Official May 6, 2026 minutes name him George Siglin, Jr. and say the mayor will be installed June 3, 2026. Official council page and official October 7, 2026 minutes list Mayor George Siglin. Term length is not stated on those official pages; the June 3, 2026–June 3, 2030 end is a 4-year inference from the official even-year May mayoral election (medium on length only)."
+            }
+          ],
+          "note": "Official Town of Lingle official 2026 municipal results (canvassed May 6): Mayor George Siglin 41, Shelly Duncan 35, write-ins Brian Trout 2, Allen Unverzagt 1, Del Watson 1, Jenna Meeks 1. Official May 6, 2026 minutes name him George Siglin, Jr. and say the mayor will be installed June 3, 2026. Official council page and official October 7, 2026 minutes list Mayor George Siglin. Term length is not stated on those official pages; the June 3, 2026–June 3, 2030 end is a 4-year inference from the official even-year May mayoral election (medium on length only)."
+        },
+        {
+          "office": "Lingle Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Katherine Lynn Wilhelm",
+              "person_id": "WY-WILHELM-KATHERINE-LYNN",
+              "party": "",
+              "term_end": "January 2030",
+              "href": "candidates/local-history/c/katherine-lynn-wilhelm.html",
+              "notes": "Official Town of Lingle official 2026 municipal results (canvassed May 6): Council Katherine Lynn Wilhelm 56, Delwin Watson 46, Bryan Kirk 45. Official May 6 minutes say Wilhelm and Watson will be installed June 3, 2026. Official council page lists Kathy Wilhelm, Council Member/Mayor Pro Tempore. Term length is not stated on the official results page; the 4-year end is inferred from the official even-year two-seat council election pattern (medium on length only)."
+            },
+            {
+              "name": "Delwin Watson",
+              "person_id": "WY-WATSON-DELWIN",
+              "party": "",
+              "term_end": "January 2030",
+              "href": "candidates/local-history/c/delwin-watson.html",
+              "notes": "Official Town of Lingle official 2026 municipal results (canvassed May 6): Delwin Watson 46. Official May 6 minutes: installed June 3, 2026. Official October 7, 2026 minutes roll call uses Del Watson. 4-year term end is inferred (medium on length only)."
+            },
+            {
+              "name": "Shelly Duncan",
+              "person_id": "WY-DUNCAN-SHELLY",
+              "party": "",
+              "term_end": "January 2028",
+              "href": "candidates/local-history/c/shelly-duncan.html",
+              "notes": "Official Town of Lingle May 22, 2024 minutes: the May 14, 2024 municipal election had 64 ballots; Jeff Jerome and Shelly Duncan collected the most votes and were to be sworn June 5, 2024. Official June 5, 2024 minutes: oath administered to Jeff Jerome and Shelly Duncan. Official October 7, 2026 minutes and official council page still list Shelly Duncan. 4-year term end is inferred from the official even-year two-seat council pattern (medium on length only)."
+            },
+            {
+              "name": "Brian Ingram",
+              "person_id": "WY-INGRAM-BRIAN",
+              "party": "",
+              "term_end": "January 2028",
+              "href": "candidates/local-history/c/brian-ingram.html",
+              "notes": "Official Town of Lingle May 6, 2026 and October 7, 2026 minutes, and the official council page, name Brian Ingram as a sitting council member. The official 2024 winners were Jeff Jerome and Shelly Duncan; no official appointment minute for Ingram was found, so the start is the first official minutes used here that name him as council (May 6, 2026) and the end date is not confirmed (medium). He is not treated as a 2026 election winner (2 official write-in votes)."
+            }
+          ],
+          "note": "Official Town of Lingle official 2026 municipal results (canvassed May 6): Council Katherine Lynn Wilhelm 56, Delwin Watson 46, Bryan Kirk 45. Official May 6 minutes say Wilhelm and Watson will be installed June 3, 2026. Official council page lists Kathy Wilhelm, Council Member/Mayor Pro Tempore. Term length is not stated on the official results page; the 4-year end is inferred from the official even-year two-seat council election pattern (medium on length only). Official Town of Lingle official 2026 municipal results (canvassed May 6): Delwin Watson 46. Official May 6 minutes: installed June 3, 2026. Official October 7, 2026 minutes roll call uses Del Watson. 4-year term end is inferred (medium on length only)."
+        },
+        {
+          "office": "Fort Laramie Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ryon Brown",
+              "person_id": "WY-BROWN-RYON",
+              "party": "",
+              "term_end": "January 2028",
+              "href": "candidates/local-history/c/ryon-brown.html",
+              "notes": "Official Town of Fort Laramie December 10, 2025, January 14, 2026, May 13, 2026, October 14, 2026, and October 28, 2026 regular minutes, and the official Contact us page, name Ryon Brown as Mayor. An official 2024 mayoral canvass was not found; the start is the first official minutes used here (he was already seated), and the June 1, 2028 end is inferred from the official even-year May election calendar (medium on start and length)."
+            }
+          ],
+          "note": "Official Town of Fort Laramie December 10, 2025, January 14, 2026, May 13, 2026, October 14, 2026, and October 28, 2026 regular minutes, and the official Contact us page, name Ryon Brown as Mayor. An official 2024 mayoral canvass was not found; the start is the first official minutes used here (he was already seated), and the June 1, 2028 end is inferred from the official even-year May election calendar (medium on start and length)."
+        },
+        {
+          "office": "Fort Laramie Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jason Curtsinger",
+              "person_id": "WY-CURTSINGER-JASON",
+              "party": "",
+              "term_end": "January 2028",
+              "href": "candidates/local-history/c/jason-curtsinger.html",
+              "notes": "Official Fort Laramie December 10, 2025 through October 28, 2026 minutes roll calls, and the official Contact us page, name Jason Curtsinger as council. He was already seated before the official May 5, 2026 election for the two expiring seats. Term end June 1, 2028 is inferred from that official even-year cycle (medium on start and length)."
+            },
+            {
+              "name": "Chris Sachanandani",
+              "person_id": "WY-SACHANANDANI-CHRIS",
+              "party": "",
+              "term_end": "January 2028",
+              "href": "candidates/local-history/c/chris-sachanandani.html",
+              "notes": "Official Fort Laramie December 10, 2025 through October 28, 2026 minutes roll calls, and the official Contact us page, name Chris Sachanandani as council. He was already seated before the official May 5, 2026 election for the two expiring seats. Term end June 1, 2028 is inferred (medium on start and length)."
+            },
+            {
+              "name": "Alicia Tanner",
+              "person_id": "WY-TANNER-ALICIA",
+              "party": "",
+              "term_end": "January 2030",
+              "href": "candidates/local-history/c/alicia-tanner.html",
+              "notes": "Official Fort Laramie May 13, 2026 minutes: Alicia Tanner and Jacob Ellis were elected May 5, 2026 to the two term-expiring council seats; Tanner took the Oath of Office as a council member for a four-year term. Official October 14 and October 28, 2026 minutes still list Tanner."
+            }
+          ],
+          "note": "Official Fort Laramie May 13, 2026 minutes: Alicia Tanner and Jacob Ellis were elected May 5, 2026 to the two term-expiring council seats; Tanner took the Oath of Office as a council member for a four-year term. Official October 14 and October 28, 2026 minutes still list Tanner. Official Fort Laramie December 10, 2025 through October 28, 2026 minutes roll calls, and the official Contact us page, name Jason Curtsinger as council. He was already seated before the official May 5, 2026 election for the two expiring seats. Term end June 1, 2028 is inferred from that official even-year cycle (medium on start and length)."
+        },
+        {
+          "office": "La Grange Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kirk Haas",
+              "person_id": "WY-HAAS-KIRK",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kirk-haas.html",
+              "notes": "Official Town of LaGrange Government page: Mayor Kirk Haas, term 2029. Official Welcome Booklet (updated as of 11/26/25): Mayor (4 years) Kirk Haas 2029. Official May 2026 newsletter reprints the official April 9, 2026 minutes with Mayor Kirk Haas present. Official page: elections the 2nd Tuesday in May on odd years. Exact start and end days are not stated (medium on those days only); names and term years are official."
+            }
+          ],
+          "note": "Official Town of LaGrange Government page: Mayor Kirk Haas, term 2029. Official Welcome Booklet (updated as of 11/26/25): Mayor (4 years) Kirk Haas 2029. Official May 2026 newsletter reprints the official April 9, 2026 minutes with Mayor Kirk Haas present. Official page: elections the 2nd Tuesday in May on odd years. Exact start and end days are not stated (medium on those days only); names and term years are official."
+        },
+        {
+          "office": "La Grange Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael Huseby",
+              "person_id": "WY-HUSEBY-MICHAEL",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/michael-huseby.html",
+              "notes": "Official Town of LaGrange Government page: Michael Huseby, term 2027. Official Welcome Booklet: Council Member (2 years) Michael Huseby 2027. Official April 9, 2026 minutes: Mike Huseby present. Exact start and end days medium; name and term year official."
+            },
+            {
+              "name": "Jennifer Pragnell",
+              "person_id": "WY-PRAGNELL-JENNIFER",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/jennifer-pragnell.html",
+              "notes": "Official Town of LaGrange Government page: Jennifer Pragnell, term 2027. Official Welcome Booklet: Council Member (2 years) Jennifer Pragnell 2027. Official April 9, 2026 minutes: Jenny Pragnell present. Exact start and end days medium; name and term year official."
+            },
+            {
+              "name": "Teresa \"Tracy\" May",
+              "person_id": "WY-MAY-TERESA-TRACY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/teresa-tracy-may.html",
+              "notes": "Official Town of LaGrange Government page: Teresa “Tracy” May, term 2029. Official Welcome Booklet: Council Member (4 years) Tracy May 2029. Official April 9, 2026 minutes: Tracy May present. Exact start and end days medium; name and term year official."
+            },
+            {
+              "name": "John Goold",
+              "person_id": "WY-GOOLD-JOHN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/john-goold.html",
+              "notes": "Official Town of LaGrange Government page: John Goold, term 2029. Official Welcome Booklet: Council Member (4 years) John Goold 2029. Official April 9, 2026 minutes: John Goold present. Exact start and end days medium; name and term year official."
+            }
+          ],
+          "note": "Official Town of LaGrange Government page: Michael Huseby, term 2027. Official Welcome Booklet: Council Member (2 years) Michael Huseby 2027. Official April 9, 2026 minutes: Mike Huseby present. Exact start and end days medium; name and term year official. Official Town of LaGrange Government page: Jennifer Pragnell, term 2027. Official Welcome Booklet: Council Member (2 years) Jennifer Pragnell 2027. Official April 9, 2026 minutes: Jenny Pragnell present. Exact start and end days medium; name and term year official."
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "label": "School boards",
+      "offices": [
+        {
+          "office": "Goshen County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Sarah Chaires",
+              "person_id": "WY-CHAIRES-SARAH",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/sarah-chaires.html",
+              "notes": "Official 2026 Goshen clerk recount page in the official general PDF, GCSD #1 Trustee At-Large Vote-For-4: Steve Zimmerman 2,843, Sarah Chaires 2,281, Travis Grosz 2,183, Peter Kasperbauer 1,592 (Jeremy Closs 1,586 was fifth). This row: Sarah Chaires 2,281."
+            },
+            {
+              "name": "Wade Phipps",
+              "person_id": "WY-PHIPPS-WADE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/wade-phipps.html",
+              "notes": "Official 2022 Goshen clerk, GCSD #1 Trustee At-Large 4-year Vote-For-4: Wade Phipps 2,613, Sarah Chaires 2,502, Chris Alexander 2,266, Bob Peterson 2,168 (Jane Zulauf 1,654 was fifth). This row: Wade Phipps 2,613."
+            },
+            {
+              "name": "Chris Alexander",
+              "person_id": "WY-ALEXANDER-CHRIS",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/chris-alexander.html",
+              "notes": "Official 2022 Goshen clerk, GCSD #1 Trustee At-Large 4-year Vote-For-4: Wade Phipps 2,613, Sarah Chaires 2,502, Chris Alexander 2,266, Bob Peterson 2,168 (Jane Zulauf 1,654 was fifth). This row: Chris Alexander 2,266."
+            },
+            {
+              "name": "Bob Peterson",
+              "person_id": "WY-PETERSON-BOB",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/bob-peterson.html",
+              "notes": "Official 2022 Goshen clerk, GCSD #1 Trustee At-Large 4-year Vote-For-4: Wade Phipps 2,613, Sarah Chaires 2,502, Chris Alexander 2,266, Bob Peterson 2,168 (Jane Zulauf 1,654 was fifth). This row: Bob Peterson 2,168."
+            },
+            {
+              "name": "Kate Steinbock",
+              "person_id": "WY-STEINBOCK-KATE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kate-steinbock.html",
+              "notes": "Official 2024 Goshen school-district recount (ArchiveCenter Item 142), GCSD #1 Trustee At-Large Vote-For-5: Kate Steinbock 1,955, Kelly Meeboer Strampe 1,893, Tony Goulart 1,847, Valerie Lamb Sharp 1,817, Lena Moeller 1,816. Official general summary ranks are the same; recount totals are used. This row: Kate Steinbock 1,955."
+            },
+            {
+              "name": "Kelly Meeboer Strampe",
+              "person_id": "WY-STRAMPE-KELLY-MEEBOER",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kelly-meeboer-strampe.html",
+              "notes": "Official 2024 Goshen school-district recount (ArchiveCenter Item 142), GCSD #1 Trustee At-Large Vote-For-5: Kate Steinbock 1,955, Kelly Meeboer Strampe 1,893, Tony Goulart 1,847, Valerie Lamb Sharp 1,817, Lena Moeller 1,816. Official general summary ranks are the same; recount totals are used. This row: Kelly Meeboer Strampe 1,893."
+            },
+            {
+              "name": "Tony Goulart",
+              "person_id": "WY-GOULART-TONY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/tony-goulart.html",
+              "notes": "Official 2024 Goshen school-district recount (ArchiveCenter Item 142), GCSD #1 Trustee At-Large Vote-For-5: Kate Steinbock 1,955, Kelly Meeboer Strampe 1,893, Tony Goulart 1,847, Valerie Lamb Sharp 1,817, Lena Moeller 1,816. Official general summary ranks are the same; recount totals are used. This row: Tony Goulart 1,847."
+            },
+            {
+              "name": "Valerie Lamb Sharp",
+              "person_id": "WY-SHARP-VALERIE-LAMB",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/valerie-lamb-sharp.html",
+              "notes": "Official 2024 Goshen school-district recount (ArchiveCenter Item 142), GCSD #1 Trustee At-Large Vote-For-5: Kate Steinbock 1,955, Kelly Meeboer Strampe 1,893, Tony Goulart 1,847, Valerie Lamb Sharp 1,817, Lena Moeller 1,816. Official general summary ranks are the same; recount totals are used. This row: Valerie Lamb Sharp 1,817."
+            },
+            {
+              "name": "Lena Moeller",
+              "person_id": "WY-MOELLER-LENA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/lena-moeller.html",
+              "notes": "Official 2024 Goshen school-district recount (ArchiveCenter Item 142), GCSD #1 Trustee At-Large Vote-For-5: Kate Steinbock 1,955, Kelly Meeboer Strampe 1,893, Tony Goulart 1,847, Valerie Lamb Sharp 1,817, Lena Moeller 1,816. Official general summary ranks are the same; recount totals are used. This row: Lena Moeller 1,816."
+            },
+            {
+              "name": "Dylan Hager",
+              "person_id": "WY-HAGER-DYLAN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/dylan-hager.html",
+              "notes": "Official 2024 Goshen clerk, GCSD #1 Trustee At-Large Vote-For-1: Dylan Hager 2,862, Jo Meininger 2,200. Official 2024 clerk did not print 2-year/4-year on this contest; 2-year term follows the official 2022 2-year GCSD pattern."
+            },
+            {
+              "name": "Steve Zimmerman",
+              "person_id": "WY-ZIMMERMAN-STEVE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/steve-zimmerman.html",
+              "notes": "Official 2026 Goshen clerk recount page in the official general PDF, GCSD #1 Trustee At-Large Vote-For-4: Steve Zimmerman 2,843, Sarah Chaires 2,281, Travis Grosz 2,183, Peter Kasperbauer 1,592 (Jeremy Closs 1,586 was fifth). This row: Steve Zimmerman 2,843."
+            },
+            {
+              "name": "Travis Grosz",
+              "person_id": "WY-GROSZ-TRAVIS",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/travis-grosz.html",
+              "notes": "Official 2026 Goshen clerk recount page in the official general PDF, GCSD #1 Trustee At-Large Vote-For-4: Steve Zimmerman 2,843, Sarah Chaires 2,281, Travis Grosz 2,183, Peter Kasperbauer 1,592 (Jeremy Closs 1,586 was fifth). This row: Travis Grosz 2,183."
+            },
+            {
+              "name": "Peter Kasperbauer",
+              "person_id": "WY-KASPERBAUER-PETER",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/peter-kasperbauer.html",
+              "notes": "Official 2026 Goshen clerk recount page in the official general PDF, GCSD #1 Trustee At-Large Vote-For-4: Steve Zimmerman 2,843, Sarah Chaires 2,281, Travis Grosz 2,183, Peter Kasperbauer 1,592 (Jeremy Closs 1,586 was fifth). This row: Peter Kasperbauer 1,592."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk recount page in the official general PDF, GCSD #1 Trustee At-Large Vote-For-4: Steve Zimmerman 2,843, Sarah Chaires 2,281, Travis Grosz 2,183, Peter Kasperbauer 1,592 (Jeremy Closs 1,586 was fifth). This row: Steve Zimmerman 2,843. Official 2026 Goshen clerk recount page in the official general PDF, GCSD #1 Trustee At-Large Vote-For-4: Steve Zimmerman 2,843, Sarah Chaires 2,281, Travis Grosz 2,183, Peter Kasperbauer 1,592 (Jeremy Closs 1,586 was fifth). This row: Sarah Chaires 2,281."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "label": "Special districts",
+      "offices": [
+        {
+          "office": "Eastern Wyoming College Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Rick VonBurg",
+              "person_id": "WY-VONBURG-RICK",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/rick-vonburg.html",
+              "notes": "Official 2026 Goshen clerk, Eastern Wyoming College Trustee 4-year Vote-For-3: Rick VonBurg 3,251, Jackie VanMark 3,193, H Terry Ebert 2,568. This row: Rick VonBurg 3,251."
+            },
+            {
+              "name": "Jackie VanMark",
+              "person_id": "WY-VANMARK-JACKIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jackie-vanmark.html",
+              "notes": "Official 2026 Goshen clerk, Eastern Wyoming College Trustee 4-year Vote-For-3: Rick VonBurg 3,251, Jackie VanMark 3,193, H Terry Ebert 2,568. This row: Jackie VanMark 3,193."
+            },
+            {
+              "name": "Douglas R. Mercer",
+              "person_id": "WY-MERCER-DOUGLAS-R",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/douglas-r-mercer.html",
+              "notes": "Official 2022 Goshen clerk, EWC Trustee At-Large 4-year Vote-For-3: Rick VonBurg 3,338, Jackie Van Mark 3,327, Douglas R. Mercer 2,980. This row: Douglas R. Mercer 2,980."
+            },
+            {
+              "name": "Kurt Sittner",
+              "person_id": "WY-SITTNER-KURT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kurt-sittner.html",
+              "notes": "Official 2024 Goshen clerk, Eastern Wyoming College Trustee Vote-For-4: Kurt Sittner 3,902, Robert Baumgartner 3,851, Randy L Adams 3,710, Katherine Patrick 3,583. This row: Kurt Sittner 3,902."
+            },
+            {
+              "name": "Robert Baumgartner",
+              "person_id": "WY-BAUMGARTNER-ROBERT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/robert-baumgartner.html",
+              "notes": "Official 2024 Goshen clerk, Eastern Wyoming College Trustee Vote-For-4: Kurt Sittner 3,902, Robert Baumgartner 3,851, Randy L Adams 3,710, Katherine Patrick 3,583. This row: Robert Baumgartner 3,851."
+            },
+            {
+              "name": "Randy L. Adams",
+              "person_id": "WY-ADAMS-RANDY-L",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/randy-l-adams.html",
+              "notes": "Official 2024 Goshen clerk, Eastern Wyoming College Trustee Vote-For-4: Kurt Sittner 3,902, Robert Baumgartner 3,851, Randy L Adams 3,710, Katherine Patrick 3,583. This row: Randy L. Adams 3,710."
+            },
+            {
+              "name": "Katherine Patrick",
+              "person_id": "WY-PATRICK-KATHERINE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/katherine-patrick.html",
+              "notes": "Official 2024 Goshen clerk, Eastern Wyoming College Trustee Vote-For-4: Kurt Sittner 3,902, Robert Baumgartner 3,851, Randy L Adams 3,710, Katherine Patrick 3,583. This row: Katherine Patrick 3,583."
+            },
+            {
+              "name": "H. Terry Ebert",
+              "person_id": "WY-EBERT-H-TERRY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/h-terry-ebert.html",
+              "notes": "Official 2026 Goshen clerk, Eastern Wyoming College Trustee 4-year Vote-For-3: Rick VonBurg 3,251, Jackie VanMark 3,193, H Terry Ebert 2,568. This row: H. Terry Ebert 2,568."
+            },
+            {
+              "name": "Julia H. Newman",
+              "person_id": "WY-NEWMAN-JULIA-H",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/julia-h-newman.html",
+              "notes": "Official 2026 Goshen clerk, Eastern Wyoming College Trustee 2-year Vote-For-1: Julia H Newman 3,759."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, Eastern Wyoming College Trustee 4-year Vote-For-3: Rick VonBurg 3,251, Jackie VanMark 3,193, H Terry Ebert 2,568. This row: Rick VonBurg 3,251. Official 2026 Goshen clerk, Eastern Wyoming College Trustee 4-year Vote-For-3: Rick VonBurg 3,251, Jackie VanMark 3,193, H Terry Ebert 2,568. This row: Jackie VanMark 3,193."
+        },
+        {
+          "office": "Lingle-Fort Laramie Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Linda Nichol",
+              "person_id": "WY-NICHOL-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/linda-nichol.html",
+              "notes": "Official 2024 Goshen clerk, LFLCD Supervisor At-Large: Linda Nichol 901."
+            }
+          ],
+          "note": "Official 2024 Goshen clerk, LFLCD Supervisor At-Large: Linda Nichol 901."
+        },
+        {
+          "office": "Lingle-Fort Laramie Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "David Johnson",
+              "person_id": "WY-JOHNSON-DAVID",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/david-johnson.html",
+              "notes": "Official 2024 Goshen clerk, LFLCD Supervisor Rural: David Johnson 887."
+            },
+            {
+              "name": "Matt Teeters",
+              "person_id": "WY-TEETERS-MATT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/matt-teeters.html",
+              "notes": "Official 2026 Goshen clerk, Lingle-Fort Laramie Conservation Rural Vote-For-2: Matt Teeters 567, Donald A McDowell 472."
+            },
+            {
+              "name": "Donald A. McDowell",
+              "person_id": "WY-MCDOWELL-DONALD-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/donald-a-mcdowell.html",
+              "notes": "Official 2026 Goshen clerk, Lingle-Fort Laramie Conservation Rural Vote-For-2: Matt Teeters 567, Donald A McDowell 472."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, Lingle-Fort Laramie Conservation Rural Vote-For-2: Matt Teeters 567, Donald A McDowell 472. Official 2024 Goshen clerk, LFLCD Supervisor Rural: David Johnson 887."
+        },
+        {
+          "office": "Lingle-Fort Laramie Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jenna Meeks",
+              "person_id": "WY-MEEKS-JENNA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jenna-meeks.html",
+              "notes": "Official 2024 Goshen clerk, LFLCD Supervisor Urban: Jenna Meeks 876."
+            }
+          ],
+          "note": "Official 2024 Goshen clerk, LFLCD Supervisor Urban: Jenna Meeks 876."
+        },
+        {
+          "office": "North Platte Valley Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lucas Moore",
+              "person_id": "WY-MOORE-LUCAS",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/lucas-moore.html",
+              "notes": "Official 2024 Goshen clerk, NPVCD Supervisor At-Large: Lucas Moore 3,558."
+            }
+          ],
+          "note": "Official 2024 Goshen clerk, NPVCD Supervisor At-Large: Lucas Moore 3,558."
+        },
+        {
+          "office": "North Platte Valley Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Andrea Eisenbarth",
+              "person_id": "WY-EISENBARTH-ANDREA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/andrea-eisenbarth.html",
+              "notes": "Official 2024 Goshen clerk, NPVCD Supervisor Rural: Andrea Eisenbarth 3,618."
+            },
+            {
+              "name": "Duane Keller",
+              "person_id": "WY-KELLER-DUANE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/duane-keller.html",
+              "notes": "Official 2026 Goshen clerk, North Platte Valley Conservation Rural Vote-For-2: Duane Keller 2,357, Kasey Bangerter 2,223."
+            },
+            {
+              "name": "Kasey Bangerter",
+              "person_id": "WY-BANGERTER-KASEY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kasey-bangerter.html",
+              "notes": "Official 2026 Goshen clerk, North Platte Valley Conservation Rural Vote-For-2: Duane Keller 2,357, Kasey Bangerter 2,223."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, North Platte Valley Conservation Rural Vote-For-2: Duane Keller 2,357, Kasey Bangerter 2,223. Official 2024 Goshen clerk, NPVCD Supervisor Rural: Andrea Eisenbarth 3,618."
+        },
+        {
+          "office": "North Platte Valley Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Enoch Baumgardner",
+              "person_id": "WY-BAUMGARDNER-ENOCH",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/enoch-baumgardner.html",
+              "notes": "Official 2024 Goshen clerk, NPVCD Supervisor Urban: Enoch Baumgardner 3,507."
+            }
+          ],
+          "note": "Official 2024 Goshen clerk, NPVCD Supervisor Urban: Enoch Baumgardner 3,507."
+        },
+        {
+          "office": "South Goshen Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott D. Ross",
+              "person_id": "WY-ROSS-SCOTT-D",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/scott-d-ross.html",
+              "notes": "Official 2026 Goshen clerk, South Goshen Conservation District At-Large: Scott D Ross 423."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, South Goshen Conservation District At-Large: Scott D Ross 423."
+        },
+        {
+          "office": "South Goshen Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jennifer Scheer",
+              "person_id": "WY-SCHEER-JENNIFER",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jennifer-scheer.html",
+              "notes": "Official 2024 Goshen clerk, SGCD Supervisor Rural Vote-For-2: Jennifer Scheer 443, Dave Bartlett 367."
+            },
+            {
+              "name": "Dave Bartlett",
+              "person_id": "WY-BARTLETT-DAVE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/dave-bartlett.html",
+              "notes": "Official 2024 Goshen clerk, SGCD Supervisor Rural Vote-For-2: Jennifer Scheer 443, Dave Bartlett 367."
+            },
+            {
+              "name": "Craig Jackson",
+              "person_id": "WY-JACKSON-CRAIG",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/craig-jackson.html",
+              "notes": "Official 2026 Goshen clerk, South Goshen Conservation Rural: Craig Jackson 441."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, South Goshen Conservation Rural: Craig Jackson 441. Official 2024 Goshen clerk, SGCD Supervisor Rural Vote-For-2: Jennifer Scheer 443, Dave Bartlett 367."
+        },
+        {
+          "office": "South Goshen Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curtis G. Grandstaff",
+              "person_id": "WY-GRANDSTAFF-CURTIS-G",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/curtis-g-grandstaff.html",
+              "notes": "Official 2024 Goshen clerk, SGCD Supervisor Urban: Curtis G Grandstaff 590."
+            }
+          ],
+          "note": "Official 2024 Goshen clerk, SGCD Supervisor Urban: Curtis G Grandstaff 590."
+        },
+        {
+          "office": "Senior Citizen Service District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Konne Rife",
+              "person_id": "WY-RIFE-KONNE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/konne-rife.html",
+              "notes": "Official 2026 Goshen clerk, Senior Citizen Service District Trustee Vote-For-5: Konne Rife 2,759, Michael Lowry 2,718, Mardell (Mardy) Joy 2,676, Merrijane Morgheim 2,608, Thomas A Johnson 2,534. This row: Konne Rife 2,759."
+            },
+            {
+              "name": "Michael Lowry",
+              "person_id": "WY-LOWRY-MICHAEL",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/michael-lowry.html",
+              "notes": "Official 2026 Goshen clerk, Senior Citizen Service District Trustee Vote-For-5: Konne Rife 2,759, Michael Lowry 2,718, Mardell (Mardy) Joy 2,676, Merrijane Morgheim 2,608, Thomas A Johnson 2,534. This row: Michael Lowry 2,718."
+            },
+            {
+              "name": "Mardell (Mardy) Joy",
+              "person_id": "WY-JOY-MARDELL",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/mardell-mardy-joy.html",
+              "notes": "Official 2026 Goshen clerk, Senior Citizen Service District Trustee Vote-For-5: Konne Rife 2,759, Michael Lowry 2,718, Mardell (Mardy) Joy 2,676, Merrijane Morgheim 2,608, Thomas A Johnson 2,534. This row: Mardell (Mardy) Joy 2,676."
+            },
+            {
+              "name": "Merrijane Morgheim",
+              "person_id": "WY-MORGHEIM-MERRIJANE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/merrijane-morgheim.html",
+              "notes": "Official 2026 Goshen clerk, Senior Citizen Service District Trustee Vote-For-5: Konne Rife 2,759, Michael Lowry 2,718, Mardell (Mardy) Joy 2,676, Merrijane Morgheim 2,608, Thomas A Johnson 2,534. This row: Merrijane Morgheim 2,608."
+            },
+            {
+              "name": "Thomas A. Johnson",
+              "person_id": "WY-JOHNSON-THOMAS-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/thomas-a-johnson.html",
+              "notes": "Official 2026 Goshen clerk, Senior Citizen Service District Trustee Vote-For-5: Konne Rife 2,759, Michael Lowry 2,718, Mardell (Mardy) Joy 2,676, Merrijane Morgheim 2,608, Thomas A Johnson 2,534. This row: Thomas A. Johnson 2,534."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, Senior Citizen Service District Trustee Vote-For-5: Konne Rife 2,759, Michael Lowry 2,718, Mardell (Mardy) Joy 2,676, Merrijane Morgheim 2,608, Thomas A Johnson 2,534. This row: Konne Rife 2,759. Official 2026 Goshen clerk, Senior Citizen Service District Trustee Vote-For-5: Konne Rife 2,759, Michael Lowry 2,718, Mardell (Mardy) Joy 2,676, Merrijane Morgheim 2,608, Thomas A Johnson 2,534. This row: Michael Lowry 2,718."
+        },
+        {
+          "office": "Chugwater Cemetery District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Holly Crowley",
+              "person_id": "WY-CROWLEY-HOLLY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/holly-crowley.html",
+              "notes": "Official 2024 Goshen clerk, Chugwater Cemetery Director Vote-For-3: Ruth Vaughn 23, Dean Webster 23, Holly Crowley 22. Official Goshen votes; official Platte whole-district totals were not combined here."
+            },
+            {
+              "name": "Ruth Vaughn",
+              "person_id": "WY-VAUGHN-RUTH",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ruth-vaughn.html",
+              "notes": "Official 2024 Goshen clerk, Chugwater Cemetery Director Vote-For-3: Ruth Vaughn 23, Dean Webster 23, Holly Crowley 22. Official Goshen votes; official Platte whole-district totals were not combined here."
+            },
+            {
+              "name": "Dean Webster",
+              "person_id": "WY-WEBSTER-DEAN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/dean-webster.html",
+              "notes": "Official 2024 Goshen clerk, Chugwater Cemetery Director Vote-For-3: Ruth Vaughn 23, Dean Webster 23, Holly Crowley 22. Official Goshen votes; official Platte whole-district totals were not combined here."
+            },
+            {
+              "name": "Michael L. Kelley",
+              "person_id": "WY-KELLEY-MICHAEL-L",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/michael-l-kelley.html",
+              "notes": "Official 2024 Goshen clerk, Chugwater Cemetery Director Vote-For-1: Michael L Kelley 25. Official 2024 clerk did not print 2-year/4-year; 2-year term follows the official 2026 2-year Chugwater pattern. Official Goshen votes only."
+            },
+            {
+              "name": "Blake Vaughn",
+              "person_id": "WY-VAUGHN-BLAKE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/blake-vaughn.html",
+              "notes": "Official 2026 Goshen clerk, Chugwater Cemetery District Director 4-year Vote-For-3: Blake Vaughn 15, Tracy Vaughn 15, Kate Jackson 13, Barbara Fletcher 12. These are official Goshen votes; the district also covers area outside Goshen, and official Platte whole-district totals were not combined here."
+            },
+            {
+              "name": "Tracy Vaughn",
+              "person_id": "WY-VAUGHN-TRACY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/tracy-vaughn.html",
+              "notes": "Official 2026 Goshen clerk, Chugwater Cemetery District Director 4-year Vote-For-3: Blake Vaughn 15, Tracy Vaughn 15, Kate Jackson 13, Barbara Fletcher 12. These are official Goshen votes; the district also covers area outside Goshen, and official Platte whole-district totals were not combined here."
+            },
+            {
+              "name": "Kate Jackson",
+              "person_id": "WY-JACKSON-KATE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kate-jackson.html",
+              "notes": "Official 2026 Goshen clerk, Chugwater Cemetery District Director 4-year Vote-For-3: Blake Vaughn 15, Tracy Vaughn 15, Kate Jackson 13, Barbara Fletcher 12. These are official Goshen votes; the district also covers area outside Goshen, and official Platte whole-district totals were not combined here."
+            },
+            {
+              "name": "Darla Teter",
+              "person_id": "WY-TETER-DARLA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/darla-teter.html",
+              "notes": "Official 2026 Goshen clerk, Chugwater Cemetery District Director 2-year: Darla Teter 20. Official Goshen votes; official Platte whole-district totals were not combined here."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, Chugwater Cemetery District Director 4-year Vote-For-3: Blake Vaughn 15, Tracy Vaughn 15, Kate Jackson 13, Barbara Fletcher 12. These are official Goshen votes; the district also covers area outside Goshen, and official Platte whole-district totals were not combined here. Official 2026 Goshen clerk, Chugwater Cemetery District Director 2-year: Darla Teter 20. Official Goshen votes; official Platte whole-district totals were not combined here."
+        },
+        {
+          "office": "Chugwater Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tim Ash",
+              "person_id": "WY-ASH-TIM",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/tim-ash.html",
+              "notes": "Official 2026 Goshen clerk, Chugwater Fire District Director: Tim Ash 23. Official Goshen votes; official Platte whole-district totals were not combined here."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk, Chugwater Fire District Director: Tim Ash 23. Official Goshen votes; official Platte whole-district totals were not combined here."
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "label": "Judicial",
+      "offices": [
+        {
+          "office": "District Judge, 8th Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "F. Scott Peasley",
+              "person_id": "WY-PEASLEY-F-SCOTT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/f-scott-peasley.html",
+              "notes": "Official Wyoming Judicial Branch 8th JD District Court page: Hon. F. Scott Peasley, appointed August 2017, retained November 2024, term expires January 2031. Official 2024 Goshen clerk JUDGE PEASLEY RETENTION: YES 4,451, NO 996. Official 2018 SOS winners roster lists F. Scott Peasley as Judge B of the District Court of the Eighth District. Start day is the first of the official appointment month."
+            },
+            {
+              "name": "Edward A. Buchanan",
+              "person_id": "WY-BUCHANAN-EDWARD-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/edward-a-buchanan.html",
+              "notes": "Official Wyoming Judicial Branch 8th JD District Court page: Hon. Edward A. Buchanan, appointed September 2022, retained November 2024, term expires January 2031. Official 2024 Goshen clerk JUDGE BUCHANAN RETENTION: YES 4,808, NO 895. Start day is the first of the official appointment month."
+            }
+          ],
+          "note": "Official Wyoming Judicial Branch 8th JD District Court page: Hon. F. Scott Peasley, appointed August 2017, retained November 2024, term expires January 2031. Official 2024 Goshen clerk JUDGE PEASLEY RETENTION: YES 4,451, NO 996. Official 2018 SOS winners roster lists F. Scott Peasley as Judge B of the District Court of the Eighth District. Start day is the first of the official appointment month. Official Wyoming Judicial Branch 8th JD District Court page: Hon. Edward A. Buchanan, appointed September 2022, retained November 2024, term expires January 2031. Official 2024 Goshen clerk JUDGE BUCHANAN RETENTION: YES 4,808, NO 895. Start day is the first of the official appointment month."
+        },
+        {
+          "office": "Circuit Judge, 8th Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Clark C. Allan",
+              "person_id": "WY-ALLAN-CLARK-C",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/clark-c-allan.html",
+              "notes": "Official 2026 Goshen clerk CIRCUIT COURT JUDGE CLARK C ALLAN: YES 3,213, NO 773."
+            },
+            {
+              "name": "Jacqueline K. Brown",
+              "person_id": "WY-BROWN-JACQUELINE-K",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jacqueline-k-brown.html",
+              "notes": "Official 2026 Goshen clerk CIRCUIT COURT JUDGE JACQUELINE K BROWN: YES 3,176, NO 858. Official 2026 Goshen clerk CHANCERY COURT JUDGE BEN BURNINGHAM is the statewide Chancery retention copied from the shared judicial terms, not a local 8th JD seat."
+            }
+          ],
+          "note": "Official 2026 Goshen clerk CIRCUIT COURT JUDGE CLARK C ALLAN: YES 3,213, NO 773. Official Wyoming Judicial Branch 8th JD Goshen (Torrington) Circuit Court page: Hon. Jacqueline K. Brown, appointed July 2025, term expires January 2027, stands for retention November 2026. Official 2026 Goshen clerk CIRCUIT COURT JUDGE JACQUELINE K BROWN: YES 3,176, NO 858. Official Judicial Branch robing notice lists her as Circuit Court Judge of the 8th JD (Converse, Goshen, Niobrara, and Platte Counties). Start day is the first of the official appointment month."
         }
       ]
     },
@@ -1297,8 +1920,10 @@
     }
   ],
   "sources": {
-    "general_results": "https://www.goshencountywy.gov/Archive.aspx?ADID=162",
-    "primary_results": "https://www.goshencountywy.gov/Archive.aspx?ADID=161",
-    "checked": "2026-11-19"
+    "general_results": "https://goshencounty.org/ArchiveCenter/ViewFile/Item/162",
+    "primary_results": "https://goshencounty.org/ArchiveCenter/ViewFile/Item/161",
+    "clerk_archive": "https://goshencounty.org/Archive.aspx?AMID=38",
+    "checked": "2026-11-24",
+    "local_archive": "/workspace/wyoleg/local-results/goshen/SOURCES.md"
   }
 }

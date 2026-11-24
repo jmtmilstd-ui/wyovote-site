@@ -1,0 +1,2304 @@
+{
+  "county": "Carbon",
+  "county_number": 6,
+  "snapshot_year": 2023,
+  "as_of": "2023-01-08",
+  "as_of_label": "January 2023 (as of 2023-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2023 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 11 (S11)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Larry Hicks",
+              "person_id": "WY-HICKS-LARRY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide Senate candidates summary (district-wide Total row)",
+                  "url": ""
+                },
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide Senate summary Total: Larry Hicks (R) 4,153, Michael Ray Williams (C) 1,104. Official Carbon portion: Hicks 3,455, Williams 974. Also covers Sweetwater (698–130). Official Carbon clerk matches the Carbon portion.",
+              "href": "candidates/local-history/c/larry-hicks.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 15 (H15)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Donald Burkhart",
+              "person_id": "WY-BURKHART-DONALD",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": ""
+                },
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary Total: Donald Burkhart (R) 1,552, Patrick Gonzales (L) 602. Official Carbon portion: Burkhart 1,515, Gonzales 600. Official Sweetwater share: 37–2.",
+              "href": "candidates/local-history/c/donald-burkhart.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 47 (H47)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bob Davis",
+              "person_id": "WY-DAVIS-BOB",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": ""
+                },
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary Total: Robert \"Bob\" Davis (R) 2,636, Lee Ann Stephenson (D) 656. Official Carbon portion: Davis 1,949, Stephenson 525. Official Sweetwater share: 687–131. Official Carbon clerk matches the Carbon portion.",
+              "href": "candidates/local-history/c/bob-davis.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Espy",
+              "person_id": "WY-ESPY-JOHN",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2020 general election summary (PDF header OFFICIAL RESULTS; DocumentCenter slug still says unofficial)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/5671"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Carbon clerk, commissioner Vote-For-3 (PDF header OFFICIAL RESULTS): John Espy 4,515.",
+              "href": "candidates/local-history/c/john-espy.html"
+            },
+            {
+              "name": "Byron R. Barkhurst",
+              "person_id": "WY-BARKHURST-BYRON-R",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2020 general election summary (PDF header OFFICIAL RESULTS; DocumentCenter slug still says unofficial)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/5671"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Carbon clerk, commissioner Vote-For-3 (PDF header OFFICIAL RESULTS): Byron R. Barkhurst 4,012.",
+              "href": "candidates/local-history/c/byron-r-barkhurst.html"
+            },
+            {
+              "name": "Sue Jones",
+              "person_id": "WY-JONES-SUE",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2020 general election summary (PDF header OFFICIAL RESULTS; DocumentCenter slug still says unofficial)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/5671"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Carbon clerk, commissioner Vote-For-3 (PDF header OFFICIAL RESULTS): Sue Jones 3,778.",
+              "href": "candidates/local-history/c/sue-jones.html"
+            },
+            {
+              "name": "R. Travis Moore",
+              "person_id": "WY-MOORE-R-TRAVIS",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, commissioner Vote-For-2: R. Travis Moore 3,410, Willing \"John\" Johnson 2,889. Official 2026 County Directory and official commissioners page: Chairman, term ends January 2027; official 2026 winner, continues.",
+              "href": "candidates/local-history/c/r-travis-moore.html"
+            },
+            {
+              "name": "Willing \"John\" Johnson",
+              "person_id": "WY-JOHNSON-WILLING",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk ballot name Willing \"John\" Johnson, 2,889. Official 2026 directory lists John Johnson, term ends January 2027; official 2026 winner, continues.",
+              "href": "candidates/local-history/c/willing-john-johnson.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Gwynn G. Bartlett",
+              "person_id": "WY-BARTLETT-GWYNN",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2026 County Directory (DocumentCenter 8405, revised January 2026)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8405"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Gwynn G. Bartlett 4,291. Official 2024 general had no clerk contest. Official 2026 County Directory lists Lisa M. Smith as clerk 01/2025–12/2026 after Bartlett was elected commissioner in 2024. Term_end is January 2025 (medium as to the exact mid-term day; first Monday used).",
+              "href": "candidates/local-history/c/gwynn-g-bartlett.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brittany Nyman",
+              "person_id": "WY-NYMAN-BRITTANY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Brittany Nyman 4,170.",
+              "href": "candidates/local-history/c/brittany-nyman.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Sarah Chavez Harkins",
+              "person_id": "WY-HARKINS-SARAH",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Sarah Chavez Harkins 4,070.",
+              "href": "candidates/local-history/c/sarah-chavez-harkins.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Alex S. Bakken",
+              "person_id": "WY-BAKKEN-ALEX-S",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Alex S. Bakken 3,340, Mike Morris 1,293.",
+              "href": "candidates/local-history/c/alex-s-bakken.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lindsey West",
+              "person_id": "WY-WEST-LINDSEY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Lindsey West 4,072.",
+              "href": "candidates/local-history/c/lindsey-west.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Renee Snider",
+              "person_id": "WY-SNIDER-RENEE",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Renee Snider 3,884.",
+              "href": "candidates/local-history/c/renee-snider.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mara M. Sanger",
+              "person_id": "WY-SANGER-MARA-M",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Mara M. Sanger 4,263.",
+              "href": "candidates/local-history/c/mara-m-sanger.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Baggs Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt L. Howell",
+              "person_id": "WY-HOWELL-MATT-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Matt L. Howell 76, Annamarie Waldron 68.",
+              "href": "candidates/local-history/c/matt-l-howell.html"
+            }
+          ]
+        },
+        {
+          "office": "Baggs Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Shan D. Ferguson",
+              "person_id": "WY-FERGUSON-SHAN-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Shan D Ferguson 104. Katie Gibson is listed as withdrawn and is not seated.",
+              "href": "candidates/local-history/c/shan-d-ferguson.html"
+            },
+            {
+              "name": "Gail Mayer",
+              "person_id": "WY-MAYER-GAIL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon certified write-ins (canvassed November 10, 2022): Gail Mayer, Baggs Councilperson 4 Year.",
+              "href": "candidates/local-history/c/gail-mayer.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Dixon Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Melodie Seilaff",
+              "person_id": "WY-SEILAFF-MELODIE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Melodie Seilaff 26.",
+              "href": "candidates/local-history/c/melodie-seilaff.html"
+            }
+          ]
+        },
+        {
+          "office": "Dixon Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Raymond Hauger",
+              "person_id": "WY-HAUGER-RAYMOND",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Raymond Hauger 28, Lorell Herold 26.",
+              "href": "candidates/local-history/c/raymond-hauger.html"
+            },
+            {
+              "name": "Lorell Herold",
+              "person_id": "WY-HEROLD-LORELL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Lorell Herold 26.",
+              "href": "candidates/local-history/c/lorell-herold.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Elk Mountain Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Morgan J. Irene",
+              "person_id": "WY-IRENE-MORGAN-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Morgan J. Irene 63, Bonni Bruce 32.",
+              "href": "candidates/local-history/c/morgan-j-irene.html"
+            }
+          ]
+        },
+        {
+          "office": "Elk Mountain Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Craig Mustard",
+              "person_id": "WY-MUSTARD-CRAIG",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Craig Mustard 53, Wade Nelson 52.",
+              "href": "candidates/local-history/c/craig-mustard.html"
+            },
+            {
+              "name": "Wade Nelson",
+              "person_id": "WY-NELSON-WADE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Wade Nelson 52.",
+              "href": "candidates/local-history/c/wade-nelson.html"
+            },
+            {
+              "name": "Joseph G. Neel",
+              "person_id": "WY-NEEL-JOSEPH-G",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council unexpired: Joseph G. Neel 87.",
+              "href": "candidates/local-history/c/joseph-g-neel.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Encampment Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shannon Fagan",
+              "person_id": "WY-FAGAN-SHANNON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Shannon Fagan 127, Greg A. Salisbury 88.",
+              "href": "candidates/local-history/c/shannon-fagan.html"
+            }
+          ]
+        },
+        {
+          "office": "Encampment Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ashley McKinney",
+              "person_id": "WY-MCKINNEY-ASHLEY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Ashley McKinney 169, Steve Reichert 99.",
+              "href": "candidates/local-history/c/ashley-mckinney.html"
+            },
+            {
+              "name": "Steve Reichert",
+              "person_id": "WY-REICHERT-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Steve Reichert 99.",
+              "href": "candidates/local-history/c/steve-reichert.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hanna Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jon Ostling",
+              "person_id": "WY-OSTLING-JON",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Jon Ostling 126, O.D. \"Oats\" Briggs 110. Official 2024 Hanna mayor 2-year contest seated Charlie T. George in January 2025; this 2022 term is ended at January 2025.",
+              "href": "candidates/local-history/c/jon-ostling.html"
+            }
+          ]
+        },
+        {
+          "office": "Hanna Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Roger Hawks",
+              "person_id": "WY-HAWKS-ROGER",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Roger Hawks 128, Sammy Sikes 96.",
+              "href": "candidates/local-history/c/roger-hawks.html"
+            },
+            {
+              "name": "Sammy Sikes",
+              "person_id": "WY-SIKES-SAMMY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Sammy Sikes 96.",
+              "href": "candidates/local-history/c/sammy-sikes.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "William Bailey",
+              "person_id": "WY-BAILEY-WILLIAM",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: William Bailey 54, Sharon Biamon 41. Official 2024 Medicine Bow mayor contest seated Justin George in January 2025; this 2022 mayoral term is ended at January 2025.",
+              "href": "candidates/local-history/c/william-bailey.html"
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lucinda L. Schofield",
+              "person_id": "WY-SCHOFIELD-LUCINDA-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Lucinda L. Schofield 67, Casey Federer 58.",
+              "href": "candidates/local-history/c/lucinda-l-schofield.html"
+            },
+            {
+              "name": "Casey Federer",
+              "person_id": "WY-FEDERER-CASEY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Casey Federer 58.",
+              "href": "candidates/local-history/c/casey-federer.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bruce Seilaff",
+              "person_id": "WY-SEILAFF-BRUCE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Bruce Seilaff 212, DeBari T Martinez 129. Official City of Rawlins council page spelling is Bruce Seilaff.",
+              "href": "candidates/local-history/c/bruce-seilaff.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tonya Lewman",
+              "person_id": "WY-LEWMAN-TONYA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Tonya Lewman 392, Linda Ann Smith 290.",
+              "href": "candidates/local-history/c/tonya-lewman.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Steve Sanger",
+              "person_id": "WY-SANGER-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Steve Sanger 484, Cheryl Hulme 249.",
+              "href": "candidates/local-history/c/steve-sanger.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Riverside Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Leroy Stephenson",
+              "person_id": "WY-STEPHENSON-LEROY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Leroy Stephenson 29.",
+              "href": "candidates/local-history/c/leroy-stephenson.html"
+            }
+          ]
+        },
+        {
+          "office": "Riverside Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Fred Lorenz",
+              "person_id": "WY-LORENZ-FRED",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Fred Lorenz 35, Ed Golden 31.",
+              "href": "candidates/local-history/c/fred-lorenz.html"
+            },
+            {
+              "name": "Ed Golden",
+              "person_id": "WY-GOLDEN-ED",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Ed Golden 31.",
+              "href": "candidates/local-history/c/ed-golden.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Davis",
+              "person_id": "WY-DAVIS-CHUCK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Chuck Davis 448, D'Ron Campbell 240.",
+              "href": "candidates/local-history/c/chuck-davis.html"
+            }
+          ]
+        },
+        {
+          "office": "Saratoga Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jerry J. Fluty",
+              "person_id": "WY-FLUTY-JERRY-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Jerry J. Fluty 537, Jacob Fluty 474.",
+              "href": "candidates/local-history/c/jerry-j-fluty.html"
+            },
+            {
+              "name": "Jacob Fluty",
+              "person_id": "WY-FLUTY-JACOB",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Jacob Fluty 474.",
+              "href": "candidates/local-history/c/jacob-fluty.html"
+            },
+            {
+              "name": "Michael E. Cooley",
+              "person_id": "WY-COOLEY-MICHAEL-E",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council unexpired: Michael Cooley 574.",
+              "href": "candidates/local-history/c/michael-e-cooley.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Sinclair Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cullen Meeks",
+              "person_id": "WY-MEEKS-CULLEN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Cullen Meeks 77, Phyllis McWhorter 47.",
+              "href": "candidates/local-history/c/cullen-meeks.html"
+            }
+          ]
+        },
+        {
+          "office": "Sinclair Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Forest J. Ortiz",
+              "person_id": "WY-ORTIZ-FOREST-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Forest J Ortiz 64.",
+              "href": "candidates/local-history/c/forest-j-ortiz.html"
+            },
+            {
+              "name": "David Robinson",
+              "person_id": "WY-ROBINSON-DAVID",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: David Robinson 54, listed as WINNER OF TIE BREAKER over Ellie Bennett 54. Official canvass seated Robinson.",
+              "href": "candidates/local-history/c/david-robinson.html"
+            },
+            {
+              "name": "Brennan J. Dunlap",
+              "person_id": "WY-DUNLAP-BRENNAN-J",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, council unexpired: Brennan J. Dunlap 73, Vicki L. Gabelson 44.",
+              "href": "candidates/local-history/c/brennan-j-dunlap.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rawlins City Council At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Carbon County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tanya S. Evans",
+              "person_id": "WY-EVANS-TANYA-S",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Sweetwater County 2022 general election summary (official election-returns page)",
+                  "url": "https://www.sweetwatercountywy.gov/departments/county_clerk/election_returns/index.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, School District 1 Vote-For-3: Tanya S. Evans 1,379, Brandon Taylor 1,314, Michael R. Mann 1,213, Michael Young 1,126. Official Sweetwater 2022 general (SD#1 Carbon Vote-For-3): Taylor 21, Evans 19, Young 15, Mann 11. Combined official totals: Evans 1,398, Taylor 1,335, Mann 1,224, Young 1,141. The official Carbon election-results page states that Sweetwater results must be added for School District #1.",
+              "href": "candidates/local-history/c/tanya-s-evans.html"
+            },
+            {
+              "name": "Brandon Taylor",
+              "person_id": "WY-TAYLOR-BRANDON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Sweetwater County 2022 general election summary (official election-returns page)",
+                  "url": "https://www.sweetwatercountywy.gov/departments/county_clerk/election_returns/index.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, School District 1 Vote-For-3: Tanya S. Evans 1,379, Brandon Taylor 1,314, Michael R. Mann 1,213, Michael Young 1,126. Official Sweetwater 2022 general (SD#1 Carbon Vote-For-3): Taylor 21, Evans 19, Young 15, Mann 11. Combined official totals: Evans 1,398, Taylor 1,335, Mann 1,224, Young 1,141. The official Carbon election-results page states that Sweetwater results must be added for School District #1.",
+              "href": "candidates/local-history/c/brandon-taylor.html"
+            },
+            {
+              "name": "Michael R. Mann",
+              "person_id": "WY-MANN-MICHAEL-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Sweetwater County 2022 general election summary (official election-returns page)",
+                  "url": "https://www.sweetwatercountywy.gov/departments/county_clerk/election_returns/index.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, School District 1 Vote-For-3: Tanya S. Evans 1,379, Brandon Taylor 1,314, Michael R. Mann 1,213, Michael Young 1,126. Official Sweetwater 2022 general (SD#1 Carbon Vote-For-3): Taylor 21, Evans 19, Young 15, Mann 11. Combined official totals: Evans 1,398, Taylor 1,335, Mann 1,224, Young 1,141. The official Carbon election-results page states that Sweetwater results must be added for School District #1.",
+              "href": "candidates/local-history/c/michael-r-mann.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Carbon County School District #2 Area 1 Trustee",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Charlie T. George",
+              "person_id": "WY-GEORGE-CHARLIE-T",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, School Dist 2 Area 1 was write-in only (184). Official 2022 certified write-ins: Charlie George, Carbon County School District 2, Area 1.",
+              "href": "candidates/local-history/c/charlie-t-george.html"
+            }
+          ]
+        },
+        {
+          "office": "Carbon County School District #2 Area 2 Trustee",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Karen D. Condict",
+              "person_id": "WY-CONDICT-KAREN-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, School Dist 2 Area 2: Karen Condict 1,735.",
+              "href": "candidates/local-history/c/karen-d-condict.html"
+            }
+          ]
+        },
+        {
+          "office": "Carbon County School District #2 Area 3 Trustee",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kassey Westring",
+              "person_id": "WY-WESTRING-KASSEY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, School Dist 2 Area 3: Kassey Westring 1,281, Janet Zahn 406.",
+              "href": "candidates/local-history/c/kassey-westring.html"
+            }
+          ]
+        },
+        {
+          "office": "Carbon County School District #2 Area 4 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Maria L. Johnson",
+              "person_id": "WY-JOHNSON-MARIA-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, School Dist 2 Area 4 Vote-For-2: Maria L. Johnson 1,608.",
+              "href": "candidates/local-history/c/maria-l-johnson.html"
+            },
+            {
+              "name": "Janet Zahn",
+              "person_id": "WY-ZAHN-JANET",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon certified write-ins: Janet Zahn, Carbon County School District 2, Area 4 (At-Large). Official 2022 clerk write-in totals 80.",
+              "href": "candidates/local-history/c/janet-zahn.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Little Snake River Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John (Jack) Cobb",
+              "person_id": "WY-COBB-JOHN-JACK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                },
+                {
+                  "label": "Official Sweetwater County 2022 general election summary (official election-returns page)",
+                  "url": "https://www.sweetwatercountywy.gov/departments/county_clerk/election_returns/index.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, LSR Conservation Vote-For-2: John R (Jack) Cobb 325, write-in totals 54. Official 2022 Carbon certified write-ins: Tom Chant, Little Snake River Conservation District. Official Sweetwater 2022 general, LSR Conservation Vote-For-2: John R. (Jack) Cobb 1. Combined official Cobb total: 326, plus official Carbon-certified write-in winner Tom Chant (Thomas Chant). The official Carbon election-results page states that Sweetwater results must be added for LSR Conservation.",
+              "href": "candidates/local-history/c/john-jack-cobb.html"
+            },
+            {
+              "name": "Thomas Chant",
+              "person_id": "WY-CHANT-THOMAS",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                },
+                {
+                  "label": "Official Sweetwater County 2022 general election summary (official election-returns page)",
+                  "url": "https://www.sweetwatercountywy.gov/departments/county_clerk/election_returns/index.php"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, LSR Conservation Vote-For-2: John R (Jack) Cobb 325, write-in totals 54. Official 2022 Carbon certified write-ins: Tom Chant, Little Snake River Conservation District. Official Sweetwater 2022 general, LSR Conservation Vote-For-2: John R. (Jack) Cobb 1. Combined official Cobb total: 326, plus official Carbon-certified write-in winner Tom Chant (Thomas Chant). The official Carbon election-results page states that Sweetwater results must be added for LSR Conservation.",
+              "href": "candidates/local-history/c/thomas-chant.html"
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Quade Palm",
+              "person_id": "WY-PALM-QUADE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Med Bow Conserv Rural Vote-For-2: Quade Palm 413, Owen Williams 378.",
+              "href": "candidates/local-history/c/quade-palm.html"
+            },
+            {
+              "name": "Owen Williams",
+              "person_id": "WY-WILLIAMS-OWEN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Owen Williams 378.",
+              "href": "candidates/local-history/c/owen-williams.html"
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "William Bailey",
+              "person_id": "WY-BAILEY-WILLIAM",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Med Bow Conserv Urban unexpired was write-in only (51). Official 2022 certified write-ins: William Bailey, Medicine Bow Conservation District – Urban.",
+              "href": "candidates/local-history/c/william-bailey.html"
+            }
+          ]
+        },
+        {
+          "office": "Saratoga-Encampment-Rawlins Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Scott Kerbs",
+              "person_id": "WY-KERBS-SCOTT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, SER Conservation Vote-For-2: Scott Kerbs 2,481, Arla Strasser 1,992.",
+              "href": "candidates/local-history/c/scott-kerbs.html"
+            },
+            {
+              "name": "Arla Strasser",
+              "person_id": "WY-STRASSER-ARLA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Arla Strasser 1,992.",
+              "href": "candidates/local-history/c/arla-strasser.html"
+            }
+          ]
+        },
+        {
+          "office": "Baggs Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jeff D. Corson",
+              "person_id": "WY-CORSON-JEFF-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Baggs Cemetery was write-in only (178). Official 2022 certified write-ins: Jeff D. Corson, Clint Weber, and George Jason Evans.",
+              "href": "candidates/local-history/c/jeff-d-corson.html"
+            },
+            {
+              "name": "Clint A. Weber",
+              "person_id": "WY-WEBER-CLINT-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 certified write-ins: Clint Weber, Baggs Cemetery District.",
+              "href": "candidates/local-history/c/clint-a-weber.html"
+            },
+            {
+              "name": "George Jason Evans",
+              "person_id": "WY-EVANS-GEORGE-JASON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 certified write-ins: George Jason Evans, Baggs Cemetery District.",
+              "href": "candidates/local-history/c/george-jason-evans.html"
+            }
+          ]
+        },
+        {
+          "office": "Reader Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Cynthia L. Cobb",
+              "person_id": "WY-COBB-CYNTHIA-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Reader Cemetery Vote-For-3: Cynthia L. Cobb 79, William Duncan 76, Barbara J. Moss 73.",
+              "href": "candidates/local-history/c/cynthia-l-cobb.html"
+            },
+            {
+              "name": "William Duncan",
+              "person_id": "WY-DUNCAN-WILLIAM",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: William Duncan 76.",
+              "href": "candidates/local-history/c/william-duncan.html"
+            },
+            {
+              "name": "Barbara J. Moss",
+              "person_id": "WY-MOSS-BARBARA-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Barbara J. Moss 73.",
+              "href": "candidates/local-history/c/barbara-j-moss.html"
+            }
+          ]
+        },
+        {
+          "office": "Saratoga Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jamie Campbell",
+              "person_id": "WY-CAMPBELL-JAMIE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Saratoga Cemetery Vote-For-3: Jamie Campbell 793, James Wiant 644, Wanda Erger 605.",
+              "href": "candidates/local-history/c/jamie-campbell.html"
+            },
+            {
+              "name": "James Wiant",
+              "person_id": "WY-WIANT-JAMES",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: James Wiant 644.",
+              "href": "candidates/local-history/c/james-wiant.html"
+            },
+            {
+              "name": "Wanda Erger",
+              "person_id": "WY-ERGER-WANDA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Wanda Erger 605.",
+              "href": "candidates/local-history/c/wanda-erger.html"
+            }
+          ]
+        },
+        {
+          "office": "Little Snake River Museum District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Keith Duncan",
+              "person_id": "WY-DUNCAN-KEITH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, LSR Museum Vote-For-3: Keith Duncan 301, Sherry Weber 277, Rox Hicks 257.",
+              "href": "candidates/local-history/c/keith-duncan.html"
+            },
+            {
+              "name": "Sherry Weber",
+              "person_id": "WY-WEBER-SHERRY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Sherry Weber 277.",
+              "href": "candidates/local-history/c/sherry-weber.html"
+            },
+            {
+              "name": "Rox Hicks",
+              "person_id": "WY-HICKS-ROX",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Rox Hicks 257.",
+              "href": "candidates/local-history/c/rox-hicks.html"
+            }
+          ]
+        },
+        {
+          "office": "Saratoga-Ryan Park Museum District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dawna Erickson",
+              "person_id": "WY-ERICKSON-DAWNA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Saratoga-Ryan Park Museum was write-in only (145). Official 2022 certified write-ins: Dawna Erickson, R. Richard Perue, and Sherry Mackay.",
+              "href": "candidates/local-history/c/dawna-erickson.html"
+            },
+            {
+              "name": "R. Richard Perue",
+              "person_id": "WY-PERUE-R-RICHARD",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 certified write-ins: R. Richard Perue, Saratoga-Ryan Park Museum District.",
+              "href": "candidates/local-history/c/r-richard-perue.html"
+            },
+            {
+              "name": "Sherry Mackay",
+              "person_id": "WY-MACKAY-SHERRY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 certified write-ins: Sherry Mackay, Saratoga-Ryan Park Museum District.",
+              "href": "candidates/local-history/c/sherry-mackay.html"
+            }
+          ]
+        },
+        {
+          "office": "Little Snake River Rural Health Care District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Megan Stocklin O'Toole",
+              "person_id": "WY-OTOOLE-MEGAN-STOCKLIN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, LSR Health Vote-For-3: Megan Stocklin O'Toole 287, Jacquelyn Harvey 260.",
+              "href": "candidates/local-history/c/megan-stocklin-o-toole.html"
+            },
+            {
+              "name": "Jacquelyn Harvey",
+              "person_id": "WY-HARVEY-JACQUELYN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Jacquelyn Harvey 260.",
+              "href": "candidates/local-history/c/jacquelyn-harvey.html"
+            },
+            {
+              "name": "Ryan Mikesell",
+              "person_id": "WY-MIKESELL-RYAN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 certified write-ins: Ryan Mikesell, Little Snake River Rural Health Care District. Official 2022 clerk write-in totals 74.",
+              "href": "candidates/local-history/c/ryan-mikesell.html"
+            },
+            {
+              "name": "Brian J. Lally",
+              "person_id": "WY-LALLY-BRIAN-J",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, LSR Health unexpired: Brian J Lally 273.",
+              "href": "candidates/local-history/c/brian-j-lally.html"
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Rural Health Care District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kay Embree",
+              "person_id": "WY-EMBREE-KAY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Med Bow Health Vote-For-3: Kay Embree 94, write-in totals 32. Official 2022 certified write-ins also name Kendra Heward and Kenzie Strauch.",
+              "href": "candidates/local-history/c/kay-embree.html"
+            },
+            {
+              "name": "Kendra Heward",
+              "person_id": "WY-HEWARD-KENDRA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 certified write-ins: Kendra Heward, Medicine Bow Rural Health Care District.",
+              "href": "candidates/local-history/c/kendra-heward.html"
+            },
+            {
+              "name": "Kenzie Strauch",
+              "person_id": "WY-STRAUCH-KENZIE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388; canvassed November 10, 2022)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 certified write-ins: Kenzie Strauch, Medicine Bow Rural Health Care District.",
+              "href": "candidates/local-history/c/kenzie-strauch.html"
+            },
+            {
+              "name": "Sue Cowdin",
+              "person_id": "WY-COWDIN-SUE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Med Bow Health unexpired: Sue Cowdin 105.",
+              "href": "candidates/local-history/c/sue-cowdin.html"
+            }
+          ]
+        },
+        {
+          "office": "Carbon County Fire Protection District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Courtney Ney",
+              "person_id": "WY-NEY-COURTNEY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Carbon County Rural Fire District Vote-For-3: Courtney Ney 609, Homer Beach 559, James R. \"Jim\" Piche 491. Encoded on the official successor/current district title used on the official 2024 and 2026 canvasses (Carbon County Fire Protection District). Official 2022 formation question: For 674, Against 311.",
+              "href": "candidates/local-history/c/courtney-ney.html"
+            },
+            {
+              "name": "Homer Beach",
+              "person_id": "WY-BEACH-HOMER",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Homer Beach 559.",
+              "href": "candidates/local-history/c/homer-beach.html"
+            },
+            {
+              "name": "James R. \"Jim\" Piche",
+              "person_id": "WY-PICHE-JAMES-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: James R. \"Jim\" Piche 491.",
+              "href": "candidates/local-history/c/james-r-jim-piche.html"
+            },
+            {
+              "name": "Pat Waliser",
+              "person_id": "WY-WALISER-PAT",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk, Fire Protection District 2-year Vote-For-2: Pat Waliser 401, Cory M. Nuhn 346.",
+              "href": "candidates/local-history/c/pat-waliser.html"
+            },
+            {
+              "name": "Cory M. Nuhn",
+              "person_id": "WY-NUHN-CORY-M",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: Cory M. Nuhn 346.",
+              "href": "candidates/local-history/c/cory-m-nuhn.html"
+            }
+          ]
+        },
+        {
+          "office": "Little Snake River Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Little Snake River Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Medicine Bow Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga-Encampment-Rawlins Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Saratoga-Encampment-Rawlins Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "County, municipal, school, and special-district names are keyed from official Carbon clerk general summaries (2018, 2020, 2022, 2024, and 2026) and official 2022 certified write-ins. The official 2020 DocumentCenter slug still says unofficial; the PDF header is OFFICIAL RESULTS. Official 2014 and 2016 Carbon clerk canvasses are archived but were not fully keyed here, so January 2015–2018 local rows are largely Not yet collected rather than invented. Multi-county legislative seats use official SOS district-wide Total rows, with the official Carbon share noted. Official Carbon election-results pages state that Sweetwater results must be added for School District #1 and LSR Conservation; official Sweetwater clerk general totals are included and cited. The Rawlins mayor is chosen by the city council (official Rawlins Municipal Code 2.04.030); the current mayor is from the official City of Rawlins council page, and the January 2027 mayor is not invented. Official mid-term vacancies are not invented. Official 2024 hospital-board contests are omitted because the official 2024 special hospital district formation failed.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 2nd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dawnessa A. Snyder",
+              "person_id": "WY-SNYDER-DAWNESSA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch, District Court, 2nd Judicial District page",
+                  "url": "https://www.wyocourts.gov/court/district-court-2nd-judicial-district-albany-county/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch 2nd JD page: Dawnessa A. Snyder, appointed July 2017 (day unstated; term_start 2017-07-01, medium), later retained. Official 2018 Carbon clerk has DISTRICT COURT JUDGE A, YES 3,915, without a last name on that line.",
+              "href": "candidates/local-history/c/dawnessa-a-snyder.html"
+            },
+            {
+              "name": "Misha E. Westby",
+              "person_id": "WY-WESTBY-MISHA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch, District Court, 2nd Judicial District page",
+                  "url": "https://www.wyocourts.gov/court/district-court-2nd-judicial-district-albany-county/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch 2nd JD page: Misha E. Westby, appointed August 2022 (day unstated; term_start 2022-08-01, medium).",
+              "href": "candidates/local-history/c/misha-e-westby.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 2nd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Susan K. Stipe",
+              "person_id": "WY-STIPE-SUSAN-K",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch, District Court, 2nd Judicial District page",
+                  "url": "https://www.wyocourts.gov/court/district-court-2nd-judicial-district-albany-county/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Judicial Branch full name Susan K. Stipe. Official 2020 retention as used on the official 2nd JD history.",
+              "href": "candidates/local-history/c/susan-k-stipe.html"
+            },
+            {
+              "name": "Robert J. Sanford",
+              "person_id": "WY-SANFORD-ROBERT-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386; header OFFICIAL RESULTS, 11/10/2022 3:48 PM)",
+                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+                },
+                {
+                  "label": "Official Wyoming Judicial Branch, District Court, 2nd Judicial District page",
+                  "url": "https://www.wyocourts.gov/court/district-court-2nd-judicial-district-albany-county/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Carbon clerk: CIRCUIT JUDGE - SANFORD, YES 3,568, NO 664. Official Judicial Branch full name Robert J. Sanford.",
+              "href": "candidates/local-history/c/robert-j-sanford.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 2nd Judicial District judges (Carbon and Albany). Full names are taken from official Wyoming Judicial Branch 2nd JD pages and official Carbon clerk retention lines, and those sources are cited. Judges of other districts are not copied here.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. The current (November 2026) precinct roster is in data/county_officials/carbon.json, from the official 2026 Carbon primary (named winners only; 8 precincts / 13 holders).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/carbon/terms.json",
+  "retrieved": "2026-11-24"
+}

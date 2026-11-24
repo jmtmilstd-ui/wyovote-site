@@ -1,0 +1,3360 @@
+{
+  "county": "Big Horn",
+  "county_number": 9,
+  "snapshot_year": 2026,
+  "as_of": "2026-01-08",
+  "as_of_label": "January 2026 (as of 2026-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2026 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2031",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 19 (S19)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Laursen",
+              "person_id": "WY-LAURSEN-DAN",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide Senate summary, Senate District 19: Dan Laursen (R) Total 5,538. Official Big Horn share 2,637; official Park share 2,901.",
+              "href": "candidates/local-history/c/dan-laursen.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 20 (S20)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Cooper",
+              "person_id": "WY-COOPER-ED",
+              "party": "Republican",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2024 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/General/2024_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 SOS statewide Senate summary, Senate District 20: Ed Cooper (R) Total 8,236. Official Big Horn share 1,475 (official 2024 clerk canvass same 1,475); official Washakie 3,442, Hot Springs 2,180, Park 834, Fremont 305. Off-cycle in 2026.",
+              "href": "candidates/local-history/c/ed-cooper.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 26 (H26)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dalton Banks",
+              "person_id": "WY-BANKS-DALTON",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2024 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/General/2024_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 SOS statewide House summary, House District 26: Dalton Banks (R) Total 3,942. Official Big Horn share 3,584; official Park share 358.",
+              "href": "candidates/local-history/c/dalton-banks.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 27 (H27)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Martha Lawley",
+              "person_id": "WY-LAWLEY-MARTHA",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2024 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/General/2024_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 SOS statewide House summary, House District 27: Martha Lawley (R) Total 3,918. Official Big Horn share 539; official Washakie 3,379.",
+              "href": "candidates/local-history/c/martha-lawley.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 28 (H28)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "John R. Winter",
+              "person_id": "WY-WINTER-JOHN-R",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2024 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2024/Results/General/2024_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 SOS statewide House summary, House District 28: John R. Winter (R) Total 3,986, Larry Alwin (D) 857. Official Big Horn share Winter 920, Alwin 85.",
+              "href": "candidates/local-history/c/john-r-winter.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Deb Craft",
+              "person_id": "WY-CRAFT-DEB",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Commissioners page, retrieved 2026-11-24",
+                  "url": "https://bighorncountywy.gov/departments/commissioners"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Deb Craft, Commission Chairman. Official 2024 canvass elected only Bruce H. Jolley (at large). This seat is on the official 2026 ballot (vote for 2).",
+              "href": "candidates/local-history/c/deb-craft.html"
+            },
+            {
+              "name": "Dave Neves",
+              "person_id": "WY-NEVES-DAVE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Commissioners page, retrieved 2026-11-24",
+                  "url": "https://bighorncountywy.gov/departments/commissioners"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Dave Neves. Official 2022 class (the official 2024 canvass elected only Bruce H. Jolley).",
+              "href": "candidates/local-history/c/dave-neves.html"
+            },
+            {
+              "name": "Bruce H. Jolley",
+              "person_id": "WY-JOLLEY-BRUCE-H",
+              "party": "Republican",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Commissioners page, retrieved 2026-11-24",
+                  "url": "https://bighorncountywy.gov/departments/commissioners"
+                },
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Bruce H. Jolley. Official 2024 canvass, County Commissioner: REP BRUCE H. JOLLEY 5,081, write-ins 107, contest totals 5,788.",
+              "href": "candidates/local-history/c/bruce-h-jolley.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lori Smallwood",
+              "person_id": "WY-SMALLWOOD-LORI",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Clerk page / official 2026 canvass minutes naming County Clerk Lori Smallwood, retrieved 2026-11-24",
+                  "url": "https://bighorncountywy.gov/departments/clerk"
+                },
+                {
+                  "label": "Official Big Horn County Canvassing Board Minutes, General Election November 3, 2026, session November 5, 2026, 2:00 p.m. (County Clerk Lori Smallwood; post-election audit with no material errors).",
+                  "url": "https://bighorncountywy.gov/images/2026_General_Canvass_Minutes.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2026 canvass minutes name County Clerk Lori Smallwood. Official 2026 general: REP LORI SMALLWOOD 3,789, re-elected.",
+              "href": "candidates/local-history/c/lori-smallwood.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Nicole Vigil",
+              "person_id": "WY-VIGIL-NICOLE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Treasurer page, retrieved 2026-11-24: Nicole Vigil",
+                  "url": "https://bighorncountywy.gov/departments/treasurer"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official treasurer page, retrieved 2026-11-24: Nicole Vigil. Official 2026 general: REP NICOLE VIGIL 3,707, re-elected.",
+              "href": "candidates/local-history/c/nicole-vigil.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cozette Winters",
+              "person_id": "WY-WINTERS-COZETTE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Assessor page, retrieved 2026-11-24: Cozette Winters, County Assessor",
+                  "url": "https://bighorncountywy.gov/departments/assessor"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official assessor page, retrieved 2026-11-24: Cozette Winters, County Assessor. Official 2026 general: REP COZETTE WINTERS 3,738, re-elected.",
+              "href": "candidates/local-history/c/cozette-winters.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jason Beal",
+              "person_id": "WY-BEAL-JASON",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Sheriff Staff page, retrieved 2026-11-24: Sheriff Jason Beal; Undersheriff Craig Shidler",
+                  "url": "https://bighorncountywy.gov/departments/sheriff/staff"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Sheriff Staff page, retrieved 2026-11-24: Sheriff Jason Beal. Official 2026 general elects Craig R. Shidler (undersheriff on the same official staff page).",
+              "href": "candidates/local-history/c/jason-beal.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Marcia E. Bean",
+              "person_id": "WY-BEAN-MARCIA-E",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Attorney page, retrieved 2026-11-24: Marcia Bean, Big Horn County & Prosecuting Attorney",
+                  "url": "https://bighorncountywy.gov/departments/attorney"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official attorney page, retrieved 2026-11-24: Marcia Bean, Big Horn County & Prosecuting Attorney. Official 2026 general: REP MARCIA E. BEAN 3,271, re-elected.",
+              "href": "candidates/local-history/c/marcia-e-bean.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Serena K. Lipp",
+              "person_id": "WY-LIPP-SERENA-K",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official 2026 Big Horn clerk Official Results Summary, Clerk of District Court: REP SERENA K. LIPP 3,824",
+                  "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2026 canvass, Clerk of District Court: REP SERENA K. LIPP 3,824, re-elected.",
+              "href": "candidates/local-history/c/serena-k-lipp.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Michael K. Jameson",
+              "person_id": "WY-JAMESON-MICHAEL-K",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Coroner page, retrieved 2026-11-24: Michael K. Jameson",
+                  "url": "https://bighorncountywy.gov/departments/coroner"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official coroner page, retrieved 2026-11-24: Michael K. Jameson. Official 2026 general: REP MICHAEL K. JAMESON 3,768, re-elected. The official canvass and official page are used (not a longer unofficial expansion of the middle name).",
+              "href": "candidates/local-history/c/michael-k-jameson.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Basin Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "CJ Duncan",
+              "person_id": "WY-DUNCAN-CJ",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Basin Mayor: CJ Duncan 288, Clayton John Draggoo 154.",
+              "href": "candidates/local-history/c/cj-duncan.html"
+            }
+          ]
+        },
+        {
+          "office": "Basin Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mike Dellos",
+              "person_id": "WY-DELLOS-MIKE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Basin Council (vote for 2): Mike Dellos 333, Linda Weeks 254 (Stuart Desrosier 216 lost 2024 and won a 2026 council seat).",
+              "href": "candidates/local-history/c/mike-dellos.html"
+            },
+            {
+              "name": "Linda Weeks",
+              "person_id": "WY-WEEKS-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Basin Council (vote for 2): Linda Weeks 254, Mike Dellos 333.",
+              "href": "candidates/local-history/c/linda-weeks.html"
+            },
+            {
+              "name": "Brent Godfrey",
+              "person_id": "WY-GODFREY-BRENT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Basin Council (vote for 2): Brent Godfrey 327, Charles E. Hopkin 254, Linda Harp 216.",
+              "href": "candidates/local-history/c/brent-godfrey.html"
+            },
+            {
+              "name": "Charles (Chuck) Hopkin",
+              "person_id": "WY-HOPKIN-CHARLES",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Basin Council (vote for 2): Charles E. Hopkin 254, Brent Godfrey 327. Official 2026 canvass elects Charles (Chuck) Hopkin as Basin Mayor; same person.",
+              "href": "candidates/local-history/c/charles-chuck-hopkin.html"
+            }
+          ]
+        },
+        {
+          "office": "Burlington Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Gerald \"Jerry\" George",
+              "person_id": "WY-GEORGE-GERALD",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Burlington Mayor: Gerald \"Jerry\" George 95.",
+              "href": "candidates/local-history/c/gerald-jerry-george.html"
+            }
+          ]
+        },
+        {
+          "office": "Burlington Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Don Hibbert",
+              "person_id": "WY-HIBBERT-DON",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Burlington Council (vote for 2): Don Hibbert 129, Jenny Booth 122.",
+              "href": "candidates/local-history/c/don-hibbert.html"
+            },
+            {
+              "name": "Jenny Booth",
+              "person_id": "WY-BOOTH-JENNY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Burlington Council (vote for 2): Jenny Booth 122, Don Hibbert 129.",
+              "href": "candidates/local-history/c/jenny-booth.html"
+            },
+            {
+              "name": "Gary Brunko",
+              "person_id": "WY-BRUNKO-GARY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Burlington Council (vote for 2): Gary Brunko 83, Jessie Hamilton 75, Cortney Allen 47. Official 2026 canvass elects Gary Brunko as Burlington Mayor.",
+              "href": "candidates/local-history/c/gary-brunko.html"
+            },
+            {
+              "name": "Jessie Hamilton",
+              "person_id": "WY-HAMILTON-JESSIE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Burlington Council (vote for 2): Jessie Hamilton 75, Gary Brunko 83. Official 2026 canvass elects Jessie Hamilton to a 2-year council seat.",
+              "href": "candidates/local-history/c/jessie-hamilton.html"
+            }
+          ]
+        },
+        {
+          "office": "Byron Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Allan P. Clark",
+              "person_id": "WY-CLARK-ALLAN-P",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Byron Mayor: Allan Clark 124, Pam Hopkinson 88. Official 2026 canvass uses Allan P. Clark (same person).",
+              "href": "candidates/local-history/c/allan-p-clark.html"
+            }
+          ]
+        },
+        {
+          "office": "Byron Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mike Brightly",
+              "person_id": "WY-BRIGHTLY-MIKE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Byron Council (vote for 2): Mike Brightly 121, Karma Sanders 109.",
+              "href": "candidates/local-history/c/mike-brightly.html"
+            },
+            {
+              "name": "Karma Sanders",
+              "person_id": "WY-SANDERS-KARMA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Byron Council (vote for 2): Karma Sanders 109, Mike Brightly 121.",
+              "href": "candidates/local-history/c/karma-sanders.html"
+            },
+            {
+              "name": "Brandon Hessenthaler",
+              "person_id": "WY-HESSENTHALER-BRANDON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Byron Council (vote for 2): Brandon Hessenthaler 151, Shae Abraham 120, Toby Turnupseed 89. Official 2026 canvass re-elects Brandon Hessenthaler.",
+              "href": "candidates/local-history/c/brandon-hessenthaler.html"
+            },
+            {
+              "name": "Shae C. Abraham",
+              "person_id": "WY-ABRAHAM-SHAE-C",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Byron Council (vote for 2): Shae Abraham 120, Brandon Hessenthaler 151. Official 2026 canvass uses Shae C. Abraham (same person, re-elected).",
+              "href": "candidates/local-history/c/shae-c-abraham.html"
+            }
+          ]
+        },
+        {
+          "office": "Cowley Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joel Peterson",
+              "person_id": "WY-PETERSON-JOEL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Cowley Mayor: Joel Peterson 256.",
+              "href": "candidates/local-history/c/joel-peterson.html"
+            }
+          ]
+        },
+        {
+          "office": "Cowley Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Max Lewis",
+              "person_id": "WY-LEWIS-MAX",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Cowley Council (vote for 2): Max Lewis 181, Rob Johnson 120. A 2024 loser listed as Dexter Woods on the official scan is not combined with official 2026 winner Dexter Woodis.",
+              "href": "candidates/local-history/c/max-lewis.html"
+            },
+            {
+              "name": "Rob Johnson",
+              "person_id": "WY-JOHNSON-ROB",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Cowley Council (vote for 2): Rob Johnson 120, Max Lewis 181.",
+              "href": "candidates/local-history/c/rob-johnson.html"
+            },
+            {
+              "name": "Scott Crosby",
+              "person_id": "WY-CROSBY-SCOTT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Cowley Council (vote for 2): Emily Anne Simmons 205, Scott Crosby 172, Nathan Sponsel (Nick) 92, Diane R. Badget 79. Official 2026 canvass re-elects Scott Crosby.",
+              "href": "candidates/local-history/c/scott-crosby.html"
+            },
+            {
+              "name": "Emily Anne Simmons",
+              "person_id": "WY-SIMMONS-EMILY-ANNE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Cowley Council (vote for 2): Emily Anne Simmons 205, Scott Crosby 172.",
+              "href": "candidates/local-history/c/emily-anne-simmons.html"
+            }
+          ]
+        },
+        {
+          "office": "Deaver Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bill Camp",
+              "person_id": "WY-CAMP-BILL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Deaver Mayor: Bill Camp 49. Official 2026 canvass re-elects Bill Camp.",
+              "href": "candidates/local-history/c/bill-camp.html"
+            }
+          ]
+        },
+        {
+          "office": "Deaver Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Nick Loftus",
+              "person_id": "WY-LOFTUS-NICK",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Deaver Council (vote for 2): Nick Loftus 66, Aspen Beall 65.",
+              "href": "candidates/local-history/c/nick-loftus.html"
+            },
+            {
+              "name": "Aspen Beall",
+              "person_id": "WY-BEALL-ASPEN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Deaver Council (vote for 2): Aspen Beall 65, Nick Loftus 66.",
+              "href": "candidates/local-history/c/aspen-beall.html"
+            },
+            {
+              "name": "Kayla James",
+              "person_id": "WY-JAMES-KAYLA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Deaver Council (vote for 2): Kayla James 45, Steve Gillett 44. Official 2026 canvass re-elects Kayla James.",
+              "href": "candidates/local-history/c/kayla-james.html"
+            },
+            {
+              "name": "Steve Gillett",
+              "person_id": "WY-GILLETT-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Deaver Council (vote for 2): Steve Gillett 44, Kayla James 45.",
+              "href": "candidates/local-history/c/steve-gillett.html"
+            }
+          ]
+        },
+        {
+          "office": "Frannie Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Steve Richardson",
+              "person_id": "WY-RICHARDSON-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Frannie Mayor: Steve Richardson 26, R. Vance Peregoy 22.",
+              "href": "candidates/local-history/c/steve-richardson.html"
+            }
+          ]
+        },
+        {
+          "office": "Frannie Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Roger Ganoung",
+              "person_id": "WY-GANOUNG-ROGER",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Frannie Council (vote for 2): Roger Ganoung 36, Shang Clendenen 35 (Guy T. DeSantis 29 lost 2024 and won a 2026 council seat).",
+              "href": "candidates/local-history/c/roger-ganoung.html"
+            },
+            {
+              "name": "Shang Clendenen",
+              "person_id": "WY-CLENDENEN-SHANG",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Frannie Council (vote for 2): Shang Clendenen 35, Roger Ganoung 36.",
+              "href": "candidates/local-history/c/shang-clendenen.html"
+            },
+            {
+              "name": "Keara Poole",
+              "person_id": "WY-POOLE-KEARA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Frannie Council 4-year (vote for 2): Keara Poole 45, Garret I. Frescoln 41. Official 2026 canvass re-elects Keara Poole.",
+              "href": "candidates/local-history/c/keara-poole.html"
+            },
+            {
+              "name": "Garret I. Frescoln",
+              "person_id": "WY-FRESCOLN-GARRET-I",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Frannie Council 4-year (vote for 2): Garret I. Frescoln 41, Keara Poole 45. Official 2026 canvass elects Garret I. Frescoln as Frannie Mayor.",
+              "href": "candidates/local-history/c/garret-i-frescoln.html"
+            }
+          ]
+        },
+        {
+          "office": "Greybull Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Myles R. Foley",
+              "person_id": "WY-FOLEY-MYLES-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Custom Table Report page 27 of 74 (OFFICIAL RESULTS, visually confirmed on the two-column page with Frannie Council 2yr): Greybull Mayor, vote for 1, MYLES R. FOLEY 414, write-ins 43, Total Votes Cast 457, undervotes 103, contest total 560.",
+              "href": "candidates/local-history/c/myles-r-foley.html"
+            }
+          ]
+        },
+        {
+          "office": "Greybull Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Chris Dooley",
+              "person_id": "WY-DOOLEY-CHRIS",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Greybull Council 4-year (vote for 2): Chris Dooley 618, Gerald Crist 510.",
+              "href": "candidates/local-history/c/chris-dooley.html"
+            },
+            {
+              "name": "Gerald Crist",
+              "person_id": "WY-CRIST-GERALD",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Greybull Council 4-year (vote for 2): Gerald Crist 510, Chris Dooley 618.",
+              "href": "candidates/local-history/c/gerald-crist.html"
+            },
+            {
+              "name": "Myles R. Foley",
+              "person_id": "WY-FOLEY-MYLES-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Greybull Council 2-year: Myles R. Foley 427, Bill Brenner 319. The official 2022 canvass also names Myles R. Foley as Greybull Mayor (current through January 2027); both official offices are recorded. The 2-year council term ends January 2027.",
+              "href": "candidates/local-history/c/myles-r-foley.html"
+            },
+            {
+              "name": "Blaine Jolley",
+              "person_id": "WY-JOLLEY-BLAINE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Greybull Council 4-year (vote for 2): Blaine Jolley 370, Dean S. Miars 278, Jeremy Kottman 237.",
+              "href": "candidates/local-history/c/blaine-jolley.html"
+            },
+            {
+              "name": "Dean S. Miars",
+              "person_id": "WY-MIARS-DEAN-S",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Greybull Council 4-year (vote for 2): Dean S. Miars 278, Blaine Jolley 370.",
+              "href": "candidates/local-history/c/dean-s-miars.html"
+            }
+          ]
+        },
+        {
+          "office": "Lovell Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tom Newman",
+              "person_id": "WY-NEWMAN-TOM",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Lovell Mayor: Tom Newman 597. Official 2026 canvass re-elects Tom Newman.",
+              "href": "candidates/local-history/c/tom-newman.html"
+            }
+          ]
+        },
+        {
+          "office": "Lovell Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael Lee Grant",
+              "person_id": "WY-GRANT-MICHAEL-LEE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Lovell Council (vote for 2): Michael Lee Grant 456, Carol Miller 442.",
+              "href": "candidates/local-history/c/michael-lee-grant.html"
+            },
+            {
+              "name": "Carol Miller",
+              "person_id": "WY-MILLER-CAROL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Lovell Council (vote for 2): Carol Miller 442, Michael Lee Grant 456.",
+              "href": "candidates/local-history/c/carol-miller.html"
+            },
+            {
+              "name": "Robert Mangus",
+              "person_id": "WY-MANGUS-ROBERT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Lovell Council 4-year (vote for 2): Daniel L. Anderson 531, Bob Mangus 518. Official 2026 canvass re-elects Robert Mangus (same official person).",
+              "href": "candidates/local-history/c/robert-mangus.html"
+            },
+            {
+              "name": "Daniel L. Anderson",
+              "person_id": "WY-ANDERSON-DANIEL-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Lovell Council 4-year (vote for 2): Daniel L. Anderson 531, Bob Mangus 518. Official 2026 canvass re-elects Daniel L. Anderson.",
+              "href": "candidates/local-history/c/daniel-l-anderson.html"
+            }
+          ]
+        },
+        {
+          "office": "Manderson Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Rod Patrick",
+              "person_id": "WY-PATRICK-ROD",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Manderson Mayor: Rod Patrick 30, Barbara Wall 16.",
+              "href": "candidates/local-history/c/rod-patrick.html"
+            }
+          ]
+        },
+        {
+          "office": "Manderson Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Thea Saunders",
+              "person_id": "WY-SAUNDERS-THEA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Manderson Council 4-year: Thea Saunders 21, Sharon Sanford 20. Official 2026 canvass also names Thea Saunders as a council elect (vote for 2); both official results are recorded.",
+              "href": "candidates/local-history/c/thea-saunders.html"
+            },
+            {
+              "name": "Sharon Sanford",
+              "person_id": "WY-SANFORD-SHARON",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Manderson Council 4-year: Sharon Sanford 20, Thea Saunders 21.",
+              "href": "candidates/local-history/c/sharon-sanford.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Burlington Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Deaver Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Frannie Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Greybull Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Manderson Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Big Horn County School District #1 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Wendy Fuller",
+              "person_id": "WY-FULLER-WENDY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #1 At Large (vote for 1): Wendy Fuller 695, Holly Michaels 675.",
+              "href": "candidates/local-history/c/wendy-fuller.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area A",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jared Boardman",
+              "person_id": "WY-BOARDMAN-JARED",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #1 Area A: Jared Boardman 1,305. Official 2026 commissioner elect; both official offices are recorded.",
+              "href": "candidates/local-history/c/jared-boardman.html"
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area B",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "AJ Rasmussen-Dickson",
+              "person_id": "WY-RASMUSSEN-DICKSON-AJ",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #1 Area B: AJ Rasmussen-Dickson 763, Taliesha Beech 422.",
+              "href": "candidates/local-history/c/aj-rasmussen-dickson.html"
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area C",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Craig A. Jones",
+              "person_id": "WY-JONES-CRAIG-A",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #1 Area C: Craig A. Jones 727, Julie Michaels 562. Official 2026 canvass re-elects Craig A. Jones.",
+              "href": "candidates/local-history/c/craig-a-jones.html"
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area D",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "David V. Banks",
+              "person_id": "WY-BANKS-DAVID-V",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, BHSD #1 Area D Cowley: David V. Banks 1,006.",
+              "href": "candidates/local-history/c/david-v-banks.html"
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #2 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Stacy Bair",
+              "person_id": "WY-BAIR-STACY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #2 At Large (vote for 4): Stacy Bair 1,019.",
+              "href": "candidates/local-history/c/stacy-bair.html"
+            },
+            {
+              "name": "Lance E. Anderson",
+              "person_id": "WY-ANDERSON-LANCE-E",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #2 At Large (vote for 4): Lance E. Anderson (official canvass printed Lance E. Anderson, DMD; the credential is not used in the display name).",
+              "href": "candidates/local-history/c/lance-e-anderson.html"
+            },
+            {
+              "name": "C. Tyler Angell",
+              "person_id": "WY-ANGELL-C-TYLER",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #2 At Large (vote for 4): C. Tyler Angell 565.",
+              "href": "candidates/local-history/c/c-tyler-angell.html"
+            },
+            {
+              "name": "Tess L. Peterson",
+              "person_id": "WY-PETERSON-TESS-L",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #2 At Large (vote for 4): Tess L. Peterson 535 (Kyle Leithead 523 and Ryan Felkins 351 lost 2024; both won 2026 seats).",
+              "href": "candidates/local-history/c/tess-l-peterson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #3 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Pam Flitner",
+              "person_id": "WY-FLITNER-PAM",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #3 At Large (vote for 4): Pam Flitner 951.",
+              "href": "candidates/local-history/c/pam-flitner.html"
+            },
+            {
+              "name": "Todd Dalin",
+              "person_id": "WY-DALIN-TODD",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #3 At Large (vote for 4): Todd Dalin 842.",
+              "href": "candidates/local-history/c/todd-dalin.html"
+            },
+            {
+              "name": "Bette Rae Jones",
+              "person_id": "WY-JONES-BETTE-RAE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #3 At Large (vote for 4): Bette Rae Jones 751.",
+              "href": "candidates/local-history/c/bette-rae-jones.html"
+            },
+            {
+              "name": "Mike Whaley",
+              "person_id": "WY-WHALEY-MIKE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #3 At Large (vote for 4): Mike Whaley 708 (Sandra Menke 700, Mark Dewees 307 lose).",
+              "href": "candidates/local-history/c/mike-whaley.html"
+            },
+            {
+              "name": "William D. Robertson",
+              "person_id": "WY-ROBERTSON-WILLIAM-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, BHSD #3 At Large (vote for 4): Lynette Murray 861, William D. Robertson 730 were the named official winners (write-ins 234 are not combined into a certified name). Official 2026 canvass re-elects William D. Robertson.",
+              "href": "candidates/local-history/c/william-d-robertson.html"
+            },
+            {
+              "name": "Lynette Murray",
+              "person_id": "WY-MURRAY-LYNETTE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, BHSD #3 At Large (vote for 4): Lynette Murray 861, William D. Robertson 730. Official 2026 canvass re-elects Lynette Murray.",
+              "href": "candidates/local-history/c/lynette-murray.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #4 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Linda Osmond",
+              "person_id": "WY-OSMOND-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #4 At Large (vote for 1): Linda Osmond 894.",
+              "href": "candidates/local-history/c/linda-osmond.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #4 Trustee Area J",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kristen Schlattmann",
+              "person_id": "WY-SCHLATTMANN-KRISTEN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #4 Area J (vote for 2): Kristen Schlattmann 811, Heath Hopkin 756.",
+              "href": "candidates/local-history/c/kristen-schlattmann.html"
+            },
+            {
+              "name": "Heath Hopkin",
+              "person_id": "WY-HOPKIN-HEATH",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, BHSD #4 Area J (vote for 2): Heath Hopkin 756, Kristen Schlattmann 811.",
+              "href": "candidates/local-history/c/heath-hopkin.html"
+            },
+            {
+              "name": "Gregory Gloy",
+              "person_id": "WY-GLOY-GREGORY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, BHSD #4 Area J Basin: Gregory Gloy 718. Official 2026 canvass re-elects Gregory Gloy.",
+              "href": "candidates/local-history/c/gregory-gloy.html"
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #2 Trustee At Large (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #4 Trustee Area K/L",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Burlington Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Trent A. Aagard",
+              "person_id": "WY-AAGARD-TRENT-A",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Burlington Cemetery (vote for 3): Trent A. Aagard 288, Mike L. Riley 287, Barbara Davidson 279.",
+              "href": "candidates/local-history/c/trent-a-aagard.html"
+            },
+            {
+              "name": "Mike L. Riley",
+              "person_id": "WY-RILEY-MIKE-L",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Burlington Cemetery (vote for 3): Mike L. Riley 287.",
+              "href": "candidates/local-history/c/mike-l-riley.html"
+            },
+            {
+              "name": "Barbara Davidson",
+              "person_id": "WY-DAVIDSON-BARBARA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Burlington Cemetery (vote for 3): Barbara Davidson 279.",
+              "href": "candidates/local-history/c/barbara-davidson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Byron Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Don A. Hatch",
+              "person_id": "WY-HATCH-DON-A",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Byron Cemetery (vote for 3): Don A. Hatch 231, Jack Hessenthaler 228, Glen Hopkinson 183.",
+              "href": "candidates/local-history/c/don-a-hatch.html"
+            },
+            {
+              "name": "Jack Hessenthaler",
+              "person_id": "WY-HESSENTHALER-JACK",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Byron Cemetery (vote for 3): Jack Hessenthaler 228.",
+              "href": "candidates/local-history/c/jack-hessenthaler.html"
+            },
+            {
+              "name": "Glen Hopkinson",
+              "person_id": "WY-HOPKINSON-GLEN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Byron Cemetery (vote for 3): Glen Hopkinson 183.",
+              "href": "candidates/local-history/c/glen-hopkinson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Cowley Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Cresta Peterson",
+              "person_id": "WY-PETERSON-CRESTA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Cowley Cemetery (vote for 3): Cresta Peterson 453, Lynne T. Strom 439, Lori Hoffman 429.",
+              "href": "candidates/local-history/c/cresta-peterson.html"
+            },
+            {
+              "name": "Lynne T. Strom",
+              "person_id": "WY-STROM-LYNNE-T",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Cowley Cemetery (vote for 3): Lynne T. Strom 439.",
+              "href": "candidates/local-history/c/lynne-t-strom.html"
+            },
+            {
+              "name": "Lori Hoffman",
+              "person_id": "WY-HOFFMAN-LORI",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Cowley Cemetery (vote for 3): Lori Hoffman 429.",
+              "href": "candidates/local-history/c/lori-hoffman.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Deaver-Frannie Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dale R. Estes",
+              "person_id": "WY-ESTES-DALE-R",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Deaver-Frannie Cemetery 4-year (vote for 3): Dale R. Estes 174, Alicia Troutman 167, Lonnie Newton 154.",
+              "href": "candidates/local-history/c/dale-r-estes.html"
+            },
+            {
+              "name": "Alicia Troutman",
+              "person_id": "WY-TROUTMAN-ALICIA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Deaver-Frannie Cemetery 4-year: Alicia Troutman 167.",
+              "href": "candidates/local-history/c/alicia-troutman.html"
+            },
+            {
+              "name": "Lonnie Newton",
+              "person_id": "WY-NEWTON-LONNIE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Deaver-Frannie Cemetery 4-year: Lonnie Newton 154.",
+              "href": "candidates/local-history/c/lonnie-newton.html"
+            },
+            {
+              "name": "Brenda Kawano",
+              "person_id": "WY-KAWANO-BRENDA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Deaver-Frannie Cemetery 2-year: Brenda Kawano 203. Official 2026 canvass elects Brenda Kawano to a 4-year seat.",
+              "href": "candidates/local-history/c/brenda-kawano.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Emblem Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Fran Nolan",
+              "person_id": "WY-NOLAN-FRAN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Emblem Cemetery (vote for 3): Fran Nolan, Karen Preis, Julie Werbelow (official named winners; OCR totals 42 / 54 / 52 were not used as a locked ranking).",
+              "href": "candidates/local-history/c/fran-nolan.html"
+            },
+            {
+              "name": "Karen Preis",
+              "person_id": "WY-PREIS-KAREN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Emblem Cemetery (vote for 3): Karen Preis.",
+              "href": "candidates/local-history/c/karen-preis.html"
+            },
+            {
+              "name": "Julie Werbelow",
+              "person_id": "WY-WERBELOW-JULIE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Emblem Cemetery (vote for 3): Julie Werbelow.",
+              "href": "candidates/local-history/c/julie-werbelow.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hyattville Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Robert Herman",
+              "person_id": "WY-HERMAN-ROBERT",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Hyattville Cemetery (vote for 3): Robert Herman 102, Nancy Zierolf 79. A third official 2024 named total (Kristine Robertson) was not locked because the official-scan OCR of that digit was messy.",
+              "href": "candidates/local-history/c/robert-herman.html"
+            },
+            {
+              "name": "Nancy Zierolf",
+              "person_id": "WY-ZIEROLF-NANCY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Hyattville Cemetery: Nancy Zierolf 79.",
+              "href": "candidates/local-history/c/nancy-zierolf.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Lovell Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jack W. Nicholls",
+              "person_id": "WY-NICHOLLS-JACK-W",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Lovell Cemetery (vote for 3): Jack W. Nicholls 1,245, Brent Reasch 1,213, Leonard Faber 991.",
+              "href": "candidates/local-history/c/jack-w-nicholls.html"
+            },
+            {
+              "name": "Brent Reasch",
+              "person_id": "WY-REASCH-BRENT",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Lovell Cemetery (vote for 3): Brent Reasch 1,213.",
+              "href": "candidates/local-history/c/brent-reasch.html"
+            },
+            {
+              "name": "Leonard Faber",
+              "person_id": "WY-FABER-LEONARD",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Lovell Cemetery (vote for 3): Leonard Faber 991.",
+              "href": "candidates/local-history/c/leonard-faber.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Otto Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Janalee Jones Call",
+              "person_id": "WY-CALL-JANALEE-JONES",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Otto Cemetery (vote for 3): Janalee Jones Call 81, Andrea Tolman 79, Bevin Schatz 65.",
+              "href": "candidates/local-history/c/janalee-jones-call.html"
+            },
+            {
+              "name": "Andrea Tolman",
+              "person_id": "WY-TOLMAN-ANDREA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Otto Cemetery (vote for 3): Andrea Tolman 79.",
+              "href": "candidates/local-history/c/andrea-tolman.html"
+            },
+            {
+              "name": "Bevin Schatz",
+              "person_id": "WY-SCHATZ-BEVIN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Otto Cemetery (vote for 3): Bevin Schatz 65.",
+              "href": "candidates/local-history/c/bevin-schatz.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Central Special Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Charles Spragg",
+              "person_id": "WY-SPRAGG-CHARLES",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Central Special Cemetery 4-year (vote for 3): Charles Spragg 818, Michelle M. Burns 626. Only two named winners were certified on the official canvass; the third seat is not filled.",
+              "href": "candidates/local-history/c/charles-spragg.html"
+            },
+            {
+              "name": "Michelle M. Burns",
+              "person_id": "WY-BURNS-MICHELLE-M",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Central Special Cemetery 4-year: Michelle M. Burns 626.",
+              "href": "candidates/local-history/c/michelle-m-burns.html"
+            },
+            {
+              "name": "Bobby Hawkins",
+              "person_id": "WY-HAWKINS-BOBBY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Central Special Cemetery 2-year (vote for 2): only Bobby Hawkins 919 was a named official winner.",
+              "href": "candidates/local-history/c/bobby-hawkins.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Shoshone Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Spencer Ellis",
+              "person_id": "WY-ELLIS-SPENCER",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Shoshone Conserv Rural (vote for 2): Spencer Ellis 2,114, Brad Tippetts 2,030.",
+              "href": "candidates/local-history/c/spencer-ellis.html"
+            },
+            {
+              "name": "Brad Tippetts",
+              "person_id": "WY-TIPPETTS-BRAD",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Shoshone Conserv Rural (vote for 2): Brad Tippetts 2,030.",
+              "href": "candidates/local-history/c/brad-tippetts.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Linda Hamilton",
+              "person_id": "WY-HAMILTON-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Big Horn Conserv Rural (vote for 2): Linda Hamilton 2,057, Walter W. Hibbert 1,997.",
+              "href": "candidates/local-history/c/linda-hamilton.html"
+            },
+            {
+              "name": "Walter W. Hibbert",
+              "person_id": "WY-HIBBERT-WALTER-W",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Big Horn Conserv Rural (vote for 2): Walter W. Hibbert 1,997.",
+              "href": "candidates/local-history/c/walter-w-hibbert.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #1 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bruce H. Jolley",
+              "person_id": "WY-JOLLEY-BRUCE-H",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Fire Protection Dist 1 Director (vote for 2): Bruce H. Jolley 693, Greg Rael 674. Same official name as the sitting commissioner.",
+              "href": "candidates/local-history/c/bruce-h-jolley.html"
+            },
+            {
+              "name": "Greg Rael",
+              "person_id": "WY-RAEL-GREG",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Fire Dist 1 Director (vote for 2): Greg Rael 674.",
+              "href": "candidates/local-history/c/greg-rael.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #2 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Deb Craft",
+              "person_id": "WY-CRAFT-DEB",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Fire Dist 2 Director (vote for 2): Deb Craft 192, Barbara Anne Greene 168. Official 2026 Fire Dist 2 was write-in only (31 write-ins) and is not filled.",
+              "href": "candidates/local-history/c/deb-craft.html"
+            },
+            {
+              "name": "Barbara Anne Greene",
+              "person_id": "WY-GREENE-BARBARA-ANNE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Fire Dist 2 Director (vote for 2): Barbara Anne Greene 168.",
+              "href": "candidates/local-history/c/barbara-anne-greene.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #3 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Luke Foss",
+              "person_id": "WY-FOSS-LUKE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Fire Dist 3 Director (vote for 2): Luke Foss 95, Dave Paumer 86.",
+              "href": "candidates/local-history/c/luke-foss.html"
+            },
+            {
+              "name": "Dave Paumer",
+              "person_id": "WY-PAUMER-DAVE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Fire Dist 3 Director (vote for 2): Dave Paumer 86.",
+              "href": "candidates/local-history/c/dave-paumer.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #4 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Susan Davidson",
+              "person_id": "WY-DAVIDSON-SUSAN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Fire Dist 4 Director (vote for 2): Susan Davidson 398 was a clear official named winner. Other named totals and a large write-in figure on the official scan were not locked because of messy OCR, and no certified named write-in winner is recorded.",
+              "href": "candidates/local-history/c/susan-davidson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #5 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kevin Griffin",
+              "person_id": "WY-GRIFFIN-KEVIN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Fire Dist 5 Director (vote for 2): Kevin Griffin 61, Cherie Wambeke 2.",
+              "href": "candidates/local-history/c/kevin-griffin.html"
+            },
+            {
+              "name": "Cherie Wambeke",
+              "person_id": "WY-WAMBEKE-CHERIE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Fire Dist 5 Director (vote for 2): Cherie Wambeke 2.",
+              "href": "candidates/local-history/c/cherie-wambeke.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Roger Easum",
+              "person_id": "WY-EASUM-ROGER",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 Big Horn canvass, Park Co Fire Prot Dist 1 Director 2: Roger Easum 6, Matt McCaslin 4 (tiny official Big Horn sliver). Whole-district official Park canvass, if later combined, is not re-keyed here.",
+              "href": "candidates/local-history/c/roger-easum.html"
+            },
+            {
+              "name": "Matt McCaslin",
+              "person_id": "WY-MCCASLIN-MATT",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 Big Horn canvass, Park Co Fire Prot Dist 1 Director 2: Matt McCaslin 4.",
+              "href": "candidates/local-history/c/matt-mccaslin.html"
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 4",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott Heny",
+              "person_id": "WY-HENY-SCOTT",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 Big Horn canvass, Park Co Fire Prot Dist 1 Director 4: Scott Heny.",
+              "href": "candidates/local-history/c/scott-heny.html"
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "David A. Winterholler",
+              "person_id": "WY-WINTERHOLLER-DAVID-A",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, North Hospital At Large (vote for 2): David A. Winterholler 2,141, Max Lewis 1,802.",
+              "href": "candidates/local-history/c/david-a-winterholler.html"
+            },
+            {
+              "name": "Max Lewis",
+              "person_id": "WY-LEWIS-MAX",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, North Hospital At Large (vote for 2): Max Lewis 1,802. Same official name also holds a Cowley council seat.",
+              "href": "candidates/local-history/c/max-lewis.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee Lovell",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Patricia Crumrine",
+              "person_id": "WY-CRUMRINE-PATRICIA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, North Hospital Trustee Lovell: Patricia Crumrine 2,324.",
+              "href": "candidates/local-history/c/patricia-crumrine.html"
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn County Hospital District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Trudy E. Craft",
+              "person_id": "WY-CRAFT-TRUDY-E",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Hospital At Large (vote for 3): Trudy E. Craft 2,088, Fred Werner 1,849, Michael Scherman 1,510.",
+              "href": "candidates/local-history/c/trudy-e-craft.html"
+            },
+            {
+              "name": "Fred Werner",
+              "person_id": "WY-WERNER-FRED",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Hospital At Large (vote for 3): Fred Werner 1,849.",
+              "href": "candidates/local-history/c/fred-werner.html"
+            },
+            {
+              "name": "Michael Scherman",
+              "person_id": "WY-SCHERMAN-MICHAEL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Hospital At Large (vote for 3): Michael Scherman 1,510.",
+              "href": "candidates/local-history/c/michael-scherman.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Senior Citizen Service District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lori Scheffler",
+              "person_id": "WY-SCHEFFLER-LORI",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, North Senior At Large (vote for 3): Lori Scheffler 2,077, Annella Prosser 1,879, Edie Crosby 1,842.",
+              "href": "candidates/local-history/c/lori-scheffler.html"
+            },
+            {
+              "name": "Annella Prosser",
+              "person_id": "WY-PROSSER-ANNELLA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, North Senior At Large (vote for 3): Annella Prosser 1,879.",
+              "href": "candidates/local-history/c/annella-prosser.html"
+            },
+            {
+              "name": "Edie Crosby",
+              "person_id": "WY-CROSBY-EDIE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, North Senior At Large (vote for 3): Edie Crosby 1,842.",
+              "href": "candidates/local-history/c/edie-crosby.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Senior Citizen Service District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kristi L. Bonnel-Phillips",
+              "person_id": "WY-BONNEL-PHILLIPS-KRISTI-L",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Senior At Large (vote for 3): Kristi L. Bonnel-Phillips 2,005, Diane Nuttall 1,909, Sherri Emmett 1,888. Official 2026 regular and 2-year South Senior contests were write-in only and are not filled.",
+              "href": "candidates/local-history/c/kristi-l-bonnel-phillips.html"
+            },
+            {
+              "name": "Diane Nuttall",
+              "person_id": "WY-NUTTALL-DIANE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Senior At Large (vote for 3): Diane Nuttall 1,909.",
+              "href": "candidates/local-history/c/diane-nuttall.html"
+            },
+            {
+              "name": "Sherri Emmett",
+              "person_id": "WY-EMMETT-SHERRI",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, South Senior At Large (vote for 3): Sherri Emmett 1,888.",
+              "href": "candidates/local-history/c/sherri-emmett.html"
+            }
+          ]
+        },
+        {
+          "office": "Rural Health District #1 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Deb Rathbun",
+              "person_id": "WY-RATHBUN-DEB",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Rural Health Dist 1 (vote for 2): Deb Rathbun 1,654, Deb Fowler 1,637.",
+              "href": "candidates/local-history/c/deb-rathbun.html"
+            },
+            {
+              "name": "Deb Fowler",
+              "person_id": "WY-FOWLER-DEB",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 canvass, Rural Health Dist 1 (vote for 2): Deb Fowler 1,637.",
+              "href": "candidates/local-history/c/deb-fowler.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Burlington Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Cowley Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Deaver-Frannie Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Central Special Cemetery District Trustee (2-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Shoshone Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Shoshone Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 1",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 3",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 5",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee Byron-Cowley",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee Deaver-Frannie",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Senior Citizen Service District Trustee At Large (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Senior Citizen Service District Trustee At Large (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bobbi Overfield",
+              "person_id": "WY-OVERFIELD-BOBBI",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch March 2026 roster titles already used in the official Park and Washakie histories: Fifth Judicial District Judge Bobbi Overfield (Big Horn/Hot Springs/Washakie); Fifth Judicial Circuit Judge Ed Luhm (Edward G. Luhm) (Big Horn/Hot Springs/Washakie); Fifth Judicial District Judge Bill Simpson (Park); Circuit Judge Joey Darrah (Park).",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official March 2026 judicial roster title already used in the official Park and Washakie histories. Official 2020 retention. Distinct from any other Overfield.",
+              "href": "candidates/local-history/c/bobbi-overfield.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Luhm",
+              "person_id": "WY-LUHM-ED",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                },
+                {
+                  "label": "Official Wyoming Judicial Branch March 2026 roster titles already used in the official Park and Washakie histories: Fifth Judicial District Judge Bobbi Overfield (Big Horn/Hot Springs/Washakie); Fifth Judicial Circuit Judge Ed Luhm (Edward G. Luhm) (Big Horn/Hot Springs/Washakie); Fifth Judicial District Judge Bill Simpson (Park); Circuit Judge Joey Darrah (Park).",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 Big Horn canvass, RETAIN JUDGE EDWARD G. LUHM: YES 4,081, NO 864. Official court/roster name used in the official Park and Washakie histories is Ed Luhm (Edward G. Luhm).",
+              "href": "candidates/local-history/c/ed-luhm.html"
+            }
+          ]
+        },
+        {
+          "office": "District Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bill Simpson",
+              "person_id": "WY-SIMPSON-BILL",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                },
+                {
+                  "label": "Official Wyoming Judicial Branch March 2026 roster titles already used in the official Park and Washakie histories: Fifth Judicial District Judge Bobbi Overfield (Big Horn/Hot Springs/Washakie); Fifth Judicial Circuit Judge Ed Luhm (Edward G. Luhm) (Big Horn/Hot Springs/Washakie); Fifth Judicial District Judge Bill Simpson (Park); Circuit Judge Joey Darrah (Park).",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 Big Horn canvass, RETAIN JUDGE BILL SIMPSON: YES 4,155, NO 903. Official March 2026 roster names Bill Simpson, Park district judge (also used in official Park and Washakie histories).",
+              "href": "candidates/local-history/c/bill-simpson.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joey Darrah",
+              "person_id": "WY-DARRAH-JOEY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Summary, November 5, 2024 (header OFFICIAL RESULTS, General Election; Ballots Cast - Total 5,788; footer Election Summary - 11/08/2024 11:57AM, Page 1 of 15). Signed official canvass (Lori Smallwood; Deb Craft 11/8/24).",
+                  "url": "https://bighorncountywy.gov/images/Website_Official_General_Election_Summary_Report.pdf"
+                },
+                {
+                  "label": "Official Wyoming Judicial Branch March 2026 roster titles already used in the official Park and Washakie histories: Fifth Judicial District Judge Bobbi Overfield (Big Horn/Hot Springs/Washakie); Fifth Judicial Circuit Judge Ed Luhm (Edward G. Luhm) (Big Horn/Hot Springs/Washakie); Fifth Judicial District Judge Bill Simpson (Park); Circuit Judge Joey Darrah (Park).",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 Big Horn canvass, RETAIN JUDGE S. JOSEPH JOEY DARRAH: YES 4,097, NO 906. Official roster name Joey Darrah (Park circuit), already used in official Park and Washakie histories.",
+              "href": "candidates/local-history/c/joey-darrah.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are Fifth Judicial District and Circuit judges serving Big Horn with Hot Springs and Washakie (Bobbi Overfield, Ed Luhm / Edward G. Luhm) and the Park-seat judges (Bill Simpson, Joey Darrah), from official court roster titles already used in the official Park and Washakie histories. Official 2026 Big Horn canvass retention for Judge Bobbi Overfield is YES 2,876 / NO 722. Official 2026 RETAIN JUDGE BEN BURNINGHAM is the statewide Chancery Court retention already in the shared terms, not a Fifth Judicial District circuit office.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/big-horn/terms.json",
+  "retrieved": "2026-11-24"
+}

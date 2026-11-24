@@ -1,0 +1,1746 @@
+{
+  "county": "Crook",
+  "county_number": 18,
+  "snapshot_year": 2023,
+  "as_of": "2023-01-08",
+  "as_of_label": "January 2023 (as of 2023-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2023 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 1 (S01)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ogden Driskill",
+              "person_id": "WY-DRISKILL-OGDEN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                },
+                {
+                  "label": "WyoVote 113 County Report for Weston (legislators serving that session)",
+                  "url": ""
+                },
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide Senate summary, Senate District 1: Ogden Driskill (R) Total 4,785. Official Weston share 819; official Crook share 2,029; official Campbell share 1,937.",
+              "href": "officials/driskill.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 1 (H01)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chip Neiman",
+              "person_id": "WY-NEIMAN-CHIP",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                },
+                {
+                  "label": "WyoVote 113 County Report for Weston (legislators serving that session)",
+                  "url": ""
+                },
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 1: Chip Neiman (R) Total 3,876. Official Weston share 1,074; official Crook share 2,802.",
+              "href": "officials/neiman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioners",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Fred Devish",
+              "person_id": "WY-DEVISH-FRED",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/fred-devish.html"
+            },
+            {
+              "name": "Bob Latham",
+              "person_id": "WY-LATHAM-BOB",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bob-latham.html"
+            },
+            {
+              "name": "Kelly B. Dennis",
+              "person_id": "WY-DENNIS-KELLY",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kelly-b-dennis.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Melissa Jones",
+              "person_id": "WY-JONES-MELISSA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/melissa-jones.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tammy Jundt",
+              "person_id": "WY-JUNDT-TAMMY",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tammy-jundt.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Thomas",
+              "person_id": "WY-THOMAS-DAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dan-thomas.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jeff Hodge",
+              "person_id": "WY-HODGE-JEFF",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jeff-hodge.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joseph M. Baron",
+              "person_id": "WY-BARON-JOSEPH",
+              "party": "D",
+              "term_end": "January 2026",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                },
+                {
+                  "label": "Sundance Times legal notice of the December 19, 2025 Crook County Commission proceedings (Baron retired December 31, 2025; DaNece Day appointed and took office January 1, 2026)",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retired December 31, 2025. DaNece Day took office January 1, 2026.",
+              "href": "candidates/local-history/c/joseph-m-baron.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Julie Crawford",
+              "person_id": "WY-CRAWFORD-JULIE",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "2022 official ballot name Julie Altaffer. Same person as Julie Crawford (2026 ballot and current official roster).",
+              "href": "candidates/local-history/c/julie-crawford.html",
+              "ballot_name": "JULIE ALTAFFER"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mike Frolander",
+              "person_id": "WY-FROLANDER-MIKE",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mike-frolander.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Sundance Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Paul Brooks",
+              "person_id": "WY-BROOKS-PAUL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/paul-brooks.html"
+            }
+          ]
+        },
+        {
+          "office": "Sundance Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Randy Stevenson",
+              "person_id": "WY-STEVENSON-RANDY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/randy-stevenson.html"
+            },
+            {
+              "name": "Joe Wilson",
+              "person_id": "WY-WILSON-JOE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/joe-wilson.html"
+            },
+            {
+              "name": "Callie Hilty",
+              "person_id": "WY-HILTY-CALLIE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/callie-hilty.html"
+            },
+            {
+              "name": "Brad Marchant",
+              "person_id": "WY-MARCHANT-BRAD",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brad-marchant.html"
+            }
+          ]
+        },
+        {
+          "office": "Moorcroft Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Benjamin P. Glenn",
+              "person_id": "WY-GLENN-BENJAMIN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/benjamin-p-glenn.html"
+            }
+          ]
+        },
+        {
+          "office": "Moorcroft Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Paul Gallegos",
+              "person_id": "WY-GALLEGOS-PAUL",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/paul-gallegos.html"
+            },
+            {
+              "name": "Benjamin P. Glenn",
+              "person_id": "WY-GLENN-BENJAMIN",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/benjamin-p-glenn.html"
+            },
+            {
+              "name": "Austin J. Smith",
+              "person_id": "WY-SMITH-AUSTIN-J",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/austin-j-smith.html"
+            },
+            {
+              "name": "Robert E. Stewart",
+              "person_id": "WY-STEWART-ROBERT-E",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/robert-e-stewart.html"
+            },
+            {
+              "name": "Heidi Blakeman",
+              "person_id": "WY-BLAKEMAN-HEIDI",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "2-year council seat (official 2022 contest).",
+              "href": "candidates/local-history/c/heidi-blakeman.html"
+            },
+            {
+              "name": "Dale Petersen",
+              "person_id": "WY-PETERSEN-DALE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "2-year council seat (official 2022 contest).",
+              "href": "candidates/local-history/c/dale-petersen.html"
+            }
+          ]
+        },
+        {
+          "office": "Pine Haven Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Karla Brandenburg",
+              "person_id": "WY-BRANDENBURG-KARLA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/karla-brandenburg.html"
+            }
+          ]
+        },
+        {
+          "office": "Pine Haven Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Emily Smith",
+              "person_id": "WY-SMITH-EMILY-PH",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Ordinary 4-year term from the official 2020 general.",
+              "href": "candidates/local-history/c/emily-smith.html"
+            },
+            {
+              "name": "Rob Norton",
+              "person_id": "WY-NORTON-ROB",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "4-year council seat.",
+              "href": "candidates/local-history/c/rob-norton.html"
+            },
+            {
+              "name": "Kristy Speed",
+              "person_id": "WY-SPEED-KRISTY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "4-year council seat.",
+              "href": "candidates/local-history/c/kristy-speed.html"
+            },
+            {
+              "name": "Suzette Edwards",
+              "person_id": "WY-EDWARDS-SUZETTE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "2-year council seat.",
+              "href": "candidates/local-history/c/suzette-edwards.html"
+            }
+          ]
+        },
+        {
+          "office": "Hulett Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hulett Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "CCSD #1 Trustee, Hulett",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Shane Wolf",
+              "person_id": "WY-WOLF-SHANE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/shane-wolf.html"
+            },
+            {
+              "name": "Hannah Ista",
+              "person_id": "WY-ISTA-HANNAH",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/hannah-ista.html"
+            }
+          ]
+        },
+        {
+          "office": "CCSD #1 Trustee, Moorcroft",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Thayne Gray",
+              "person_id": "WY-GRAY-THAYNE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/thayne-gray.html"
+            },
+            {
+              "name": "Chase C. Williams",
+              "person_id": "WY-WILLIAMS-CHASE-C",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/chase-c-williams.html"
+            }
+          ]
+        },
+        {
+          "office": "CCSD #1 Trustee, Sundance",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dave Jagemann",
+              "person_id": "WY-JAGEMANN-DAVE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dave-jagemann.html"
+            },
+            {
+              "name": "Heith Waddell",
+              "person_id": "WY-WADDELL-HEITH",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/heith-waddell.html"
+            }
+          ]
+        },
+        {
+          "office": "CCSD #1 Trustee, at-large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "D. Marlene Edwards",
+              "person_id": "WY-EDWARDS-MARLENE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/d-marlene-edwards.html"
+            },
+            {
+              "name": "Steven M. Blakeman",
+              "person_id": "WY-BLAKEMAN-STEVEN-M",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/steven-m-blakeman.html"
+            },
+            {
+              "name": "Toby Connally",
+              "person_id": "WY-CONNALLY-TOBY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/toby-connally.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "CCMSD Trustee, Sundance",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Erickson",
+              "person_id": "WY-ERICKSON-MARK",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mark-erickson.html"
+            }
+          ]
+        },
+        {
+          "office": "CCMSD Trustee, Hulett",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Connie Lindmier",
+              "person_id": "WY-LINDMIER-CONNIE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/connie-lindmier.html"
+            },
+            {
+              "name": "Bob Richey",
+              "person_id": "WY-RICHEY-BOB",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bob-richey.html"
+            }
+          ]
+        },
+        {
+          "office": "CCMSD Trustee, Moorcroft",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Ray",
+              "person_id": "WY-RAY-ED",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ed-ray.html"
+            }
+          ]
+        },
+        {
+          "office": "CCMSD Trustee, at-large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brent Fowler",
+              "person_id": "WY-FOWLER-BRENT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brent-fowler.html"
+            },
+            {
+              "name": "Sandy Neiman",
+              "person_id": "WY-NEIMAN-SANDY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sandy-neiman.html"
+            }
+          ]
+        },
+        {
+          "office": "Museum District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Neal Gray",
+              "person_id": "WY-GRAY-NEAL",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/neal-gray.html"
+            },
+            {
+              "name": "Pam Thompson",
+              "person_id": "WY-THOMPSON-PAM",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/pam-thompson.html"
+            },
+            {
+              "name": "Melanie Wilmer",
+              "person_id": "WY-WILMER-MELANIE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/melanie-wilmer.html"
+            },
+            {
+              "name": "Andrea Wood",
+              "person_id": "WY-WOOD-ANDREA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 contest was Vote For 3 with two named candidates.",
+              "href": "candidates/local-history/c/andrea-wood.html"
+            },
+            {
+              "name": "Amy Goodson",
+              "person_id": "WY-GOODSON-AMY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 contest was Vote For 3 with two named candidates.",
+              "href": "candidates/local-history/c/amy-goodson.html"
+            }
+          ]
+        },
+        {
+          "office": "CCSCSD Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bonnie J. Beaudoin",
+              "person_id": "WY-BEAUDOIN-BONNIE-J",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Surname read from the official 2020 general page image (Beaudoin / Beaudin). Official 2020 contest was Vote For 3 with two named candidates plus a write-in total; the third winner is not named.",
+              "href": "candidates/local-history/c/bonnie-j-beaudoin.html"
+            },
+            {
+              "name": "Marcia Hansen",
+              "person_id": "WY-HANSEN-MARCIA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 contest was Vote For 3 with two named candidates plus a write-in total; the third winner is not named.",
+              "href": "candidates/local-history/c/marcia-hansen.html"
+            },
+            {
+              "name": "Terry Wilkerson",
+              "person_id": "WY-WILKERSON-TERRY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/terry-wilkerson.html"
+            },
+            {
+              "name": "Lilly Ann Bankenbush",
+              "person_id": "WY-BANKENBUSH-LILLY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/lilly-ann-bankenbush.html"
+            }
+          ]
+        },
+        {
+          "office": "CCNRD Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Wayne W. Garman",
+              "person_id": "WY-GARMAN-WAYNE-W",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 rural 4-year seat.",
+              "href": "candidates/local-history/c/wayne-w-garman.html"
+            },
+            {
+              "name": "Wanda Burget",
+              "person_id": "WY-BURGET-WANDA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/wanda-burget.html"
+            },
+            {
+              "name": "Kim Fundaun",
+              "person_id": "WY-FUNDAUN-KIM",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kim-fundaun.html"
+            }
+          ]
+        },
+        {
+          "office": "CCNRD At-large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lily Altaffer",
+              "person_id": "WY-ALTAFFER-LILY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/lily-altaffer.html"
+            }
+          ]
+        },
+        {
+          "office": "CCNRD Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "Write-in-only contests without a named winner are not filled (including the official 2026 Museum trustee 2-year seat and the official 2020 and 2022 CCNRD Urban seats). Some Vote For N contests listed fewer named candidates than N; those extra seats are marked Not yet collected and are not invented.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "Circuit Judge, 6th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Wendy M. Bartlett",
+              "person_id": "WY-BARTLETT-WENDY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2012 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/EL45-Cumulative-OFFICIAL-2012-General.pdf"
+                },
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "Crook County official 2012 general results",
+                  "url": "https://www.crookcounty.wy.gov/General Election 2012 Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained on the Weston official general ballot in 2012, 2016, 2020, and 2024 (4-year cycle). 2012: yes 2,317 / no 676; 2016: yes 2,295 / no 832; 2020: yes 2,512 / no 574; 2024 yes 2,282 (NO not clearly readable on the scanned official summary).",
+              "href": "candidates/local-history/c/wendy-m-bartlett.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2512,
+                "no": 574,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "Matthew F.G. Castano",
+              "person_id": "WY-CASTANO-MATTHEW",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "Crook County official 2016 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2016_Election/2016 canvass block style.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained in 2016, 2020, and 2024. 2016: yes 2,199 / no 923; 2020: yes 2,372 / no 693; 2024 yes 2,279 (NO not clearly readable).",
+              "href": "candidates/local-history/c/matthew-f-g-castano.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2372,
+                "no": 693,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "Paul S. Phillips",
+              "person_id": "WY-PHILLIPS-PAUL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2018 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2021/01/Weston-County-OFFICIAL-RESULTS_11.9.2018-EL45.pdf"
+                },
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                },
+                {
+                  "label": "Crook County official 2018 general results",
+                  "url": "https://www.crookcounty.wy.gov/2018 General Election Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained in 2018 (yes 1,804 / no 530) and 2022 (yes 1,825 / no 629).",
+              "href": "candidates/local-history/c/paul-s-phillips.html",
+              "retention": {
+                "year": 2022,
+                "yes": 1825,
+                "no": 629,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "office": "District Judge, 6th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael N. \"Nick\" Deegan",
+              "person_id": "WY-DEEGAN-NICK",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Weston County official 2012 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/EL45-Cumulative-OFFICIAL-2012-General.pdf"
+                },
+                {
+                  "label": "Weston County official 2018 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2021/01/Weston-County-OFFICIAL-RESULTS_11.9.2018-EL45.pdf"
+                },
+                {
+                  "label": "Crook County official 2012 general results",
+                  "url": "https://www.crookcounty.wy.gov/General Election 2012 Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2012 (yes 2,258 / no 749) and 2018 (yes 1,823 / no 553). 6-year cycle. Not on the 2024 Weston general summary reviewed.",
+              "href": "candidates/local-history/c/nick-deegan.html",
+              "retention": {
+                "year": 2018,
+                "yes": 1823,
+                "no": 553,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2021/01/Weston-County-OFFICIAL-RESULTS_11.9.2018-EL45.pdf"
+              }
+            },
+            {
+              "name": "Thomas W. Rumpke",
+              "person_id": "WY-RUMPKE-THOMAS",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2014 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+                },
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Crook County official 2014 general results",
+                  "url": "https://www.crookcounty.wy.gov/Canvas Block Style.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2014 and 2020 (2020: yes 2,379 / no 767).",
+              "href": "candidates/local-history/c/thomas-w-rumpke.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2379,
+                "no": 767,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "John R. Perry",
+              "person_id": "WY-PERRY-JOHN-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2014 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+                },
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Crook County official 2014 general results",
+                  "url": "https://www.crookcounty.wy.gov/Canvas Block Style.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2014 and 2020 (2020: yes 2,423 / no 682). Distinct from Natrona precinct committeeman WY-PERRY-JOHN.",
+              "href": "candidates/local-history/c/john-r-perry.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2423,
+                "no": 682,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "John C. Healy III",
+              "person_id": "WY-HEALY-JOHN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                },
+                {
+                  "label": "Crook County official 2022 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/General Election Summary- Official Results.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2022: yes 1,845 / no 634.",
+              "href": "candidates/local-history/c/john-c-healy-iii.html",
+              "retention": {
+                "year": 2022,
+                "yes": 1845,
+                "no": 634,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Justice of the Wyoming Supreme Court",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Catherine M. Fox",
+              "person_id": "WY-FOX-CATHERINE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court justices",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Crook County official 2016 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2016_Election/2016 canvass block style.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Already serving at the start of the 2015 window (retained 2016 and 2024 on the Weston ballot). Official name Kate M. Fox. Official Judicial Branch: retired May 27, 2025.",
+              "href": "candidates/local-history/c/catherine-m-fox.html",
+              "retention": {
+                "year": 2024,
+                "yes": 2272,
+                "no": 733,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+              }
+            },
+            {
+              "name": "Keith G. Kautz",
+              "person_id": "WY-KAUTZ-KEITH",
+              "party": "",
+              "term_end": "January 2024",
+              "sources": [
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court justices",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Crook County official 2016 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2016_Election/2016 canvass block style.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2016 (yes 2,116 / no 988). Official Judicial Branch: retired March 26, 2024 (successor Robert C. Jarosh sworn March 27, 2024).",
+              "href": "candidates/local-history/c/keith-g-kautz.html"
+            },
+            {
+              "name": "Lynne Boomgaarden",
+              "person_id": "WY-BOOMGAARDEN-LYNNE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Welcome Justice Lynne Boomgaarden, February 20, 2018",
+                  "url": "https://www.wyocourts.gov/news/welcome-justice-lynne-boomgaarden/"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Chief Justice Lynne Boomgaarden",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Judicial Branch: tenure began February 20, 2018, appointed by Gov. Mead to succeed William U. Hill. Retained 2020: yes 2,498 / no 654. Official term expires January 2029.",
+              "href": "candidates/local-history/c/lynne-boomgaarden.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2498,
+                "no": 654,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "Kari Jo Gray",
+              "person_id": "WY-GRAY-KARI",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Welcome Justice Kari Jo Gray (tenure began October 9, 2018)",
+                  "url": "https://www.wyocourts.gov/news/welcome-justice-kari-jo-gray/"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Justice Kari Gray",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                },
+                {
+                  "label": "Crook County official 2020 general results",
+                  "url": "https://www.crookcounty.wy.gov/Official Results General 2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Judicial Branch: tenure began October 9, 2018, appointed by Gov. Mead to succeed E. James Burke. Retained 2020: yes 2,468 / no 649. Official term expires January 2029.",
+              "href": "candidates/local-history/c/kari-jo-gray.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2468,
+                "no": 649,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "John G. Fenn",
+              "person_id": "WY-FENN-JOHN",
+              "party": "",
+              "term_end": "January 2033",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Judicial Nominating Commission, Davis retirement January 16, 2022",
+                  "url": "https://www.wyocourts.gov/app/uploads/2025/05/News-Release-Announcing-Vacancy-Wyoming-Supreme-Court.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Justice John G. Fenn sworn in",
+                  "url": "https://www.wyocourts.gov/news/robing-ceremony-for-wyoming-supreme-court-justice-john-g-fenn/"
+                },
+                {
+                  "label": "Crook County official 2024 general results",
+                  "url": "https://www.crookcounty.wy.gov/elected_officials/clerk/Election/2024/Crook County Election Summary.pdf"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Appointed by Gov. Gordon after Justice Davis retired January 16, 2022 (official JNC release). Term treated as starting January 17, 2022, the next day; the official robing announcement does not print the first day on the bench. Retained 2024, yes 2,187 (NO not clearly readable on the scanned official summary).",
+              "href": "candidates/local-history/c/john-g-fenn.html",
+              "retention": {
+                "year": 2024,
+                "yes": 2187,
+                "no": null,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+              }
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices are the five who were in office this January, using official Wyoming Judicial Branch appointment and retirement dates together with official retention results. District and circuit rows are the 6th Judicial District judges (the district also includes Campbell and Weston) who appeared on a Crook County official retention ballot in an adjoining cycle; those local benches may be incomplete.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. Official Crook primary PDFs for 2010-2026 are archived under /workspace/wyoleg/local-results/crook/<year>/. The current (November 2026) precinct roster is in data/county_officials/crook.json, from the official 2026 primary (named winners only).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/crook/terms.json",
+  "retrieved": "2026-11-23"
+}

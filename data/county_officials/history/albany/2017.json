@@ -1,0 +1,793 @@
+{
+  "county": "Albany",
+  "county_number": 5,
+  "snapshot_year": 2017,
+  "as_of": "2017-01-08",
+  "as_of_label": "January 2017 (as of 2017-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2017 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Mike Enzi",
+              "person_id": "WY-ENZI-MIKE",
+              "party": "R",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Did not run in 2020. Cynthia Lummis took office January 3, 2021.",
+              "href": "candidates/local-history/c/mike-enzi.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Liz Cheney",
+              "person_id": "WY-CHENEY-ELIZABETH",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cheney-elizabeth.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt Mead",
+              "person_id": "WY-MEAD-MATT",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/matt-mead.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Edward F. Murray, III",
+              "person_id": "WY-MURRAY-EDWARD",
+              "party": "R",
+              "term_end": "January 2018",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned February 9, 2018 (official State Officers Roster).",
+              "href": "candidates/local-history/c/edward-f-murray-iii.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cynthia Cloud",
+              "person_id": "WY-CLOUD-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cynthia-cloud.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/gordon-mark.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jillian Balow",
+              "person_id": "WY-BALOW-JILLIAN",
+              "party": "R",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/balow-jillian.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 9 (S09)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chris Rothfuss",
+              "person_id": "WY-ROTHFUSS-CHRIS",
+              "party": "DEM",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 Albany general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Albany_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS Albany general PbP (no official 2014 clerk general in this archive).",
+              "href": "candidates/local-history/c/chris-rothfuss.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 10 (S10)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Glenn Moniz",
+              "person_id": "WY-MONIZ-GLENN",
+              "party": "REP",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/glenn-moniz.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 13 (H13)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cathy Connolly",
+              "person_id": "WY-CONNOLLY-CATHY",
+              "party": "DEM",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cathy-connolly.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 14 (H14)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Furphy",
+              "person_id": "WY-FURPHY-DAN",
+              "party": "REP",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dan-furphy.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 45 (H45)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Charles F. Pelkey",
+              "person_id": "WY-PELKEY-CHARLES-F",
+              "party": "DEM",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/charles-f-pelkey.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 46 (H46)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bill Haley",
+              "person_id": "WY-HALEY-BILL",
+              "party": "REP",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bill-haley.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 47 (H47)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jerry Paxton",
+              "person_id": "WY-PAXTON-JERRY",
+              "party": "REP",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jerry-paxton.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Terri Jones",
+              "person_id": "WY-JONES-TERRI",
+              "party": "REP",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/terri-jones.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Laramie Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Andrea Summerville",
+              "person_id": "WY-SUMMERVILLE-ANDREA",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "City of Laramie official Resolution 2017-01 appointing the mayor for 2017-2018",
+                  "url": "https://www.cityoflaramie.org/DocumentCenter/View/11740"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Selected by the Laramie City Council from its members. Official Resolution 2017-01 (January 3, 2017): Council member Andrea Summerville, Mayor for 2017-2018 (signed Andi Summerville).",
+              "href": "candidates/local-history/c/andrea-summerville.html"
+            }
+          ]
+        },
+        {
+          "office": "Laramie City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Vicki Henry",
+              "person_id": "WY-HENRY-VICKI",
+              "party": "",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/vicki-henry.html"
+            },
+            {
+              "name": "Charles McKinney",
+              "person_id": "WY-MCKINNEY-CHARLES",
+              "party": "",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2016 general Ward 1; official ballot Charles B.D. McKinney / Charles McKinney.",
+              "href": "candidates/local-history/c/charles-mckinney.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Laramie City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jayne Pearce",
+              "person_id": "WY-PEARCE-JAYNE",
+              "party": "",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jayne-pearce.html"
+            },
+            {
+              "name": "Joe Shumway",
+              "person_id": "WY-SHUMWAY-JOE",
+              "party": "",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/joe-shumway.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Laramie City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Pat Gabriel",
+              "person_id": "WY-GABRIEL-PAT",
+              "party": "",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/pat-gabriel.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rock River Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rock River Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Fire District No. 1 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jon K. Essley",
+              "person_id": "WY-ESSLEY-JON-K",
+              "party": "",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jon-k-essley.html"
+            },
+            {
+              "name": "Joseph O. Witt",
+              "person_id": "WY-WITT-JOSEPH",
+              "party": "",
+              "term_end": "January 2021",
+              "sources": [
+                {
+                  "label": "Albany County official 2016 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/835/2016-Election-Results-Summary-PDF"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/joseph-o-witt.html"
+            }
+          ]
+        }
+      ],
+      "note": "Municipal, school, and special-district names are keyed from official Albany November general summaries in this archive (2010, 2012, and 2016–2026). The City of Laramie mayor is selected by the City Council from its members at the first January meeting after a general election (Laramie Municipal Code 2.04.016) and is not on the November ballot; official City of Laramie resolutions and January council minutes name the 2015–2026 mayors used here. The Town of Rock River does not appear as a municipal contest on those official November clerk generals and is marked Not yet collected rather than invented. Official 2014 clerk local results are not in the clerk archive, so January 2015–2018 county row offices, the 2014 commissioner class, and January 2015–2016 House Districts 45 and 46 (contested on the official 2014 SOS PbP without a clerk summary in this archive) are Not yet collected. The official 2026 commissioner Vote-For-2 result is the November 9–10, 2026 second recount (clerk memorandum November 11, 2026). The official 2024 Fire District No. 1 Director contest reports only write-in totals and is not filled.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 2nd Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Wade E. Waldrip",
+              "person_id": "WY-WALDRIP-WADE-E",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Albany County official 2012 general election summary",
+                  "url": "https://www.albanycountywy.gov/DocumentCenter/View/827/2012-General-Results-PDF"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2012 Albany general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2012/Results/General/2012_Albany_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2012 clerk judicial YES totals; official 2012 SOS Albany PbP names District Court Judge Wade E. Waldrip.",
+              "href": "candidates/local-history/c/wade-e-waldrip.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 2nd Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Robert A. Castor",
+              "person_id": "WY-CASTOR-ROBERT-A",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 Albany general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Albany_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS Albany general PbP: Circuit Court Judge Robert A. Castor, YES.",
+              "href": "candidates/local-history/c/robert-a-castor.html"
+            },
+            {
+              "name": "Jane Eakin",
+              "person_id": "WY-EAKIN-JANE",
+              "party": "",
+              "term_end": "January 2019",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2014 Albany general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2014/Results/General/2014_Albany_County_General_PbP.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2014 SOS Albany general PbP: Circuit Court Judge Jane Eakin, YES.",
+              "href": "candidates/local-history/c/jane-eakin.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 2nd Judicial District judges. Where an official Albany clerk summary prints only a last name, or omits the name (official 2022 and 2026 circuit retentions), the full name is taken from the official Wyoming Judicial Branch 2nd JD Albany circuit or district page, or from an official later clerk ballot or official SOS Albany general precinct-by-precinct summary, and that source is cited. Albany is in the 2nd Judicial District; judges of other districts are not copied here. Official 2018 clerk judicial lines are unnamed YES/NO and are not filled from that clerk summary. Official 2010 clerk circuit lines CASTOR and EAKIN are filled as Robert A. Castor and Jane Eakin from the official 2014 SOS Albany general PbP.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. Official Albany primary PDFs are archived under /workspace/wyoleg/local-results/albany/<year>/. The current (November 2026) precinct roster is in data/county_officials/albany.json, from the official 2026 primary (named winners only).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/albany/terms.json",
+  "retrieved": "2026-11-24"
+}

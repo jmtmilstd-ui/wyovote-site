@@ -2,7 +2,7 @@
   "county": "Natrona",
   "county_number": 1,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -15,68 +15,46 @@
         {
           "office": "Senate District 2 (S02)",
           "layout": "office-and-name",
-          "note": "Also covers Converse.",
           "holders": [
             {
               "name": "Brian Boner",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2021"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/boner.html"
+              "person_id": "WY-BONER-BRIAN",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brian-boner.html"
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary Total: Brian Boner (R) 7,712. Official Natrona share: 1,800. Official Converse portion: 5,912. After 2022 redistricting the official SOS county rows are Converse and Natrona (Platte is no longer in S02). Official SOS district-wide totals are used for this multi-county seat. Off-cycle in 2026."
         },
         {
           "office": "Senate District 27 (S27)",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Bill Landen",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/434"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Kevin Helling",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, S27",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/landen.html"
+              "person_id": "WY-LANDEN-BILL",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bill-landen.html"
+            },
+            {
+              "name": "Kevin Helling",
+              "person_id": "WY-HELLING-KEVIN",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/kevin-helling.html"
             }
-          ]
+          ],
+          "note": "Kevin Helling is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "Senate District 28 (S28)",
@@ -84,87 +62,56 @@
           "holders": [
             {
               "name": "Jim Anderson",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1985"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/anderson.html"
+              "person_id": "WY-ANDERSON-JIM",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jim-anderson.html"
             }
           ]
         },
         {
           "office": "Senate District 29 (S29)",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Bob Ide",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2089"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Lisa Engebretsen",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, S29",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/ide.html"
+              "person_id": "WY-IDE-BOB",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bob-ide.html"
+            },
+            {
+              "name": "Lisa Engebretsen",
+              "person_id": "WY-ENGEBRETSEN-LISA",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/lisa-engebretsen.html"
             }
-          ]
+          ],
+          "note": "Lisa Engebretsen is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "Senate District 30 (S30)",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Charles Scott",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/294"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/scott.html"
+              "name": "Charles K. Scott",
+              "person_id": "WY-SCOTT-CHARLES-K",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/charles-k-scott.html"
             }
           ]
         }
@@ -176,41 +123,27 @@
       "offices": [
         {
           "office": "House District 35 (H35)",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Tony Locke",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2106"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Christopher Dresang",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H35",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/locke.html"
+              "person_id": "WY-LOCKE-TONY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tony-locke.html"
+            },
+            {
+              "name": "Christopher Dresang",
+              "person_id": "WY-DRESANG-CHRISTOPHER",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/christopher-dresang.html"
             }
           ]
         },
@@ -220,106 +153,65 @@
           "holders": [
             {
               "name": "Art Washut",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2058"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H36, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/washut.html"
+              "person_id": "WY-WASHUT-ART",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 and 2026 general winner, continuing; official 2026 term begins January 2027.",
+              "href": "candidates/local-history/c/art-washut.html"
             }
           ]
         },
         {
           "office": "House District 37 (H37)",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Steve Harshman",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/717"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Brian Costello",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H37",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/harshman.html"
+              "person_id": "WY-HARSHMAN-STEVE",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/steve-harshman.html"
+            },
+            {
+              "name": "Brian Costello",
+              "person_id": "WY-COSTELLO-BRIAN",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/brian-costello.html"
             }
           ]
         },
         {
           "office": "House District 38 (H38)",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Jayme Lien",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2126"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Robert L. Hendry",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H38",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/lien.html"
+              "person_id": "WY-LIEN-JAYME",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jayme-lien.html"
+            },
+            {
+              "name": "Robert L. Hendry",
+              "person_id": "WY-HENDRY-ROBERT-L",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/robert-l-hendry.html"
             }
           ]
         },
@@ -329,26 +221,13 @@
           "holders": [
             {
               "name": "Elissa Campbell",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2133"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H56, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/campbell-elissa.html"
+              "person_id": "WY-CAMPBELL-ELISSA",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 and 2026 general winner, continuing; official 2026 term begins January 2027.",
+              "href": "candidates/local-history/c/elissa-campbell.html"
             }
           ]
         },
@@ -358,26 +237,13 @@
           "holders": [
             {
               "name": "Julie Jarvis",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2134"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H57, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/jarvis.html"
+              "person_id": "WY-JARVIS-JULIE",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 and 2026 general winner, continuing; official 2026 term begins January 2027.",
+              "href": "candidates/local-history/c/julie-jarvis.html"
             }
           ]
         },
@@ -387,26 +253,13 @@
           "holders": [
             {
               "name": "Bill Allemand",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2114"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H58, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/allemand.html"
+              "person_id": "WY-ALLEMAND-BILL",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 and 2026 general winner, continuing; official 2026 term begins January 2027.",
+              "href": "candidates/local-history/c/bill-allemand.html"
             }
           ]
         },
@@ -416,59 +269,32 @@
           "holders": [
             {
               "name": "J.R. Riggins",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2135"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H59, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/riggins.html"
+              "person_id": "WY-RIGGINS-JR",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 and 2026 general winner, continuing; official 2026 term begins January 2027.",
+              "href": "candidates/local-history/c/j-r-riggins.html"
             }
           ]
         },
         {
           "office": "House District 62 (H62)",
           "layout": "office-and-name",
-          "note": "Also covers Converse.",
           "holders": [
             {
-              "name": "Kevin Campbell",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2136"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_01_Natrona_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H62, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "ballot_name": "Kevin J. Campbell",
-              "href": "officials/campbell-kevin.html"
+              "name": "Kevin J. Campbell",
+              "person_id": "WY-CAMPBELL-KEVIN-J",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 and 2026 general winner, continuing; official 2026 term begins January 2027.",
+              "href": "candidates/local-history/c/kevin-j-campbell.html"
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary Total: Kevin J. Campbell (R) 2,297. Official Natrona share: 1,122. Official Converse portion: 1,175. Official 2024 SOS statewide House summary Total: Kevin Campbell (R) 3,496. Official Natrona share: 1,764. Official Converse portion: 1,732. Also covers Converse County. Official SOS district-wide totals are used for this multi-county seat."
         }
       ]
     },
@@ -481,117 +307,86 @@
           "layout": "heading-then-names",
           "holders": [
             {
-              "name": "Jim Milne",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County commissioners page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                }
-              ],
-              "role": "Chairman",
-              "succeeding": {
-                "name": "Ray Pacheco",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Natrona County official general results, County Commissioner",
-                    "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
-            },
-            {
               "name": "Casey Coates",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County commissioners page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/natrona.html"
-                }
-              ],
-              "role": "Vice Chairman"
-            },
-            {
-              "name": "Dallas Laird",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County commissioners page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                },
-                {
-                  "label": "Natrona County official general results, re-elected",
-                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
-            },
-            {
-              "name": "Peter Nicolaysen",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County commissioners page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Matt Keating",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Natrona County official general results, County Commissioner",
-                    "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-COATES-CASEY",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/casey-coates.html"
             },
             {
               "name": "Dave North",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County commissioners page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/natrona.html"
-                }
-              ]
+              "person_id": "WY-NORTH-DAVE",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dave-north.html"
+            },
+            {
+              "name": "Dallas Laird",
+              "person_id": "WY-LAIRD-DALLAS",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dallas-laird.html"
+            },
+            {
+              "name": "Peter C. Nicolaysen",
+              "person_id": "WY-NICOLAYSEN-PETER-C",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/peter-c-nicolaysen.html"
+            },
+            {
+              "name": "James \"Jim\" Milne",
+              "person_id": "WY-MILNE-JIM",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jim-milne.html"
+            },
+            {
+              "name": "Ray Pacheco",
+              "person_id": "WY-PACHECO-RAY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general Vote-For-3 winner.",
+              "href": "candidates/local-history/c/ray-pacheco.html"
+            },
+            {
+              "name": "Dallas Laird",
+              "person_id": "WY-LAIRD-DALLAS",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/dallas-laird.html"
+            },
+            {
+              "name": "Matt Keating",
+              "person_id": "WY-KEATING-MATT",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general Vote-For-3 winner. Official 2018 assessor was Matthew Keating (same person).",
+              "href": "candidates/local-history/c/matt-keating.html"
             }
-          ],
-          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+          ]
         },
         {
           "office": "County Clerk",
@@ -599,60 +394,39 @@
           "holders": [
             {
               "name": "Tracy Good",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County clerk page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                },
-                {
-                  "label": "Natrona County official general results, re-elected",
-                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-GOOD-TRACY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 and 2026 general winner, continuing.",
+              "href": "candidates/local-history/c/tracy-good.html"
             }
           ]
         },
         {
           "office": "County Treasurer",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Tom Doyle",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County treasurer page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Heather Bryan",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Natrona County official general results, County Treasurer",
-                    "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-DOYLE-TOM",
+              "party": "REP",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tom-doyle.html"
+            },
+            {
+              "name": "Heather Bryan",
+              "person_id": "WY-BRYAN-HEATHER",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/heather-bryan.html"
             }
           ]
         },
@@ -662,25 +436,13 @@
           "holders": [
             {
               "name": "Tammy Saulsbury",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County assessor page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                },
-                {
-                  "label": "Natrona County official general results, re-elected",
-                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-SAULSBURY-TAMMY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 and 2026 general winner, continuing.",
+              "href": "candidates/local-history/c/tammy-saulsbury.html"
             }
           ]
         },
@@ -690,25 +452,13 @@
           "holders": [
             {
               "name": "John Harlin",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County sheriff page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                },
-                {
-                  "label": "Natrona County official general results, re-elected",
-                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-HARLIN-JOHN",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 and 2026 general winner, continuing.",
+              "href": "candidates/local-history/c/john-harlin.html"
             }
           ]
         },
@@ -717,24 +467,14 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Dan J. Itzen",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                },
-                {
-                  "label": "Natrona County official general results, re-elected",
-                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name.",
-              "ballot_name": "Daniel J. Itzen"
+              "name": "Daniel J Itzen",
+              "person_id": "WY-ITZEN-DAN",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 ballot Dan J. Itzen; official 2026 ballot Daniel J Itzen. Official 2022 term ends January 2027; official 2026 general winner, continuing.",
+              "href": "candidates/local-history/c/dan-j-itzen.html"
             }
           ]
         },
@@ -744,25 +484,13 @@
           "holders": [
             {
               "name": "Jill Kiester",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County clerk of district court page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                },
-                {
-                  "label": "Natrona County official general results, re-elected",
-                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-KIESTER-JILL",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 and 2026 general winner, continuing.",
+              "href": "candidates/local-history/c/jill-kiester.html"
             }
           ]
         },
@@ -771,27 +499,1153 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "James Whipps",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Natrona County coroner page",
-                  "url": "https://www.natronacounty-wy.gov/382/Elected-County-Officials"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/natrona.html"
-                },
-                {
-                  "label": "Natrona County official general results, re-elected",
-                  "url": "https://www.natronacounty-wy.gov/DocumentCenter/View/14059/2026-General-Election-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "ballot_name": "James L. Whipps"
+              "name": "James L. Whipps",
+              "person_id": "WY-WHIPPS-JAMES",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 ballot James Whipps; official 2026 ballot James L. Whipps, continuing.",
+              "href": "candidates/local-history/c/james-l-whipps.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal Offices",
+      "offices": [
+        {
+          "office": "Casper Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ray Pacheco",
+              "person_id": "WY-PACHECO-RAY",
+              "party": "",
+              "term_end": "January 5, 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Selected by the Casper City Council from its members, not on the November ballot. Official January 6, 2026 regular meeting minutes: selected as Mayor for calendar year 2026. Official City of Casper Mayor & City Council page, retrieved 2026-11-24: term expires 1/5/27.",
+              "href": "candidates/local-history/c/ray-pacheco.html"
+            }
+          ]
+        },
+        {
+          "office": "Casper City Council Ward 1",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Patrick \"Pat\" Sweeney",
+              "person_id": "WY-SWEENEY-PATRICK",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/patrick-pat-sweeney.html"
+            },
+            {
+              "name": "Amber Pollock",
+              "person_id": "WY-POLLOCK-AMBER",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/amber-pollock.html"
+            },
+            {
+              "name": "Gena Jensen",
+              "person_id": "WY-JENSEN-GENA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/gena-jensen.html"
+            },
+            {
+              "name": "Brett Hobza",
+              "person_id": "WY-HOBZA-BRETT",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/brett-hobza.html"
+            }
+          ]
+        },
+        {
+          "office": "Casper City Council Ward 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kyle Gamroth",
+              "person_id": "WY-GAMROTH-KYLE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kyle-gamroth.html"
+            },
+            {
+              "name": "Matthew Larson",
+              "person_id": "WY-LARSON-MATTHEW",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/matthew-larson.html"
+            },
+            {
+              "name": "Michael Bond",
+              "person_id": "WY-BOND-MICHAEL",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/michael-bond.html"
+            }
+          ]
+        },
+        {
+          "office": "Casper City Council Ward 3",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Michael H. McIntosh",
+              "person_id": "WY-MCINTOSH-MICHAEL-H",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michael-h-mcintosh.html"
+            },
+            {
+              "name": "Ray Pacheco",
+              "person_id": "WY-PACHECO-RAY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ray-pacheco.html"
+            },
+            {
+              "name": "Brandy Haskins",
+              "person_id": "WY-HASKINS-BRANDY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/brandy-haskins.html"
+            },
+            {
+              "name": "Terry Wingerter",
+              "person_id": "WY-WINGERTER-TERRY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/terry-wingerter.html"
+            }
+          ]
+        },
+        {
+          "office": "Mills Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Leah Juarez",
+              "person_id": "WY-JUAREZ-LEAH",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 and 2026 general winner, continuing.",
+              "href": "candidates/local-history/c/leah-juarez.html"
+            }
+          ]
+        },
+        {
+          "office": "Mills Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brad Neumiller",
+              "person_id": "WY-NEUMILLER-BRAD",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brad-neumiller.html"
+            },
+            {
+              "name": "Sara E. McCarthy",
+              "person_id": "WY-MCCARTHY-SARA-E",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sara-e-mccarthy.html"
+            },
+            {
+              "name": "Tim Sutherland",
+              "person_id": "WY-SUTHERLAND-TIM",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/tim-sutherland.html"
+            },
+            {
+              "name": "Cherie Butcher",
+              "person_id": "WY-BUTCHER-CHERIE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/cherie-butcher.html"
+            }
+          ]
+        },
+        {
+          "office": "Evansville Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Candace Machado",
+              "person_id": "WY-MACHADO-CANDACE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 general unexpired winner.",
+              "href": "candidates/local-history/c/candace-machado.html"
+            },
+            {
+              "name": "Phil Gierke",
+              "person_id": "WY-GIERKE-PHIL",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/phil-gierke.html"
+            }
+          ]
+        },
+        {
+          "office": "Evansville Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dacia Edwards",
+              "person_id": "WY-EDWARDS-DACIA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dacia-edwards.html"
+            },
+            {
+              "name": "Ernie Blackford",
+              "person_id": "WY-BLACKFORD-ERNIE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ernie-blackford.html"
+            },
+            {
+              "name": "Alona Vigneault",
+              "person_id": "WY-VIGNEAULT-ALONA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/alona-vigneault.html"
+            },
+            {
+              "name": "Rhonda Stypa",
+              "person_id": "WY-STYPA-RHONDA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/rhonda-stypa.html"
+            },
+            {
+              "name": "Dale Shelden",
+              "person_id": "WY-SHELDEN-DALE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/dale-shelden.html"
+            },
+            {
+              "name": "Wendy DeGroot",
+              "person_id": "WY-DEGROOT-WENDY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general unexpired winner.",
+              "href": "candidates/local-history/c/wendy-degroot.html"
+            }
+          ]
+        },
+        {
+          "office": "Bar Nunn Mayor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Peter Boyer",
+              "person_id": "WY-BOYER-PETER",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/peter-boyer.html"
+            },
+            {
+              "name": "Brian Childress",
+              "person_id": "WY-CHILDRESS-BRIAN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/brian-childress.html"
+            }
+          ]
+        },
+        {
+          "office": "Bar Nunn Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tim J. Ficken",
+              "person_id": "WY-FICKEN-TIM-J",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tim-j-ficken.html"
+            },
+            {
+              "name": "Dan Sabrosky",
+              "person_id": "WY-SABROSKY-DAN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dan-sabrosky.html"
+            },
+            {
+              "name": "Steven Clark",
+              "person_id": "WY-CLARK-STEVEN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/steven-clark.html"
+            },
+            {
+              "name": "Tyler Martin",
+              "person_id": "WY-MARTIN-TYLER",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tyler-martin.html"
+            },
+            {
+              "name": "Olin Jarrard",
+              "person_id": "WY-JARRARD-OLIN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/olin-jarrard.html"
+            },
+            {
+              "name": "Melissa Childress",
+              "person_id": "WY-CHILDRESS-MELISSA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/melissa-childress.html"
+            }
+          ]
+        },
+        {
+          "office": "Midwest Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Rick Provence",
+              "person_id": "WY-PROVENCE-RICK",
+              "party": "",
+              "term_end": "June 2030",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Midwest city-officials page, retrieved 2026-11-24: term expires June 2030.",
+              "href": "candidates/local-history/c/rick-provence.html"
+            }
+          ]
+        },
+        {
+          "office": "Midwest Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Nancy Piestrack",
+              "person_id": "WY-PIESTRACK-NANCY",
+              "party": "",
+              "term_end": "June 2030",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Midwest city-officials page, retrieved 2026-11-24: term expires June 2030.",
+              "href": "candidates/local-history/c/nancy-piestrack.html"
+            },
+            {
+              "name": "Amanda DeWitt",
+              "person_id": "WY-DEWITT-AMANDA",
+              "party": "",
+              "term_end": "June 2030",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Midwest city-officials page, retrieved 2026-11-24: AMANDA DEWITT, term expires June 2030.",
+              "href": "candidates/local-history/c/amanda-dewitt.html"
+            },
+            {
+              "name": "Raymond Clymer",
+              "person_id": "WY-CLYMER-RAYMOND",
+              "party": "",
+              "term_end": "June 2028",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Midwest city-officials page, retrieved 2026-11-24: term expires June 2028.",
+              "href": "candidates/local-history/c/raymond-clymer.html"
+            }
+          ],
+          "note": "The official city-officials page, retrieved 2026-11-24, names three council members. A fourth seat is not listed there and is not invented."
+        },
+        {
+          "office": "Edgerton Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Victor Paul Brow",
+              "person_id": "WY-BROW-VICTOR-PAUL",
+              "party": "",
+              "term_end": "2028",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Edgerton town-government page, retrieved 2026-11-24: Term Expires 2028.",
+              "href": "candidates/local-history/c/victor-paul-brow.html"
+            }
+          ]
+        },
+        {
+          "office": "Edgerton Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Frank Tucker",
+              "person_id": "WY-TUCKER-FRANK",
+              "party": "",
+              "term_end": "",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Edgerton town-government page, retrieved 2026-11-24; listed as Council president. No term end stated on the official page.",
+              "href": "candidates/local-history/c/frank-tucker.html"
+            },
+            {
+              "name": "Katie Arnold",
+              "person_id": "WY-ARNOLD-KATIE",
+              "party": "",
+              "term_end": "",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Edgerton town-government page, retrieved 2026-11-24. No term end stated on the official page.",
+              "href": "candidates/local-history/c/katie-arnold.html"
+            },
+            {
+              "name": "Ashley Aars",
+              "person_id": "WY-AARS-ASHLEY",
+              "party": "",
+              "term_end": "",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Edgerton town-government page, retrieved 2026-11-24. No term end stated on the official page.",
+              "href": "candidates/local-history/c/ashley-aars.html"
+            },
+            {
+              "name": "Clifford Stewart",
+              "person_id": "WY-STEWART-CLIFFORD",
+              "party": "",
+              "term_end": "",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Town of Edgerton town-government page, retrieved 2026-11-24. No term end stated on the official page.",
+              "href": "candidates/local-history/c/clifford-stewart.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School and College Boards",
+      "offices": [
+        {
+          "office": "Casper College Board of Trustees",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kim Byrd",
+              "person_id": "WY-BYRD-KIM",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kim-byrd.html"
+            },
+            {
+              "name": "Jay Swedberg",
+              "person_id": "WY-SWEDBERG-JAY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jay-swedberg.html"
+            },
+            {
+              "name": "Brad Cundy",
+              "person_id": "WY-CUNDY-BRAD",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brad-cundy.html"
+            },
+            {
+              "name": "Dale Bohren",
+              "person_id": "WY-BOHREN-DALE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dale-bohren.html"
+            },
+            {
+              "name": "Todd Milliken",
+              "person_id": "WY-MILLIKEN-TODD",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/todd-milliken.html"
+            },
+            {
+              "name": "Kathy Dolan",
+              "person_id": "WY-DOLAN-KATHY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kathy-dolan.html"
+            },
+            {
+              "name": "David Applegate",
+              "person_id": "WY-APPLEGATE-DAVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dave-applegate.html"
+            },
+            {
+              "name": "Dave Applegate",
+              "person_id": "WY-APPLEGATE-DAVE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/dave-applegate.html"
+            },
+            {
+              "name": "Anna Kinder",
+              "person_id": "WY-KINDER-ANNA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/anna-kinder.html"
+            },
+            {
+              "name": "Ryan McConnaughey",
+              "person_id": "WY-MCCONNAUGHEY-RYAN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/ryan-mcconnaughey.html"
+            }
+          ]
+        },
+        {
+          "office": "NCSD #1 Board of Trustees",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Bolender",
+              "person_id": "WY-BOLENDER-JOHN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/john-bolender.html"
+            },
+            {
+              "name": "Dana Howie",
+              "person_id": "WY-HOWIE-DANA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dana-howie.html"
+            },
+            {
+              "name": "Thea True-Wells",
+              "person_id": "WY-TRUE-WELLS-THEA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/thea-true-wells.html"
+            },
+            {
+              "name": "Alex Petrino",
+              "person_id": "WY-PETRINO-ALEX",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/alex-petrino.html"
+            },
+            {
+              "name": "Kyla Alvey",
+              "person_id": "WY-ALVEY-KYLA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kyla-alvey.html"
+            },
+            {
+              "name": "Michael Stedillie",
+              "person_id": "WY-STEDILLIE-MICHAEL",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/michael-stedillie.html"
+            },
+            {
+              "name": "Jenifer Hopkins",
+              "person_id": "WY-HOPKINS-JENIFER",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jenifer-hopkins.html"
+            },
+            {
+              "name": "Kevin Christopherson",
+              "person_id": "WY-CHRISTOPHERSON-KEVIN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/kevin-christopherson.html"
+            },
+            {
+              "name": "Mary Schmidt",
+              "person_id": "WY-SCHMIDT-MARY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mary-schmidt.html"
+            },
+            {
+              "name": "Eric Nelson",
+              "person_id": "WY-NELSON-ERIC",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/eric-nelson.html"
+            },
+            {
+              "name": "Taylor Rosty",
+              "person_id": "WY-ROSTY-TAYLOR",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/taylor-rosty.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special Districts",
+      "offices": [
+        {
+          "office": "Conservation District Supervisor At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dennis Scott",
+              "person_id": "WY-SCOTT-DENNIS",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dennis-scott.html"
+            }
+          ]
+        },
+        {
+          "office": "Conservation District Supervisor Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ric Herman",
+              "person_id": "WY-HERMAN-RIC",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ric-herman.html"
+            },
+            {
+              "name": "Tammy L. Cobb",
+              "person_id": "WY-COBB-TAMMY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tammy-cobb.html"
+            },
+            {
+              "name": "Andrew C. Anderson",
+              "person_id": "WY-ANDERSON-ANDREW-C",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/andrew-c-anderson.html"
+            },
+            {
+              "name": "Laura Miles",
+              "person_id": "WY-MILES-LAURA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/laura-miles.html"
+            },
+            {
+              "name": "Tammy Cobb",
+              "person_id": "WY-COBB-TAMMY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/tammy-cobb.html"
+            }
+          ]
+        },
+        {
+          "office": "Conservation District Supervisor Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Grant Stumbough",
+              "person_id": "WY-STUMBOUGH-GRANT",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/grant-stumbough.html"
+            }
+          ]
+        },
+        {
+          "office": "Fire Protection District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Keith Robinett",
+              "person_id": "WY-ROBINETT-KEITH",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/keith-robinett.html"
+            },
+            {
+              "name": "Jerry Wyatt",
+              "person_id": "WY-WYATT-JERRY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jerry-wyatt.html"
+            },
+            {
+              "name": "George E. Tillman Jr.",
+              "person_id": "WY-TILLMAN-GEORGE-E",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/george-e-tillman-jr.html"
+            },
+            {
+              "name": "Steven Garrett",
+              "person_id": "WY-GARRETT-STEVEN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/steven-garrett.html"
+            },
+            {
+              "name": "Dean A. Jackett",
+              "person_id": "WY-JACKETT-DEAN-A",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dean-a-jackett.html"
+            },
+            {
+              "name": "John Bentley",
+              "person_id": "WY-BENTLEY-JOHN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general Vote-For-2 named winner (only named candidate).",
+              "href": "candidates/local-history/c/john-bentley.html"
+            },
+            {
+              "name": "Bryan Vandal",
+              "person_id": "WY-VANDAL-BRYAN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 unexpired winner.",
+              "href": "candidates/local-history/c/bryan-vandal.html"
+            },
+            {
+              "name": "Brenda Hurless",
+              "person_id": "WY-HURLESS-BRENDA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 unexpired winner.",
+              "href": "candidates/local-history/c/brenda-hurless.html"
+            }
+          ]
+        },
+        {
+          "office": "Casper Mountain Fire District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "David Mowry",
+              "person_id": "WY-MOWRY-DAVID",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/david-mowry.html"
+            },
+            {
+              "name": "Kevin Knopik",
+              "person_id": "WY-KNOPIK-KEVIN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/kevin-knopik.html"
+            },
+            {
+              "name": "Robert D. Davis",
+              "person_id": "WY-DAVIS-ROBERT-D",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/robert-d-davis.html"
+            },
+            {
+              "name": "Kaycee Klein",
+              "person_id": "WY-KLEIN-KAYCEE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 unexpired winner.",
+              "href": "candidates/local-history/c/kaycee-klein.html"
+            },
+            {
+              "name": "Michael Nack",
+              "person_id": "WY-NACK-MICHAEL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 unexpired winner.",
+              "href": "candidates/local-history/c/michael-nack.html"
+            }
+          ]
+        },
+        {
+          "office": "Senior Citizens District Board of Trustees",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ruth Doyle",
+              "person_id": "WY-DOYLE-RUTH",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/ruth-doyle.html"
+            },
+            {
+              "name": "Mike Stepp",
+              "person_id": "WY-STEPP-MIKE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mike-stepp.html"
+            },
+            {
+              "name": "Linda Blackstone",
+              "person_id": "WY-BLACKSTONE-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/linda-blackstone.html"
+            },
+            {
+              "name": "Bob Hopkins",
+              "person_id": "WY-HOPKINS-BOB",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bob-hopkins.html"
+            },
+            {
+              "name": "Rhonda Laird",
+              "person_id": "WY-LAIRD-RHONDA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/rhonda-laird.html"
+            },
+            {
+              "name": "Crystal Morse",
+              "person_id": "WY-MORSE-CRYSTAL",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/crystal-morse.html"
+            },
+            {
+              "name": "Jane Ifland",
+              "person_id": "WY-IFLAND-JANE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/jane-ifland.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial Retention",
+      "offices": [
+        {
+          "office": "District Judge, 7th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Catherine E. Wilking",
+              "person_id": "WY-WILKING-CATHERINE-E",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/catherine-e-wilking.html"
+            },
+            {
+              "name": "Daniel L. Forgey",
+              "person_id": "WY-FORGEY-DANIEL-L",
+              "party": "",
+              "term_end": "January 2033",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2020 term ends January 2027; official 2026 general retention (YES), continuing. Given name from official SOS 2014 PbP and the official Wyoming Judicial Branch 7th JD district page.",
+              "href": "candidates/local-history/c/daniel-l-forgey.html"
+            },
+            {
+              "name": "Kerri M. Johnson",
+              "person_id": "WY-JOHNSON-KERRI-M",
+              "party": "",
+              "term_end": "January 2033",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2020 term ends January 2027; official 2026 general retention (YES), continuing. Given name from the official Wyoming Judicial Branch 7th JD district page.",
+              "href": "candidates/local-history/c/kerri-m-johnson.html"
+            },
+            {
+              "name": "Joshua Eames",
+              "person_id": "WY-EAMES-JOSHUA",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Given name from the official Wyoming Judicial Branch 7th JD district page.",
+              "href": "candidates/local-history/c/joshua-eames.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 7th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Nichole Collier",
+              "person_id": "WY-COLLIER-NICHOLE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Given name from the official Wyoming Judicial Branch 7th JD circuit page.",
+              "href": "candidates/local-history/c/nichole-collier.html"
+            },
+            {
+              "name": "Kevin D. Taheri",
+              "person_id": "WY-TAHERI-KEVIN-D",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Given name from the official Wyoming Judicial Branch 7th JD circuit page.",
+              "href": "candidates/local-history/c/kevin-d-taheri.html"
+            },
+            {
+              "name": "Cynthia K. Sweet",
+              "person_id": "WY-SWEET-CYNTHIA-K",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch 7th JD circuit page: appointed March 2025; official 2026 general retention (YES), term begins January 2027.",
+              "href": "candidates/local-history/c/cynthia-k-sweet.html"
             }
           ]
         }

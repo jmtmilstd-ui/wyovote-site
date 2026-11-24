@@ -2,7 +2,7 @@
   "county": "Teton",
   "county_number": 22,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -15,28 +15,19 @@
         {
           "office": "Senate District 16 (S16)",
           "layout": "office-and-name",
-          "note": "Also covers Lincoln.",
           "holders": [
             {
               "name": "Dan Dockstader",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1048"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/dockstader.html"
+              "person_id": "WY-DOCKSTADER-DAN",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner; not on the 2026 ballot. Also covers Lincoln County.",
+              "href": "candidates/local-history/c/dan-dockstader.html"
             }
-          ]
+          ],
+          "note": "Official 2024 SOS statewide Senate summary totals: Dan Dockstader 8,830. Official 2024 Teton clerk portion: Dockstader 1,475 to 115 write-ins. Official 2024 Lincoln clerk portion: Dockstader 7,355. Also covers Lincoln County. Official SOS district-wide totals are used for this multi-county seat. Off-cycle in 2026."
         },
         {
           "office": "Senate District 17 (S17)",
@@ -44,26 +35,13 @@
           "holders": [
             {
               "name": "Mike Gierau",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/2027"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, S17, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "D",
-              "href": "officials/gierau.html"
+              "person_id": "WY-GIERAU-MIKE",
+              "party": "DEM",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/mike-gierau.html"
             }
           ]
         }
@@ -79,58 +57,32 @@
           "holders": [
             {
               "name": "Mike Yin",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2054"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H16, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "D",
-              "href": "officials/yin.html"
+              "person_id": "WY-YIN-MIKE",
+              "party": "DEM",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/mike-yin.html"
             }
           ]
         },
         {
           "office": "House District 22 (H22)",
           "layout": "office-and-name",
-          "note": "Also covers Lincoln.",
           "holders": [
             {
               "name": "Andrew Byron",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2099"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H22, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "href": "officials/byron.html"
+              "person_id": "WY-BYRON-ANDREW",
+              "party": "REP",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027. Also covers Lincoln County. Official SOS district-wide totals are used for this multi-county seat.",
+              "href": "candidates/local-history/c/andrew-byron.html"
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary totals: Andrew Byron 3,055. Official 2026 Lincoln clerk portion: Byron 1,656. Official 2024 SOS statewide House summary totals: Andrew Byron 4,189. Official 2024 Lincoln clerk portion: Andrew P. Byron 2,435. Official 2022 SOS statewide House summary totals: Andrew Byron 2,235, Bob Strobel 1,681, with official 2022 Teton clerk portion Strobel 938, Byron 873. Also covers Lincoln County. Official SOS district-wide totals are used for this multi-county seat. Official Teton 2024 and 2026 portions were not separately keyed from the official Teton clerk in this history."
         },
         {
           "office": "House District 23 (H23)",
@@ -138,26 +90,13 @@
           "holders": [
             {
               "name": "Liz Storer",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2100"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_22_Teton_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H23, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "D",
-              "href": "officials/storer.html"
+              "person_id": "WY-STORER-LIZ",
+              "party": "DEM",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/liz-storer.html"
             }
           ]
         }
@@ -168,119 +107,81 @@
       "title": "County Offices",
       "offices": [
         {
-          "office": "County Commissioners",
+          "office": "County Commissioner",
           "layout": "heading-then-names",
           "holders": [
             {
               "name": "Mark Newcomb",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Teton County commissioners page",
-                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/teton.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Ali Dunford",
-                "party": "D",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Teton County official general results, County Commissioner",
-                    "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-NEWCOMB-MARK",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mark-newcomb.html"
             },
             {
               "name": "Luther Propst",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Teton County commissioners page",
-                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/teton.html"
-                },
-                {
-                  "label": "Teton County official general results, re-elected",
-                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-PROPST-LUTHER",
+              "party": "DEM",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/luther-propst.html"
             },
             {
               "name": "Wes Gardner",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Teton County commissioners page",
-                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/teton.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Karyn Chin",
-                "party": "D",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Teton County official general results, County Commissioner",
-                    "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
-            },
-            {
-              "name": "Len Carlman",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Teton County commissioners page",
-                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/teton.html"
-                }
-              ]
+              "person_id": "WY-GARDNER-WES",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/wes-gardner.html"
             },
             {
               "name": "Natalia D. Macker",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Teton County commissioners page",
-                  "url": "https://tetoncountywy.gov/246/Board-of-County-Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/teton.html"
-                }
-              ]
+              "person_id": "WY-MACKER-NATALIA-D",
+              "party": "DEM",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/natalia-d-macker.html"
+            },
+            {
+              "name": "Len Carlman",
+              "person_id": "WY-CARLMAN-LEN",
+              "party": "DEM",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/len-carlman.html"
+            },
+            {
+              "name": "Ali Dunford",
+              "person_id": "WY-DUNFORD-ALI",
+              "party": "DEM",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/ali-dunford.html"
+            },
+            {
+              "name": "Karyn Chin",
+              "person_id": "WY-CHIN-KARYN",
+              "party": "DEM",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/karyn-chin.html"
             }
           ],
-          "note": "These seats are elected at large. Incoming names are shown under outgoing members for display, not as one-to-one seat replacements."
+          "note": "Ali Dunford and Karyn Chin are official 2026 general winners and take office January 2027. Mark Newcomb and Wes Gardner's official 2022 terms end January 2027. Luther Propst continues."
         },
         {
           "office": "County Clerk",
@@ -288,25 +189,13 @@
           "holders": [
             {
               "name": "Maureen \"Mo\" Murphy",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Teton County clerk page",
-                  "url": "https://tetoncountywy.gov/259/Clerk"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/teton.html"
-                },
-                {
-                  "label": "Teton County official general results, re-elected",
-                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-MURPHY-MAUREEN",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/maureen-mo-murphy.html"
             }
           ]
         },
@@ -316,62 +205,42 @@
           "holders": [
             {
               "name": "Katie Smits",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Teton County treasurer page",
-                  "url": "https://tetoncountywy.gov/433/Treasurer"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/teton.html"
-                },
-                {
-                  "label": "Teton County official general results, re-elected",
-                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-SMITS-KATIE",
+              "party": "REP",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/katie-smits.html"
             }
           ]
         },
         {
           "office": "County Assessor",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Melissa \"Mel\" Shinkle",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Teton County assessor page",
-                  "url": "https://tetoncountywy.gov/185/Assessor"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/teton.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Ashlee Nader",
-                "party": "D",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Teton County official general results, County Assessor",
-                    "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-SHINKLE-MELISSA",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/melissa-mel-shinkle.html"
+            },
+            {
+              "name": "Ashlee Nader",
+              "person_id": "WY-NADER-ASHLEE",
+              "party": "DEM",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/ashlee-nader.html"
             }
-          ]
+          ],
+          "note": "Ashlee Nader is the official 2026 general winner and takes office January 2027."
         },
         {
           "office": "County Sheriff",
@@ -379,22 +248,13 @@
           "holders": [
             {
               "name": "Matt Carr",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/teton.html"
-                },
-                {
-                  "label": "Teton County official general results, re-elected",
-                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in 2022 and re-elected in the latest general; the county site does not list the name."
+              "person_id": "WY-CARR-MATT",
+              "party": "DEM",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/matt-carr.html"
             }
           ]
         },
@@ -403,25 +263,17 @@
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Richard Stout",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Teton County and Prosecuting Attorney page",
-                  "url": "https://tetoncountywy.gov/231/County-Prosecuting-Attorney"
-                },
-                {
-                  "label": "Teton County official general results, elected",
-                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Elected in the latest general, so the office does not change in January."
+              "name": "Richard \"Dick\" Stout",
+              "person_id": "WY-STOUT-RICHARD",
+              "party": "DEM",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner. Official Wyoming Judicial Branch Jackson circuit page: Erin E. Weisman (official 2022 County Attorney) was appointed circuit judge August 2024. No official appointment date for Stout was found, so January 2025\u20132026 County Attorney is Not yet collected in the snapshots.",
+              "href": "candidates/local-history/c/richard-dick-stout.html"
             }
-          ]
+          ],
+          "note": "Richard \"Dick\" Stout is the official 2026 general winner and takes office January 2027. No official mid-term appointment date after Erin Weisman's August 2024 judicial appointment was found."
         },
         {
           "office": "Clerk of District Court",
@@ -429,60 +281,450 @@
           "holders": [
             {
               "name": "Anne Comeaux Sutton",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Teton County clerk of district court page",
-                  "url": "https://tetoncountywy.gov/204/Clerk-of-the-District-Court"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/teton.html"
-                },
-                {
-                  "label": "Teton County official general results, re-elected",
-                  "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-SUTTON-ANNE-COMEAUX",
+              "party": "DEM",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/anne-comeaux-sutton.html"
             }
           ]
         },
         {
           "office": "County Coroner",
-          "layout": "office-and-name",
+          "layout": "heading-then-names",
           "holders": [
             {
               "name": "Brent \"Doc\" Blue",
-              "party": "D",
-              "sources": [
-                {
-                  "label": "Teton County coroner page",
-                  "url": "https://tetoncountywy.gov/258/Coroner"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/teton.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Katrina L. Clauson",
-                "party": "D",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Teton County official general results, County Coroner",
-                    "url": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-BLUE-BRENT",
+              "party": "DEM",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brent-doc-blue.html"
+            },
+            {
+              "name": "Katrina L. Clauson",
+              "person_id": "WY-CLAUSON-KATRINA-L",
+              "party": "DEM",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/katrina-l-clauson.html"
+            }
+          ],
+          "note": "Katrina L. Clauson is the official 2026 general winner and takes office January 2027."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal Offices",
+      "offices": [
+        {
+          "office": "Jackson Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Arne Olaus Jorgensen",
+              "person_id": "WY-JORGENSEN-ARNE-OLAUS",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 general winner. The Jackson mayor is elected on the official November ballot, not selected by the council.",
+              "href": "candidates/local-history/c/arne-olaus-jorgensen.html"
+            }
+          ]
+        },
+        {
+          "office": "Jackson Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jonathan Schechter",
+              "person_id": "WY-SCHECHTER-JONATHAN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/jonathan-schechter.html"
+            },
+            {
+              "name": "Kevin Regan",
+              "person_id": "WY-REGAN-KEVIN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kevin-regan.html"
+            },
+            {
+              "name": "Devon Viehman",
+              "person_id": "WY-VIEHMAN-DEVON",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/devon-viehman.html"
+            },
+            {
+              "name": "Alyson Spery",
+              "person_id": "WY-SPERY-ALYSON",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 general winner.",
+              "href": "candidates/local-history/c/alyson-spery.html"
+            }
+          ],
+          "note": "Alyson Spery is the official 2026 general winner and takes office January 2027. Arne Olaus Jorgensen became mayor January 2025; no official appointment filling that council seat through January 2026 was found."
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School and College Boards",
+      "offices": [
+        {
+          "office": "TCSD #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Keith Gingery",
+              "person_id": "WY-GINGERY-KEITH",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 recount winner, term begins January 2027.",
+              "href": "candidates/local-history/c/keith-gingery.html"
+            },
+            {
+              "name": "Reade W. Dornan",
+              "person_id": "WY-DORNAN-READE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/reade-w-dornan.html"
+            },
+            {
+              "name": "Stephan Abrams",
+              "person_id": "WY-ABRAMS-STEPHAN",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 recount winner, term begins January 2027.",
+              "href": "candidates/local-history/c/stephan-abrams.html"
+            },
+            {
+              "name": "Kate Mead",
+              "person_id": "WY-MEAD-KATE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kate-mead.html"
+            },
+            {
+              "name": "Betsy Carlin",
+              "person_id": "WY-CARLIN-BETSY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/betsy-carlin.html"
+            },
+            {
+              "name": "Bill Scarlett",
+              "person_id": "WY-SCARLETT-BILL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bill-scarlett.html"
+            },
+            {
+              "name": "Jerry Bosch",
+              "person_id": "WY-BOSCH-JERRY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jerry-bosch.html"
+            },
+            {
+              "name": "Ashley Sinclair",
+              "person_id": "WY-SINCLAIR-ASHLEY",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Takes office January 2027. Official 2026 recount winner.",
+              "href": "candidates/local-history/c/ashley-sinclair.html"
+            }
+          ],
+          "note": "Official 2026 Teton County School District #1 Trustee result is the official recount (DocumentCenter 42629): Keith Gingery, Ashley Sinclair, and Stephan Abrams. Reade W. Dornan's official 2022 term ends January 2027."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special Districts",
+      "offices": [
+        {
+          "office": "St. John's Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Katharine Conover-Keller",
+              "person_id": "WY-CONOVER-KELLER-KATHARINE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/katharine-conover-keller.html"
+            },
+            {
+              "name": "Brent \"Doc\" Blue",
+              "person_id": "WY-BLUE-BRENT",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/brent-doc-blue.html"
+            },
+            {
+              "name": "Lou Hochheiser",
+              "person_id": "WY-HOCHHEISER-LOU",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/lou-hochheiser.html"
+            },
+            {
+              "name": "Pam Cutler",
+              "person_id": "WY-CUTLER-PAM",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/pam-cutler.html"
+            },
+            {
+              "name": "Bruce Hayse",
+              "person_id": "WY-HAYSE-BRUCE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bruce-hayse.html"
+            },
+            {
+              "name": "Jim Hunt",
+              "person_id": "WY-HUNT-JIM",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jim-hunt.html"
+            },
+            {
+              "name": "Bill Hoglund",
+              "person_id": "WY-HOGLUND-BILL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bill-hoglund.html"
+            },
+            {
+              "name": "Shannon A. Brennan",
+              "person_id": "WY-BRENNAN-SHANNON-A",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/shannon-a-brennan.html"
+            }
+          ]
+        },
+        {
+          "office": "Teton Conservation District Supervisor Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Cate Watsabaugh",
+              "person_id": "WY-WATSABAUGH-CATE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/cate-watsabaugh.html"
+            },
+            {
+              "name": "David C. Adams",
+              "person_id": "WY-ADAMS-DAVID-C",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/david-c-adams.html"
+            },
+            {
+              "name": "Bob Lucas",
+              "person_id": "WY-LUCAS-BOB",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2022 winner, continuing; official 2026 general winner, term begins January 2027.",
+              "href": "candidates/local-history/c/bob-lucas.html"
+            }
+          ]
+        },
+        {
+          "office": "Teton Conservation District Supervisor At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kathy Farbod",
+              "person_id": "WY-FARBOD-KATHY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kathy-farbod.html"
+            }
+          ]
+        },
+        {
+          "office": "Teton Conservation District Supervisor Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Roby Hurley",
+              "person_id": "WY-HURLEY-ROBY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/roby-hurley.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial Retention",
+      "offices": [
+        {
+          "office": "District Judge, 9th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Melissa M. Owens",
+              "person_id": "WY-OWENS-MELISSA-M",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch Teton 9th JD district page: appointed January 2022, retained November 2024, term expires January 2031.",
+              "href": "candidates/local-history/c/melissa-m-owens.html"
+            },
+            {
+              "name": "Jason M. Conder",
+              "person_id": "WY-CONDER-JASON-M",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch Fremont 9th JD district page: appointed July 2019, retained November 2020; official 2026 SOS retained Jason M. Conder (official 2026 Teton clerk typo JAMES M. CONDER). Term after the 2026 retain begins January 2027 and expires January 2031.",
+              "href": "candidates/local-history/c/jason-m-conder.html"
+            },
+            {
+              "name": "Katharine G. McKay",
+              "person_id": "WY-MCKAY-KATHARINE-G",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official 2024 clerk and official 2024 SOS: Katharine G. McKay. Official Sublette 9th JD district page prints Kate G. McKay for the same person, appointed January 2023, retained November 2024, term expires January 2031.",
+              "href": "candidates/local-history/c/katharine-g-mckay.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 9th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Erin E. Weisman",
+              "person_id": "WY-WEISMAN-ERIN-E",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch Jackson circuit page: appointed August 2024; official 2026 Teton clerk ERIN E. WEISMAN, YES, continuing January 2027\u20132031.",
+              "href": "candidates/local-history/c/erin-e-weisman.html"
+            },
+            {
+              "name": "Jefferson Boone Coombs",
+              "person_id": "WY-COOMBS-JEFFERSON-BOONE",
+              "party": "",
+              "term_end": "January 2031",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch Lander circuit page and official 2022 SOS: Jefferson Boone Coombs, appointed October 2021; official 2026 Teton clerk JEFFERSON BOONE COOMBS, YES, continuing January 2027\u20132031.",
+              "href": "candidates/local-history/c/jefferson-boone-coombs.html"
+            },
+            {
+              "name": "Daniel M. Stebner",
+              "person_id": "WY-STEBNER-DANIEL-M",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch Riverton circuit page: appointed February 2023, retained November 2024.",
+              "href": "candidates/local-history/c/daniel-m-stebner.html"
+            },
+            {
+              "name": "John LaBuda",
+              "person_id": "WY-LABUDA-JOHN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [],
+              "confidence": "high",
+              "notes": "Official Wyoming Judicial Branch Pinedale circuit page: appointed January 2023, retained November 2024.",
+              "href": "candidates/local-history/c/john-labuda.html"
             }
           ]
         }
@@ -1661,8 +1903,8 @@
     }
   ],
   "sources": {
-    "general_results": "https://tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary",
-    "primary_results": "https://tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Summary-Official-Results",
-    "checked": "2026-11-19"
+    "general_results": "https://www.tetoncountywy.gov/DocumentCenter/View/42627/2026-General-Election-Official-Results-Summary",
+    "primary_results": "https://www.tetoncountywy.gov/DocumentCenter/View/41853/2026-Primary-Election-Official-Results-Summary",
+    "checked": "2026-11-24"
   }
 }

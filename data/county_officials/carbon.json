@@ -2,7 +2,7 @@
   "county": "Carbon",
   "county_number": 6,
   "page_version": "v2.0",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-24",
   "term_switch_date": "2027-01-04",
   "report_pdf": "reports/2026/wyovote_2026_County_06_Carbon_113_v1.1.pdf",
   "intro": "Names are the people in office today. Where the latest general election chose a different person, that change is shown beside the name. Those elects take office in January.",
@@ -11,248 +11,147 @@
     {
       "id": "state-senate",
       "title": "State Senate",
+      "layout": "office-and-name",
+      "sort_key": "C",
       "offices": [
         {
           "office": "Senate District 11 (S11)",
           "layout": "office-and-name",
-          "note": "Also covers Sweetwater.",
           "holders": [
             {
               "name": "Larry Hicks",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/S/1963"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_06_Carbon_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Bob Davis",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, S11",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Senate_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/hicks.html"
+              "person_id": "WY-HICKS-LARRY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/larry-hicks.html",
+              "notes": "Official 2022 SOS statewide Senate summary Total: Larry Hicks (R) 4,153, Michael Ray Williams (C) 1,104. Official Carbon portion: Hicks 3,455, Williams 974. Also covers Sweetwater (698–130). Official Carbon clerk matches the Carbon portion."
+            },
+            {
+              "name": "Bob Davis",
+              "person_id": "WY-DAVIS-BOB",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/bob-davis.html",
+              "notes": "Official 2026 SOS statewide Senate summary Total: Bob Davis (R) 3,615, Jim Wilson (D) 1,030, Don VanMatre (C) 297. Official Carbon portion: Davis 3,080, Wilson 863, VanMatre 246. Also covers Sweetwater (535–167–51). Official Carbon clerk matches the Carbon portion."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide Senate summary Total: Bob Davis (R) 3,615, Jim Wilson (D) 1,030, Don VanMatre (C) 297. Official Carbon portion: Davis 3,080, Wilson 863, VanMatre 246. Also covers Sweetwater (535–167–51). Official Carbon clerk matches the Carbon portion. Official 2022 SOS statewide Senate summary Total: Larry Hicks (R) 4,153, Michael Ray Williams (C) 1,104. Official Carbon portion: Hicks 3,455, Williams 974. Also covers Sweetwater (698–130). Official Carbon clerk matches the Carbon portion."
         }
       ]
     },
     {
       "id": "state-house",
       "title": "State House",
+      "layout": "office-and-name",
+      "sort_key": "D",
       "offices": [
         {
           "office": "House District 15 (H15)",
           "layout": "office-and-name",
-          "note": "Also covers Sweetwater.",
           "holders": [
             {
-              "name": "Pam Thayer",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2119"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_06_Carbon_113_v1.1.pdf"
-                },
-                {
-                  "label": "Wyoming SOS official general results, H15, re-elected",
-                  "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                }
-              ],
-              "party": "R",
-              "ballot_name": "Pamela Thayer",
-              "href": "officials/thayer.html"
+              "name": "Pamela Thayer",
+              "person_id": "WY-THAYER-PAMELA",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/pamela-thayer.html",
+              "notes": "Official 2026 SOS statewide House summary Total: Pamela Thayer (R) 1,499, Cheryl Hulme (C) 398. Official Carbon portion: Thayer 1,471, Hulme 392. Official Sweetwater share: 28–6. Official Carbon clerk matches the Carbon portion."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary Total: Pamela Thayer (R) 1,499, Cheryl Hulme (C) 398. Official Carbon portion: Thayer 1,471, Hulme 392. Official Sweetwater share: 28–6. Official Carbon clerk matches the Carbon portion. Official 2024 SOS statewide House summary Total: Pamela Thayer (R) 2,790. Official Carbon portion: 2,744. Official Sweetwater share: 46."
         },
         {
           "office": "House District 47 (H47)",
           "layout": "office-and-name",
-          "note": "Also covers Sweetwater.",
           "holders": [
             {
               "name": "Bob Davis",
-              "sources": [
-                {
-                  "label": "Wyoming Legislature member page",
-                  "url": "https://www.wyoleg.gov/Legislators/2026/H/2110"
-                },
-                {
-                  "label": "WyoVote Officials tab",
-                  "url": "officials.html"
-                },
-                {
-                  "label": "WyoVote current county report",
-                  "url": "reports/2026/wyovote_2026_County_06_Carbon_113_v1.1.pdf"
-                }
-              ],
-              "party": "R",
-              "succeeding": {
-                "name": "Eamon O'Toole",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Wyoming SOS official general results, H47",
-                    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_House_Candidates_Summary.pdf"
-                  },
-                  {
-                    "label": "WyoVote certified general extract",
-                    "url": "data/candidate-research/2026-primary/general.json"
-                  }
-                ]
-              },
-              "href": "officials/davis.html"
+              "person_id": "WY-DAVIS-BOB",
+              "party": "REP",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/bob-davis.html",
+              "notes": "Official 2024 SOS statewide House summary Total: Bob Davis (R) 3,488, James A. Wilson (D) 666. Official Carbon portion: Davis 2,570, Wilson 461. Official Sweetwater share: 918–205. Official Carbon clerk matches the Carbon portion."
+            },
+            {
+              "name": "Eamon O'Toole",
+              "person_id": "WY-OTOOLE-PATRICK",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/eamon-o-toole.html",
+              "notes": "Official 2026 SOS statewide House summary Total: Eamon O'Toole (R) 2,523. Official Carbon portion: 1,920. Official Sweetwater share: 603. Official Carbon clerk matches the Carbon portion."
             }
-          ]
+          ],
+          "note": "Official 2026 SOS statewide House summary Total: Eamon O'Toole (R) 2,523. Official Carbon portion: 1,920. Official Sweetwater share: 603. Official Carbon clerk matches the Carbon portion. Official 2024 SOS statewide House summary Total: Bob Davis (R) 3,488, James A. Wilson (D) 666. Official Carbon portion: Davis 2,570, Wilson 461. Official Sweetwater share: 918–205. Official Carbon clerk matches the Carbon portion."
         }
       ]
     },
     {
       "id": "county",
       "title": "County Offices",
+      "layout": "office-and-name",
+      "sort_key": "E",
       "offices": [
         {
-          "office": "County Commissioners",
-          "layout": "heading-then-names",
+          "office": "County Commissioner",
+          "layout": "office-and-name",
           "holders": [
             {
+              "name": "R. Travis Moore",
+              "person_id": "WY-MOORE-R-TRAVIS",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/r-travis-moore.html",
+              "notes": "Official 2026 Carbon clerk: R. Travis Moore 3,031."
+            },
+            {
+              "name": "Willing \"John\" Johnson",
+              "person_id": "WY-JOHNSON-WILLING",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/willing-john-johnson.html",
+              "notes": "Official 2026 Carbon clerk: Willing \"John\" Johnson 2,553."
+            },
+            {
               "name": "Gwynn G. Bartlett",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County commissioners page",
-                  "url": "https://www.carboncountywy.gov/319/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/carbon.html"
-                }
-              ]
+              "person_id": "WY-BARTLETT-GWYNN",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/gwynn-g-bartlett.html",
+              "notes": "Official 2024 Carbon clerk, commissioner Vote-For-3: Gwynn G. Bartlett 4,222. Official commissioners page and 2026 directory: term ends January 2029."
             },
             {
               "name": "John Espy",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County commissioners page",
-                  "url": "https://www.carboncountywy.gov/319/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/carbon.html"
-                }
-              ]
-            },
-            {
-              "name": "John Johnson",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County commissioners page",
-                  "url": "https://www.carboncountywy.gov/319/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/carbon.html"
-                },
-                {
-                  "label": "Carbon County official general results, re-elected",
-                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-ESPY-JOHN",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/john-espy.html",
+              "notes": "Official 2024 Carbon clerk, commissioner Vote-For-3: John Espy 4,189. Official commissioners page and 2026 directory: term ends January 2029."
             },
             {
               "name": "Sue Jones",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County commissioners page",
-                  "url": "https://www.carboncountywy.gov/319/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2024 local results, elected",
-                  "url": "candidates/2024-local/carbon.html"
-                }
-              ]
-            },
-            {
-              "name": "R. Travis Moore",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County commissioners page",
-                  "url": "https://www.carboncountywy.gov/319/Commissioners"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/carbon.html"
-                },
-                {
-                  "label": "Carbon County official general results, re-elected",
-                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-JONES-SUE",
+              "party": "REP",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/sue-jones.html",
+              "notes": "Official 2024 Carbon clerk, commissioner Vote-For-3: Sue Jones 3,483. Official commissioners page and 2026 directory: term ends January 2029."
             }
-          ]
+          ],
+          "note": "Official 2026 Carbon clerk: R. Travis Moore 3,031. Official 2026 Carbon clerk: Willing \"John\" Johnson 2,553."
         },
         {
           "office": "County Clerk",
           "layout": "office-and-name",
           "holders": [
             {
-              "name": "Lisa Smith",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County Clerk page",
-                  "url": "https://www.carboncountywy.gov/938/County-Clerk"
-                },
-                {
-                  "label": "Carbon County official general results, elected",
-                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ],
-              "notes": "Former clerk Gwynn Bartlett now serves as a commissioner. Elected in the latest general as Lisa M. Smith."
+              "name": "Lisa M. Smith",
+              "person_id": "WY-SMITH-LISA-M",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/lisa-m-smith.html",
+              "notes": "Official 2026 Carbon clerk: Lisa M. Smith 3,714."
             }
-          ]
+          ],
+          "note": "Official 2026 Carbon clerk: Lisa M. Smith 3,714. Official 2026 Carbon County Directory (revised January 2026): Clerk Lisa M. Smith (01/2025–12/2026). Official 2024 general has no clerk contest. Official appointment minutes were not collected; start date uses the January 2025 first Monday (medium)."
         },
         {
           "office": "County Treasurer",
@@ -260,27 +159,14 @@
           "holders": [
             {
               "name": "Lindsey West",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County treasurer page",
-                  "url": "https://www.carboncountywy.gov/951/County-Treasurer"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/carbon.html"
-                },
-                {
-                  "label": "Carbon County official general results, re-elected",
-                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-WEST-LINDSEY",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/lindsey-west.html",
+              "notes": "Official 2026 Carbon clerk: Lindsey West 3,801."
             }
-          ]
+          ],
+          "note": "Official 2026 Carbon clerk: Lindsey West 3,801. Official 2022 Carbon clerk: Lindsey West 4,072."
         },
         {
           "office": "County Assessor",
@@ -288,27 +174,14 @@
           "holders": [
             {
               "name": "Renee Snider",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County assessor page",
-                  "url": "https://www.carboncountywy.gov/936/County-Assessor"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/carbon.html"
-                },
-                {
-                  "label": "Carbon County official general results, re-elected",
-                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-SNIDER-RENEE",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/renee-snider.html",
+              "notes": "Official 2026 Carbon clerk: Renee Snider 3,752."
             }
-          ]
+          ],
+          "note": "Official 2026 Carbon clerk: Renee Snider 3,752. Official 2022 Carbon clerk: Renee Snider 3,884."
         },
         {
           "office": "County Sheriff",
@@ -316,27 +189,14 @@
           "holders": [
             {
               "name": "Alex S. Bakken",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County sheriff page",
-                  "url": "https://www.carboncountywy.gov/950/County-Sheriff"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/carbon.html"
-                },
-                {
-                  "label": "Carbon County official general results, re-elected",
-                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-BAKKEN-ALEX-S",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/alex-s-bakken.html",
+              "notes": "Official 2026 Carbon clerk: Alex S. Bakken 3,849."
             }
-          ]
+          ],
+          "note": "Official 2026 Carbon clerk: Alex S. Bakken 3,849. Official 2022 Carbon clerk: Alex S. Bakken 3,340, Mike Morris 1,293."
         },
         {
           "office": "County Attorney",
@@ -344,27 +204,14 @@
           "holders": [
             {
               "name": "Sarah Chavez Harkins",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County attorney page",
-                  "url": "https://www.carboncountywy.gov/937/County-Attorney"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/carbon.html"
-                },
-                {
-                  "label": "Carbon County official general results, re-elected",
-                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-HARKINS-SARAH",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/sarah-chavez-harkins.html",
+              "notes": "Official 2026 Carbon clerk: Sarah Chavez Harkins 3,678."
             }
-          ]
+          ],
+          "note": "Official 2026 Carbon clerk: Sarah Chavez Harkins 3,678. Official 2022 Carbon clerk: Sarah Chavez Harkins 4,070."
         },
         {
           "office": "Clerk of District Court",
@@ -372,27 +219,14 @@
           "holders": [
             {
               "name": "Mara M. Sanger",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County clerk of district court page",
-                  "url": "https://www.carboncountywy.gov/952/Clerk-of-District-Court"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/carbon.html"
-                },
-                {
-                  "label": "Carbon County official general results, re-elected",
-                  "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
-                },
-                {
-                  "label": "WyoVote 2026 local offices file",
-                  "url": "tools/local-data/2026/county_offices_2026.csv"
-                }
-              ]
+              "person_id": "WY-SANGER-MARA-M",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/mara-m-sanger.html",
+              "notes": "Official 2026 Carbon clerk: Mara M. Sanger 3,797."
             }
-          ]
+          ],
+          "note": "Official 2026 Carbon clerk: Mara M. Sanger 3,797. Official 2022 Carbon clerk: Mara M. Sanger 4,263."
         },
         {
           "office": "County Coroner",
@@ -400,34 +234,1783 @@
           "holders": [
             {
               "name": "Brittany Nyman",
-              "party": "R",
-              "sources": [
-                {
-                  "label": "Carbon County coroner page",
-                  "url": "https://www.carboncountywy.gov/8/Departments"
-                },
-                {
-                  "label": "WyoVote 2022 local results, elected",
-                  "url": "candidates/2022-local/carbon.html"
-                }
-              ],
-              "succeeding": {
-                "name": "Shayna Casada",
-                "party": "R",
-                "takes_office": "January",
-                "sources": [
-                  {
-                    "label": "Carbon County official general results, County Coroner",
-                    "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins"
-                  },
-                  {
-                    "label": "WyoVote 2026 local offices file",
-                    "url": "tools/local-data/2026/county_offices_2026.csv"
-                  }
-                ]
-              }
+              "person_id": "WY-NYMAN-BRITTANY",
+              "party": "REP",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/brittany-nyman.html",
+              "notes": "Official 2022 Carbon clerk: Brittany Nyman 4,170."
+            },
+            {
+              "name": "Shayna Casada",
+              "person_id": "WY-CASADA-SHAYNA",
+              "party": "REP",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/shayna-casada.html",
+              "notes": "Official 2026 Carbon clerk: Shayna Casada 3,752."
             }
-          ]
+          ],
+          "note": "Official 2026 Carbon clerk: Shayna Casada 3,752. Official 2022 Carbon clerk: Brittany Nyman 4,170."
+        }
+      ]
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "layout": "office-and-name",
+      "sort_key": "F",
+      "offices": [
+        {
+          "office": "Baggs Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt L. Howell",
+              "person_id": "WY-HOWELL-MATT-L",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/matt-l-howell.html",
+              "notes": "Official 2022 Carbon clerk: Matt L. Howell 76, Annamarie Waldron 68."
+            },
+            {
+              "name": "Scott Allison",
+              "person_id": "WY-ALLISON-SCOTT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/scott-allison.html",
+              "notes": "Official 2026 Carbon clerk: Scott Allison 92, Matthew Lee Howell 31."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Scott Allison 92, Matthew Lee Howell 31. Official 2022 Carbon clerk: Matt L. Howell 76, Annamarie Waldron 68."
+        },
+        {
+          "office": "Baggs Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shan D. Ferguson",
+              "person_id": "WY-FERGUSON-SHAN-D",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/shan-d-ferguson.html",
+              "notes": "Official 2026 Carbon clerk, council Vote-For-2: Shan D Ferguson 76, Donny Kisner 62."
+            },
+            {
+              "name": "Gail Mayer",
+              "person_id": "WY-MAYER-GAIL",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/gail-mayer.html",
+              "notes": "Official 2022 Carbon certified write-ins (canvassed November 10, 2022): Gail Mayer, Baggs Councilperson 4 Year."
+            },
+            {
+              "name": "Michael A. McAllister",
+              "person_id": "WY-MCALLISTER-MICHAEL-A",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/michael-a-mcallister.html",
+              "notes": "Official 2024 Carbon clerk, council Vote-For-2: Michael A. McAllister 138."
+            },
+            {
+              "name": "Mark Maloney",
+              "person_id": "WY-MALONEY-MARK",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/mark-maloney.html",
+              "notes": "Official 2024 Carbon clerk: write-in totals 17, and the official summary names Mark Maloney as elected with write-in votes."
+            },
+            {
+              "name": "Ben Cozzens",
+              "person_id": "WY-COZZENS-BEN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/ben-cozzens.html",
+              "notes": "Official 2024 Carbon clerk, council 2-year: official summary names Ben Cozzens as elected with write-in votes (18)."
+            },
+            {
+              "name": "Donny Kisner",
+              "person_id": "WY-KISNER-DONNY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/donny-kisner.html",
+              "notes": "Official 2026 Carbon clerk: Donny Kisner 62."
+            },
+            {
+              "name": "Becka T. Evans",
+              "person_id": "WY-EVANS-BECKA-T",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/becka-t-evans.html",
+              "notes": "Official 2026 Carbon clerk, council 2-year unexpired: Becka T Evans 95."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, council Vote-For-2: Shan D Ferguson 76, Donny Kisner 62. Official 2026 Carbon clerk: Donny Kisner 62."
+        },
+        {
+          "office": "Dixon Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Melodie Seilaff",
+              "person_id": "WY-SEILAFF-MELODIE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/melodie-seilaff.html",
+              "notes": "Official 2022 Carbon clerk: Melodie Seilaff 26."
+            },
+            {
+              "name": "Matt Feldmann",
+              "person_id": "WY-FELDMANN-MATT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/matt-feldmann.html",
+              "notes": "Official 2026 Carbon clerk: Matt Feldmann 27."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Matt Feldmann 27. Official 2022 Carbon clerk: Melodie Seilaff 26."
+        },
+        {
+          "office": "Dixon Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Raymond Hauger",
+              "person_id": "WY-HAUGER-RAYMOND",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/raymond-hauger.html",
+              "notes": "Official 2026 Carbon clerk, council Vote-For-2: Raymond Hauger 26. No second named winner is printed; write-in totals 6 are not certified to a named candidate on the official summary. A second January 2027 seat is left unfilled rather than invented."
+            },
+            {
+              "name": "Lorell Herold",
+              "person_id": "WY-HEROLD-LORELL",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/lorell-herold.html",
+              "notes": "Official 2022 Carbon clerk: Lorell Herold 26."
+            },
+            {
+              "name": "Caleb Owens",
+              "person_id": "WY-OWENS-CALEB",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/caleb-owens.html",
+              "notes": "Official 2024 Carbon clerk, council Vote-For-2: Caleb Owens 36, Ryanne Mikesell 35."
+            },
+            {
+              "name": "Ryanne Mikesell",
+              "person_id": "WY-MIKESELL-RYANNE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ryanne-mikesell.html",
+              "notes": "Official 2024 Carbon clerk: Ryanne Mikesell 35."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, council Vote-For-2: Raymond Hauger 26. No second named winner is printed; write-in totals 6 are not certified to a named candidate on the official summary. A second January 2027 seat is left unfilled rather than invented. Official 2024 Carbon clerk, council Vote-For-2: Caleb Owens 36, Ryanne Mikesell 35."
+        },
+        {
+          "office": "Elk Mountain Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Morgan J. Irene",
+              "person_id": "WY-IRENE-MORGAN-J",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/morgan-j-irene.html",
+              "notes": "Official 2026 Carbon clerk: Morgan J. Irene 72."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Morgan J. Irene 72. Official 2022 Carbon clerk: Morgan J. Irene 63, Bonni Bruce 32."
+        },
+        {
+          "office": "Elk Mountain Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Craig Mustard",
+              "person_id": "WY-MUSTARD-CRAIG",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/craig-mustard.html",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Craig Mustard 53, Wade Nelson 52."
+            },
+            {
+              "name": "Wade Nelson",
+              "person_id": "WY-NELSON-WADE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/wade-nelson.html",
+              "notes": "Official 2022 Carbon clerk: Wade Nelson 52."
+            },
+            {
+              "name": "Joseph G. Neel",
+              "person_id": "WY-NEEL-JOSEPH-G",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/joseph-g-neel.html",
+              "notes": "Official 2024 Carbon clerk, council Vote-For-2: Joseph Neel 75, Angie Hobbs 73."
+            },
+            {
+              "name": "Angie Hobbs",
+              "person_id": "WY-HOBBS-ANGIE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/angie-hobbs.html",
+              "notes": "Official 2024 Carbon clerk: Angie Hobbs 73."
+            },
+            {
+              "name": "Megan Davies-Jones",
+              "person_id": "WY-DAVIES-JONES-MEGAN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/megan-davies-jones.html",
+              "notes": "Official 2026 Carbon clerk, council Vote-For-2: Megan Davies-Jones 57, Linda Crane 51."
+            },
+            {
+              "name": "Linda Crane",
+              "person_id": "WY-CRANE-LINDA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/linda-crane.html",
+              "notes": "Official 2026 Carbon clerk: Linda Crane 51."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, council Vote-For-2: Megan Davies-Jones 57, Linda Crane 51. Official 2026 Carbon clerk: Linda Crane 51."
+        },
+        {
+          "office": "Encampment Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Shannon Fagan",
+              "person_id": "WY-FAGAN-SHANNON",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/shannon-fagan.html",
+              "notes": "Official 2022 Carbon clerk: Shannon Fagan 127, Greg A. Salisbury 88."
+            },
+            {
+              "name": "Jim McKinney",
+              "person_id": "WY-MCKINNEY-JIM",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jim-mckinney.html",
+              "notes": "Official 2026 Carbon clerk: Jim McKinney 153, Greg A. Salisbury 45."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Jim McKinney 153, Greg A. Salisbury 45. Official 2022 Carbon clerk: Shannon Fagan 127, Greg A. Salisbury 88."
+        },
+        {
+          "office": "Encampment Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ashley McKinney",
+              "person_id": "WY-MCKINNEY-ASHLEY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/ashley-mckinney.html",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Ashley McKinney 169, Steve Reichert 99."
+            },
+            {
+              "name": "Steve Reichert",
+              "person_id": "WY-REICHERT-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/steve-reichert.html",
+              "notes": "Official 2022 Carbon clerk: Steve Reichert 99."
+            },
+            {
+              "name": "Susan Munson",
+              "person_id": "WY-MUNSON-SUSAN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/susan-munson.html",
+              "notes": "Official 2024 Carbon clerk, council Vote-For-2: Susan Munson 150, Stas Banach 135."
+            },
+            {
+              "name": "Stas Banach",
+              "person_id": "WY-BANACH-STAS",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/stas-banach.html",
+              "notes": "Official 2024 Carbon clerk: Stas Banach 135."
+            },
+            {
+              "name": "Scott Ward",
+              "person_id": "WY-WARD-SCOTT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/scott-ward.html",
+              "notes": "Official 2026 Carbon clerk, council Vote-For-2: Scott Ward 130, Gary Stull 90."
+            },
+            {
+              "name": "Gary Stull",
+              "person_id": "WY-STULL-GARY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/gary-stull.html",
+              "notes": "Official 2026 Carbon clerk: Gary Stull 90."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, council Vote-For-2: Scott Ward 130, Gary Stull 90. Official 2026 Carbon clerk: Gary Stull 90."
+        },
+        {
+          "office": "Hanna Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Charlie T. George",
+              "person_id": "WY-GEORGE-CHARLIE-T",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/charlie-t-george.html",
+              "notes": "Official 2026 Carbon clerk: Charlie T. George 145, Anthony \"Tony\" Poulos 74."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Charlie T. George 145, Anthony \"Tony\" Poulos 74. Official 2024 Carbon clerk, Hanna mayor 2-year: Charlie T. George 200, Orville 'Oats' Briggs 85."
+        },
+        {
+          "office": "Hanna Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Roger Hawks",
+              "person_id": "WY-HAWKS-ROGER",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/roger-hawks.html",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Roger Hawks 128, Sammy Sikes 96."
+            },
+            {
+              "name": "Sammy Sikes",
+              "person_id": "WY-SIKES-SAMMY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/sammy-sikes.html",
+              "notes": "Official 2022 Carbon clerk: Sammy Sikes 96."
+            },
+            {
+              "name": "Paul Cruz",
+              "person_id": "WY-CRUZ-PAUL",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/paul-cruz.html",
+              "notes": "Official 2024 Carbon clerk, council Vote-For-2: Paul Cruz 202, Ellen Works-Freeman 124."
+            },
+            {
+              "name": "Ellen Works-Freeman",
+              "person_id": "WY-WORKS-FREEMAN-ELLEN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ellen-works-freeman.html",
+              "notes": "Official 2024 Carbon clerk: Ellen Works-Freeman 124."
+            },
+            {
+              "name": "David G. Felix",
+              "person_id": "WY-FELIX-DAVID-G",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/david-g-felix.html",
+              "notes": "Official 2026 Carbon clerk, council Vote-For-2: David G Felix 122, Marcia Beals 107."
+            },
+            {
+              "name": "Marcia Beals",
+              "person_id": "WY-BEALS-MARCIA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/marcia-beals.html",
+              "notes": "Official 2026 Carbon clerk: Marcia Beals 107."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, council Vote-For-2: David G Felix 122, Marcia Beals 107. Official 2026 Carbon clerk: Marcia Beals 107."
+        },
+        {
+          "office": "Medicine Bow Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Justin D. George",
+              "person_id": "WY-GEORGE-JUSTIN-D",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/justin-d-george.html",
+              "notes": "Official 2026 Carbon clerk: Justin D. George 58, Aaron Kovar 26."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Justin D. George 58, Aaron Kovar 26. Official 2024 Carbon clerk: Justin George 71, Troy W. Maddox Sr. 40. Official 2026 ballot is Justin D. George."
+        },
+        {
+          "office": "Medicine Bow Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Trevor Strauch",
+              "person_id": "WY-STRAUCH-TREVOR",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/trevor-strauch.html",
+              "notes": "Official 2026 Carbon clerk, council Vote-For-2: Trevor Strauch 79, Crystal Mayfield 66."
+            },
+            {
+              "name": "Crystal Mayfield",
+              "person_id": "WY-MAYFIELD-CRYSTAL",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/crystal-mayfield.html",
+              "notes": "Official 2026 Carbon clerk: Crystal Mayfield 66."
+            },
+            {
+              "name": "Lucinda L. Schofield",
+              "person_id": "WY-SCHOFIELD-LUCINDA-L",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/lucinda-l-schofield.html",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Lucinda L. Schofield 67, Casey Federer 58."
+            },
+            {
+              "name": "Casey Federer",
+              "person_id": "WY-FEDERER-CASEY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/casey-federer.html",
+              "notes": "Official 2022 Carbon clerk: Casey Federer 58."
+            },
+            {
+              "name": "Lee Cook",
+              "person_id": "WY-COOK-LEE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/lee-cook.html",
+              "notes": "Official 2024 Carbon clerk, council Vote-For-2: Lee Cook 67, Kristi Wickizer 62."
+            },
+            {
+              "name": "Kristi Wickizer",
+              "person_id": "WY-WICKIZER-KRISTI",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kristi-wickizer.html",
+              "notes": "Official 2024 Carbon clerk: Kristi Wickizer 62."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, council Vote-For-2: Trevor Strauch 79, Crystal Mayfield 66. Official 2026 Carbon clerk: Crystal Mayfield 66."
+        },
+        {
+          "office": "Rawlins Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jacquelin R. Wells",
+              "person_id": "WY-WELLS-JACQUELIN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/jacquelin-r-wells.html",
+              "notes": "The Rawlins mayor is chosen by the city council from its members, not on the November ballot (official Rawlins Municipal Code 2.04.030). Official City of Rawlins City Council page: Mayor Jacquelin R Wells, At Large, January 2025 through January 2027. The January 2027 mayor is not named; the council elects in January 2027."
+            }
+          ],
+          "note": "The Rawlins mayor is chosen by the city council from its members, not on the November ballot (official Rawlins Municipal Code 2.04.030). Official City of Rawlins City Council page: Mayor Jacquelin R Wells, At Large, January 2025 through January 2027. The January 2027 mayor is not named; the council elects in January 2027."
+        },
+        {
+          "office": "Rawlins City Council Ward 1",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bruce Seilaff",
+              "person_id": "WY-SEILAFF-BRUCE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/bruce-seilaff.html",
+              "notes": "Official 2022 Carbon clerk: Bruce Seilaff 212, DeBari T Martinez 129. Official City of Rawlins council page spelling is Bruce Seilaff."
+            },
+            {
+              "name": "Derek Elliott",
+              "person_id": "WY-ELLIOTT-DEREK",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/derek-elliott.html",
+              "notes": "Official 2024 Carbon clerk: Derek Elliott 303, De Shann B. Schinkel 272. Official City of Rawlins council page: Ward 1, January 2025–January 2029."
+            },
+            {
+              "name": "Megan Cragun",
+              "person_id": "WY-CRAGUN-MEGAN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/megan-cragun.html",
+              "notes": "Official 2026 Carbon clerk: Megan Cragun 196, Bruce Seilaff 153."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Megan Cragun 196, Bruce Seilaff 153. Official 2024 Carbon clerk: Derek Elliott 303, De Shann B. Schinkel 272. Official City of Rawlins council page: Ward 1, January 2025–January 2029."
+        },
+        {
+          "office": "Rawlins City Council Ward 2",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tonya Lewman",
+              "person_id": "WY-LEWMAN-TONYA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/tonya-lewman.html",
+              "notes": "Official 2022 Carbon clerk: Tonya Lewman 392, Linda Ann Smith 290."
+            },
+            {
+              "name": "Darril Garner",
+              "person_id": "WY-GARNER-DARRIL",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/darril-garner.html",
+              "notes": "Official 2024 Carbon clerk: Darril Garner 713, Stanley Bugg 344. Official City of Rawlins council page: Vice Mayor, Ward 2, January 2025–January 2027 is the vice-mayor designation; the elected council term on that page is January 2025 through January 2027 for the vice-mayor line and the official 2024 4-year win is used here through January 2029."
+            },
+            {
+              "name": "Cristy Magagna",
+              "person_id": "WY-MAGAGNA-CRISTY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/cristy-magagna.html",
+              "notes": "Official 2026 Carbon clerk: Cristy Magagna 570."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Cristy Magagna 570. Official 2024 Carbon clerk: Darril Garner 713, Stanley Bugg 344. Official City of Rawlins council page: Vice Mayor, Ward 2, January 2025–January 2027 is the vice-mayor designation; the elected council term on that page is January 2025 through January 2027 for the vice-mayor line and the official 2024 4-year win is used here through January 2029."
+        },
+        {
+          "office": "Rawlins City Council Ward 3",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Steve Sanger",
+              "person_id": "WY-SANGER-STEVE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/steve-sanger.html",
+              "notes": "Official 2026 Carbon clerk: Steve Sanger 377, Cody Bluth 247. Continues from the official 2022 term."
+            },
+            {
+              "name": "Terry B. Patterson",
+              "person_id": "WY-PATTERSON-TERRY-B",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/terry-b-patterson.html",
+              "notes": "Official 2024 Carbon clerk: Terry B Patterson 624, Patrick Gonzales 384. Official City of Rawlins council page: Ward 3, January 2025–January 2029."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Steve Sanger 377, Cody Bluth 247. Continues from the official 2022 term. Official 2024 Carbon clerk: Terry B Patterson 624, Patrick Gonzales 384. Official City of Rawlins council page: Ward 3, January 2025–January 2029."
+        },
+        {
+          "office": "Rawlins City Council At-Large",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jacquelin R. Wells",
+              "person_id": "WY-WELLS-JACQUELIN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/jacquelin-r-wells.html",
+              "notes": "Official City of Rawlins City Council page: Jacquelin R Wells, At Large, January 2025 through January 2027 (also serving as mayor). How she first won the at-large seat is not re-keyed from a 2024 clerk mayor/at-large contest (none appeared); the official current council page is the source."
+            },
+            {
+              "name": "Eddie Archuleta",
+              "person_id": "WY-ARCHULETA-EDDIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/eddie-archuleta.html",
+              "notes": "Official 2026 Carbon clerk, at-large: Eddie Archuleta 910. The January 2027 Rawlins mayor is not on this ballot; the council chooses the mayor under official code 2.04.030, and that January 2027 choice is not invented."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, at-large: Eddie Archuleta 910. The January 2027 Rawlins mayor is not on this ballot; the council chooses the mayor under official code 2.04.030, and that January 2027 choice is not invented. Official City of Rawlins City Council page: Jacquelin R Wells, At Large, January 2025 through January 2027 (also serving as mayor). How she first won the at-large seat is not re-keyed from a 2024 clerk mayor/at-large contest (none appeared); the official current council page is the source."
+        },
+        {
+          "office": "Riverside Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Leroy Stephenson",
+              "person_id": "WY-STEPHENSON-LEROY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/leroy-stephenson.html",
+              "notes": "Official 2026 Carbon clerk: Leroy Stephenson 29."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Leroy Stephenson 29. Official 2022 Carbon clerk: Leroy Stephenson 29."
+        },
+        {
+          "office": "Riverside Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lisa Lorenz",
+              "person_id": "WY-LORENZ-LISA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/lisa-lorenz.html",
+              "notes": "Official 2026 Carbon clerk, council Vote-For-2: Lisa Lorenz 37, Billie Helwick 28."
+            },
+            {
+              "name": "Fred Lorenz",
+              "person_id": "WY-LORENZ-FRED",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/fred-lorenz.html",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Fred Lorenz 35, Ed Golden 31."
+            },
+            {
+              "name": "Ed Golden",
+              "person_id": "WY-GOLDEN-ED",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/ed-golden.html",
+              "notes": "Official 2022 Carbon clerk: Ed Golden 31."
+            },
+            {
+              "name": "Linda Brown",
+              "person_id": "WY-BROWN-LINDA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/linda-brown.html",
+              "notes": "Official 2024 Carbon clerk, council Vote-For-2: Linda Brown 43, Mark Helwick 29."
+            },
+            {
+              "name": "Mark Helwick",
+              "person_id": "WY-HELWICK-MARK",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/mark-helwick.html",
+              "notes": "Official 2024 Carbon clerk: Mark Helwick 29."
+            },
+            {
+              "name": "Billie Helwick",
+              "person_id": "WY-HELWICK-BILLIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/billie-helwick.html",
+              "notes": "Official 2026 Carbon clerk: Billie Helwick 28."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, council Vote-For-2: Lisa Lorenz 37, Billie Helwick 28. Official 2026 Carbon clerk: Billie Helwick 28."
+        },
+        {
+          "office": "Saratoga Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Davis",
+              "person_id": "WY-DAVIS-CHUCK",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/chuck-davis.html",
+              "notes": "Official 2026 Carbon clerk: Chuck Davis 521."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Chuck Davis 521. Official 2022 Carbon clerk: Chuck Davis 448, D'Ron Campbell 240."
+        },
+        {
+          "office": "Saratoga Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bub Barkhurst",
+              "person_id": "WY-BARKHURST-BUB",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/bub-barkhurst.html",
+              "notes": "Official 2026 Carbon clerk, council Vote-For-2: Bub Barkhurst 380, Jerry J. Fluty 375."
+            },
+            {
+              "name": "Jerry J. Fluty",
+              "person_id": "WY-FLUTY-JERRY-J",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jerry-j-fluty.html",
+              "notes": "Official 2026 Carbon clerk: Jerry J. Fluty 375."
+            },
+            {
+              "name": "Jacob Fluty",
+              "person_id": "WY-FLUTY-JACOB",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/jacob-fluty.html",
+              "notes": "Official 2022 Carbon clerk: Jacob Fluty 474."
+            },
+            {
+              "name": "Michael E. Cooley",
+              "person_id": "WY-COOLEY-MICHAEL-E",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/michael-e-cooley.html",
+              "notes": "Official 2024 Carbon clerk, council Vote-For-2: Michael E. Cooley 590, Cory Oxford 586."
+            },
+            {
+              "name": "Cory Oxford",
+              "person_id": "WY-OXFORD-CORY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/cory-oxford.html",
+              "notes": "Official 2024 Carbon clerk: Cory Oxford 586."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, council Vote-For-2: Bub Barkhurst 380, Jerry J. Fluty 375. Official 2026 Carbon clerk: Jerry J. Fluty 375."
+        },
+        {
+          "office": "Sinclair Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cullen Meeks",
+              "person_id": "WY-MEEKS-CULLEN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/cullen-meeks.html",
+              "notes": "Official 2022 Carbon clerk: Cullen Meeks 77, Phyllis McWhorter 47."
+            },
+            {
+              "name": "Eugene J. Goetz Jr.",
+              "person_id": "WY-GOETZ-EUGENE-J-JR",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/eugene-j-goetz-jr.html",
+              "notes": "Official 2026 Carbon clerk: Eugene J Goetz Jr. 54, Cullen Meeks 51."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk: Eugene J Goetz Jr. 54, Cullen Meeks 51. Official 2022 Carbon clerk: Cullen Meeks 77, Phyllis McWhorter 47."
+        },
+        {
+          "office": "Sinclair Council",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Nancy E. Sanders",
+              "person_id": "WY-SANDERS-NANCY-E",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/nancy-e-sanders.html",
+              "notes": "Official 2026 Carbon clerk, council Vote-For-2: Nancy E. Sanders 66, Stephanie R. Haldorson 62."
+            },
+            {
+              "name": "Forest J. Ortiz",
+              "person_id": "WY-ORTIZ-FOREST-J",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/forest-j-ortiz.html",
+              "notes": "Official 2022 Carbon clerk, council Vote-For-2: Forest J Ortiz 64."
+            },
+            {
+              "name": "David Robinson",
+              "person_id": "WY-ROBINSON-DAVID",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/david-robinson.html",
+              "notes": "Official 2022 Carbon clerk: David Robinson 54, listed as WINNER OF TIE BREAKER over Ellie Bennett 54. Official canvass seated Robinson."
+            },
+            {
+              "name": "Michelle Serres",
+              "person_id": "WY-SERRES-MICHELLE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/michelle-serres.html",
+              "notes": "Official 2024 Carbon clerk, council Vote-For-2: Michelle Serres 110, Brennan Dunlap 109."
+            },
+            {
+              "name": "Brennan J. Dunlap",
+              "person_id": "WY-DUNLAP-BRENNAN-J",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/brennan-j-dunlap.html",
+              "notes": "Official 2024 Carbon clerk: Brennan Dunlap 109."
+            },
+            {
+              "name": "Stephanie R. Haldorson",
+              "person_id": "WY-HALDORSON-STEPHANIE-R",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/stephanie-r-haldorson.html",
+              "notes": "Official 2026 Carbon clerk: Stephanie R. Haldorson 62."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, council Vote-For-2: Nancy E. Sanders 66, Stephanie R. Haldorson 62. Official 2026 Carbon clerk: Stephanie R. Haldorson 62."
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "layout": "heading-then-names",
+      "sort_key": "G",
+      "offices": [
+        {
+          "office": "Carbon County School District #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tanya S. Evans",
+              "person_id": "WY-EVANS-TANYA-S",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/tanya-s-evans.html",
+              "notes": "Official 2026 Carbon clerk, Carbon County School District 1 Vote-For-3: Tanya S. Evans 1,400, Michael R. Mann 1,354, write-in totals 645 (official summary: Harlee Mascarenas was elected with write-in votes). Official Sweetwater 2026 general, Carbon County 4YR: Michael R Mann 14, Tanya Evans 13, write-in totals 0 (official Sweetwater contest is printed Vote-For-1; official shares are added as printed). Combined official named totals: Evans 1,413, Mann 1,368, plus official Carbon-certified write-in winner Harlee Mascarenas. The official Carbon summary states that results for this race must be combined with Sweetwater County."
+            },
+            {
+              "name": "Michael R. Mann",
+              "person_id": "WY-MANN-MICHAEL-R",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/michael-r-mann.html",
+              "notes": "Official 2026 Carbon clerk, Carbon County School District 1 Vote-For-3: Tanya S. Evans 1,400, Michael R. Mann 1,354, write-in totals 645 (official summary: Harlee Mascarenas was elected with write-in votes). Official Sweetwater 2026 general, Carbon County 4YR: Michael R Mann 14, Tanya Evans 13, write-in totals 0 (official Sweetwater contest is printed Vote-For-1; official shares are added as printed). Combined official named totals: Evans 1,413, Mann 1,368, plus official Carbon-certified write-in winner Harlee Mascarenas. The official Carbon summary states that results for this race must be combined with Sweetwater County."
+            },
+            {
+              "name": "Brandon Taylor",
+              "person_id": "WY-TAYLOR-BRANDON",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/brandon-taylor.html",
+              "notes": "Official 2022 Carbon clerk, School District 1 Vote-For-3: Tanya S. Evans 1,379, Brandon Taylor 1,314, Michael R. Mann 1,213, Michael Young 1,126. Official Sweetwater 2022 general (SD#1 Carbon Vote-For-3): Taylor 21, Evans 19, Young 15, Mann 11. Combined official totals: Evans 1,398, Taylor 1,335, Mann 1,224, Young 1,141. The official Carbon election-results page states that Sweetwater results must be added for School District #1."
+            },
+            {
+              "name": "Cheryl Engstrom",
+              "person_id": "WY-ENGSTROM-CHERYL",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/cheryl-engstrom.html",
+              "notes": "Official 2024 Carbon clerk, School District 1 Vote-For-4: Cheryl Engstrom 2,365, Rick Greene 2,144, Matt Feldmann 1,810, write-in totals 198 (official summary: Janeth Garcia was elected with write-in votes). Official Sweetwater 2024 general, District #1 Carbon County Trustee Vote-For-4: Engstrom 33, Feldmann 18, Greene 16, write-in 1. Combined official totals: Engstrom 2,398, Greene 2,160, Feldmann 1,828, plus official Carbon-certified write-in winner Janeth Garcia. The official Carbon summary states that results for this race must be combined with Sweetwater County."
+            },
+            {
+              "name": "Rick Greene",
+              "person_id": "WY-GREENE-RICK",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/rick-greene.html",
+              "notes": "Official 2024 Carbon clerk, School District 1 Vote-For-4: Cheryl Engstrom 2,365, Rick Greene 2,144, Matt Feldmann 1,810, write-in totals 198 (official summary: Janeth Garcia was elected with write-in votes). Official Sweetwater 2024 general, District #1 Carbon County Trustee Vote-For-4: Engstrom 33, Feldmann 18, Greene 16, write-in 1. Combined official totals: Engstrom 2,398, Greene 2,160, Feldmann 1,828, plus official Carbon-certified write-in winner Janeth Garcia. The official Carbon summary states that results for this race must be combined with Sweetwater County."
+            },
+            {
+              "name": "Matt Feldmann",
+              "person_id": "WY-FELDMANN-MATT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/matt-feldmann.html",
+              "notes": "Official 2024 Carbon clerk, School District 1 Vote-For-4: Cheryl Engstrom 2,365, Rick Greene 2,144, Matt Feldmann 1,810, write-in totals 198 (official summary: Janeth Garcia was elected with write-in votes). Official Sweetwater 2024 general, District #1 Carbon County Trustee Vote-For-4: Engstrom 33, Feldmann 18, Greene 16, write-in 1. Combined official totals: Engstrom 2,398, Greene 2,160, Feldmann 1,828, plus official Carbon-certified write-in winner Janeth Garcia. The official Carbon summary states that results for this race must be combined with Sweetwater County."
+            },
+            {
+              "name": "Janeth Garcia",
+              "person_id": "WY-GARCIA-JANETH",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/janeth-garcia.html",
+              "notes": "Official 2024 Carbon clerk, School District 1 Vote-For-4: Cheryl Engstrom 2,365, Rick Greene 2,144, Matt Feldmann 1,810, write-in totals 198 (official summary: Janeth Garcia was elected with write-in votes). Official Sweetwater 2024 general, District #1 Carbon County Trustee Vote-For-4: Engstrom 33, Feldmann 18, Greene 16, write-in 1. Combined official totals: Engstrom 2,398, Greene 2,160, Feldmann 1,828, plus official Carbon-certified write-in winner Janeth Garcia. The official Carbon summary states that results for this race must be combined with Sweetwater County."
+            },
+            {
+              "name": "Randy Flamig",
+              "person_id": "WY-FLAMIG-RANDY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/randy-flamig.html",
+              "notes": "Official 2024 Carbon clerk, School District 1 2-year: Randy Flamig 2,825. Official Sweetwater 2024 general, School District #1 Carbon Trustee Vote-For-1: Randy Flamig 36. Combined official total: 2,861."
+            },
+            {
+              "name": "Harlee Mascarenas",
+              "person_id": "WY-MASCARENAS-HARLEE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/harlee-mascarenas.html",
+              "notes": "Official 2026 Carbon clerk, Carbon County School District 1 Vote-For-3: Tanya S. Evans 1,400, Michael R. Mann 1,354, write-in totals 645 (official summary: Harlee Mascarenas was elected with write-in votes). Official Sweetwater 2026 general, Carbon County 4YR: Michael R Mann 14, Tanya Evans 13, write-in totals 0 (official Sweetwater contest is printed Vote-For-1; official shares are added as printed). Combined official named totals: Evans 1,413, Mann 1,368, plus official Carbon-certified write-in winner Harlee Mascarenas. The official Carbon summary states that results for this race must be combined with Sweetwater County."
+            },
+            {
+              "name": "Justin Carrico",
+              "person_id": "WY-CARRICO-JUSTIN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/justin-carrico.html",
+              "notes": "Official 2026 Carbon clerk, School District 1 2-year unexpired: write-in totals 498 (official summary: Justin Carrico was elected with write-in votes). Official Sweetwater 2026 general, Carbon County 2YR: write-in totals 2 (no named candidate on the official Sweetwater line). Combined official write-in totals 500; official Carbon canvass names Justin Carrico. The official Carbon summary states that results must be combined with Sweetwater County."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, Carbon County School District 1 Vote-For-3: Tanya S. Evans 1,400, Michael R. Mann 1,354, write-in totals 645 (official summary: Harlee Mascarenas was elected with write-in votes). Official Sweetwater 2026 general, Carbon County 4YR: Michael R Mann 14, Tanya Evans 13, write-in totals 0 (official Sweetwater contest is printed Vote-For-1; official shares are added as printed). Combined official named totals: Evans 1,413, Mann 1,368, plus official Carbon-certified write-in winner Harlee Mascarenas. The official Carbon summary states that results for this race must be combined with Sweetwater County. Official 2026 Carbon clerk, School District 1 2-year unexpired: write-in totals 498 (official summary: Justin Carrico was elected with write-in votes). Official Sweetwater 2026 general, Carbon County 2YR: write-in totals 2 (no named candidate on the official Sweetwater line). Combined official write-in totals 500; official Carbon canvass names Justin Carrico. The official Carbon summary states that results must be combined with Sweetwater County."
+        },
+        {
+          "office": "Carbon County School District #2 Area 1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Charlie T. George",
+              "person_id": "WY-GEORGE-CHARLIE-T",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/charlie-t-george.html",
+              "notes": "Official 2022 Carbon clerk, School Dist 2 Area 1 was write-in only (184). Official 2022 certified write-ins: Charlie George, Carbon County School District 2, Area 1."
+            },
+            {
+              "name": "Paul Clark",
+              "person_id": "WY-CLARK-PAUL",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/paul-clark.html",
+              "notes": "Official 2024 Carbon clerk, School District 2-Area 1: Paul Clark 1,196, Aubrey Maughan 834."
+            },
+            {
+              "name": "Jalen Reddish",
+              "person_id": "WY-REDDISH-JALEN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jalen-reddish.html",
+              "notes": "Official 2026 Carbon clerk, School District 2 Area 1: Jalen Reddish 1,477."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, School District 2 Area 1: Jalen Reddish 1,477. Official 2024 Carbon clerk, School District 2-Area 1: Paul Clark 1,196, Aubrey Maughan 834."
+        },
+        {
+          "office": "Carbon County School District #2 Area 2 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Karen D. Condict",
+              "person_id": "WY-CONDICT-KAREN-D",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/karen-d-condict.html",
+              "notes": "Official 2026 Carbon clerk, School District 2 Area 2: Karen D Condict 1,605."
+            },
+            {
+              "name": "Georgia Miller",
+              "person_id": "WY-MILLER-GEORGIA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/georgia-miller.html",
+              "notes": "Official 2024 Carbon clerk, School District 2-Area 2: Georgia Miller 2,174."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, School District 2 Area 2: Karen D Condict 1,605. Official 2024 Carbon clerk, School District 2-Area 2: Georgia Miller 2,174."
+        },
+        {
+          "office": "Carbon County School District #2 Area 3 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kassey Westring",
+              "person_id": "WY-WESTRING-KASSEY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/kassey-westring.html",
+              "notes": "Official 2022 Carbon clerk, School Dist 2 Area 3: Kassey Westring 1,281, Janet Zahn 406."
+            },
+            {
+              "name": "Joe Gaspari",
+              "person_id": "WY-GASPARI-JOE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/joe-gaspari.html",
+              "notes": "Official 2024 Carbon clerk, School District 2-Area 3: Joe Gaspari 2,146."
+            },
+            {
+              "name": "Maria L. Johnson",
+              "person_id": "WY-JOHNSON-MARIA-L",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/maria-l-johnson.html",
+              "notes": "Official 2026 Carbon clerk, School District 2 Area 3: Maria L. Johnson 1,550."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, School District 2 Area 3: Maria L. Johnson 1,550. Official 2024 Carbon clerk, School District 2-Area 3: Joe Gaspari 2,146."
+        },
+        {
+          "office": "Carbon County School District #2 Area 4 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Maria L. Johnson",
+              "person_id": "WY-JOHNSON-MARIA-L",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/maria-l-johnson.html",
+              "notes": "Official 2022 Carbon clerk, School Dist 2 Area 4 Vote-For-2: Maria L. Johnson 1,608."
+            },
+            {
+              "name": "Janet Zahn",
+              "person_id": "WY-ZAHN-JANET",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/janet-zahn.html",
+              "notes": "Official 2022 Carbon certified write-ins: Janet Zahn, Carbon County School District 2, Area 4 (At-Large). Official 2022 clerk write-in totals 80."
+            },
+            {
+              "name": "Nicholas Wamsley",
+              "person_id": "WY-WAMSLEY-NICHOLAS",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/nicholas-wamsley.html",
+              "notes": "Official 2024 Carbon clerk, School District 2-Area 4: Nicholas Wamsley 2,015."
+            },
+            {
+              "name": "Kassey Westring",
+              "person_id": "WY-WESTRING-KASSEY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/kassey-westring.html",
+              "notes": "Official 2026 Carbon clerk, School District 2 Area 4 Vote-For-2: Kassey Westring 1,426, Matt Anderson 1,240."
+            },
+            {
+              "name": "Matt Anderson",
+              "person_id": "WY-ANDERSON-MATT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/matt-anderson.html",
+              "notes": "Official 2026 Carbon clerk: Matt Anderson 1,240."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, School District 2 Area 4 Vote-For-2: Kassey Westring 1,426, Matt Anderson 1,240. Official 2026 Carbon clerk: Matt Anderson 1,240."
+        }
+      ]
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "layout": "heading-then-names",
+      "sort_key": "H",
+      "offices": [
+        {
+          "office": "Little Snake River Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John (Jack) Cobb",
+              "person_id": "WY-COBB-JOHN-JACK",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/john-jack-cobb.html",
+              "notes": "Official 2026 Carbon clerk, Little Snake River Conservation District Rural Vote-For-2: John (Jack) Cobb 251, Thomas Chant 222. Official Sweetwater 2026 general, LSR Cons. District Rural Vote-For-2: John (Jack) Cobb 2, Thomas Chant 1. Combined official totals: Cobb 253, Chant 223. The official Carbon summary states that results must be combined with Sweetwater County."
+            },
+            {
+              "name": "Thomas Chant",
+              "person_id": "WY-CHANT-THOMAS",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/thomas-chant.html",
+              "notes": "Official 2026 Carbon clerk, Little Snake River Conservation District Rural Vote-For-2: John (Jack) Cobb 251, Thomas Chant 222. Official Sweetwater 2026 general, LSR Cons. District Rural Vote-For-2: John (Jack) Cobb 2, Thomas Chant 1. Combined official totals: Cobb 253, Chant 223. The official Carbon summary states that results must be combined with Sweetwater County."
+            },
+            {
+              "name": "Meghan Lally",
+              "person_id": "WY-LALLY-MEGHAN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/meghan-lally.html",
+              "notes": "Official 2024 Carbon clerk, LSR Conservation Rural: Meghan Lally 383. Official Sweetwater 2024 general lists Meghan Lally 3. Combined official total: 386. The official Carbon summary states that results for this race must be combined with Sweetwater County."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, Little Snake River Conservation District Rural Vote-For-2: John (Jack) Cobb 251, Thomas Chant 222. Official Sweetwater 2026 general, LSR Cons. District Rural Vote-For-2: John (Jack) Cobb 2, Thomas Chant 1. Combined official totals: Cobb 253, Chant 223. The official Carbon summary states that results must be combined with Sweetwater County. Official 2024 Carbon clerk, LSR Conservation Rural: Meghan Lally 383. Official Sweetwater 2024 general lists Meghan Lally 3. Combined official total: 386. The official Carbon summary states that results for this race must be combined with Sweetwater County."
+        },
+        {
+          "office": "Little Snake River Conservation District Urban Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Trent Arnell",
+              "person_id": "WY-ARNELL-TRENT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/trent-arnell.html",
+              "notes": "Official 2024 Carbon clerk, LSR Conservation Urban: Trent Arnell 390."
+            }
+          ],
+          "note": "Official 2024 Carbon clerk, LSR Conservation Urban: Trent Arnell 390."
+        },
+        {
+          "office": "Little Snake River Conservation District At-Large Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jenna Larson",
+              "person_id": "WY-LARSON-JENNA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/jenna-larson.html",
+              "notes": "Official 2024 Carbon clerk, LSR Conservation At-Large: Jenna Larson 425."
+            }
+          ],
+          "note": "Official 2024 Carbon clerk, LSR Conservation At-Large: Jenna Larson 425."
+        },
+        {
+          "office": "Medicine Bow Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Quade Palm",
+              "person_id": "WY-PALM-QUADE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/quade-palm.html",
+              "notes": "Official 2026 Carbon clerk, Medicine Bow Conservation Rural Vote-For-2: Quade Palm 396, Owen Williams 367."
+            },
+            {
+              "name": "Owen Williams",
+              "person_id": "WY-WILLIAMS-OWEN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/owen-williams.html",
+              "notes": "Official 2026 Carbon clerk: Owen Williams 367."
+            },
+            {
+              "name": "Ralph D. Brokaw",
+              "person_id": "WY-BROKAW-RALPH-D",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/ralph-d-brokaw.html",
+              "notes": "Official 2024 Carbon clerk, Med Bow Conservation Rural: Ralph D. Brokaw 601."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, Medicine Bow Conservation Rural Vote-For-2: Quade Palm 396, Owen Williams 367. Official 2026 Carbon clerk: Owen Williams 367."
+        },
+        {
+          "office": "Medicine Bow Conservation District Urban Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kay Schrock",
+              "person_id": "WY-SCHROCK-KAY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kay-schrock.html",
+              "notes": "Official 2024 Carbon clerk, Med Bow Conservation Urban: Kay Schrock 592."
+            }
+          ],
+          "note": "Official 2024 Carbon clerk, Med Bow Conservation Urban: Kay Schrock 592."
+        },
+        {
+          "office": "Medicine Bow Conservation District At-Large Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Timothy Heward",
+              "person_id": "WY-HEWARD-TIMOTHY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/timothy-heward.html",
+              "notes": "Official 2024 Carbon clerk, Med Bow Conservation At-Large: Timothy Heward 618."
+            }
+          ],
+          "note": "Official 2024 Carbon clerk, Med Bow Conservation At-Large: Timothy Heward 618."
+        },
+        {
+          "office": "Saratoga-Encampment-Rawlins Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Scott Kerbs",
+              "person_id": "WY-KERBS-SCOTT",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/scott-kerbs.html",
+              "notes": "Official 2026 Carbon clerk, SER Conservation Rural Vote-For-2: Scott Kerbs 2,264, Arla Strasser 1,968."
+            },
+            {
+              "name": "Arla Strasser",
+              "person_id": "WY-STRASSER-ARLA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/arla-strasser.html",
+              "notes": "Official 2026 Carbon clerk: Arla Strasser 1,968."
+            },
+            {
+              "name": "Chris Williams",
+              "person_id": "WY-WILLIAMS-CHRIS",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/chris-williams.html",
+              "notes": "Official 2024 Carbon clerk, SER Conservation Rural: Chris Williams 4,045."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, SER Conservation Rural Vote-For-2: Scott Kerbs 2,264, Arla Strasser 1,968. Official 2026 Carbon clerk: Arla Strasser 1,968."
+        },
+        {
+          "office": "Saratoga-Encampment-Rawlins Conservation District Urban Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Shannon Fagan",
+              "person_id": "WY-FAGAN-SHANNON",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/shannon-fagan.html",
+              "notes": "Official 2024 Carbon clerk, SER Conservation Urban: Shannon Fagan 2,295, Jenita Calton 1,713."
+            }
+          ],
+          "note": "Official 2024 Carbon clerk, SER Conservation Urban: Shannon Fagan 2,295, Jenita Calton 1,713."
+        },
+        {
+          "office": "Saratoga-Encampment-Rawlins Conservation District At-Large Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Randy Arnold",
+              "person_id": "WY-ARNOLD-RANDY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/randy-arnold.html",
+              "notes": "Official 2024 Carbon clerk, SER Conservation At-Large: Randy Arnold 4,070."
+            }
+          ],
+          "note": "Official 2024 Carbon clerk, SER Conservation At-Large: Randy Arnold 4,070."
+        },
+        {
+          "office": "Baggs Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jeff D. Corson",
+              "person_id": "WY-CORSON-JEFF-D",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jeff-d-corson.html",
+              "notes": "Official 2026 Carbon clerk, Baggs Cemetery Vote-For-3: Jeff D. Corson 201, Clint A. Weber 196, write-in totals 53 (official summary: George Jason Evans was elected with write-in votes)."
+            },
+            {
+              "name": "Clint A. Weber",
+              "person_id": "WY-WEBER-CLINT-A",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/clint-a-weber.html",
+              "notes": "Official 2026 Carbon clerk: Clint A. Weber 196."
+            },
+            {
+              "name": "George Jason Evans",
+              "person_id": "WY-EVANS-GEORGE-JASON",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/george-jason-evans.html",
+              "notes": "Official 2026 Carbon clerk: George Jason Evans elected with write-in votes, Baggs Cemetery."
+            },
+            {
+              "name": "Dale Wille",
+              "person_id": "WY-WILLE-DALE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/dale-wille.html",
+              "notes": "Official 2024 Carbon clerk, Baggs Cemetery Vote-For-3: Dale Wille 280, Virginia Sue Lee 243, Bill Orchard 226."
+            },
+            {
+              "name": "Virginia Sue Lee",
+              "person_id": "WY-LEE-VIRGINIA-SUE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/virginia-sue-lee.html",
+              "notes": "Official 2024 Carbon clerk: Virginia Sue Lee 243."
+            },
+            {
+              "name": "Bill Orchard",
+              "person_id": "WY-ORCHARD-BILL",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/bill-orchard.html",
+              "notes": "Official 2024 Carbon clerk: Bill Orchard 226."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, Baggs Cemetery Vote-For-3: Jeff D. Corson 201, Clint A. Weber 196, write-in totals 53 (official summary: George Jason Evans was elected with write-in votes). Official 2026 Carbon clerk: Clint A. Weber 196."
+        },
+        {
+          "office": "Reader Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "William Duncan",
+              "person_id": "WY-DUNCAN-WILLIAM",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/william-duncan.html",
+              "notes": "Official 2026 Carbon clerk, Reader Cemetery Vote-For-3: William Duncan 83, Barbara J Moss 81, Cynthia L. Cobb 80."
+            },
+            {
+              "name": "Barbara J. Moss",
+              "person_id": "WY-MOSS-BARBARA-J",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/barbara-j-moss.html",
+              "notes": "Official 2026 Carbon clerk: Barbara J Moss 81."
+            },
+            {
+              "name": "Cynthia L. Cobb",
+              "person_id": "WY-COBB-CYNTHIA-L",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/cynthia-l-cobb.html",
+              "notes": "Official 2026 Carbon clerk: Cynthia L. Cobb 80."
+            },
+            {
+              "name": "Kody Stocks",
+              "person_id": "WY-STOCKS-KODY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/kody-stocks.html",
+              "notes": "Official 2024 Carbon clerk, Reader Cemetery was write-in only (48). Official summary: Kody Stocks, Nikkole Maxson and Timmy Martinez were elected with write-in votes."
+            },
+            {
+              "name": "Nikkole Maxson",
+              "person_id": "WY-MAXSON-NIKKOLE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/nikkole-maxson.html",
+              "notes": "Official 2024 Carbon clerk: Nikkole Maxson elected with write-in votes, Reader Cemetery."
+            },
+            {
+              "name": "Timmy Martinez",
+              "person_id": "WY-MARTINEZ-TIMMY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/timmy-martinez.html",
+              "notes": "Official 2024 Carbon clerk: Timmy Martinez elected with write-in votes, Reader Cemetery."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, Reader Cemetery Vote-For-3: William Duncan 83, Barbara J Moss 81, Cynthia L. Cobb 80. Official 2026 Carbon clerk: Barbara J Moss 81."
+        },
+        {
+          "office": "Saratoga Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jamie Campbell",
+              "person_id": "WY-CAMPBELL-JAMIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jamie-campbell.html",
+              "notes": "Official 2026 Carbon clerk: Jamie Campbell elected with write-in votes, Saratoga Cemetery."
+            },
+            {
+              "name": "James Wiant",
+              "person_id": "WY-WIANT-JAMES",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/james-wiant.html",
+              "notes": "Official 2022 Carbon clerk: James Wiant 644."
+            },
+            {
+              "name": "Wanda Erger",
+              "person_id": "WY-ERGER-WANDA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/wanda-erger.html",
+              "notes": "Official 2022 Carbon clerk: Wanda Erger 605."
+            },
+            {
+              "name": "Suzie Cox",
+              "person_id": "WY-COX-SUZIE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/suzie-cox.html",
+              "notes": "Official 2024 Carbon clerk, Saratoga Cemetery Vote-For-3: Suzie Cox 831, Susan Howe 819, Charles McVey 752."
+            },
+            {
+              "name": "Susan Howe",
+              "person_id": "WY-HOWE-SUSAN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/susan-howe.html",
+              "notes": "Official 2024 Carbon clerk: Susan Howe 819."
+            },
+            {
+              "name": "Charles McVey",
+              "person_id": "WY-MCVEY-CHARLES",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/charles-mcvey.html",
+              "notes": "Official 2024 Carbon clerk: Charles McVey 752."
+            },
+            {
+              "name": "Shaun McBride",
+              "person_id": "WY-MCBRIDE-SHAUN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/shaun-mcbride.html",
+              "notes": "Official 2026 Carbon clerk, Saratoga Cemetery was write-in only (474). Official summary: Shaun McBride, Jamie Campbell and Edmund Howe were elected with write-in votes."
+            },
+            {
+              "name": "Edmund Howe",
+              "person_id": "WY-HOWE-EDMUND",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/edmund-howe.html",
+              "notes": "Official 2026 Carbon clerk: Edmund Howe elected with write-in votes, Saratoga Cemetery."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, Saratoga Cemetery was write-in only (474). Official summary: Shaun McBride, Jamie Campbell and Edmund Howe were elected with write-in votes. Official 2026 Carbon clerk: Jamie Campbell elected with write-in votes, Saratoga Cemetery."
+        },
+        {
+          "office": "Little Snake River Museum District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Keith Duncan",
+              "person_id": "WY-DUNCAN-KEITH",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/keith-duncan.html",
+              "notes": "Official 2026 Carbon clerk: Keith Duncan 267."
+            },
+            {
+              "name": "Sherry Weber",
+              "person_id": "WY-WEBER-SHERRY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/sherry-weber.html",
+              "notes": "Official 2022 Carbon clerk: Sherry Weber 277."
+            },
+            {
+              "name": "Rox Hicks",
+              "person_id": "WY-HICKS-ROX",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/rox-hicks.html",
+              "notes": "Official 2022 Carbon clerk: Rox Hicks 257."
+            },
+            {
+              "name": "Susan E. Leonhardt",
+              "person_id": "WY-LEONHARDT-SUSAN-E",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/susan-e-leonhardt.html",
+              "notes": "Official 2024 Carbon clerk, LSR Museum Vote-For-3: Susan E Leonhardt 366, Joe Jussila 364, James N Roberts 276."
+            },
+            {
+              "name": "Joe Jussila",
+              "person_id": "WY-JUSSILA-JOE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/joe-jussila.html",
+              "notes": "Official 2024 Carbon clerk: Joe Jussila 364."
+            },
+            {
+              "name": "James N. Roberts",
+              "person_id": "WY-ROBERTS-JAMES-N",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/james-n-roberts.html",
+              "notes": "Official 2024 Carbon clerk: James N Roberts 276."
+            },
+            {
+              "name": "Ann Wille",
+              "person_id": "WY-WILLE-ANN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/ann-wille.html",
+              "notes": "Official 2026 Carbon clerk, LSR Museum Vote-For-3: Ann Wille 270, Keith Duncan 267, write-in totals 33 (official summary: Gwendalynn Herold was elected with write-in votes)."
+            },
+            {
+              "name": "Gwendalynn Herold",
+              "person_id": "WY-HEROLD-GWENDALYNN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/gwendalynn-herold.html",
+              "notes": "Official 2026 Carbon clerk: Gwendalynn Herold elected with write-in votes, LSR Museum."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, LSR Museum Vote-For-3: Ann Wille 270, Keith Duncan 267, write-in totals 33 (official summary: Gwendalynn Herold was elected with write-in votes). Official 2026 Carbon clerk: Keith Duncan 267."
+        },
+        {
+          "office": "Saratoga-Ryan Park Museum District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Dawna Erickson",
+              "person_id": "WY-ERICKSON-DAWNA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/dawna-erickson.html",
+              "notes": "Official 2022 Carbon clerk, Saratoga-Ryan Park Museum was write-in only (145). Official 2022 certified write-ins: Dawna Erickson, R. Richard Perue, and Sherry Mackay."
+            },
+            {
+              "name": "R. Richard Perue",
+              "person_id": "WY-PERUE-R-RICHARD",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/r-richard-perue.html",
+              "notes": "Official 2022 certified write-ins: R. Richard Perue, Saratoga-Ryan Park Museum District."
+            },
+            {
+              "name": "Sherry Mackay",
+              "person_id": "WY-MACKAY-SHERRY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/sherry-mackay.html",
+              "notes": "Official 2022 certified write-ins: Sherry Mackay, Saratoga-Ryan Park Museum District."
+            },
+            {
+              "name": "Connie Patterson",
+              "person_id": "WY-PATTERSON-CONNIE",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/connie-patterson.html",
+              "notes": "Official 2024 Carbon clerk, Saratoga-Ryan Park Museum Vote-For-3: Connie Patterson 971, Carol Ann Beach 803, Roger Snell 777."
+            },
+            {
+              "name": "Carol Ann Beach",
+              "person_id": "WY-BEACH-CAROL-ANN",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/carol-ann-beach.html",
+              "notes": "Official 2024 Carbon clerk: Carol Ann Beach 803."
+            },
+            {
+              "name": "Roger Snell",
+              "person_id": "WY-SNELL-ROGER",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/roger-snell.html",
+              "notes": "Official 2024 Carbon clerk: Roger Snell 777."
+            },
+            {
+              "name": "Gregory Ryan",
+              "person_id": "WY-RYAN-GREGORY",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/gregory-ryan.html",
+              "notes": "Official 2026 Carbon clerk, Saratoga-Ryan Park Museum was write-in only (267). Official summary: Gregory Ryan, Logan Robinson and Nanette Valdez-Schwartz were elected with write-in votes."
+            },
+            {
+              "name": "Logan Robinson",
+              "person_id": "WY-ROBINSON-LOGAN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/logan-robinson.html",
+              "notes": "Official 2026 Carbon clerk: Logan Robinson elected with write-in votes, Saratoga-Ryan Park Museum."
+            },
+            {
+              "name": "Nanette Valdez-Schwartz",
+              "person_id": "WY-VALDEZ-SCHWARTZ-NANETTE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/nanette-valdez-schwartz.html",
+              "notes": "Official 2026 Carbon clerk: Nanette Valdez-Schwartz elected with write-in votes, Saratoga-Ryan Park Museum."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, Saratoga-Ryan Park Museum was write-in only (267). Official summary: Gregory Ryan, Logan Robinson and Nanette Valdez-Schwartz were elected with write-in votes. Official 2026 Carbon clerk: Logan Robinson elected with write-in votes, Saratoga-Ryan Park Museum."
+        },
+        {
+          "office": "Little Snake River Rural Health Care District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Megan Stocklin O'Toole",
+              "person_id": "WY-OTOOLE-MEGAN-STOCKLIN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/megan-stocklin-o-toole.html",
+              "notes": "Official 2026 Carbon clerk, LSR Rural Health Vote-For-3: Megan Stocklin O'Toole 263, Jacquelyn Harvey 232, write-in totals 137 (official summary: Joshua Ryan Taylor was elected with write-in votes)."
+            },
+            {
+              "name": "Jacquelyn Harvey",
+              "person_id": "WY-HARVEY-JACQUELYN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jacquelyn-harvey.html",
+              "notes": "Official 2026 Carbon clerk: Jacquelyn Harvey 232."
+            },
+            {
+              "name": "Ryan Mikesell",
+              "person_id": "WY-MIKESELL-RYAN",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/ryan-mikesell.html",
+              "notes": "Official 2022 certified write-ins: Ryan Mikesell, Little Snake River Rural Health Care District. Official 2022 clerk write-in totals 74."
+            },
+            {
+              "name": "Darcy Kaisler",
+              "person_id": "WY-KAISLER-DARCY",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/darcy-kaisler.html",
+              "notes": "Official 2024 Carbon clerk, LSR Health Care Vote-For-2: Darcy Kaisler 407, Brian Lally 324."
+            },
+            {
+              "name": "Brian J. Lally",
+              "person_id": "WY-LALLY-BRIAN-J",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/brian-j-lally.html",
+              "notes": "Official 2024 Carbon clerk: Brian Lally 324."
+            },
+            {
+              "name": "Joshua Ryan Taylor",
+              "person_id": "WY-TAYLOR-JOSHUA-RYAN",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/joshua-ryan-taylor.html",
+              "notes": "Official 2026 Carbon clerk: Joshua Ryan Taylor elected with write-in votes, LSR Rural Health."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, LSR Rural Health Vote-For-3: Megan Stocklin O'Toole 263, Jacquelyn Harvey 232, write-in totals 137 (official summary: Joshua Ryan Taylor was elected with write-in votes). Official 2026 Carbon clerk: Jacquelyn Harvey 232."
+        },
+        {
+          "office": "Medicine Bow Rural Health Care District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kay Embree",
+              "person_id": "WY-EMBREE-KAY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/kay-embree.html",
+              "notes": "Official 2022 Carbon clerk, Med Bow Health Vote-For-3: Kay Embree 94, write-in totals 32. Official 2022 certified write-ins also name Kendra Heward and Kenzie Strauch."
+            },
+            {
+              "name": "Kendra Heward",
+              "person_id": "WY-HEWARD-KENDRA",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/kendra-heward.html",
+              "notes": "Official 2022 certified write-ins: Kendra Heward, Medicine Bow Rural Health Care District."
+            },
+            {
+              "name": "Kenzie Strauch",
+              "person_id": "WY-STRAUCH-KENZIE",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/kenzie-strauch.html",
+              "notes": "Official 2022 certified write-ins: Kenzie Strauch, Medicine Bow Rural Health Care District."
+            },
+            {
+              "name": "Verna Cook",
+              "person_id": "WY-COOK-VERNA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/verna-cook.html",
+              "notes": "Official 2024 Carbon clerk, Med Bow Health Care Vote-For-2: Verna Cook 78, Cynthia Culver 78."
+            },
+            {
+              "name": "Cynthia Culver",
+              "person_id": "WY-CULVER-CYNTHIA",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/cynthia-culver.html",
+              "notes": "Official 2024 Carbon clerk: Cynthia Culver 78."
+            },
+            {
+              "name": "Marie Perez",
+              "person_id": "WY-PEREZ-MARIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/marie-perez.html",
+              "notes": "Official 2026 Carbon clerk, Medicine Bow Rural Health Vote-For-3: Marie Perez 68, Jennifer Reeves 66, Lucinda L. Schofield 60."
+            },
+            {
+              "name": "Jennifer Reeves",
+              "person_id": "WY-REEVES-JENNIFER",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jennifer-reeves.html",
+              "notes": "Official 2026 Carbon clerk: Jennifer Reeves 66."
+            },
+            {
+              "name": "Lucinda L. Schofield",
+              "person_id": "WY-SCHOFIELD-LUCINDA-L",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/lucinda-l-schofield.html",
+              "notes": "Official 2026 Carbon clerk: Lucinda L. Schofield 60 (4-year). Official 2026 2-year unexpired write-in also names Lucinda L. Schofield; that 2-year seat is encoded separately."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, Medicine Bow Rural Health Vote-For-3: Marie Perez 68, Jennifer Reeves 66, Lucinda L. Schofield 60. Official 2026 Carbon clerk: Jennifer Reeves 66."
+        },
+        {
+          "office": "Carbon County Fire Protection District Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Homer Beach",
+              "person_id": "WY-BEACH-HOMER",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/homer-beach.html",
+              "notes": "Official 2026 Carbon clerk: Homer Beach 442."
+            },
+            {
+              "name": "James R. \"Jim\" Piche",
+              "person_id": "WY-PICHE-JAMES-R",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/james-r-jim-piche.html",
+              "notes": "Official 2026 Carbon clerk: James R. \"Jim\" Piche 407."
+            },
+            {
+              "name": "Courtney Ney",
+              "person_id": "WY-NEY-COURTNEY",
+              "party": "",
+              "term_end": "January 2027",
+              "href": "candidates/local-history/c/courtney-ney.html",
+              "notes": "Official 2022 Carbon clerk, Carbon County Rural Fire District Vote-For-3: Courtney Ney 609, Homer Beach 559, James R. \"Jim\" Piche 491. Encoded on the official successor/current district title used on the official 2024 and 2026 canvasses (Carbon County Fire Protection District). Official 2022 formation question: For 674, Against 311."
+            },
+            {
+              "name": "Pat Waliser",
+              "person_id": "WY-WALISER-PAT",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/pat-waliser.html",
+              "notes": "Official 2024 Carbon clerk, Fire Protection Vote-For-2: Pat Waliser 927, Cory M. Nuhn 920."
+            },
+            {
+              "name": "Cory M. Nuhn",
+              "person_id": "WY-NUHN-CORY-M",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/cory-m-nuhn.html",
+              "notes": "Official 2024 Carbon clerk: Cory M. Nuhn 920."
+            },
+            {
+              "name": "Jaimie Daley",
+              "person_id": "WY-DALEY-JAIMIE",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/jaimie-daley.html",
+              "notes": "Official 2026 Carbon clerk, Fire Protection Vote-For-3: Jaimie Daley 474, Homer Beach 442, James R. \"Jim\" Piche 407."
+            }
+          ],
+          "note": "Official 2026 Carbon clerk, Fire Protection Vote-For-3: Jaimie Daley 474, Homer Beach 442, James R. \"Jim\" Piche 407. Official 2026 Carbon clerk: Homer Beach 442."
+        }
+      ]
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "layout": "office-and-name",
+      "sort_key": "J3",
+      "offices": [
+        {
+          "office": "District Judge, 2nd Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dawnessa A. Snyder",
+              "person_id": "WY-SNYDER-DAWNESSA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/dawnessa-a-snyder.html",
+              "notes": "Official 2024 Carbon clerk: DISTRICT COURT - SNYDER, YES 4,506, NO 1,108. Official Judicial Branch: Dawnessa A. Snyder, retained November 2024, term expires January 2031."
+            },
+            {
+              "name": "Misha E. Westby",
+              "person_id": "WY-WESTBY-MISHA",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/misha-e-westby.html",
+              "notes": "Official 2024 Carbon clerk: DISTRICT COURT - WESTBY, YES 4,424, NO 1,000. Official Judicial Branch full name Misha E. Westby; term expires January 2031."
+            }
+          ],
+          "note": "Official 2nd Judicial District (Carbon and Albany). Full names from the official Wyoming Judicial Branch 2nd JD page. Official 2024 Carbon clerk: DISTRICT COURT - SNYDER YES 4,506; DISTRICT COURT - WESTBY YES 4,424."
+        },
+        {
+          "office": "Circuit Judge, 2nd Judicial District",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Robert J. Sanford",
+              "person_id": "WY-SANFORD-ROBERT-J",
+              "party": "",
+              "term_end": "January 2031",
+              "href": "candidates/local-history/c/robert-j-sanford.html",
+              "notes": "Official 2026 Carbon clerk: CIRCUIT JUDGE - SANFORD, YES 3,010, NO 676. Official Judicial Branch full name Robert J. Sanford."
+            },
+            {
+              "name": "Susan K. Stipe",
+              "person_id": "WY-STIPE-SUSAN-K",
+              "party": "",
+              "term_end": "January 2029",
+              "href": "candidates/local-history/c/susan-k-stipe.html",
+              "notes": "Official 2024 Carbon clerk: CIRCUIT COURT - STIPE, YES 4,427, NO 996. Official Judicial Branch full name Susan K. Stipe."
+            }
+          ],
+          "note": "Official 2nd Judicial District circuit judges. Full names from the official Wyoming Judicial Branch 2nd JD page. Official 2024 Carbon clerk: CIRCUIT COURT - STIPE YES 4,427. Official 2026 Carbon clerk: CIRCUIT JUDGE - SANFORD YES 3,010."
         }
       ]
     },
@@ -744,12 +2327,54 @@
             }
           ]
         }
-      ]
+      ],
+      "sort_key": "P"
     }
   ],
-  "sources": {
-    "general_results": "https://www.carboncountywy.gov/DocumentCenter/View/8663/Carbon-County-2026-General-Official-Election-Summary-with-write-ins",
-    "primary_results": "https://www.carboncountywy.gov/DocumentCenter/View/8623/Carbon-County-2026-Primary-Official-Election-Summary-Report---with-write-ins",
-    "checked": "2026-11-19"
-  }
+  "sources": [
+    {
+      "label": "Official Carbon County Election Results page",
+      "url": "https://www.carboncountywy.gov/997/Election-Results"
+    },
+    {
+      "label": "Official Carbon County 2026 general election summary (DocumentCenter 8663)",
+      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8663"
+    },
+    {
+      "label": "Official Carbon County 2024 general election summary (DocumentCenter 8170)",
+      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8170"
+    },
+    {
+      "label": "Official Carbon County 2022 general election summary (DocumentCenter 6386)",
+      "url": "https://www.carboncountywy.gov/DocumentCenter/View/6386"
+    },
+    {
+      "label": "Official Carbon County 2022 general certified write-ins (DocumentCenter 6388)",
+      "url": "https://www.carboncountywy.gov/DocumentCenter/View/6388"
+    },
+    {
+      "label": "Official Carbon County 2026 County Directory (DocumentCenter 8405)",
+      "url": "https://www.carboncountywy.gov/DocumentCenter/View/8405"
+    },
+    {
+      "label": "Official Carbon County Commissioners page",
+      "url": "https://www.carboncountywy.gov/319/Commissioners"
+    },
+    {
+      "label": "Official City of Rawlins City Council page",
+      "url": "https://www.rawlinswy.gov/178/City-Council"
+    },
+    {
+      "label": "Official Wyoming Judicial Branch, District Court, 2nd Judicial District",
+      "url": "https://www.wyocourts.gov/court/district-court-2nd-judicial-district-albany-county/"
+    },
+    {
+      "label": "Official Sweetwater County election returns (SD#1 and LSR Conservation shares)",
+      "url": "https://www.sweetwatercountywy.gov/departments/county_clerk/election_returns/index.php"
+    },
+    {
+      "label": "Official Wyoming SOS statewide Senate and House candidate summaries (S11, H15, H47 district-wide totals)",
+      "url": ""
+    }
+  ]
 }

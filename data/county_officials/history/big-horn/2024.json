@@ -1,0 +1,2483 @@
+{
+  "county": "Big Horn",
+  "county_number": 9,
+  "snapshot_year": 2024,
+  "as_of": "2024-01-08",
+  "as_of_label": "January 2024 (as of 2024-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2024 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 19 (S19)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Laursen",
+              "person_id": "WY-LAURSEN-DAN",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide Senate summary, Senate District 19: Dan Laursen (R) Total 5,538. Official Big Horn share 2,637; official Park share 2,901.",
+              "href": "candidates/local-history/c/dan-laursen.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 20 (S20)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ed Cooper",
+              "person_id": "WY-COOPER-ED",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2020 statewide Senate candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide Senate summary, Senate District 20 (right column of the official two-column page with District 18): Ed Cooper (R) Total 7,497, Theresa Livingston (D) 1,293. Official Big Horn share Cooper 1,358, Livingston 171.",
+              "href": "candidates/local-history/c/ed-cooper.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 26 (H26)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dalton Banks",
+              "person_id": "WY-BANKS-DALTON",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 26: Dalton Banks (R) Total 2,931. Official Big Horn share 2,636; official Park share 295.",
+              "href": "candidates/local-history/c/dalton-banks.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 27 (H27)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Martha Lawley",
+              "person_id": "WY-LAWLEY-MARTHA",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 27: Martha Lawley (R) Total 3,143. Official Big Horn share 430; official Washakie 2,713.",
+              "href": "candidates/local-history/c/martha-lawley.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 28 (H28)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "John R. Winter",
+              "person_id": "WY-WINTER-JOHN-R",
+              "party": "Republican",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Official Wyoming SOS 2022 statewide House candidates summary (district-wide Total row)",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2022/Results/General/2022_General_Statewide_House_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide House summary, House District 28: John R. Winter (R) Total 3,139, Kimberly M. Bartlett (D) 855. Official Big Horn share Winter 644, Bartlett 90.",
+              "href": "candidates/local-history/c/john-r-winter.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Deb Craft",
+              "person_id": "WY-CRAFT-DEB",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Commissioners page, retrieved 2026-11-24",
+                  "url": "https://bighorncountywy.gov/departments/commissioners"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Deb Craft, Commission Chairman. Official 2024 canvass elected only Bruce H. Jolley (at large). This seat is on the official 2026 ballot (vote for 2).",
+              "href": "candidates/local-history/c/deb-craft.html"
+            },
+            {
+              "name": "Dave Neves",
+              "person_id": "WY-NEVES-DAVE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Commissioners page, retrieved 2026-11-24",
+                  "url": "https://bighorncountywy.gov/departments/commissioners"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official commissioners page, retrieved 2026-11-24: Dave Neves. Official 2022 class (the official 2024 canvass elected only Bruce H. Jolley).",
+              "href": "candidates/local-history/c/dave-neves.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Lori Smallwood",
+              "person_id": "WY-SMALLWOOD-LORI",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Clerk page / official 2026 canvass minutes naming County Clerk Lori Smallwood, retrieved 2026-11-24",
+                  "url": "https://bighorncountywy.gov/departments/clerk"
+                },
+                {
+                  "label": "Official Big Horn County Canvassing Board Minutes, General Election November 3, 2026, session November 5, 2026, 2:00 p.m. (County Clerk Lori Smallwood; post-election audit with no material errors).",
+                  "url": "https://bighorncountywy.gov/images/2026_General_Canvass_Minutes.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2026 canvass minutes name County Clerk Lori Smallwood. Official 2026 general: REP LORI SMALLWOOD 3,789, re-elected.",
+              "href": "candidates/local-history/c/lori-smallwood.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Nicole Vigil",
+              "person_id": "WY-VIGIL-NICOLE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Treasurer page, retrieved 2026-11-24: Nicole Vigil",
+                  "url": "https://bighorncountywy.gov/departments/treasurer"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official treasurer page, retrieved 2026-11-24: Nicole Vigil. Official 2026 general: REP NICOLE VIGIL 3,707, re-elected.",
+              "href": "candidates/local-history/c/nicole-vigil.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cozette Winters",
+              "person_id": "WY-WINTERS-COZETTE",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Assessor page, retrieved 2026-11-24: Cozette Winters, County Assessor",
+                  "url": "https://bighorncountywy.gov/departments/assessor"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official assessor page, retrieved 2026-11-24: Cozette Winters, County Assessor. Official 2026 general: REP COZETTE WINTERS 3,738, re-elected.",
+              "href": "candidates/local-history/c/cozette-winters.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jason Beal",
+              "person_id": "WY-BEAL-JASON",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Sheriff Staff page, retrieved 2026-11-24: Sheriff Jason Beal; Undersheriff Craig Shidler",
+                  "url": "https://bighorncountywy.gov/departments/sheriff/staff"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Sheriff Staff page, retrieved 2026-11-24: Sheriff Jason Beal. Official 2026 general elects Craig R. Shidler (undersheriff on the same official staff page).",
+              "href": "candidates/local-history/c/jason-beal.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Marcia E. Bean",
+              "person_id": "WY-BEAN-MARCIA-E",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Attorney page, retrieved 2026-11-24: Marcia Bean, Big Horn County & Prosecuting Attorney",
+                  "url": "https://bighorncountywy.gov/departments/attorney"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official attorney page, retrieved 2026-11-24: Marcia Bean, Big Horn County & Prosecuting Attorney. Official 2026 general: REP MARCIA E. BEAN 3,271, re-elected.",
+              "href": "candidates/local-history/c/marcia-e-bean.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Serena K. Lipp",
+              "person_id": "WY-LIPP-SERENA-K",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official 2026 Big Horn clerk Official Results Summary, Clerk of District Court: REP SERENA K. LIPP 3,824",
+                  "url": "https://bighorncountywy.gov/images/Official_General_Election_Summary_Report_2026.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2026 canvass, Clerk of District Court: REP SERENA K. LIPP 3,824, re-elected.",
+              "href": "candidates/local-history/c/serena-k-lipp.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Michael K. Jameson",
+              "person_id": "WY-JAMESON-MICHAEL-K",
+              "party": "Republican",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County Coroner page, retrieved 2026-11-24: Michael K. Jameson",
+                  "url": "https://bighorncountywy.gov/departments/coroner"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official coroner page, retrieved 2026-11-24: Michael K. Jameson. Official 2026 general: REP MICHAEL K. JAMESON 3,768, re-elected. The official canvass and official page are used (not a longer unofficial expansion of the middle name).",
+              "href": "candidates/local-history/c/michael-k-jameson.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Basin Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "CJ Duncan",
+              "person_id": "WY-DUNCAN-CJ",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Basin Mayor: CJ Duncan 288, Clayton John Draggoo 154.",
+              "href": "candidates/local-history/c/cj-duncan.html"
+            }
+          ]
+        },
+        {
+          "office": "Basin Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brent Godfrey",
+              "person_id": "WY-GODFREY-BRENT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Basin Council (vote for 2): Brent Godfrey 327, Charles E. Hopkin 254, Linda Harp 216.",
+              "href": "candidates/local-history/c/brent-godfrey.html"
+            },
+            {
+              "name": "Charles (Chuck) Hopkin",
+              "person_id": "WY-HOPKIN-CHARLES",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Basin Council (vote for 2): Charles E. Hopkin 254, Brent Godfrey 327. Official 2026 canvass elects Charles (Chuck) Hopkin as Basin Mayor; same person.",
+              "href": "candidates/local-history/c/charles-chuck-hopkin.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Burlington Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Gerald \"Jerry\" George",
+              "person_id": "WY-GEORGE-GERALD",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Burlington Mayor: Gerald \"Jerry\" George 95.",
+              "href": "candidates/local-history/c/gerald-jerry-george.html"
+            }
+          ]
+        },
+        {
+          "office": "Burlington Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Gary Brunko",
+              "person_id": "WY-BRUNKO-GARY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Burlington Council (vote for 2): Gary Brunko 83, Jessie Hamilton 75, Cortney Allen 47. Official 2026 canvass elects Gary Brunko as Burlington Mayor.",
+              "href": "candidates/local-history/c/gary-brunko.html"
+            },
+            {
+              "name": "Jessie Hamilton",
+              "person_id": "WY-HAMILTON-JESSIE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Burlington Council (vote for 2): Jessie Hamilton 75, Gary Brunko 83. Official 2026 canvass elects Jessie Hamilton to a 2-year council seat.",
+              "href": "candidates/local-history/c/jessie-hamilton.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Byron Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Allan P. Clark",
+              "person_id": "WY-CLARK-ALLAN-P",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Byron Mayor: Allan Clark 124, Pam Hopkinson 88. Official 2026 canvass uses Allan P. Clark (same person).",
+              "href": "candidates/local-history/c/allan-p-clark.html"
+            }
+          ]
+        },
+        {
+          "office": "Byron Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Brandon Hessenthaler",
+              "person_id": "WY-HESSENTHALER-BRANDON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Byron Council (vote for 2): Brandon Hessenthaler 151, Shae Abraham 120, Toby Turnupseed 89. Official 2026 canvass re-elects Brandon Hessenthaler.",
+              "href": "candidates/local-history/c/brandon-hessenthaler.html"
+            },
+            {
+              "name": "Shae C. Abraham",
+              "person_id": "WY-ABRAHAM-SHAE-C",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Byron Council (vote for 2): Shae Abraham 120, Brandon Hessenthaler 151. Official 2026 canvass uses Shae C. Abraham (same person, re-elected).",
+              "href": "candidates/local-history/c/shae-c-abraham.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Cowley Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Joel Peterson",
+              "person_id": "WY-PETERSON-JOEL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Cowley Mayor: Joel Peterson 256.",
+              "href": "candidates/local-history/c/joel-peterson.html"
+            }
+          ]
+        },
+        {
+          "office": "Cowley Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Scott Crosby",
+              "person_id": "WY-CROSBY-SCOTT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Cowley Council (vote for 2): Emily Anne Simmons 205, Scott Crosby 172, Nathan Sponsel (Nick) 92, Diane R. Badget 79. Official 2026 canvass re-elects Scott Crosby.",
+              "href": "candidates/local-history/c/scott-crosby.html"
+            },
+            {
+              "name": "Emily Anne Simmons",
+              "person_id": "WY-SIMMONS-EMILY-ANNE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Cowley Council (vote for 2): Emily Anne Simmons 205, Scott Crosby 172.",
+              "href": "candidates/local-history/c/emily-anne-simmons.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Deaver Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bill Camp",
+              "person_id": "WY-CAMP-BILL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Deaver Mayor: Bill Camp 49. Official 2026 canvass re-elects Bill Camp.",
+              "href": "candidates/local-history/c/bill-camp.html"
+            }
+          ]
+        },
+        {
+          "office": "Deaver Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Kayla James",
+              "person_id": "WY-JAMES-KAYLA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Deaver Council (vote for 2): Kayla James 45, Steve Gillett 44. Official 2026 canvass re-elects Kayla James.",
+              "href": "candidates/local-history/c/kayla-james.html"
+            },
+            {
+              "name": "Steve Gillett",
+              "person_id": "WY-GILLETT-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Deaver Council (vote for 2): Steve Gillett 44, Kayla James 45.",
+              "href": "candidates/local-history/c/steve-gillett.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Frannie Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Steve Richardson",
+              "person_id": "WY-RICHARDSON-STEVE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Frannie Mayor: Steve Richardson 26, R. Vance Peregoy 22.",
+              "href": "candidates/local-history/c/steve-richardson.html"
+            }
+          ]
+        },
+        {
+          "office": "Frannie Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Keara Poole",
+              "person_id": "WY-POOLE-KEARA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Frannie Council 4-year (vote for 2): Keara Poole 45, Garret I. Frescoln 41. Official 2026 canvass re-elects Keara Poole.",
+              "href": "candidates/local-history/c/keara-poole.html"
+            },
+            {
+              "name": "Garret I. Frescoln",
+              "person_id": "WY-FRESCOLN-GARRET-I",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Frannie Council 4-year (vote for 2): Garret I. Frescoln 41, Keara Poole 45. Official 2026 canvass elects Garret I. Frescoln as Frannie Mayor.",
+              "href": "candidates/local-history/c/garret-i-frescoln.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Greybull Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Myles R. Foley",
+              "person_id": "WY-FOLEY-MYLES-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 Custom Table Report page 27 of 74 (OFFICIAL RESULTS, visually confirmed on the two-column page with Frannie Council 2yr): Greybull Mayor, vote for 1, MYLES R. FOLEY 414, write-ins 43, Total Votes Cast 457, undervotes 103, contest total 560.",
+              "href": "candidates/local-history/c/myles-r-foley.html"
+            }
+          ]
+        },
+        {
+          "office": "Greybull Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Blaine Jolley",
+              "person_id": "WY-JOLLEY-BLAINE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Greybull Council 4-year (vote for 2): Blaine Jolley 370, Dean S. Miars 278, Jeremy Kottman 237.",
+              "href": "candidates/local-history/c/blaine-jolley.html"
+            },
+            {
+              "name": "Dean S. Miars",
+              "person_id": "WY-MIARS-DEAN-S",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Greybull Council 4-year (vote for 2): Dean S. Miars 278, Blaine Jolley 370.",
+              "href": "candidates/local-history/c/dean-s-miars.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Lovell Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tom Newman",
+              "person_id": "WY-NEWMAN-TOM",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Lovell Mayor: Tom Newman 597. Official 2026 canvass re-elects Tom Newman.",
+              "href": "candidates/local-history/c/tom-newman.html"
+            }
+          ]
+        },
+        {
+          "office": "Lovell Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Robert Mangus",
+              "person_id": "WY-MANGUS-ROBERT",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Lovell Council 4-year (vote for 2): Daniel L. Anderson 531, Bob Mangus 518. Official 2026 canvass re-elects Robert Mangus (same official person).",
+              "href": "candidates/local-history/c/robert-mangus.html"
+            },
+            {
+              "name": "Daniel L. Anderson",
+              "person_id": "WY-ANDERSON-DANIEL-L",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Lovell Council 4-year (vote for 2): Daniel L. Anderson 531, Bob Mangus 518. Official 2026 canvass re-elects Daniel L. Anderson.",
+              "href": "candidates/local-history/c/daniel-l-anderson.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Manderson Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Rod Patrick",
+              "person_id": "WY-PATRICK-ROD",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, Manderson Mayor: Rod Patrick 30, Barbara Wall 16.",
+              "href": "candidates/local-history/c/rod-patrick.html"
+            }
+          ]
+        },
+        {
+          "office": "Burlington Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Deaver Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Frannie Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Greybull Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Manderson Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Manderson Town Council (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Big Horn County School District #1 Trustee Area D",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "David V. Banks",
+              "person_id": "WY-BANKS-DAVID-V",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, BHSD #1 Area D Cowley: David V. Banks 1,006.",
+              "href": "candidates/local-history/c/david-v-banks.html"
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #3 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "William D. Robertson",
+              "person_id": "WY-ROBERTSON-WILLIAM-D",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, BHSD #3 At Large (vote for 4): Lynette Murray 861, William D. Robertson 730 were the named official winners (write-ins 234 are not combined into a certified name). Official 2026 canvass re-elects William D. Robertson.",
+              "href": "candidates/local-history/c/william-d-robertson.html"
+            },
+            {
+              "name": "Lynette Murray",
+              "person_id": "WY-MURRAY-LYNETTE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, BHSD #3 At Large (vote for 4): Lynette Murray 861, William D. Robertson 730. Official 2026 canvass re-elects Lynette Murray.",
+              "href": "candidates/local-history/c/lynette-murray.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #4 Trustee Area J",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Gregory Gloy",
+              "person_id": "WY-GLOY-GREGORY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Big Horn County General Election Custom Table Report, November 8, 2022 (header OFFICIAL RESULTS, Big HornWY General Election 221108; footer Custom Table Report - 11/10/2022 09:16AM). Posted as Official 2022 General Election Results from the official elections page.",
+                  "url": "https://bighorncountywy.gov/component/edocman/official-2022-general-election-results/viewdocument/772?Itemid="
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 canvass, BHSD #4 Area J Basin: Gregory Gloy 718. Official 2026 canvass re-elects Gregory Gloy.",
+              "href": "candidates/local-history/c/gregory-gloy.html"
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area A",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area B",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #1 Trustee Area C",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #2 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #2 Trustee At Large (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #4 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn County School District #4 Trustee Area K/L",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "Burlington Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Burlington Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Byron Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Cowley Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Cowley Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Deaver-Frannie Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Deaver-Frannie Cemetery District Trustee (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Emblem Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Hyattville Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Lovell Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Otto Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Central Special Cemetery District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Central Special Cemetery District Trustee (2-year)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Shoshone Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Shoshone Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Shoshone Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn Conservation District Rural Supervisor",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn Conservation District Urban Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn Conservation District At-Large Supervisor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #1 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #2 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #3 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #4 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Big Horn Fire District #5 Director",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 1",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 2",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 3",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 4",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Park County Fire Protection District #1 Director 5",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee Lovell",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee Byron-Cowley",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Big Horn County Hospital District Trustee Deaver-Frannie",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Big Horn County Hospital District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Senior Citizen Service District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "North Senior Citizen Service District Trustee At Large (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Senior Citizen Service District Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "South Senior Citizen Service District Trustee At Large (2-year)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Rural Health District #1 Trustee At Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            },
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bobbi Overfield",
+              "person_id": "WY-OVERFIELD-BOBBI",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Official Wyoming Judicial Branch March 2026 roster titles already used in the official Park and Washakie histories: Fifth Judicial District Judge Bobbi Overfield (Big Horn/Hot Springs/Washakie); Fifth Judicial Circuit Judge Ed Luhm (Edward G. Luhm) (Big Horn/Hot Springs/Washakie); Fifth Judicial District Judge Bill Simpson (Park); Circuit Judge Joey Darrah (Park).",
+                  "url": ""
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official March 2026 judicial roster title already used in the official Park and Washakie histories. Official 2020 retention. Distinct from any other Overfield.",
+              "href": "candidates/local-history/c/bobbi-overfield.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Big Horn / Hot Springs / Washakie)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "District Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 5th Judicial District (Park)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Not yet collected",
+              "person_id": "",
+              "party": "",
+              "notes": "No official name collected for this seat in this January."
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are Fifth Judicial District and Circuit judges serving Big Horn with Hot Springs and Washakie (Bobbi Overfield, Ed Luhm / Edward G. Luhm) and the Park-seat judges (Bill Simpson, Joey Darrah), from official court roster titles already used in the official Park and Washakie histories. Official 2026 Big Horn canvass retention for Judge Bobbi Overfield is YES 2,876 / NO 722. Official 2026 RETAIN JUDGE BEN BURNINGHAM is the statewide Chancery Court retention already in the shared terms, not a Fifth Judicial District circuit office.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/big-horn/terms.json",
+  "retrieved": "2026-11-24"
+}

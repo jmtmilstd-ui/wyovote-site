@@ -1,0 +1,1406 @@
+{
+  "county": "Weston",
+  "county_number": 21,
+  "snapshot_year": 2026,
+  "as_of": "2026-01-08",
+  "as_of_label": "January 2026 (as of 2026-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2026 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2031",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Harriet Hageman",
+              "person_id": "WY-HAGEMAN-HARRIET",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/hageman.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chuck Gray",
+              "person_id": "WY-GRAY-CHUCK",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gray.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Megan Degenfelder",
+              "person_id": "WY-DEGENFELDER-MEGAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/degenfelder.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 1 (S01)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Ogden Driskill",
+              "person_id": "WY-DRISKILL-OGDEN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                },
+                {
+                  "label": "WyoVote 113 County Report for Weston (legislators serving that session)",
+                  "url": ""
+                },
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide Senate summary, Senate District 1: Ogden Driskill (R) Total 4,785. Official Weston share 819; official Crook share 2,029; official Campbell share 1,937.",
+              "href": "officials/driskill.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 3 (S03)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Cheri Steinmetz",
+              "person_id": "WY-STEINMETZ-CHERI",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                },
+                {
+                  "label": "WyoVote 113 County Report for Weston (legislators serving that session)",
+                  "url": ""
+                },
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2022 SOS statewide Senate summary, Senate District 3: Cheri Steinmetz (R) Total 6,352. Official Weston share 1,362; official Goshen share 4,017; official Niobrara share 973.",
+              "href": "officials/steinmetz.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 1 (H01)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Chip Neiman",
+              "person_id": "WY-NEIMAN-CHIP",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "WyoVote 113 County Report for Weston (legislators serving that session)",
+                  "url": ""
+                },
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 SOS statewide House summary, House District 1: Chip Neiman (R) Total 5,096. Official Weston share 1,268; official Crook share 3,828.",
+              "href": "officials/neiman.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 2 (H02)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "JD Williams",
+              "person_id": "WY-WILLIAMS-JD",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "WyoVote 113 County Report for Weston (legislators serving that session)",
+                  "url": ""
+                },
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 SOS statewide House summary, House District 2: JD Williams (R) Total 3,834. Official Weston share 1,662; official Goshen share 1,125; official Niobrara share 1,047.",
+              "href": "officials/williams.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Garrett Borton",
+              "person_id": "WY-BORTON-GARRETT",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/garrett-borton.html"
+            },
+            {
+              "name": "Nathan Todd",
+              "person_id": "WY-TODD-NATHAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/nathan-todd.html",
+              "role": "Chairman"
+            },
+            {
+              "name": "Vera Huber",
+              "person_id": "WY-HUBER-VERA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/vera-huber.html"
+            },
+            {
+              "name": "Ed Wagoner",
+              "person_id": "WY-WAGONER-ED",
+              "party": "R",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ed-wagoner.html",
+              "role": "Vice Chairman"
+            },
+            {
+              "name": "Marty Ertman",
+              "person_id": "WY-ERTMAN-MARTY",
+              "party": "R",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/marty-ertman.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Becky Hadlock",
+              "person_id": "WY-HADLOCK-BECKY",
+              "party": "R",
+              "term_end": "January 2026",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                },
+                {
+                  "label": "WyoFile, April 20, 2026, Judge dismisses case to remove Weston County clerk (resignation effective April 9, 2026; vacancy declared April 14, 2026)",
+                  "url": "https://wyofile.com/judge-dismisses-case-to-remove-weston-county-clerk-following-her-resignation/"
+                },
+                {
+                  "label": "Weston County official special minutes, April 14, 2026 (Hadlock resignation accepted; Deputy Clerk Amber Green appointed Acting County Clerk; Resolution 2026-12)",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/04/April-14-2026-Special-Meeting-Minutes.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned effective April 9, 2026 (stipulated dismissal filing reported by WyoFile; resignation letter dated April 9). Commissioners accepted it and declared the office vacant April 14, 2026.",
+              "href": "candidates/local-history/c/becky-hadlock.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Susan Overman",
+              "person_id": "WY-OVERMAN-SUSAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/susan-overman.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kara Lenardson",
+              "person_id": "WY-LENARDSON-KARA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kara-lenardson.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Bryan E. Colvard",
+              "person_id": "WY-COLVARD-BRYAN",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bryan-e-colvard.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Michael Stulken",
+              "person_id": "WY-STULKEN-MICHAEL",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/michael-stulken.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Scott E. Beachler",
+              "person_id": "WY-BEACHLER-SCOTT",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/scott-e-beachler.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tina Cote",
+              "person_id": "WY-COTE-TINA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tina-cote.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Newcastle Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Tyrel Owens",
+              "person_id": "WY-OWENS-TYREL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2024-local/c/tyrel-owens.html"
+            }
+          ]
+        },
+        {
+          "office": "Newcastle City Council, at-large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Ann McColley",
+              "person_id": "WY-MCCOLLEY-ANN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2022-local/c/ann-mccolley.html"
+            },
+            {
+              "name": "Don Steveson",
+              "person_id": "WY-STEVESON-DON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2026-local/c/don-steveson.html"
+            },
+            {
+              "name": "John G. Butts",
+              "person_id": "WY-BUTTS-JOHN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2022-local/c/john-g-butts.html"
+            },
+            {
+              "name": "Daren Downs",
+              "person_id": "WY-DOWNS-DAREN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2024-local/c/daren-downs.html"
+            },
+            {
+              "name": "Chris Kenney",
+              "person_id": "WY-KENNEY-CHRIS",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2024-local/c/chris-kenney.html"
+            },
+            {
+              "name": "Thomas Voss",
+              "person_id": "WY-VOSS-THOMAS",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2024-local/c/thomas-voss.html",
+              "role": "President"
+            }
+          ]
+        },
+        {
+          "office": "Upton Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Nick Trandahl",
+              "person_id": "WY-TRANDAHL-NICK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2022-local/c/nick-trandahl.html"
+            }
+          ]
+        },
+        {
+          "office": "Upton Town Council, at-large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Tiffany McMillan",
+              "person_id": "WY-MCMILLAN-TIFFANY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2022-local/c/tiffany-mcmillan.html"
+            },
+            {
+              "name": "Joe Watt",
+              "person_id": "WY-WATT-JOE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2026-local/c/joe-watt.html"
+            },
+            {
+              "name": "Justin Norman",
+              "person_id": "WY-NORMAN-JUSTIN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2024 summary is a scanned page. Named candidates plus write-ins were read as 743 against a printed Total Votes Cast of 745. The 2-vote difference is flagged, not forced.",
+              "href": "candidates/2024-local/c/justin-norman.html",
+              "flags": [
+                "results_do_not_tie"
+              ]
+            },
+            {
+              "name": "Rick Rothleutner",
+              "person_id": "WY-ROTHLEUTNER-RICK",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/2024-local/c/rick-rothleutner.html",
+              "flags": [
+                "results_do_not_tie"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "Weston County School District #1 Board, at-large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Sean Crabtree",
+              "person_id": "WY-CRABTREE-SEAN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sean-crabtree.html",
+              "ballot_name": "SEAN CRABTREE"
+            },
+            {
+              "name": "Dana Gordon",
+              "person_id": "WY-GORDON-DANA",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dana-gordon.html",
+              "ballot_name": "DANA GORDON"
+            },
+            {
+              "name": "Joe Prell",
+              "person_id": "WY-PRELL-JOE",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/joe-prell.html",
+              "ballot_name": "JOE PRELL"
+            },
+            {
+              "name": "Jason Jenkins",
+              "person_id": "WY-JENKINS-JASON",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jason-jenkins.html",
+              "ballot_name": "JASON JENKINS"
+            },
+            {
+              "name": "Dana Mann-Tavegia",
+              "person_id": "WY-MANN-TAVEGIA-DANA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/dana-mann-tavegia.html",
+              "ballot_name": "DANA MANN-TAVEGIA"
+            },
+            {
+              "name": "Billy Fitzwater",
+              "person_id": "WY-FITZWATER-BILLY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/billy-fitzwater.html",
+              "ballot_name": "BILLY FITZWATER"
+            },
+            {
+              "name": "Tyler Mills",
+              "person_id": "WY-MILLS-TYLER",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/tyler-mills.html",
+              "ballot_name": "TYLER J. MILLS"
+            },
+            {
+              "name": "Susan Pillen",
+              "person_id": "WY-PILLEN-SUSAN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/susan-pillen.html",
+              "ballot_name": "SUSAN PILLEN"
+            },
+            {
+              "name": "Paul Bau",
+              "person_id": "WY-BAU-PAUL",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/paul-bau.html",
+              "ballot_name": "PAUL BAU"
+            }
+          ]
+        },
+        {
+          "office": "Weston County School District #7 Board, at-large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Justin Mills",
+              "person_id": "WY-MILLS-JUSTIN",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/justin-mills.html"
+            },
+            {
+              "name": "Ty Miller",
+              "person_id": "WY-MILLER-TY",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/ty-miller.html"
+            },
+            {
+              "name": "Mark Mitchell",
+              "person_id": "WY-MITCHELL-MARK",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mark-mitchell.html"
+            },
+            {
+              "name": "Diana White",
+              "person_id": "WY-WHITE-DIANA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/diana-white.html"
+            },
+            {
+              "name": "Curtis Rankin",
+              "person_id": "WY-RANKIN-CURTIS",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/curtis-rankin.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [],
+      "note": "Elected special-district trustees were found only in the official May 8, 2018 Hospital District and Museum District canvasses (serving into 2022). Other years are Not yet collected. November ballot questions (mill levies, taxes) are not officeholders.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial (district, circuit, and statewide justices on file)",
+      "offices": [
+        {
+          "office": "Circuit Judge, 6th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Wendy M. Bartlett",
+              "person_id": "WY-BARTLETT-WENDY",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2012 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/EL45-Cumulative-OFFICIAL-2012-General.pdf"
+                },
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained on the Weston official general ballot in 2012, 2016, 2020, and 2024 (4-year cycle). 2012: yes 2,317 / no 676; 2016: yes 2,295 / no 832; 2020: yes 2,512 / no 574; 2024 yes 2,282 (NO not clearly readable on the scanned official summary).",
+              "href": "candidates/local-history/c/wendy-m-bartlett.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2512,
+                "no": 574,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "Matthew F.G. Castano",
+              "person_id": "WY-CASTANO-MATTHEW",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2016 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/WestonCounty_EL45_10Nov2016_OFFICIAL_RESULTS.pdf"
+                },
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained in 2016, 2020, and 2024. 2016: yes 2,199 / no 923; 2020: yes 2,372 / no 693; 2024 yes 2,279 (NO not clearly readable).",
+              "href": "candidates/local-history/c/matthew-f-g-castano.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2372,
+                "no": 693,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "Paul S. Phillips",
+              "person_id": "WY-PHILLIPS-PAUL",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2018 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2021/01/Weston-County-OFFICIAL-RESULTS_11.9.2018-EL45.pdf"
+                },
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained in 2018 (yes 1,804 / no 530) and 2022 (yes 1,825 / no 629).",
+              "href": "candidates/local-history/c/paul-s-phillips.html",
+              "retention": {
+                "year": 2022,
+                "yes": 1825,
+                "no": 629,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+              }
+            },
+            {
+              "name": "Lynda R. Bush",
+              "person_id": "WY-BUSH-LYNDA",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Weston circuit court",
+                  "url": "https://www.wyocourts.gov/court/circuit-court-of-the-6th-judicial-district-weston-county-state-of-wyoming-newcastle/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2024: yes 2,175 / no 797.",
+              "href": "officials/judges/lynda-r-bush.html",
+              "retention": {
+                "year": 2024,
+                "yes": 2175,
+                "no": 797,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+              }
+            },
+            {
+              "name": "James Michael Causey",
+              "person_id": "WY-CAUSEY-JAMES-M",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2024, yes 2,232 (NO not clearly readable on the scanned official summary). Distinct from Park County WY-CAUSEY-JAMES.",
+              "href": "candidates/local-history/c/james-michael-causey.html",
+              "retention": {
+                "year": 2024,
+                "yes": 2232,
+                "no": null,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "office": "District Judge, 6th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Thomas W. Rumpke",
+              "person_id": "WY-RUMPKE-THOMAS",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2014 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+                },
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2014 and 2020 (2020: yes 2,379 / no 767).",
+              "href": "candidates/local-history/c/thomas-w-rumpke.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2379,
+                "no": 767,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "John R. Perry",
+              "person_id": "WY-PERRY-JOHN-R",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Weston County official 2014 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2019/05/2014-General-EL45-Cumulative.pdf"
+                },
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2014 and 2020 (2020: yes 2,423 / no 682). Distinct from Natrona precinct committeeman WY-PERRY-JOHN.",
+              "href": "candidates/local-history/c/john-r-perry.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2423,
+                "no": 682,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "John C. Healy III",
+              "person_id": "WY-HEALY-JOHN",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2022 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Retained 2022: yes 1,845 / no 634.",
+              "href": "candidates/local-history/c/john-c-healy-iii.html",
+              "retention": {
+                "year": 2022,
+                "yes": 1845,
+                "no": 634,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2022/11/Weston-County-Official-Results-General-2022.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Justice of the Wyoming Supreme Court",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Lynne Boomgaarden",
+              "person_id": "WY-BOOMGAARDEN-LYNNE",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Welcome Justice Lynne Boomgaarden, February 20, 2018",
+                  "url": "https://www.wyocourts.gov/news/welcome-justice-lynne-boomgaarden/"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Chief Justice Lynne Boomgaarden",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Judicial Branch: tenure began February 20, 2018, appointed by Gov. Mead to succeed William U. Hill. Retained 2020: yes 2,498 / no 654. Official term expires January 2029.",
+              "href": "candidates/local-history/c/lynne-boomgaarden.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2498,
+                "no": 654,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "Kari Jo Gray",
+              "person_id": "WY-GRAY-KARI",
+              "party": "",
+              "term_end": "January 2029",
+              "sources": [
+                {
+                  "label": "Weston County official 2020 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Welcome Justice Kari Jo Gray (tenure began October 9, 2018)",
+                  "url": "https://www.wyocourts.gov/news/welcome-justice-kari-jo-gray/"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Justice Kari Gray",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Judicial Branch: tenure began October 9, 2018, appointed by Gov. Mead to succeed E. James Burke. Retained 2020: yes 2,468 / no 649. Official term expires January 2029.",
+              "href": "candidates/local-history/c/kari-jo-gray.html",
+              "retention": {
+                "year": 2020,
+                "yes": 2468,
+                "no": 649,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2020/11/Official-General-Election-2020.pdf"
+              }
+            },
+            {
+              "name": "John G. Fenn",
+              "person_id": "WY-FENN-JOHN",
+              "party": "",
+              "term_end": "January 2033",
+              "sources": [
+                {
+                  "label": "Weston County official 2024 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Judicial Nominating Commission, Davis retirement January 16, 2022",
+                  "url": "https://www.wyocourts.gov/app/uploads/2025/05/News-Release-Announcing-Vacancy-Wyoming-Supreme-Court.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Justice John G. Fenn sworn in",
+                  "url": "https://www.wyocourts.gov/news/robing-ceremony-for-wyoming-supreme-court-justice-john-g-fenn/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Appointed by Gov. Gordon after Justice Davis retired January 16, 2022 (official JNC release). Term treated as starting January 17, 2022, the next day; the official robing announcement does not print the first day on the bench. Retained 2024, yes 2,187 (NO not clearly readable on the scanned official summary).",
+              "href": "candidates/local-history/c/john-g-fenn.html",
+              "retention": {
+                "year": 2024,
+                "yes": 2187,
+                "no": null,
+                "result": "retained",
+                "source": "https://www.westongov.com/wp-content/uploads/2024/11/Official-Weston-County-2024-General-Election-Summary.pdf"
+              }
+            },
+            {
+              "name": "Robert C. Jarosh",
+              "person_id": "WY-JAROSH-ROBERT",
+              "party": "",
+              "term_end": "January 2035",
+              "sources": [
+                {
+                  "label": "Weston County official 2026 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Justice Robert C. Jarosh",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Judicial Branch: sworn in March 27, 2024, succeeding Keith G. Kautz (retired March 26, 2024). Retained 2026.",
+              "href": "officials/judges/robert-c-jarosh.html"
+            },
+            {
+              "name": "Bridget Hill",
+              "person_id": "WY-HILL-BRIDGET",
+              "party": "",
+              "term_end": "January 2035",
+              "sources": [
+                {
+                  "label": "Weston County official 2026 general results",
+                  "url": "https://www.westongov.com/wp-content/uploads/2026/11/official-local-gen-sum.pdf"
+                },
+                {
+                  "label": "Wyoming Judicial Branch, Supreme Court, Justice Bridget Hill",
+                  "url": "https://www.wyocourts.gov/supreme-court/"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official Judicial Branch: sworn in May 28, 2025, succeeding Kate M. Fox (retired May 27, 2025). Retained 2026.",
+              "href": "officials/judges/bridget-hill.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices are the five who were in office this January, using official Wyoming Judicial Branch appointment and retirement dates together with Weston County retention results. Circuit, district, and magistrate rows are limited to judges who appeared on a Weston County official retention ballot in an adjoining cycle, plus the Weston circuit-court listing for Judge Bush when that listing applies; those local benches may be incomplete.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee people are from official primary results for 2020, 2022, and 2024 (named winners only). Official 2012–2018 primary PDFs are archived under /workspace/wyoleg/local-results/weston/<year>/ but the two-column scanned EL45 reports were not fully keyed; those years are marked Not yet collected.",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/weston/terms.json",
+  "retrieved": "2026-11-23"
+}

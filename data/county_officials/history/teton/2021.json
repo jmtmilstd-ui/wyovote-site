@@ -1,0 +1,1219 @@
+{
+  "county": "Teton",
+  "county_number": 22,
+  "snapshot_year": 2021,
+  "as_of": "2021-01-08",
+  "as_of_label": "January 2021 (as of 2021-01-08, after the first Monday in January and after January 3 congressional terms, America/Denver)",
+  "intro": "Names are the people in office in January 2021 (as of January 8).",
+  "groups": [
+    {
+      "id": "federal",
+      "title": "Federal offices",
+      "offices": [
+        {
+          "office": "U.S. Senator",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "John Barrasso",
+              "person_id": "WY-BARRASSO-JOHN",
+              "party": "R",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/barrasso.html"
+            },
+            {
+              "name": "Cynthia Lummis",
+              "person_id": "WY-LUMMIS-CYNTHIA",
+              "party": "R",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/lummis.html"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Liz Cheney",
+              "person_id": "WY-CHENEY-ELIZABETH",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Wyoming SOS official election results",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cheney-elizabeth.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "A"
+    },
+    {
+      "id": "statewide",
+      "title": "Statewide offices",
+      "offices": [
+        {
+          "office": "Governor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mark Gordon",
+              "person_id": "WY-GORDON-MARK",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/gordon.html"
+            }
+          ]
+        },
+        {
+          "office": "Secretary of State",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Edward A. Buchanan",
+              "person_id": "WY-BUCHANAN-EDWARD",
+              "party": "R",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned September 15, 2022 (official State Officers Roster).",
+              "href": "candidates/local-history/c/edward-a-buchanan.html"
+            }
+          ]
+        },
+        {
+          "office": "State Auditor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Kristi Racines",
+              "person_id": "WY-RACINES-KRISTI",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/racines.html"
+            }
+          ]
+        },
+        {
+          "office": "State Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Curt Meier",
+              "person_id": "WY-MEIER-CURTIS",
+              "party": "R",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "officials/meier.html"
+            }
+          ]
+        },
+        {
+          "office": "Superintendent of Public Instruction",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jillian Balow",
+              "person_id": "WY-BALOW-JILLIAN",
+              "party": "R",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "WyoVote statewide officials file (official SOS rosters and results)",
+                  "url": "https://sos.wyo.gov/Elections/ElectionResults.aspx"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Resigned January 16, 2022.",
+              "href": "candidates/local-history/c/balow-jillian.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "B"
+    },
+    {
+      "id": "state-senate",
+      "title": "State Senate",
+      "offices": [
+        {
+          "office": "Senate District 16 (S16)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Dan Dockstader",
+              "person_id": "WY-DOCKSTADER-DAN",
+              "party": "REP",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2020 statewide Senate candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_Senate_Candidates_Summary.pdf"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk: Dan Dockstader 1,258 to 137 write-ins (Teton portion). Official 2020 SOS statewide Senate summary also lists Dockstader in S16.",
+              "href": "candidates/local-history/c/dan-dockstader.html"
+            }
+          ]
+        },
+        {
+          "office": "Senate District 17 (S17)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mike Gierau",
+              "person_id": "WY-GIERAU-MIKE",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Teton clerk (OCR of official scan): Mike Gierau 6,008, Kate Mead 3,631.",
+              "href": "candidates/local-history/c/mike-gierau.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "C"
+    },
+    {
+      "id": "state-house",
+      "title": "State House",
+      "offices": [
+        {
+          "office": "House District 16 (H16)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Mike Yin",
+              "person_id": "WY-YIN-MIKE",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mike-yin.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 22 (H22)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Jim Roscoe",
+              "person_id": "WY-ROSCOE-JIM",
+              "party": "IND",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2020 statewide House candidates summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_General_Statewide_House_Candidates_Summary.pdf"
+                },
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 SOS statewide House summary totals: Jim Roscoe 3,191, Bill Winney 2,825. Official 2020 Teton clerk portion: Roscoe 1,679, Winney 635.",
+              "href": "candidates/local-history/c/jim-roscoe.html"
+            }
+          ]
+        },
+        {
+          "office": "House District 23 (H23)",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Andy Schwartz",
+              "person_id": "WY-SCHWARTZ-ANDY",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/andy-schwartz.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "D"
+    },
+    {
+      "id": "county",
+      "title": "County Offices",
+      "offices": [
+        {
+          "office": "County Commissioner",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Mark Newcomb",
+              "person_id": "WY-NEWCOMB-MARK",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mark-newcomb.html"
+            },
+            {
+              "name": "Luther Propst",
+              "person_id": "WY-PROPST-LUTHER",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Teton clerk is an official scan. OCR of that official summary: Mark Newcomb 6,128, Luther Propst 5,090 (14.33%), Mark Barron 5,013.",
+              "href": "candidates/local-history/c/luther-propst.html"
+            },
+            {
+              "name": "Mark Barron",
+              "person_id": "WY-BARRON-MARK",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/mark-barron.html"
+            },
+            {
+              "name": "Natalia D. Macker",
+              "person_id": "WY-MACKER-NATALIA-D",
+              "party": "DEM",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/natalia-d-macker.html"
+            },
+            {
+              "name": "Gregory W. Epstein",
+              "person_id": "WY-EPSTEIN-GREGORY-W",
+              "party": "DEM",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk Vote-For-2: Natalia D. Macker 6,647, Gregory W. Epstein 5,149.",
+              "href": "candidates/local-history/c/gregory-w-epstein.html"
+            }
+          ]
+        },
+        {
+          "office": "County Clerk",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Sherry L. Daigle",
+              "person_id": "WY-DAIGLE-SHERRY-L",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/sherry-l-daigle.html"
+            }
+          ]
+        },
+        {
+          "office": "County Treasurer",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Katie Smits",
+              "person_id": "WY-SMITS-KATIE",
+              "party": "REP",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/katie-smits.html"
+            }
+          ]
+        },
+        {
+          "office": "County Assessor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Melissa \"Mel\" Shinkle",
+              "person_id": "WY-SHINKLE-MELISSA",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/melissa-mel-shinkle.html"
+            }
+          ]
+        },
+        {
+          "office": "County Sheriff",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Matt Carr",
+              "person_id": "WY-CARR-MATT",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/matt-carr.html"
+            }
+          ]
+        },
+        {
+          "office": "County Attorney",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Erin Weisman",
+              "person_id": "WY-WEISMAN-ERIN-E",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/erin-e-weisman.html"
+            }
+          ]
+        },
+        {
+          "office": "Clerk of District Court",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Anne Comeaux Sutton",
+              "person_id": "WY-SUTTON-ANNE-COMEAUX",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/anne-comeaux-sutton.html"
+            }
+          ]
+        },
+        {
+          "office": "County Coroner",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Brent \"Doc\" Blue",
+              "person_id": "WY-BLUE-BRENT",
+              "party": "DEM",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/brent-doc-blue.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "E"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal offices",
+      "offices": [
+        {
+          "office": "Jackson Mayor",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Hailey Morton Levinson",
+              "person_id": "WY-LEVINSON-HAILEY-MORTON",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk: Hailey Morton Levinson 3,405, Michael Kudar 2,140.",
+              "href": "candidates/local-history/c/hailey-morton-levinson.html"
+            }
+          ]
+        },
+        {
+          "office": "Jackson Town Council",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Jonathan Schechter",
+              "person_id": "WY-SCHECHTER-JONATHAN",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jonathan-schechter.html"
+            },
+            {
+              "name": "Arne Olaus Jorgensen",
+              "person_id": "WY-JORGENSEN-ARNE-OLAUS",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Teton clerk (OCR of official scan) Vote-For-2: Jonathan Schechter 2,178, Arne Olaus Jorgensen 2,040.",
+              "href": "candidates/local-history/c/arne-olaus-jorgensen.html"
+            },
+            {
+              "name": "Jim Rooks",
+              "person_id": "WY-ROOKS-JIM",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jim-rooks.html"
+            },
+            {
+              "name": "Jessica Chambers",
+              "person_id": "WY-CHAMBERS-JESSICA-SELL",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk Vote-For-2: Jim Rooks 2,797, Jessica Chambers 2,574.",
+              "href": "candidates/local-history/c/jessica-sell-chambers.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "F"
+    },
+    {
+      "id": "schools",
+      "title": "School boards",
+      "offices": [
+        {
+          "office": "TCSD #1 Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Alan Brumsted",
+              "person_id": "WY-BRUMSTED-ALAN",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/alan-brumsted.html"
+            },
+            {
+              "name": "Keith Gingery",
+              "person_id": "WY-GINGERY-KEITH",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/keith-gingery.html"
+            },
+            {
+              "name": "Janine Bay Teske",
+              "person_id": "WY-TESKE-JANINE-BAY",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Teton clerk (OCR of official scan) Vote-For-3: Alan Brumsted 5,266, Keith Gingery 5,053, Janine Bay Teske 4,257.",
+              "href": "candidates/local-history/c/janine-bay-teske.html"
+            },
+            {
+              "name": "Kate Mead",
+              "person_id": "WY-MEAD-KATE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/kate-mead.html"
+            },
+            {
+              "name": "Betsy Carlin",
+              "person_id": "WY-CARLIN-BETSY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/betsy-carlin.html"
+            },
+            {
+              "name": "Jennifer Zung",
+              "person_id": "WY-ZUNG-JENNIFER",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/jennifer-zung.html"
+            },
+            {
+              "name": "Bill Scarlett",
+              "person_id": "WY-SCARLETT-BILL",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk Vote-For-4: Kate Mead 8,209, Betsy Carlin 7,230, Jennifer Zung 6,388, Bill Scarlett 5,928.",
+              "href": "candidates/local-history/c/bill-scarlett.html"
+            }
+          ]
+        }
+      ],
+      "note": "",
+      "sort_key": "G"
+    },
+    {
+      "id": "special-districts",
+      "title": "Special districts",
+      "offices": [
+        {
+          "office": "St. John's Hospital District Trustee",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Joe Albright",
+              "person_id": "WY-ALBRIGHT-JOE",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/joe-albright.html"
+            },
+            {
+              "name": "Linda Aurelio",
+              "person_id": "WY-AURELIO-LINDA",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/linda-aurelio.html"
+            },
+            {
+              "name": "Elizabeth Masek",
+              "person_id": "WY-MASEK-ELIZABETH-C",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/elizabeth-c-masek.html"
+            },
+            {
+              "name": "Michael Tennican",
+              "person_id": "WY-TENNICAN-MICHAEL",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Teton clerk (OCR of official scan) Vote-For-4: Joe Albright 5,724, Linda Aurelio 4,629, Elizabeth Masek 4,560, Michael Tennican 4,071.",
+              "href": "candidates/local-history/c/michael-tennican.html"
+            },
+            {
+              "name": "Bruce Hayse",
+              "person_id": "WY-HAYSE-BRUCE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bruce-hayse.html"
+            },
+            {
+              "name": "Cynthia Hogan",
+              "person_id": "WY-HOGAN-CYNTHIA",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/cynthia-hogan.html"
+            },
+            {
+              "name": "C. Scott Gibson",
+              "person_id": "WY-GIBSON-C-SCOTT",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk Vote-For-3 (4-year): Bruce Hayse 8,347, Cynthia Hogan 7,688, C. Scott Gibson 6,720.",
+              "href": "candidates/local-history/c/c-scott-gibson.html"
+            }
+          ]
+        },
+        {
+          "office": "St. John's Hospital District Trustee (2-year unexpired)",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Sue Critzer",
+              "person_id": "WY-CRITZER-SUE",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk: St. John's Hospital Dist Trustee 2YR UNEXPIRED, Sue Critzer 9,155. January 2021–2022 hospital snapshots may exceed a typical seven-member board because these official unexpired seats are encoded without inventing which 2018 seats they replaced.",
+              "href": "candidates/local-history/c/sue-critzer.html"
+            },
+            {
+              "name": "Deborah C. Hopkins",
+              "person_id": "WY-HOPKINS-DEBORAH-C",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk: St. John's Hospital Dist Trustee 2YR UNEXPIRED TERM, Deborah C. Hopkins 9,159.",
+              "href": "candidates/local-history/c/deborah-c-hopkins.html"
+            }
+          ]
+        },
+        {
+          "office": "Teton Conservation District Supervisor Rural",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Bob Lucas",
+              "person_id": "WY-LUCAS-BOB",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/bob-lucas.html"
+            },
+            {
+              "name": "David C. Adams",
+              "person_id": "WY-ADAMS-DAVID-C",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/david-c-adams.html"
+            },
+            {
+              "name": "Steve McDonald",
+              "person_id": "WY-MCDONALD-STEVE",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Teton clerk (OCR of official scan) Vote-For-3 rural: Bob Lucas 6,003, David C. Adams 4,325, Steve McDonald 4,060.",
+              "href": "candidates/local-history/c/steve-mcdonald.html"
+            }
+          ]
+        },
+        {
+          "office": "Teton Conservation District Supervisor At-Large",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Nate Fuller",
+              "person_id": "WY-FULLER-NATE",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2018 Teton clerk (OCR of official scan) Vote-For-1 at-large: Nate Fuller 4,839, Pietro Castelli 1,778.",
+              "href": "candidates/local-history/c/nate-fuller.html"
+            },
+            {
+              "name": "Nate Fuller",
+              "person_id": "WY-FULLER-NATE",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk Vote-For-1 at-large: Nate Fuller 9,962.",
+              "href": "candidates/local-history/c/nate-fuller.html"
+            }
+          ]
+        },
+        {
+          "office": "Teton Conservation District Supervisor Urban",
+          "layout": "office-and-name",
+          "holders": [
+            {
+              "name": "Roby Hurley",
+              "person_id": "WY-HURLEY-ROBY",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk Vote-For-1 urban: Roby Hurley 9,644.",
+              "href": "candidates/local-history/c/roby-hurley.html"
+            }
+          ]
+        }
+      ],
+      "note": "Municipal, school, and special-district names are keyed from official Teton November general results in this archive. The Town of Jackson is the only incorporated municipality. Official Town of Jackson government pages and the FY2024 ACFR state that the mayor and four council members are elected at large; effective 2017 the mayor serves a four-year term. Official clerk generals put MAYOR contests on the November ballot (2012, 2014, 2016, 2020, 2024). Official 2026 Teton County School District #1 Trustee totals are from the official recount (DocumentCenter 42629). Official 2018 and official 2024 Teton clerk generals are official scans; those totals are from OCR of the official pages. Arne Olaus Jorgensen's official 2022 council term is ended at January 2025 when he takes office as mayor from the official 2024 clerk; no official appointment filling that council seat was found. Official 2016 conservation contests are titled only Teton Conservation District on the official clerk, without Urban/Rural/At-Large labels. Official mid-term vacancies are not invented.",
+      "sort_key": "H"
+    },
+    {
+      "id": "judicial",
+      "title": "Judicial retention",
+      "offices": [
+        {
+          "office": "District Judge, 9th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Norman E. Young",
+              "person_id": "WY-YOUNG-NORMAN-E",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2016 Teton general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2016/Results/General/2016_Teton_County_General_PbP.pdf"
+                },
+                {
+                  "label": "Teton County official 2016 general election results by summary",
+                  "url": "https://www.tetoncountywy.gov/ArchiveCenter/ViewFile/Item/95"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2016 SOS / official 2016 Teton clerk: retained Norman E. Young. Official Sublette 9th JD district page: Katharine/Kate G. McKay appointed January 2023.",
+              "href": "candidates/local-history/c/norman-e-young.html"
+            },
+            {
+              "name": "Marvin L. Tyler",
+              "person_id": "WY-TYLER-MARVIN-L",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2016 Teton general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2016/Results/General/2016_Teton_County_General_PbP.pdf"
+                },
+                {
+                  "label": "Teton County official 2016 general election results by summary",
+                  "url": "https://www.tetoncountywy.gov/ArchiveCenter/ViewFile/Item/95"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2016 SOS / official 2016 Teton clerk: retained Marvin L. Tyler. No official departure date after January 2023 was found; Conder was appointed July 2019.",
+              "href": "candidates/local-history/c/marvin-l-tyler.html"
+            },
+            {
+              "name": "Timothy C. Day",
+              "person_id": "WY-DAY-TIMOTHY-C",
+              "party": "",
+              "term_end": "January 2022",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2018 Teton general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2018/Results/General/2018_Teton_County_General_PbP.pdf"
+                },
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                },
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 9th Judicial District, Teton County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-9th-judicial-district-teton-county/"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official 2018 SOS / official 2018 Teton clerk: retained Timothy C. Day. Official Wyoming Judicial Branch Teton 9th JD district page: Melissa M. Owens appointed January 2022 (day unstated; Day term_end 2022-01-01, medium).",
+              "href": "candidates/local-history/c/timothy-c-day.html"
+            },
+            {
+              "name": "Jason M. Conder",
+              "person_id": "WY-CONDER-JASON-M",
+              "party": "",
+              "term_end": "January 2027",
+              "sources": [
+                {
+                  "label": "Wyoming Judicial Branch official District Court, 9th Judicial District, Fremont County page",
+                  "url": "https://www.wyocourts.gov/court/district-court-9th-judicial-district-fremont-county/"
+                },
+                {
+                  "label": "Wyoming Secretary of State official 2020 Teton general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_Teton_County_General_PbP.pdf"
+                },
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "medium",
+              "notes": "Official Wyoming Judicial Branch Fremont 9th JD district page: appointed July 2019 (day unstated; term_start 2019-07-01, medium), retained November 2020, term expires January 2027, stands November 2026. Official 2020 clerk last-name CONDER filled from official SOS and the court page.",
+              "href": "candidates/local-history/c/jason-m-conder.html"
+            }
+          ]
+        },
+        {
+          "office": "Circuit Judge, 9th Judicial District",
+          "layout": "heading-then-names",
+          "holders": [
+            {
+              "name": "Wesley A. Roberts",
+              "person_id": "WY-ROBERTS-WESLEY-A",
+              "party": "",
+              "term_end": "January 2023",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2018 Teton general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2018/Results/General/2018_Teton_County_General_PbP.pdf"
+                },
+                {
+                  "label": "Teton County official 2018 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/8456/2018-General-Election---Official-Summary-Results"
+                }
+              ],
+              "confidence": "high",
+              "notes": "",
+              "href": "candidates/local-history/c/wesley-a-roberts.html"
+            },
+            {
+              "name": "Robert B. Denhardt",
+              "person_id": "WY-DENHARDT-ROBERT-B",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2020 Teton general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_Teton_County_General_PbP.pdf"
+                },
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk last-name DENHARDT filled from official SOS: Robert B. Denhardt.",
+              "href": "candidates/local-history/c/robert-b-denhardt.html"
+            },
+            {
+              "name": "Curt A. Haws",
+              "person_id": "WY-HAWS-CURT-A",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2020 Teton general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_Teton_County_General_PbP.pdf"
+                },
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk last-name HAWS filled from official SOS.",
+              "href": "candidates/local-history/c/curt-a-haws.html"
+            },
+            {
+              "name": "James L. Radda",
+              "person_id": "WY-RADDA-JAMES-L",
+              "party": "",
+              "term_end": "January 2025",
+              "sources": [
+                {
+                  "label": "Wyoming Secretary of State official 2020 Teton general precinct-by-precinct summary",
+                  "url": "https://sos.wyo.gov/Elections/Docs/2020/Results/General/2020_Teton_County_General_PbP.pdf"
+                },
+                {
+                  "label": "Teton County official 2020 general election summary",
+                  "url": "https://www.tetoncountywy.gov/DocumentCenter/View/16000/2020-General-Election---Official-Summary-Results-"
+                }
+              ],
+              "confidence": "high",
+              "notes": "Official 2020 Teton clerk last-name RADDA filled from official SOS: James L. Radda.",
+              "href": "candidates/local-history/c/james-l-radda.html"
+            }
+          ]
+        }
+      ],
+      "note": "Supreme Court justices and the Chancery Court judge are the people in office this January, from official Wyoming Judicial Branch dates and official retention results (shared with other counties). Local rows are 9th Judicial District judges (Teton, Fremont, and Sublette). Official 2026 Teton clerk prints RETAIN JUDGE JAMES M. CONDER; the official 2026 SOS Teton precinct-by-precinct summary and the official Wyoming Judicial Branch Fremont 9th JD district page print Jason M. Conder, which is the name used here. Official 2024 clerk and official 2024 SOS print Katharine G. McKay; the official Sublette 9th JD district page prints Kate G. McKay for the same person. Where an official Teton clerk summary prints only a last name (official 2022 JUDGE ROBERTS / COOMBS; official 2020 CONDER / DENHARDT / HAWS / RADDA), the full name is taken from an official SOS line or official Wyoming Judicial Branch 9th JD page, and that source is cited. Judges of other districts are not copied here.",
+      "sort_key": "J3"
+    },
+    {
+      "id": "precincts",
+      "title": "Precincts",
+      "note": "Precinct committee rosters for January snapshots are not yet collected. Official Teton primary PDFs are archived under /workspace/wyoleg/local-results/teton/<year>/. The current (November 2026) precinct roster is in data/county_officials/teton.json, from the official 2026 primary (named winners only; 17 precincts / 57 holders).",
+      "precincts": [],
+      "sort_key": "P"
+    }
+  ],
+  "generated_from": "data/county_officials/history/teton/terms.json",
+  "retrieved": "2026-11-24"
+}
