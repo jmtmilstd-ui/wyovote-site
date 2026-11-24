@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 
 START = '<!-- HOME-ARTICLES:START'
 END = '<!-- HOME-ARTICLES:END -->'
-KICKERS = {'feature': 'Feature', 'research': 'Research', 'news': 'News', 'special': 'Special'}
+KICKERS = {'feature': 'Feature', 'research': 'Research', 'news': 'News'}
 MONTHS = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.']
 
 

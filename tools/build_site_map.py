@@ -145,8 +145,6 @@ def crumbs(rel: str, text: str) -> list[str]:
     elif parts[0] == "news":
         if name == "archive.html":
             chain.extend(["News", "Archive"])
-        elif "certified-election" in name:
-            chain.extend(["Special", "Article"])
         else:
             chain.extend(["News", "Article"])
     elif parts[0] == "reports" and len(parts) >= 4:

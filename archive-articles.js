@@ -59,13 +59,10 @@
   function entry(item, root) {
     var li = el("li", "article-entry");
     var title = el("p", "article-entry-title");
-    if (item.kind === "news" || item.kind === "special" || item.kind === "research" || item.kind === "feature") {
+    if (item.kind === "news" || item.kind === "research" || item.kind === "feature") {
       var kickerClass = "news-kicker";
       var kickerText = "News";
-      if (item.kind === "special") {
-        kickerClass = "news-kicker news-kicker-special";
-        kickerText = "Special";
-      } else if (item.kind === "research") {
+      if (item.kind === "research") {
         kickerClass = "news-kicker news-kicker-research";
         kickerText = "Research";
       } else if (item.kind === "feature") {
@@ -134,9 +131,8 @@
       });
     }
     add(data.current_news, "news");
-    add(data.special, "special");
     (data.archive || []).forEach(function (item) {
-      add(item, item && item.kind === "special" ? "special" : "news");
+      add(item, (item && item.kind) || "news");
     });
     return items;
   }

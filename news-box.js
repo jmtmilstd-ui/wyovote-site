@@ -22,10 +22,10 @@
     return new Date(now.getFullYear(), now.getMonth(), now.getDate());
   }
 
-  /* 7-day rule (Denver date): the News box and a Special leave the home
-     page once they are more than home_max_age_days (7) old. An item dated
-     D shows through D + 7 and leaves on the morning of D + 8. It stays on
-     the Archive Articles page. */
+  /* 7-day rule (Denver date): the News box leaves the home page once it
+     is more than home_max_age_days (7) old. An item dated D shows through
+     D + 7 and leaves on the morning of D + 8. It stays on the Archive
+     Articles page. */
   var DEFAULT_MAX_AGE = 7;
 
   function denverDay() {
@@ -64,14 +64,6 @@
     return (root || "") + url;
   }
 
-  function specialState(special, today, data) {
-    if (!special || !special.title || !special.url || !special.date) return "none";
-    var expires = parseISODate(special.expires);
-    if (!expires) return "none";
-    if (today < expires && !tooOld(special, data)) return "current";
-    return "expired";
-  }
-
   function el(tag, className, text) {
     var node = document.createElement(tag);
     if (className) node.className = className;
@@ -80,8 +72,8 @@
   }
 
   function box(item, kind, root, extra) {
-    var article = el("article", "news-box" + (kind === "special" ? " news-box-special" : " news-box-news"));
-    article.appendChild(el("p", "news-kicker", kind === "special" ? "Special" : "News"));
+    var article = el("article", "news-box news-box-news");
+    article.appendChild(el("p", "news-kicker", "News"));
     var date = el("p", "news-date");
     var time = el("time", "", item.date_label || formatDate(item.date));
     if (parseISODate(item.date)) time.setAttribute("datetime", item.date);
@@ -114,7 +106,7 @@
     var root = mount.getAttribute("data-root") || "";
     var listed = data.current_news && data.current_news.title && data.current_news.url ? data.current_news : null;
     var news = listed && !tooOld(listed, data) ? listed : null;
-    var hasPast = (data.archive && data.archive.length) || specialState(data.special, today, data) === "expired" || (listed && !news);
+    var hasPast = (data.archive && data.archive.length) || (listed && !news);
     mount.textContent = "";
     if (!news && !hasPast) {
       mount.hidden = true;
@@ -126,13 +118,8 @@
   }
 
   function renderSpotlight(mount, data, today) {
-    var root = mount.getAttribute("data-root") || "";
     mount.textContent = "";
     mount.hidden = false;
-    if (specialState(data.special, today, data) === "current") {
-      mount.appendChild(box(data.special, "special", root));
-      return;
-    }
     mount.appendChild(el("p", "spotlight-note", "Standing notices appear here."));
   }
 
@@ -141,17 +128,6 @@
     (data.archive || []).forEach(function (item) {
       if (item && item.title && item.url) items.push(item);
     });
-    if (specialState(data.special, today, data) === "expired") {
-      var special = data.special;
-      var already = items.some(function (item) { return item.url === special.url; });
-      if (!already) items.push({
-        date: special.date,
-        title: special.title,
-        summary: special.summary,
-        url: special.url,
-        kind: "special"
-      });
-    }
     items.sort(function (a, b) {
       var ad = parseISODate(a.date);
       var bd = parseISODate(b.date);
@@ -173,7 +149,7 @@
       return;
     }
     items.forEach(function (item) {
-      mount.appendChild(box(item, item.kind === "special" ? "special" : "news", root));
+      mount.appendChild(box(item, "news", root));
     });
   }
 
