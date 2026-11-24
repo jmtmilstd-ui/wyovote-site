@@ -133,7 +133,7 @@
       mount.appendChild(box(data.special, "special", root));
       return;
     }
-    mount.appendChild(el("p", "spotlight-note", "Specials and featured items appear here."));
+    mount.appendChild(el("p", "spotlight-note", "Standing notices appear here."));
   }
 
   function archiveItems(data, today) {

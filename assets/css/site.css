@@ -147,7 +147,7 @@
 
 /* Home: keep General and Budget session columns close; the
    two-page note matches that width. Saved width goes to the
-   right-hand Spotlight column via .home-columns. */
+   right-hand notices column via .home-columns. */
 .reports-sessions {
   width: max-content;
   max-width: 100%;
@@ -3187,7 +3187,7 @@ a.official-btn.btn-out {
   .guide-top { display: none; }
 }
 
-/* Home: "What is WyoVote?" box at the top of the Specials column.
+/* Home: "What is WyoVote?" box at the top of the notices column.
    Dark text on white, no title band. Gold border matches the User's Guide
    button fill (#b8860b); thicker than the green news-box line for emphasis. */
 .news-box.what-is-wyovote {
@@ -3237,7 +3237,7 @@ a.official-btn.btn-out {
   font-weight: 700;
 }
 
-/* Home: "What's on WyoVote" box under the Special (right column).
+/* Home: "What's on WyoVote" box under the notices (right column).
    One line per top-menu button. Dark text, no light gray. */
 .site-guide-box {
   margin: 1.1rem 0 0;
@@ -3248,7 +3248,7 @@ a.official-btn.btn-out {
   color: #142117;
 }
 
-/* Space between Special and What's on WyoVote, only when a Special is shown. */
+/* Space between a standing notice and What's on WyoVote, only when a notice is shown. */
 #home-spotlight:has(.news-box-special) + .site-guide-box {
   margin-top: 1.2rem; /* 24px at the 20px desktop root */
 }
