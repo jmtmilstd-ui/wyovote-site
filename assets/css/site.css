@@ -3187,6 +3187,56 @@ a.official-btn.btn-out {
   .guide-top { display: none; }
 }
 
+/* Home: "What is WyoVote?" box at the top of the Specials column.
+   Dark text on white, no title band. Gold border matches the User's Guide
+   button fill (#b8860b); thicker than the green news-box line for emphasis. */
+.news-box.what-is-wyovote {
+  margin: 0 0 1rem;
+  border: 4px solid #b8860b;
+  background: #ffffff;
+  color: #142117;
+}
+
+.what-is-wyovote h2 {
+  margin: 0 0 0.45rem;
+  font-size: 16pt;
+  line-height: 1.25;
+  color: #142117;
+}
+
+.what-is-wyovote > p {
+  margin: 0 0 0.7rem;
+  color: #142117;
+  font-size: 14pt;
+  line-height: 1.4;
+}
+
+.what-is-wyovote h3 {
+  margin: 0 0 0.35rem;
+  font-size: 14pt;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #142117;
+}
+
+.what-is-wyovote ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #142117;
+  font-size: 14pt;
+  line-height: 1.4;
+}
+
+.what-is-wyovote li {
+  margin: 0.2rem 0;
+  color: #142117;
+}
+
+.what-is-wyovote a {
+  color: #0e2a18;
+  font-weight: 700;
+}
+
 /* Home: "What's on WyoVote" box under the Special (right column).
    One line per top-menu button. Dark text, no light gray. */
 .site-guide-box {

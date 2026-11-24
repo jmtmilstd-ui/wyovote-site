@@ -13,7 +13,8 @@ on counties.html from data/county_officials/shared/federal-statewide.json.
 
 The existing county report (the v1.1 PDF) is rendered at the top of the page
 and remains the legislative Print report. The 114 County Officeholders PDF is
-reached from a small Print officeholders (PDF) link under Current officeholders.
+reached from a small Print officeholders (PDF, N pages) link under Current officeholders.
+The page count is read from the 114 PDF with pdfinfo at build time.
 The officeholders section is below the 113 report. The page version comes from
 the JSON (page_version, currently v2.0).
 
@@ -36,6 +37,7 @@ import html
 import importlib.util
 import json
 import os
+import subprocess
 from copy import deepcopy
 from datetime import date, datetime
 from pathlib import Path
@@ -379,6 +381,26 @@ def officeholders_pdf_rel(data: dict) -> str:
     return f"reports/2026/wyovote_2026_County_{number:02d}_{name}_114_v1.0.pdf"
 
 
+def pdf_page_count(path: Path) -> int:
+    """Page count from pdfinfo (the PDF's own page count, not a remembered figure)."""
+    try:
+        result = subprocess.run(
+            ["pdfinfo", str(path)],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except FileNotFoundError:
+        raise SystemExit("pdfinfo is required to label the officeholders print link") from None
+    except subprocess.CalledProcessError as exc:
+        err = (exc.stderr or exc.stdout or str(exc)).strip()
+        raise SystemExit(f"pdfinfo failed for {path}: {err}") from None
+    for line in result.stdout.splitlines():
+        if line.startswith("Pages:"):
+            return int(line.split(":", 1)[1].strip())
+    raise SystemExit(f"pdfinfo did not report Pages for {path}")
+
+
 def county_weekly(slug: str, as_of: date) -> str:
     """The Weekly section for pilot counties (tools/schedule/county.py); empty otherwise."""
     import sys as _sys
@@ -402,6 +424,8 @@ def page_html(data: dict, dest: Path, as_of: date, slug: str) -> str:
     if not oh_pdf.is_file():
         raise SystemExit(f"Missing 114 officeholders PDF: {oh_pdf}")
     oh_href = Path(os.path.relpath(oh_pdf, dest.parent)).as_posix()
+    oh_pages = pdf_page_count(oh_pdf)
+    oh_label = f"Print officeholders (PDF, {oh_pages} pages)"
     groups = [g for g in data["groups"] if g["id"] not in SHARED_IDS and not g.get("precincts")]
     has_precincts = any(g.get("precincts") for g in data["groups"])
     rendered = "\n".join(render_group(group, dest) for group in groups)
@@ -420,7 +444,7 @@ def page_html(data: dict, dest: Path, as_of: date, slug: str) -> str:
           {report['body']}{county_weekly(slug, as_of)}
           <section class="county-officials" id="current-officeholders">
             <h2>Current officeholders</h2>
-            <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(oh_href)}">Print officeholders (PDF)</a></p>
+            <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(oh_href)}">{esc(oh_label)}</a></p>
             <p class="co-intro">{esc(data.get("intro") or "")}</p>
             {"".join(links)}
 {rendered}
