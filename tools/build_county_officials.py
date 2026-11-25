@@ -440,11 +440,11 @@ def page_html(data: dict, dest: Path, as_of: date, slug: str) -> str:
     buttons.append('<a class="co-btn" href="../counties.html#federal-statewide">Federal and statewide officials</a>')
     links = [f'<nav class="co-btns" aria-label="More officeholders">{"".join(buttons)}</nav>']
     body = f"""          <p class="report-kicker">County page · {esc(version)}</p>
-          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(report['pdf_href'])}" download>Print report (PDF)</a></p>
+          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(report['pdf_href'])}">Print report (PDF)</a></p>
           {report['body']}{county_weekly(slug, as_of)}
           <section class="county-officials" id="current-officeholders">
             <h2>Current officeholders</h2>
-            <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(oh_href)}" download>{esc(oh_label)}</a></p>
+            <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(oh_href)}">{esc(oh_label)}</a></p>
             <p class="co-intro">{esc(data.get("intro") or "")}</p>
             {"".join(links)}
 {rendered}

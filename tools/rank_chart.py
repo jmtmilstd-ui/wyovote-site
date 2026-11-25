@@ -21,11 +21,7 @@ import html
 import math
 
 BAND_NAMES = ("Conservative", "Moderate", "Liberal")
-# Medium-strength fills so the bands stay visible in print (booklet legal
-# reduced to 5.5x8.5, and grayscale). Conservative is a bit darker than
-# #5aa864 so it separates from the blue in black-and-white.
-BAND_COLOR = {"Conservative": "#3e8c4a", "Moderate": "#ffffff", "Liberal": "#6f95d6"}
-BAND_STROKE = "#142117"
+BAND_COLOR = {"Conservative": "#c8f5c8", "Moderate": "#ffffff", "Liberal": "#c9d6f0"}
 COL_ALL = "#1f3a68"    # solid navy year-to-year line
 COL_TREND = "#8a1f1b"  # dark brick trend vector (dashed shaft, solid arrowhead)
 INK = "#142117"
@@ -321,22 +317,22 @@ def chart_svg(name, series, bands, check=None) -> str:
                 continue
             lo, hi = b[bn]
             y0 = PLOT_Y + ((lo - 1) / n) * PLOT_H; y1 = PLOT_Y + (hi / n) * PLOT_H
-            o.append(f'<rect x="{x:.1f}" y="{y0:.1f}" width="{bar_w:.1f}" height="{y1 - y0:.1f}" fill="{BAND_COLOR[bn]}" stroke="{BAND_STROKE}" stroke-width="1.5"/>')
+            o.append(f'<rect x="{x:.1f}" y="{y0:.1f}" width="{bar_w:.1f}" height="{y1 - y0:.1f}" fill="{BAND_COLOR[bn]}"/>')
         for bn in ("Conservative", "Moderate"):
             if not b.get(bn):
                 continue
             yc = PLOT_Y + (b[bn][1] / n) * PLOT_H
-            o.append(f'<line x1="{x:.1f}" x2="{x + bar_w:.1f}" y1="{yc:.1f}" y2="{yc:.1f}" stroke="{INK}" stroke-width="1.75"/>')
+            o.append(f'<line x1="{x:.1f}" x2="{x + bar_w:.1f}" y1="{yc:.1f}" y2="{yc:.1f}" stroke="{INK}" stroke-width="1.5"/>')
     for pct in (0, 20, 40, 60, 80, 100):
         y = y_frac(pct / 100)
-        o.append(f'<line x1="{plot_x:.1f}" x2="{plot_x + plot_w:.1f}" y1="{y:.1f}" y2="{y:.1f}" stroke="{INK}" stroke-width="1.75"/>')
+        o.append(f'<line x1="{plot_x:.1f}" x2="{plot_x + plot_w:.1f}" y1="{y:.1f}" y2="{y:.1f}" stroke="{INK}" stroke-width="1"/>')
         o.append(_halo_text(plot_x - 10, y + 9, str(pct), anchor="end"))
     o.append(_halo_text(plot_x, PLOT_Y - 16, "MOST Conservative", anchor="start"))
     o.append(_halo_text(plot_x, PLOT_Y + PLOT_H + 30, "Most Liberal", anchor="start"))
     tx, ty = plot_x - 70, PLOT_Y + PLOT_H / 2
     o.append(f'<text x="{tx:.1f}" y="{ty:.1f}" font-size="{FS}" font-weight="700" font-family="{FONT}" text-anchor="middle" '
              f'fill="{INK}" transform="rotate(-90 {tx:.1f} {ty:.1f})">Rank (% of list)</text>')
-    o.append(f'<rect x="{plot_x:.1f}" y="{PLOT_Y}" width="{plot_w:.1f}" height="{PLOT_H}" fill="none" stroke="{INK}" stroke-width="2.25"/>')
+    o.append(f'<rect x="{plot_x:.1f}" y="{PLOT_Y}" width="{plot_w:.1f}" height="{PLOT_H}" fill="none" stroke="{INK}" stroke-width="1.75"/>')
     for seg in segs:
         if len(seg) >= 2:
             pts = " ".join(f'{p["x"]:.1f},{p["y"]:.1f}' for p in seg)
