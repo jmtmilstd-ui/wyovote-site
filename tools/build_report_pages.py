@@ -1074,7 +1074,7 @@ def render_ratings(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Pat
       </section>
       <section class="page-body">
         <div class="wrap report-sheet wv-sheet">
-          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(pdf_href)}">Print (PDF)</a></p>
+          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(pdf_href)}" download>Print (PDF)</a></p>
           {"".join(parts)}
         </div>
       </section>
@@ -1197,7 +1197,7 @@ def render(pdf: Path, parsed: dict, dest: Path, officials: dict[str, Path]) -> N
       <section class="page-body">
         <div class="wrap report-sheet">
           <p class="report-kicker">{esc(parsed["subtitle"])}</p>
-          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(pdf_href)}">Print (PDF)</a></p>
+          <p class="report-actions"><a class="print-pdf" data-print="1" href="{esc(pdf_href)}" download>Print (PDF)</a></p>
           {"".join(parts)}
         </div>
       </section>

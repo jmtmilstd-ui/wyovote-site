@@ -1,0 +1,9 @@
+# Report PDFs should download instead of opening in the browser viewer.
+# Chrome/Edge otherwise default to Letter + fit-to-page and shrink legal pages.
+# Cloudflare Pages allows only one splat (*) per pattern, so the year is a
+# placeholder. The User's Guide under /guide/ is left to open in the browser.
+/reports/:year/*.pdf
+  Content-Disposition: attachment
+
+/people/pdf/*.pdf
+  Content-Disposition: attachment

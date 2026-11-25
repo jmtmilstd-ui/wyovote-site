@@ -41,6 +41,8 @@ sys.path.insert(0, str(SITE_DEFAULT / "tools"))
 import mtr_brand as BR
 from numbered_canvas import make_numbered_canvas
 from booklet_pad import pad_pdf
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pdf_print_prefs import apply_viewer_prefs
 from rank_chart import chart_svg, bands_from_ranking
 import ranking
 
@@ -1520,6 +1522,8 @@ def main():
         content_pages = doc2.page
         # Booklet pad (blank pages at the end; page labels count content only)
         c, p = pad_pdf(out)
+        # Legal-page print: do not let the viewer shrink to Letter.
+        apply_viewer_prefs(out)
         lines, have, missing, nprof = counts_report(sections, people, county)
         # also count shared
         shared_holders = 0

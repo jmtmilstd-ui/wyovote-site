@@ -16,6 +16,9 @@ unreferenced:.nojekyll
 # Cloudflare Pages redirects from removed report pages and the site map.
 unreferenced:_redirects
 
+# Cloudflare Pages headers: report PDFs download instead of opening in the viewer.
+unreferenced:_headers
+
 # Repository readme. Not a site page.
 unreferenced:README.md
 
@@ -50,6 +53,9 @@ unreferenced:tools/build_site_map.py
 
 # Builds the web pages that accompany the report PDFs. Not a site asset.
 unreferenced:tools/build_report_pages.py
+
+# Sets print ViewerPreferences on report PDFs so rebuilds keep them.
+unreferenced:tools/reports/pdf_print_prefs.py
 
 # Marks links that leave WyoVote. Not a site asset.
 unreferenced:tools/mark_outside_links.py
