@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-25T05:51:53.179525-07:00",
- "schedule_date": "2026-11-25",
+ "generated": "2026-11-26T05:47:56.981844-07:00",
+ "schedule_date": "2026-11-26",
  "counties": {
   "weston": {
    "name": "Weston",
-   "updated": "Nov. 25, 2026, 5:51 a.m. MT",
+   "updated": "Nov. 26, 2026, 5:47 a.m. MT",
    "events": [
     {
      "county": "weston",
@@ -35,9 +35,9 @@
      "date": "2026-12-08",
      "time": "7:00 p.m. MT",
      "location": "City Hall (Pine Street entrance), Upton",
-     "note": "Regular meeting (second Tuesday). Agenda not yet posted",
-     "url": "https://www.townofupton.com/cityGovernment.php",
-     "kind": "regular"
+     "note": "Agenda posted",
+     "url": "https://www.townofupton.com/_pdfs/2026/AGENDA - December 8, 2026.pdf",
+     "kind": "posted"
     },
     {
      "county": "weston",
@@ -234,8 +234,8 @@
      "url": "https://www.townofupton.com/cityGovernment.php",
      "status": "ok",
      "method": "agenda_links",
-     "posted": 0,
-     "regular": 2,
+     "posted": 1,
+     "regular": 1,
      "note": "",
      "posts": ""
     }
@@ -243,7 +243,7 @@
   },
   "crook": {
    "name": "Crook",
-   "updated": "Nov. 25, 2026, 5:51 a.m. MT",
+   "updated": "Nov. 26, 2026, 5:47 a.m. MT",
    "events": [
     {
      "county": "crook",
@@ -252,9 +252,9 @@
      "date": "2026-12-01",
      "time": "8:30 a.m. MT",
      "location": "Commissioner's Room, Crook County Courthouse, 309 Cleveland Street, Sundance",
-     "note": "Regular meeting (first Tuesday and Wednesday). Agenda not yet posted",
-     "url": "https://www.crookcounty.wy.gov/elected_officials/commissioners/index.php",
-     "kind": "regular"
+     "note": "Meeting posted",
+     "url": "https://www.crookcounty.wy.gov/elected_officials/commissioners/2026_meeting_agendas___minutes.php",
+     "kind": "posted"
     },
     {
      "county": "crook",
@@ -274,9 +274,9 @@
      "date": "2026-12-02",
      "time": "8:30 a.m. MT",
      "location": "Commissioner's Room, Crook County Courthouse, 309 Cleveland Street, Sundance",
-     "note": "Regular meeting (first Tuesday and Wednesday). Agenda not yet posted",
-     "url": "https://www.crookcounty.wy.gov/elected_officials/commissioners/index.php",
-     "kind": "regular"
+     "note": "Meeting posted",
+     "url": "https://www.crookcounty.wy.gov/elected_officials/commissioners/2026_meeting_agendas___minutes.php",
+     "kind": "posted"
     },
     {
      "county": "crook",
@@ -330,8 +330,8 @@
      "url": "https://www.crookcounty.wy.gov/elected_officials/commissioners/2026_meeting_agendas___minutes.php",
      "status": "ok",
      "method": "text_dates",
-     "posted": 0,
-     "regular": 4,
+     "posted": 2,
+     "regular": 2,
      "note": "",
      "posts": ""
     },
