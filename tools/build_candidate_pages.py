@@ -39,6 +39,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 import render_candidate_profile as rcp
+import outside_voter_guides as ovg
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT  # single tree: write the live pages directly
@@ -145,6 +146,8 @@ def sources_of(node) -> list[dict]:
         url = (item.get("url") or "").strip()
         name = (item.get("name") or "").strip()
         if url.startswith(("http://", "https://")) and name:
+            if ovg.is_blocked_source(url, name):
+                continue
             found.append({"name": name, "url": url})
     return found
 
@@ -197,8 +200,11 @@ def endorsements_text(value: str | None) -> str | None:
     marker = "recommendations."
     if marker in text:
         rest = text.split(marker, 1)[1].strip(" .")
-        return rest or None
-    return text
+        text = rest or None
+        if not text:
+            return None
+    text = ovg.scrub_text(text).strip()
+    return text or None
 
 
 def offices_text(node) -> str | None:
@@ -369,7 +375,7 @@ def compile_record(person: dict, cycle: dict) -> dict:
         }
         add_sources(result)
 
-    return {
+    record = {
         "person_id": person["person_id"],
         "name": cycle.get("name_on_ballot") or person.get("full_name"),
         "blurb": clean(cycle.get("blurb")),
@@ -392,6 +398,7 @@ def compile_record(person: dict, cycle: dict) -> dict:
         "display_name": display_name(person, cycle),
         "match_names": match_names(person, cycle),
     }
+    return ovg.scrub_obj(record)
 
 
 def load_archive(archive: Path, cycle: str) -> list[dict]:
