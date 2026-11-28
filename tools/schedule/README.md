@@ -48,9 +48,9 @@ Board, State Building Commission, State Canvassing Board, and similar)
 are listed once under "Boards of the Five Statewide Officials," not
 repeated under each office. Legislator town halls are not collected.
 
-TODO: After Management Council adopts the 2027 General Session calendar
-(meeting Nov. 23, 2026), add the verified End of Session date to
-`data/critical_dates.json`. Do not list a tentative date before then.
+The End of Session item in `data/critical_dates.json` is from the official
+tentative 2027 General Session schedule. Update that item if a later official
+calendar is posted.
 
 ## Session window and conference committees
 

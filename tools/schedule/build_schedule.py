@@ -15,11 +15,10 @@ During a legislative session, legislative sections keep the standard
 committee (and floor) schedule only; statewide office events are still
 included.
 
-TODO: Once Management Council adopts the 2027 General Session calendar
-(meeting Nov. 23, 2026), add the verified End of Session date to
-data/critical_dates.json (date, time, location, source URL). Do not list
-a tentative end date before then. The daily schedule rebuild will pick
-it up automatically and show it under Critical Dates.
+The End of Session item in data/critical_dates.json is from the official
+tentative 2027 General Session schedule. Update that item if a later
+official calendar is posted. The daily schedule rebuild picks it up
+under Critical Dates.
 """
 from __future__ import annotations
 
@@ -814,6 +813,7 @@ def load_critical_dates(path: Path, today: date) -> list[dict]:
             source_url=it.get("source_url") or "",
             source_name="",
             unverified=bool(it.get("unverified")),
+            tentative=bool(it.get("tentative")),
         )
         rec["sort"] = it.get("sort", 100)
         out.append(rec)

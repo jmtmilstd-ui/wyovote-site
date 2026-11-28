@@ -1,7 +1,7 @@
 {
-  "comment": "Hand-edited list of Critical Dates for the Current Schedule page. Past items are dropped daily by tools/schedule/build_schedule.py. Unlike other events, Critical Dates are shown even when they fall more than 60 days out. Times are Mountain Time. designated_by is 'standing' for verified recurring constitutional or official-calendar items, or the name of the person who added a one-off item. Set unverified to true when the date is listed pending a posted notice.",
+  "comment": "Hand-edited list of Critical Dates for the Current Schedule page. Past items are dropped daily by tools/schedule/build_schedule.py. Unlike other events, Critical Dates are shown even when they fall more than 60 days out. Times are Mountain Time. designated_by is 'standing' for verified recurring constitutional or official-calendar items, or the name of the person who added a one-off item. Set unverified to true when the date is listed pending a posted notice. Set tentative to true when the official source marks the date as tentative or subject to change.",
   "notes": [
-    "TODO: After Management Council adopts the 2027 General Session calendar (meeting Nov. 23, 2026), add an End of Session item with the adopted date, time, location, and source URL. Do not add a tentative end date before that. The daily schedule rebuild will then show it under Critical Dates."
+    "The End of Session date is from the official tentative 2027 General Session schedule (convenes January 12; last day March 10). Update the item if a later official calendar is posted."
   ],
   "items": [
     {
@@ -31,6 +31,16 @@
       "source_url": "https://www.wyoleg.gov/Calendar/20270113/Meeting",
       "designated_by": "standing",
       "sort": 30
+    },
+    {
+      "date": "2027-03-10",
+      "time": "by midnight MT",
+      "title": "End of Session (tentative)",
+      "location": "",
+      "source_url": "https://www.wyoleg.gov/InterimCommittee/2026/SMC-20261123Option1-SCHEDULE.27-MLKandPresidentsDayHolidays.pdf",
+      "designated_by": "standing",
+      "tentative": true,
+      "sort": 40
     }
   ]
 }
