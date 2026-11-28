@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-27T05:42:15.027394-07:00",
- "schedule_date": "2026-11-27",
+ "generated": "2026-11-28T05:45:41.177457-07:00",
+ "schedule_date": "2026-11-28",
  "counties": {
   "weston": {
    "name": "Weston",
-   "updated": "Nov. 27, 2026, 5:42 a.m. MT",
+   "updated": "Nov. 28, 2026, 5:45 a.m. MT",
    "events": [
     {
      "county": "weston",
@@ -159,6 +159,17 @@
      "note": "Regular meeting (first and third Tuesday). Agenda not yet posted",
      "url": "https://www.westongov.com/county-clerk/",
      "kind": "regular"
+    },
+    {
+     "county": "weston",
+     "source": "wcsd1",
+     "body": "Weston County School District #1 Board of Trustees",
+     "date": "2027-01-27",
+     "time": "7:00 p.m. MT",
+     "location": "Administration Building boardroom, 116 Casper Avenue, Newcastle",
+     "note": "Regular meeting (second and last Wednesday; one meeting in June, July, November and December). Agenda not yet posted",
+     "url": "https://newslj.com/2026-weston-county-school-district-no-1-meeting-notice",
+     "kind": "regular"
     }
    ],
    "sources": [
@@ -202,7 +213,7 @@
      "status": "ok",
      "method": "agenda_links",
      "posted": 0,
-     "regular": 2,
+     "regular": 3,
      "note": "",
      "posts": ""
     },
@@ -243,7 +254,7 @@
   },
   "crook": {
    "name": "Crook",
-   "updated": "Nov. 27, 2026, 5:42 a.m. MT",
+   "updated": "Nov. 28, 2026, 5:45 a.m. MT",
    "events": [
     {
      "county": "crook",
